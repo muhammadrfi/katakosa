@@ -17,11 +17,13 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
     setSelectedAnswer(null);
     setIsAnswered(false);
     setShowFeedback(false);
+    setIsTransitioning(false); // Reset transisi saat pertanyaan berubah
   }, [question]);
 
   const handleAnswerClick = (option: string) => {
@@ -32,13 +34,16 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
   };
 
   const handleNextQuestion = () => {
-    onAnswer(isCorrect);
+    setIsTransitioning(true);
+    setTimeout(() => {
+      onAnswer(isCorrect);
+    }, 300); // Durasi animasi fade-out
   };
 
   const isCorrect = selectedAnswer === question.correctAnswer;
 
   return (
-    <Card className="w-full max-w-2xl mx-auto animate-fade-in">
+    <Card className={cn("w-full max-w-2xl mx-auto", isTransitioning ? "animate-fade-out" : "animate-fade-in")}>
       <CardHeader>
         <CardDescription>Pertanyaan {questionNumber} dari {totalQuestions}</CardDescription>
         <CardTitle className="text-3xl md:text-4xl py-6 min-h-[120px] flex items-center justify-center text-center">
