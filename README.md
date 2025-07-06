@@ -1,84 +1,25 @@
-# Welcome to your Lovable project
+# Katakosa - Japanese Vocabulary Learning Application
 
-## Project info
+## About
+Katakosa is an interactive Japanese vocabulary learning application designed to help users master Japanese words through engaging features and exercises.
 
-**URL**: https://lovable.dev/projects/203225c2-7f8d-4fbf-9f34-045509c59187
+## Features
+- Listening Practice - Improve pronunciation and listening comprehension
+- Vocabulary Quizzes - Test your knowledge with interactive quizzes
+- Matching Games - Learn through fun matching exercises  
+- Memory Training - Enhance vocabulary retention with memory drills
 
-## How can I edit this code?
+## Tech Stack
+This project is built using modern web technologies:
+- React - Frontend framework
+- TypeScript - Type-safe JavaScript
+- Vite - Build tool and development server
+- Tailwind CSS - Utility-first CSS framework
+- shadcn-ui - UI component library
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
+- Node.js and npm (Install via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+- Git
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/203225c2-7f8d-4fbf-9f34-045509c59187) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/203225c2-7f8d-4fbf-9f34-045509c59187) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-
-
-# Katakosa - Aplikasi Pembelajaran Kosakata Bahasa Jepang
-
-## Tentang Proyek
-
-Aplikasi ini dirancang untuk membantu pengguna mempelajari kosakata bahasa Jepang dengan berbagai fitur interaktif seperti:
-- Latihan mendengarkan
-- Kuis kosakata
-- Permainan mencocokkan
-- Latihan menghafal
