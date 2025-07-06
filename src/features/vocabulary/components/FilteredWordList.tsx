@@ -40,7 +40,10 @@ const FilteredWordList: React.FC<FilteredWordListProps> = ({ words, filterName }
           <p>Tidak ada kata dalam kategori ini.</p>
         ) : (
           <>
-            <Table>
+            <div className="overflow-x-auto">
+              <Table>
+              </Table>
+            </div>
               <TableHeader>
                 <TableRow>
                   <TableHead>Bahasa A</TableHead>
