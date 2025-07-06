@@ -16,16 +16,23 @@ interface QuestionCardProps {
 const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: QuestionCardProps) => {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
+  const [showFeedback, setShowFeedback] = useState(false);
 
   useEffect(() => {
     setSelectedAnswer(null);
     setIsAnswered(false);
+    setShowFeedback(false);
   }, [question]);
 
   const handleAnswerClick = (option: string) => {
     if (isAnswered) return;
     setSelectedAnswer(option);
     setIsAnswered(true);
+    setShowFeedback(true); // Tampilkan feedback setelah jawaban dipilih
+  };
+
+  const handleNextQuestion = () => {
+    onAnswer(isCorrect);
   };
 
   const isCorrect = selectedAnswer === question.correctAnswer;
@@ -46,8 +53,8 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
             disabled={isAnswered}
             className={cn(
                 "h-auto py-4 text-base whitespace-normal",
-                isAnswered && option === question.correctAnswer && 'bg-green-500 hover:bg-green-600 text-white',
-                isAnswered && option === selectedAnswer && option !== question.correctAnswer && 'bg-red-500 hover:bg-red-600 text-white',
+                showFeedback && option === question.correctAnswer && 'bg-green-500 hover:bg-green-600 text-white',
+                showFeedback && option === selectedAnswer && option !== question.correctAnswer && 'bg-red-500 hover:bg-red-600 text-white',
             )}
             variant={'outline'}
           >
@@ -56,13 +63,13 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
         ))}
       </CardContent>
       <CardFooter className="flex flex-col items-center gap-4 pt-6">
-        {isAnswered && (
+        {showFeedback && (
           <div className='flex flex-col items-center gap-4 animate-fade-in'>
             <div className={`flex items-center font-semibold ${isCorrect ? 'text-green-600' : 'text-red-600'}`}>
                 {isCorrect ? <CheckCircle className="mr-2" /> : <XCircle className="mr-2" />}
                 {isCorrect ? 'Jawaban Benar!' : `Jawaban Salah. Yang benar adalah "${question.correctAnswer}"`}
             </div>
-            <Button onClick={() => onAnswer(isCorrect)} size="lg">
+            <Button onClick={handleNextQuestion} size="lg">
               Lanjut <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
