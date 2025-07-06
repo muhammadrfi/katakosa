@@ -71,3 +71,14 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+
+# Katakosa - Aplikasi Pembelajaran Kosakata Bahasa Jepang
+
+## Tentang Proyek
+
+Aplikasi ini dirancang untuk membantu pengguna mempelajari kosakata bahasa Jepang dengan berbagai fitur interaktif seperti:
+- Latihan mendengarkan
+- Kuis kosakata
+- Permainan mencocokkan
+- Latihan menghafal
