@@ -3,13 +3,28 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { useVocabularyStore } from '@/features/vocabulary/useVocabularyStore';
 import SrsReviewHistoryCard from '../SrsReviewHistoryCard';
-import { vi } from 'vitest';
+// --- PERBAIKAN 1: Impor tipe 'Mock' langsung dari vitest ---
+import { vi, type Mock } from 'vitest';
 
-// Mock the useVocabularyStore hook
+// Mock hook useVocabularyStore
 vi.mock('@/features/vocabulary/useVocabularyStore', () => ({
   useVocabularyStore: vi.fn(),
 }));
 
+// Mock komponen dari library Recharts yang mungkin digunakan.
+// Ini mencegah error rendering dan mempercepat tes.
+vi.mock('recharts', () => ({
+  ResponsiveContainer: ({ children }) => <div data-testid="responsive-container">{children}</div>,
+  LineChart: ({ children }) => <div data-testid="line-chart">{children}</div>,
+  Line: () => <g />,
+  Tooltip: () => null,
+  Legend: () => null,
+  XAxis: () => null,
+  YAxis: () => null,
+  CartesianGrid: () => null,
+}));
+
+// Data dummy untuk digunakan dalam tes
 const mockVocabularySets = [
   {
     id: '1',
@@ -44,7 +59,10 @@ const mockVocabularySets = [
 
 describe('SrsReviewHistoryCard', () => {
   beforeEach(() => {
-    (useVocabularyStore as vi.Mock).mockReturnValue({
+    // --- PERBAIKAN 2: Gunakan type assertion ganda (as unknown as Mock) ---
+    // Ini adalah cara yang benar untuk memberitahu TypeScript bahwa kita telah
+    // mengganti hook asli dengan mock function pada saat runtime.
+    (useVocabularyStore as unknown as Mock).mockReturnValue({
       vocabularySets: mockVocabularySets,
     });
   });
@@ -59,6 +77,9 @@ describe('SrsReviewHistoryCard', () => {
     expect(screen.getByText('Tren kata yang diingat dan terlupakan dari waktu ke waktu.')).toBeInTheDocument();
   });
 
-  // You might need to mock Recharts components for more detailed testing
-  // For simplicity, we're just checking if the component renders its basic structure
+  it('renders the mocked chart component', () => {
+    render(<SrsReviewHistoryCard />);
+    // Memastikan bahwa komponen chart yang di-mock (LineChart) benar-benar ada di dalam dokumen.
+    expect(screen.getByTestId('line-chart')).toBeInTheDocument();
+  });
 });
