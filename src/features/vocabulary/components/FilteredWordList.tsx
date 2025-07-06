@@ -42,33 +42,32 @@ const FilteredWordList: React.FC<FilteredWordListProps> = ({ words, filterName }
           <>
             <div className="overflow-x-auto">
               <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Bahasa A</TableHead>
+                    <TableHead>Bahasa B</TableHead>
+                    <TableHead>Repetisi</TableHead>
+                    <TableHead>Interval</TableHead>
+                    <TableHead>Faktor Kemudahan</TableHead>
+                    <TableHead>Tanggal Review Berikutnya</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  {currentWords.map(word => (
+                    <TableRow key={word.id}>
+                      <TableCell>{word.bahasaA}</TableCell>
+                      <TableCell>{word.bahasaB}</TableCell>
+                      <TableCell>{word.repetition}</TableCell>
+                      <TableCell>{word.interval} hari</TableCell>
+                      <TableCell>{word.easeFactor.toFixed(2)}</TableCell>
+                      <TableCell>
+                        {word.nextReviewDate ? new Date(word.nextReviewDate).toLocaleDateString() : 'N/A'}
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
               </Table>
             </div>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Bahasa A</TableHead>
-                  <TableHead>Bahasa B</TableHead>
-                  <TableHead>Repetisi</TableHead>
-                  <TableHead>Interval</TableHead>
-                  <TableHead>Faktor Kemudahan</TableHead>
-                  <TableHead>Tanggal Review Berikutnya</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {currentWords.map(word => (
-                  <TableRow key={word.id}>
-                    <TableCell>{word.bahasaA}</TableCell>
-                    <TableCell>{word.bahasaB}</TableCell>
-                    <TableCell>{word.repetition}</TableCell>
-                    <TableCell>{word.interval} hari</TableCell>
-                    <TableCell>{word.easeFactor.toFixed(2)}</TableCell>
-                    <TableCell>
-                      {word.nextReviewDate ? new Date(word.nextReviewDate).toLocaleDateString() : 'N/A'}
-                    </TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
             <div className="flex justify-between items-center mt-4">
               <Button onClick={handlePreviousPage} disabled={currentPage === 1}>
                 Sebelumnya
