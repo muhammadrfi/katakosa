@@ -1,6 +1,3 @@
-import React from 'react';
-import { WordPair } from '../vocabulary.types';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import React, { useState, useMemo } from 'react';
 import { WordPair } from '../vocabulary.types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
