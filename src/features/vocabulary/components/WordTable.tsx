@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { WordPair } from '../vocabulary.types';
 import { Button } from '@/components/ui/button';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { Trash2, Pencil } from 'lucide-react';
+import { Trash2, Pencil, RotateCcw } from 'lucide-react';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -44,6 +44,7 @@ interface WordTableProps {
   words: WordPair[];
   onRemoveWord: (wordId: string) => void;
   onEditWord: (wordId: string, newWord: { bahasaA: string; bahasaB: string }) => void;
+  onResetSrs: (wordId: string) => void;
 }
 
 const EditWordDialog = ({ word, onEditWord, children }: { word: WordPair, onEditWord: WordTableProps['onEditWord'], children: React.ReactNode }) => {
@@ -86,7 +87,7 @@ const EditWordDialog = ({ word, onEditWord, children }: { word: WordPair, onEdit
 };
 
 
-const WordTable = ({ words, onRemoveWord, onEditWord }: WordTableProps) => {
+const WordTable = ({ words, onRemoveWord, onEditWord, onResetSrs }: WordTableProps) => {
   const {
     currentPage,
     itemsPerPage,
@@ -115,20 +116,17 @@ const WordTable = ({ words, onRemoveWord, onEditWord }: WordTableProps) => {
 
   const renderPaginationItems = () => {
     const pages = [];
-    const maxPagesToShow = 5; // Number of page links to show directly
+    const maxPagesToShow = 5; // Jumlah maksimal angka halaman yang akan ditampilkan
 
-    if (totalPages <= maxPagesToShow) {
-      for (let i = 1; i <= totalPages; i++) {
-        pages.push(
-          <PaginationItem key={i}>
-            <PaginationLink isActive={i === currentPage} onClick={() => handlePageChange(i)}>
-              {i}
-            </PaginationLink>
-          </PaginationItem>
-        );
-      }
-    } else {
-      // Always show first page
+    let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+    let endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+
+    // Adjust startPage if endPage is less than maxPagesToShow
+    if (endPage - startPage + 1 < maxPagesToShow) {
+      startPage = Math.max(1, endPage - maxPagesToShow + 1);
+    }
+
+    if (startPage > 1) {
       pages.push(
         <PaginationItem key={1}>
           <PaginationLink isActive={1 === currentPage} onClick={() => handlePageChange(1)}>
@@ -136,38 +134,25 @@ const WordTable = ({ words, onRemoveWord, onEditWord }: WordTableProps) => {
           </PaginationLink>
         </PaginationItem>
       );
-
-      // Show ellipsis if current page is far from the beginning
-      if (currentPage > maxPagesToShow - 2) {
+      if (startPage > 2) {
         pages.push(<PaginationEllipsis key="ellipsis-start" />);
       }
+    }
 
-      // Show pages around the current page
-      let startPage = Math.max(2, currentPage - Math.floor(maxPagesToShow / 2) + 1);
-      let endPage = Math.min(totalPages - 1, currentPage + Math.floor(maxPagesToShow / 2) - 1);
+    for (let i = startPage; i <= endPage; i++) {
+      pages.push(
+        <PaginationItem key={i}>
+          <PaginationLink isActive={i === currentPage} onClick={() => handlePageChange(i)}>
+            {i}
+          </PaginationLink>
+        </PaginationItem>
+      );
+    }
 
-      if (currentPage <= Math.floor(maxPagesToShow / 2) + 1) {
-        endPage = maxPagesToShow - 1;
-      } else if (currentPage >= totalPages - Math.floor(maxPagesToShow / 2)) {
-        startPage = totalPages - maxPagesToShow + 2;
-      }
-
-      for (let i = startPage; i <= endPage; i++) {
-        pages.push(
-          <PaginationItem key={i}>
-            <PaginationLink isActive={i === currentPage} onClick={() => handlePageChange(i)}>
-              {i}
-            </PaginationLink>
-          </PaginationItem>
-        );
-      }
-
-      // Show ellipsis if current page is far from the end
-      if (currentPage < totalPages - Math.floor(maxPagesToShow / 2)) {
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
         pages.push(<PaginationEllipsis key="ellipsis-end" />);
       }
-
-      // Always show last page
       pages.push(
         <PaginationItem key={totalPages}>
           <PaginationLink isActive={totalPages === currentPage} onClick={() => handlePageChange(totalPages)}>
@@ -270,6 +255,25 @@ const WordTable = ({ words, onRemoveWord, onEditWord }: WordTableProps) => {
                         <AlertDialogAction onClick={() => onRemoveWord(word.id)} className="bg-destructive hover:bg-destructive/90">
                           Ya, Hapus
                         </AlertDialogAction>
+                      </AlertDialogFooter>
+                    </AlertDialogContent>
+                  </AlertDialog>
+                  <AlertDialog>
+                    <AlertDialogTrigger asChild>
+                      <Button variant="outline" size="icon" className="text-blue-500 border-blue-500 hover:bg-blue-50 hover:text-blue-600">
+                        <RotateCcw className="h-4 w-4" />
+                      </Button>
+                    </AlertDialogTrigger>
+                    <AlertDialogContent>
+                      <AlertDialogHeader>
+                        <AlertDialogTitle>Reset Progres SRS?</AlertDialogTitle>
+                        <AlertDialogDescription>
+                          Tindakan ini akan mereset progres Spaced Repetition System (SRS) untuk kata ini ke awal. Ini tidak dapat dibatalkan.
+                        </AlertDialogDescription>
+                      </AlertDialogHeader>
+                      <AlertDialogFooter>
+                        <AlertDialogCancel>Batal</AlertDialogCancel>
+                        <AlertDialogAction onClick={() => onResetSrs(word.id)}>Reset</AlertDialogAction>
                       </AlertDialogFooter>
                     </AlertDialogContent>
                   </AlertDialog>

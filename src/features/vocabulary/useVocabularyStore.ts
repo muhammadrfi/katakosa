@@ -29,6 +29,8 @@ interface VocabularyState {
   addWordToSet: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
   markWordAsRemembered: (wordId: string) => void;
   markWordAsForgotten: (wordId: string) => void;
+  resetSrsProgress: (wordId: string) => void;
+  resetSrsSetProgress: (setId: string) => void;
 }
 
 // Definisikan state creator dengan tipe yang benar
@@ -143,6 +145,48 @@ const stateCreator: StateCreator<VocabularyState, [], [['zustand/persist', unkno
         return word;
       }),
     }));
+    return { vocabularySets: updatedSets };
+  }),
+
+  resetSrsProgress: (wordId: string) => set(state => {
+    const updatedSets = state.vocabularySets.map(set => ({
+      ...set,
+      words: set.words.map(word => {
+        if (word.id === wordId) {
+          return {
+            ...word,
+            repetition: 0,
+            interval: 0,
+            easeFactor: 2.5, // Default ease factor
+            nextReviewDate: null,
+            history: [...(word.history || []), { date: Date.now(), status: 'reset' as const }],
+          };
+        }
+        return word;
+      }),
+    }));
+    toast.info("Progres SRS kata telah direset.");
+    return { vocabularySets: updatedSets };
+  }),
+
+  resetSrsSetProgress: (setId: string) => set(state => {
+    const updatedSets = state.vocabularySets.map(set => {
+      if (set.id === setId) {
+        return {
+          ...set,
+          words: set.words.map(word => ({
+            ...word,
+            repetition: 0,
+            interval: 0,
+            easeFactor: 2.5,
+            nextReviewDate: null,
+            history: [...(word.history || []), { date: Date.now(), status: 'reset' as const }],
+          })),
+        };
+      }
+      return set;
+    });
+    toast.success(`Progres SRS untuk set '${updatedSets.find(s => s.id === setId)?.name || 'unknown'}' telah direset.`);
     return { vocabularySets: updatedSets };
   }),
 

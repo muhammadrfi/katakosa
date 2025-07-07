@@ -5,7 +5,27 @@ import { VocabularySet, WordPair, ReviewWord } from '@/features/vocabulary/vocab
 import * as vocabActions from '../features/vocabulary/vocabularyActions';
 import * as reviewActions from '../features/review-practice/reviewListActions';
 
-export const useVocabularyStore = () => {
+export interface VocabularyState {
+  vocabularySets: VocabularySet[];
+  vocabulary: WordPair[];
+  addVocabularySet: (name: string, newWords: Omit<WordPair, 'id'>[]) => void;
+  addMultipleVocabularySets: (newSetsInfo: { name: string; words: Omit<WordPair, 'id'>[] }[]) => VocabularySet[];
+  clearAllVocabulary: () => void;
+  removeVocabularySet: (setId: string) => void;
+  removeWord: (id: string) => void;
+  loading: boolean;
+  editVocabularySet: (setId: string, newName: string) => void;
+  editWord: (wordId: string, newWordData: { bahasaA: string; bahasaB: string }) => void;
+  addWordToSet: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
+  reviewList: ReviewWord[];
+  addIncorrectAnswer: (wordId: string) => void;
+  clearReviewList: () => void;
+  removeWordFromReviewList: (wordId: string) => void;
+  resetSrsProgress: () => void;
+  resetSrsSetProgress: (setId: string) => void;
+}
+
+export const useVocabularyStore = (): VocabularyState => {
   const [vocabularySets, setVocabularySets] = useState<VocabularySet[]>([]);
   const [reviewList, setReviewList] = useState<ReviewWord[]>([]);
   const [loading, setLoading] = useState(true);
@@ -104,21 +124,57 @@ export const useVocabularyStore = () => {
     setReviewList(prev => reviewActions.removeWordFromReviewList(prev, wordId, vocabulary));
   };
 
-  return { 
-    vocabularySets, 
-    vocabulary, 
-    addVocabularySet, 
-    addMultipleVocabularySets, 
-    clearAllVocabulary, 
-    removeVocabularySet, 
-    removeWord, 
-    loading, 
-    editVocabularySet, 
-    editWord, 
-    addWordToSet, 
-    reviewList, 
-    addIncorrectAnswer, 
-    clearReviewList,
-    removeWordFromReviewList 
+  const resetSrsProgress = () => {
+    setReviewList([]);
+    toast.success("Progress SRS berhasil direset.");
   };
+
+  const resetSrsSetProgress = (setId: string) => {
+    setVocabularySets(prevSets => {
+      const updatedSets = prevSets.map(set => {
+        if (set.id === setId) {
+          return {
+            ...set,
+            words: set.words.map(word => ({
+              ...word,
+              interval: 0,
+              repetition: 0,
+              easeFactor: 2.5,
+              nextReviewDate: new Date().getTime(),
+              history: [{ date: new Date().getTime(), status: 'reset' as const }],
+            }) as WordPair),
+          } as VocabularySet; // Explicitly cast the modified set to VocabularySet
+        }
+        return set;
+      });
+      return updatedSets;
+    });
+
+    setReviewList(prevReviewList => prevReviewList.filter(reviewWord => {
+      const set = vocabularySets.find(s => s.words.some(w => w.id === reviewWord.wordId));
+      return set ? set.id !== setId : true;
+    }));
+
+    toast.success(`Progress SRS untuk set ${vocabularySets.find(set => set.id === setId)?.name || ''} berhasil direset.`);
+  };
+
+  return {
+    vocabularySets,
+    vocabulary,
+    addVocabularySet,
+    addMultipleVocabularySets,
+    clearAllVocabulary,
+    removeVocabularySet,
+    removeWord,
+    loading,
+    editVocabularySet,
+    editWord,
+    addWordToSet,
+    reviewList,
+    addIncorrectAnswer,
+    clearReviewList,
+    removeWordFromReviewList,
+    resetSrsProgress,
+    resetSrsSetProgress,
+  } as const;
 };

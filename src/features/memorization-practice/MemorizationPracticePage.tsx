@@ -135,7 +135,7 @@ const MemorizationPracticePage = () => {
                     </PaginationItem>
                     {(() => {
                       const pageNumbers = [];
-                      if (pageCount <= 7) {
+                      if (pageCount <= 5) {
                         for (let i = 1; i <= pageCount; i++) pageNumbers.push(i);
                       } else {
                         pageNumbers.push(1);

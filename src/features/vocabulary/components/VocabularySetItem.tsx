@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { toast } from 'sonner';
-import { Folder, Trash2, Pencil, PlusCircle, MoreHorizontal } from 'lucide-react';
+import { Folder, Trash2, Pencil, PlusCircle, MoreHorizontal, RotateCcw } from 'lucide-react';
 
 import { VocabularySet, WordPair } from '../vocabulary.types';
 import { useIsMobile } from '@/hooks/use-mobile';
@@ -71,6 +71,8 @@ interface VocabularySetItemProps {
   onEditWord: (wordId: string, newWord: { bahasaA: string; bahasaB: string }) => void;
   onAddWord: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
   onViewDetails: (set: VocabularySet) => void;
+  onResetSrs: (wordId: string) => void; // Add new prop for SRS reset
+  onResetSrsSet: (setId: string) => void; // Add new prop for SRS reset per set
 }
 
 interface SetItemActionsProps {
@@ -78,9 +80,10 @@ interface SetItemActionsProps {
   onEdit: () => void;
   onRemove: () => void;
   onViewDetails: (set: VocabularySet) => void;
+  onResetSrsSet: (setId: string) => void; // Add new prop for SRS reset per set
 }
 
-const SetItemActions = ({ set, onEdit, onRemove, onViewDetails }: SetItemActionsProps) => {
+const SetItemActions = ({ set, onEdit, onRemove, onViewDetails, onResetSrsSet }: SetItemActionsProps) => {
   const isMobile = useIsMobile();
 
   const content = (
@@ -90,6 +93,9 @@ const SetItemActions = ({ set, onEdit, onRemove, onViewDetails }: SetItemActions
       </DropdownMenuItem>
       <DropdownMenuItem onClick={() => onViewDetails(set)}>
         <Folder className="mr-2 h-4 w-4" /> Lihat Detail
+      </DropdownMenuItem>
+      <DropdownMenuItem onClick={() => onResetSrsSet(set.id)}>
+        <RotateCcw className="mr-2 h-4 w-4" /> Reset SRS Set
       </DropdownMenuItem>
       <DropdownMenuSeparator />
       <AlertDialog>
@@ -135,6 +141,9 @@ const SetItemActions = ({ set, onEdit, onRemove, onViewDetails }: SetItemActions
             <Button variant="ghost" className="justify-start" onClick={() => onViewDetails(set)}>
               <Folder className="mr-2 h-4 w-4" /> Lihat Detail
             </Button>
+            <Button variant="ghost" className="justify-start" onClick={() => onResetSrsSet(set.id)}>
+              <RotateCcw className="mr-2 h-4 w-4" /> Reset SRS Set
+            </Button>
             <AlertDialog>
               <AlertDialogAction asChild>
                 <Button variant="ghost" className="justify-start text-destructive hover:text-destructive">
@@ -178,7 +187,7 @@ const SetItemActions = ({ set, onEdit, onRemove, onViewDetails }: SetItemActions
   );
 };
 
-const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, onRemoveWord, onEditSet, onEditWord, onAddWord, onViewDetails }: VocabularySetItemProps) => {
+const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, onRemoveWord, onEditSet, onEditWord, onAddWord, onViewDetails, onResetSrs, onResetSrsSet }: VocabularySetItemProps) => {
   const [newSetName, setNewSetName] = useState(set.name);
   const [newWord, setNewWord] = useState<Omit<WordPair, 'id'>>({ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5 });
   const [isAddWordDialogOpen, setAddWordDialogOpen] = useState(false);
@@ -237,6 +246,7 @@ const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, on
               onEdit={() => setEditSetDialogOpen(true)} 
               onRemove={handleRemoveSet}
               onViewDetails={onViewDetails}
+              onResetSrsSet={onResetSrsSet}
             />
           </div>
         </div>
@@ -274,7 +284,12 @@ const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, on
                 </DialogContent>
             </Dialog>
         </div>
-        <WordTable words={set.words} onRemoveWord={onRemoveWord} onEditWord={onEditWord} />
+       <WordTable
+            words={set.words}
+            onRemoveWord={onRemoveWord}
+            onEditWord={onEditWord}
+            onResetSrs={onResetSrs}
+          />
       </AccordionContent>
 
       {/* Dialog Edit dipisahkan agar bisa di-trigger dari mana saja */}

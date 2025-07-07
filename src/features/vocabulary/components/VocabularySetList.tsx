@@ -13,6 +13,8 @@ interface VocabularySetListProps {
   onEditWord: (wordId: string, newWord: { bahasaA: string; bahasaB: string }) => void;
   onAddWord: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
   onViewDetails: (set: VocabularySet) => void;
+  onResetSrs: (wordId: string) => void; // Add new prop for SRS reset
+  onResetSrsSet: (setId: string) => void; // Add new prop for SRS reset per set
 }
 
 const VocabularySetList = (props: VocabularySetListProps) => {
@@ -37,6 +39,7 @@ const VocabularySetList = (props: VocabularySetListProps) => {
           isSelected={selectedSetIds.includes(set.id)} // Kirim status terpilih
           onSelectionChange={onSetSelectionChange} // Kirim handler
           {...rest} // Kirim sisa props
+          onResetSrsSet={rest.onResetSrsSet}
         />
       ))}
     </Accordion>

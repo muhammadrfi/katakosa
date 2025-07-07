@@ -50,7 +50,7 @@ const VocabularyDetailPopup = ({ isOpen, onClose, vocabularySet }: VocabularyDet
 
   const renderPaginationItems = () => {
     const pages = [];
-    const maxPagesToShow = 5;
+    const maxPagesToShow = 5; // Jumlah maksimal angka halaman yang akan ditampilkan
 
     if (totalPages <= maxPagesToShow) {
       for (let i = 1; i <= totalPages; i++) {
@@ -63,25 +63,20 @@ const VocabularyDetailPopup = ({ isOpen, onClose, vocabularySet }: VocabularyDet
         );
       }
     } else {
-      pages.push(
-        <PaginationItem key={1}>
-          <PaginationLink isActive={1 === currentPage} onClick={() => handlePageChange(1)}>
-            1
-          </PaginationLink>
-        </PaginationItem>
-      );
+      const startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+      const endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
 
-      if (currentPage > maxPagesToShow - 2) {
-        pages.push(<PaginationEllipsis key="ellipsis-start" />);
-      }
-
-      let startPage = Math.max(2, currentPage - Math.floor(maxPagesToShow / 2) + 1);
-      let endPage = Math.min(totalPages - 1, currentPage + Math.floor(maxPagesToShow / 2) - 1);
-
-      if (currentPage <= Math.floor(maxPagesToShow / 2) + 1) {
-        endPage = maxPagesToShow - 1;
-      } else if (currentPage >= totalPages - Math.floor(maxPagesToShow / 2)) {
-        startPage = totalPages - maxPagesToShow + 2;
+      if (startPage > 1) {
+        pages.push(
+          <PaginationItem key={1}>
+            <PaginationLink isActive={1 === currentPage} onClick={() => handlePageChange(1)}>
+              1
+            </PaginationLink>
+          </PaginationItem>
+        );
+        if (startPage > 2) {
+          pages.push(<PaginationEllipsis key="ellipsis-start" />);
+        }
       }
 
       for (let i = startPage; i <= endPage; i++) {
@@ -94,17 +89,18 @@ const VocabularyDetailPopup = ({ isOpen, onClose, vocabularySet }: VocabularyDet
         );
       }
 
-      if (currentPage < totalPages - Math.floor(maxPagesToShow / 2)) {
-        pages.push(<PaginationEllipsis key="ellipsis-end" />);
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+          pages.push(<PaginationEllipsis key="ellipsis-end" />);
+        }
+        pages.push(
+          <PaginationItem key={totalPages}>
+            <PaginationLink isActive={totalPages === currentPage} onClick={() => handlePageChange(totalPages)}>
+              {totalPages}
+            </PaginationLink>
+          </PaginationItem>
+        );
       }
-
-      pages.push(
-        <PaginationItem key={totalPages}>
-          <PaginationLink isActive={totalPages === currentPage} onClick={() => handlePageChange(totalPages)}>
-            {totalPages}
-          </PaginationLink>
-        </PaginationItem>
-      );
     }
 
     return pages;

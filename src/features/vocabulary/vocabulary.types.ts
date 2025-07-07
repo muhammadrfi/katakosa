@@ -8,7 +8,7 @@ export interface WordPair {
   repetition: number; // number of successful repetitions
   easeFactor: number; // ease factor for calculating next interval
   nextReviewDate?: number; // Unix timestamp of the next review date
-  history?: { date: number; status: 'remembered' | 'forgotten' }[]; // Riwayat review kata
+  history?: { date: number; status: 'remembered' | 'forgotten' | 'reset' }[]; // Riwayat review kata
 }
 
 export interface VocabularySet {

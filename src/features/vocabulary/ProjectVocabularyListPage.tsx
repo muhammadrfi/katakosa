@@ -27,7 +27,7 @@ const ProjectVocabularyListPage = () => {
   const { projectId } = useParams<{ projectId: string }>();
   const navigate = useNavigate();
   const { projects, addSetsToProject, loading: projectsLoading } = usePracticeProjectStore();
-  const { vocabularySets, removeWord, editWord, addWordToSet, removeVocabularySet, editVocabularySet, loading: vocabLoading } = useVocabularyStore();
+  const { vocabularySets, removeWord, editWord, addWordToSet, removeVocabularySet, editVocabularySet, loading: vocabLoading, resetSrsProgress, resetSrsSetProgress } = useVocabularyStore();
   
   const [currentPage, setCurrentPage] = useState(1);
   const [sortColumn, setSortColumn] = useState<'name' | 'wordCount' | 'createdAt' | null>(null);
@@ -131,16 +131,33 @@ const ProjectVocabularyListPage = () => {
     if (pageCount <= 1) return null;
 
     const pageNumbers = [];
-    if (pageCount <= 7) {
-      for (let i = 1; i <= pageCount; i++) pageNumbers.push(i);
+    const maxPagesToShow = 5; // Jumlah maksimal angka halaman yang akan ditampilkan
+
+    if (pageCount <= maxPagesToShow) {
+      for (let i = 1; i <= pageCount; i++) {
+        pageNumbers.push(i);
+      }
     } else {
-      pageNumbers.push(1);
-      if (currentPage > 3) pageNumbers.push('...');
-      if (currentPage > 2) pageNumbers.push(currentPage - 1);
-      if (currentPage > 1 && currentPage < pageCount) pageNumbers.push(currentPage);
-      if (currentPage < pageCount - 1) pageNumbers.push(currentPage + 1);
-      if (currentPage < pageCount - 2) pageNumbers.push('...');
-      pageNumbers.push(pageCount);
+      const startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+      const endPage = Math.min(pageCount, startPage + maxPagesToShow - 1);
+
+      if (startPage > 1) {
+        pageNumbers.push(1);
+        if (startPage > 2) {
+          pageNumbers.push('...');
+        }
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
+        pageNumbers.push(i);
+      }
+
+      if (endPage < pageCount) {
+        if (endPage < pageCount - 1) {
+          pageNumbers.push('...');
+        }
+        pageNumbers.push(pageCount);
+      }
     }
 
     const uniquePageNumbers = [...new Set(pageNumbers)];
@@ -266,12 +283,17 @@ const ProjectVocabularyListPage = () => {
             <>
               <VocabularySetList
                 sets={paginatedSets}
+                selectedSetIds={[]} // Tidak ada fungsionalitas pemilihan set di sini
+                onSetSelectionChange={() => {}} // Fungsi kosong karena tidak digunakan
+                onViewDetails={() => {}} // Fungsi kosong karena tidak digunakan
                 onRemoveSet={removeVocabularySet}
                 onRemoveWord={removeWord}
                 onEditSet={editVocabularySet}
                 onEditWord={editWord}
                 onAddWord={addWordToSet}
-              />
+            onResetSrs={resetSrsProgress}
+            onResetSrsSet={resetSrsSetProgress}
+          />
               {renderPagination()}
             </>
           ) : (

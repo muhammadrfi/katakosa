@@ -52,7 +52,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
 
   return (
     <Card className={cn(
-      "w-full max-w-2xl mx-auto transition-all duration-300 ease-in-out",
+      "w-full max-w-2xl mx-auto transition-all duration-300 ease-in-out flex flex-col",
       showCard ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
     )}>
       <CardHeader>
@@ -61,7 +61,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
           "{question.questionWord}" artinya...
         </CardTitle>
       </CardHeader>
-      <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-3 flex-grow overflow-y-auto">
         {question.options.map((option) => (
           <Button
             key={option}
