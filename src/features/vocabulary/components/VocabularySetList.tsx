@@ -12,6 +12,7 @@ interface VocabularySetListProps {
   onEditSet: (setId: string, newName: string) => void;
   onEditWord: (wordId: string, newWord: { bahasaA: string; bahasaB: string }) => void;
   onAddWord: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
+  onViewDetails: (set: VocabularySet) => void;
 }
 
 const VocabularySetList = (props: VocabularySetListProps) => {

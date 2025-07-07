@@ -6,10 +6,20 @@ import ExcelImporter from '../excel-importer/ExcelImporter';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlusCircle } from 'lucide-react';
+import VocabularyDetailPopup from './components/VocabularyDetailPopup';
+import { VocabularySet } from './vocabulary.types';
 
 const AllVocabularyPage = () => {
   const { vocabularySets, removeVocabularySet, editVocabularySet, removeWord, editWord, addWordToSet, addVocabularySet, loading } = useVocabularyStore();
   const [isAddSetDialogOpen, setIsAddSetDialogOpen] = useState(false);
+  const [isDetailPopupOpen, setIsDetailPopupOpen] = useState(false);
+  const [selectedVocabularySet, setSelectedVocabularySet] = useState<VocabularySet | null>(null);
+
+  // Placeholder for onSetSelectionChange, as it's required by VocabularySetList but not used in AllVocabularyPage
+  const handleSetSelectionChange = (setId: string, isSelected: boolean) => {
+    // Implement selection logic if needed in the future
+    console.log(`Set ${setId} selection changed to ${isSelected}`);
+  };
 
   if (loading) {
     return <div className="container mx-auto py-12 px-6 text-center">Memuat data...</div>;
@@ -42,6 +52,11 @@ const AllVocabularyPage = () => {
             onEditSet={editVocabularySet}
             onEditWord={editWord}
             onAddWord={addWordToSet}
+            onSetSelectionChange={handleSetSelectionChange}
+            onViewDetails={(set) => {
+              setSelectedVocabularySet(set);
+              setIsDetailPopupOpen(true);
+            }}
           />
         </CardContent>
       </Card>
@@ -50,6 +65,15 @@ const AllVocabularyPage = () => {
         isOpen={isAddSetDialogOpen}
         onClose={() => setIsAddSetDialogOpen(false)}
         onAddSet={addVocabularySet}
+      />
+
+      <VocabularyDetailPopup
+        isOpen={isDetailPopupOpen}
+        onClose={() => {
+          setIsDetailPopupOpen(false);
+          setSelectedVocabularySet(null);
+        }}
+        vocabularySet={selectedVocabularySet}
       />
     </div>
   );

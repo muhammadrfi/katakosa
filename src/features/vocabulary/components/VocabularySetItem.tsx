@@ -65,15 +65,120 @@ interface VocabularySetItemProps {
   set: VocabularySet;
   isSelected: boolean;
   onSelectionChange: (setId: string, isSelected: boolean) => void;
-  // Hapus props yang sekarang datang dari store
   onRemoveSet: (setId: string) => void;
   onRemoveWord: (wordId: string) => void;
   onEditSet: (setId: string, newName: string) => void;
   onEditWord: (wordId: string, newWord: { bahasaA: string; bahasaB: string }) => void;
   onAddWord: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
+  onViewDetails: (set: VocabularySet) => void;
 }
 
-const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, onRemoveWord, onEditSet, onEditWord, onAddWord }: VocabularySetItemProps) => {
+interface SetItemActionsProps {
+  set: VocabularySet;
+  onEdit: () => void;
+  onRemove: () => void;
+  onViewDetails: (set: VocabularySet) => void;
+}
+
+const SetItemActions = ({ set, onEdit, onRemove, onViewDetails }: SetItemActionsProps) => {
+  const isMobile = useIsMobile();
+
+  const content = (
+    <DropdownMenuContent align="end">
+      <DropdownMenuItem onClick={onEdit}>
+        <Pencil className="mr-2 h-4 w-4" /> Edit Nama Set
+      </DropdownMenuItem>
+      <DropdownMenuItem onClick={() => onViewDetails(set)}>
+        <Folder className="mr-2 h-4 w-4" /> Lihat Detail
+      </DropdownMenuItem>
+      <DropdownMenuSeparator />
+      <AlertDialog>
+        <AlertDialogAction asChild>
+          <DropdownMenuItem onSelect={(e) => e.preventDefault()}>
+            <Trash2 className="mr-2 h-4 w-4" /> Hapus Set
+          </DropdownMenuItem>
+        </AlertDialogAction>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Anda yakin ingin menghapus set ini?</AlertDialogTitle>
+            <AlertDialogDescription>
+              Tindakan ini tidak dapat dibatalkan. Ini akan menghapus set kosakata "{set.name}" dan semua kata di dalamnya secara permanen.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Batal</AlertDialogCancel>
+            <AlertDialogAction onClick={onRemove}>Hapus</AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </DropdownMenuContent>
+  );
+
+  if (isMobile) {
+    return (
+      <Drawer>
+        <DrawerTrigger asChild>
+          <Button variant="ghost" className="h-8 w-8 p-0">
+            <span className="sr-only">Buka menu</span>
+            <MoreHorizontal className="h-4 w-4" />
+          </Button>
+        </DrawerTrigger>
+        <DrawerContent>
+          <DrawerHeader className="text-left">
+            <DrawerTitle>Aksi untuk {set.name}</DrawerTitle>
+            <DrawerDescription>Pilih tindakan yang ingin Anda lakukan.</DrawerDescription>
+          </DrawerHeader>
+          <div className="grid gap-1 p-4">
+            <Button variant="ghost" className="justify-start" onClick={onEdit}>
+              <Pencil className="mr-2 h-4 w-4" /> Edit Nama Set
+            </Button>
+            <Button variant="ghost" className="justify-start" onClick={() => onViewDetails(set)}>
+              <Folder className="mr-2 h-4 w-4" /> Lihat Detail
+            </Button>
+            <AlertDialog>
+              <AlertDialogAction asChild>
+                <Button variant="ghost" className="justify-start text-destructive hover:text-destructive">
+                  <Trash2 className="mr-2 h-4 w-4" /> Hapus Set
+                </Button>
+              </AlertDialogAction>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Anda yakin ingin menghapus set ini?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    Tindakan ini tidak dapat dibatalkan. Ini akan menghapus set kosakata "{set.name}" dan semua kata di dalamnya secara permanen.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Batal</AlertDialogCancel>
+                  <AlertDialogAction onClick={onRemove}>Hapus</AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          </div>
+          <DrawerFooter>
+            <DrawerClose asChild>
+              <Button variant="outline">Batal</Button>
+            </DrawerClose>
+          </DrawerFooter>
+        </DrawerContent>
+      </Drawer>
+    );
+  }
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="ghost" className="h-8 w-8 p-0">
+          <span className="sr-only">Buka menu</span>
+          <MoreHorizontal className="h-4 w-4" />
+        </Button>
+      </DropdownMenuTrigger>
+      {content}
+    </DropdownMenu>
+  );
+};
+
+const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, onRemoveWord, onEditSet, onEditWord, onAddWord, onViewDetails }: VocabularySetItemProps) => {
   const [newSetName, setNewSetName] = useState(set.name);
   const [newWord, setNewWord] = useState<Omit<WordPair, 'id'>>({ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5 });
   const [isAddWordDialogOpen, setAddWordDialogOpen] = useState(false);
@@ -131,6 +236,7 @@ const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, on
               set={set} 
               onEdit={() => setEditSetDialogOpen(true)} 
               onRemove={handleRemoveSet}
+              onViewDetails={onViewDetails}
             />
           </div>
         </div>
@@ -201,117 +307,6 @@ const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, on
   );
 };
 
-// Komponen baru untuk aksi (Dropdown/Drawer)
-interface SetItemActionsProps {
-  set: VocabularySet;
-  onEdit: () => void;
-  onRemove: () => void;
-}
 
-const SetItemActions = ({ set, onEdit, onRemove }: SetItemActionsProps) => {
-  const isMobile = useIsMobile();
-  const [isDeleteDialogOpen, setDeleteDialogOpen] = useState(false);
-  const [isDrawerOpen, setDrawerOpen] = useState(false);
-
-  const handleRemoveClick = () => {
-    setDeleteDialogOpen(true);
-    // Menutup drawer jika terbuka di mobile
-    if (isMobile) {
-      setDrawerOpen(false);
-    }
-  };
-
-  if (isMobile) {
-    return (
-      <>
-        <Drawer open={isDrawerOpen} onOpenChange={setDrawerOpen}>
-          <DrawerTrigger asChild>
-            <Button variant="ghost" size="icon" className="h-8 w-8 flex-shrink-0">
-              <MoreHorizontal className="h-4 w-4" />
-            </Button>
-          </DrawerTrigger>
-          <DrawerContent>
-            <DrawerHeader>
-              <DrawerTitle>{set.name}</DrawerTitle>
-              <DrawerDescription>Pilih aksi yang ingin Anda lakukan untuk set ini.</DrawerDescription>
-            </DrawerHeader>
-            <div className="p-4 grid gap-2">
-              <Button onClick={() => { onEdit(); setDrawerOpen(false); }} variant="outline" className="w-full justify-start">
-                <Pencil className="mr-2 h-4 w-4" />
-                Edit Nama Set
-              </Button>
-              <Button onClick={handleRemoveClick} variant="destructive" className="w-full justify-start">
-                <Trash2 className="mr-2 h-4 w-4" />
-                Hapus Set
-              </Button>
-            </div>
-            <DrawerFooter>
-              <DrawerClose asChild>
-                <Button variant="outline">Batal</Button>
-              </DrawerClose>
-            </DrawerFooter>
-          </DrawerContent>
-        </Drawer>
-
-        <AlertDialog open={isDeleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>Hapus Set "{set.name}"?</AlertDialogTitle>
-              <AlertDialogDescription>
-                Tindakan ini akan menghapus set ini dan semua ({set.words.length}) kata di dalamnya secara permanen. Tindakan ini tidak dapat dibatalkan.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Batal</AlertDialogCancel>
-              <AlertDialogAction onClick={() => { onRemove(); setDeleteDialogOpen(false); }} className="bg-destructive hover:bg-destructive/90">
-                Ya, Hapus Set
-              </AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
-      </>
-    );
-  }
-
-  return (
-    <>
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <Button variant="ghost" size="icon" className="h-8 w-8 flex-shrink-0">
-            <MoreHorizontal className="h-4 w-4" />
-          </Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent align="end">
-          <DropdownMenuItem onSelect={onEdit} className="cursor-pointer">
-            <Pencil className="mr-2 h-4 w-4" />
-            <span>Edit Nama Set</span>
-          </DropdownMenuItem>
-          <DropdownMenuSeparator />
-          <DropdownMenuItem onSelect={handleRemoveClick} className="text-destructive focus:text-destructive focus:bg-destructive/10 cursor-pointer">
-            <Trash2 className="mr-2 h-4 w-4" />
-            <span>Hapus Set</span>
-          </DropdownMenuItem>
-        </DropdownMenuContent>
-      </DropdownMenu>
-
-      <AlertDialog open={isDeleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Hapus Set "{set.name}"?</AlertDialogTitle>
-            <AlertDialogDescription>
-              Tindakan ini akan menghapus set ini dan semua ({set.words.length}) kata di dalamnya secara permanen. Tindakan ini tidak dapat dibatalkan.
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel>Batal</AlertDialogCancel>
-            <AlertDialogAction onClick={() => { onRemove(); setDeleteDialogOpen(false); }} className="bg-destructive hover:bg-destructive/90">
-              Ya, Hapus Set
-            </AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
-    </>
-  );
-};
 
 export default VocabularySetItem;

@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { useVocabularyStore } from '@/features/vocabulary/useVocabularyStore';
 import { WordPair } from '@/features/vocabulary/vocabulary.types';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+
 import FilteredWordList from '../../vocabulary/components/FilteredWordList';
 
 interface SrsStatsCardProps {
@@ -15,8 +15,7 @@ const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF'];
 const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
     const { vocabularySets, getFilteredWords } = useVocabularyStore();
     const [showFilteredList, setShowFilteredList] = useState(false);
-    const [filteredWords, setFilteredWords] = useState<WordPair[]>([]);
-    const [filterType, setFilterType] = useState('');
+    const [initialFilter, setInitialFilter] = useState<'all' | 'new' | 'learning' | 'due' | 'mastered' | 'forgotten'>('all');
 
     const allWords = useMemo(() => vocabularySets.flatMap(set => set.words), [vocabularySets]);
 
@@ -31,9 +30,8 @@ const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
         };
     }, [allWords, getFilteredWords]);
 
-    const handleFilterClick = (type: 'new' | 'learning' | 'due' | 'mastered' | 'forgotten', name: string) => {
-        setFilteredWords(getFilteredWords(allWords, type));
-        setFilterType(name);
+    const handleFilterClick = (type: 'all' | 'new' | 'learning' | 'due' | 'mastered' | 'forgotten', name: string) => {
+        setInitialFilter(type);
         setShowFilteredList(true);
     };
 
@@ -49,7 +47,12 @@ const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
         <Card className="w-full">
             <CardHeader>
                 <CardTitle>Statistik Sistem Pengulangan Berjarak (SRS)</CardTitle>
-                <CardDescription>Visualisasi progres belajar kosakata Anda.</CardDescription>
+                <CardDescription
+                    className="cursor-pointer"
+                    onClick={() => handleFilterClick('all', 'Semua Kata')}
+                >
+                    Visualisasi progres belajar kosakata Anda.
+                </CardDescription>
             </CardHeader>
             <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -107,14 +110,11 @@ const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
                 </ResponsiveContainer>
             </CardContent>
 
-            <Dialog open={showFilteredList} onOpenChange={setShowFilteredList}>
-                <DialogContent className="sm:max-w-[800px]">
-                    <DialogHeader>
-                        <DialogTitle>Daftar Kata: {filterType}</DialogTitle>
-                    </DialogHeader>
-                    <FilteredWordList words={filteredWords} filterName={filterType} />
-                </DialogContent>
-            </Dialog>
+            {showFilteredList && (
+                <div className="mt-6">
+                    <FilteredWordList allWords={allWords} initialFilterType={initialFilter} getFilteredWords={getFilteredWords} />
+                </div>
+            )}
         </Card>
     );
 };
