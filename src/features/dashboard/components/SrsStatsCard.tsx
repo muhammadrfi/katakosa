@@ -108,7 +108,7 @@ const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
             </CardContent>
 
             <Dialog open={showFilteredList} onOpenChange={setShowFilteredList}>
-                <DialogContent className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 max-h-[90vh] overflow-y-auto rounded-lg shadow-xl">
+                <DialogContent className="sm:max-w-[800px]">
                     <DialogHeader>
                         <DialogTitle>Daftar Kata: {filterType}</DialogTitle>
                     </DialogHeader>

@@ -17,33 +17,44 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [showColor, setShowColor] = useState(false);
+  const [showCard, setShowCard] = useState(true);
+  const [showQuestionContent, setShowQuestionContent] = useState(true);
+  const [showOptionsContent, setShowOptionsContent] = useState(true);
 
   useEffect(() => {
+    setShowCard(true);
     setSelectedAnswer(null);
     setIsAnswered(false);
     setShowFeedback(false);
-    setIsTransitioning(false); // Reset transisi saat pertanyaan berubah
+    setShowColor(false);
   }, [question]);
 
   const handleAnswerClick = (option: string) => {
     if (isAnswered) return;
     setSelectedAnswer(option);
     setIsAnswered(true);
-    setShowFeedback(true); // Tampilkan feedback setelah jawaban dipilih
+      setTimeout(() => {
+        setShowColor(true);
+        setShowFeedback(true);
+      }, 200); // Show color and feedback after 0.2 seconds
   };
 
-  const handleNextQuestion = () => {
-    setIsTransitioning(true);
+  const handleNextQuestion = (isCorrect: boolean) => {
+    setShowQuestionContent(false);
+    setShowOptionsContent(false);
     setTimeout(() => {
       onAnswer(isCorrect);
-    }, 300); // Durasi animasi fade-out
+    }, 100); // Match this duration with the fade-out animation
   };
 
   const isCorrect = selectedAnswer === question.correctAnswer;
 
   return (
-    <Card className={cn("w-full max-w-2xl mx-auto", isTransitioning ? "animate-fade-out" : "animate-fade-in")}>
+    <Card className={cn(
+      "w-full max-w-2xl mx-auto transition-all duration-300 ease-in-out",
+      showCard ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
+    )}>
       <CardHeader>
         <CardDescription>Pertanyaan {questionNumber} dari {totalQuestions}</CardDescription>
         <CardTitle className="text-3xl md:text-4xl py-6 min-h-[120px] flex items-center justify-center text-center">
@@ -56,12 +67,12 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
             key={option}
             onClick={() => handleAnswerClick(option)}
             disabled={isAnswered}
+            variant="outline"
             className={cn(
                 "h-auto py-4 text-base whitespace-normal",
-                showFeedback && option === question.correctAnswer && 'bg-green-500 hover:bg-green-600 text-white',
-                showFeedback && option === selectedAnswer && option !== question.correctAnswer && 'bg-red-500 hover:bg-red-600 text-white',
+                showColor && option === question.correctAnswer && 'bg-green-500 hover:bg-green-600 text-white transition-colors duration-300',
+                showColor && option === selectedAnswer && option !== question.correctAnswer && 'bg-red-500 hover:bg-red-600 text-white transition-colors duration-300'
             )}
-            variant={'outline'}
           >
             {option}
           </Button>
@@ -74,7 +85,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
                 {isCorrect ? <CheckCircle className="mr-2" /> : <XCircle className="mr-2" />}
                 {isCorrect ? 'Jawaban Benar!' : `Jawaban Salah. Yang benar adalah "${question.correctAnswer}"`}
             </div>
-            <Button onClick={handleNextQuestion} size="lg">
+            <Button onClick={() => handleNextQuestion(isCorrect)} size="lg">
               Lanjut <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
