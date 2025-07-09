@@ -116,7 +116,13 @@ export const editWord = (
 export const addWordToSet = (prevSets: VocabularySet[], setId: string, newWord: Omit<WordPair, 'id'>): VocabularySet[] => {
   const wordWithId = {
     ...newWord,
-    id: `${newWord.bahasaA}-${new Date().getTime()}-${Math.random()}`
+    id: `${newWord.bahasaA}-${new Date().getTime()}-${Math.random()}`,
+    // Inisialisasi properti SRS
+    interval: 0,
+    repetition: 0,
+    easeFactor: 2.5,
+    nextReviewDate: new Date().getTime(),
+    history: [],
   };
 
   const updatedSets = prevSets.map(set =>
@@ -124,4 +130,73 @@ export const addWordToSet = (prevSets: VocabularySet[], setId: string, newWord: 
   );
   toast.success(`Kata "${newWord.bahasaA}" ditambahkan ke set.`);
   return updatedSets;
+};
+
+// Fungsi untuk memperbarui properti SRS (SuperMemo-2 algorithm)
+export const updateSrsProperties = (word: WordPair, quality: 0 | 1 | 2 | 3 | 4 | 5): WordPair => {
+  let { interval, repetition, easeFactor, history } = word;
+
+  if (quality >= 3) { // Correct answer
+    if (repetition === 0) {
+      interval = 1;
+    } else if (repetition === 1) {
+      interval = 6;
+    } else {
+      interval = Math.round(interval * easeFactor);
+    }
+    repetition++;
+    easeFactor = easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+  } else { // Incorrect answer
+    repetition = 0;
+    interval = 1;
+  }
+
+  if (easeFactor < 1.3) { // Minimum ease factor
+    easeFactor = 1.3;
+  }
+
+  const nextReviewDate = new Date().getTime() + interval * 24 * 60 * 60 * 1000; // Convert days to milliseconds
+
+  const newHistoryEntry = {
+    date: new Date().getTime(),
+    quality: quality,
+    interval: interval,
+    repetition: repetition,
+    easeFactor: easeFactor,
+  };
+
+  return {
+    ...word,
+    interval,
+    repetition,
+    easeFactor,
+    nextReviewDate,
+    history: [...history, newHistoryEntry],
+  };
+};
+
+export const markWordAsRemembered = (prevSets: VocabularySet[], wordId: string): VocabularySet[] => {
+  return prevSets.map(set => ({
+    ...set,
+    words: set.words.map(word => {
+      if (word.id === wordId) {
+        // Asumsi kualitas 5 untuk 'diingat' (jawaban benar sempurna)
+        return updateSrsProperties(word, 5);
+      }
+      return word;
+    }),
+  }));
+};
+
+export const markWordAsForgotten = (prevSets: VocabularySet[], wordId: string): VocabularySet[] => {
+  return prevSets.map(set => ({
+    ...set,
+    words: set.words.map(word => {
+      if (word.id === wordId) {
+        // Asumsi kualitas 0 untuk 'dilupakan' (jawaban salah total)
+        return updateSrsProperties(word, 0);
+      }
+      return word;
+    }),
+  }));
 };

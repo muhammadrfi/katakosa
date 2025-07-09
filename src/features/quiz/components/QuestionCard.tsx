@@ -55,9 +55,9 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
       "w-full max-w-2xl mx-auto transition-all duration-300 ease-in-out flex flex-col",
       showCard ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
     )}>
-      <CardHeader>
+      <CardHeader className="pb-2">
         <CardDescription>Pertanyaan {questionNumber} dari {totalQuestions}</CardDescription>
-        <CardTitle className="text-3xl md:text-4xl py-6 min-h-[120px] flex items-center justify-center text-center">
+        <CardTitle className="text-3xl md:text-4xl py-4 flex items-center justify-center text-center">
           "{question.questionWord}" artinya...
         </CardTitle>
       </CardHeader>
@@ -78,7 +78,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
           </Button>
         ))}
       </CardContent>
-      <CardFooter className="flex flex-col items-center gap-4 pt-6">
+      <CardFooter className="flex flex-col items-center gap-4 pt-4">
         {showFeedback && (
           <div className='flex flex-col items-center gap-4 animate-fade-in'>
             <div className={`flex items-center font-semibold ${isCorrect ? 'text-green-600' : 'text-red-600'}`}>

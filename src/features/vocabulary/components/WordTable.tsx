@@ -44,7 +44,7 @@ interface WordTableProps {
   words: WordPair[];
   onRemoveWord: (wordId: string) => void;
   onEditWord: (wordId: string, newWord: { bahasaA: string; bahasaB: string }) => void;
-  onResetSrs: (wordId: string) => void;
+
 }
 
 const EditWordDialog = ({ word, onEditWord, children }: { word: WordPair, onEditWord: WordTableProps['onEditWord'], children: React.ReactNode }) => {
@@ -87,7 +87,7 @@ const EditWordDialog = ({ word, onEditWord, children }: { word: WordPair, onEdit
 };
 
 
-const WordTable = ({ words, onRemoveWord, onEditWord, onResetSrs }: WordTableProps) => {
+const WordTable = ({ words, onRemoveWord, onEditWord }: WordTableProps) => {
   const {
     currentPage,
     itemsPerPage,
@@ -119,7 +119,7 @@ const WordTable = ({ words, onRemoveWord, onEditWord, onResetSrs }: WordTablePro
     const maxPagesToShow = 5; // Jumlah maksimal angka halaman yang akan ditampilkan
 
     let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
-    let endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+    const endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
 
     // Adjust startPage if endPage is less than maxPagesToShow
     if (endPage - startPage + 1 < maxPagesToShow) {
@@ -258,25 +258,7 @@ const WordTable = ({ words, onRemoveWord, onEditWord, onResetSrs }: WordTablePro
                       </AlertDialogFooter>
                     </AlertDialogContent>
                   </AlertDialog>
-                  <AlertDialog>
-                    <AlertDialogTrigger asChild>
-                      <Button variant="outline" size="icon" className="text-blue-500 border-blue-500 hover:bg-blue-50 hover:text-blue-600">
-                        <RotateCcw className="h-4 w-4" />
-                      </Button>
-                    </AlertDialogTrigger>
-                    <AlertDialogContent>
-                      <AlertDialogHeader>
-                        <AlertDialogTitle>Reset Progres SRS?</AlertDialogTitle>
-                        <AlertDialogDescription>
-                          Tindakan ini akan mereset progres Spaced Repetition System (SRS) untuk kata ini ke awal. Ini tidak dapat dibatalkan.
-                        </AlertDialogDescription>
-                      </AlertDialogHeader>
-                      <AlertDialogFooter>
-                        <AlertDialogCancel>Batal</AlertDialogCancel>
-                        <AlertDialogAction onClick={() => onResetSrs(word.id)}>Reset</AlertDialogAction>
-                      </AlertDialogFooter>
-                    </AlertDialogContent>
-                  </AlertDialog>
+
                 </div>
               </TableCell>
             </TableRow>

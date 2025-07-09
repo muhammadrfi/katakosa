@@ -16,11 +16,7 @@ interface VocabularyDetailPopupProps {
 }
 
 const VocabularyDetailPopup = ({ isOpen, onClose, vocabularySet }: VocabularyDetailPopupProps) => {
-  if (!vocabularySet) {
-    return null;
-  }
-
-  const { words } = vocabularySet;
+  const words = vocabularySet ? vocabularySet.words : [];
 
   const {
     currentPage,
@@ -49,7 +45,7 @@ const VocabularyDetailPopup = ({ isOpen, onClose, vocabularySet }: VocabularyDet
   };
 
   const renderPaginationItems = () => {
-    const pages = [];
+    const pages: React.ReactNode[] = [];
     const maxPagesToShow = 5; // Jumlah maksimal angka halaman yang akan ditampilkan
 
     if (totalPages <= maxPagesToShow) {
@@ -110,9 +106,9 @@ const VocabularyDetailPopup = ({ isOpen, onClose, vocabularySet }: VocabularyDet
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[800px] md:max-w-[900px] lg:max-w-[1000px] xl:max-w-[1100px] h-[90vh] flex flex-col my-8">
         <DialogHeader>
-          <DialogTitle>Detail Set Kosakata: {vocabularySet.name}</DialogTitle>
+          <DialogTitle>Detail Set Kosakata: {vocabularySet?.name || 'N/A'}</DialogTitle>
           <DialogDescription>
-            Total {vocabularySet.words.length} kata.
+            Total {vocabularySet?.words?.length || 0} kata.
           </DialogDescription>
         </DialogHeader>
 

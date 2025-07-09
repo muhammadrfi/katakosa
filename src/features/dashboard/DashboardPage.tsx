@@ -8,13 +8,24 @@ import EditProjectDialog from '../practice-projects/EditProjectDialog';
 import AddVocabularySetDialog from '../vocabulary/components/AddVocabularySetDialog';
 import ExcelImporter from '../excel-importer/ExcelImporter';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { PlusCircle } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { PlusCircle, RotateCcw, AlertTriangle } from 'lucide-react';
 import SrsStatsCard from './components/SrsStatsCard';
 import SrsReviewHistoryCard from './components/SrsReviewHistoryCard';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 
 const DashboardPage = () => {
-  const { vocabularySets, removeVocabularySet, editVocabularySet, removeWord, editWord, addWordToSet, addVocabularySet } = useVocabularyStore();
+  const { vocabularySets, removeVocabularySet, editVocabularySet, removeWord, editWord, addWordToSet, addVocabularySet, resetAllSrsProgress } = useVocabularyStore();
   const { projects, addProject, removeProject, editProject } = usePracticeProjectStore();
   const [selectedSetIds, setSelectedSetIds] = useState<string[]>([]);
   const [isCreateProjectDialogOpen, setCreateProjectDialogOpen] = useState(false);
@@ -107,6 +118,43 @@ const DashboardPage = () => {
               onEditWord={editWord}
               onAddWord={addWordToSet}
             />
+          </CardContent>
+        </Card>
+
+        {/* Kartu Pengaturan Berbahaya */}
+        <Card className="mt-8 md:mt-12 border-destructive">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2 text-destructive">
+              <AlertTriangle />
+              Zona Berbahaya
+            </CardTitle>
+            <CardDescription>
+              Tindakan di bawah ini tidak dapat dibatalkan. Harap berhati-hati.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button variant="destructive">
+                  <RotateCcw className="mr-2 h-4 w-4" /> Reset Semua Progres SRS
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Anda Yakin Ingin Mereset Semua Progres?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    Tindakan ini akan mengatur ulang progres belajar (SRS) untuk SEMUA kata dalam aplikasi. Progres Anda akan kembali ke nol. Tindakan ini tidak dapat dibatalkan.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Batal</AlertDialogCancel>
+                  <AlertDialogAction onClick={resetAllSrsProgress}>Ya, Reset Semua Progres</AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+            <p className="text-sm text-muted-foreground mt-2">
+              Gunakan tombol ini jika Anda ingin memulai kembali proses belajar Anda dari awal.
+            </p>
           </CardContent>
         </Card>
       </div>

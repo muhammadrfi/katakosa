@@ -14,8 +14,7 @@ const ProjectDetailPage = () => {
   const { 
     loading: vocabLoading, 
     getVocabularyBySetIds, 
-    getFilteredWords,
-    resetSrsSetProgress
+    getFilteredWords
   } = useVocabularyStore();
   console.log('ProjectDetailPage rendered');
   console.log('projectId from URL:', projectId);
@@ -79,7 +78,7 @@ const ProjectDetailPage = () => {
         </CardHeader>
         <CardContent>
           <Button variant="outline" asChild className="w-full mb-6">
-            <Link to={`/latihan/${projectId}/kosakata`} state={{ onResetSrsSet: resetSrsSetProgress }}>
+            <Link to={`/latihan/${projectId}/kosakata`}>
               <BookCopy className="mr-2" />
               Lihat & Kelola Daftar Kata
             </Link>

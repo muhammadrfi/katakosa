@@ -28,6 +28,8 @@ const AllVocabularyPage = lazy(() => import("./features/vocabulary/AllVocabulary
 const ProjectsPage = lazy(() => import("./features/practice-projects/ProjectsPage"));
 const MatchingPracticePage = lazy(() => import("./features/matching-game/MatchingPracticePage"));
 const MemorizationPracticePage = lazy(() => import("./features/memorization-practice/MemorizationPracticePage"));
+const WritingPracticePage = lazy(() => import("./features/writing-practice/WritingPracticePage"));
+const CustomVocabularyPage = lazy(() => import("./features/vocabulary/CustomVocabularyPage"));
 
 const queryClient = new QueryClient();
 
@@ -61,14 +63,18 @@ const App = () => (
                       <Route path="review" element={<ProjectReviewPracticePage />} />
                       <Route path="quiz" element={<TestPage />} />
                       <Route path="flipbook" element={<FlipbookPage />} />
-                      
+                      <Route path="writing" element={<WritingPracticePage />} />
                     </Route>
             <Route path="/latihan/ulasan" element={<ReviewPracticePage />} />
-
+                    <Route path="/kosakata-kustom" element={<CustomVocabularyPage />} />
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </Suspense>
               </main>
+              <footer className="w-full py-4 text-center text-sm text-gray-500 dark:text-gray-400">
+                <p>&copy; 2025 Katakosa. All rights reserved.</p>
+                <p>Ikuti kami di Instagram: <a href="https://www.instagram.com/_muhammadrfi" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">@_muhammadrfi</a></p>
+              </footer>
             </div>
           </ErrorBoundary>
         </BrowserRouter>

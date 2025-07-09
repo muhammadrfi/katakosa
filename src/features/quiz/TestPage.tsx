@@ -69,7 +69,7 @@ const TestPage = () => {
   }
   
   return (
-    <QuizContainer>
+    <QuizContainer className="px-4 overflow-x-hidden">
       {quizStatus === QuizStatus.IDLE && (
         <QuizStartScreen
           maxWordCount={wordsForQuiz.length}

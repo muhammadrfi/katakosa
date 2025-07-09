@@ -1,5 +1,6 @@
 import { create, StateCreator } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
+
 import localforage from 'localforage';
 import { toast } from 'sonner';
 import { VocabularySet, WordPair } from './vocabulary.types';
@@ -30,9 +31,8 @@ interface VocabularyState {
   markWordAsRemembered: (wordId: string) => void;
   markWordAsForgotten: (wordId: string) => void;
   resetSrsProgress: (wordId: string) => void;
-  resetSrsSetProgress: (setId: string) => void;
+  resetAllSrsProgress: () => void;
 }
-
 // Definisikan state creator dengan tipe yang benar
 const stateCreator: StateCreator<VocabularyState, [], [['zustand/persist', unknown]]> = (set, get) => ({
   // --- State Properties ---
@@ -111,42 +111,10 @@ const stateCreator: StateCreator<VocabularyState, [], [['zustand/persist', unkno
     vocabularySets: vocabActions.addWordToSet(state.vocabularySets, setId, newWord)
   })),
 
-  markWordAsRemembered: (wordId: string) => set(state => {
-    const updatedSets = state.vocabularySets.map(set => ({
-      ...set,
-      words: set.words.map(word => {
-        if (word.id === wordId) {
-          const newRepetition = word.repetition + 1;
-          let newInterval: number;
-          let newEaseFactor = word.easeFactor;
+  markWordAsRemembered: (wordId: string) => set(state => ({
+    vocabularySets: vocabActions.markWordAsRemembered(state.vocabularySets, wordId)
+  })),
 
-          if (newRepetition === 1) {
-            newInterval = 1;
-          } else if (newRepetition === 2) {
-            newInterval = 6;
-          } else {
-            newInterval = Math.round(word.interval * newEaseFactor);
-          }
-
-          // Adjust ease factor slightly for good answers (optional, can be more complex)
-          newEaseFactor = Math.min(2.5, newEaseFactor + 0.1); 
-
-          const newNextReviewDate = Date.now() + newInterval * 24 * 60 * 60 * 1000; // Convert days to milliseconds
-
-          return {
-            ...word,
-            repetition: newRepetition,
-            interval: newInterval,
-            easeFactor: newEaseFactor,
-            nextReviewDate: newNextReviewDate,
-            history: [...(word.history || []), { date: Date.now(), status: 'remembered' as const }],
-          };
-        }
-        return word;
-      }),
-    }));
-    return { vocabularySets: updatedSets };
-  }),
 
   resetSrsProgress: (wordId: string) => set(state => {
     const updatedSets = state.vocabularySets.map(set => ({
@@ -169,49 +137,31 @@ const stateCreator: StateCreator<VocabularyState, [], [['zustand/persist', unkno
     return { vocabularySets: updatedSets };
   }),
 
-  resetSrsSetProgress: (setId: string) => set(state => {
-    const updatedSets = state.vocabularySets.map(set => {
-      if (set.id === setId) {
-        return {
-          ...set,
-          words: set.words.map(word => ({
-            ...word,
-            repetition: 0,
-            interval: 0,
-            easeFactor: 2.5,
-            nextReviewDate: null,
-            history: [...(word.history || []), { date: Date.now(), status: 'reset' as const }],
-          })),
-        };
-      }
-      return set;
+  resetAllSrsProgress: () => set(state => {
+    console.log("[SRS Reset] Attempting to reset progress for ALL sets.");
+    // Deep copy to ensure state change detection
+    const updatedSets = JSON.parse(JSON.stringify(state.vocabularySets));
+
+    updatedSets.forEach((set: VocabularySet) => {
+      set.words.forEach((word: WordPair) => {
+        word.repetition = 0;
+        word.interval = 0;
+        word.easeFactor = 2.5;
+        word.nextReviewDate = null;
+        word.history = [...(word.history || []), { date: Date.now(), status: 'reset' as const }];
+      });
     });
-    toast.success(`Progres SRS untuk set '${updatedSets.find(s => s.id === setId)?.name || 'unknown'}' telah direset.`);
+
+    toast.success("Seluruh progres SRS telah berhasil direset.");
+    console.log("[SRS Reset] Success: Progress for ALL sets has been reset.");
+
     return { vocabularySets: updatedSets };
   }),
 
-  markWordAsForgotten: (wordId: string) => set(state => {
-    const updatedSets = state.vocabularySets.map(set => ({
-      ...set,
-      words: set.words.map(word => {
-        if (word.id === wordId) {
-          const newEaseFactor = Math.max(1.3, word.easeFactor - 0.2); // Decrease ease factor, min 1.3
-          const newNextReviewDate = Date.now() + 1 * 24 * 60 * 60 * 1000; // Review again tomorrow
+  markWordAsForgotten: (wordId: string) => set(state => ({
+    vocabularySets: vocabActions.markWordAsForgotten(state.vocabularySets, wordId)
+  })),
 
-          return {
-            ...word,
-            repetition: 0, // Reset repetition
-            interval: 1, // Reset interval to 1 day
-            easeFactor: newEaseFactor,
-            nextReviewDate: newNextReviewDate,
-            history: [...(word.history || []), { date: Date.now(), status: 'forgotten' as const }],
-          };
-        }
-        return word;
-      }),
-    }));
-    return { vocabularySets: updatedSets };
-  }),
 });
 
 export const useVocabularyStore = create<VocabularyState>()(
@@ -245,27 +195,30 @@ export const useVocabularyStore = create<VocabularyState>()(
             createdAt: set.createdAt || new Date().toISOString(),
             words: (Array.isArray(set.words) ? set.words : []).map(word => {
               if (!word || typeof word !== 'object') return null;
-              return {
+              const validWord: WordPair = {
                 id: word.id || `word-${Date.now()}-${Math.random()}`,
                 bahasaA: typeof word.bahasaA === 'string' ? word.bahasaA : '',
                 bahasaB: typeof word.bahasaB === 'string' ? word.bahasaB : '',
                 repetition: typeof word.repetition === 'number' ? word.repetition : 0,
                 interval: typeof word.interval === 'number' ? word.interval : 0,
                 easeFactor: typeof word.easeFactor === 'number' ? word.easeFactor : 2.5,
-                nextReviewDate: typeof word.nextReviewDate === 'number' ? word.nextReviewDate : undefined,
+                nextReviewDate: typeof word.nextReviewDate === 'number' || word.nextReviewDate === null ? word.nextReviewDate : null,
+                createdAt: typeof word.createdAt === 'string' ? word.createdAt : new Date().toISOString(),
+                history: Array.isArray(word.history) ? word.history : [],
               };
-            }).filter(word => word !== null) as WordPair[],
+              return validWord;
+            }).filter((word): word is WordPair => word !== null),
           };
           return validSet;
-        }).filter(set => set !== null) as VocabularySet[];
-
-
+        }).filter((set): set is VocabularySet => set !== null);
 
         return {
           ...currentState,
           vocabularySets: migratedSets,
         };
       },
+
+
 
       // `onRehydrateStorage` untuk efek samping SETELAH hidrasi.
       // Digunakan untuk memicu action yang mengubah `loading` menjadi false.

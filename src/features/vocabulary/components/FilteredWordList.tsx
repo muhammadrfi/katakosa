@@ -62,7 +62,7 @@ const FilteredWordList: React.FC<FilteredWordListProps> = ({ allWords, initialFi
           <select
             id="filter"
             value={currentFilter}
-            onChange={(e) => setCurrentFilter(e.target.value as any)}
+            onChange={(e) => setCurrentFilter(e.target.value as 'all' | 'new' | 'learning' | 'due' | 'mastered' | 'forgotten')}
             className="p-2 border rounded bg-primary text-primary-foreground hover:bg-primary/90"
           >
             {filterOptions.map(option => (
@@ -112,7 +112,7 @@ const FilteredWordList: React.FC<FilteredWordListProps> = ({ allWords, initialFi
                   const pages = [];
                   const maxPagesToShow = 5;
                   let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
-                  let endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+                  const endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
 
                   if (endPage - startPage + 1 < maxPagesToShow) {
                     startPage = Math.max(1, endPage - maxPagesToShow + 1);

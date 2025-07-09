@@ -7,6 +7,7 @@ import { Folder, Trash2, Pencil, PlusCircle, MoreHorizontal, RotateCcw } from 'l
 
 import { VocabularySet, WordPair } from '../vocabulary.types';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { useVocabularyStore } from '../useVocabularyStore'; // Import store
 
 // Import komponen UI
 import { Button } from '@/components/ui/button';
@@ -24,6 +25,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
+  AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import {
   Dialog,
@@ -55,9 +57,6 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import WordTable from './WordTable';
 
-interface VocabularySetItemProps {
-  set: VocabularySet;
-}
 
 import { Checkbox } from '@/components/ui/checkbox';
 
@@ -71,8 +70,6 @@ interface VocabularySetItemProps {
   onEditWord: (wordId: string, newWord: { bahasaA: string; bahasaB: string }) => void;
   onAddWord: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
   onViewDetails: (set: VocabularySet) => void;
-  onResetSrs: (wordId: string) => void; // Add new prop for SRS reset
-  onResetSrsSet: (setId: string) => void; // Add new prop for SRS reset per set
 }
 
 interface SetItemActionsProps {
@@ -80,30 +77,56 @@ interface SetItemActionsProps {
   onEdit: () => void;
   onRemove: () => void;
   onViewDetails: (set: VocabularySet) => void;
-  onResetSrsSet: (setId: string) => void; // Add new prop for SRS reset per set
 }
 
-const SetItemActions = ({ set, onEdit, onRemove, onViewDetails, onResetSrsSet }: SetItemActionsProps) => {
+const SetItemActions = ({ set, onEdit, onRemove, onViewDetails }: SetItemActionsProps) => {
   const isMobile = useIsMobile();
+  const [isRemoveDialogOpen, setIsRemoveDialogOpen] = useState(false);
+  const [isResetSrsDialogOpen, setResetSrsDialogOpen] = useState(false);
+  const resetSrsProgress = useVocabularyStore((state) => state.resetSrsProgress);
 
-  const content = (
-    <DropdownMenuContent align="end">
-      <DropdownMenuItem onClick={onEdit}>
-        <Pencil className="mr-2 h-4 w-4" /> Edit Nama Set
-      </DropdownMenuItem>
-      <DropdownMenuItem onClick={() => onViewDetails(set)}>
-        <Folder className="mr-2 h-4 w-4" /> Lihat Detail
-      </DropdownMenuItem>
-      <DropdownMenuItem onClick={() => onResetSrsSet(set.id)}>
-        <RotateCcw className="mr-2 h-4 w-4" /> Reset SRS Set
-      </DropdownMenuItem>
-      <DropdownMenuSeparator />
-      <AlertDialog>
-        <AlertDialogAction asChild>
-          <DropdownMenuItem onSelect={(e) => e.preventDefault()}>
+  const handleRemove = () => {
+    onRemove();
+    setIsRemoveDialogOpen(false);
+  };
+
+  const handleResetSrs = () => {
+    resetSrsProgress(set.id);
+    setResetSrsDialogOpen(false);
+  };
+
+  const resetSrsMenuItem = (
+    <AlertDialog open={isResetSrsDialogOpen} onOpenChange={setResetSrsDialogOpen}>
+      <AlertDialogTrigger asChild>
+        <DropdownMenuItem onSelect={(e) => e.preventDefault()}>
+          <RotateCcw className="mr-2 h-4 w-4" /> Reset SRS Progress
+        </DropdownMenuItem>
+      </AlertDialogTrigger>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle>Reset progress SRS untuk set ini?</AlertDialogTitle>
+          <AlertDialogDescription>
+            Tindakan ini akan mengatur ulang progress Spaced Repetition System (SRS) untuk semua kata dalam set "{set.name}". Anda akan memulai dari awal.
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel>Batal</AlertDialogCancel>
+          <AlertDialogAction onClick={handleResetSrs}>Reset</AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  );
+
+  const removeSetMenuItem = (
+     <AlertDialog open={isRemoveDialogOpen} onOpenChange={setIsRemoveDialogOpen}>
+        <AlertDialogTrigger asChild>
+          <DropdownMenuItem
+            onSelect={(e) => e.preventDefault()}
+            className="text-destructive hover:text-destructive focus:text-destructive"
+          >
             <Trash2 className="mr-2 h-4 w-4" /> Hapus Set
           </DropdownMenuItem>
-        </AlertDialogAction>
+        </AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>Anda yakin ingin menghapus set ini?</AlertDialogTitle>
@@ -113,10 +136,28 @@ const SetItemActions = ({ set, onEdit, onRemove, onViewDetails, onResetSrsSet }:
           </AlertDialogHeader>
           <AlertDialogFooter>
             <AlertDialogCancel>Batal</AlertDialogCancel>
-            <AlertDialogAction onClick={onRemove}>Hapus</AlertDialogAction>
+            <AlertDialogAction
+              onClick={handleRemove}
+              className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+            >
+              Hapus
+            </AlertDialogAction>
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
+  )
+
+  const content = (
+    <DropdownMenuContent align="end">
+      <DropdownMenuItem onClick={onEdit}>
+        <Pencil className="mr-2 h-4 w-4" /> Edit Nama Set
+      </DropdownMenuItem>
+      <DropdownMenuItem onClick={() => onViewDetails(set)}>
+        <Folder className="mr-2 h-4 w-4" /> Lihat Detail
+      </DropdownMenuItem>
+      {resetSrsMenuItem}
+      <DropdownMenuSeparator />
+      {removeSetMenuItem}
     </DropdownMenuContent>
   );
 
@@ -141,15 +182,31 @@ const SetItemActions = ({ set, onEdit, onRemove, onViewDetails, onResetSrsSet }:
             <Button variant="ghost" className="justify-start" onClick={() => onViewDetails(set)}>
               <Folder className="mr-2 h-4 w-4" /> Lihat Detail
             </Button>
-            <Button variant="ghost" className="justify-start" onClick={() => onResetSrsSet(set.id)}>
-              <RotateCcw className="mr-2 h-4 w-4" /> Reset SRS Set
-            </Button>
-            <AlertDialog>
-              <AlertDialogAction asChild>
+             <AlertDialog open={isResetSrsDialogOpen} onOpenChange={setResetSrsDialogOpen}>
+              <AlertDialogTrigger asChild>
+                 <Button variant="ghost" className="justify-start">
+                    <RotateCcw className="mr-2 h-4 w-4" /> Reset SRS Progress
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Reset progress SRS untuk set ini?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                     Tindakan ini akan mengatur ulang progress Spaced Repetition System (SRS) untuk semua kata dalam set "{set.name}". Anda akan memulai dari awal.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Batal</AlertDialogCancel>
+                  <AlertDialogAction onClick={handleResetSrs}>Reset</AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+            <AlertDialog open={isRemoveDialogOpen} onOpenChange={setIsRemoveDialogOpen}>
+              <AlertDialogTrigger asChild>
                 <Button variant="ghost" className="justify-start text-destructive hover:text-destructive">
                   <Trash2 className="mr-2 h-4 w-4" /> Hapus Set
                 </Button>
-              </AlertDialogAction>
+              </AlertDialogTrigger>
               <AlertDialogContent>
                 <AlertDialogHeader>
                   <AlertDialogTitle>Anda yakin ingin menghapus set ini?</AlertDialogTitle>
@@ -159,7 +216,12 @@ const SetItemActions = ({ set, onEdit, onRemove, onViewDetails, onResetSrsSet }:
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel>Batal</AlertDialogCancel>
-                  <AlertDialogAction onClick={onRemove}>Hapus</AlertDialogAction>
+                  <AlertDialogAction 
+                    onClick={handleRemove}
+                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+                  >
+                    Hapus
+                  </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
@@ -187,9 +249,9 @@ const SetItemActions = ({ set, onEdit, onRemove, onViewDetails, onResetSrsSet }:
   );
 };
 
-const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, onRemoveWord, onEditSet, onEditWord, onAddWord, onViewDetails, onResetSrs, onResetSrsSet }: VocabularySetItemProps) => {
+const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, onRemoveWord, onEditSet, onEditWord, onAddWord, onViewDetails }: VocabularySetItemProps) => {
   const [newSetName, setNewSetName] = useState(set.name);
-  const [newWord, setNewWord] = useState<Omit<WordPair, 'id'>>({ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5 });
+  const [newWord, setNewWord] = useState<Omit<WordPair, 'id'>>({ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5, createdAt: new Date().toISOString() });
   const [isAddWordDialogOpen, setAddWordDialogOpen] = useState(false);
   const [isEditSetDialogOpen, setEditSetDialogOpen] = useState(false);
 
@@ -210,7 +272,7 @@ const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, on
   const handleAddWord = () => {
     if (newWord.bahasaA.trim() && newWord.bahasaB.trim()) {
       onAddWord(set.id, newWord);
-      setNewWord({ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5 });
+      setNewWord({ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5, createdAt: new Date().toISOString() });
       setAddWordDialogOpen(false);
     } else {
       toast.error("Kedua kolom harus diisi.");
@@ -246,7 +308,6 @@ const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, on
               onEdit={() => setEditSetDialogOpen(true)} 
               onRemove={handleRemoveSet}
               onViewDetails={onViewDetails}
-              onResetSrsSet={onResetSrsSet}
             />
           </div>
         </div>
@@ -284,11 +345,10 @@ const VocabularySetItem = ({ set, isSelected, onSelectionChange, onRemoveSet, on
                 </DialogContent>
             </Dialog>
         </div>
-       <WordTable
+          <WordTable
             words={set.words}
             onRemoveWord={onRemoveWord}
             onEditWord={onEditWord}
-            onResetSrs={onResetSrs}
           />
       </AccordionContent>
 

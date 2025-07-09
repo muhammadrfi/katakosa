@@ -10,7 +10,7 @@ import VocabularyDetailPopup from './components/VocabularyDetailPopup';
 import { VocabularySet } from './vocabulary.types';
 
 const AllVocabularyPage = () => {
-  const { vocabularySets, removeVocabularySet, editVocabularySet, removeWord, editWord, addWordToSet, addVocabularySet, loading, resetSrsProgress, resetSrsSetProgress } = useVocabularyStore();
+  const { vocabularySets, removeVocabularySet, editVocabularySet, removeWord, editWord, addWordToSet, addVocabularySet, loading } = useVocabularyStore();
   const [isAddSetDialogOpen, setIsAddSetDialogOpen] = useState(false);
   const [isDetailPopupOpen, setIsDetailPopupOpen] = useState(false);
   const [selectedVocabularySet, setSelectedVocabularySet] = useState<VocabularySet | null>(null);
@@ -57,8 +57,8 @@ const AllVocabularyPage = () => {
               setSelectedVocabularySet(set);
               setIsDetailPopupOpen(true);
             }}
-            onResetSrs={resetSrsProgress}
-            onResetSrsSet={resetSrsSetProgress}
+
+
           />
         </CardContent>
       </Card>

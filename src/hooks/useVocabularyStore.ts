@@ -1,7 +1,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { toast } from 'sonner';
-import { VocabularySet, WordPair, ReviewWord } from '@/features/vocabulary/vocabulary.types';
+import { VocabularySet, WordPair, ReviewWord } from '../features/vocabulary/vocabulary.types';
 import * as vocabActions from '../features/vocabulary/vocabularyActions';
 import * as reviewActions from '../features/review-practice/reviewListActions';
 
@@ -21,7 +21,9 @@ export interface VocabularyState {
   addIncorrectAnswer: (wordId: string) => void;
   clearReviewList: () => void;
   removeWordFromReviewList: (wordId: string) => void;
-  resetSrsProgress: () => void;
+  getVocabularyBySetIds: (setIds: string[]) => WordPair[];
+  markWordAsRemembered: (wordId: string) => void;
+  markWordAsForgotten: (wordId: string) => void;
   resetSrsSetProgress: (setId: string) => void;
 }
 
@@ -124,38 +126,45 @@ export const useVocabularyStore = (): VocabularyState => {
     setReviewList(prev => reviewActions.removeWordFromReviewList(prev, wordId, vocabulary));
   };
 
-  const resetSrsProgress = () => {
-    setReviewList([]);
-    toast.success("Progress SRS berhasil direset.");
-  };
+
 
   const resetSrsSetProgress = (setId: string) => {
-    setVocabularySets(prevSets => {
-      const updatedSets = prevSets.map(set => {
-        if (set.id === setId) {
-          return {
-            ...set,
-            words: set.words.map(word => ({
-              ...word,
-              interval: 0,
-              repetition: 0,
-              easeFactor: 2.5,
-              nextReviewDate: new Date().getTime(),
-              history: [{ date: new Date().getTime(), status: 'reset' as const }],
-            }) as WordPair),
-          } as VocabularySet; // Explicitly cast the modified set to VocabularySet
-        }
-        return set;
+    try {
+      setVocabularySets(prevSets => {
+        const updatedSets = prevSets.map(set => {
+          if (set.id === setId) {
+            return {
+              ...set,
+              words: set.words.map(word => ({
+                ...word,
+                interval: 0,
+                repetition: 0,
+                easeFactor: 2.5,
+                nextReviewDate: new Date().getTime(),
+                history: [{ date: new Date().getTime(), status: 'reset' as const }],
+              }) as WordPair),
+            } as VocabularySet;
+          }
+          return set;
+        });
+        return updatedSets;
       });
-      return updatedSets;
-    });
 
-    setReviewList(prevReviewList => prevReviewList.filter(reviewWord => {
-      const set = vocabularySets.find(s => s.words.some(w => w.id === reviewWord.wordId));
-      return set ? set.id !== setId : true;
-    }));
+      setReviewList(prevReviewList => prevReviewList.filter(reviewWord => {
+        const set = vocabularySets.find(s => s.words.some(w => w.id === reviewWord.wordId));
+        return set ? set.id !== setId : true;
+      }));
 
-    toast.success(`Progress SRS untuk set ${vocabularySets.find(set => set.id === setId)?.name || ''} berhasil direset.`);
+      const setName = vocabularySets.find(set => set.id === setId)?.name;
+      if (setName) {
+        toast.success(`Progress SRS untuk set ${setName} berhasil direset.`);
+      } else {
+        toast.error("Set kosakata tidak ditemukan.");
+      }
+    } catch (error) {
+      console.error("Gagal mereset progress SRS:", error);
+      toast.error("Gagal mereset progress SRS. Silakan coba lagi.");
+    }
   };
 
   return {
@@ -174,7 +183,16 @@ export const useVocabularyStore = (): VocabularyState => {
     addIncorrectAnswer,
     clearReviewList,
     removeWordFromReviewList,
-    resetSrsProgress,
+
     resetSrsSetProgress,
+    getVocabularyBySetIds: (setIds: string[]) => {
+      return vocabularySets.filter(set => setIds.includes(set.id)).flatMap(set => set.words);
+    },
+    markWordAsRemembered: (wordId: string) => {
+      setVocabularySets(prevSets => vocabActions.markWordAsRemembered(prevSets, wordId));
+    },
+    markWordAsForgotten: (wordId: string) => {
+      setVocabularySets(prevSets => vocabActions.markWordAsForgotten(prevSets, wordId));
+    },
   } as const;
 };

@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Outlet, useLocation, useNavigate, useParams, Link } from 'react-router-dom';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, BookOpen, Bot, FileQuestion, Library, Volume2, Puzzle, BrainCircuit } from 'lucide-react';
+import { ArrowLeft, BookOpen, Bot, FileQuestion, Library, Volume2, Puzzle, BrainCircuit, Pencil } from 'lucide-react';
 import { useVocabularyStore } from '../vocabulary/useVocabularyStore';
 import { usePracticeProjectStore } from './usePracticeProjectStore';
 
@@ -11,6 +11,7 @@ const practiceModes = [
   { name: 'Flipbook', path: '/practice/flipbook', icon: BookOpen, minWords: 1 },
   { name: 'Latihan Mendengar', path: '/practice/listening', icon: Volume2, minWords: 4 },
   { name: 'Latihan Mencocokkan', path: '/practice/matching', icon: Puzzle, minWords: 4 },
+  { name: 'Latihan Menulis', path: '/practice/writing', icon: Pencil, minWords: 1 },
   { name: 'Menghafal', path: '/practice/memorization', icon: BrainCircuit, minWords: 1 },
   { name: 'Ulasan', path: '/practice/review', icon: Library, minWords: 1 },
 ];

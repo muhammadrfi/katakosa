@@ -3,16 +3,21 @@ import { useState, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { useVocabularyStore } from '@/features/vocabulary/useVocabularyStore';
 import { WordPair } from '@/features/vocabulary/vocabulary.types';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 
 import FilteredWordList from '../../vocabulary/components/FilteredWordList';
 
-interface SrsStatsCardProps {
-    // Properti tambahan jika diperlukan
-}
-
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF'];
 
-const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
+const nameToFilterType: { [key: string]: 'new' | 'learning' | 'due' | 'mastered' | 'forgotten' } = {
+    'Baru': 'new',
+    'Belajar': 'learning',
+    'Jatuh Tempo': 'due',
+    'Dikuasai': 'mastered',
+    'Terlupakan': 'forgotten',
+};
+
+const SrsStatsCard: React.FC = () => {
     const { vocabularySets, getFilteredWords } = useVocabularyStore();
     const [showFilteredList, setShowFilteredList] = useState(false);
     const [initialFilter, setInitialFilter] = useState<'all' | 'new' | 'learning' | 'due' | 'mastered' | 'forgotten'>('all');
@@ -75,7 +80,7 @@ const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
                             outerRadius={80}
                             fill="#8884d8"
                             dataKey="value"
-                            onClick={(entry) => handleFilterClick(entry.name.toLowerCase() as any, entry.name)}
+                            onClick={(entry) => handleFilterClick(nameToFilterType[entry.name], entry.name)}
                         >
                             {data.map((entry, index) => (
                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
@@ -100,7 +105,7 @@ const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
                         <Bar
                             dataKey="value"
                             fill="#8884d8"
-                            onClick={(entry) => handleFilterClick(entry.name.toLowerCase() as any, entry.name)}
+                            onClick={(entry) => handleFilterClick(nameToFilterType[entry.name], entry.name)}
                         >
                             {data.map((entry, index) => (
                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
@@ -110,11 +115,19 @@ const SrsStatsCard: React.FC<SrsStatsCardProps> = () => {
                 </ResponsiveContainer>
             </CardContent>
 
-            {showFilteredList && (
-                <div className="mt-6">
-                    <FilteredWordList allWords={allWords} initialFilterType={initialFilter} getFilteredWords={getFilteredWords} />
-                </div>
-            )}
+            <Dialog open={showFilteredList} onOpenChange={setShowFilteredList}>
+                <DialogContent className="sm:max-w-[800px] md:max-w-[900px] lg:max-w-[1000px] xl:max-w-[1100px] h-[90vh] flex flex-col my-8">
+                    <DialogHeader>
+                        <DialogTitle>Daftar Kata: {initialFilter === 'all' ? 'Semua Kata' : nameToFilterType[initialFilter]}</DialogTitle>
+                        <DialogDescription>
+                            Menampilkan kata-kata yang difilter berdasarkan kategori '{initialFilter}'.
+                        </DialogDescription>
+                    </DialogHeader>
+                    <div className="flex-grow overflow-hidden flex flex-col">
+                        <FilteredWordList allWords={allWords} initialFilterType={initialFilter} getFilteredWords={getFilteredWords} />
+                    </div>
+                </DialogContent>
+            </Dialog>
         </Card>
     );
 };

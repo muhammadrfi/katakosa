@@ -27,7 +27,7 @@ const ProjectVocabularyListPage = () => {
   const { projectId } = useParams<{ projectId: string }>();
   const navigate = useNavigate();
   const { projects, addSetsToProject, loading: projectsLoading } = usePracticeProjectStore();
-  const { vocabularySets, removeWord, editWord, addWordToSet, removeVocabularySet, editVocabularySet, loading: vocabLoading, resetSrsProgress, resetSrsSetProgress } = useVocabularyStore();
+  const { vocabularySets, removeWord, editWord, addWordToSet, removeVocabularySet, editVocabularySet, loading: vocabLoading } = useVocabularyStore();
   
   const [currentPage, setCurrentPage] = useState(1);
   const [sortColumn, setSortColumn] = useState<'name' | 'wordCount' | 'createdAt' | null>(null);
@@ -130,7 +130,7 @@ const ProjectVocabularyListPage = () => {
   const renderPagination = () => {
     if (pageCount <= 1) return null;
 
-    const pageNumbers = [];
+    const pageNumbers: (number | string)[] = [];
     const maxPagesToShow = 5; // Jumlah maksimal angka halaman yang akan ditampilkan
 
     if (pageCount <= maxPagesToShow) {
@@ -183,6 +183,23 @@ const ProjectVocabularyListPage = () => {
 
   if (projectsLoading || vocabLoading) {
     return <div className="container mx-auto py-12 px-6 text-center">Memuat data...</div>;
+  }
+
+  if (!projectId) {
+    return (
+      <div className="container mx-auto py-12 px-6 max-w-2xl text-center">
+        <Card>
+          <CardHeader>
+            <AlertTriangle className="w-12 h-12 text-red-500 mx-auto mb-4" />
+            <CardTitle>Kesalahan Proyek</CardTitle>
+            <CardDescription>ID proyek tidak ditemukan. Silakan kembali ke daftar proyek.</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Button onClick={() => navigate('/latihan')}>Kembali ke Daftar Proyek</Button>
+          </CardContent>
+        </Card>
+      </div>
+    );
   }
 
   if (!project) {
@@ -285,14 +302,13 @@ const ProjectVocabularyListPage = () => {
                 sets={paginatedSets}
                 selectedSetIds={[]} // Tidak ada fungsionalitas pemilihan set di sini
                 onSetSelectionChange={() => {}} // Fungsi kosong karena tidak digunakan
-                onViewDetails={() => {}} // Fungsi kosong karena tidak digunakan
+                 onViewDetails={() => {}} // Fungsi kosong karena tidak digunakan
+
                 onRemoveSet={removeVocabularySet}
                 onRemoveWord={removeWord}
                 onEditSet={editVocabularySet}
                 onEditWord={editWord}
                 onAddWord={addWordToSet}
-            onResetSrs={resetSrsProgress}
-            onResetSrsSet={resetSrsSetProgress}
           />
               {renderPagination()}
             </>

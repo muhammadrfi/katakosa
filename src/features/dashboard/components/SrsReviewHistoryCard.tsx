@@ -3,11 +3,7 @@ import { useVocabularyStore } from '@/features/vocabulary/useVocabularyStore';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { useMemo } from 'react';
 
-interface SrsReviewHistoryCardProps {
-    // Properti tambahan jika diperlukan
-}
-
-const SrsReviewHistoryCard: React.FC<SrsReviewHistoryCardProps> = () => {
+const SrsReviewHistoryCard: React.FC = () => {
     const { vocabularySets } = useVocabularyStore();
 
     const reviewHistoryData = useMemo(() => {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MatchingGameData, generateMatchingGameData, generateCardsForPair, MatchingCard, shuffleArray } from './matchingGame';
+import { MatchingGameData, generateMatchingGameData, generateCardsForPair, MatchingCard, shuffleArray } from './matching-game.utils';
 import { WordPair } from '@/features/vocabulary/vocabulary.types';
 import { Button } from '@/components/ui/button';
 import { useVocabularyStore } from '../vocabulary/useVocabularyStore';
@@ -11,7 +11,7 @@ interface MatchingGameProps {
   onGameFinish: () => void;
 }
 
-export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish }) => {
+export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish }: MatchingGameProps) => {
   const { markWordAsRemembered, markWordAsForgotten } = useVocabularyStore();
   const [displayedLeftCards, setDisplayedLeftCards] = useState<MatchingCard[]>([]);
   const [displayedRightCards, setDisplayedRightCards] = useState<MatchingCard[]>([]);
@@ -88,15 +88,17 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
 
           if (remainingWordPairs.length > 0) {
             const nextWordPair = remainingWordPairs[0];
-            const nextMatchingPair = {
-              id: nextWordPair.id,
-              textA: nextWordPair.bahasaA,
-              textB: nextWordPair.bahasaB,
-            };
-            const { leftCard, rightCard } = generateCardsForPair(nextMatchingPair);
-            updatedLeftCards.push(leftCard);
-            updatedRightCards.push(rightCard);
-            setRemainingWordPairs(prev => prev.slice(1));
+            if (nextWordPair) {
+              const nextMatchingPair = {
+                id: nextWordPair.id,
+                textA: nextWordPair.bahasaA,
+                textB: nextWordPair.bahasaB,
+              };
+              const { leftCard, rightCard } = generateCardsForPair(nextMatchingPair);
+              updatedLeftCards.push(leftCard);
+              updatedRightCards.push(rightCard);
+              setRemainingWordPairs(prev => prev.slice(1));
+            }
           }
 
           // Shuffle the remaining and new cards
