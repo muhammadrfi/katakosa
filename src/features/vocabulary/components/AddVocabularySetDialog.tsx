@@ -24,13 +24,13 @@ interface AddVocabularySetDialogProps {
 
 const AddVocabularySetDialog = ({ isOpen, onClose, onAddSet }: AddVocabularySetDialogProps) => {
   const [setName, setSetName] = useState('');
-  const [words, setWords] = useState<Omit<WordPair, 'id'>[]>([{ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5 }]);
+  const [words, setWords] = useState<Omit<WordPair, 'id'>[]>([{ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5, createdAt: new Date().toISOString() }]);
 
   const handleAddWordPair = () => {
-    setWords([...words, { bahasaA: '', bahasaB: '' }]);
+    setWords([...words, { bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5, createdAt: new Date().toISOString() }]);
   };
 
-  const handleWordChange = (index: number, field: keyof Omit<WordPair, 'id'>, value: string) => {
+  const handleWordChange = (index: number, field: 'bahasaA' | 'bahasaB', value: string) => {
     const newWords = [...words];
     newWords[index][field] = value;
     setWords(newWords);
@@ -53,7 +53,7 @@ const AddVocabularySetDialog = ({ isOpen, onClose, onAddSet }: AddVocabularySetD
     }
     onAddSet(setName.trim(), filteredWords);
     setSetName('');
-    setWords([{ bahasaA: '', bahasaB: '' }]);
+    setWords([{ bahasaA: '', bahasaB: '', interval: 0, repetition: 0, easeFactor: 2.5, createdAt: new Date().toISOString() }]);
     onClose();
   };
 
