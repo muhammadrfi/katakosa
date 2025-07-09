@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { useVocabularyStore } from '@/features/vocabulary/useVocabularyStore';
 import { WordPair } from '@/features/vocabulary/vocabulary.types';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+
 
 import FilteredWordList from '../../vocabulary/components/FilteredWordList';
 
@@ -115,19 +115,17 @@ const SrsStatsCard: React.FC = () => {
                 </ResponsiveContainer>
             </CardContent>
 
-            <Dialog open={showFilteredList} onOpenChange={setShowFilteredList}>
-                <DialogContent className="sm:max-w-[800px] md:max-w-[900px] lg:max-w-[1000px] xl:max-w-[1100px] h-[90vh] flex flex-col my-8">
-                    <DialogHeader>
-                        <DialogTitle>Daftar Kata: {initialFilter === 'all' ? 'Semua Kata' : nameToFilterType[initialFilter]}</DialogTitle>
-                        <DialogDescription>
-                            Menampilkan kata-kata yang difilter berdasarkan kategori '{initialFilter}'.
-                        </DialogDescription>
-                    </DialogHeader>
-                    <div className="flex-grow overflow-hidden flex flex-col">
+            {showFilteredList && (
+                <div className="mt-6 border-t pt-6">
+                    <h3 className="text-lg font-semibold mb-4">Daftar Kata: {initialFilter === 'all' ? 'Semua Kata' : nameToFilterType[initialFilter]}</h3>
+                    <p className="text-sm text-muted-foreground mb-4">
+                        Menampilkan kata-kata yang difilter berdasarkan kategori '{initialFilter}'.
+                    </p>
+                    <div>
                         <FilteredWordList allWords={allWords} initialFilterType={initialFilter} getFilteredWords={getFilteredWords} />
                     </div>
-                </DialogContent>
-            </Dialog>
+                </div>
+            )}
         </Card>
     );
 };

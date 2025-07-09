@@ -59,14 +59,14 @@ const AddVocabularySetDialog = ({ isOpen, onClose, onAddSet }: AddVocabularySetD
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[500px] max-h-[90vh] flex flex-col">
+      <DialogContent className="sm:max-w-[600px] md:max-w-[700px] lg:max-w-[800px] max-h-[90vh] flex flex-col">
         <DialogHeader>
           <DialogTitle>Tambah Set Kosakata Baru</DialogTitle>
           <DialogDescription>
             Buat set kosakata baru dengan menambahkan nama dan pasangan kata.
           </DialogDescription>
         </DialogHeader>
-        <div className="grid gap-4 py-4 flex-grow overflow-hidden">
+        <div className="grid gap-4 py-4 flex-grow overflow-y-auto">
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="set-name" className="text-right">
               Nama Set
@@ -80,8 +80,8 @@ const AddVocabularySetDialog = ({ isOpen, onClose, onAddSet }: AddVocabularySetD
             />
           </div>
 
-          <Label className="text-right mt-4">Pasangan Kata</Label>
-          <ScrollArea className="flex-grow pr-4">
+          <Label className="text-left mt-4">Pasangan Kata</Label>
+          <ScrollArea className="flex-grow pr-4 h-48">
             {words.map((word, index) => (
               <div key={index} className="flex items-center gap-2 mb-2">
                 <Input
