@@ -44,7 +44,8 @@ const MemorizationPracticePage = () => {
 
   useEffect(() => {
     if (!projectsLoading && !vocabLoading && project) {
-      const initialWords = allWordsInProject.filter(word => word.repetition < 5); // Example filter
+      // Filter words that have repetition less than 5 and are due for review (nextReviewDate <= now)
+      const initialWords = allWordsInProject.filter(word => word.repetition < 5 && word.nextReviewDate <= new Date().getTime());
       setWordsToMemorize(initialWords);
       setCurrentPage(1); // Reset to first page on initial load
     }
@@ -70,8 +71,16 @@ const MemorizationPracticePage = () => {
     } else {
       markWordAsForgotten(wordId);
     }
-    // Remove the word from the current display
-    setWordsToMemorize(prevWords => prevWords.filter(word => word.id !== wordId));
+    // After marking, re-evaluate the words to memorize based on updated SRS properties
+    // This will ensure words that are 'remembered' and no longer meet the criteria are removed
+    // and forgotten words are kept for further practice if repetition is still < 5
+    // We need to wait for the vocabulary store to update its state and then re-filter
+    // For now, we'll optimistically remove it from the current display
+    setWordsToMemorize(prevWords => {
+      const updatedWords = prevWords.filter(word => word.id !== wordId);
+      console.log(`Word ${wordId} ${action}ed. Remaining words in display:`, updatedWords.length);
+      return updatedWords;
+    });
   };
 
   if (projectsLoading || vocabLoading) {

@@ -87,7 +87,7 @@ const TestPage = () => {
             question={currentQuestion}
             questionNumber={currentQuestionIndex + 1}
             totalQuestions={questions.length}
-            onAnswer={(isCorrect) => handleAnswer(isCorrect ? currentQuestion.correctAnswer : '')} // Mengirimkan jawaban yang benar atau string kosong jika salah
+            onAnswer={(selectedAnswer) => handleAnswer(selectedAnswer)} // Pass the selected answer directly
           />
         </>
       )}

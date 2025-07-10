@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Shuffle, AlertTriangle, ArrowLeftRight } from 'lucide-react';
 import { Link, useParams, useLocation } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { WordPair } from '../vocabulary/vocabulary.types';
 
 // Fisher-Yates Shuffle Algorithm
 const shuffleArray = <T,>(array: T[]): T[] => {
@@ -166,11 +167,15 @@ const FlipbookPage = () => {
       <div className="flex items-center gap-4 mt-4">
         <Button variant="destructive" onClick={() => {
           markWordAsForgotten(currentCard.id);
-          handleNext();
+          setShuffledDeck(prevDeck => prevDeck.filter(word => word.id !== currentCard.id));
+          setCurrentIndex(prevIndex => (prevIndex >= shuffledDeck.length - 1 ? 0 : prevIndex)); // Stay on current index or reset to 0 if last card
+          setIsFlipped(false);
         }}>Lupa</Button>
         <Button variant="default" onClick={() => {
           markWordAsRemembered(currentCard.id);
-          handleNext();
+          setShuffledDeck(prevDeck => prevDeck.filter(word => word.id !== currentCard.id));
+          setCurrentIndex(prevIndex => (prevIndex >= shuffledDeck.length - 1 ? 0 : prevIndex)); // Stay on current index or reset to 0 if last card
+          setIsFlipped(false);
         }}>Ingat</Button>
       </div>
     </div>

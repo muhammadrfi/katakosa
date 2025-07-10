@@ -82,11 +82,12 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
           // Mark word as remembered
           markWordAsRemembered(card.pairId);
 
-          // Replace matched pair with a new one if available and re-shuffle
-          const updatedLeftCards = displayedLeftCards.filter(c => c.pairId !== card.pairId);
-          const updatedRightCards = displayedRightCards.filter(c => c.pairId !== card.pairId);
+          // Filter out the matched cards
+          let currentLeftCards = displayedLeftCards.filter(c => c.pairId !== card.pairId);
+          let currentRightCards = displayedRightCards.filter(c => c.pairId !== card.pairId);
 
-          if (remainingWordPairs.length > 0) {
+          // Add new cards if available until MAX_DISPLAYED_PAIRS is reached or remaining words are exhausted
+          while (currentLeftCards.length < MAX_DISPLAYED_PAIRS && remainingWordPairs.length > 0) {
             const nextWordPair = remainingWordPairs[0];
             if (nextWordPair) {
               const nextMatchingPair = {
@@ -95,16 +96,23 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
                 textB: nextWordPair.bahasaB,
               };
               const { leftCard, rightCard } = generateCardsForPair(nextMatchingPair);
-              updatedLeftCards.push(leftCard);
-              updatedRightCards.push(rightCard);
+              currentLeftCards.push(leftCard);
+              currentRightCards.push(rightCard);
               setRemainingWordPairs(prev => prev.slice(1));
+            } else {
+              break; // Should not happen if remainingWordPairs.length > 0
             }
           }
 
           // Shuffle the remaining and new cards
-          setDisplayedLeftCards(shuffleArray(updatedLeftCards));
-          setDisplayedRightCards(shuffleArray(updatedRightCards));
+          setDisplayedLeftCards(shuffleArray(currentLeftCards));
+          setDisplayedRightCards(shuffleArray(currentRightCards));
           setIsChecking(false);
+
+          // Check if all words from the initial 'words' prop have been matched
+          if (allMatchedWordPairIds.length + 1 === words.length) { // +1 because current match is not yet in allMatchedWordPairIds
+            onGameFinish();
+          }
         }, 700); // Show green for a short duration
       } else {
         // No match or same side selection

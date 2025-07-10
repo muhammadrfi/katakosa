@@ -10,7 +10,7 @@ interface QuestionCardProps {
   question: QuizQuestion;
   questionNumber: number;
   totalQuestions: number;
-  onAnswer: (isCorrect: boolean) => void;
+  onAnswer: (selectedAnswer: string) => void;
 }
 
 const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: QuestionCardProps) => {
@@ -40,11 +40,11 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
       }, 200); // Show color and feedback after 0.2 seconds
   };
 
-  const handleNextQuestion = (isCorrect: boolean) => {
+  const handleNextQuestion = () => {
     setShowQuestionContent(false);
     setShowOptionsContent(false);
     setTimeout(() => {
-      onAnswer(isCorrect);
+      onAnswer(selectedAnswer || ''); // Pass the selected answer string
     }, 100); // Match this duration with the fade-out animation
   };
 
@@ -85,7 +85,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, onAnswer }: Qu
                 {isCorrect ? <CheckCircle className="mr-2" /> : <XCircle className="mr-2" />}
                 {isCorrect ? 'Jawaban Benar!' : `Jawaban Salah. Yang benar adalah "${question.correctAnswer}"`}
             </div>
-            <Button onClick={() => handleNextQuestion(isCorrect)} size="lg">
+            <Button onClick={handleNextQuestion} size="lg">
               Lanjut <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
