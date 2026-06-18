@@ -1,0 +1,185 @@
+{
+  "chapter": 23,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "국내\t소포",
+          "indonesian": "paket domestik",
+          "image": "/images/textbook/ch23/v1_0_국내_소포.jpg"
+        },
+        {
+          "korean": "국제\t우편",
+          "indonesian": "pos internasional",
+          "image": "/images/textbook/ch23/v1_1_국제_우편.jpg"
+        },
+        {
+          "korean": "나흘",
+          "indonesian": "empat hari",
+          "image": null
+        },
+        {
+          "korean": "등기\t소포",
+          "indonesian": "Paket terdaftar",
+          "image": "/images/textbook/ch23/v1_3_등기_소포.jpg"
+        },
+        {
+          "korean": "등기\t우편",
+          "indonesian": "pengiriman teregistrasi",
+          "image": "/images/textbook/ch23/v1_4_등기_우편.jpg"
+        },
+        {
+          "korean": "사흘",
+          "indonesian": "'Tiga hari (ekspresi waktu)",
+          "image": null
+        },
+        {
+          "korean": "선박\t우편",
+          "indonesian": "Pos laut, kapal",
+          "image": "/images/textbook/ch23/v1_6_선박_우편.jpg"
+        },
+        {
+          "korean": "우체통",
+          "indonesian": "kotak pos",
+          "image": "/images/textbook/ch23/v1_7_우체통.jpg"
+        },
+        {
+          "korean": "우편",
+          "indonesian": "Kode pos, kode pos",
+          "image": null
+        },
+        {
+          "korean": "우편물",
+          "indonesian": "Surat atau paket, Surat, Paket, barang yang dikirim, benda pos",
+          "image": null
+        },
+        {
+          "korean": "우편번호",
+          "indonesian": "Kode pos, kode pos",
+          "image": null
+        },
+        {
+          "korean": "우표",
+          "indonesian": "Perangko, perangko",
+          "image": null
+        },
+        {
+          "korean": "이틀",
+          "indonesian": "Dua hari",
+          "image": null
+        },
+        {
+          "korean": "익일\t특급",
+          "indonesian": "Pengiriman ekspres keesokan harinya",
+          "image": "/images/textbook/ch23/v1_13_익일_특급.jpg"
+        },
+        {
+          "korean": "일반\t소포",
+          "indonesian": "Paket biasa",
+          "image": "/images/textbook/ch23/v1_14_일반_소포.jpg"
+        },
+        {
+          "korean": "일반\t우편",
+          "indonesian": "pengiriman biasa",
+          "image": "/images/textbook/ch23/v1_15_일반_우편.jpg"
+        },
+        {
+          "korean": "주소",
+          "indonesian": "Alamat, alamat",
+          "image": null
+        },
+        {
+          "korean": "택배",
+          "indonesian": "Layanan pengiriman paket, jasa pengiriman",
+          "image": "/images/textbook/ch23/v1_17_택배.jpg"
+        },
+        {
+          "korean": "편지\t봉투",
+          "indonesian": "amplop surat",
+          "image": "/images/textbook/ch23/v1_18_편지_봉투.jpg"
+        },
+        {
+          "korean": "하루",
+          "indonesian": "Satu hari, sehari",
+          "image": null
+        },
+        {
+          "korean": "항공\t우편",
+          "indonesian": "pos udara",
+          "image": "/images/textbook/ch23/v1_20_항공_우편.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "무게를\t재다",
+          "indonesian": "Menimbang berat, menimbang berat",
+          "image": null
+        },
+        {
+          "korean": "받다",
+          "indonesian": "Menerima, menerima",
+          "image": null
+        },
+        {
+          "korean": "배송(하다)",
+          "indonesian": "Mengirim atau pengiriman barang",
+          "image": null
+        },
+        {
+          "korean": "부치다",
+          "indonesian": "Mengirim (surat atau paket), mengirim",
+          "image": null
+        },
+        {
+          "korean": "요금",
+          "indonesian": "Membayar biaya atau ongkos",
+          "image": null
+        },
+        {
+          "korean": "요금을\t내다",
+          "indonesian": "Membayar biaya atau ongkos",
+          "image": null
+        },
+        {
+          "korean": "저울",
+          "indonesian": "timbangan",
+          "image": null
+        },
+        {
+          "korean": "저울에\t올리다",
+          "indonesian": "Meletakkan di timbangan",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "한국의 우체국 서비스 (Layanan pos korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "우체국은 다른 사람에게 편지나 문서, 소포 등을 보낼 때 이용하는 곳입니다. 외국에 물건을 보낼 때는 국제 특급 우편 서비스인 EMS(Express Mail Service)를 이용하면 편리합니다. EMS로 우편물을 보내면 빠르고 안전하게 받는 사람에게 전달할 수 있으며, 온라인에서 실시간으로 배달 상황을 조회할 수 있어 좋습니다.",
+          "indonesian": "Kantor  pos  adalah  tempat  yang  Anda  gunakan  untuk  mengirimkan  surat, dokumen, paket, dll., kepada  orang lain.Ketika  mengirim  barang  ke  luar  negeri, akan  lebih  mudah  jika  Anda  menggunakan  EMS  (Express  Mail Service), sebuah  layanan  pos  kilat  internasional.  Dengan  EMS, Anda  dapat  mengirim  surat  dengan  cepat  dan aman, dan sangat menyenangkan karena Anda dapat melacak status pengiriman secara online dalam waktu nyata."
+        },
+        {
+          "korean": "EMS나 국제 소포(항공편, 선편)로는 편지, 책, 옷, 화장품 등을 보낼 수 있지만 음식, 약, 현금 등은 보낼 수 없습 니다. 물론 동식물이나 인화성 물질, 폭발물 등도 보낼 수 없습니다.",
+          "indonesian": "Melalui  EMS  atau  layanan  paket  internasional  (pos  udara, pos  permukaan), Anda  dapat  mengirim  surat, buku, pakaian, kosmetik, dll., tetapi  tidak  dapat  mengirim  makanan, obat-obatan, uang  tunai, dll.  Tentu  saja, Anda  juga tidak dapat mengirim benda hidup, bahan yang mudah terbakar, bahan peledak, dll."
+        },
+        {
+          "korean": "국내에서 중요한 문서나 고가의 물품 등을 보낼 때는 수령 확인 서비스를 제공하는 등기로 보내면 보다 안전합니 다. 우편물을 등기로 보내면 받은 사람이 수령 후 서명을 하게 되어 있기 때문에 보낸 사람이 수령 사실을 확인할 수 있습니다.",
+          "indonesian": "Saat mengirim dokumen penting atau barang mahal di Korea, akan lebih aman jika Anda mengirimkannya melalui pos tercatat, yang menyediakan layanan konfirmasi tanda terima. Dengan pos tercatat, penerima harus menandatangani setelah menerima barang, sehingga pengirim dapat mengonfirmasi penerimaan."
+        },
+        {
+          "korean": "한편, 한국의 우체국은 우편물 서비스 외에 간단한 은행 서비스도 제공합니다. 우체국에서도 은행과 같이 계좌를 개설하거나, 보험이나 적금에 가입할 수도 있고 공과금을 납부할 수도 있습니다.",
+          "indonesian": "Selain itu, kantor pos Korea menawarkan layanan perbankan dasar. Mirip dengan apa yang ditawarkan bank, Anda dapat membuka rekening, mendaftar untuk asuransi dan paket tabungan cicilan, dan membayar tagihan listrik. •"
+        }
+      ]
+    }
+  ]
+}

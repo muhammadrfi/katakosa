@@ -1,0 +1,24 @@
+{
+  "chapter": 30,
+  "sections": [
+    {
+      "title": "한국의 대중문화",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한류는 한국의 음악, 드라마, 영화, 패션, 뷰티 등의 다양한 콘텐츠가 세계 여러 국가에서 사랑받고 소비되는 것을 의미하는데, 한국 문화의 다양성과 매력을 세계에 알리는 데 큰 역할을 합니다.",
+          "indonesian": "Hallyu mengacu pada popularitas global dan konsumsi berbagai konten Korea, termasuk musik, drama, film, mode, dan  kecantikan.  Hallyu  memainkan  peran  penting  dalam  mempromosikan  keragaman  dan  pesona budaya Korea di seluruh dunia."
+        },
+        {
+          "korean": "K-팝(K-pop)은 다양한 음악 장르와 멋진 안무, 화려한 무대로 사랑을 받고 있습니다. 비티에스(BTS), 블랙핑크 (BLACKPINK), 뉴진스(NEW JEANS) 등의 아이돌 그룹이 해외에서 큰 인기를 끌며 한류의 중심이 되고 있습니다. K- 드라마(K-drama)는 흥미진진한 이야기, 배우의 실감 나는 연기, 아름다운 영상 등으로 큰 인기를 얻고 있습니다. ‘도깨비’, ‘미스터 션샤인’, ‘태양의 후예’, ‘오징어 게임’ 등이 대표적인 작품입니다.",
+          "indonesian": "K-pop dicintai karena genre musiknya yang beragam, koreografinya yang mengesankan, dan penampilannya yang memukau. Grup idola seperti BTS, BLACKPINK, dan New Jeans berada di garis depan Hallyu, yang mendapatkan popularitas luar biasa di luar negeri. K-drama juga populer karena ceritanya yang menarik, akting yang penuh perasaan, dan sinematografi yang indah, dengan contohnya termasuk 'Goblin', 'Mr Sunshine', 'Descendants of the Sun', dan 'Squid Game'."
+        },
+        {
+          "korean": "또한 한국의 패션과 뷰티도 인기를 얻고 있는데, 특히 한국 K-팝 아이돌의 패션 스타일과 메이크업이 세계적인 트 렌드를 이끌고 있습니다. 한국의 스킨케어 제품은 한국 여행에서 꼭 구매하는 물품 중의 하나가 되었습니다.",
+          "indonesian": "Selain itu, tren fashion dan kecantikan Korea semakin populer, terutama gaya dan riasan idola K-pop yang menjadi tren global. Produk perawatan kulit Korea telah menjadi barang yang wajib dibeli oleh para pelancong yang berkunjung ke Korea. \u0007 •"
+        }
+      ]
+    }
+  ]
+}

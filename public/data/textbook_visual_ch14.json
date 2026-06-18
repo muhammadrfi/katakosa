@@ -1,0 +1,204 @@
+{
+  "chapter": 14,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "건너편",
+          "indonesian": "Seberang jalan",
+          "image": "/images/textbook/ch14/v1_0_건너편.jpg"
+        },
+        {
+          "korean": "건물",
+          "indonesian": "gedung",
+          "image": "/images/textbook/ch14/v1_1_건물.jpg"
+        },
+        {
+          "korean": "그쪽",
+          "indonesian": "Arah tersebut",
+          "image": "/images/textbook/ch14/v1_2_그쪽.jpg"
+        },
+        {
+          "korean": "뒤",
+          "indonesian": "Belakang, belakang",
+          "image": "/images/textbook/ch14/v1_3_뒤.jpg"
+        },
+        {
+          "korean": "맞은편",
+          "indonesian": "Seberang jalan",
+          "image": "/images/textbook/ch14/v1_4_맞은편.jpg"
+        },
+        {
+          "korean": "밑",
+          "indonesian": "bawah",
+          "image": "/images/textbook/ch14/v1_5_밑.jpg"
+        },
+        {
+          "korean": "밖",
+          "indonesian": "Luar, luar",
+          "image": "/images/textbook/ch14/v1_6_밖.jpg"
+        },
+        {
+          "korean": "방향",
+          "indonesian": "Arah, arah, arah mata angin",
+          "image": null
+        },
+        {
+          "korean": "사이",
+          "indonesian": "Antara, antara",
+          "image": "/images/textbook/ch14/v1_8_사이.jpg"
+        },
+        {
+          "korean": "아래",
+          "indonesian": "Bawah, bawah",
+          "image": "/images/textbook/ch14/v1_9_아래.jpg"
+        },
+        {
+          "korean": "안",
+          "indonesian": "Dalam, dalam",
+          "image": "/images/textbook/ch14/v1_10_안.jpg"
+        },
+        {
+          "korean": "앞",
+          "indonesian": "depan",
+          "image": "/images/textbook/ch14/v1_11_앞.jpg"
+        },
+        {
+          "korean": "옆",
+          "indonesian": "Samping, samping, sisi",
+          "image": "/images/textbook/ch14/v1_12_옆.jpg"
+        },
+        {
+          "korean": "오른쪽",
+          "indonesian": "Kanan, kanan, sebelah kanan",
+          "image": "/images/textbook/ch14/v1_13_오른쪽.jpg"
+        },
+        {
+          "korean": "왼쪽",
+          "indonesian": "Kiri, kiri, sebelah kiri",
+          "image": "/images/textbook/ch14/v1_14_왼쪽.jpg"
+        },
+        {
+          "korean": "위",
+          "indonesian": "atas",
+          "image": null
+        },
+        {
+          "korean": "위치",
+          "indonesian": "Lokasi, lokasi",
+          "image": null
+        },
+        {
+          "korean": "이쪽",
+          "indonesian": "Arah ini, arah ini",
+          "image": "/images/textbook/ch14/v1_17_이쪽.jpg"
+        },
+        {
+          "korean": "저쪽",
+          "indonesian": "Arah itu, arah itu",
+          "image": "/images/textbook/ch14/v1_18_저쪽.jpg"
+        },
+        {
+          "korean": "쪽",
+          "indonesian": "arah / halaman / bagian",
+          "image": "/images/textbook/ch14/v1_19_쪽.jpg"
+        },
+        {
+          "korean": "층",
+          "indonesian": "Lantai, satuan lantai",
+          "image": "/images/textbook/ch14/v1_20_층.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "건너가다",
+          "indonesian": "Pergi menyebrang",
+          "image": "/images/textbook/ch14/v2_0_건너가다.jpg"
+        },
+        {
+          "korean": "근처",
+          "indonesian": "Sekitar, sekitar",
+          "image": "/images/textbook/ch14/v2_1_근처.jpg"
+        },
+        {
+          "korean": "나가다",
+          "indonesian": "Pergi keluar, Keluar, pergi keluar, keluar",
+          "image": "/images/textbook/ch14/v2_2_나가다.jpg"
+        },
+        {
+          "korean": "나오다",
+          "indonesian": "Datang keluar, Muncul, datang keluar, tampil, muncul",
+          "image": "/images/textbook/ch14/v2_3_나오다.jpg"
+        },
+        {
+          "korean": "내려가다",
+          "indonesian": "Pergi turun, pergi turun",
+          "image": "/images/textbook/ch14/v2_4_내려가다.jpg"
+        },
+        {
+          "korean": "내려오다",
+          "indonesian": "Datang turun, datang turun",
+          "image": "/images/textbook/ch14/v2_5_내려오다.jpg"
+        },
+        {
+          "korean": "들어가다",
+          "indonesian": "Pergi masuk, Masuk, pergi masuk",
+          "image": "/images/textbook/ch14/v2_6_들어가다.jpg"
+        },
+        {
+          "korean": "들어오다",
+          "indonesian": "Datang masuk, datang masuk, masuk",
+          "image": "/images/textbook/ch14/v2_7_들어오다.jpg"
+        },
+        {
+          "korean": "마트",
+          "indonesian": "Mart, pertokoan",
+          "image": "/images/textbook/ch14/v2_8_마트.jpg"
+        },
+        {
+          "korean": "사거리",
+          "indonesian": "Perempatan, perempatan",
+          "image": "/images/textbook/ch14/v2_9_사거리.jpg"
+        },
+        {
+          "korean": "옥상",
+          "indonesian": "Atap, atap",
+          "image": null
+        },
+        {
+          "korean": "올라가다",
+          "indonesian": "Pergi naik, pergi naik, naik",
+          "image": "/images/textbook/ch14/v2_11_올라가다.jpg"
+        },
+        {
+          "korean": "올라오다",
+          "indonesian": "Datang naik, datang naik",
+          "image": "/images/textbook/ch14/v2_12_올라오다.jpg"
+        },
+        {
+          "korean": "육교",
+          "indonesian": "Jembatan penyeberangan, jembatan\npenyebrangan, jembatan penyeberangan",
+          "image": "/images/textbook/ch14/v2_13_육교.jpg"
+        },
+        {
+          "korean": "지하",
+          "indonesian": "Bawah tanah, bawah tanah",
+          "image": null
+        },
+        {
+          "korean": "횡단보도",
+          "indonesian": "zebra cross / penyeberangan jalan",
+          "image": "/images/textbook/ch14/v2_15_횡단보도.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

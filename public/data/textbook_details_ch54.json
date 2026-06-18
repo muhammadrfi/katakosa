@@ -1,0 +1,271 @@
+{
+  "chapter": 54,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "개인",
+          "indonesian": "Pribadi, pribadi, personal, individu, perseorangan",
+          "image": null
+        },
+        {
+          "korean": "귀마개",
+          "indonesian": "Penyumbat telinga, pelindung telinga, tutup telinga",
+          "image": "/images/textbook/ch54/v1_1_귀마개.jpg"
+        },
+        {
+          "korean": "대피(하다)",
+          "indonesian": "mengungsi / menyelamatkan diri",
+          "image": "/images/textbook/ch54/v1_2_대피(하다).jpg"
+        },
+        {
+          "korean": "밀폐공간",
+          "indonesian": "Ruangan tertutup",
+          "image": "/images/textbook/ch54/v1_3_밀폐공간.jpg"
+        },
+        {
+          "korean": "보건",
+          "indonesian": "Puskesmas, puskesmas",
+          "image": null
+        },
+        {
+          "korean": "보호구",
+          "indonesian": "alat pelindung",
+          "image": null
+        },
+        {
+          "korean": "석면",
+          "indonesian": "Asbes",
+          "image": "/images/textbook/ch54/v1_6_석면.jpg"
+        },
+        {
+          "korean": "섭취(하다)",
+          "indonesian": "mengonsumsi",
+          "image": "/images/textbook/ch54/v1_7_섭취(하다).jpg"
+        },
+        {
+          "korean": "수칙",
+          "indonesian": "Peraturan, pedoman, regulasi",
+          "image": null
+        },
+        {
+          "korean": "음식물",
+          "indonesian": "bahan makanan, makanan",
+          "image": "/images/textbook/ch54/v1_9_음식물.jpg"
+        },
+        {
+          "korean": "장치",
+          "indonesian": "nyalakan ventilasi",
+          "image": "/images/textbook/ch54/v1_10_장치.jpg"
+        },
+        {
+          "korean": "중단(하다)",
+          "indonesian": "Menghentikan pekerjaan",
+          "image": "/images/textbook/ch54/v1_11_중단(하다).jpg"
+        },
+        {
+          "korean": "화학물질",
+          "indonesian": "bahan kimia, benda kimia, zat kimia",
+          "image": "/images/textbook/ch54/v1_12_화학물질.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "개구부",
+          "indonesian": "Membuka penutup pelindung",
+          "image": "/images/textbook/ch54/v2_0_개구부.jpg"
+        },
+        {
+          "korean": "끼이다",
+          "indonesian": "Terjepit",
+          "image": null
+        },
+        {
+          "korean": "낙하(하다)",
+          "indonesian": "jatuh (terjatuh)",
+          "image": "/images/textbook/ch54/v2_2_낙하(하다).jpg"
+        },
+        {
+          "korean": "난간",
+          "indonesian": "rel",
+          "image": "/images/textbook/ch54/v2_3_난간.jpg"
+        },
+        {
+          "korean": "막다",
+          "indonesian": "mencegah kecelakaan",
+          "image": "/images/textbook/ch54/v2_4_막다.jpg"
+        },
+        {
+          "korean": "반드시",
+          "indonesian": "Pastikan",
+          "image": "/images/textbook/ch54/v2_5_반드시.jpg"
+        },
+        {
+          "korean": "방호덮개",
+          "indonesian": "Membuka penutup pelindung",
+          "image": "/images/textbook/ch54/v2_6_방호덮개.jpg"
+        },
+        {
+          "korean": "방호장치",
+          "indonesian": "Dilarang membongkar perangkat pelindung",
+          "image": "/images/textbook/ch54/v2_7_방호장치.jpg"
+        },
+        {
+          "korean": "사항",
+          "indonesian": "Hal, masalah, kondisi",
+          "image": null
+        },
+        {
+          "korean": "산업",
+          "indonesian": "Industri, industri",
+          "image": null
+        },
+        {
+          "korean": "수리(하다)",
+          "indonesian": "memperbaiki",
+          "image": "/images/textbook/ch54/v2_10_수리(하다).jpg"
+        },
+        {
+          "korean": "실시(하다)",
+          "indonesian": "Dilakukan, melaksankan, menyelenggarakan",
+          "image": "/images/textbook/ch54/v2_11_실시(하다).jpg"
+        },
+        {
+          "korean": "안전대",
+          "indonesian": "Sabuk pengaman, sabut pengaman, sabuk pengaman, tali pengaman",
+          "image": "/images/textbook/ch54/v2_12_안전대.jpg"
+        },
+        {
+          "korean": "안전모",
+          "indonesian": "Helm keamanan, helm, topi keselamatan",
+          "image": "/images/textbook/ch54/v2_13_안전모.jpg"
+        },
+        {
+          "korean": "안전보건표지판",
+          "indonesian": "papan tanda keselamatan dan kesehatan",
+          "image": null
+        },
+        {
+          "korean": "안전화",
+          "indonesian": "sepatu pengaman / safety shoes",
+          "image": null
+        },
+        {
+          "korean": "잠금장치",
+          "indonesian": "kunci saklar",
+          "image": null
+        },
+        {
+          "korean": "재해",
+          "indonesian": "Kecelakaan kerja, kecelakaan kerja",
+          "image": null
+        },
+        {
+          "korean": "조작(하다)",
+          "indonesian": "Beroperasi, mengoprasikan",
+          "image": "/images/textbook/ch54/v2_18_조작(하다).jpg"
+        },
+        {
+          "korean": "준수(하다)",
+          "indonesian": "Mentaati, mematuhi, mempelajari",
+          "image": null
+        },
+        {
+          "korean": "줄이다",
+          "indonesian": "mengurangi kecelakaan",
+          "image": "/images/textbook/ch54/v2_20_줄이다.jpg"
+        },
+        {
+          "korean": "차단(하다)",
+          "indonesian": "pemutusan / penyumbatan (memblokir)",
+          "image": "/images/textbook/ch54/v2_21_차단(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "대피로 및 지시 표지 (Tanda Evakuasi & Petunjuk)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "시계 반대 방향으로 돌리면 열림",
+          "indonesian": "putar berlawanan arah jarum jam untuk membuka"
+        },
+        {
+          "korean": "왼쪽으로 밀면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan mendorong di sisi kiri"
+        },
+        {
+          "korean": "시계 방향으로 돌리면 열림",
+          "indonesian": "putar searah jarum jam untuk membuka"
+        },
+        {
+          "korean": "오른쪽으로 밀면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan mendorong di sisi kanan"
+        },
+        {
+          "korean": "오른쪽으로 미끄러져 열리는 문/오른쪽 미닫이 문",
+          "indonesian": "pintu yang terbuka dengan menggeser ke kanan"
+        },
+        {
+          "korean": "왼쪽을 당기면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan menarik sisi kirinya"
+        },
+        {
+          "korean": "왼쪽으로 미끄러져 열리는 문 /왼쪽 미닫이 문",
+          "indonesian": "pintu yang terbuka dengan menggeser ke kiri"
+        },
+        {
+          "korean": "오른쪽으로 당기면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan menarik sisi kanannya"
+        },
+        {
+          "korean": "유리창을 깨고 밖으로 나갈 때 사용하는 망치",
+          "indonesian": "palu yang digunakan untuk memecahkan jendela untuk melarikan diri"
+        },
+        {
+          "korean": "위험할 때 밖으로 나갈 수 있는 사다리",
+          "indonesian": "tangga yang digunakan untuk keluar dalam keadaan darurat"
+        },
+        {
+          "korean": "탈출 사다리",
+          "indonesian": "tangga melarikan diri"
+        },
+        {
+          "korean": "비상 망치",
+          "indonesian": "palu darurat"
+        },
+        {
+          "korean": "사고가 났을 때 밖으로 나갈 수 있는 문",
+          "indonesian": "pintu yang digunakan untuk keluar jika terjadi kecelakaan"
+        },
+        {
+          "korean": "건물 안에 있는 사람을 구조하기 위해 구조대가 접근할 수 있도록 만든 창문",
+          "indonesian": "sebuah jendela yang dirancang bagi tim penyelamat untuk mengakses orang-orang di dalamnya"
+        },
+        {
+          "korean": "비상구(왼쪽)",
+          "indonesian": "pintu keluar darurat (kiri)"
+        },
+        {
+          "korean": "탈출 사다리가 있는 비상 창문",
+          "indonesian": "jendela darurat dengan tangga keluar"
+        },
+        {
+          "korean": "비상구(오른쪽)",
+          "indonesian": "pintu keluar darurat (kanan)"
+        },
+        {
+          "korean": "구조 창문",
+          "indonesian": "jendela penyelamatan"
+        }
+      ]
+    }
+  ]
+}

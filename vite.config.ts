@@ -28,20 +28,35 @@ export default defineConfig(({ mode }) => ({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          // Vendor chunks untuk library besar
-          vendor: ['react', 'react-dom'],
-          router: ['react-router-dom'],
-          ui: [
-            '@radix-ui/react-dialog',
-            '@radix-ui/react-select',
-            '@radix-ui/react-tabs',
-            '@radix-ui/react-toast'
-          ],
-          store: ['zustand'],
-          utils: ['clsx', 'tailwind-merge', 'date-fns'],
-          icons: ['lucide-react'],
-          forms: ['react-hook-form', '@hookform/resolvers', 'zod']
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react-dom') || id.includes('react/')) {
+              return 'vendor';
+            }
+            if (id.includes('react-router-dom')) {
+              return 'router';
+            }
+            if (id.includes('zustand')) {
+              return 'store';
+            }
+            if (id.includes('lucide-react')) {
+              return 'icons';
+            }
+            if (id.includes('react-hook-form') || id.includes('@hookform/resolvers') || id.includes('zod')) {
+              return 'forms';
+            }
+            if (
+              id.includes('@radix-ui/react-dialog') ||
+              id.includes('@radix-ui/react-select') ||
+              id.includes('@radix-ui/react-tabs') ||
+              id.includes('@radix-ui/react-toast')
+            ) {
+              return 'ui';
+            }
+            if (id.includes('clsx') || id.includes('tailwind-merge') || id.includes('date-fns')) {
+              return 'utils';
+            }
+          }
         }
       }
     },

@@ -1,0 +1,169 @@
+{
+  "chapter": 7,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가을",
+          "indonesian": "Musim gugur, musim gugur",
+          "image": "/images/textbook/ch7/v1_0_가을.jpg"
+        },
+        {
+          "korean": "겨울",
+          "indonesian": "Musim dingin, musim dingin",
+          "image": "/images/textbook/ch7/v1_1_겨울.jpg"
+        },
+        {
+          "korean": "계절",
+          "indonesian": "Musim, musim",
+          "image": null
+        },
+        {
+          "korean": "너무",
+          "indonesian": "terlalu",
+          "image": "/images/textbook/ch7/v1_3_너무.jpg"
+        },
+        {
+          "korean": "덥다",
+          "indonesian": "Panas (cuaca), panas, panas (cuaca)",
+          "image": "/images/textbook/ch7/v1_4_덥다.jpg"
+        },
+        {
+          "korean": "따뜻하다",
+          "indonesian": "Hangat, hangat",
+          "image": "/images/textbook/ch7/v1_5_따뜻하다.jpg"
+        },
+        {
+          "korean": "뜨겁다",
+          "indonesian": "Panas (benda), panas, panas (benda)",
+          "image": "/images/textbook/ch7/v1_6_뜨겁다.jpg"
+        },
+        {
+          "korean": "봄",
+          "indonesian": "Musim semi, musim semi",
+          "image": "/images/textbook/ch7/v1_7_봄.jpg"
+        },
+        {
+          "korean": "쉽다",
+          "indonesian": "Mudah, mudah",
+          "image": "/images/textbook/ch7/v1_8_쉽다.jpg"
+        },
+        {
+          "korean": "시원하다",
+          "indonesian": "Sejuk, segar, sejuk",
+          "image": "/images/textbook/ch7/v1_9_시원하다.jpg"
+        },
+        {
+          "korean": "어때요?",
+          "indonesian": "Bagaimana?, bagaimana",
+          "image": "/images/textbook/ch7/v1_10_어때요.jpg"
+        },
+        {
+          "korean": "어렵다",
+          "indonesian": "sulit, susah, Sulit",
+          "image": "/images/textbook/ch7/v1_11_어렵다.jpg"
+        },
+        {
+          "korean": "여름",
+          "indonesian": "Musim panas, musim panas",
+          "image": "/images/textbook/ch7/v1_12_여름.jpg"
+        },
+        {
+          "korean": "영어",
+          "indonesian": "Bahasa Inggris, bahasa inggris",
+          "image": "/images/textbook/ch7/v1_13_영어.jpg"
+        },
+        {
+          "korean": "조금",
+          "indonesian": "sedikit",
+          "image": "/images/textbook/ch7/v1_14_조금.jpg"
+        },
+        {
+          "korean": "차갑다",
+          "indonesian": "Dingin (benda)",
+          "image": "/images/textbook/ch7/v1_15_차갑다.jpg"
+        },
+        {
+          "korean": "춥다",
+          "indonesian": "Dingin (cuaca), dingin, dingin (cuaca)",
+          "image": "/images/textbook/ch7/v1_16_춥다.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "그치다",
+          "indonesian": "berhenti",
+          "image": "/images/textbook/ch7/v2_0_그치다.jpg"
+        },
+        {
+          "korean": "나쁘다",
+          "indonesian": "buruk, jahat",
+          "image": null
+        },
+        {
+          "korean": "날씨",
+          "indonesian": "cuaca",
+          "image": null
+        },
+        {
+          "korean": "눈이\t오다",
+          "indonesian": "turun salju",
+          "image": "/images/textbook/ch7/v2_3_눈이_오다.jpg"
+        },
+        {
+          "korean": "많이",
+          "indonesian": "Banyak, sangat, banyak",
+          "image": "/images/textbook/ch7/v2_4_많이.jpg"
+        },
+        {
+          "korean": "맑다",
+          "indonesian": "Jernih, cerah, jernih",
+          "image": "/images/textbook/ch7/v2_5_맑다.jpg"
+        },
+        {
+          "korean": "바람이\t불다",
+          "indonesian": "bertiup angin",
+          "image": null
+        },
+        {
+          "korean": "별로",
+          "indonesian": "tidak terlalu",
+          "image": "/images/textbook/ch7/v2_7_별로.jpg"
+        },
+        {
+          "korean": "비가\t오다",
+          "indonesian": "Hujan turun, turun hujan",
+          "image": "/images/textbook/ch7/v2_8_비가_오다.jpg"
+        },
+        {
+          "korean": "여보세요?",
+          "indonesian": "halo",
+          "image": "/images/textbook/ch7/v2_9_여보세요.jpg"
+        },
+        {
+          "korean": "정말",
+          "indonesian": "sangat, sungguh",
+          "image": "/images/textbook/ch7/v2_10_정말.jpg"
+        },
+        {
+          "korean": "좋다",
+          "indonesian": "bagus, baik",
+          "image": null
+        },
+        {
+          "korean": "흐리다",
+          "indonesian": "Mengalir, mendung",
+          "image": "/images/textbook/ch7/v2_12_흐리다.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

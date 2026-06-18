@@ -1,0 +1,194 @@
+{
+  "chapter": 24,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "거래\t날짜",
+          "indonesian": "Tanggal transaksi",
+          "image": null
+        },
+        {
+          "korean": "거주지",
+          "indonesian": "Tempat tinggal",
+          "image": null
+        },
+        {
+          "korean": "계좌",
+          "indonesian": "Rekening, rekening",
+          "image": null
+        },
+        {
+          "korean": "계좌\t번호",
+          "indonesian": "Nomor rekening, nomor rekening",
+          "image": null
+        },
+        {
+          "korean": "도장",
+          "indonesian": "Stempel, stempel, cap",
+          "image": null
+        },
+        {
+          "korean": "모바일\t뱅킹",
+          "indonesian": "Perbankan seluler",
+          "image": null
+        },
+        {
+          "korean": "번호표를\t뽑다",
+          "indonesian": "Mengambil nomor antrean, mengambil nomer",
+          "image": null
+        },
+        {
+          "korean": "서류",
+          "indonesian": "Dokumen, dokumen, surat penting, surat-surat penting",
+          "image": null
+        },
+        {
+          "korean": "서명(하다)",
+          "indonesian": "Tanda tangan, tanda tangan",
+          "image": null
+        },
+        {
+          "korean": "신청(하다)",
+          "indonesian": "mendaftar",
+          "image": null
+        },
+        {
+          "korean": "신청서",
+          "indonesian": "Formulir aplikasi, formulir, surat pendaftaran, formulir aplikasi, formulir blangko",
+          "image": null
+        },
+        {
+          "korean": "예금주",
+          "indonesian": "Pemilik rekening",
+          "image": null
+        },
+        {
+          "korean": "이용(하다)",
+          "indonesian": "Menggunakan, menggunakan",
+          "image": null
+        },
+        {
+          "korean": "작성(하다)",
+          "indonesian": "Mengisi atau menulis, menulis, menyusun",
+          "image": null
+        },
+        {
+          "korean": "준비(하다)",
+          "indonesian": "Mempersiapkan, menyiapkan",
+          "image": null
+        },
+        {
+          "korean": "증명(하다)",
+          "indonesian": "Bukti",
+          "image": null
+        },
+        {
+          "korean": "창구",
+          "indonesian": "Loket, taller",
+          "image": null
+        },
+        {
+          "korean": "체크\t카드",
+          "indonesian": "Kartu debit, kartu cek",
+          "image": null
+        },
+        {
+          "korean": "통장",
+          "indonesian": "Buku tabungan, buku tabungan, buku rekening bank",
+          "image": null
+        }
+      ],
+      "main_image": "/images/textbook/ch24_vocab1.jpg"
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "거래\t내역",
+          "indonesian": "Riwayat transaksi",
+          "image": null
+        },
+        {
+          "korean": "계좌\t이체",
+          "indonesian": "mentransfer, transfer antar rekening",
+          "image": null
+        },
+        {
+          "korean": "달러",
+          "indonesian": "Dolar, dollar",
+          "image": null
+        },
+        {
+          "korean": "돈을\t넣다",
+          "indonesian": "Menyimpan uang",
+          "image": null
+        },
+        {
+          "korean": "돈을\t보내다",
+          "indonesian": "Mengirim uang",
+          "image": null
+        },
+        {
+          "korean": "돈을\t찾다",
+          "indonesian": "Mengambil uang",
+          "image": null
+        },
+        {
+          "korean": "버튼을\t누르다",
+          "indonesian": "Menekan tombol",
+          "image": null
+        },
+        {
+          "korean": "송금(하다)",
+          "indonesian": "transfer, mentransfer",
+          "image": null
+        },
+        {
+          "korean": "예금(하다)",
+          "indonesian": "Menabung",
+          "image": null
+        },
+        {
+          "korean": "외국인\t등록증",
+          "indonesian": "ktp orang asing",
+          "image": null
+        },
+        {
+          "korean": "입금(하다)",
+          "indonesian": "menabung",
+          "image": null
+        },
+        {
+          "korean": "잔액\t조회",
+          "indonesian": "cek saldo",
+          "image": null
+        },
+        {
+          "korean": "통장\t정리",
+          "indonesian": "cetak buku tabungan",
+          "image": null
+        },
+        {
+          "korean": "환율이\t내리다",
+          "indonesian": "Nilai tukar turun",
+          "image": null
+        },
+        {
+          "korean": "환율이\t오르다",
+          "indonesian": "Nilai tukar naik",
+          "image": null
+        },
+        {
+          "korean": "환전(하다)",
+          "indonesian": "Menukar uang, menukar uang",
+          "image": null
+        }
+      ],
+      "main_image": "/images/textbook/ch24_vocab2.jpg"
+    }
+  ]
+}

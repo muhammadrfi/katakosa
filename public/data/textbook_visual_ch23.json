@@ -1,0 +1,164 @@
+{
+  "chapter": 23,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "국내\t소포",
+          "indonesian": "paket domestik",
+          "image": "/images/textbook/ch23/v1_0_국내_소포.jpg"
+        },
+        {
+          "korean": "국제\t우편",
+          "indonesian": "pos internasional",
+          "image": "/images/textbook/ch23/v1_1_국제_우편.jpg"
+        },
+        {
+          "korean": "나흘",
+          "indonesian": "empat hari",
+          "image": null
+        },
+        {
+          "korean": "등기\t소포",
+          "indonesian": "Paket terdaftar",
+          "image": "/images/textbook/ch23/v1_3_등기_소포.jpg"
+        },
+        {
+          "korean": "등기\t우편",
+          "indonesian": "pengiriman teregistrasi",
+          "image": "/images/textbook/ch23/v1_4_등기_우편.jpg"
+        },
+        {
+          "korean": "사흘",
+          "indonesian": "'Tiga hari (ekspresi waktu)",
+          "image": null
+        },
+        {
+          "korean": "선박\t우편",
+          "indonesian": "Pos laut, kapal",
+          "image": "/images/textbook/ch23/v1_6_선박_우편.jpg"
+        },
+        {
+          "korean": "우체통",
+          "indonesian": "kotak pos",
+          "image": "/images/textbook/ch23/v1_7_우체통.jpg"
+        },
+        {
+          "korean": "우편",
+          "indonesian": "Kode pos, kode pos",
+          "image": null
+        },
+        {
+          "korean": "우편물",
+          "indonesian": "Surat atau paket, Surat, Paket, barang yang dikirim, benda pos",
+          "image": null
+        },
+        {
+          "korean": "우편번호",
+          "indonesian": "Kode pos, kode pos",
+          "image": null
+        },
+        {
+          "korean": "우표",
+          "indonesian": "Perangko, perangko",
+          "image": null
+        },
+        {
+          "korean": "이틀",
+          "indonesian": "Dua hari",
+          "image": null
+        },
+        {
+          "korean": "익일\t특급",
+          "indonesian": "Pengiriman ekspres keesokan harinya",
+          "image": "/images/textbook/ch23/v1_13_익일_특급.jpg"
+        },
+        {
+          "korean": "일반\t소포",
+          "indonesian": "Paket biasa",
+          "image": "/images/textbook/ch23/v1_14_일반_소포.jpg"
+        },
+        {
+          "korean": "일반\t우편",
+          "indonesian": "pengiriman biasa",
+          "image": "/images/textbook/ch23/v1_15_일반_우편.jpg"
+        },
+        {
+          "korean": "주소",
+          "indonesian": "Alamat, alamat",
+          "image": null
+        },
+        {
+          "korean": "택배",
+          "indonesian": "Layanan pengiriman paket, jasa pengiriman",
+          "image": "/images/textbook/ch23/v1_17_택배.jpg"
+        },
+        {
+          "korean": "편지\t봉투",
+          "indonesian": "amplop surat",
+          "image": "/images/textbook/ch23/v1_18_편지_봉투.jpg"
+        },
+        {
+          "korean": "하루",
+          "indonesian": "Satu hari, sehari",
+          "image": null
+        },
+        {
+          "korean": "항공\t우편",
+          "indonesian": "pos udara",
+          "image": "/images/textbook/ch23/v1_20_항공_우편.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "무게를\t재다",
+          "indonesian": "Menimbang berat, menimbang berat",
+          "image": null
+        },
+        {
+          "korean": "받다",
+          "indonesian": "Menerima, menerima",
+          "image": null
+        },
+        {
+          "korean": "배송(하다)",
+          "indonesian": "Mengirim atau pengiriman barang",
+          "image": null
+        },
+        {
+          "korean": "부치다",
+          "indonesian": "Mengirim (surat atau paket), mengirim",
+          "image": null
+        },
+        {
+          "korean": "요금",
+          "indonesian": "Membayar biaya atau ongkos",
+          "image": null
+        },
+        {
+          "korean": "요금을\t내다",
+          "indonesian": "Membayar biaya atau ongkos",
+          "image": null
+        },
+        {
+          "korean": "저울",
+          "indonesian": "timbangan",
+          "image": null
+        },
+        {
+          "korean": "저울에\t올리다",
+          "indonesian": "Meletakkan di timbangan",
+          "image": null
+        }
+      ],
+      "main_image": "/images/textbook/ch23_vocab2.jpg"
+    }
+  ]
+}

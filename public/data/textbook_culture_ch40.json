@@ -1,0 +1,28 @@
+{
+  "chapter": 40,
+  "sections": [
+    {
+      "title": "친환경 에너지 (Energi Ramah Lingkungan)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "친환경 에너지는 환경에 미치는 영향을 최소화하여 환경을 보호하는 데 도움을 주는 에너지로, 자연에서 얻을 수 있는 자 원을 이용하여 지속 가능한 방식으로 생산합니다. 세계 각국은 석유, 석탄, 가스 등의 화석 연료의 사용으로 인한 환경 파괴와 기후 변화에 대응하기 위하여 친환경 에너지 개발에 힘쓰고 있 습니다.",
+          "indonesian": "Energi ramah lingkungan mengacu pada energi yang meminimalkan dampak lingkungan dan membantu melindungi lingkungan dengan menggunakan sumber daya alam yang diproduksi secara berkelanjutan. Negara-negara di dunia berfokus pada pengembangan energi ramah lingkungan untuk mengatasi degradasi lingkungan dan perubahan iklim yang disebabkan oleh penggunaan bahan bakar fosil seperti minyak, batu bara, dan gas."
+        },
+        {
+          "korean": "친환경 에너지에는 태양의 빛을 활용하는 태양광 에너지, 바 람의 운동 에너지를 활용하는 풍력 에너지, 물의 흐름을 활용하 는 수력 에너지, 바다의 조류나 파도 등을 이용하는 해양 에너 지, 지구 내부의 열을 이용하는 지열 에너지 등이 있습니다.",
+          "indonesian": "Ada banyak jenis energi ramah lingkungan. Energi matahari memanfaatkan sinar matahari, energi angin memanfaatkan energi kinetik angin, energi air memanfaatkan aliran air, energi kelautan memanfaatkan arus dan gelombang laut, dan energi panas bumi memanfaatkan panas dari dalam bumi."
+        },
+        {
+          "korean": "친환경 에너지는 초기 설치 비용이 높아 경제적으로 부담이 될 수 있지만, 운영 비용이 낮고 무제한으로 사용할 수 있다는 장점이 있습니다. 또한 화석 연료의 고갈을 막고 온실가스를 줄 여 급격한 기후 변화에 따른 재난에 대비할 수 있게 해 줍니다.",
+          "indonesian": "Energi ramah lingkungan dapat memberatkan secara ekonomi karena biaya pemasangan awal yang tinggi, namun keuntungannya adalah biaya pengoperasian yang rendah dan kemampuan untuk digunakan tanpa batas waktu. Selain itu, hal ini membantu mencegah menipisnya bahan bakar fosil dan mengurangi gas rumah kaca, yang kemudian membantu dalam persiapan menghadapi bencana yang disebabkan oleh perubahan iklim yang cepat."
+        },
+        {
+          "korean": "전 세계는 재생에너지 개발과 같은 저탄소 정책으로 지구 온 난화의 주범인 탄소의 배출을 줄이기 위해 노력하고 있습니다. 이에 부응하여 기업들도 ESG 경영을 통하여, 탄소 배출이나 자 원 사용 등에서 기업이 환경에 미치는 부정적 영향을 최소화하 고 있습니다.",
+          "indonesian": "Dunia berupaya mengurangi emisi karbon, penyebab utama pemanasan global, melalui kebijakan rendah karbon seperti pengembangan energi terbarukan. Sebagai tanggapannya, perusahaan meminimalkan dampak negatif terhadap lingkungan dengan berfokus pada pengelolaan Lingkungan, Sosial, dan Tata Kelola (ESG), yang mengatasi masalah seperti emisi karbon dan penggunaan sumber daya."
+        }
+      ]
+    }
+  ]
+}

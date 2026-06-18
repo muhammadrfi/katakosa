@@ -1,0 +1,243 @@
+{
+  "chapter": 1,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "국적",
+          "indonesian": "kebangsaan, kewarganegaraan",
+          "image": null
+        },
+        {
+          "korean": "나라",
+          "indonesian": "negara",
+          "image": null
+        },
+        {
+          "korean": "네팔",
+          "indonesian": "Nepal",
+          "image": "/images/textbook/ch1/v1_2_네팔.jpg"
+        },
+        {
+          "korean": "누구",
+          "indonesian": "siapa",
+          "image": null
+        },
+        {
+          "korean": "동티모르",
+          "indonesian": "Timor Leste",
+          "image": "/images/textbook/ch1/v1_4_동티모르.jpg"
+        },
+        {
+          "korean": "라오스",
+          "indonesian": "Laos",
+          "image": "/images/textbook/ch1/v1_5_라오스.jpg"
+        },
+        {
+          "korean": "몽골",
+          "indonesian": "Mongolia",
+          "image": "/images/textbook/ch1/v1_6_몽골.jpg"
+        },
+        {
+          "korean": "미얀마",
+          "indonesian": "Myanmar",
+          "image": "/images/textbook/ch1/v1_7_미얀마.jpg"
+        },
+        {
+          "korean": "방글라데시",
+          "indonesian": "Bangladesh",
+          "image": "/images/textbook/ch1/v1_8_방글라데시.jpg"
+        },
+        {
+          "korean": "베트남",
+          "indonesian": "Vietnam",
+          "image": "/images/textbook/ch1/v1_9_베트남.jpg"
+        },
+        {
+          "korean": "사람",
+          "indonesian": "Manusia, Orang",
+          "image": null
+        },
+        {
+          "korean": "스리랑카",
+          "indonesian": "Sri Lanka",
+          "image": "/images/textbook/ch1/v1_11_스리랑카.jpg"
+        },
+        {
+          "korean": "어느",
+          "indonesian": "yang mana",
+          "image": null
+        },
+        {
+          "korean": "우즈베키스탄",
+          "indonesian": "Uzbekistan",
+          "image": "/images/textbook/ch1/v1_13_우즈베키스탄.jpg"
+        },
+        {
+          "korean": "이름",
+          "indonesian": "Pertama kali",
+          "image": null
+        },
+        {
+          "korean": "인도네시아",
+          "indonesian": "Indonesia",
+          "image": "/images/textbook/ch1/v1_15_인도네시아.jpg"
+        },
+        {
+          "korean": "중국",
+          "indonesian": "cina, China",
+          "image": "/images/textbook/ch1/v1_16_중국.jpg"
+        },
+        {
+          "korean": "캄보디아",
+          "indonesian": "Kamboja",
+          "image": "/images/textbook/ch1/v1_17_캄보디아.jpg"
+        },
+        {
+          "korean": "키르기스스탄",
+          "indonesian": "Kirgizstan",
+          "image": "/images/textbook/ch1/v1_18_키르기스스탄.jpg"
+        },
+        {
+          "korean": "타지키스탄",
+          "indonesian": "Tajikistan",
+          "image": "/images/textbook/ch1/v1_19_타지키스탄.jpg"
+        },
+        {
+          "korean": "태국",
+          "indonesian": "Thailand",
+          "image": "/images/textbook/ch1/v1_20_태국.jpg"
+        },
+        {
+          "korean": "파키스탄",
+          "indonesian": "Pakistan",
+          "image": "/images/textbook/ch1/v1_21_파키스탄.jpg"
+        },
+        {
+          "korean": "필리핀",
+          "indonesian": "Filiphina",
+          "image": "/images/textbook/ch1/v1_22_필리핀.jpg"
+        },
+        {
+          "korean": "한국",
+          "indonesian": "Korea Selatan",
+          "image": "/images/textbook/ch1/v1_23_한국.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "main_image": null,
+      "items": [
+        {
+          "korean": "학생",
+          "indonesian": "siswa",
+          "image": "/images/textbook/ch1/v2_0_학생.jpg"
+        },
+        {
+          "korean": "선생님",
+          "indonesian": "guru",
+          "image": "/images/textbook/ch1/v2_1_선생님.jpg"
+        },
+        {
+          "korean": "회사원",
+          "indonesian": "karyawan",
+          "image": "/images/textbook/ch1/v2_2_회사원.jpg"
+        },
+        {
+          "korean": "경찰관",
+          "indonesian": "polisi",
+          "image": "/images/textbook/ch1/v2_4_경찰관.jpg"
+        },
+        {
+          "korean": "소방관",
+          "indonesian": "pemadam kebakaran",
+          "image": "/images/textbook/ch1/v2_5_소방관.jpg"
+        },
+        {
+          "korean": "공무원",
+          "indonesian": "pegawai negeri",
+          "image": "/images/textbook/ch1/v2_6_공무원.jpg"
+        },
+        {
+          "korean": "점원",
+          "indonesian": "pelayan toko",
+          "image": "/images/textbook/ch1/v2_7_점원.jpg"
+        },
+        {
+          "korean": "의사",
+          "indonesian": "dokter",
+          "image": "/images/textbook/ch1/v2_8_의사.jpg"
+        },
+        {
+          "korean": "간호사",
+          "indonesian": "perawat",
+          "image": "/images/textbook/ch1/v2_9_간호사.jpg"
+        },
+        {
+          "korean": "요리사",
+          "indonesian": "koki",
+          "image": "/images/textbook/ch1/v2_10_요리사.jpg"
+        },
+        {
+          "korean": "운전기사",
+          "indonesian": "sopir / pengemudi",
+          "image": "/images/textbook/ch1/v2_11_운전기사.jpg"
+        },
+        {
+          "korean": "기술자",
+          "indonesian": "teknisi",
+          "image": "/images/textbook/ch1/v2_12_기술자.jpg"
+        },
+        {
+          "korean": "목수",
+          "indonesian": "tukang kayu",
+          "image": "/images/textbook/ch1/v2_13_목수.jpg"
+        },
+        {
+          "korean": "농부",
+          "indonesian": "petani",
+          "image": "/images/textbook/ch1/v2_14_농부.jpg"
+        },
+        {
+          "korean": "어부",
+          "indonesian": "nelayan",
+          "image": "/images/textbook/ch1/v2_15_어부.jpg"
+        },
+        {
+          "korean": "근로자",
+          "indonesian": "pekerja",
+          "image": "/images/textbook/ch1/v2_16_근로자.jpg"
+        },
+        {
+          "korean": "네",
+          "indonesian": "ya",
+          "image": null
+        },
+        {
+          "korean": "씨",
+          "indonesian": "saudara / Mr. / Ms.",
+          "image": null
+        },
+        {
+          "korean": "아니요",
+          "indonesian": "tidak",
+          "image": null
+        },
+        {
+          "korean": "저/나",
+          "indonesian": "saya / aku",
+          "image": null
+        },
+        {
+          "korean": "직업",
+          "indonesian": "Pekerjaan, pekerjaan, profesi",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

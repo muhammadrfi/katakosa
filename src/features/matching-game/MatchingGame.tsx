@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { useVocabularyStore } from '../vocabulary/useVocabularyStore';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
+import { soundEffects } from '../../utils/soundEffects';
 
 interface MatchingGameProps {
   words: WordPair[];
@@ -24,7 +25,7 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
 
   const MAX_DISPLAYED_PAIRS = 10;
 
-  const initializeGame = () => {
+  const initializeGame = React.useCallback(() => {
     if (words && words.length > 0) {
       console.log('MatchingGame: Initializing with words:', words);
       const shuffledWords = shuffleArray([...words]); // Shuffle all words
@@ -40,12 +41,12 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
       setIsChecking(false);
       setFeedbackCards(null);
     }
-  };
+  }, [words]);
 
   // Initialize game
   useEffect(() => {
     initializeGame();
-  }, [words]);
+  }, [initializeGame]);
 
   // Check for game finish
   useEffect(() => {
@@ -62,6 +63,7 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
     if (!selectedCardId) {
       // First card selected
       setSelectedCardId(card.id);
+      soundEffects.playFlip();
     } else {
       // Second card selected
       setIsChecking(true);
@@ -69,6 +71,7 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
 
       if (prevSelectedCard && prevSelectedCard.side !== card.side && prevSelectedCard.pairId === card.pairId) {
         // Match found
+        soundEffects.playCorrect();
         setFeedbackCards({
           [prevSelectedCard.id]: 'correct',
           [card.id]: 'correct',
@@ -83,8 +86,8 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
           markWordAsRemembered(card.pairId);
 
           // Filter out the matched cards
-          let currentLeftCards = displayedLeftCards.filter(c => c.pairId !== card.pairId);
-          let currentRightCards = displayedRightCards.filter(c => c.pairId !== card.pairId);
+          const currentLeftCards = displayedLeftCards.filter(c => c.pairId !== card.pairId);
+          const currentRightCards = displayedRightCards.filter(c => c.pairId !== card.pairId);
 
           // Add new cards if available until MAX_DISPLAYED_PAIRS is reached or remaining words are exhausted
           while (currentLeftCards.length < MAX_DISPLAYED_PAIRS && remainingWordPairs.length > 0) {
@@ -116,6 +119,7 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
         }, 700); // Show green for a short duration
       } else {
         // No match or same side selection
+        soundEffects.playIncorrect();
         setFeedbackCards({
           [prevSelectedCard!.id]: 'incorrect',
           [card.id]: 'incorrect',
@@ -144,52 +148,54 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ words, onGameFinish 
   }
 
   return (
-    <div className="matching-game flex flex-col items-center gap-4">
-      <div className="flex justify-center gap-4 w-full">
-        <div className="left-column grid grid-cols-1 gap-4 w-1/2">
+    <div className="matching-game flex flex-col items-center gap-4 w-full">
+      <div className="flex justify-center gap-4 w-full max-w-4xl px-2 md:px-0">
+        <div className="left-column grid grid-cols-1 gap-3 w-1/2">
         {displayedLeftCards.map(card => (
           <Card
             key={card.id}
             className={cn(
-              "cursor-pointer p-4 flex items-center justify-center text-center h-24",
-              "transition-all duration-200 ease-in-out",
-              selectedCardId === card.id && "bg-blue-200 dark:bg-blue-700",
-              feedbackCards && feedbackCards[card.id] === 'correct' && "bg-green-500 dark:bg-green-600",
-              feedbackCards && feedbackCards[card.id] === 'incorrect' && "bg-red-500 dark:bg-red-600",
-              isChecking && selectedCardId !== card.id && "pointer-events-none opacity-70"
+              "cursor-pointer p-4 flex items-center justify-center text-center h-20 md:h-24 select-none",
+              "border border-slate-200 dark:border-slate-800 bg-card text-card-foreground shadow-sm rounded-xl",
+              "transition-all duration-200 ease-in-out hover:shadow-md hover:border-slate-300 dark:hover:border-slate-700 hover:-translate-y-[1px]",
+              selectedCardId === card.id && "border-2 border-indigo-500 bg-indigo-50/50 dark:bg-indigo-950/20 dark:border-indigo-400 text-indigo-700 dark:text-indigo-300 shadow-inner",
+              feedbackCards && feedbackCards[card.id] === 'correct' && "bg-emerald-500 border-emerald-600 text-white dark:bg-emerald-600 dark:border-emerald-700 animate-scale-pulse",
+              feedbackCards && feedbackCards[card.id] === 'incorrect' && "bg-rose-500 border-rose-600 text-white dark:bg-rose-600 dark:border-rose-700 animate-shake",
+              isChecking && selectedCardId !== card.id && "pointer-events-none opacity-60"
             )}
             onClick={() => handleCardClick(card)}
           >
             <CardContent className="p-0 flex items-center justify-center h-full w-full">
-              <p className="text-lg font-semibold">{card.text}</p>
+              <p className="text-sm md:text-lg font-semibold break-words leading-tight">{card.text}</p>
             </CardContent>
           </Card>
         ))}
         </div>
-        <div className="right-column grid grid-cols-1 gap-4 w-1/2">
+        <div className="right-column grid grid-cols-1 gap-3 w-1/2">
         {displayedRightCards.map(card => (
           <Card
             key={card.id}
             className={cn(
-              "cursor-pointer p-4 flex items-center justify-center text-center h-24",
-              "transition-all duration-200 ease-in-out",
-              selectedCardId === card.id && "bg-blue-200 dark:bg-blue-700",
-              feedbackCards && feedbackCards[card.id] === 'correct' && "bg-green-500 dark:bg-green-600",
-              feedbackCards && feedbackCards[card.id] === 'incorrect' && "bg-red-500 dark:bg-red-600",
-              isChecking && selectedCardId !== card.id && "pointer-events-none opacity-70"
+              "cursor-pointer p-4 flex items-center justify-center text-center h-20 md:h-24 select-none",
+              "border border-slate-200 dark:border-slate-800 bg-card text-card-foreground shadow-sm rounded-xl",
+              "transition-all duration-200 ease-in-out hover:shadow-md hover:border-slate-300 dark:hover:border-slate-700 hover:-translate-y-[1px]",
+              selectedCardId === card.id && "border-2 border-indigo-500 bg-indigo-50/50 dark:bg-indigo-950/20 dark:border-indigo-400 text-indigo-700 dark:text-indigo-300 shadow-inner",
+              feedbackCards && feedbackCards[card.id] === 'correct' && "bg-emerald-500 border-emerald-600 text-white dark:bg-emerald-600 dark:border-emerald-700 animate-scale-pulse",
+              feedbackCards && feedbackCards[card.id] === 'incorrect' && "bg-rose-500 border-rose-600 text-white dark:bg-rose-600 dark:border-rose-700 animate-shake",
+              isChecking && selectedCardId !== card.id && "pointer-events-none opacity-60"
             )}
             onClick={() => handleCardClick(card)}
           >
             <CardContent className="p-0 flex items-center justify-center h-full w-full">
-              <p className="text-lg font-semibold">{card.text}</p>
+              <p className="text-sm md:text-lg font-semibold break-words leading-tight">{card.text}</p>
             </CardContent>
           </Card>
         ))}
         </div>
       </div>
       <div className="flex gap-4 mt-4">
-        <Button onClick={handleShuffle}>Acak Ulang</Button>
-        <Button onClick={handleRestart}>Mulai Ulang</Button>
+        <Button onClick={handleShuffle} variant="outline">Acak Ulang</Button>
+        <Button onClick={handleRestart} variant="secondary">Mulai Ulang</Button>
       </div>
     </div>
   );

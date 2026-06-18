@@ -1,0 +1,309 @@
+{
+  "chapter": 37,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "기계",
+          "indonesian": "mesin",
+          "image": null
+        },
+        {
+          "korean": "끄다",
+          "indonesian": "mematikan",
+          "image": "/images/textbook/ch37/v1_1_끄다.jpg"
+        },
+        {
+          "korean": "끼다",
+          "indonesian": "Tersangkut, memakai (sarung tangan)",
+          "image": "/images/textbook/ch37/v1_2_끼다.jpg"
+        },
+        {
+          "korean": "끼우다",
+          "indonesian": "menempatkan",
+          "image": "/images/textbook/ch37/v1_3_끼우다.jpg"
+        },
+        {
+          "korean": "당기다",
+          "indonesian": "Menarik, menarik",
+          "image": "/images/textbook/ch37/v1_4_당기다.jpg"
+        },
+        {
+          "korean": "레버",
+          "indonesian": "Menarik tuas",
+          "image": "/images/textbook/ch37/v1_5_레버.jpg"
+        },
+        {
+          "korean": "멈추다",
+          "indonesian": "Berhenti",
+          "image": "/images/textbook/ch37/v1_6_멈추다.jpg"
+        },
+        {
+          "korean": "밀다",
+          "indonesian": "Mendorong, dorong, mendorong",
+          "image": "/images/textbook/ch37/v1_7_밀다.jpg"
+        },
+        {
+          "korean": "밀리다",
+          "indonesian": "Tergerus",
+          "image": "/images/textbook/ch37/v1_8_밀리다.jpg"
+        },
+        {
+          "korean": "부품",
+          "indonesian": "Komponen, komponen",
+          "image": "/images/textbook/ch37/v1_9_부품.jpg"
+        },
+        {
+          "korean": "빼다",
+          "indonesian": "disingkirkan, menyingkirkan, mengeluar kan, mengeluarkan, menghilangkan",
+          "image": "/images/textbook/ch37/v1_10_빼다.jpg"
+        },
+        {
+          "korean": "상",
+          "indonesian": "Atas, meja",
+          "image": "/images/textbook/ch37/v1_11_상.jpg"
+        },
+        {
+          "korean": "스위치",
+          "indonesian": "Saklar, tombol",
+          "image": "/images/textbook/ch37/v1_12_스위치.jpg"
+        },
+        {
+          "korean": "아무리",
+          "indonesian": "Tidak peduli seberapa banyak",
+          "image": "/images/textbook/ch37/v1_13_아무리.jpg"
+        },
+        {
+          "korean": "우",
+          "indonesian": "Kanan",
+          "image": "/images/textbook/ch37/v1_14_우.jpg"
+        },
+        {
+          "korean": "우선",
+          "indonesian": "Pertama",
+          "image": "/images/textbook/ch37/v1_15_우선.jpg"
+        },
+        {
+          "korean": "이물질",
+          "indonesian": "Zat asing",
+          "image": "/images/textbook/ch37/v1_16_이물질.jpg"
+        },
+        {
+          "korean": "작동(하다)",
+          "indonesian": "Mengoperasikan, Berfungsi, mengoprasikan",
+          "image": null
+        },
+        {
+          "korean": "장착(하다)",
+          "indonesian": "Memasang, memasukkan komponen",
+          "image": "/images/textbook/ch37/v1_18_장착(하다).jpg"
+        },
+        {
+          "korean": "전원",
+          "indonesian": "Saklar power, Daya",
+          "image": "/images/textbook/ch37/v1_19_전원.jpg"
+        },
+        {
+          "korean": "점검(하다)",
+          "indonesian": "Memeriksa, mengecek, memeriksa",
+          "image": "/images/textbook/ch37/v1_20_점검(하다).jpg"
+        },
+        {
+          "korean": "제대로",
+          "indonesian": "Dengan benar",
+          "image": null
+        },
+        {
+          "korean": "좌",
+          "indonesian": "Kiri",
+          "image": "/images/textbook/ch37/v1_22_좌.jpg"
+        },
+        {
+          "korean": "켜다",
+          "indonesian": "menyalakan",
+          "image": "/images/textbook/ch37/v1_23_켜다.jpg"
+        },
+        {
+          "korean": "하",
+          "indonesian": "Bawah",
+          "image": "/images/textbook/ch37/v1_24_하.jpg"
+        },
+        {
+          "korean": "해체(하다)",
+          "indonesian": "Membongkar, mengeluarkan komponen",
+          "image": "/images/textbook/ch37/v1_25_해체(하다).jpg"
+        },
+        {
+          "korean": "핸들",
+          "indonesian": "alat pembelit kabel",
+          "image": "/images/textbook/ch37/v1_26_핸들.jpg"
+        },
+        {
+          "korean": "환풍기",
+          "indonesian": "Ventilasi, ventilator",
+          "image": "/images/textbook/ch37/v1_27_환풍기.jpg"
+        },
+        {
+          "korean": "회전",
+          "indonesian": "Berputar",
+          "image": "/images/textbook/ch37/v1_28_회전.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "갈다",
+          "indonesian": "mengasah, menghaluskan",
+          "image": "/images/textbook/ch37/v2_0_갈다.jpg"
+        },
+        {
+          "korean": "공작물",
+          "indonesian": "Membuat benda kerja panjang",
+          "image": "/images/textbook/ch37/v2_1_공작물.jpg"
+        },
+        {
+          "korean": "구멍",
+          "indonesian": "mengebor lubang di batu",
+          "image": "/images/textbook/ch37/v2_2_구멍.jpg"
+        },
+        {
+          "korean": "구부리다",
+          "indonesian": "menekuk, membengkok, membungkuk",
+          "image": "/images/textbook/ch37/v2_3_구부리다.jpg"
+        },
+        {
+          "korean": "기구",
+          "indonesian": "Alat dan kegunaan",
+          "image": null
+        },
+        {
+          "korean": "낫다",
+          "indonesian": "Lebih baik",
+          "image": "/images/textbook/ch37/v2_5_낫다.jpg"
+        },
+        {
+          "korean": "도려내다",
+          "indonesian": "Memotong, memotong",
+          "image": "/images/textbook/ch37/v2_6_도려내다.jpg"
+        },
+        {
+          "korean": "도면",
+          "indonesian": "Gambar desain",
+          "image": "/images/textbook/ch37/v2_7_도면.jpg"
+        },
+        {
+          "korean": "드릴링머신",
+          "indonesian": "Mesin bor, Pemotong listrik, Kompresor udara",
+          "image": "/images/textbook/ch37/v2_8_드릴링머신.jpg"
+        },
+        {
+          "korean": "(먼지를) 떨다",
+          "indonesian": "mengibas debu",
+          "image": "/images/textbook/ch37/v2_9_(먼지를)_떨다.jpg"
+        },
+        {
+          "korean": "뚫다",
+          "indonesian": "melubangi",
+          "image": "/images/textbook/ch37/v2_10_뚫다.jpg"
+        },
+        {
+          "korean": "밀링 머신",
+          "indonesian": "Mesin freis",
+          "image": "/images/textbook/ch37/v2_11_밀링_머신.jpg"
+        },
+        {
+          "korean": "선반 기계",
+          "indonesian": "Mesin putar, mesin bubut",
+          "image": "/images/textbook/ch37/v2_12_선반_기계.jpg"
+        },
+        {
+          "korean": "압축(하다)",
+          "indonesian": "Kompres, Memampatkan",
+          "image": "/images/textbook/ch37/v2_13_압축(하다).jpg"
+        },
+        {
+          "korean": "양",
+          "indonesian": "domba, kuantitas, Jumlah",
+          "image": "/images/textbook/ch37/v2_14_양.jpg"
+        },
+        {
+          "korean": "에어컴프레서",
+          "indonesian": "kompresor udara",
+          "image": "/images/textbook/ch37/v2_15_에어컴프레서.jpg"
+        },
+        {
+          "korean": "용도",
+          "indonesian": "Alat dan kegunaan",
+          "image": null
+        },
+        {
+          "korean": "자르다",
+          "indonesian": "Memotong, memotong, memetong",
+          "image": "/images/textbook/ch37/v2_17_자르다.jpg"
+        },
+        {
+          "korean": "전동커터기",
+          "indonesian": "mesin pemotong listrik",
+          "image": "/images/textbook/ch37/v2_18_전동커터기.jpg"
+        },
+        {
+          "korean": "정확하다",
+          "indonesian": "Akurat, pasti, benar",
+          "image": "/images/textbook/ch37/v2_19_정확하다.jpg"
+        },
+        {
+          "korean": "찍어 내다",
+          "indonesian": "menyetempel",
+          "image": "/images/textbook/ch37/v2_20_찍어_내다.jpg"
+        },
+        {
+          "korean": "철판",
+          "indonesian": "plat besi",
+          "image": "/images/textbook/ch37/v2_21_철판.jpg"
+        },
+        {
+          "korean": "칩",
+          "indonesian": "Cekungan",
+          "image": "/images/textbook/ch37/v2_22_칩.jpg"
+        },
+        {
+          "korean": "프레스 기계",
+          "indonesian": "Mesin press, mesin press",
+          "image": "/images/textbook/ch37/v2_23_프레스_기계.jpg"
+        }
+      ]
+    },
+    {
+      "title": "한국의 가전제품 (Peralatan Rumah Tangga Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국의 가전제품은 최신 기능과 세련된 디자인을 바탕으로 세계인들의 사랑을 받고 있습니 다. 삼성과 LG가 한국 가전제품의 대표적인 브랜드인데, 텔레비전(TV), 냉장고, 세탁기, 에어 컨, 청소기, 전자레인지 등과 같은 다양한 가전제품이 전 세계 가전제품 시장을 휩쓸고 있습니 다. 2023년 미국 가전제품 시장 점유율을 보면 이 두 회사의 점유율이 40%를 차지할 정도로 한국의 가전제품은 인기가 많습니다.",
+          "indonesian": "Peralatan rumah tangga Korea disukai oleh orang-orang di seluruh dunia karena fungsi terbaru dan desainnya yang canggih. Samsung dan LG adalah merek terkemuka dalam peralatan rumah tangga Korea, dengan rangkaian produk seperti televisi, lemari es, mesin cuci, AC, penyedot debu, dan microwave mendominasi pasar global. Pada tahun 2023, peralatan rumah tangga Korea begitu populer sehingga Samsung dan LG bersama-sama menguasai 40% pangsa pasar peralatan rumah tangga AS."
+        },
+        {
+          "korean": "한국의 가전제품은 IoT(Internet of Things, 사물인터넷) 등의 첨단 기술을 활용한 스마트 기능도 잘 갖추고 있어 사용자가 더욱 편리하게 사용할 수 있습니다. 예를 들어, 사용자가 집 근처에 오면 에어컨이 자동으로 켜져서 더운 날 집에 들어가서 바로 땀을 식 힐 수 있습니다. 냉장고에는 원격 제어 기능뿐만 아니라 식품의 재고를 관리하고 유통 기한을 알려 주며 레시피를 추천하는 등의 스 마트 기능이 탑재되어 있습니다.",
+          "indonesian": "Peralatan rumah tangga Korea dilengkapi dengan fitur-fitur cerdas yang memanfaatkan teknologi canggih seperti Internet of Things (IoT), sehingga meningkatkan kenyamanan pengguna. Misalnya, AC yang dapat menyala secara otomatis ketika pengguna mendekati rumahnya, sehingga memungkinkan mereka memasuki lingkungan sejuk di hari yang panas. Kulkas dilengkapi dengan kemampuan kendali jarak jauh dan fitur pintar yang mengelola inventaris makanan, memberi tahu pengguna tentang tanggal kedaluwarsa, dan bahkan merekomendasikan resep."
+        },
+        {
+          "korean": "한편 최근에는 디자인과 기능을 소비자의 취향에 맞춘 비스포크 (bespoke) 가전제품들이 출시되어, 한국 제품의 인지도를 더욱 높이고 있 습니다. 비스포크 냉장고는 색상과 소재뿐만 아니라 냉동실과 냉장실의 위 치를 소비자가 선택할 수 있고, 제균 및 탈취 기능이나 쇼케이스(홈바)의 탑 재 여부도 소비자가 결정할 수 있습니다.",
+          "indonesian": "Akhir-akhir ini, peralatan rumah tangga Bespoke telah diperkenalkan, yang memenuhi preferensi konsumen baik dari segi desain maupun fungsionalitas, sehingga semakin meningkatkan pengakuan terhadap produk Korea. Lemari es yang dipesan lebih dahulu memungkinkan konsumen untuk memilih tidak hanya warna dan bahan tetapi juga penempatan kompartemen freezer dan lemari es. Selain itu, pengguna dapat memutuskan apakah akan menyertakan fitur seperti fungsi sterilisasi dan penghilang bau atau home bar."
+        },
+        {
+          "korean": "2023년 미국 생활가전 시장 점유율 단위:% 삼성 전자",
+          "indonesian": "LG"
+        },
+        {
+          "korean": "전자",
+          "indonesian": "GE"
+        }
+      ]
+    }
+  ]
+}

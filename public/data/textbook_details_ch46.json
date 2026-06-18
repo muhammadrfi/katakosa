@@ -1,0 +1,200 @@
+{
+  "chapter": 46,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "계량컵",
+          "indonesian": "gelas ukur",
+          "image": "/images/textbook/ch46/v1_0_계량컵.jpg"
+        },
+        {
+          "korean": "급수기",
+          "indonesian": "Pemberi air",
+          "image": "/images/textbook/ch46/v1_1_급수기.jpg"
+        },
+        {
+          "korean": "급여(하다)",
+          "indonesian": "pemberian pakan (memberi makan)",
+          "image": null
+        },
+        {
+          "korean": "급이기",
+          "indonesian": "Pemberi pakan",
+          "image": "/images/textbook/ch46/v1_3_급이기.jpg"
+        },
+        {
+          "korean": "나중에",
+          "indonesian": "nanti, nanti (lama)",
+          "image": null
+        },
+        {
+          "korean": "농장",
+          "indonesian": "pertanian",
+          "image": "/images/textbook/ch46/v1_5_농장.jpg"
+        },
+        {
+          "korean": "닭",
+          "indonesian": "ayam",
+          "image": "/images/textbook/ch46/v1_6_닭.jpg"
+        },
+        {
+          "korean": "돼지",
+          "indonesian": "babi",
+          "image": "/images/textbook/ch46/v1_7_돼지.jpg"
+        },
+        {
+          "korean": "말",
+          "indonesian": "kuda",
+          "image": null
+        },
+        {
+          "korean": "먹이",
+          "indonesian": "pakan, makanan",
+          "image": "/images/textbook/ch46/v1_9_먹이.jpg"
+        },
+        {
+          "korean": "바가지",
+          "indonesian": "Gayung pengambil pakan, gayung",
+          "image": "/images/textbook/ch46/v1_10_바가지.jpg"
+        },
+        {
+          "korean": "배합 사료",
+          "indonesian": "pakan majemuk",
+          "image": "/images/textbook/ch46/v1_11_배합_사료.jpg"
+        },
+        {
+          "korean": "사료",
+          "indonesian": "pakan ternak, pangan",
+          "image": null
+        },
+        {
+          "korean": "사료조",
+          "indonesian": "Tempat pakan",
+          "image": "/images/textbook/ch46/v1_13_사료조.jpg"
+        },
+        {
+          "korean": "소",
+          "indonesian": "sapi",
+          "image": "/images/textbook/ch46/v1_14_소.jpg"
+        },
+        {
+          "korean": "양",
+          "indonesian": "domba, kuantitas, Jumlah",
+          "image": null
+        },
+        {
+          "korean": "양계",
+          "indonesian": "kandang ayam",
+          "image": "/images/textbook/ch46/v1_16_양계.jpg"
+        },
+        {
+          "korean": "양돈",
+          "indonesian": "kandang babi",
+          "image": "/images/textbook/ch46/v1_17_양돈.jpg"
+        },
+        {
+          "korean": "양우",
+          "indonesian": "kandang sapi",
+          "image": "/images/textbook/ch46/v1_18_양우.jpg"
+        },
+        {
+          "korean": "오리",
+          "indonesian": "bebek",
+          "image": null
+        },
+        {
+          "korean": "짚",
+          "indonesian": "jerami",
+          "image": "/images/textbook/ch46/v1_20_짚.jpg"
+        },
+        {
+          "korean": "키우다",
+          "indonesian": "memelihara",
+          "image": "/images/textbook/ch46/v1_21_키우다.jpg"
+        },
+        {
+          "korean": "토끼",
+          "indonesian": "kelinci",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "건초",
+          "indonesian": "rumput kering",
+          "image": "/images/textbook/ch46/v2_0_건초.jpg"
+        },
+        {
+          "korean": "물청소(하다)",
+          "indonesian": "membersihkan dengan air",
+          "image": null
+        },
+        {
+          "korean": "분뇨",
+          "indonesian": "kotoran hewan",
+          "image": "/images/textbook/ch46/v2_2_분뇨.jpg"
+        },
+        {
+          "korean": "분뇨 탱크",
+          "indonesian": "Tangki penyimpan kotoran, tabung kotoran",
+          "image": "/images/textbook/ch46/v2_3_분뇨_탱크.jpg"
+        },
+        {
+          "korean": "양계장",
+          "indonesian": "kandang ayam ternak",
+          "image": "/images/textbook/ch46/v2_4_양계장.jpg"
+        },
+        {
+          "korean": "우방",
+          "indonesian": "Kios, tempat",
+          "image": null
+        },
+        {
+          "korean": "이동시키다",
+          "indonesian": "bergerak",
+          "image": null
+        },
+        {
+          "korean": "축사",
+          "indonesian": "kandang",
+          "image": null
+        },
+        {
+          "korean": "톱밥",
+          "indonesian": "serbuk gergaji",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "한국의 육류 소비 (Konsumsi Daging Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국인의 육류 소비량은 지난 몇십 년 동안 크게 증가했습니다. 2023년에 처음으로 1인당 육류 소비량이 60kg을 넘어섰는데, 1인당 쌀 소비량(56.4kg)보다 많은 것입니다.",
+          "indonesian": "Konsumsi daging per kapita di Korea telah meningkat secara signifikan selama beberapa dekade terakhir. Pada tahun 2023, konsumsi daging per kapita untuk pertama kalinya melebihi 60 kg, melampaui konsumsi beras per kapita (56,4 kg)."
+        },
+        {
+          "korean": "한국인은 소고기, 닭고기, 돼지고기 등 다양한 육류를 즐깁니다. 그중에서도 한국을 대표하는 음식 중 하나로 삼 겹살이 꼽힐 정도로 한국인은 돼지고기를 많이 먹습니다.",
+          "indonesian": "Orang Korea mengonsumsi berbagai jenis daging, termasuk daging sapi, ayam, dan babi. Diantaranya, daging babi sangat populer, dengan hidangan seperti samgyeopsal menjadi salah satu makanan khas Korea."
+        },
+        {
+          "korean": "그 뒤를 이어 소비량이 많은 것은 닭고기와 소고기입니다. 닭고기는 삼계 탕, 찜닭, 닭갈비, 프라이드치킨 등 다양한 요리의 재료로 사용됩니다. 특히 한국의 프라이드치킨은 세계적으로 매우 인기가 있습니다. 대구에서는 매년 여름 치킨과 맥주를 함께 즐기는 ‘치맥(치킨+맥주) 페스티벌’이 열리는데 많 은 한국인들이 찾아와 치킨 축제를 즐깁니다. 소고기는 육류 중에서도 가장 고급의 식재료로 인식되어 한국에서 나고 자란 소를 가리키는 ‘한우(한국의 소)’는 고급 육류의 대명사처럼 쓰이고 있습니다.",
+          "indonesian": "Setelah daging babi, daging ayam dan sapi menjadi daging berikutnya yang paling banyak dikonsumsi. Ayam digunakan dalam berbagai masakan seperti samgyetang, jjimdak, dakgalbi, dan ayam goreng. Ayam goreng Korea, khususnya, sangat populer di seluruh dunia. Di Daegu, “Festival Chimaek (ayam + bir)” tahunan diadakan setiap musim panas, di mana banyak orang Korea datang untuk menikmati festival ayam. Daging sapi dianggap sebagai daging pilihan premium, dengan hanwoo, sapi yang dipelihara di Korea, dipandang sebagai simbol daging berkualitas tinggi."
+        },
+        {
+          "korean": "이처럼 한국에서는 육류가 많이 소비되고 있지만, 최근 들어서는 건강과 환경 문제에 대한 관심이 증가하면서 채 식주의자나 육류 소비를 줄이는 사람들이 늘고 있습니다. 이에 따라 식물성 고기나 비건 제품에 대한 수요도 증가하 고 있습니다.",
+          "indonesian": "Meskipun konsumsi daging di Korea tinggi, kekhawatiran terkini mengenai masalah kesehatan dan lingkungan telah menyebabkan peningkatan jumlah vegetarian dan orang-orang yang mengurangi konsumsi daging. Akibatnya, permintaan terhadap daging nabati dan produk vegan juga meningkat."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "chapter": 15,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "구두",
+          "indonesian": "Sepatu kulit, sepatu, sepatu (kulit)",
+          "image": "/images/textbook/ch15/v1_0_구두.jpg"
+        },
+        {
+          "korean": "모자",
+          "indonesian": "Topi, topi",
+          "image": "/images/textbook/ch15/v1_1_모자.jpg"
+        },
+        {
+          "korean": "반바지",
+          "indonesian": "Celana pendek, celana pendek",
+          "image": "/images/textbook/ch15/v1_2_반바지.jpg"
+        },
+        {
+          "korean": "선글라스",
+          "indonesian": "kacamata hitam",
+          "image": "/images/textbook/ch15/v1_3_선글라스.jpg"
+        },
+        {
+          "korean": "슬리퍼",
+          "indonesian": "Sandal, sendal, sandal (utk di dlm rumah)",
+          "image": "/images/textbook/ch15/v1_4_슬리퍼.jpg"
+        },
+        {
+          "korean": "신다",
+          "indonesian": "Memakai di kaki, memakai (sepatu), asam",
+          "image": "/images/textbook/ch15/v1_5_신다.jpg"
+        },
+        {
+          "korean": "쓰다",
+          "indonesian": "Memakai di kepala, Pahit, Menulis, Menggunakan, pahit, menggunakan, menulis",
+          "image": null
+        },
+        {
+          "korean": "액세서리",
+          "indonesian": "Aksesori",
+          "image": null
+        },
+        {
+          "korean": "양말",
+          "indonesian": "Kaos kaki, kaus kaki",
+          "image": "/images/textbook/ch15/v1_8_양말.jpg"
+        },
+        {
+          "korean": "운동화",
+          "indonesian": "Sepatu olahraga, sepatu olah raga",
+          "image": "/images/textbook/ch15/v1_9_운동화.jpg"
+        },
+        {
+          "korean": "원피스",
+          "indonesian": "gaun, terusan",
+          "image": "/images/textbook/ch15/v1_10_원피스.jpg"
+        },
+        {
+          "korean": "입다",
+          "indonesian": "Memakai di badan, memakai (pakaian), memakai",
+          "image": null
+        },
+        {
+          "korean": "잠바",
+          "indonesian": "jaket",
+          "image": "/images/textbook/ch15/v1_12_잠바.jpg"
+        },
+        {
+          "korean": "장화",
+          "indonesian": "Sepatu boot, sapatu boot",
+          "image": "/images/textbook/ch15/v1_13_장화.jpg"
+        },
+        {
+          "korean": "청바지",
+          "indonesian": "Celana panjang denim, celana jeans",
+          "image": "/images/textbook/ch15/v1_14_청바지.jpg"
+        },
+        {
+          "korean": "치마",
+          "indonesian": "Rok, rok, chima (rok)",
+          "image": "/images/textbook/ch15/v1_15_치마.jpg"
+        },
+        {
+          "korean": "티셔츠",
+          "indonesian": "Kaos, kaus",
+          "image": "/images/textbook/ch15/v1_16_티셔츠.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "갈색",
+          "indonesian": "Coklat, coklat muda",
+          "image": "/images/textbook/ch15/v2_0_갈색.jpg"
+        },
+        {
+          "korean": "결혼식",
+          "indonesian": "Acara pernikahan, Upacara pernikahan, pernikahan",
+          "image": "/images/textbook/ch15/v2_1_결혼식.jpg"
+        },
+        {
+          "korean": "까만색",
+          "indonesian": "hitam",
+          "image": "/images/textbook/ch15/v2_2_까만색.jpg"
+        },
+        {
+          "korean": "노란색",
+          "indonesian": "Kuning, kuning",
+          "image": "/images/textbook/ch15/v2_3_노란색.jpg"
+        },
+        {
+          "korean": "밝다",
+          "indonesian": "Terang, terang",
+          "image": "/images/textbook/ch15/v2_4_밝다.jpg"
+        },
+        {
+          "korean": "보라색",
+          "indonesian": "ungu",
+          "image": "/images/textbook/ch15/v2_5_보라색.jpg"
+        },
+        {
+          "korean": "분홍색",
+          "indonesian": "merah muda",
+          "image": "/images/textbook/ch15/v2_6_분홍색.jpg"
+        },
+        {
+          "korean": "빨간색",
+          "indonesian": "Merah, merah, Warna merah",
+          "image": "/images/textbook/ch15/v2_7_빨간색.jpg"
+        },
+        {
+          "korean": "색깔",
+          "indonesian": "Warna, warna",
+          "image": null
+        },
+        {
+          "korean": "쇼핑몰",
+          "indonesian": "Mal perbelanjaan",
+          "image": null
+        },
+        {
+          "korean": "어둡다",
+          "indonesian": "Gelap, gelap",
+          "image": "/images/textbook/ch15/v2_10_어둡다.jpg"
+        },
+        {
+          "korean": "주황색",
+          "indonesian": "Jingga, Orange",
+          "image": "/images/textbook/ch15/v2_11_주황색.jpg"
+        },
+        {
+          "korean": "초록색",
+          "indonesian": "Hijau, hijau",
+          "image": "/images/textbook/ch15/v2_12_초록색.jpg"
+        },
+        {
+          "korean": "파란색",
+          "indonesian": "Biru, biru, Warna biru",
+          "image": "/images/textbook/ch15/v2_13_파란색.jpg"
+        },
+        {
+          "korean": "하나",
+          "indonesian": "tuhan, Tuhan",
+          "image": null
+        },
+        {
+          "korean": "하얀색",
+          "indonesian": "Putih, putih",
+          "image": "/images/textbook/ch15/v2_15_하얀색.jpg"
+        },
+        {
+          "korean": "회색",
+          "indonesian": "Abu-abu, abu-abu",
+          "image": "/images/textbook/ch15/v2_16_회색.jpg"
+        }
+      ]
+    },
+    {
+      "title": "한국의 전통 의상 (Pakaian Tradisional Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한복은 한국의 전통 의상입니다. 한복은 색상이 화려하며, 디자인 이 우아하고 아름답습니다. 그래서 한국 사람들은 설날이나 결혼식 과 같이 특별하고 중요한 날에는 전통 한복을 입습니다.",
+          "indonesian": "‘Hanbok' adalah pakaian tradisional Korea. Hanbok berwarna- warni, dan desainnya elegan dan indah. Oleh karena itu, orang Korea mengenakan hanbok tradisional pada hari-hari khusus dan penting, seperti Tahun Baru atau pernikahan."
+        },
+        {
+          "korean": "남성 한복은 바지와 저고리, 조끼로 구성되고, 여성 한복은 치마와 저고리로 구성됩니다. 한복은 자연스러운 주름과 풍성한 실루엣으로 모든 체형의 사람들에게 어울린다는 장점이 있습니다.",
+          "indonesian": "Hanbok pria terdiri dari celana, jaket, dan rompi, sedangkan hanbok wanita terdiri dari rok dan jaket. Keuntungan Hanbok terlihat bagus untuk semua bentuk tubuh karena lipatannya yang alami dan siluetnya yang tebal."
+        },
+        {
+          "korean": "그러나 전통 한복은 평상복으로 입기에는 다소 불편한 점이 있어 요즘에는 전통 한 복을 개량하여 만든 생활한복을 입는 사람들이 많아지고 있습니다. 생활한복은 전통 한복보다 디자인이 단순하고 실용적이어서 언제나 편하게 입을 수 있습니다. 이러한 한복의 변화는 한복의 대중화에 기여하였습니다.",
+          "indonesian": "Namun, hanbok tradisional mungkin terasa tidak nyaman untuk dikenakan sebagai pakaian sehari-hari. Itu sebabnya belakangan ini semakin banyak orang yang memakai hanbok modifikasi yang disebut saenghwal hanbok (hanbok modern), yang desainnya lebih sederhana dan praktis. Karena lebih nyaman dipakai kapan saja, perubahan pada hanbok ini berkontribusi terhadap popularitasnya."
+        },
+        {
+          "korean": "한복은 입는 사람의 연령이나 역할 등에 따라 색깔과 디자인이 조금 다릅니다. 결혼식 에서 신랑의 어머니는 보통 푸른색 계통의 점잖은 한복을 입고, 신부의 어머니는 분 홍색 계통의 단아한 한복을 입습니다.",
+          "indonesian": "Warna dan desain hanbok sedikit berbeda tergantung usia dan peran pemakainya. Misalnya, pada pesta pernikahan, ibu mempelai pria biasanya mengenakan hanbok cantik dengan warna biru, sedangkan ibu mempelai wanita mengenakan hanbok sederhana dengan warna pink."
+        },
+        {
+          "korean": "최근 들어서는 한복 페스티벌이나 한복 패션쇼 등을 통해 한복의 아름다움을 세계적으로 널리 알리려는 노력이 이어지고 있습니다.",
+          "indonesian": "Baru-baru ini upaya telah dilakukan untuk mempromosikan keindahan hanbok secara global melalui festival hanbok dan peragaan busana hanbok."
+        }
+      ]
+    }
+  ]
+}

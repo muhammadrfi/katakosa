@@ -1,0 +1,184 @@
+{
+  "chapter": 22,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가렵다",
+          "indonesian": "Gatal",
+          "image": "/images/textbook/ch22/v1_0_가렵다.jpg"
+        },
+        {
+          "korean": "기침(하다)",
+          "indonesian": "batuk",
+          "image": "/images/textbook/ch22/v1_1_기침(하다).jpg"
+        },
+        {
+          "korean": "마스크",
+          "indonesian": "Masker, masker",
+          "image": "/images/textbook/ch22/v1_2_마스크.jpg"
+        },
+        {
+          "korean": "목이\t붓다",
+          "indonesian": "Leher bengkak",
+          "image": "/images/textbook/ch22/v1_3_목이_붓다.jpg"
+        },
+        {
+          "korean": "배탈이\t나다",
+          "indonesian": "Diare, sakit perut",
+          "image": "/images/textbook/ch22/v1_4_배탈이_나다.jpg"
+        },
+        {
+          "korean": "보관(하다)",
+          "indonesian": "Menyimpan, menyimpan",
+          "image": "/images/textbook/ch22/v1_5_보관(하다).jpg"
+        },
+        {
+          "korean": "비상약",
+          "indonesian": "Obat darurat",
+          "image": "/images/textbook/ch22/v1_6_비상약.jpg"
+        },
+        {
+          "korean": "뼈가\t부러지다",
+          "indonesian": "Tulang patah",
+          "image": "/images/textbook/ch22/v1_7_뼈가_부러지다.jpg"
+        },
+        {
+          "korean": "설사(하다)",
+          "indonesian": "diare, mencret",
+          "image": "/images/textbook/ch22/v1_8_설사(하다).jpg"
+        },
+        {
+          "korean": "소화가\t안\t되다",
+          "indonesian": "mual",
+          "image": "/images/textbook/ch22/v1_9_소화가_안_되다.jpg"
+        },
+        {
+          "korean": "손이\t베이다",
+          "indonesian": "Tangan terluka",
+          "image": "/images/textbook/ch22/v1_10_손이_베이다.jpg"
+        },
+        {
+          "korean": "열",
+          "indonesian": "demam, panas",
+          "image": "/images/textbook/ch22/v1_11_열.jpg"
+        },
+        {
+          "korean": "열이\t나다/있다",
+          "indonesian": "Demam",
+          "image": "/images/textbook/ch22/v1_12_열이_나다_있다.jpg"
+        },
+        {
+          "korean": "졸리다",
+          "indonesian": "Mengantuk, mengantuk",
+          "image": "/images/textbook/ch22/v1_13_졸리다.jpg"
+        },
+        {
+          "korean": "콧물이\t나다",
+          "indonesian": "Pilek, ingusan",
+          "image": "/images/textbook/ch22/v1_14_콧물이_나다.jpg"
+        },
+        {
+          "korean": "토(하다)",
+          "indonesian": "Muntah, muntah",
+          "image": "/images/textbook/ch22/v1_15_토(하다).jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "반창고",
+          "indonesian": "Plester luka, plaster",
+          "image": null
+        },
+        {
+          "korean": "밴드",
+          "indonesian": "Perban, pita, plester, plaster plastik",
+          "image": null
+        },
+        {
+          "korean": "밴드를\t붙이다",
+          "indonesian": "Menempelkan perban, menempelkan plester",
+          "image": "/images/textbook/ch22/v2_2_밴드를_붙이다.jpg"
+        },
+        {
+          "korean": "붕대",
+          "indonesian": "Perban, kasa, perban",
+          "image": null
+        },
+        {
+          "korean": "붕대를\t감다",
+          "indonesian": "Membalut dengan perban",
+          "image": "/images/textbook/ch22/v2_4_붕대를_감다.jpg"
+        },
+        {
+          "korean": "소독(하다)",
+          "indonesian": "mendesinfeksi / mensterilkan",
+          "image": "/images/textbook/ch22/v2_5_소독(하다).jpg"
+        },
+        {
+          "korean": "소독약",
+          "indonesian": "Obat antiseptik, antiseptic",
+          "image": "/images/textbook/ch22/v2_6_소독약.jpg"
+        },
+        {
+          "korean": "알약",
+          "indonesian": "Pil, pill, tablet",
+          "image": null
+        },
+        {
+          "korean": "약을\t먹다",
+          "indonesian": "Minum obat, makan, minum obat",
+          "image": "/images/textbook/ch22/v2_8_약을_먹다.jpg"
+        },
+        {
+          "korean": "약을\t뿌리다",
+          "indonesian": "Menyemprotkan obat",
+          "image": "/images/textbook/ch22/v2_9_약을_뿌리다.jpg"
+        },
+        {
+          "korean": "연고",
+          "indonesian": "Salep, salep",
+          "image": null
+        },
+        {
+          "korean": "연고를\t바르다",
+          "indonesian": "Mengoleskan salep, mengoleskan salep",
+          "image": "/images/textbook/ch22/v2_11_연고를_바르다.jpg"
+        },
+        {
+          "korean": "영양제",
+          "indonesian": "suplemen nutrisi / vitamin",
+          "image": null
+        },
+        {
+          "korean": "의약품",
+          "indonesian": "Obat-obatan",
+          "image": null
+        },
+        {
+          "korean": "치료법",
+          "indonesian": "Metode pengobatan",
+          "image": null
+        },
+        {
+          "korean": "파스",
+          "indonesian": "koyo pelindung nyeri",
+          "image": null
+        },
+        {
+          "korean": "파스를\t붙이다",
+          "indonesian": "Menempelkan plester, menempelkan tambalan (patch)",
+          "image": "/images/textbook/ch22/v2_16_파스를_붙이다.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

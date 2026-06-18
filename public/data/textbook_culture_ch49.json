@@ -1,0 +1,44 @@
+{
+  "chapter": 49,
+  "sections": [
+    {
+      "title": "전선 접속 방법 (Metode Penyambungan Kabel Listrik)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "전선을 접속하기 전에 안전을 위하여 안전장갑을 착용하고 전원에서 전선을 분리합니다. 전선이 전원에 연결된 상태에 서 작업을 하거나 젖은 손으로 작업을 하면 감전 사고가 발생 할 수 있기 때문에 위험합니다.",
+          "indonesian": "Sebelum menyambungkan kabel listrik, kenakan sarung tangan pengaman dan lepaskan kabel dari sumber listrik demi keselamatan. Berbahaya bekerja dengan kabel yang masih tersambung ke sumber listrik atau dengan tangan basah, karena dapat menyebabkan sengatan listrik."
+        },
+        {
+          "korean": "그 다음 자를 이용하여 한쪽 전선의 끝부분에서 6cm 정도 되는 위치를 재고, 롱노즈 플라이어를 사용하여 전선 피복을 벗깁니다. 그리고 다른 전선도 동일한 방법으로 피복을 벗깁 니다.",
+          "indonesian": "Selanjutnya, gunakan penggaris untuk mengukur kira-kira 6 cm dari ujung salah satu kawat dan lepaskan insulasi menggunakan tang hidung panjang. Ulangi proses yang sama untuk kabel lainnya."
+        },
+        {
+          "korean": "다음으로 롱노즈 플라이어를 사용하여 피복을 벗겨낸 두 개의 구리선을 트위스트 방식으로 묶습니다. 두 구리선은 간 격이 생기지 않도록 촘촘하게 묶어야 하고, 다 묶은 뒤에 구리 선의 끝부분은 롱노즈 플라이어를 사용하여 깔끔하게 고정시 켜야 합니다.",
+          "indonesian": "Selanjutnya, gunakan tang berujung panjang untuk memelintir kedua kabel tembaga yang sudah dikupas menjadi satu. Kabel harus dipelintir dengan erat untuk menghindari celah, dan setelah dipelintir, ujung kabel tembaga harus diikat dengan rapi menggunakan tang hidung panjang."
+        },
+        {
+          "korean": "전선을 접속할 때는 먼저 안전장갑, 롱노즈 플라이어, 자를 준비합니다.",
+          "indonesian": "Saat menyambung kabel listrik, siapkan terlebih dahulu sarung tangan pengaman, tang hidung panjang, dan penggaris."
+        },
+        {
+          "korean": "전선",
+          "indonesian": "kabel listrik"
+        },
+        {
+          "korean": "롱 노즈 플라이어",
+          "indonesian": "tang berhidung panjang"
+        },
+        {
+          "korean": "안전장갑",
+          "indonesian": "sarung tangan keselamatan"
+        },
+        {
+          "korean": "자",
+          "indonesian": "penggaris"
+        }
+      ]
+    }
+  ]
+}

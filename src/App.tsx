@@ -8,6 +8,7 @@ import { Suspense, lazy } from "react";
 import Navbar from "./layout/Navbar";
 import ErrorBoundary from "./error/ErrorBoundary";
 import { Loading } from '@/components/ui/Loading';
+import { AiAssistant } from "@/components/AiAssistant";
 
 // Lazy load all page components for better performance
 const DashboardPage = lazy(() => import("./features/dashboard/DashboardPage"));
@@ -30,6 +31,10 @@ const MatchingPracticePage = lazy(() => import("./features/matching-game/Matchin
 const MemorizationPracticePage = lazy(() => import("./features/memorization-practice/MemorizationPracticePage"));
 const WritingPracticePage = lazy(() => import("./features/writing-practice/WritingPracticePage"));
 const CustomVocabularyPage = lazy(() => import("./features/vocabulary/CustomVocabularyPage"));
+const TimeAttackPracticePage = lazy(() => import("./features/practice-projects/TimeAttackPracticePage"));
+const DictationPracticePage = lazy(() => import("./features/practice-projects/DictationPracticePage"));
+const TryoutPage = lazy(() => import("./features/epstopik-tryout/TryoutPage"));
+const TextbookMaterialPage = lazy(() => import("./features/vocabulary/TextbookMaterialPage"));
 
 const queryClient = new QueryClient();
 
@@ -64,13 +69,18 @@ const App = () => (
                       <Route path="quiz" element={<TestPage />} />
                       <Route path="flipbook" element={<FlipbookPage />} />
                       <Route path="writing" element={<WritingPracticePage />} />
+                      <Route path="time-attack" element={<TimeAttackPracticePage />} />
+                      <Route path="dictation" element={<DictationPracticePage />} />
                     </Route>
             <Route path="/latihan/ulasan" element={<ReviewPracticePage />} />
                     <Route path="/kosakata-kustom" element={<CustomVocabularyPage />} />
+                    <Route path="/tryout" element={<TryoutPage />} />
+                    <Route path="/materi-buku" element={<TextbookMaterialPage />} />
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </Suspense>
               </main>
+              <AiAssistant />
               <footer className="w-full py-4 text-center text-sm text-gray-500 dark:text-gray-400">
                 <p>&copy; 2025 Katakosa. All rights reserved.</p>
                 <p>Ikuti kami di Instagram: <a href="https://www.instagram.com/_muhammadrfi" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">@_muhammadrfi</a></p>

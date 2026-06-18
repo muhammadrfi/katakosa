@@ -1,0 +1,154 @@
+{
+  "chapter": 32,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "계단",
+          "indonesian": "Tangga, tangga",
+          "image": "/images/textbook/ch32/v1_0_계단.jpg"
+        },
+        {
+          "korean": "공용",
+          "indonesian": "Umum",
+          "image": "/images/textbook/ch32/v1_1_공용.jpg"
+        },
+        {
+          "korean": "관리인",
+          "indonesian": "Petugas pengelola, pengelola",
+          "image": "/images/textbook/ch32/v1_2_관리인.jpg"
+        },
+        {
+          "korean": "규칙",
+          "indonesian": "peraturan / aturan",
+          "image": "/images/textbook/ch32/v1_3_규칙.jpg"
+        },
+        {
+          "korean": "다른",
+          "indonesian": "lain, berbeda",
+          "image": "/images/textbook/ch32/v1_4_다른.jpg"
+        },
+        {
+          "korean": "데려오다",
+          "indonesian": "Membawa (seseorang)",
+          "image": "/images/textbook/ch32/v1_5_데려오다.jpg"
+        },
+        {
+          "korean": "복도",
+          "indonesian": "Koridor, lorong, koridor",
+          "image": "/images/textbook/ch32/v1_6_복도.jpg"
+        },
+        {
+          "korean": "샤워실",
+          "indonesian": "Kamar mandi, kamar mandi",
+          "image": "/images/textbook/ch32/v1_7_샤워실.jpg"
+        },
+        {
+          "korean": "세탁실",
+          "indonesian": "Ruang cuci, ruang cuci, laundry",
+          "image": "/images/textbook/ch32/v1_8_세탁실.jpg"
+        },
+        {
+          "korean": "어기다",
+          "indonesian": "melanggar",
+          "image": "/images/textbook/ch32/v1_9_어기다.jpg"
+        },
+        {
+          "korean": "조리실",
+          "indonesian": "Dapur",
+          "image": "/images/textbook/ch32/v1_10_조리실.jpg"
+        },
+        {
+          "korean": "출입문",
+          "indonesian": "Pintu masuk, pintu masuk",
+          "image": "/images/textbook/ch32/v1_11_출입문.jpg"
+        },
+        {
+          "korean": "혼자",
+          "indonesian": "Sendiri, Sendirian, sendiri",
+          "image": "/images/textbook/ch32/v1_12_혼자.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가지다",
+          "indonesian": "Memiliki, membawa",
+          "image": "/images/textbook/ch32/v2_0_가지다.jpg"
+        },
+        {
+          "korean": "구내식당",
+          "indonesian": "kantin sekolah/perusahaan",
+          "image": null
+        },
+        {
+          "korean": "끼리",
+          "indonesian": "Antara (kelompok), Kelompok, sesama",
+          "image": "/images/textbook/ch32/v2_2_끼리.jpg"
+        },
+        {
+          "korean": "놓다",
+          "indonesian": "Meletakkan, meletakkan, menaruh",
+          "image": "/images/textbook/ch32/v2_3_놓다.jpg"
+        },
+        {
+          "korean": "담다",
+          "indonesian": "Menyajikan (makanan), memasukan, memenu\nhi, mengisi, menaruh",
+          "image": "/images/textbook/ch32/v2_4_담다.jpg"
+        },
+        {
+          "korean": "도시락",
+          "indonesian": "Bekal makan siang",
+          "image": "/images/textbook/ch32/v2_5_도시락.jpg"
+        },
+        {
+          "korean": "미리",
+          "indonesian": "Sebelumnya, lebih dulu, sebelumnya",
+          "image": "/images/textbook/ch32/v2_6_미리.jpg"
+        },
+        {
+          "korean": "배식대",
+          "indonesian": "Meja pembagian makanan",
+          "image": "/images/textbook/ch32/v2_7_배식대.jpg"
+        },
+        {
+          "korean": "식권",
+          "indonesian": "Kupon makan",
+          "image": "/images/textbook/ch32/v2_8_식권.jpg"
+        },
+        {
+          "korean": "식단표",
+          "indonesian": "Menu makanan",
+          "image": "/images/textbook/ch32/v2_9_식단표.jpg"
+        },
+        {
+          "korean": "식수대",
+          "indonesian": "Area pengambilan air minum",
+          "image": "/images/textbook/ch32/v2_10_식수대.jpg"
+        },
+        {
+          "korean": "식판",
+          "indonesian": "Tray makan",
+          "image": "/images/textbook/ch32/v2_11_식판.jpg"
+        },
+        {
+          "korean": "퇴식구",
+          "indonesian": "Area pembersihan piring",
+          "image": "/images/textbook/ch32/v2_12_퇴식구.jpg"
+        },
+        {
+          "korean": "할인되다",
+          "indonesian": "Didiskon",
+          "image": "/images/textbook/ch32/v2_13_할인되다.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

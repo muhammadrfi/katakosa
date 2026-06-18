@@ -1,0 +1,194 @@
+{
+  "chapter": 7,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가을",
+          "indonesian": "Musim gugur, musim gugur",
+          "image": "/images/textbook/ch7/v1_0_가을.jpg"
+        },
+        {
+          "korean": "겨울",
+          "indonesian": "Musim dingin, musim dingin",
+          "image": "/images/textbook/ch7/v1_1_겨울.jpg"
+        },
+        {
+          "korean": "계절",
+          "indonesian": "Musim, musim",
+          "image": null
+        },
+        {
+          "korean": "너무",
+          "indonesian": "terlalu",
+          "image": "/images/textbook/ch7/v1_3_너무.jpg"
+        },
+        {
+          "korean": "덥다",
+          "indonesian": "Panas (cuaca), panas, panas (cuaca)",
+          "image": "/images/textbook/ch7/v1_4_덥다.jpg"
+        },
+        {
+          "korean": "따뜻하다",
+          "indonesian": "Hangat, hangat",
+          "image": "/images/textbook/ch7/v1_5_따뜻하다.jpg"
+        },
+        {
+          "korean": "뜨겁다",
+          "indonesian": "Panas (benda), panas, panas (benda)",
+          "image": "/images/textbook/ch7/v1_6_뜨겁다.jpg"
+        },
+        {
+          "korean": "봄",
+          "indonesian": "Musim semi, musim semi",
+          "image": "/images/textbook/ch7/v1_7_봄.jpg"
+        },
+        {
+          "korean": "쉽다",
+          "indonesian": "Mudah, mudah",
+          "image": "/images/textbook/ch7/v1_8_쉽다.jpg"
+        },
+        {
+          "korean": "시원하다",
+          "indonesian": "Sejuk, segar, sejuk",
+          "image": "/images/textbook/ch7/v1_9_시원하다.jpg"
+        },
+        {
+          "korean": "어때요?",
+          "indonesian": "Bagaimana?, bagaimana",
+          "image": "/images/textbook/ch7/v1_10_어때요.jpg"
+        },
+        {
+          "korean": "어렵다",
+          "indonesian": "sulit, susah, Sulit",
+          "image": "/images/textbook/ch7/v1_11_어렵다.jpg"
+        },
+        {
+          "korean": "여름",
+          "indonesian": "Musim panas, musim panas",
+          "image": "/images/textbook/ch7/v1_12_여름.jpg"
+        },
+        {
+          "korean": "영어",
+          "indonesian": "Bahasa Inggris, bahasa inggris",
+          "image": "/images/textbook/ch7/v1_13_영어.jpg"
+        },
+        {
+          "korean": "조금",
+          "indonesian": "sedikit",
+          "image": "/images/textbook/ch7/v1_14_조금.jpg"
+        },
+        {
+          "korean": "차갑다",
+          "indonesian": "Dingin (benda)",
+          "image": "/images/textbook/ch7/v1_15_차갑다.jpg"
+        },
+        {
+          "korean": "춥다",
+          "indonesian": "Dingin (cuaca), dingin, dingin (cuaca)",
+          "image": "/images/textbook/ch7/v1_16_춥다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "그치다",
+          "indonesian": "berhenti",
+          "image": "/images/textbook/ch7/v2_0_그치다.jpg"
+        },
+        {
+          "korean": "나쁘다",
+          "indonesian": "buruk, jahat",
+          "image": null
+        },
+        {
+          "korean": "날씨",
+          "indonesian": "cuaca",
+          "image": null
+        },
+        {
+          "korean": "눈이\t오다",
+          "indonesian": "turun salju",
+          "image": "/images/textbook/ch7/v2_3_눈이_오다.jpg"
+        },
+        {
+          "korean": "많이",
+          "indonesian": "Banyak, sangat, banyak",
+          "image": "/images/textbook/ch7/v2_4_많이.jpg"
+        },
+        {
+          "korean": "맑다",
+          "indonesian": "Jernih, cerah, jernih",
+          "image": "/images/textbook/ch7/v2_5_맑다.jpg"
+        },
+        {
+          "korean": "바람이\t불다",
+          "indonesian": "bertiup angin",
+          "image": null
+        },
+        {
+          "korean": "별로",
+          "indonesian": "tidak terlalu",
+          "image": "/images/textbook/ch7/v2_7_별로.jpg"
+        },
+        {
+          "korean": "비가\t오다",
+          "indonesian": "Hujan turun, turun hujan",
+          "image": "/images/textbook/ch7/v2_8_비가_오다.jpg"
+        },
+        {
+          "korean": "여보세요?",
+          "indonesian": "halo",
+          "image": "/images/textbook/ch7/v2_9_여보세요.jpg"
+        },
+        {
+          "korean": "정말",
+          "indonesian": "sangat, sungguh",
+          "image": "/images/textbook/ch7/v2_10_정말.jpg"
+        },
+        {
+          "korean": "좋다",
+          "indonesian": "bagus, baik",
+          "image": null
+        },
+        {
+          "korean": "흐리다",
+          "indonesian": "Mengalir, mendung",
+          "image": "/images/textbook/ch7/v2_12_흐리다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "날씨 (Cuaca)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국은 봄, 여름, 가을, 겨울 사계절이 뚜렷한 나라입니다. 봄(3월~5월)은 따뜻하며, 벚꽃, 영산홍과 같은 아름다운 꽃이 많이 핍니다. 사람들은 봄맞이 꽃구경도 가고 아름다운 봄 경치를 즐깁니다.",
+          "indonesian": "Korea memiliki empat musim yang berbeda: musim semi, musim panas, musim gugur, dan musim dingin. Musim semi (Maret~Mei) hangat dengan bunga-bunga cantik seperti bunga sakura dan azalea. Orang - orang menikmati pemandangan bunga musim semi dan pemandangan yang indah."
+        },
+        {
+          "korean": "여름(6월~8월)에는 덥고 비가 많이 옵니다. 장마가 끝나고 30도가 넘는 무더위가 시작되면 사람들은 아름다운 해변이나 계곡으로 휴가를 떠납니다. 밤에는 열대야로 잠을 설치기도 합니다.",
+          "indonesian": "Musim panas (Juni~Agustus) panas dan hujan. Setelah musim hujan berakhir, suhu melambung di atas 30 °C. Orang - orang pergi berlibur ke pantai atau lembah yang indah. Malam tropis bisa menyebabkan sulit tidur."
+        },
+        {
+          "korean": "가을(9월~11월)에는 맑고 시원한 날씨가 이어집니다. 형형색색으로 곱게 물든 단풍을 보기 위해 산으로 여행을 떠나는 사람들이 많습니다. 날씨가 좋아 학교 운동회나 축제 등과 같은 중요한 행사가 많이 열립니다.",
+          "indonesian": "Musim gugur (September~November) memiliki cuaca cerah dan sejuk. Banyak orang mengadakan perjalanan ke pegunungan untuk melihat dedaunan yang berwarna - warni. Acara penting seperti hari olahraga sekolah dan festival sering diadakan dengan cuaca yang bagus."
+        },
+        {
+          "korean": "겨울(12월~2월)은 영하 10도까지 내려갈 정도로 매우 춥고, 강물이 얼기도 합니다. 높은 지대에는 눈이 많이 내려 스키나 스케이트보드 등 겨울 스포츠를 즐기는 사람들이 많습니다. 3일은 춥고, 4일은 따뜻한 ‘3한4온’ 현상이 나타나기도 합니다.",
+          "indonesian": "Musim dingin (Desember~Februari) sangat dingin, turun ke -10°C, dan sungai dapat membeku. Ada banyak salju di daerah yang lebih tinggi, sehingga banyak yang menikmati olahraga musim dingin seperti ski dan snowboarding. Ada juga fenomena '3 han 4 on (3 cold 4 warm)' di mana dingin selama tiga hari dan hangat selama empat hari."
+        },
+        {
+          "korean": "한국 사람들은 너무 더운 여름이나 너무 추운 겨울보다 시원하고 경치가 아름다운 봄과 가을을 좋아합니다. 그러나 요즘은 이상 기온으로 봄과 가을이 짧아진 것 같다고 많은 사람들이 이야기합니다.",
+          "indonesian": "Orang Korea lebih menyukai musim semi dan musim gugur yang sejuk dan indah daripada musim panas yang terlalu panas atau musim dingin yang terlalu dingin. Akan tetapi, banyak orang mengatakan bahwa sekarang ini, musim semi dan musim gugur tampaknya semakin pendek karena suhu yang tidak normal."
+        }
+      ]
+    }
+  ]
+}

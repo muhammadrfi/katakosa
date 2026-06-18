@@ -1,0 +1,199 @@
+{
+  "chapter": 55,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "공통",
+          "indonesian": "peralatan keselamatan umum",
+          "image": "/images/textbook/ch55/v1_0_공통.jpg"
+        },
+        {
+          "korean": "귀덮개",
+          "indonesian": "penutup telinga",
+          "image": "/images/textbook/ch55/v1_1_귀덮개.jpg"
+        },
+        {
+          "korean": "방독 마스크",
+          "indonesian": "masker pelindung racun",
+          "image": "/images/textbook/ch55/v1_2_방독_마스크.jpg"
+        },
+        {
+          "korean": "방제복",
+          "indonesian": "Pakaian pengontrol pestisida",
+          "image": "/images/textbook/ch55/v1_3_방제복.jpg"
+        },
+        {
+          "korean": "방진 마스크",
+          "indonesian": "masker debu, Masker debu",
+          "image": "/images/textbook/ch55/v1_4_방진_마스크.jpg"
+        },
+        {
+          "korean": "보안경",
+          "indonesian": "kacamata pengaman / kacamata keselamatan",
+          "image": "/images/textbook/ch55/v1_5_보안경.jpg"
+        },
+        {
+          "korean": "송기 마스크",
+          "indonesian": "masker penghembus udara (masker oksigen)",
+          "image": "/images/textbook/ch55/v1_6_송기_마스크.jpg"
+        },
+        {
+          "korean": "안면 보호구",
+          "indonesian": "pelindung wajah",
+          "image": "/images/textbook/ch55/v1_7_안면_보호구.jpg"
+        },
+        {
+          "korean": "안전",
+          "indonesian": "keamanan, keselamatan",
+          "image": null
+        },
+        {
+          "korean": "안전장갑",
+          "indonesian": "Sarung tangan pengaman, sarung tangan pelindung (karet)",
+          "image": null
+        },
+        {
+          "korean": "용접면",
+          "indonesian": "Topeng las, topeng las",
+          "image": "/images/textbook/ch55/v1_10_용접면.jpg"
+        },
+        {
+          "korean": "장비",
+          "indonesian": "peralatan",
+          "image": null
+        },
+        {
+          "korean": "축산",
+          "indonesian": "pakaian kerja ternak",
+          "image": "/images/textbook/ch55/v1_12_축산.jpg"
+        },
+        {
+          "korean": "특화",
+          "indonesian": "Peralatan keselamatan khusus",
+          "image": null
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "구명조끼",
+          "indonesian": "rompi pelampung",
+          "image": "/images/textbook/ch55/v2_0_구명조끼.jpg"
+        },
+        {
+          "korean": "무릎보호대",
+          "indonesian": "bantalan lutut",
+          "image": "/images/textbook/ch55/v2_1_무릎보호대.jpg"
+        },
+        {
+          "korean": "방수 앞치마",
+          "indonesian": "celemek tahan air",
+          "image": "/images/textbook/ch55/v2_2_방수_앞치마.jpg"
+        },
+        {
+          "korean": "방열두건",
+          "indonesian": "Kap pembuangan panas",
+          "image": null
+        },
+        {
+          "korean": "방열상의",
+          "indonesian": "pembuangan panas atas",
+          "image": null
+        },
+        {
+          "korean": "방열장갑",
+          "indonesian": "Sarung tangan tahan panas",
+          "image": "/images/textbook/ch55/v2_5_방열장갑.jpg"
+        },
+        {
+          "korean": "방열장화",
+          "indonesian": "sepatu boot tahan panas",
+          "image": null
+        },
+        {
+          "korean": "방열하의",
+          "indonesian": "Bawahan tahan panas",
+          "image": null
+        },
+        {
+          "korean": "열처리 작업",
+          "indonesian": "Pekerjaan perawatan panas",
+          "image": "/images/textbook/ch55/v2_8_열처리_작업.jpg"
+        },
+        {
+          "korean": "오븐 장갑",
+          "indonesian": "sarung tangan oven",
+          "image": "/images/textbook/ch55/v2_9_오븐_장갑.jpg"
+        },
+        {
+          "korean": "위생",
+          "indonesian": "kebersihan",
+          "image": null
+        },
+        {
+          "korean": "위생마스크",
+          "indonesian": "masker sanitasi",
+          "image": "/images/textbook/ch55/v2_11_위생마스크.jpg"
+        },
+        {
+          "korean": "위생모",
+          "indonesian": "Helm sanitasi",
+          "image": "/images/textbook/ch55/v2_12_위생모.jpg"
+        },
+        {
+          "korean": "위생복",
+          "indonesian": "pakaian sanitasi, kebersihan",
+          "image": "/images/textbook/ch55/v2_13_위생복.jpg"
+        },
+        {
+          "korean": "위생장갑",
+          "indonesian": "sarung tangan sanitasi",
+          "image": "/images/textbook/ch55/v2_14_위생장갑.jpg"
+        },
+        {
+          "korean": "위생장화",
+          "indonesian": "sepatu boot sanitasi",
+          "image": "/images/textbook/ch55/v2_15_위생장화.jpg"
+        },
+        {
+          "korean": "절단방지 장갑",
+          "indonesian": "Sarung tangan tahan potong",
+          "image": "/images/textbook/ch55/v2_16_절단방지_장갑.jpg"
+        },
+        {
+          "korean": "절연 안전모",
+          "indonesian": "Helm keamanan untuk isolasi",
+          "image": "/images/textbook/ch55/v2_17_절연_안전모.jpg"
+        },
+        {
+          "korean": "절연 장갑",
+          "indonesian": "Sarung tangan untuk isolasi",
+          "image": "/images/textbook/ch55/v2_18_절연_장갑.jpg"
+        },
+        {
+          "korean": "절연 장화",
+          "indonesian": "sepatu boot untuk isolasi",
+          "image": "/images/textbook/ch55/v2_19_절연_장화.jpg"
+        },
+        {
+          "korean": "평소",
+          "indonesian": "Biasanya",
+          "image": null
+        },
+        {
+          "korean": "화상을 입다",
+          "indonesian": "Terbakar, melepuh, terbakar",
+          "image": "/images/textbook/ch55/v2_21_화상을_입다.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

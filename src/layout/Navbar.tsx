@@ -1,6 +1,6 @@
 
 import { Link, NavLink } from 'react-router-dom';
-import { BookOpen, Moon, Sun, Home, BookText, Dumbbell, LayoutDashboard, Menu } from 'lucide-react';
+import { BookOpen, Moon, Sun, Home, BookText, Dumbbell, LayoutDashboard, Menu, GraduationCap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '../hooks/useTheme';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -41,6 +41,20 @@ const Navbar = () => {
       >
         <Dumbbell className="h-4 w-4" />
         Proyek
+      </NavLink>
+      <NavLink
+        to="/materi-buku"
+        className={({ isActive }) => (isActive ? activeLinkClass : inactiveLinkClass)}
+      >
+        <GraduationCap className="h-4 w-4" />
+        Materi Buku
+      </NavLink>
+      <NavLink
+        to="/tryout"
+        className={({ isActive }) => (isActive ? activeLinkClass : inactiveLinkClass)}
+      >
+        <BookOpen className="h-4 w-4" />
+        Tryout
       </NavLink>
     </>
   );

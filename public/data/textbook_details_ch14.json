@@ -1,0 +1,237 @@
+{
+  "chapter": 14,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "건너편",
+          "indonesian": "Seberang jalan",
+          "image": "/images/textbook/ch14/v1_0_건너편.jpg"
+        },
+        {
+          "korean": "건물",
+          "indonesian": "gedung",
+          "image": "/images/textbook/ch14/v1_1_건물.jpg"
+        },
+        {
+          "korean": "그쪽",
+          "indonesian": "Arah tersebut",
+          "image": "/images/textbook/ch14/v1_2_그쪽.jpg"
+        },
+        {
+          "korean": "뒤",
+          "indonesian": "Belakang, belakang",
+          "image": "/images/textbook/ch14/v1_3_뒤.jpg"
+        },
+        {
+          "korean": "맞은편",
+          "indonesian": "Seberang jalan",
+          "image": "/images/textbook/ch14/v1_4_맞은편.jpg"
+        },
+        {
+          "korean": "밑",
+          "indonesian": "bawah",
+          "image": "/images/textbook/ch14/v1_5_밑.jpg"
+        },
+        {
+          "korean": "밖",
+          "indonesian": "Luar, luar",
+          "image": "/images/textbook/ch14/v1_6_밖.jpg"
+        },
+        {
+          "korean": "방향",
+          "indonesian": "Arah, arah, arah mata angin",
+          "image": null
+        },
+        {
+          "korean": "사이",
+          "indonesian": "Antara, antara",
+          "image": "/images/textbook/ch14/v1_8_사이.jpg"
+        },
+        {
+          "korean": "아래",
+          "indonesian": "Bawah, bawah",
+          "image": "/images/textbook/ch14/v1_9_아래.jpg"
+        },
+        {
+          "korean": "안",
+          "indonesian": "Dalam, dalam",
+          "image": "/images/textbook/ch14/v1_10_안.jpg"
+        },
+        {
+          "korean": "앞",
+          "indonesian": "depan",
+          "image": "/images/textbook/ch14/v1_11_앞.jpg"
+        },
+        {
+          "korean": "옆",
+          "indonesian": "Samping, samping, sisi",
+          "image": "/images/textbook/ch14/v1_12_옆.jpg"
+        },
+        {
+          "korean": "오른쪽",
+          "indonesian": "Kanan, kanan, sebelah kanan",
+          "image": "/images/textbook/ch14/v1_13_오른쪽.jpg"
+        },
+        {
+          "korean": "왼쪽",
+          "indonesian": "Kiri, kiri, sebelah kiri",
+          "image": "/images/textbook/ch14/v1_14_왼쪽.jpg"
+        },
+        {
+          "korean": "위",
+          "indonesian": "atas",
+          "image": null
+        },
+        {
+          "korean": "위치",
+          "indonesian": "Lokasi, lokasi",
+          "image": null
+        },
+        {
+          "korean": "이쪽",
+          "indonesian": "Arah ini, arah ini",
+          "image": "/images/textbook/ch14/v1_17_이쪽.jpg"
+        },
+        {
+          "korean": "저쪽",
+          "indonesian": "Arah itu, arah itu",
+          "image": "/images/textbook/ch14/v1_18_저쪽.jpg"
+        },
+        {
+          "korean": "쪽",
+          "indonesian": "arah / halaman / bagian",
+          "image": "/images/textbook/ch14/v1_19_쪽.jpg"
+        },
+        {
+          "korean": "층",
+          "indonesian": "Lantai, satuan lantai",
+          "image": "/images/textbook/ch14/v1_20_층.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "건너가다",
+          "indonesian": "Pergi menyebrang",
+          "image": "/images/textbook/ch14/v2_0_건너가다.jpg"
+        },
+        {
+          "korean": "근처",
+          "indonesian": "Sekitar, sekitar",
+          "image": "/images/textbook/ch14/v2_1_근처.jpg"
+        },
+        {
+          "korean": "나가다",
+          "indonesian": "Pergi keluar, Keluar, pergi keluar, keluar",
+          "image": "/images/textbook/ch14/v2_2_나가다.jpg"
+        },
+        {
+          "korean": "나오다",
+          "indonesian": "Datang keluar, Muncul, datang keluar, tampil, muncul",
+          "image": "/images/textbook/ch14/v2_3_나오다.jpg"
+        },
+        {
+          "korean": "내려가다",
+          "indonesian": "Pergi turun, pergi turun",
+          "image": "/images/textbook/ch14/v2_4_내려가다.jpg"
+        },
+        {
+          "korean": "내려오다",
+          "indonesian": "Datang turun, datang turun",
+          "image": "/images/textbook/ch14/v2_5_내려오다.jpg"
+        },
+        {
+          "korean": "들어가다",
+          "indonesian": "Pergi masuk, Masuk, pergi masuk",
+          "image": "/images/textbook/ch14/v2_6_들어가다.jpg"
+        },
+        {
+          "korean": "들어오다",
+          "indonesian": "Datang masuk, datang masuk, masuk",
+          "image": "/images/textbook/ch14/v2_7_들어오다.jpg"
+        },
+        {
+          "korean": "마트",
+          "indonesian": "Mart, pertokoan",
+          "image": "/images/textbook/ch14/v2_8_마트.jpg"
+        },
+        {
+          "korean": "사거리",
+          "indonesian": "Perempatan, perempatan",
+          "image": "/images/textbook/ch14/v2_9_사거리.jpg"
+        },
+        {
+          "korean": "옥상",
+          "indonesian": "Atap, atap",
+          "image": null
+        },
+        {
+          "korean": "올라가다",
+          "indonesian": "Pergi naik, pergi naik, naik",
+          "image": "/images/textbook/ch14/v2_11_올라가다.jpg"
+        },
+        {
+          "korean": "올라오다",
+          "indonesian": "Datang naik, datang naik",
+          "image": "/images/textbook/ch14/v2_12_올라오다.jpg"
+        },
+        {
+          "korean": "육교",
+          "indonesian": "Jembatan penyeberangan, jembatan\npenyebrangan, jembatan penyeberangan",
+          "image": "/images/textbook/ch14/v2_13_육교.jpg"
+        },
+        {
+          "korean": "지하",
+          "indonesian": "Bawah tanah, bawah tanah",
+          "image": null
+        },
+        {
+          "korean": "횡단보도",
+          "indonesian": "zebra cross / penyeberangan jalan",
+          "image": "/images/textbook/ch14/v2_15_횡단보도.jpg"
+        }
+      ]
+    },
+    {
+      "title": "길 찾기 - 도로명 주소 (Alamat Nama Jalan)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국에서는 ‘도로명 주소’를 사용합니다. 도로명 주소란 지정된 도로명을 기준으로 주소를 표기하는 것을 말하는데, 도로의 이름이 기준이기 때문에 주소를 알기 쉽습니다. 그래서 도로명 주소만 있으면 원하는 곳을 찾아갈 수 있습니다. 위의 예를 보면 알 수 있듯이 한국의 도로명 주소는 영어와는 반대로 큰 단위부터 시작하여 점차 작은 단위로 적습니다. 도로명 주소는 다음과 같이 구성됩니다.",
+          "indonesian": "Di Korea, 'alamat nama jalan' digunakan. Alamat nama jalan mengacu pada sistem alamat berdasarkan nama jalan yang ditentukan, sehingga memudahkan pencarian alamat karena nama jalan sebagai titik acuannya. Jadi, selama Anda punya nama jalannya, Anda bisa menemukan tujuan Anda. Seperti yang ditunjukkan pada contoh di atas, alamat Korea dimulai dengan satuan besar dan secara bertahap berpindah ke satuan yang lebih kecil, yang merupakan kebalikan dari penulisannya dalam bahasa Inggris. Alamat di Korea disusun sebagai berikut:"
+        },
+        {
+          "korean": "예시: 경복궁 (한글) 서울특별시 종로구 사직로 161 / (영어) 161, Sajik-ro, Jongno-gu, Seoul",
+          "indonesian": "Contoh: Gyeongbokgung (Bahasa Korea) Seoul-teukbyeolsi Jongno-gu Sajik-ro 161 / (Bahasa Inggris) 161, Sajik-ro, Jongno-gu, Seoul"
+        },
+        {
+          "korean": "예시: 한국산업인력공단 (한글) 울산광역시 중구 종가로 345 / (영어) 345, Jongga-ro, Jung-gu, Ulsan",
+          "indonesian": "Contoh: HRD Korea (Bahasa Korea) Ulsan-gwangyeoksi Jung-gu 종가로 345 / (Bahasa Inggris) 345, Jongga-ro, Jung-gu, Ulsan"
+        },
+        {
+          "korean": "•시/도 : 해당 건물이 위치한 ‘시’나 ‘도’를 나타냅니다. 위에서는 ‘서울특별시’와 ‘울산광역시’가 이에 해당합니다.",
+          "indonesian": "•Kota/Provinsi: Menunjukkan 'kota' (시) atau 'provinsi' (도) di mana bangunan tersebut berada. Contoh di atas yang termasuk dalam kategori ini adalah 'Kota Khusus Seoul' (서울특별시) dan 'Kota Metropolitan Ulsan' (울산광역시)."
+        },
+        {
+          "korean": "•시/군/구 : ‘시’나 ‘도’의 하위 행정구역을 나타냅니다. 특별시나 광역시의 경우 ‘구’나 ‘군’, ‘도’의 경우 ‘시’ 또는 ‘군’이 쓰입니다. 위에서는 ‘종로구’와 ‘중구’가 이에 해당합니다.",
+          "indonesian": "•Kota/Kabupaten/Distrik: Menunjukkan wilayah administrasi di bawah kota atau provinsi. Untuk kota khusus atau kota metropolitan digunakan '구' (distrik) atau '군' (kabupaten), sedangkan untuk provinsi digunakan '시' (kota) atau '군' (kabupaten). Contoh di atas yang termasuk dalam kategori ini adalah 'Jongno-gu' (종로구) dan 'Jung-gu' (중구)."
+        },
+        {
+          "korean": "•도로명 : 해당 건물이 위치한 도로의 이름을 나타냅니다. 8차로 이상일 경우에는 ‘대로’, 2차로에서 7차로까지는 ‘로’, ‘로’보다 좁은 길은 ‘길’로 구분됩니다. 예를 들어, ‘달구벌대로’, ‘테헤란로’, ‘소담길’ 등이 있습니다. 위에서는 ‘사직로’와 ‘종가로’가 이에 해당합니다.",
+          "indonesian": "•Nama Jalan: Menunjukkan nama jalan tempat bangunan tersebut berada. Jalan dengan 8 lajur atau lebih diklasifikasikan sebagai '대로' (daero/jalan raya), jalan dengan 2 sampai 7 lajur sebagai '로' (ro/jalan biasa), dan jalan yang lebih sempit dari '로' sebagai '길' (gil/gang/jalan kecil). Contohnya antara lain 'Dalgubeol-daero' (달구벌대로), 'Teheran-ro' (테헤란로), dan 'Sodam-gil' (소담길). Contoh di atas yang termasuk dalam kategori ini adalah 'Sajik-ro' (사직로) dan 'Jongga-ro' (종가로)."
+        },
+        {
+          "korean": "•건물 번호 : 해당 건물의 번호를 나타냅니다. 왼쪽 건물은 홀수, 오른쪽 건물은 짝수로 표시합니다. 위에서는 161과 345가 이에 해당합니다.",
+          "indonesian": "•Nomor Bangunan: Menunjukkan nomor dari bangunan tersebut. Bangunan di sebelah kiri jalan diberi nomor ganjil, sedangkan bangunan di sebelah kanan jalan diberi nomor genap. Contoh di atas yang termasuk dalam kategori ini adalah 161 dan 345."
+        }
+      ]
+    }
+  ]
+}

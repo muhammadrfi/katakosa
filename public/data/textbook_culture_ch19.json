@@ -1,0 +1,24 @@
+{
+  "chapter": 19,
+  "sections": [
+    {
+      "title": "요리 (Memasak)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국 사람들이 특별한 날에 먹는 음식에는 무엇이 있을까요? 미역국은 생일날 먹는 음식인데, 소고기나 멸치 등을 넣고 오래 끓여 만든 국물에 불린 미역을 넣고 끓인 국입니다. 미역국은 원래 어머니가 아기를 낳은 후에 먹는 음식입니다. 그래서 생일에 미역국을 먹는 것은 낳아 주신 어머니의 은혜를 기억하고 감사한다는 의미를 가지고 있습니다.",
+          "indonesian": "Makanan apa yang dimakan orang Korea pada acara-acara khusus? Miyeokguk (sup rumput laut) adalah hidangan yang dimakan pada hari ulang tahun. Itu dibuat dengan merebus daging sapi atau ikan teri dalam kaldu dan kemudian menambahkan rumput laut yang direndam. Miyeokguk awalnya adalah hidangan yang disantap para ibu setelah melahirkan. Makan miyeokguk di hari ulang tahun merupakan salah satu cara untuk mengenang dan bersyukur kepada ibu yang melahirkan."
+        },
+        {
+          "korean": "삼계탕은 덥고 습한 여름 중 가장 더운 복날에 먹는 음식입니다. 삼계탕은 어린 닭에 인삼이나 찹쌀, 밤, 마늘과 같이 건강에 좋은 재료를 넣고 푹 끓인 음식입니다. 여름에 땀을 많이 흘려 기운이 없을 때 삼계탕을 먹으면 새 힘이 납니다.",
+          "indonesian": "Samgyetang adalah hidangan yang dimakan pada hari terpanas dan paling lembab di musim panas, yang disebut Boknal. Ini adalah sup yang dibuat dengan merebus ayam muda yang diisi dengan bahan-bahan seperti ginseng, beras ketan, chestnut, dan bawang putih, yang semuanya baik untuk kesehatan. Saat merasa lelah karena banyak berkeringat di musim panas, makan samgyetang akan memulihkan energi Anda."
+        },
+        {
+          "korean": "떡국은 설날 아침에 온 가족이 둘러앉아 먹는 음식입니다. 떡국은 소고기, 멸치 등을 넣고 오래 끓여 만든 국물에 흰떡을 넣고 끓인 다음 계란 지단이나 김, 파 등을 올려 먹는 음식입니다. 한국 사람들은 떡국을 먹으면서 새해의 시작을 기념하며 서로 덕담을 주고받습니다.",
+          "indonesian": "Tteokguk adalah hidangan yang disantap seluruh keluarga di pagi hari Tahun Baru Imlek. Kue ini dibuat dengan cara merebus kue beras putih dalam kuah yang telah direbus lama dengan bahan- bahan seperti daging sapi atau ikan teri, lalu di atasnya diberi potongan telur, rumput laut, atau daun bawang sebelum dimakan. Orang Korea makan tteokguk untuk merayakan awal tahun baru dan saling bertukar ucapan selamat."
+        }
+      ]
+    }
+  ]
+}

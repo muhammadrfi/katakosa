@@ -1,0 +1,199 @@
+{
+  "chapter": 18,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "경기(하다)",
+          "indonesian": "bertanding / pertandingan",
+          "image": null
+        },
+        {
+          "korean": "그리다",
+          "indonesian": "menggambar, melukis",
+          "image": null
+        },
+        {
+          "korean": "그림",
+          "indonesian": "menggambar, melukis",
+          "image": null
+        },
+        {
+          "korean": "기타",
+          "indonesian": "lain-lain, dan lain-lain",
+          "image": null
+        },
+        {
+          "korean": "낚시(하다)",
+          "indonesian": "Memancing",
+          "image": null
+        },
+        {
+          "korean": "노래(하다)",
+          "indonesian": "Menyanyi, bernyanyi, menyanyi",
+          "image": null
+        },
+        {
+          "korean": "독서(하다)",
+          "indonesian": "Membaca buku, membaca",
+          "image": null
+        },
+        {
+          "korean": "듣다",
+          "indonesian": "mendengar",
+          "image": null
+        },
+        {
+          "korean": "배우다",
+          "indonesian": "mempelajari, Belajar",
+          "image": null
+        },
+        {
+          "korean": "사진",
+          "indonesian": "foto",
+          "image": null
+        },
+        {
+          "korean": "살다",
+          "indonesian": "Hidup, tinggal, Tinggal, hidup",
+          "image": null
+        },
+        {
+          "korean": "실내",
+          "indonesian": "Dalam ruangan",
+          "image": null
+        },
+        {
+          "korean": "실외",
+          "indonesian": "Luar ruangan",
+          "image": null
+        },
+        {
+          "korean": "외국어",
+          "indonesian": "Bahasa asing, bahasa asing",
+          "image": null
+        },
+        {
+          "korean": "음악",
+          "indonesian": "Musik",
+          "image": null
+        },
+        {
+          "korean": "인터넷",
+          "indonesian": "internet",
+          "image": null
+        },
+        {
+          "korean": "자주",
+          "indonesian": "Sering, sering",
+          "image": null
+        },
+        {
+          "korean": "주로",
+          "indonesian": "Biasanya, kebanyakan, sering",
+          "image": null
+        },
+        {
+          "korean": "찍다",
+          "indonesian": "memotret",
+          "image": null
+        },
+        {
+          "korean": "추다",
+          "indonesian": "menari",
+          "image": null
+        },
+        {
+          "korean": "취미",
+          "indonesian": "Hobi, hobi",
+          "image": null
+        },
+        {
+          "korean": "치다",
+          "indonesian": "Menyangga, menolong",
+          "image": null
+        },
+        {
+          "korean": "콘서트",
+          "indonesian": "Menonton konser, menonton konser",
+          "image": null
+        },
+        {
+          "korean": "피아노",
+          "indonesian": "Bermain piano, bermain piano",
+          "image": null
+        },
+        {
+          "korean": "힘들다",
+          "indonesian": "sulit / lelah / berat",
+          "image": null
+        }
+      ],
+      "main_image": "/images/textbook/ch18_vocab1.jpg"
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "골프",
+          "indonesian": "Golf, golf",
+          "image": "/images/textbook/ch18/v2_0_골프.jpg"
+        },
+        {
+          "korean": "농구(하다)",
+          "indonesian": "bermain bola basket",
+          "image": "/images/textbook/ch18/v2_1_농구(하다).jpg"
+        },
+        {
+          "korean": "동호회",
+          "indonesian": "klub",
+          "image": null
+        },
+        {
+          "korean": "배드민턴",
+          "indonesian": "badminton",
+          "image": "/images/textbook/ch18/v2_3_배드민턴.jpg"
+        },
+        {
+          "korean": "볼링",
+          "indonesian": "Bowling, bowling",
+          "image": "/images/textbook/ch18/v2_4_볼링.jpg"
+        },
+        {
+          "korean": "수영(하다)",
+          "indonesian": "berenang",
+          "image": "/images/textbook/ch18/v2_5_수영(하다).jpg"
+        },
+        {
+          "korean": "스케이트",
+          "indonesian": "Ski, Seluncur es",
+          "image": "/images/textbook/ch18/v2_6_스케이트.jpg"
+        },
+        {
+          "korean": "스키",
+          "indonesian": "ski",
+          "image": "/images/textbook/ch18/v2_7_스키.jpg"
+        },
+        {
+          "korean": "야구(하다)",
+          "indonesian": "bermain baseball",
+          "image": "/images/textbook/ch18/v2_8_야구(하다).jpg"
+        },
+        {
+          "korean": "조깅(하다)",
+          "indonesian": "Jogging",
+          "image": "/images/textbook/ch18/v2_9_조깅(하다).jpg"
+        },
+        {
+          "korean": "테니스",
+          "indonesian": "tenis",
+          "image": "/images/textbook/ch18/v2_10_테니스.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

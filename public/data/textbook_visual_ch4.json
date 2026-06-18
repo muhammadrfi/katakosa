@@ -1,0 +1,219 @@
+{
+  "chapter": 4,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "main_image": null,
+      "items": [
+        {
+          "korean": "가다",
+          "indonesian": "pergi",
+          "image": "/images/textbook/ch4/v1_0_가다.jpg"
+        },
+        {
+          "korean": "공부(하다)",
+          "indonesian": "belajar",
+          "image": "/images/textbook/ch4/v1_1_공부(하다).jpg"
+        },
+        {
+          "korean": "쇼핑(하다)",
+          "indonesian": "belanja",
+          "image": "/images/textbook/ch4/v1_2_쇼핑(하다).jpg"
+        },
+        {
+          "korean": "쉬다",
+          "indonesian": "istirahat",
+          "image": "/images/textbook/ch4/v1_3_쉬다.jpg"
+        },
+        {
+          "korean": "오다",
+          "indonesian": "datang",
+          "image": "/images/textbook/ch4/v1_4_오다.jpg"
+        },
+        {
+          "korean": "요리(하다)",
+          "indonesian": "memasak",
+          "image": "/images/textbook/ch4/v1_5_요리(하다).jpg"
+        },
+        {
+          "korean": "운동(하다)",
+          "indonesian": "olahraga",
+          "image": "/images/textbook/ch4/v1_6_운동(하다).jpg"
+        },
+        {
+          "korean": "일(하다)",
+          "indonesian": "bekerja",
+          "image": null
+        },
+        {
+          "korean": "일상",
+          "indonesian": "keseharian",
+          "image": null
+        },
+        {
+          "korean": "자다",
+          "indonesian": "tidur",
+          "image": "/images/textbook/ch4/v1_9_자다.jpg"
+        },
+        {
+          "korean": "전화(하다)",
+          "indonesian": "menelepon",
+          "image": "/images/textbook/ch4/v1_10_전화(하다).jpg"
+        },
+        {
+          "korean": "하다",
+          "indonesian": "melakukan",
+          "image": "/images/textbook/ch4/v1_11_하다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "사과",
+          "indonesian": "apel",
+          "image": "/images/textbook/ch4/v2_0_사과.jpg"
+        },
+        {
+          "korean": "오렌지",
+          "indonesian": "jeruk",
+          "image": null
+        },
+        {
+          "korean": "포도",
+          "indonesian": "anggur",
+          "image": null
+        },
+        {
+          "korean": "수박",
+          "indonesian": "semangka",
+          "image": null
+        },
+        {
+          "korean": "물",
+          "indonesian": "air",
+          "image": "/images/textbook/ch4/v2_4_물.jpg"
+        },
+        {
+          "korean": "주스",
+          "indonesian": "jus",
+          "image": "/images/textbook/ch4/v2_5_주스.jpg"
+        },
+        {
+          "korean": "우유",
+          "indonesian": "susu",
+          "image": "/images/textbook/ch4/v2_6_우유.jpg"
+        },
+        {
+          "korean": "빵",
+          "indonesian": "roti",
+          "image": "/images/textbook/ch4/v2_7_빵.jpg"
+        },
+        {
+          "korean": "라면",
+          "indonesian": "mie instan (ramyeon)",
+          "image": null
+        },
+        {
+          "korean": "과자",
+          "indonesian": "snack / camilan",
+          "image": "/images/textbook/ch4/v2_9_과자.jpg"
+        },
+        {
+          "korean": "초콜릿",
+          "indonesian": "cokelat",
+          "image": null
+        },
+        {
+          "korean": "아이스크림",
+          "indonesian": "es krim",
+          "image": null
+        },
+        {
+          "korean": "돈 (현금)",
+          "indonesian": "uang (tunai)",
+          "image": null
+        },
+        {
+          "korean": "동전",
+          "indonesian": "uang logam / koin",
+          "image": null
+        },
+        {
+          "korean": "지폐",
+          "indonesian": "uang kertas",
+          "image": null
+        },
+        {
+          "korean": "신용카드",
+          "indonesian": "kartu kredit",
+          "image": null
+        },
+        {
+          "korean": "값 (가격)",
+          "indonesian": "harga",
+          "image": null
+        },
+        {
+          "korean": "마시다",
+          "indonesian": "minum, menghirup",
+          "image": null
+        },
+        {
+          "korean": "먹다",
+          "indonesian": "makan",
+          "image": null
+        },
+        {
+          "korean": "밥",
+          "indonesian": "nasi, makanan",
+          "image": "/images/textbook/ch4/v2_19_밥.jpg"
+        },
+        {
+          "korean": "보다",
+          "indonesian": "'Dari pada (tatabahasa)",
+          "image": "/images/textbook/ch4/v2_20_보다.jpg"
+        },
+        {
+          "korean": "신문",
+          "indonesian": "koran",
+          "image": "/images/textbook/ch4/v2_21_신문.jpg"
+        },
+        {
+          "korean": "영화",
+          "indonesian": "film",
+          "image": "/images/textbook/ch4/v2_22_영화.jpg"
+        },
+        {
+          "korean": "오늘",
+          "indonesian": "hari ini",
+          "image": "/images/textbook/ch4/v2_23_오늘.jpg"
+        },
+        {
+          "korean": "읽다",
+          "indonesian": "membaca",
+          "image": "/images/textbook/ch4/v2_24_읽다.jpg"
+        },
+        {
+          "korean": "지금",
+          "indonesian": "sekarang, Sekarang",
+          "image": "/images/textbook/ch4/v2_25_지금.jpg"
+        },
+        {
+          "korean": "책",
+          "indonesian": "buku",
+          "image": "/images/textbook/ch4/v2_26_책.jpg"
+        },
+        {
+          "korean": "커피",
+          "indonesian": "Kopi, kopi",
+          "image": "/images/textbook/ch4/v2_27_커피.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

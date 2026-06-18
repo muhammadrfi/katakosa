@@ -1,0 +1,199 @@
+{
+  "chapter": 9,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "김밥",
+          "indonesian": "Kimbap, nasi gulung, nasi gulung rumput laut",
+          "image": "/images/textbook/ch9/v1_0_김밥.jpg"
+        },
+        {
+          "korean": "김치찌개",
+          "indonesian": "rebusan kimci",
+          "image": "/images/textbook/ch9/v1_1_김치찌개.jpg"
+        },
+        {
+          "korean": "돈가스",
+          "indonesian": "katsu",
+          "image": "/images/textbook/ch9/v1_2_돈가스.jpg"
+        },
+        {
+          "korean": "라면",
+          "indonesian": "Mie instan, mie instan",
+          "image": "/images/textbook/ch9/v1_3_라면.jpg"
+        },
+        {
+          "korean": "맛없다",
+          "indonesian": "Tidak enak, tidak enak",
+          "image": "/images/textbook/ch9/v1_4_맛없다.jpg"
+        },
+        {
+          "korean": "맛있다",
+          "indonesian": "Enak, enak",
+          "image": "/images/textbook/ch9/v1_5_맛있다.jpg"
+        },
+        {
+          "korean": "불고기",
+          "indonesian": "Daging panggang, daging tumis (bulgogi), daging bakar, bulgogi, daging yang diasinkan lalu dipanggang atau dimasak di atas kompor",
+          "image": "/images/textbook/ch9/v1_6_불고기.jpg"
+        },
+        {
+          "korean": "싫어하다",
+          "indonesian": "Tidak suka, membenci, tdk menyukai",
+          "image": "/images/textbook/ch9/v1_7_싫어하다.jpg"
+        },
+        {
+          "korean": "우동",
+          "indonesian": "Udon, udon",
+          "image": "/images/textbook/ch9/v1_8_우동.jpg"
+        },
+        {
+          "korean": "음식",
+          "indonesian": "Makanan, makanan, hidangan",
+          "image": null
+        },
+        {
+          "korean": "자장면",
+          "indonesian": "Mie saus kedelai, mi hitam",
+          "image": "/images/textbook/ch9/v1_10_자장면.jpg"
+        },
+        {
+          "korean": "좀",
+          "indonesian": "agak",
+          "image": "/images/textbook/ch9/v1_11_좀.jpg"
+        },
+        {
+          "korean": "좋아하다",
+          "indonesian": "Suka, suka, menyukai",
+          "image": "/images/textbook/ch9/v1_12_좋아하다.jpg"
+        },
+        {
+          "korean": "치킨",
+          "indonesian": "Ayam goreng, ayam goreng",
+          "image": "/images/textbook/ch9/v1_13_치킨.jpg"
+        },
+        {
+          "korean": "탕수육",
+          "indonesian": "Daging babi manis, babi asam manis",
+          "image": "/images/textbook/ch9/v1_14_탕수육.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "개",
+          "indonesian": "buah, anjing",
+          "image": "/images/textbook/ch9/v2_0_개.jpg"
+        },
+        {
+          "korean": "공기",
+          "indonesian": "Udara, mangkuk (nasi), udara",
+          "image": "/images/textbook/ch9/v2_1_공기.jpg"
+        },
+        {
+          "korean": "권",
+          "indonesian": "jilid / eksemplar (satuan buku)",
+          "image": "/images/textbook/ch9/v2_2_권.jpg"
+        },
+        {
+          "korean": "그릇",
+          "indonesian": "mangkuk, mangkuk (sup)",
+          "image": "/images/textbook/ch9/v2_3_그릇.jpg"
+        },
+        {
+          "korean": "넷",
+          "indonesian": "empat (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "다섯",
+          "indonesian": "lima (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "둘",
+          "indonesian": "dua (angka asli Korea)",
+          "image": "/images/textbook/ch9/v2_6_둘.jpg"
+        },
+        {
+          "korean": "마리",
+          "indonesian": "ekor",
+          "image": "/images/textbook/ch9/v2_7_마리.jpg"
+        },
+        {
+          "korean": "명",
+          "indonesian": "orang (satuan), orang, name",
+          "image": "/images/textbook/ch9/v2_8_명.jpg"
+        },
+        {
+          "korean": "병",
+          "indonesian": "botol",
+          "image": null
+        },
+        {
+          "korean": "분",
+          "indonesian": "Bola akar, orang",
+          "image": null
+        },
+        {
+          "korean": "분류사",
+          "indonesian": "Angka dan satuan",
+          "image": null
+        },
+        {
+          "korean": "셋",
+          "indonesian": "tiga (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "아홉",
+          "indonesian": "sembilan (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "여덟",
+          "indonesian": "Delapan buah",
+          "image": null
+        },
+        {
+          "korean": "여섯",
+          "indonesian": "enam (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "열",
+          "indonesian": "demam, panas",
+          "image": null
+        },
+        {
+          "korean": "일곱",
+          "indonesian": "tujuh (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "잔",
+          "indonesian": "Satuan (Cangkir), cangkir, gelas",
+          "image": "/images/textbook/ch9/v2_18_잔.jpg"
+        },
+        {
+          "korean": "접시",
+          "indonesian": "piring",
+          "image": "/images/textbook/ch9/v2_19_접시.jpg"
+        },
+        {
+          "korean": "하늘색",
+          "indonesian": "Biru langit",
+          "image": null
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

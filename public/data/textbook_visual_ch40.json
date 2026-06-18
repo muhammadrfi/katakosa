@@ -1,0 +1,209 @@
+{
+  "chapter": 40,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가로",
+          "indonesian": "Lebar",
+          "image": "/images/textbook/ch40/v1_0_가로.jpg"
+        },
+        {
+          "korean": "길이",
+          "indonesian": "Panjang, Selamanya",
+          "image": "/images/textbook/ch40/v1_1_길이.jpg"
+        },
+        {
+          "korean": "무게",
+          "indonesian": "Menimbang berat, menimbang berat",
+          "image": "/images/textbook/ch40/v1_2_무게.jpg"
+        },
+        {
+          "korean": "무게를 재다",
+          "indonesian": "Menimbang berat, menimbang berat",
+          "image": "/images/textbook/ch40/v1_3_무게를_재다.jpg"
+        },
+        {
+          "korean": "버니어 캘리퍼스",
+          "indonesian": "Kaliper vernier",
+          "image": "/images/textbook/ch40/v1_4_버니어_캘리퍼스.jpg"
+        },
+        {
+          "korean": "비율",
+          "indonesian": "rasio / perbandingan",
+          "image": "/images/textbook/ch40/v1_5_비율.jpg"
+        },
+        {
+          "korean": "세로",
+          "indonesian": "Panjang",
+          "image": null
+        },
+        {
+          "korean": "원재료",
+          "indonesian": "Bahan baku",
+          "image": "/images/textbook/ch40/v1_7_원재료.jpg"
+        },
+        {
+          "korean": "자",
+          "indonesian": "Penggaris",
+          "image": "/images/textbook/ch40/v1_8_자.jpg"
+        },
+        {
+          "korean": "전자 저울",
+          "indonesian": "Timbangan elektronik",
+          "image": "/images/textbook/ch40/v1_9_전자_저울.jpg"
+        },
+        {
+          "korean": "접시 저울",
+          "indonesian": "Timbangan piring",
+          "image": "/images/textbook/ch40/v1_10_접시_저울.jpg"
+        },
+        {
+          "korean": "줄자",
+          "indonesian": "meteran",
+          "image": "/images/textbook/ch40/v1_11_줄자.jpg"
+        },
+        {
+          "korean": "첨가제",
+          "indonesian": "Aditif",
+          "image": "/images/textbook/ch40/v1_12_첨가제.jpg"
+        },
+        {
+          "korean": "측정(하다)",
+          "indonesian": "ukuran, Mengukur",
+          "image": null
+        },
+        {
+          "korean": "투입(하다)",
+          "indonesian": "memasukan",
+          "image": "/images/textbook/ch40/v1_14_투입(하다).jpg"
+        },
+        {
+          "korean": "혼합(하다)",
+          "indonesian": "Mencampur",
+          "image": null
+        },
+        {
+          "korean": "혼합기",
+          "indonesian": "pengaduk, Mesin pencampur",
+          "image": "/images/textbook/ch40/v1_16_혼합기.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "검다",
+          "indonesian": "hitam / berwarna hitam",
+          "image": null
+        },
+        {
+          "korean": "검사(하다)",
+          "indonesian": "jaksa",
+          "image": "/images/textbook/ch40/v2_1_검사(하다).jpg"
+        },
+        {
+          "korean": "나오다",
+          "indonesian": "Datang keluar, Muncul, datang keluar, tampil, muncul",
+          "image": "/images/textbook/ch40/v2_2_나오다.jpg"
+        },
+        {
+          "korean": "낮추다",
+          "indonesian": "menurunkan",
+          "image": "/images/textbook/ch40/v2_3_낮추다.jpg"
+        },
+        {
+          "korean": "높이다",
+          "indonesian": "meningkatkan / menaikkan",
+          "image": "/images/textbook/ch40/v2_4_높이다.jpg"
+        },
+        {
+          "korean": "덜",
+          "indonesian": "kurang",
+          "image": "/images/textbook/ch40/v2_5_덜.jpg"
+        },
+        {
+          "korean": "불량",
+          "indonesian": "barang rusak (NG)",
+          "image": null
+        },
+        {
+          "korean": "불량품",
+          "indonesian": "barang rusak (NG)",
+          "image": "/images/textbook/ch40/v2_7_불량품.jpg"
+        },
+        {
+          "korean": "살펴보다",
+          "indonesian": "memeriksa / memperhatikan",
+          "image": "/images/textbook/ch40/v2_8_살펴보다.jpg"
+        },
+        {
+          "korean": "성형",
+          "indonesian": "Bedah plastik",
+          "image": "/images/textbook/ch40/v2_9_성형.jpg"
+        },
+        {
+          "korean": "압력",
+          "indonesian": "Tekanan",
+          "image": "/images/textbook/ch40/v2_10_압력.jpg"
+        },
+        {
+          "korean": "원인",
+          "indonesian": "sebab",
+          "image": "/images/textbook/ch40/v2_11_원인.jpg"
+        },
+        {
+          "korean": "이상",
+          "indonesian": "Di atas, lebih dari, lebih",
+          "image": "/images/textbook/ch40/v2_12_이상.jpg"
+        },
+        {
+          "korean": "점",
+          "indonesian": "titik / bintik",
+          "image": "/images/textbook/ch40/v2_13_점.jpg"
+        },
+        {
+          "korean": "제품",
+          "indonesian": "barang jadi",
+          "image": null
+        },
+        {
+          "korean": "조치",
+          "indonesian": "langkah",
+          "image": null
+        },
+        {
+          "korean": "조치를 취하다",
+          "indonesian": "mengambil alih",
+          "image": "/images/textbook/ch40/v2_16_조치를_취하다.jpg"
+        },
+        {
+          "korean": "줄",
+          "indonesian": "pahat, tali",
+          "image": "/images/textbook/ch40/v2_17_줄.jpg"
+        },
+        {
+          "korean": "중지(하다)",
+          "indonesian": "penghentian (menghentikan)",
+          "image": "/images/textbook/ch40/v2_18_중지(하다).jpg"
+        },
+        {
+          "korean": "표면",
+          "indonesian": "Permukaan",
+          "image": "/images/textbook/ch40/v2_19_표면.jpg"
+        },
+        {
+          "korean": "휘다",
+          "indonesian": "bengkok",
+          "image": "/images/textbook/ch40/v2_20_휘다.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

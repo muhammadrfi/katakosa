@@ -1,0 +1,19 @@
+{
+  "chapter": 4,
+  "sections": [
+    {
+      "title": "한국의 좌식 문화 (Budaya Duduk di Lantai)",
+      "type": "culture",
+      "culture_pairs": [
+        {
+          "korean": "한국인들은 방이나 마루의 바닥에 앉아서 식사를 하거나 휴식을 취하는 좌식 문화를 가지고 있습니다. 이러한 좌식 문화는 가족이나 가까운 친구들끼리 함께 소통하고 유대감을 형성하는 데 도움을 줍니다. 좌식 문화로 인해 한국 사람들은 대부분 집안에서 신발을 벗고 생활하며, 바닥에 앉아서 식사를 하는 식당도 쉽게 볼 수 있습니다.",
+          "indonesian": "Orang Korea memiliki budaya duduk di lantai di mana mereka duduk di lantai di kamar atau di lantai di ruang komunal untuk makan atau bersantai. Budaya ini membantu menumbuhkan komunikasi dan ikatan di antara anggota keluarga atau teman dekat. Karena budaya ini, orang Korea biasanya melepas sepatu mereka di rumah, dan Anda dapat dengan mudah menemukan restoran di mana orang duduk di lantai untuk makan."
+        },
+        {
+          "korean": "좌식 문화가 현대에도 지속되는 이유는 한국의 전통 난방 방식인 ‘온돌’의 영향 때문이라고 합니다. 온돌은 바닥을 따뜻하게 하는 한국의 전통 난방 시스템으로, 여러 가구가 모여 사는 아파트에서도 파이프를 바닥에 깔아 뜨거운 물을 순환시키는 방식으로 사용됩니다.",
+          "indonesian": "Alasan budaya duduk lantai ini berlanjut ke zaman modern adalah karena 'ondol'. Ondol adalah sistem pemanas tradisional Korea yang menghangatkan lantai. Hal ini juga digunakan di apartemen di mana banyak rumah tangga tinggal bersama dengan meletakkan pipa di lantai untuk mengedarkan air panas."
+        }
+      ]
+    }
+  ]
+}

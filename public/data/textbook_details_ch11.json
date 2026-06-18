@@ -1,0 +1,291 @@
+{
+  "chapter": 11,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "같이",
+          "indonesian": "bersama",
+          "image": null
+        },
+        {
+          "korean": "그래서",
+          "indonesian": "oleh karena itu, Oleh karena itu",
+          "image": null
+        },
+        {
+          "korean": "따로",
+          "indonesian": "Terpisah, Secara terpisah, terpisah",
+          "image": "/images/textbook/ch11/v1_2_따로.jpg"
+        },
+        {
+          "korean": "버리다",
+          "indonesian": "Membuang, membuang",
+          "image": "/images/textbook/ch11/v1_3_버리다.jpg"
+        },
+        {
+          "korean": "수거함",
+          "indonesian": "Tempat sampah daur ulang, Kotak pengumpulan, wadah (sampah)",
+          "image": "/images/textbook/ch11/v1_4_수거함.jpg"
+        },
+        {
+          "korean": "시작(하다)",
+          "indonesian": "mulai, mulai V",
+          "image": "/images/textbook/ch11/v1_5_시작(하다).jpg"
+        },
+        {
+          "korean": "쓰레기",
+          "indonesian": "Sampah, sampah",
+          "image": null
+        },
+        {
+          "korean": "쓰레기봉투",
+          "indonesian": "Kantong sampah",
+          "image": "/images/textbook/ch11/v1_7_쓰레기봉투.jpg"
+        },
+        {
+          "korean": "쓰레기통",
+          "indonesian": "Tempat sampah, tempat sampah, tong sampah",
+          "image": "/images/textbook/ch11/v1_8_쓰레기통.jpg"
+        },
+        {
+          "korean": "옷",
+          "indonesian": "baju",
+          "image": null
+        },
+        {
+          "korean": "유리",
+          "indonesian": "Botol kaca",
+          "image": "/images/textbook/ch11/v1_10_유리.jpg"
+        },
+        {
+          "korean": "음식물",
+          "indonesian": "bahan makanan, makanan",
+          "image": "/images/textbook/ch11/v1_11_음식물.jpg"
+        },
+        {
+          "korean": "일반쓰레기",
+          "indonesian": "Sampah biasa",
+          "image": "/images/textbook/ch11/v1_12_일반쓰레기.jpg"
+        },
+        {
+          "korean": "재활용품",
+          "indonesian": "Daur ulang",
+          "image": null
+        },
+        {
+          "korean": "종이",
+          "indonesian": "kertas",
+          "image": "/images/textbook/ch11/v1_14_종이.jpg"
+        },
+        {
+          "korean": "캔",
+          "indonesian": "Kaleng",
+          "image": "/images/textbook/ch11/v1_15_캔.jpg"
+        },
+        {
+          "korean": "플라스틱",
+          "indonesian": "plastik",
+          "image": "/images/textbook/ch11/v1_16_플라스틱.jpg"
+        },
+        {
+          "korean": "헌",
+          "indonesian": "bekas / lama (benda)",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "갑자기",
+          "indonesian": "Tiba-tiba, tiba-tiba",
+          "image": "/images/textbook/ch11/v2_0_갑자기.jpg"
+        },
+        {
+          "korean": "걸레",
+          "indonesian": "lap",
+          "image": "/images/textbook/ch11/v2_1_걸레.jpg"
+        },
+        {
+          "korean": "그러면",
+          "indonesian": "Kalau begitu, kalau begitu",
+          "image": "/images/textbook/ch11/v2_2_그러면.jpg"
+        },
+        {
+          "korean": "냄비",
+          "indonesian": "Panci, panci",
+          "image": "/images/textbook/ch11/v2_3_냄비.jpg"
+        },
+        {
+          "korean": "다리미",
+          "indonesian": "strikaan, setrika",
+          "image": null
+        },
+        {
+          "korean": "도와주다",
+          "indonesian": "Membantu, memberi bantuan",
+          "image": "/images/textbook/ch11/v2_5_도와주다.jpg"
+        },
+        {
+          "korean": "돌리다",
+          "indonesian": "Berputar, memutar",
+          "image": "/images/textbook/ch11/v2_6_돌리다.jpg"
+        },
+        {
+          "korean": "만들다",
+          "indonesian": "membuat, Membuat",
+          "image": "/images/textbook/ch11/v2_7_만들다.jpg"
+        },
+        {
+          "korean": "먼지",
+          "indonesian": "debu",
+          "image": "/images/textbook/ch11/v2_8_먼지.jpg"
+        },
+        {
+          "korean": "먼지를\t털다",
+          "indonesian": "Mengelap debu",
+          "image": "/images/textbook/ch11/v2_9_먼지를_털다.jpg"
+        },
+        {
+          "korean": "바닥",
+          "indonesian": "Lantai, lantai",
+          "image": "/images/textbook/ch11/v2_10_바닥.jpg"
+        },
+        {
+          "korean": "밥솥",
+          "indonesian": "Rice cooker, penanak nasi",
+          "image": "/images/textbook/ch11/v2_11_밥솥.jpg"
+        },
+        {
+          "korean": "밥을\t하다/짓다",
+          "indonesian": "memasak nasi",
+          "image": "/images/textbook/ch11/v2_12_밥을_하다_짓다.jpg"
+        },
+        {
+          "korean": "빗자루",
+          "indonesian": "Sapu, sapu",
+          "image": "/images/textbook/ch11/v2_13_빗자루.jpg"
+        },
+        {
+          "korean": "빨래(하다)",
+          "indonesian": "mencuci pakaian",
+          "image": "/images/textbook/ch11/v2_14_빨래(하다).jpg"
+        },
+        {
+          "korean": "빨래를\t걷다",
+          "indonesian": "Mengangkat pakaian, mengangkat jemuran",
+          "image": "/images/textbook/ch11/v2_15_빨래를_걷다.jpg"
+        },
+        {
+          "korean": "빨래를\t널다",
+          "indonesian": "Menjemur pakaian",
+          "image": "/images/textbook/ch11/v2_16_빨래를_널다.jpg"
+        },
+        {
+          "korean": "설거지(하다)",
+          "indonesian": "mencuci piring",
+          "image": "/images/textbook/ch11/v2_17_설거지(하다).jpg"
+        },
+        {
+          "korean": "세탁\t세제",
+          "indonesian": "deterjen baju",
+          "image": "/images/textbook/ch11/v2_18_세탁_세제.jpg"
+        },
+        {
+          "korean": "쓸다",
+          "indonesian": "Menyapu, menyapu",
+          "image": "/images/textbook/ch11/v2_19_쓸다.jpg"
+        },
+        {
+          "korean": "옷을\t개다",
+          "indonesian": "Melipat baju, melipat baju",
+          "image": "/images/textbook/ch11/v2_20_옷을_개다.jpg"
+        },
+        {
+          "korean": "옷을\t다리다",
+          "indonesian": "menyetrika baju",
+          "image": "/images/textbook/ch11/v2_21_옷을_다리다.jpg"
+        },
+        {
+          "korean": "왜",
+          "indonesian": "Mengapa, kenapa",
+          "image": "/images/textbook/ch11/v2_22_왜.jpg"
+        },
+        {
+          "korean": "전기밥솥",
+          "indonesian": "rice cooker",
+          "image": null
+        },
+        {
+          "korean": "정리(하다)",
+          "indonesian": "Merapikan, membereskan, merapikan, menata",
+          "image": "/images/textbook/ch11/v2_24_정리(하다).jpg"
+        },
+        {
+          "korean": "주방\t세제",
+          "indonesian": "sabun cuci piring",
+          "image": "/images/textbook/ch11/v2_25_주방_세제.jpg"
+        },
+        {
+          "korean": "집안일",
+          "indonesian": "Pekerjaan rumah tangga",
+          "image": null
+        },
+        {
+          "korean": "천천히",
+          "indonesian": "Perlahan-lahan",
+          "image": "/images/textbook/ch11/v2_27_천천히.jpg"
+        },
+        {
+          "korean": "프라이팬",
+          "indonesian": "Wajan, penggorengan, wajan",
+          "image": "/images/textbook/ch11/v2_28_프라이팬.jpg"
+        }
+      ]
+    },
+    {
+      "title": "쓰레기 분리배출 (Pemilahan Sampah)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "쓰레기 분리배출",
+          "indonesian": "pemilahan sampah"
+        },
+        {
+          "korean": "한국에서는 쓰레기를 버릴 때 쓰레기의 종류에 따라 분리해 서 버려야 합니다. 쓰레기의 종류에는 일반쓰레기, 음식물 쓰레 기, 재활용품, 헌 옷, 그리고 대형 쓰레기가 있습니다.",
+          "indonesian": "Di Korea, sampah harus dipisahkan berdasarkan jenisnya saat dibuang. Jenis sampah tersebut antara lain sampah umum, sisa makanan, bahan daur ulang, pakaian bekas, dan sampah berukuran besar."
+        },
+        {
+          "korean": "일반쓰레기는 종량제 봉투에 넣어서 버립니다. 버리는 날짜와 장소는 정해져 있는데 지역마다 다릅니다. 종량제 봉투는 마트 나 편의점, 슈퍼마켓에서 살 수 있는데 5ℓ, 10ℓ, 20ℓ, 30ℓ, 50ℓ, 75ℓ짜리가 있습니다.",
+          "indonesian": "Sampah umum dibuang ke kantong sampah khusus. Tanggal dan lokasi pembuangan sudah ditentukan, dan berbeda-beda di setiap wilayah. Kantong sampah khusus dapat dibeli di supermarket atau toko serba ada, dan tersedia dalam ukuran 5ℓ, 10ℓ, 20ℓ, 30ℓ, 50ℓ, dan 75ℓ."
+        },
+        {
+          "korean": "음식물 쓰레기는 최대한 물기를 제거한 후 버려야 합니다. 닭 뼈나 달걀 껍데기와 같이 동물이 먹을 수 없는 것은 일반쓰레기 로 분리해서 버려야 합니다. 음식물 쓰레기는 음식물 쓰레기 수 거통에 버리거나, 수거통이 없을 경우 음식물 쓰레기봉투에 담 아서 버리면 됩니다.",
+          "indonesian": "Limbah makanan harus dihilangkan sebanyak mungkin cairannya sebelum dibuang. Barang-barang seperti tulang ayam atau kulit telur yang tidak dapat dimakan hewan harus dipisahkan sebagai sampah umum. Sampah makanan harus dibuang ke tempat sampah makanan atau, jika tidak ada tempat sampah, ke dalam kantong sampah makanan"
+        },
+        {
+          "korean": "재활용품의 종류로는 플라스틱, 비닐, 종이, 캔, 빈 병이 있습니다. 재활용품은 종류 별로 분리해서 버리면 됩니다.",
+          "indonesian": "Barang yang dapat didaur ulang antara lain plastik, vinil, kertas, kaleng, dan botol kosong. Ini harus dipisahkan berdasarkan jenisnya ketika dibuang."
+        },
+        {
+          "korean": "헌 옷이나 신발, 가방, 담요와 같은 것은 의류 수거함에 버려 야 하는데, 의류 수거함은 보통 행정복지센터 앞이나 주택가의 골목, 아파트의 쓰레기 수거장 안에 있습니다.",
+          "indonesian": "Pakaian, sepatu, tas, dan selimut bekas sebaiknya dibuang ke tempat pengumpulan pakaian yang biasanya terdapat di depan pusat komunitas, di gang pemukiman, atau di tempat pembuangan sampah kompleks apartemen."
+        },
+        {
+          "korean": "대형 쓰레기는 책상이나 침대, 냉장고, 텔레비전과 같이 큰 쓰레기를 말합니다. 대형 쓰레기를 버릴 때는 폐기물 스티커를 붙인 후 집 앞에 버려야 합니다. 스티커 비용은 쓰레기의 크기 와 무게에 따라 다르며, 행정복지센터에서 구매할 수 있습니다.",
+          "indonesian": "Sampah berukuran besar seperti meja, tempat tidur, lemari es, dan televisi dianggap sebagai sampah besar. Saat membuang sampah berukuran besar, stiker pembuangan harus ditempel sebelum ditempatkan di luar rumah. Harga stiker bervariasi berdasarkan ukuran dan berat barang dan dapat dibeli di pusat komunitas."
+        },
+        {
+          "korean": "유리 종이 캔 플라스틱 •  쓰레기 버리는 법에 대해 묻고 답할 수 있다. Mampu bertanya dan menjawab mengenai cara",
+          "indonesian": "membuang sampah • •"
+        }
+      ]
+    }
+  ]
+}

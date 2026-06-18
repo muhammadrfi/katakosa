@@ -1,0 +1,482 @@
+[
+  {
+    "chapter": 1,
+    "title": "자기소개 (Perkenalan Diri)",
+    "vocab1_img": "/images/textbook/ch1_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch1_vocab2.jpg",
+    "culture_img": "/images/textbook/ch1_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 2,
+    "title": "생활용품 (Barang Kebutuhan Sehari-hari)",
+    "vocab1_img": "/images/textbook/ch2_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch2_vocab2.jpg",
+    "culture_img": "/images/textbook/ch2_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 3,
+    "title": "위치와 장소 (Lokasi dan Tempat)",
+    "vocab1_img": "/images/textbook/ch3_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch3_vocab2.jpg",
+    "culture_img": "/images/textbook/ch3_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 4,
+    "title": "동작과 사물 (Aksi dan Benda)",
+    "vocab1_img": "/images/textbook/ch4_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch4_vocab2.jpg",
+    "culture_img": "/images/textbook/ch4_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 5,
+    "title": "날짜와 요일 (Tanggal & Hari)",
+    "vocab1_img": "/images/textbook/ch5_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch5_vocab2.jpg",
+    "culture_img": "/images/textbook/ch5_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 6,
+    "title": "시간과 하루 일과 (Waktu dan Rutinitas Harian)",
+    "vocab1_img": "/images/textbook/ch6_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch6_vocab2.jpg",
+    "culture_img": "/images/textbook/ch6_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 7,
+    "title": "날씨와 생활 (Cuaca dan Kehidupan)",
+    "vocab1_img": "/images/textbook/ch7_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch7_vocab2.jpg",
+    "culture_img": "/images/textbook/ch7_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 8,
+    "title": "가족과 친구 (Keluarga dan Teman)",
+    "vocab1_img": "/images/textbook/ch8_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch8_vocab2.jpg",
+    "culture_img": "/images/textbook/ch8_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 9,
+    "title": "음식과 식사 (Makanan & Tata Cara Makan)",
+    "vocab1_img": "/images/textbook/ch9_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch9_vocab2.jpg",
+    "culture_img": "/images/textbook/ch9_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 10,
+    "title": "취미와 여가 (Hobi & Waktu Luang)",
+    "vocab1_img": "/images/textbook/ch10_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch10_vocab2.jpg",
+    "culture_img": "/images/textbook/ch10_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 11,
+    "title": "물건 구매 (Membeli Barang)",
+    "vocab1_img": "/images/textbook/ch11_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch11_vocab2.jpg",
+    "culture_img": "/images/textbook/ch11_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 12,
+    "title": "교통과 이동 (Transportasi dan Perpindahan)",
+    "vocab1_img": "/images/textbook/ch12_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch12_vocab2.jpg",
+    "culture_img": "/images/textbook/ch12_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 13,
+    "title": "약속과 계획 (Janji dan Rencana)",
+    "vocab1_img": "/images/textbook/ch13_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch13_vocab2.jpg",
+    "culture_img": "/images/textbook/ch13_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 14,
+    "title": "주문과 배달 (Pemesanan dan Pengantaran)",
+    "vocab1_img": "/images/textbook/ch14_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch14_vocab2.jpg",
+    "culture_img": "/images/textbook/ch14_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 15,
+    "title": "계절과 날씨 (Musim dan Cuaca)",
+    "vocab1_img": "/images/textbook/ch15_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch15_vocab2.jpg",
+    "culture_img": "/images/textbook/ch15_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 16,
+    "title": "취미 생활 (Kehidupan Hobi)",
+    "vocab1_img": "/images/textbook/ch16_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch16_vocab2.jpg",
+    "culture_img": "/images/textbook/ch16_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 17,
+    "title": "여행 계획 (Rencana Perjalanan)",
+    "vocab1_img": "/images/textbook/ch17_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch17_vocab2.jpg",
+    "culture_img": "/images/textbook/ch17_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 18,
+    "title": "교통 이용 (Penggunaan Transportasi)",
+    "vocab1_img": "/images/textbook/ch18_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch18_vocab2.jpg",
+    "culture_img": "/images/textbook/ch18_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 19,
+    "title": "요리하기 (Memasak)",
+    "vocab1_img": "/images/textbook/ch19_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch19_vocab2.jpg",
+    "culture_img": "/images/textbook/ch19_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 20,
+    "title": "가사 노동 (Pekerjaan Rumah Tangga)",
+    "vocab1_img": "/images/textbook/ch20_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch20_vocab2.jpg",
+    "culture_img": "/images/textbook/ch20_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 21,
+    "title": "초대와 방문 (Undangan dan Kunjungan)",
+    "vocab1_img": "/images/textbook/ch21_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch21_vocab2.jpg",
+    "culture_img": "/images/textbook/ch21_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 22,
+    "title": "약속 정하기 (Membuat Rencana)",
+    "vocab1_img": "/images/textbook/ch22_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch22_vocab2.jpg",
+    "culture_img": "/images/textbook/ch22_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 23,
+    "title": "정보 검색 (Pencarian Informasi)",
+    "vocab1_img": "/images/textbook/ch23_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch23_vocab2.jpg",
+    "culture_img": "/images/textbook/ch23_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 24,
+    "title": "학습과 교육 (Pembelajaran dan Pendidikan)",
+    "vocab1_img": "/images/textbook/ch24_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch24_vocab2.jpg",
+    "culture_img": "/images/textbook/ch24_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 25,
+    "title": "공공기관 이용 (Penggunaan Lembaga Publik)",
+    "vocab1_img": "/images/textbook/ch25_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch25_vocab2.jpg",
+    "culture_img": "/images/textbook/ch25_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 26,
+    "title": "병원 이용 (Penggunaan Rumah Sakit)",
+    "vocab1_img": "/images/textbook/ch26_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch26_vocab2.jpg",
+    "culture_img": "/images/textbook/ch26_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 27,
+    "title": "약국 이용 (Penggunaan Apotek)",
+    "vocab1_img": "/images/textbook/ch27_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch27_vocab2.jpg",
+    "culture_img": "/images/textbook/ch27_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 28,
+    "title": "우체국 이용 (Penggunaan Kantor Pos)",
+    "vocab1_img": "/images/textbook/ch28_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch28_vocab2.jpg",
+    "culture_img": "/images/textbook/ch28_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 29,
+    "title": "은행 이용 (Penggunaan Bank)",
+    "vocab1_img": "/images/textbook/ch29_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch29_vocab2.jpg",
+    "culture_img": "/images/textbook/ch29_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 30,
+    "title": "기관 이용 (Penggunaan Lembaga Lain)",
+    "vocab1_img": "/images/textbook/ch30_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch30_vocab2.jpg",
+    "culture_img": "/images/textbook/ch30_culture.jpg",
+    "book": 1
+  },
+  {
+    "chapter": 31,
+    "title": "복장과 근무 태도 (Pakaian dan Sikap Kerja)",
+    "vocab1_img": "/images/textbook/ch31_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch31_vocab2.jpg",
+    "culture_img": "/images/textbook/ch31_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 32,
+    "title": "회사 시설 사용 (Penggunaan Fasilitas Perusahaan)",
+    "vocab1_img": "/images/textbook/ch32_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch32_vocab2.jpg",
+    "culture_img": "/images/textbook/ch32_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 33,
+    "title": "동료와의 관계 (Hubungan dengan Rekan Kerja)",
+    "vocab1_img": "/images/textbook/ch33_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch33_vocab2.jpg",
+    "culture_img": "/images/textbook/ch33_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 34,
+    "title": "성희롱 및 성추행 예방 (Pencegahan Pelecehan Seksual & Kekerasan Seksual)",
+    "vocab1_img": "/images/textbook/ch34_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch34_vocab2.jpg",
+    "culture_img": "/images/textbook/ch34_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 35,
+    "title": "작업장 관리 (Pengelolaan Tempat Kerja)",
+    "vocab1_img": "/images/textbook/ch35_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch35_vocab2.jpg",
+    "culture_img": "/images/textbook/ch35_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 36,
+    "title": "작업 도구 준비 (Persiapan Alat Kerja)",
+    "vocab1_img": "/images/textbook/ch36_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch36_vocab2.jpg",
+    "culture_img": "/images/textbook/ch36_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 37,
+    "title": "기계 작동 (Pengoperasian Mesin)",
+    "vocab1_img": "/images/textbook/ch37_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch37_vocab2.jpg",
+    "culture_img": "/images/textbook/ch37_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 38,
+    "title": "공구 사용 (Penggunaan Perkakas)",
+    "vocab1_img": "/images/textbook/ch38_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch38_vocab2.jpg",
+    "culture_img": "/images/textbook/ch38_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 39,
+    "title": "작업 현장 정리 (Perapian Lokasi Kerja)",
+    "vocab1_img": "/images/textbook/ch39_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch39_vocab2.jpg",
+    "culture_img": "/images/textbook/ch39_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 40,
+    "title": "안전수칙 준수 (Kepatuhan Aturan Keselamatan)",
+    "vocab1_img": "/images/textbook/ch40_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch40_vocab2.jpg",
+    "culture_img": "/images/textbook/ch40_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 41,
+    "title": "제조업 1 (Manufaktur 1)",
+    "vocab1_img": "/images/textbook/ch41_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch41_vocab2.jpg",
+    "culture_img": "/images/textbook/ch41_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 42,
+    "title": "제조업 2 (Manufaktur 2)",
+    "vocab1_img": "/images/textbook/ch42_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch42_vocab2.jpg",
+    "culture_img": "/images/textbook/ch42_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 43,
+    "title": "건설업 (Konstruksi)",
+    "vocab1_img": "/images/textbook/ch43_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch43_vocab2.jpg",
+    "culture_img": "/images/textbook/ch43_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 44,
+    "title": "토목 시공 (Teknik Sipil)",
+    "vocab1_img": "/images/textbook/ch44_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch44_vocab2.jpg",
+    "culture_img": "/images/textbook/ch44_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 45,
+    "title": "농축산업 (Pertanian & Peternakan)",
+    "vocab1_img": "/images/textbook/ch45_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch45_vocab2.jpg",
+    "culture_img": "/images/textbook/ch45_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 46,
+    "title": "어업 (Perikanan)",
+    "vocab1_img": "/images/textbook/ch46_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch46_vocab2.jpg",
+    "culture_img": "/images/textbook/ch46_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 47,
+    "title": "연안 어업과 양식 (Perikanan Pantai & Budidaya)",
+    "vocab1_img": "/images/textbook/ch47_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch47_vocab2.jpg",
+    "culture_img": "/images/textbook/ch47_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 48,
+    "title": "조선업 (Pembuatan Kapal)",
+    "vocab1_img": "/images/textbook/ch48_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch48_vocab2.jpg",
+    "culture_img": "/images/textbook/ch48_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 49,
+    "title": "광업 (Pertambangan)",
+    "vocab1_img": "/images/textbook/ch49_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch49_vocab2.jpg",
+    "culture_img": "/images/textbook/ch49_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 50,
+    "title": "임업 (Kehutanan)",
+    "vocab1_img": "/images/textbook/ch50_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch50_vocab2.jpg",
+    "culture_img": "/images/textbook/ch50_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 51,
+    "title": "서비스업 (Layanan / Jasa)",
+    "vocab1_img": "/images/textbook/ch51_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch51_vocab2.jpg",
+    "culture_img": "/images/textbook/ch51_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 52,
+    "title": "음식 조리 (Memasak Makanan)",
+    "vocab1_img": "/images/textbook/ch52_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch52_vocab2.jpg",
+    "culture_img": "/images/textbook/ch52_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 53,
+    "title": "산업 안전 (Keselamatan Industri)",
+    "vocab1_img": "/images/textbook/ch53_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch53_vocab2.jpg",
+    "culture_img": "/images/textbook/ch53_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 54,
+    "title": "보건 수칙 (Aturan Kesehatan)",
+    "vocab1_img": "/images/textbook/ch54_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch54_vocab2.jpg",
+    "culture_img": "/images/textbook/ch54_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 55,
+    "title": "안전 장비 (Peralatan Keselamatan)",
+    "vocab1_img": "/images/textbook/ch55_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch55_vocab2.jpg",
+    "culture_img": "/images/textbook/ch55_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 56,
+    "title": "산업 재해 (Kecelakaan Kerja)",
+    "vocab1_img": "/images/textbook/ch56_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch56_vocab2.jpg",
+    "culture_img": "/images/textbook/ch56_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 57,
+    "title": "고용허가제 (Sistem Izin Kerja)",
+    "vocab1_img": "/images/textbook/ch57_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch57_vocab2.jpg",
+    "culture_img": "/images/textbook/ch57_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 58,
+    "title": "표준근로계약서 (Kontrak Kerja Standar)",
+    "vocab1_img": "/images/textbook/ch58_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch58_vocab2.jpg",
+    "culture_img": "/images/textbook/ch58_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 59,
+    "title": "출입국 관리법 (Undang-Undang Keimigrasian)",
+    "vocab1_img": "/images/textbook/ch59_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch59_vocab2.jpg",
+    "culture_img": "/images/textbook/ch59_culture.jpg",
+    "book": 2
+  },
+  {
+    "chapter": 60,
+    "title": "근로자 보험 (Asuransi Pekerja)",
+    "vocab1_img": "/images/textbook/ch60_vocab1.jpg",
+    "vocab2_img": "/images/textbook/ch60_vocab2.jpg",
+    "culture_img": "/images/textbook/ch60_culture.jpg",
+    "book": 2
+  }
+]

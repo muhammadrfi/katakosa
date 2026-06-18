@@ -1,0 +1,234 @@
+{
+  "chapter": 19,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "고소하다",
+          "indonesian": "Gurih",
+          "image": "/images/textbook/ch19/v1_0_고소하다.jpg"
+        },
+        {
+          "korean": "교실",
+          "indonesian": "ruang kelas, kelas",
+          "image": "/images/textbook/ch19/v1_1_교실.jpg"
+        },
+        {
+          "korean": "다니다",
+          "indonesian": "Pergi, pergi, datang dan pergi, menghadiri",
+          "image": "/images/textbook/ch19/v1_2_다니다.jpg"
+        },
+        {
+          "korean": "달다",
+          "indonesian": "Manis, manis, menggantungkan",
+          "image": "/images/textbook/ch19/v1_3_달다.jpg"
+        },
+        {
+          "korean": "떡볶이",
+          "indonesian": "Tteokbokki, jajanan sejenis cilok yg dicampur dg saos",
+          "image": "/images/textbook/ch19/v1_4_떡볶이.jpg"
+        },
+        {
+          "korean": "레몬",
+          "indonesian": "Lemon, melon",
+          "image": "/images/textbook/ch19/v1_5_레몬.jpg"
+        },
+        {
+          "korean": "맛",
+          "indonesian": "Rasa, rasa",
+          "image": null
+        },
+        {
+          "korean": "맛이\t좋다",
+          "indonesian": "Rasanya enak",
+          "image": "/images/textbook/ch19/v1_7_맛이_좋다.jpg"
+        },
+        {
+          "korean": "맵다",
+          "indonesian": "Pedas, pedas",
+          "image": "/images/textbook/ch19/v1_8_맵다.jpg"
+        },
+        {
+          "korean": "시다",
+          "indonesian": "Asam, asam",
+          "image": "/images/textbook/ch19/v1_9_시다.jpg"
+        },
+        {
+          "korean": "싱겁다",
+          "indonesian": "Hambar, hambar",
+          "image": "/images/textbook/ch19/v1_10_싱겁다.jpg"
+        },
+        {
+          "korean": "쓰다",
+          "indonesian": "Memakai di kepala, Pahit, Menulis, Menggunakan, pahit, menggunakan, menulis",
+          "image": "/images/textbook/ch19/v1_11_쓰다.jpg"
+        },
+        {
+          "korean": "요리법",
+          "indonesian": "Cara memasak",
+          "image": "/images/textbook/ch19/v1_12_요리법.jpg"
+        },
+        {
+          "korean": "짜다",
+          "indonesian": "Asin, asin",
+          "image": "/images/textbook/ch19/v1_13_짜다.jpg"
+        },
+        {
+          "korean": "한번",
+          "indonesian": "sekali",
+          "image": "/images/textbook/ch19/v1_14_한번.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "간장",
+          "indonesian": "Kecap, kecap asin, ganjang",
+          "image": "/images/textbook/ch19/v2_0_간장.jpg"
+        },
+        {
+          "korean": "계란",
+          "indonesian": "Telur",
+          "image": "/images/textbook/ch19/v2_1_계란.jpg"
+        },
+        {
+          "korean": "고기",
+          "indonesian": "daging, Daging",
+          "image": "/images/textbook/ch19/v2_2_고기.jpg"
+        },
+        {
+          "korean": "굽다",
+          "indonesian": "Memanggang, memanggang",
+          "image": "/images/textbook/ch19/v2_3_굽다.jpg"
+        },
+        {
+          "korean": "깎다",
+          "indonesian": "Mengupas (buah), Mengukir",
+          "image": "/images/textbook/ch19/v2_4_깎다.jpg"
+        },
+        {
+          "korean": "끓이다",
+          "indonesian": "Merebus",
+          "image": "/images/textbook/ch19/v2_5_끓이다.jpg"
+        },
+        {
+          "korean": "닭고기",
+          "indonesian": "Daging ayam, daging ayam",
+          "image": "/images/textbook/ch19/v2_6_닭고기.jpg"
+        },
+        {
+          "korean": "당근",
+          "indonesian": "Wortel, wortel",
+          "image": "/images/textbook/ch19/v2_7_당근.jpg"
+        },
+        {
+          "korean": "데우다",
+          "indonesian": "Panas",
+          "image": "/images/textbook/ch19/v2_8_데우다.jpg"
+        },
+        {
+          "korean": "떡",
+          "indonesian": "makanan terbuat dari tepung beras",
+          "image": "/images/textbook/ch19/v2_9_떡.jpg"
+        },
+        {
+          "korean": "마늘",
+          "indonesian": "Bawang putih, bawang putih",
+          "image": "/images/textbook/ch19/v2_10_마늘.jpg"
+        },
+        {
+          "korean": "만두",
+          "indonesian": "pangsit, makanan mirip dinsum, isi sayuran dan daging babi cincang",
+          "image": "/images/textbook/ch19/v2_11_만두.jpg"
+        },
+        {
+          "korean": "볶다",
+          "indonesian": "Menggoreng, menumis",
+          "image": "/images/textbook/ch19/v2_12_볶다.jpg"
+        },
+        {
+          "korean": "삶다",
+          "indonesian": "Merebus, direbus",
+          "image": "/images/textbook/ch19/v2_13_삶다.jpg"
+        },
+        {
+          "korean": "생선",
+          "indonesian": "ikan",
+          "image": "/images/textbook/ch19/v2_14_생선.jpg"
+        },
+        {
+          "korean": "설탕",
+          "indonesian": "Gula, gula",
+          "image": "/images/textbook/ch19/v2_15_설탕.jpg"
+        },
+        {
+          "korean": "소고기",
+          "indonesian": "Daging sapi",
+          "image": "/images/textbook/ch19/v2_16_소고기.jpg"
+        },
+        {
+          "korean": "소금",
+          "indonesian": "Garam, garam",
+          "image": "/images/textbook/ch19/v2_17_소금.jpg"
+        },
+        {
+          "korean": "썰다",
+          "indonesian": "Mengiris, mengiris",
+          "image": "/images/textbook/ch19/v2_18_썰다.jpg"
+        },
+        {
+          "korean": "양념",
+          "indonesian": "Bumbu",
+          "image": null
+        },
+        {
+          "korean": "양파",
+          "indonesian": "Bawang bombay, bawang bombay, bawang Bombay",
+          "image": "/images/textbook/ch19/v2_20_양파.jpg"
+        },
+        {
+          "korean": "재료",
+          "indonesian": "Bahan",
+          "image": null
+        },
+        {
+          "korean": "조리법",
+          "indonesian": "Cara memasak",
+          "image": null
+        },
+        {
+          "korean": "찌다",
+          "indonesian": "mengukus",
+          "image": "/images/textbook/ch19/v2_23_찌다.jpg"
+        },
+        {
+          "korean": "채소",
+          "indonesian": "Sayuran, sayur",
+          "image": null
+        },
+        {
+          "korean": "튀기다",
+          "indonesian": "Menumis",
+          "image": "/images/textbook/ch19/v2_25_튀기다.jpg"
+        },
+        {
+          "korean": "파",
+          "indonesian": "Daun bawang, daun bawang, bawang daun",
+          "image": "/images/textbook/ch19/v2_26_파.jpg"
+        },
+        {
+          "korean": "후추",
+          "indonesian": "Merica, lada, merica hitam",
+          "image": "/images/textbook/ch19/v2_27_후추.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

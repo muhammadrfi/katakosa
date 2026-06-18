@@ -1,0 +1,246 @@
+{
+  "chapter": 48,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "골고루",
+          "indonesian": "rata, seimbang",
+          "image": "/images/textbook/ch48/v1_0_골고루.jpg"
+        },
+        {
+          "korean": "금이 가다",
+          "indonesian": "retakan",
+          "image": "/images/textbook/ch48/v1_1_금이_가다.jpg"
+        },
+        {
+          "korean": "녹",
+          "indonesian": "karat",
+          "image": "/images/textbook/ch48/v1_2_녹.jpg"
+        },
+        {
+          "korean": "도료",
+          "indonesian": "Selang Cat, Pelapis",
+          "image": "/images/textbook/ch48/v1_3_도료.jpg"
+        },
+        {
+          "korean": "마무리(하다)",
+          "indonesian": "menyelesaikan",
+          "image": "/images/textbook/ch48/v1_4_마무리(하다).jpg"
+        },
+        {
+          "korean": "매끄럽다",
+          "indonesian": "Halus",
+          "image": "/images/textbook/ch48/v1_5_매끄럽다.jpg"
+        },
+        {
+          "korean": "면적",
+          "indonesian": "Luas wilayah",
+          "image": "/images/textbook/ch48/v1_6_면적.jpg"
+        },
+        {
+          "korean": "물기",
+          "indonesian": "menggigit, berair",
+          "image": "/images/textbook/ch48/v1_7_물기.jpg"
+        },
+        {
+          "korean": "부식",
+          "indonesian": "korosi",
+          "image": "/images/textbook/ch48/v1_8_부식.jpg"
+        },
+        {
+          "korean": "분사(하다)",
+          "indonesian": "semprot",
+          "image": "/images/textbook/ch48/v1_9_분사(하다).jpg"
+        },
+        {
+          "korean": "선미부",
+          "indonesian": "bagian buritan",
+          "image": "/images/textbook/ch48/v1_10_선미부.jpg"
+        },
+        {
+          "korean": "선박",
+          "indonesian": "Pos laut, kapal",
+          "image": null
+        },
+        {
+          "korean": "선수부",
+          "indonesian": "atlet",
+          "image": "/images/textbook/ch48/v1_12_선수부.jpg"
+        },
+        {
+          "korean": "선체",
+          "indonesian": "Konstruksi kapal",
+          "image": null
+        },
+        {
+          "korean": "에어 스프레이 건",
+          "indonesian": "pistol semprot udara",
+          "image": "/images/textbook/ch48/v1_14_에어_스프레이_건.jpg"
+        },
+        {
+          "korean": "조타실",
+          "indonesian": "ruang kemudi",
+          "image": "/images/textbook/ch48/v1_15_조타실.jpg"
+        },
+        {
+          "korean": "중앙부",
+          "indonesian": "bagian tengah",
+          "image": "/images/textbook/ch48/v1_16_중앙부.jpg"
+        },
+        {
+          "korean": "프로펠러",
+          "indonesian": "menopang",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가새",
+          "indonesian": "Gas bocor, terkena gas",
+          "image": null
+        },
+        {
+          "korean": "강관 비계",
+          "indonesian": "perancah pipa baja",
+          "image": null
+        },
+        {
+          "korean": "고장",
+          "indonesian": "Rusak",
+          "image": null
+        },
+        {
+          "korean": "구조물",
+          "indonesian": "Struktur",
+          "image": null
+        },
+        {
+          "korean": "깔판",
+          "indonesian": "papan alas / palet",
+          "image": null
+        },
+        {
+          "korean": "능률",
+          "indonesian": "Efisiensi, daya guna",
+          "image": null
+        },
+        {
+          "korean": "대각선",
+          "indonesian": "diagonal",
+          "image": null
+        },
+        {
+          "korean": "띠장",
+          "indonesian": "pita",
+          "image": null
+        },
+        {
+          "korean": "밑둥잡이",
+          "indonesian": "penangkap bawah",
+          "image": null
+        },
+        {
+          "korean": "밑받침 철물",
+          "indonesian": "perangkat keras lapisan bawah",
+          "image": null
+        },
+        {
+          "korean": "비계기둥",
+          "indonesian": "pilar perancah",
+          "image": null
+        },
+        {
+          "korean": "세우다",
+          "indonesian": "Mengatur, mengatur, memarkirkan",
+          "image": null
+        },
+        {
+          "korean": "수직",
+          "indonesian": "tegak lurus, vertikal",
+          "image": null
+        },
+        {
+          "korean": "수평",
+          "indonesian": "horizontal / datar",
+          "image": null
+        },
+        {
+          "korean": "실수(하다)",
+          "indonesian": "Kesalahan",
+          "image": null
+        },
+        {
+          "korean": "안전 로프",
+          "indonesian": "tali pengaman",
+          "image": null
+        },
+        {
+          "korean": "안전난간",
+          "indonesian": "pagar pengaman",
+          "image": null
+        },
+        {
+          "korean": "안정성",
+          "indonesian": "stabilitas",
+          "image": null
+        },
+        {
+          "korean": "임시로",
+          "indonesian": "untuk sementara",
+          "image": null
+        },
+        {
+          "korean": "작업발판",
+          "indonesian": "Pijakan kaki",
+          "image": null
+        },
+        {
+          "korean": "장선",
+          "indonesian": "senar",
+          "image": null
+        },
+        {
+          "korean": "정기적",
+          "indonesian": "Teratur, Secara teratur",
+          "image": null
+        },
+        {
+          "korean": "지지대",
+          "indonesian": "mendukung",
+          "image": null
+        },
+        {
+          "korean": "품질",
+          "indonesian": "Kualitas, kualitas, mutu",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "한국의 조선업 (Industri Pembuatan Kapal Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국은 세계적으로 유명한 조선업 국가 중 하나로, 대형 선박 및 특수 선박을 건조하는 데 있어 높은 기술력 을 갖추고 있습니다. 한국의 조선업은 1970년대에 정부 주도의 핵심 산업으로 시작되어, 세계적인 경쟁력을 갖 추고 있습니다. 한국에는 현대중공업, 삼성중공업, 대우조선해양 등과 같은 세계적인 조선업체들이 있는데, 이 들 업체는 전 세계 대형 선박 건조 분야에서 높은 시장 점유율을 차지하고 있습니다.",
+          "indonesian": "Korea Selatan adalah salah satu negara pembuat kapal terkemuka di dunia dan terkenal dengan teknologi canggihnya dalam membangun kapal besar dan khusus. Industri pembuatan kapal di negara ini dimulai pada tahun 1970an sebagai sektor utama yang didorong oleh pemerintah, dan sejak itu telah mengembangkan daya saing global yang signifikan. Pembuat kapal besar Korea Selatan seperti Hyundai Heavy Industries, Samsung Heavy Industries, dan Daewoo Shipbuilding & Marine Engineering memegang pangsa pasar yang besar di sektor konstruksi kapal besar global."
+        },
+        {
+          "korean": "한국의 조선업은 기술력, 생산성, 가격 경쟁력 등에서 높은 평 가를 받고 있습니다. 2020년을 기준으로 한국의 조선업은 R&D 및 설계, 생산 부문의 기술력을 포함한 종합경쟁력에서 세계 1위 를 차지하였습니다. 선종별 경쟁력에 있어서도 가스운반선, 유 조선, 컨테이너선 등에서 높은 경쟁력을 확보하고 있습니다.",
+          "indonesian": "Industri pembuatan kapal Korea Selatan sangat dihormati karena teknologi, produktivitas, dan daya saing biayanya. Pada tahun 2020, Korea Selatan menempati peringkat pertama dalam daya saing secara keseluruhan, termasuk penelitian dan pengembangan (R&D), desain, dan kemampuan produksi. Negara ini juga mempertahankan daya saing yang tinggi di berbagai jenis kapal, termasuk pengangkut gas, kapal tanker minyak, dan kapal kontainer."
+        },
+        {
+          "korean": "그러나 최근 몇 년간 한국의 조선업은 세계적인 경기 침체와 경쟁의 심화로 인해 다소 어려움을 겪고 있습니 다. 이를 극복하고자 한국 조선업은 기술 혁신과 구조 개선을 통해 경쟁력을 강화하는 등 조선업 선도국의 입지 를 유지하기 위한 노력을 끊임없이 하고 있습니다.",
+          "indonesian": "Namun, dalam beberapa tahun terakhir, industri pembuatan kapal Korea Selatan menghadapi beberapa tantangan akibat kemerosotan ekonomi global dan meningkatnya persaingan. Untuk mengatasi kesulitan ini, sektor pembuatan kapal Korea Selatan terus berupaya memperkuat daya saingnya melalui inovasi teknologi dan perbaikan struktural, berupaya mempertahankan posisinya sebagai negara pembuat kapal terkemuka."
+        }
+      ]
+    }
+  ]
+}

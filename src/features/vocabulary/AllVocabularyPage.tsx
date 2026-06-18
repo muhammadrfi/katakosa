@@ -8,17 +8,34 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlusCircle } from 'lucide-react';
 import VocabularyDetailPopup from './components/VocabularyDetailPopup';
 import { VocabularySet } from './vocabulary.types';
+import { usePracticeProjectStore } from '../practice-projects/usePracticeProjectStore';
+import CreateProjectDialog from '../practice-projects/CreateProjectDialog';
 
 const AllVocabularyPage = () => {
   const { vocabularySets, removeVocabularySet, editVocabularySet, removeWord, editWord, addWordToSet, addVocabularySet, loading } = useVocabularyStore();
+  const { addProject } = usePracticeProjectStore();
+  
   const [isAddSetDialogOpen, setIsAddSetDialogOpen] = useState(false);
   const [isDetailPopupOpen, setIsDetailPopupOpen] = useState(false);
   const [selectedVocabularySet, setSelectedVocabularySet] = useState<VocabularySet | null>(null);
+  
+  const [selectedSetIds, setSelectedSetIds] = useState<string[]>([]);
+  const [isCreateProjectDialogOpen, setIsCreateProjectDialogOpen] = useState(false);
 
-  // Placeholder for onSetSelectionChange, as it's required by VocabularySetList but not used in AllVocabularyPage
   const handleSetSelectionChange = (setId: string, isSelected: boolean) => {
-    // Implement selection logic if needed in the future
-    console.log(`Set ${setId} selection changed to ${isSelected}`);
+    setSelectedSetIds(prev => {
+      if (isSelected) {
+        return [...prev, setId];
+      } else {
+        return prev.filter(id => id !== setId);
+      }
+    });
+  };
+
+  const handleCreateProject = (projectName: string) => {
+    addProject(projectName, selectedSetIds);
+    setSelectedSetIds([]); // Reset selection
+    setIsCreateProjectDialogOpen(false);
   };
 
   if (loading) {
@@ -31,7 +48,10 @@ const AllVocabularyPage = () => {
 
       <Card>
         <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <CardTitle>Daftar Kosakata</CardTitle>
+          <div>
+            <CardTitle>Daftar Kosakata</CardTitle>
+            <p className="text-xs text-muted-foreground mt-1">Centang set kosakata di bawah ini untuk membuat Proyek Latihan baru.</p>
+          </div>
           <div className="flex gap-2 flex-wrap justify-end">
             <Button 
               onClick={() => setIsAddSetDialogOpen(true)} 
@@ -41,12 +61,18 @@ const AllVocabularyPage = () => {
               Tambah Set Baru
             </Button>
             <ExcelImporter />
+            <Button 
+              onClick={() => setIsCreateProjectDialogOpen(true)} 
+              disabled={selectedSetIds.length === 0}
+            >
+              Buat Proyek dari {selectedSetIds.length > 0 ? `${selectedSetIds.length} Set` : 'Set Terpilih'}
+            </Button>
           </div>
         </CardHeader>
         <CardContent>
           <VocabularySetList
             sets={vocabularySets}
-            selectedSetIds={[]}
+            selectedSetIds={selectedSetIds}
             onRemoveSet={removeVocabularySet}
             onRemoveWord={removeWord}
             onEditSet={editVocabularySet}
@@ -57,8 +83,6 @@ const AllVocabularyPage = () => {
               setSelectedVocabularySet(set);
               setIsDetailPopupOpen(true);
             }}
-
-
           />
         </CardContent>
       </Card>
@@ -76,6 +100,13 @@ const AllVocabularyPage = () => {
           setSelectedVocabularySet(null);
         }}
         vocabularySet={selectedVocabularySet}
+      />
+
+      <CreateProjectDialog
+        isOpen={isCreateProjectDialogOpen}
+        onClose={() => setIsCreateProjectDialogOpen(false)}
+        onCreate={handleCreateProject}
+        selectedSetCount={selectedSetIds.length}
       />
     </div>
   );

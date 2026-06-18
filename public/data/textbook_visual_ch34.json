@@ -1,0 +1,249 @@
+{
+  "chapter": 34,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "거부감",
+          "indonesian": "menolak",
+          "image": "/images/textbook/ch34/v1_0_거부감.jpg"
+        },
+        {
+          "korean": "깜짝",
+          "indonesian": "Terkejut",
+          "image": null
+        },
+        {
+          "korean": "놀라다",
+          "indonesian": "Kaget, Terkejut",
+          "image": "/images/textbook/ch34/v1_2_놀라다.jpg"
+        },
+        {
+          "korean": "농담",
+          "indonesian": "bercanda",
+          "image": "/images/textbook/ch34/v1_3_농담.jpg"
+        },
+        {
+          "korean": "느끼다",
+          "indonesian": "Merasa, merasa",
+          "image": "/images/textbook/ch34/v1_4_느끼다.jpg"
+        },
+        {
+          "korean": "문제",
+          "indonesian": "Masalah",
+          "image": "/images/textbook/ch34/v1_5_문제.jpg"
+        },
+        {
+          "korean": "불쾌감",
+          "indonesian": "tidak senang",
+          "image": "/images/textbook/ch34/v1_6_불쾌감.jpg"
+        },
+        {
+          "korean": "상대방",
+          "indonesian": "Lawan bicara, Pihak lain, orang lain",
+          "image": "/images/textbook/ch34/v1_7_상대방.jpg"
+        },
+        {
+          "korean": "성적",
+          "indonesian": "secara seksual",
+          "image": "/images/textbook/ch34/v1_8_성적.jpg"
+        },
+        {
+          "korean": "성차별적",
+          "indonesian": "diskriminatif gender / seksis",
+          "image": "/images/textbook/ch34/v1_9_성차별적.jpg"
+        },
+        {
+          "korean": "성희롱",
+          "indonesian": "pelecehan seksual verbal/non-verbal",
+          "image": null
+        },
+        {
+          "korean": "수치심",
+          "indonesian": "penghinaan",
+          "image": "/images/textbook/ch34/v1_11_수치심.jpg"
+        },
+        {
+          "korean": "심하다",
+          "indonesian": "Parah, serius, kuat, parah",
+          "image": "/images/textbook/ch34/v1_12_심하다.jpg"
+        },
+        {
+          "korean": "아까",
+          "indonesian": "Tadi, tadi",
+          "image": "/images/textbook/ch34/v1_13_아까.jpg"
+        },
+        {
+          "korean": "언어",
+          "indonesian": "Bahasa",
+          "image": "/images/textbook/ch34/v1_14_언어.jpg"
+        },
+        {
+          "korean": "예민하다",
+          "indonesian": "Sensitif, sensitif",
+          "image": "/images/textbook/ch34/v1_15_예민하다.jpg"
+        },
+        {
+          "korean": "음담패설",
+          "indonesian": "komentar, kata mesum",
+          "image": "/images/textbook/ch34/v1_16_음담패설.jpg"
+        },
+        {
+          "korean": "음란물",
+          "indonesian": "pornografi",
+          "image": "/images/textbook/ch34/v1_17_음란물.jpg"
+        },
+        {
+          "korean": "의도",
+          "indonesian": "Maksud, Niat, maksud",
+          "image": "/images/textbook/ch34/v1_18_의도.jpg"
+        },
+        {
+          "korean": "신체 접촉",
+          "indonesian": "kontak fisik",
+          "image": "/images/textbook/ch34/v1_19_신체_접촉.jpg"
+        },
+        {
+          "korean": "조심(하다)",
+          "indonesian": "Berhati-hati, berhati-hati",
+          "image": null
+        },
+        {
+          "korean": "표정",
+          "indonesian": "Ekspresi wajah, ekspresi (wajah)",
+          "image": null
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가해자",
+          "indonesian": "Pelaku, pelaku",
+          "image": "/images/textbook/ch34/v2_0_가해자.jpg"
+        },
+        {
+          "korean": "당하다",
+          "indonesian": "Terkait (Hormat)",
+          "image": "/images/textbook/ch34/v2_1_당하다.jpg"
+        },
+        {
+          "korean": "대처(하다)",
+          "indonesian": "Penanganan",
+          "image": null
+        },
+        {
+          "korean": "발생(하다)",
+          "indonesian": "Terjadi, terjadi, muncul",
+          "image": null
+        },
+        {
+          "korean": "분명하다",
+          "indonesian": "Jelas",
+          "image": null
+        },
+        {
+          "korean": "상황",
+          "indonesian": "Keadaan, situasi, Situasi, keadaan, Kondisi, kondisi",
+          "image": "/images/textbook/ch34/v2_5_상황.jpg"
+        },
+        {
+          "korean": "성 인지 감수성",
+          "indonesian": "Kepekaan gender",
+          "image": "/images/textbook/ch34/v2_6_성_인지_감수성.jpg"
+        },
+        {
+          "korean": "성범죄",
+          "indonesian": "Kejahatan seksual, kekerasan seksual",
+          "image": "/images/textbook/ch34/v2_7_성범죄.jpg"
+        },
+        {
+          "korean": "성별",
+          "indonesian": "jenis kelamin",
+          "image": "/images/textbook/ch34/v2_8_성별.jpg"
+        },
+        {
+          "korean": "성추행",
+          "indonesian": "pelecehan seksual fisik",
+          "image": "/images/textbook/ch34/v2_9_성추행.jpg"
+        },
+        {
+          "korean": "신고(하다)",
+          "indonesian": "Melaporkan, melapor",
+          "image": "/images/textbook/ch34/v2_10_신고(하다).jpg"
+        },
+        {
+          "korean": "알아차리다",
+          "indonesian": "Menyadari",
+          "image": "/images/textbook/ch34/v2_11_알아차리다.jpg"
+        },
+        {
+          "korean": "양성평등",
+          "indonesian": "Kesetaraan gender",
+          "image": "/images/textbook/ch34/v2_12_양성평등.jpg"
+        },
+        {
+          "korean": "예방(하다)",
+          "indonesian": "mencegah",
+          "image": null
+        },
+        {
+          "korean": "요구(하다)",
+          "indonesian": "meminta, Meminta",
+          "image": "/images/textbook/ch34/v2_14_요구(하다).jpg"
+        },
+        {
+          "korean": "의사",
+          "indonesian": "dokter",
+          "image": "/images/textbook/ch34/v2_15_의사.jpg"
+        },
+        {
+          "korean": "이해(하다)",
+          "indonesian": "Memahami, mengerti, memahami",
+          "image": "/images/textbook/ch34/v2_16_이해(하다).jpg"
+        },
+        {
+          "korean": "증거",
+          "indonesian": "Bukti, bukti",
+          "image": "/images/textbook/ch34/v2_17_증거.jpg"
+        },
+        {
+          "korean": "증인",
+          "indonesian": "saksi",
+          "image": "/images/textbook/ch34/v2_18_증인.jpg"
+        },
+        {
+          "korean": "차이",
+          "indonesian": "Perbedaan gender",
+          "image": "/images/textbook/ch34/v2_19_차이.jpg"
+        },
+        {
+          "korean": "표현(하다)",
+          "indonesian": "mengungkapkan, Menggambarkan, Mengekspresikan",
+          "image": "/images/textbook/ch34/v2_20_표현(하다).jpg"
+        },
+        {
+          "korean": "피해자",
+          "indonesian": "Korban, korban",
+          "image": "/images/textbook/ch34/v2_21_피해자.jpg"
+        },
+        {
+          "korean": "행동(하다)",
+          "indonesian": "Bertindak",
+          "image": "/images/textbook/ch34/v2_22_행동(하다).jpg"
+        },
+        {
+          "korean": "확보(하다)",
+          "indonesian": "Mengamankan, menjaga",
+          "image": "/images/textbook/ch34/v2_23_확보(하다).jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

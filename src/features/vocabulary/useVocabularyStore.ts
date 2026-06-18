@@ -30,6 +30,7 @@ interface VocabularyState {
   addWordToSet: (setId: string, newWord: Omit<WordPair, 'id'>) => void;
   markWordAsRemembered: (wordId: string) => void;
   markWordAsForgotten: (wordId: string) => void;
+  updateWordSrs: (wordId: string, quality: 0 | 1 | 2 | 3 | 4 | 5) => void;
   resetSrsProgress: (wordId: string) => void;
   resetAllSrsProgress: () => void;
 }
@@ -115,6 +116,18 @@ const stateCreator: StateCreator<VocabularyState, [], [['zustand/persist', unkno
     vocabularySets: vocabActions.markWordAsRemembered(state.vocabularySets, wordId)
   })),
 
+  updateWordSrs: (wordId: string, quality: 0 | 1 | 2 | 3 | 4 | 5) => set(state => ({
+    vocabularySets: state.vocabularySets.map(set => ({
+      ...set,
+      words: set.words.map(word => {
+        if (word.id === wordId) {
+          return vocabActions.updateSrsProperties(word, quality);
+        }
+        return word;
+      })
+    }))
+  })),
+
 
   resetSrsProgress: (wordId: string) => set(state => {
     const updatedSets = state.vocabularySets.map(set => ({
@@ -138,23 +151,19 @@ const stateCreator: StateCreator<VocabularyState, [], [['zustand/persist', unkno
   }),
 
   resetAllSrsProgress: () => set(state => {
-    console.log("[SRS Reset] Attempting to reset progress for ALL sets.");
-    // Deep copy to ensure state change detection
-    const updatedSets = JSON.parse(JSON.stringify(state.vocabularySets));
-
-    updatedSets.forEach((set: VocabularySet) => {
-      set.words.forEach((word: WordPair) => {
-        word.repetition = 0;
-        word.interval = 0;
-        word.easeFactor = 2.5;
-        word.nextReviewDate = null;
-        word.history = [...(word.history || []), { date: Date.now(), status: 'reset' as const }];
-      });
-    });
+    const updatedSets = state.vocabularySets.map(set => ({
+      ...set,
+      words: set.words.map(word => ({
+        ...word,
+        repetition: 0,
+        interval: 0,
+        easeFactor: 2.5,
+        nextReviewDate: null,
+        history: [...(word.history || []), { date: Date.now(), status: 'reset' as const }],
+      }))
+    }));
 
     toast.success("Seluruh progres SRS telah berhasil direset.");
-    console.log("[SRS Reset] Success: Progress for ALL sets has been reset.");
-
     return { vocabularySets: updatedSets };
   }),
 

@@ -1,0 +1,189 @@
+{
+  "chapter": 13,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "고향",
+          "indonesian": "kampung halaman, Kampung halaman",
+          "image": "/images/textbook/ch13/v1_0_고향.jpg"
+        },
+        {
+          "korean": "교회",
+          "indonesian": "Gereja, gereja kristen, gereja",
+          "image": "/images/textbook/ch13/v1_1_교회.jpg"
+        },
+        {
+          "korean": "기도(하다)",
+          "indonesian": "Berdoa, berdoa",
+          "image": "/images/textbook/ch13/v1_2_기도(하다).jpg"
+        },
+        {
+          "korean": "낮잠",
+          "indonesian": "tidur siang",
+          "image": "/images/textbook/ch13/v1_3_낮잠.jpg"
+        },
+        {
+          "korean": "노래를\t부르다",
+          "indonesian": "menyanyikan lagu",
+          "image": "/images/textbook/ch13/v1_4_노래를_부르다.jpg"
+        },
+        {
+          "korean": "노래방",
+          "indonesian": "Karaoke, tempat karaoke",
+          "image": "/images/textbook/ch13/v1_5_노래방.jpg"
+        },
+        {
+          "korean": "모임",
+          "indonesian": "Pertemuan, kelompok, perkumpulan",
+          "image": null
+        },
+        {
+          "korean": "방문(하다)",
+          "indonesian": "Berkunjung, berkunjung",
+          "image": "/images/textbook/ch13/v1_7_방문(하다).jpg"
+        },
+        {
+          "korean": "사원",
+          "indonesian": "Masjid, masjid, karyawan",
+          "image": "/images/textbook/ch13/v1_8_사원.jpg"
+        },
+        {
+          "korean": "생활",
+          "indonesian": "Kehidupan, aktivitas, kehidupan, hidup",
+          "image": "/images/textbook/ch13/v1_9_생활.jpg"
+        },
+        {
+          "korean": "예불을\t드리다",
+          "indonesian": "Melakukan ibadah Buddha, menyembah (agama budha)",
+          "image": "/images/textbook/ch13/v1_10_예불을_드리다.jpg"
+        },
+        {
+          "korean": "운동장",
+          "indonesian": "Lapangan olahraga, lapangan",
+          "image": "/images/textbook/ch13/v1_11_운동장.jpg"
+        },
+        {
+          "korean": "절",
+          "indonesian": "Kuil, kuil, kuil Buddha",
+          "image": "/images/textbook/ch13/v1_12_절.jpg"
+        },
+        {
+          "korean": "종교",
+          "indonesian": "Agama, agama",
+          "image": "/images/textbook/ch13/v1_13_종교.jpg"
+        },
+        {
+          "korean": "축구(하다)",
+          "indonesian": "Bermain sepak bola, bermain sepak bola",
+          "image": "/images/textbook/ch13/v1_14_축구(하다).jpg"
+        },
+        {
+          "korean": "탁구를\t치다",
+          "indonesian": "bermain tenis meja",
+          "image": "/images/textbook/ch13/v1_15_탁구를_치다.jpg"
+        },
+        {
+          "korean": "탁구장",
+          "indonesian": "lapangan tenis meja",
+          "image": "/images/textbook/ch13/v1_16_탁구장.jpg"
+        },
+        {
+          "korean": "피시방",
+          "indonesian": "Warnet",
+          "image": "/images/textbook/ch13/v1_17_피시방.jpg"
+        },
+        {
+          "korean": "헬스를\t하다",
+          "indonesian": "Pergi ke gym",
+          "image": "/images/textbook/ch13/v1_18_헬스를_하다.jpg"
+        },
+        {
+          "korean": "헬스장",
+          "indonesian": "tempat fitness / gym",
+          "image": "/images/textbook/ch13/v1_19_헬스장.jpg"
+        },
+        {
+          "korean": "활동(하다)",
+          "indonesian": "kegiatan",
+          "image": null
+        },
+        {
+          "korean": "휴식",
+          "indonesian": "istirahat",
+          "image": "/images/textbook/ch13/v1_21_휴식.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "기분",
+          "indonesian": "Perasaan, perasaan",
+          "image": null
+        },
+        {
+          "korean": "기쁘다",
+          "indonesian": "Gembira, senang",
+          "image": "/images/textbook/ch13/v2_1_기쁘다.jpg"
+        },
+        {
+          "korean": "돼지고기",
+          "indonesian": "Daging babi, daging babi",
+          "image": "/images/textbook/ch13/v2_2_돼지고기.jpg"
+        },
+        {
+          "korean": "바쁘다",
+          "indonesian": "sibuk",
+          "image": "/images/textbook/ch13/v2_3_바쁘다.jpg"
+        },
+        {
+          "korean": "술",
+          "indonesian": "Alkohol, minuman keras, minuman beralkohol",
+          "image": "/images/textbook/ch13/v2_4_술.jpg"
+        },
+        {
+          "korean": "슬프다",
+          "indonesian": "Sedih, sedih",
+          "image": "/images/textbook/ch13/v2_5_슬프다.jpg"
+        },
+        {
+          "korean": "심심하다",
+          "indonesian": "Bosan",
+          "image": "/images/textbook/ch13/v2_6_심심하다.jpg"
+        },
+        {
+          "korean": "약속",
+          "indonesian": "janji",
+          "image": "/images/textbook/ch13/v2_7_약속.jpg"
+        },
+        {
+          "korean": "재미없다",
+          "indonesian": "tidak menarik",
+          "image": "/images/textbook/ch13/v2_8_재미없다.jpg"
+        },
+        {
+          "korean": "즐겁다",
+          "indonesian": "senang",
+          "image": "/images/textbook/ch13/v2_9_즐겁다.jpg"
+        },
+        {
+          "korean": "피곤하다",
+          "indonesian": "Lelah, lelah, capek",
+          "image": "/images/textbook/ch13/v2_10_피곤하다.jpg"
+        },
+        {
+          "korean": "한가하다",
+          "indonesian": "Senggang, punya waktu luang, senggang, tdk sibuk",
+          "image": "/images/textbook/ch13/v2_11_한가하다.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

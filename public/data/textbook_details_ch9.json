@@ -1,0 +1,224 @@
+{
+  "chapter": 9,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "김밥",
+          "indonesian": "Kimbap, nasi gulung, nasi gulung rumput laut",
+          "image": "/images/textbook/ch9/v1_0_김밥.jpg"
+        },
+        {
+          "korean": "김치찌개",
+          "indonesian": "rebusan kimci",
+          "image": "/images/textbook/ch9/v1_1_김치찌개.jpg"
+        },
+        {
+          "korean": "돈가스",
+          "indonesian": "katsu",
+          "image": "/images/textbook/ch9/v1_2_돈가스.jpg"
+        },
+        {
+          "korean": "라면",
+          "indonesian": "Mie instan, mie instan",
+          "image": "/images/textbook/ch9/v1_3_라면.jpg"
+        },
+        {
+          "korean": "맛없다",
+          "indonesian": "Tidak enak, tidak enak",
+          "image": "/images/textbook/ch9/v1_4_맛없다.jpg"
+        },
+        {
+          "korean": "맛있다",
+          "indonesian": "Enak, enak",
+          "image": "/images/textbook/ch9/v1_5_맛있다.jpg"
+        },
+        {
+          "korean": "불고기",
+          "indonesian": "Daging panggang, daging tumis (bulgogi), daging bakar, bulgogi, daging yang diasinkan lalu dipanggang atau dimasak di atas kompor",
+          "image": "/images/textbook/ch9/v1_6_불고기.jpg"
+        },
+        {
+          "korean": "싫어하다",
+          "indonesian": "Tidak suka, membenci, tdk menyukai",
+          "image": "/images/textbook/ch9/v1_7_싫어하다.jpg"
+        },
+        {
+          "korean": "우동",
+          "indonesian": "Udon, udon",
+          "image": "/images/textbook/ch9/v1_8_우동.jpg"
+        },
+        {
+          "korean": "음식",
+          "indonesian": "Makanan, makanan, hidangan",
+          "image": null
+        },
+        {
+          "korean": "자장면",
+          "indonesian": "Mie saus kedelai, mi hitam",
+          "image": "/images/textbook/ch9/v1_10_자장면.jpg"
+        },
+        {
+          "korean": "좀",
+          "indonesian": "agak",
+          "image": "/images/textbook/ch9/v1_11_좀.jpg"
+        },
+        {
+          "korean": "좋아하다",
+          "indonesian": "Suka, suka, menyukai",
+          "image": "/images/textbook/ch9/v1_12_좋아하다.jpg"
+        },
+        {
+          "korean": "치킨",
+          "indonesian": "Ayam goreng, ayam goreng",
+          "image": "/images/textbook/ch9/v1_13_치킨.jpg"
+        },
+        {
+          "korean": "탕수육",
+          "indonesian": "Daging babi manis, babi asam manis",
+          "image": "/images/textbook/ch9/v1_14_탕수육.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "개",
+          "indonesian": "buah, anjing",
+          "image": "/images/textbook/ch9/v2_0_개.jpg"
+        },
+        {
+          "korean": "공기",
+          "indonesian": "Udara, mangkuk (nasi), udara",
+          "image": "/images/textbook/ch9/v2_1_공기.jpg"
+        },
+        {
+          "korean": "권",
+          "indonesian": "jilid / eksemplar (satuan buku)",
+          "image": "/images/textbook/ch9/v2_2_권.jpg"
+        },
+        {
+          "korean": "그릇",
+          "indonesian": "mangkuk, mangkuk (sup)",
+          "image": "/images/textbook/ch9/v2_3_그릇.jpg"
+        },
+        {
+          "korean": "넷",
+          "indonesian": "empat (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "다섯",
+          "indonesian": "lima (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "둘",
+          "indonesian": "dua (angka asli Korea)",
+          "image": "/images/textbook/ch9/v2_6_둘.jpg"
+        },
+        {
+          "korean": "마리",
+          "indonesian": "ekor",
+          "image": "/images/textbook/ch9/v2_7_마리.jpg"
+        },
+        {
+          "korean": "명",
+          "indonesian": "orang (satuan), orang, name",
+          "image": "/images/textbook/ch9/v2_8_명.jpg"
+        },
+        {
+          "korean": "병",
+          "indonesian": "botol",
+          "image": null
+        },
+        {
+          "korean": "분",
+          "indonesian": "Bola akar, orang",
+          "image": null
+        },
+        {
+          "korean": "분류사",
+          "indonesian": "Angka dan satuan",
+          "image": null
+        },
+        {
+          "korean": "셋",
+          "indonesian": "tiga (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "아홉",
+          "indonesian": "sembilan (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "여덟",
+          "indonesian": "Delapan buah",
+          "image": null
+        },
+        {
+          "korean": "여섯",
+          "indonesian": "enam (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "열",
+          "indonesian": "demam, panas",
+          "image": null
+        },
+        {
+          "korean": "일곱",
+          "indonesian": "tujuh (angka asli Korea)",
+          "image": null
+        },
+        {
+          "korean": "잔",
+          "indonesian": "Satuan (Cangkir), cangkir, gelas",
+          "image": "/images/textbook/ch9/v2_18_잔.jpg"
+        },
+        {
+          "korean": "접시",
+          "indonesian": "piring",
+          "image": "/images/textbook/ch9/v2_19_접시.jpg"
+        },
+        {
+          "korean": "하늘색",
+          "indonesian": "Biru langit",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "한국인의 식사 (Makanan Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국 사람들은 주로 밥, 국, 반찬으로 구성된 식사를 합니다. 밥은 한국 사람들의 주식으로 쌀로 짓습니다. 국은 국물이 있는 음식으로, 된장국이나 미역국 등 다양한 종류가 있습니다. 반찬은 김치나 나물과 같이 밥에 곁들여 먹 는 음식으로, 함께 식사하는 사람들 간에 나누어 먹는 것이 일반적입니다. 식당에서 식사할 때는 보통 반찬이 무료 로 제공됩니다. 한국 사람들은 가족과 함께 식사하는 것을 중요하게 생각하며, 함께 음식을 나누는 것을 소중히 여 깁니다.",
+          "indonesian": "Orang Korea biasanya memiliki makanan yang terdiri dari nasi, sup, dan hidangan sampingan. Nasi adalah makanan pokok dari makanan tersebut. Ada berbagai jenis sup seperti sup pasta kedelai atau sup rumput laut yang dibuat dengan kaldu. Hidangan sampingan, seperti kimchi atau sayuran, disajikan di samping nasi dan biasanya dibagi di antara orang-orang yang makan bersama. Hidangan sampingan biasanya disediakan secara gratis di restoran. Orang Korea menghargai makan bersama keluarga mereka dan menghargai berbagi makanan bersama."
+        },
+        {
+          "korean": "최근에는 외식이 증가하면서 다양한 음식을 제공하는 식당이 많아지고, 편의를 위해 키오스크를 사용하여 음식 을 주문하는 가게가 늘어나고 있습니다.",
+          "indonesian": "Baru-baru ini, makan di luar meningkat, menyebabkan berbagai restoran menawarkan makanan yang berbeda. Untuk kenyamanan, lebih banyak tempat yang menggunakan kios untuk memesan makanan."
+        },
+        {
+          "korean": "키오스크를 이용하면 터치스크린을 통해 메뉴를 선택하고 결 제까지 한 번에 할 수 있어 매우 편리합니다. 키오스크를 이용하 는 방법은 간단합니다. 원하는 메뉴와 개수, 옵션을 선택한 후 결제 버튼을 누르고, 카드나 모바일 결제를 통해 결제하면 됩니 다. 주문이 완료되면 영수증이 출력됩니다.",
+          "indonesian": "Kios memungkinkan pelanggan untuk memilih item menu mereka dan membayar pada saat yang sama melalui layar sentuh, membuat proses sangat nyaman. Proses penggunaan kios sederhana. Anda memilih menu item, kuantitas, dan opsi yang diinginkan, lalu tekan tombol pembayaran dan bayar dengan kartu atau pembayaran mobile. Setelah pesanan selesai, tanda terima dicetak."
+        },
+        {
+          "korean": "키오스크를 이용하면 메뉴를 자세히 볼 수 있고, 주문을 빠르게 할 수 있습니다. 키오스크 덕분에 사람들이 간편 하게 음식을 주문할 수 있게 되었습니다.",
+          "indonesian": "Menggunakan kios memungkinkan Anda untuk melihat menu secara rinci dan memesan dengan cepat. Berkat kios, orang dapat memesan makanan dengan nyaman."
+        },
+        {
+          "korean": "음식 주문",
+          "indonesian": "MEMESAN MAKANAN"
+        }
+      ]
+    }
+  ]
+}

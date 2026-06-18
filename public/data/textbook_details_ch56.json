@@ -1,0 +1,314 @@
+{
+  "chapter": 56,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "감전",
+          "indonesian": "Kesetrum, kesetrum",
+          "image": null
+        },
+        {
+          "korean": "대응(하다)",
+          "indonesian": "bereaksi",
+          "image": null
+        },
+        {
+          "korean": "무너지다",
+          "indonesian": "jatuh, runtuh",
+          "image": null
+        },
+        {
+          "korean": "방화문",
+          "indonesian": "pintu tahan api",
+          "image": null
+        },
+        {
+          "korean": "밸브",
+          "indonesian": "katup (kran/valve)",
+          "image": null
+        },
+        {
+          "korean": "베이다",
+          "indonesian": "Terpotong, tersayat",
+          "image": null
+        },
+        {
+          "korean": "보호(하다)",
+          "indonesian": "Melindungi",
+          "image": null
+        },
+        {
+          "korean": "비상 전화",
+          "indonesian": "telepon darurat",
+          "image": null
+        },
+        {
+          "korean": "삐다",
+          "indonesian": "keseleo",
+          "image": null
+        },
+        {
+          "korean": "산화성",
+          "indonesian": "pengoksidasi",
+          "image": null
+        },
+        {
+          "korean": "상황별",
+          "indonesian": "berdasarkan situasi",
+          "image": null
+        },
+        {
+          "korean": "소방 장비",
+          "indonesian": "peralatan pemadam kebakaran",
+          "image": null
+        },
+        {
+          "korean": "소화전",
+          "indonesian": "Gulungan selang pemadam kebakaran (hidran kebakaran)",
+          "image": null
+        },
+        {
+          "korean": "요령",
+          "indonesian": "Tips",
+          "image": null
+        },
+        {
+          "korean": "유해",
+          "indonesian": "bahaya, berbahaya",
+          "image": null
+        },
+        {
+          "korean": "인화성",
+          "indonesian": "Mudah terbakar",
+          "image": null
+        },
+        {
+          "korean": "점화원",
+          "indonesian": "sumber pengapian, api",
+          "image": null
+        },
+        {
+          "korean": "진행(하다)",
+          "indonesian": "Kemajuan, proses, progres",
+          "image": null
+        },
+        {
+          "korean": "진화(하다)",
+          "indonesian": "pemadaman api (memadamkan)",
+          "image": null
+        },
+        {
+          "korean": "질식",
+          "indonesian": "Sesak nafas",
+          "image": null
+        },
+        {
+          "korean": "초기",
+          "indonesian": "awal",
+          "image": null
+        },
+        {
+          "korean": "피부",
+          "indonesian": "kulit",
+          "image": null
+        },
+        {
+          "korean": "호스릴",
+          "indonesian": "Gulungan selang pemadam kebakaran (hidran kebakaran)",
+          "image": null
+        },
+        {
+          "korean": "호흡기",
+          "indonesian": "sistem pernapasan",
+          "image": null
+        },
+        {
+          "korean": "화기",
+          "indonesian": "telepon kamar tamu",
+          "image": null
+        },
+        {
+          "korean": "화재 경보기",
+          "indonesian": "alarm kebakaran",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "경찰서",
+          "indonesian": "kantor polisi",
+          "image": "/images/textbook/ch56/v2_0_경찰서.jpg"
+        },
+        {
+          "korean": "관리감독자",
+          "indonesian": "pengawas manajemen",
+          "image": "/images/textbook/ch56/v2_1_관리감독자.jpg"
+        },
+        {
+          "korean": "긴급",
+          "indonesian": "darurat",
+          "image": null
+        },
+        {
+          "korean": "도움",
+          "indonesian": "Bantuan",
+          "image": "/images/textbook/ch56/v2_3_도움.jpg"
+        },
+        {
+          "korean": "보존(하다)",
+          "indonesian": "pengawetan (mengawetkan / melestarikan)",
+          "image": null
+        },
+        {
+          "korean": "사건",
+          "indonesian": "insiden",
+          "image": null
+        },
+        {
+          "korean": "상급자",
+          "indonesian": "senior",
+          "image": "/images/textbook/ch56/v2_6_상급자.jpg"
+        },
+        {
+          "korean": "설명(하다)",
+          "indonesian": "penjelasan",
+          "image": null
+        },
+        {
+          "korean": "외치다",
+          "indonesian": "mengucapkan",
+          "image": null
+        },
+        {
+          "korean": "요청(하다)",
+          "indonesian": "meminta",
+          "image": "/images/textbook/ch56/v2_9_요청(하다).jpg"
+        },
+        {
+          "korean": "응급",
+          "indonesian": "darurat",
+          "image": null
+        },
+        {
+          "korean": "응급조치",
+          "indonesian": "pertolongan pertama",
+          "image": null
+        },
+        {
+          "korean": "처치(하다)",
+          "indonesian": "penanganan (menangani / mengobati)",
+          "image": "/images/textbook/ch56/v2_12_처치(하다).jpg"
+        },
+        {
+          "korean": "통화(하다)",
+          "indonesian": "Menelepon",
+          "image": null
+        },
+        {
+          "korean": "현장",
+          "indonesian": "tempat kerja",
+          "image": null
+        },
+        {
+          "korean": "화재가 나다",
+          "indonesian": "terjadi kebakaran",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "비상 상황 및 응급처치 (Tanda Darurat & Pertolongan Pertama)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "응급처치",
+          "indonesian": "pertolongan pertama"
+        },
+        {
+          "korean": "응급 상황 시 취하는 임시 의료 조치",
+          "indonesian": "tindakan medis sementara yang diambil dalam keadaan darurat"
+        },
+        {
+          "korean": "자동 심장 박동기",
+          "indonesian": "defibrilator eksternal otomatis"
+        },
+        {
+          "korean": "심장의 정상적인 리듬으로 유지하기 위해 사용되는 의료 기기",
+          "indonesian": "perangkat medis untuk menjaga irama jantung normal"
+        },
+        {
+          "korean": "비상 전화",
+          "indonesian": "telepon darurat"
+        },
+        {
+          "korean": "응급 상황에서 사용할 수 있도록 마련된 전화",
+          "indonesian": "telepon untuk penggunaan darurat"
+        },
+        {
+          "korean": "들것",
+          "indonesian": "usungan"
+        },
+        {
+          "korean": "환자를 옮길 때 사용하는 기구",
+          "indonesian": "peralatan yang digunakan untuk memindahkan pasien"
+        },
+        {
+          "korean": "음료수",
+          "indonesian": "air minum"
+        },
+        {
+          "korean": "마실 수 있는 물",
+          "indonesian": "air yang bisa diminum"
+        },
+        {
+          "korean": "산소 호흡기",
+          "indonesian": "resusitasi oksigen"
+        },
+        {
+          "korean": "숨을 쉴 수 있도록 산소를 공급하는 장치",
+          "indonesian": "alat yang menyuplai udara sehingga seseorang dapat bernapas"
+        },
+        {
+          "korean": "구급 가방",
+          "indonesian": "tas ambil medis"
+        },
+        {
+          "korean": "응급 처치에 필요한 물품이 들어 있는 가방",
+          "indonesian": "kit yang berisi perlengkapan pertolongan pertama"
+        },
+        {
+          "korean": "※ 산업표준심의회의 KS S ISO 7010:2019를 따라 제시하였습니다. 비상 탈출용 호흡기",
+          "indonesian": "alat pernafasan darurat"
+        },
+        {
+          "korean": "갑작스러운 비상 상황에서 벗어날 때 사용하는 호흡 장치",
+          "indonesian": "alat pernapasan yang digunakan untuk melarikan diri dari keadaan darurat yang tiba-tiba"
+        },
+        {
+          "korean": "구명 부이",
+          "indonesian": "pelampung berenang"
+        },
+        {
+          "korean": "물에 빠진 사람을 구하기 위해 사용되는 도구",
+          "indonesian": "alat yang digunakan untuk menyelamatkan orang yang terjebak dalam air"
+        },
+        {
+          "korean": "구명 조끼",
+          "indonesian": "jaket pelampung"
+        },
+        {
+          "korean": "물에 빠졌을 때 생명을 지키기 위해 입는 조끼",
+          "indonesian": "rompi yang dipakai untuk menyelamatkan nyawa seseorang saat terjebak di air"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chapter": 33,
+  "sections": [
+    {
+      "title": "회식 문화 (Budaya Makan Bersama)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "회식은 직장에서 동료들 간에 유대감을 형성하고 친목을 도 모하기 위해 갖는 식사 모임으로 보통 하루 업무가 끝난 저녁 시간에 진행됩니다. 회식에서는 참석한 회사 사람들과 함께 음 식을 먹으며 즐겁게 시간을 보냅니다.",
+          "indonesian": "Hoesik (makan malam perusahaan) adalah arisan yang diadakan untuk membangun persahabatan dan mempererat tali silaturahmi antar rekan kerja, biasanya dilakukan pada malam hari sepulang kerja. Selama Hoesik, para pekerja menghabiskan waktu yang menyenangkan bersama rekan-rekannya untuk makan bersama."
+        },
+        {
+          "korean": "회식 자리에서는 보통 업무와 관련된 대화보다는 개인적인 이야기나 취미, 일상생활에 관한 대화를 나눕니다. 이러한 한국 의 회식 문화는 직장 내에서 구성원 간의 관계를 강화하고 팀워 크를 다지는 중요한 사회적 활동입니다.",
+          "indonesian": "Di hoesik, percakapan biasanya berkisar pada topik pribadi, hobi, dan kehidupan sehari-hari, bukan masalah yang berhubungan dengan pekerjaan. Aspek budaya makan Korea ini merupakan aktivitas sosial penting yang membantu memperkuat hubungan antar rekan kerja dan membangun kerja tim di tempat kerja."
+        },
+        {
+          "korean": "회식에서는 대개 식사와 함께 술이 제공되며, 상사나 동료의 권유로 술잔을 함께 나누는 것이 예의로 여겨지기도 합니다. 그 러나 종교적인 이유 등으로 술을 마시지 않는 경우에는 예의를 지켜 거절해도 됩니다. 요즘 들어서는 회식을 점심시간에 하기 도 하고, 음주보다는 다양한 활동이나 식사 중심의 회식으로 변 화하는 추세이며, 개인적인 상황이나 선호도에 따라 회식에 참 여하는 정도가 다르기도 합니다.",
+          "indonesian": "Saat hoesik, makan biasanya disertai dengan minuman beralkohol, dan dianggap sopan jika berbagi minuman dengan atasan atau rekan kerja saat ditawari minuman. Namun, jika Anda tidak minum karena keyakinan agama atau alasan lain, Anda boleh menolaknya dengan sopan. Belakangan ini ada kecenderungan mengadakan hoesik pada jam makan siang dan lebih fokus pada berbagai aktivitas atau makan daripada alkohol. Partisipasi dalam hoesik dapat bervariasi tergantung pada keadaan dan preferensi pribadi."
+        },
+        {
+          "korean": "술과 함께하는 한국의 회식 문화에 익숙하지 않은 외국인 근 로자들은 비슷한 문화권에서 온 근로자들끼리 별도의 모임을 열어서 음식과 차를 나누며 즐거운 회식을 하기도 합니다.",
+          "indonesian": "Pekerja asing yang tidak terbiasa dengan budaya minum Korea pada jamuan makan malam perusahaan terkadang mengadakan pertemuan terpisah dengan rekan kerja yang memiliki latar belakang budaya serupa. Pada pertemuan ini mereka mungkin makan atau minum teh bersama, menjadikannya seperti hoesik itu sendiri."
+        }
+      ]
+    }
+  ]
+}

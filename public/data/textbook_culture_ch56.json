@@ -1,0 +1,92 @@
+{
+  "chapter": 56,
+  "sections": [
+    {
+      "title": "비상 상황 및 응급처치 (Tanda Darurat & Pertolongan Pertama)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "응급처치",
+          "indonesian": "pertolongan pertama"
+        },
+        {
+          "korean": "응급 상황 시 취하는 임시 의료 조치",
+          "indonesian": "tindakan medis sementara yang diambil dalam keadaan darurat"
+        },
+        {
+          "korean": "자동 심장 박동기",
+          "indonesian": "defibrilator eksternal otomatis"
+        },
+        {
+          "korean": "심장의 정상적인 리듬으로 유지하기 위해 사용되는 의료 기기",
+          "indonesian": "perangkat medis untuk menjaga irama jantung normal"
+        },
+        {
+          "korean": "비상 전화",
+          "indonesian": "telepon darurat"
+        },
+        {
+          "korean": "응급 상황에서 사용할 수 있도록 마련된 전화",
+          "indonesian": "telepon untuk penggunaan darurat"
+        },
+        {
+          "korean": "들것",
+          "indonesian": "usungan"
+        },
+        {
+          "korean": "환자를 옮길 때 사용하는 기구",
+          "indonesian": "peralatan yang digunakan untuk memindahkan pasien"
+        },
+        {
+          "korean": "음료수",
+          "indonesian": "air minum"
+        },
+        {
+          "korean": "마실 수 있는 물",
+          "indonesian": "air yang bisa diminum"
+        },
+        {
+          "korean": "산소 호흡기",
+          "indonesian": "resusitasi oksigen"
+        },
+        {
+          "korean": "숨을 쉴 수 있도록 산소를 공급하는 장치",
+          "indonesian": "alat yang menyuplai udara sehingga seseorang dapat bernapas"
+        },
+        {
+          "korean": "구급 가방",
+          "indonesian": "tas ambil medis"
+        },
+        {
+          "korean": "응급 처치에 필요한 물품이 들어 있는 가방",
+          "indonesian": "kit yang berisi perlengkapan pertolongan pertama"
+        },
+        {
+          "korean": "※ 산업표준심의회의 KS S ISO 7010:2019를 따라 제시하였습니다. 비상 탈출용 호흡기",
+          "indonesian": "alat pernafasan darurat"
+        },
+        {
+          "korean": "갑작스러운 비상 상황에서 벗어날 때 사용하는 호흡 장치",
+          "indonesian": "alat pernapasan yang digunakan untuk melarikan diri dari keadaan darurat yang tiba-tiba"
+        },
+        {
+          "korean": "구명 부이",
+          "indonesian": "pelampung berenang"
+        },
+        {
+          "korean": "물에 빠진 사람을 구하기 위해 사용되는 도구",
+          "indonesian": "alat yang digunakan untuk menyelamatkan orang yang terjebak dalam air"
+        },
+        {
+          "korean": "구명 조끼",
+          "indonesian": "jaket pelampung"
+        },
+        {
+          "korean": "물에 빠졌을 때 생명을 지키기 위해 입는 조끼",
+          "indonesian": "rompi yang dipakai untuk menyelamatkan nyawa seseorang saat terjebak di air"
+        }
+      ]
+    }
+  ]
+}

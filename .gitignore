@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Raw resources and scratch files (DO NOT DEPLOY)
+kosakata/
+scratch/
+*.py
+*.txt
+chapter_pages.json
+chapter_ranges.json
+generate_excel.js

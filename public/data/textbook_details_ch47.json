@@ -1,0 +1,216 @@
+{
+  "chapter": 47,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "갑판",
+          "indonesian": "geladak (dek kapal)",
+          "image": "/images/textbook/ch47/v1_0_갑판.jpg"
+        },
+        {
+          "korean": "고압 분사기",
+          "indonesian": "penyemprot bertekanan tinggi",
+          "image": "/images/textbook/ch47/v1_1_고압_분사기.jpg"
+        },
+        {
+          "korean": "그물",
+          "indonesian": "jaring / jala",
+          "image": "/images/textbook/ch47/v1_2_그물.jpg"
+        },
+        {
+          "korean": "끌어 올리다",
+          "indonesian": "Menarik ke atas",
+          "image": "/images/textbook/ch47/v1_3_끌어_올리다.jpg"
+        },
+        {
+          "korean": "낚시(하다)",
+          "indonesian": "Memancing",
+          "image": "/images/textbook/ch47/v1_4_낚시(하다).jpg"
+        },
+        {
+          "korean": "닻",
+          "indonesian": "Jangkar, jangkar",
+          "image": "/images/textbook/ch47/v1_5_닻.jpg"
+        },
+        {
+          "korean": "뜰채",
+          "indonesian": "Jaring tangan, jaring tangan",
+          "image": "/images/textbook/ch47/v1_6_뜰채.jpg"
+        },
+        {
+          "korean": "물고기",
+          "indonesian": "ikan",
+          "image": "/images/textbook/ch47/v1_7_물고기.jpg"
+        },
+        {
+          "korean": "바구니",
+          "indonesian": "Keranjang, keranjang",
+          "image": "/images/textbook/ch47/v1_8_바구니.jpg"
+        },
+        {
+          "korean": "바늘",
+          "indonesian": "jarum",
+          "image": "/images/textbook/ch47/v1_9_바늘.jpg"
+        },
+        {
+          "korean": "바늘대",
+          "indonesian": "Jarum jaring, alat penjahit jaring",
+          "image": "/images/textbook/ch47/v1_10_바늘대.jpg"
+        },
+        {
+          "korean": "부표",
+          "indonesian": "pelampung",
+          "image": "/images/textbook/ch47/v1_11_부표.jpg"
+        },
+        {
+          "korean": "수선(하다)",
+          "indonesian": "memperbaiki",
+          "image": "/images/textbook/ch47/v1_12_수선(하다).jpg"
+        },
+        {
+          "korean": "양망기",
+          "indonesian": "Mesin penarik jaring, pengangkat jaring",
+          "image": "/images/textbook/ch47/v1_13_양망기.jpg"
+        },
+        {
+          "korean": "어업",
+          "indonesian": "perikanan / usaha nelayan",
+          "image": null
+        },
+        {
+          "korean": "찢어지다",
+          "indonesian": "robek",
+          "image": "/images/textbook/ch47/v1_15_찢어지다.jpg"
+        },
+        {
+          "korean": "차광막",
+          "indonesian": "Kain peneduh, kerai",
+          "image": "/images/textbook/ch47/v1_16_차광막.jpg"
+        },
+        {
+          "korean": "통발",
+          "indonesian": "Penangkap ikan, perangkap ikan",
+          "image": "/images/textbook/ch47/v1_17_통발.jpg"
+        },
+        {
+          "korean": "흔들리다",
+          "indonesian": "Bergetar, bergoyang, menggoyangkan",
+          "image": "/images/textbook/ch47/v1_18_흔들리다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "꼬이다",
+          "indonesian": "memutar",
+          "image": "/images/textbook/ch47/v2_0_꼬이다.jpg"
+        },
+        {
+          "korean": "농도",
+          "indonesian": "konsentrasi oksigen",
+          "image": "/images/textbook/ch47/v2_1_농도.jpg"
+        },
+        {
+          "korean": "대비(하다)",
+          "indonesian": "mempersiapkan, mengantisipasi, Mempersiapkan",
+          "image": "/images/textbook/ch47/v2_2_대비(하다).jpg"
+        },
+        {
+          "korean": "보고(하다)",
+          "indonesian": "Melaporkan, melaporkan",
+          "image": "/images/textbook/ch47/v2_3_보고(하다).jpg"
+        },
+        {
+          "korean": "산소",
+          "indonesian": "oksigen",
+          "image": "/images/textbook/ch47/v2_4_산소.jpg"
+        },
+        {
+          "korean": "산소 공급기",
+          "indonesian": "oksigenator",
+          "image": "/images/textbook/ch47/v2_5_산소_공급기.jpg"
+        },
+        {
+          "korean": "선별(하다)",
+          "indonesian": "memilih, mensortir",
+          "image": "/images/textbook/ch47/v2_6_선별(하다).jpg"
+        },
+        {
+          "korean": "수조",
+          "indonesian": "tangki air",
+          "image": "/images/textbook/ch47/v2_7_수조.jpg"
+        },
+        {
+          "korean": "수질",
+          "indonesian": "Kualitas air",
+          "image": "/images/textbook/ch47/v2_8_수질.jpg"
+        },
+        {
+          "korean": "양식업",
+          "indonesian": "industri budidaya (perikanan)",
+          "image": null
+        },
+        {
+          "korean": "양식장",
+          "indonesian": "Tambak ikan",
+          "image": "/images/textbook/ch47/v2_10_양식장.jpg"
+        },
+        {
+          "korean": "어류",
+          "indonesian": "ikan",
+          "image": "/images/textbook/ch47/v2_11_어류.jpg"
+        },
+        {
+          "korean": "예비용",
+          "indonesian": "meluangkan, cadangan",
+          "image": "/images/textbook/ch47/v2_12_예비용.jpg"
+        },
+        {
+          "korean": "온도계",
+          "indonesian": "termometer, thermometer",
+          "image": "/images/textbook/ch47/v2_13_온도계.jpg"
+        },
+        {
+          "korean": "유통기한",
+          "indonesian": "Tanggal kedaluwarsa",
+          "image": "/images/textbook/ch47/v2_14_유통기한.jpg"
+        },
+        {
+          "korean": "접히다",
+          "indonesian": "Lipatan, dobel",
+          "image": "/images/textbook/ch47/v2_15_접히다.jpg"
+        },
+        {
+          "korean": "추가(하다)",
+          "indonesian": "menambahkan",
+          "image": "/images/textbook/ch47/v2_16_추가(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "연안 어업과 양식 (Perikanan Pantai dan Budidaya)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "양식업은 연근해 혹은 인근 연안에서 조개류, 해조류, 어류 등 을 양식하는 산업으로, 해양 자원 관리 및 수산물 공급에서 중요 한 역할을 담당하고 있습니다. 한국은 삼면이 바다로 둘러싸여 있어 양식업에 적합한 환경을 갖추고 있습니다.",
+          "indonesian": "Akuakultur adalah industri budidaya kerang, rumput laut, ikan, dan organisme akuatik lainnya di perairan pesisir atau wilayah pesisir sekitarnya. Hal ini memainkan peran penting dalam pengelolaan sumber daya kelautan dan pasokan makanan laut. Karena Korea dikelilingi oleh laut di tiga sisinya, Korea mempunyai lingkungan yang cocok untuk budidaya perikanan."
+        },
+        {
+          "korean": "2022년 수산물 생산량을 기준으로 볼 때, 양식업은 어업을 추월하여 그 비중을 높여가고 있으며, 한국은 양식 생 산량에 있어 전 세계 상위 10개국에 포함됩니다. 한국에서는 연근해 양식업을 통하여 굴, 새우, 조개 등 다양한 수산 물이 생산되고 있는데 영양소가 풍부한 해조류나 고품질의 어류 등 고부가가치의 수산물로 범위가 확대되고 있습 니다.",
+          "indonesian": "Produksi akuakultur terus meningkat hingga melampaui perikanan, dan Korea Selatan termasuk di antara 10 negara teratas di dunia dalam produksi akuakultur menurut statistik produksi makanan laut pada tahun 2022. Di Korea, berbagai makanan laut seperti tiram, udang, dan kerang diproduksi melalui budidaya perairan pesisir, dan cakupannya telah diperluas hingga mencakup makanan laut bernilai tinggi seperti rumput laut kaya nutrisi dan ikan berkualitas tinggi."
+        },
+        {
+          "korean": "또한 수조의 수질을 자동으로 조절하거나 센서를 통해 양식장의 환경 변화를 실시간으로 감지하는 등 다양한 기술 이 도입되어 양식의 효율성을 높이고 있습니다. 이뿐만 아니라 친환경 양식 방법을 개발하고, 양식장 주변의 환경 모 니터링을 강화하는 등 미래 세대에 건강한 먹거리를 제공하기 위해 환경 보호와 자원 관리에도 힘을 쓰고 있습니다.",
+          "indonesian": "Selain itu, berbagai teknologi diperkenalkan untuk meningkatkan efisiensi budidaya perikanan, seperti sistem kontrol kualitas air otomatis dan sensor yang memantau lingkungan secara real time. Selain itu, upaya sedang dilakukan untuk mengembangkan metode akuakultur yang ramah lingkungan dan meningkatkan pemantauan lingkungan di sekitar lokasi akuakultur untuk memastikan sumber makanan sehat bagi generasi mendatang, dengan fokus kuat pada perlindungan lingkungan dan pengelolaan sumber daya."
+        }
+      ]
+    }
+  ]
+}

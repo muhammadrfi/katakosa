@@ -1,0 +1,24 @@
+{
+  "chapter": 42,
+  "sections": [
+    {
+      "title": "빌트인 가구 (Perabotan Bawaan)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "빌트인 가구는 주택이나 건물의 특정한 실내 공간에 딱 맞게 제작되어 내장되는 '붙박이 가구'를 말합니다. 옷장, 수납장, 장식장, 책장 등이 주로 빌트인으로 설치됩니다. 빌트인 가구는 사용자의 취향 및 공간의 특징에 맞추어 설계되기 때문에 공간을 효율적으로 활용할 수 있게 해 준다는 장 점이 있습니다. 또한 벽이나 바닥에 고정되어 있어 일반 가구보다 견고하 고 안정적입니다.",
+          "indonesian": "Furnitur built-in mengacu pada furnitur sesuai pesanan yang dirancang untuk dipasang dan diintegrasikan ke dalam ruang dalam ruangan tertentu di dalam rumah atau bangunan. Contohnya seperti lemari, lemari penyimpanan, lemari pajangan, dan rak buku. Furnitur built-in disesuaikan dengan preferensi pengguna dan karakteristik ruangan, sehingga menawarkan keuntungan pemanfaatan ruang yang efisien. Selain itu, karena dipasang pada dinding atau lantai, furnitur ini umumnya lebih kuat dan stabil dibandingkan furnitur yang berdiri sendiri."
+        },
+        {
+          "korean": "그러나 빌트인 가구는 설치와 철거에 비용이 많이 들고, 디자인 트렌드가 바뀌거나 더 이상 필요하지 않아도 쉽게 교체하거나 철 거하기 어렵다는 단점이 있습니다.",
+          "indonesian": "Namun, furnitur built-in memiliki kelemahan yaitu mahalnya pemasangan dan pelepasan. Selain itu, tidak mudah untuk mengganti atau membongkar jika tren desain berubah atau tidak diperlukan lagi."
+        },
+        {
+          "korean": "이러한 단점에도 불구하고 고품질의 빌트인 가구는 실내 인테리어와 조 화를 이루며 깔끔하고 현대적인 느낌을 주기 때문에 더욱 인기가 많아지고 있습니다. 최근에 지은 아파트에 고급스럽고 실용적인 빌트인 가구가 많이 설치되고 있는 것도 이 때문입니다. 또한, 최근에는 가구뿐만 아니라 에어 컨, 전기 오븐, 식기 세척기 등의 가전제품도 빌트인으로 제공되어 더욱 편 리하고 세련된 공간을 제공하고 있습니다.",
+          "indonesian": "Terlepas dari kekurangan ini, furnitur built-in berkualitas tinggi menjadi semakin populer karena selaras dengan desain interior dan memberikan tampilan yang bersih dan modern. Inilah sebabnya mengapa banyak apartemen yang baru dibangun menampilkan furnitur built-in yang mewah dan praktis. Tidak hanya furnitur, tetapi juga peralatan seperti AC, oven listrik, dan mesin pencuci piring ditawarkan sebagai opsi bawaan, sehingga memberikan lebih banyak kenyamanan dan kecanggihan pada sebuah ruangan."
+        }
+      ]
+    }
+  ]
+}

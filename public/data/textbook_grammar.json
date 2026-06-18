@@ -1,0 +1,2059 @@
+[
+  {
+    "chapter": 1,
+    "book": 1,
+    "grammar": "-입니다",
+    "meaning": "adalah (bentuk formal sopan)",
+    "explanation": "Digunakan untuk memperkenalkan diri, status, benda, atau nama dengan akhiran sopan formal. Ditempelkan langsung pada kata benda tanpa spasi.",
+    "examples": [
+      {
+        "korean": "저는 수피카입니다.",
+        "indonesian": "Saya adalah Supika."
+      },
+      {
+        "korean": "이것은 가방입니다.",
+        "indonesian": "Ini adalah tas."
+      }
+    ]
+  },
+  {
+    "chapter": 1,
+    "book": 1,
+    "grammar": "-입니까?",
+    "meaning": "apakah adalah... ? (tanya formal)",
+    "explanation": "Bentuk tanya dari -입니다. Digunakan untuk menanyakan identitas, status, atau nama dalam situasi formal sopan.",
+    "examples": [
+      {
+        "korean": "회사원입니까?",
+        "indonesian": "Apakah Anda seorang karyawan?"
+      },
+      {
+        "korean": "이름이 무엇입니까?",
+        "indonesian": "Siapa nama Anda?"
+      }
+    ]
+  },
+  {
+    "chapter": 1,
+    "book": 1,
+    "grammar": "-은/는",
+    "meaning": "partikel penanda topik kalimat",
+    "explanation": "-은 digunakan jika kata benda berakhiran konsonan (batchim), sedangkan -는 digunakan jika berakhiran vokal. Menunjukkan topik utama pembicaraan.",
+    "examples": [
+      {
+        "korean": "저는 인도네시아 사람입니다.",
+        "indonesian": "Saya adalah orang Indonesia. (Topik: Saya)"
+      },
+      {
+        "korean": "이 책은 재미있습니다.",
+        "indonesian": "Buku ini menyenangkan. (Topik: Buku)"
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "book": 1,
+    "grammar": "-이에요/예요",
+    "meaning": "adalah (bentuk informal sopan)",
+    "explanation": "Bentuk informal sopan dari -입니다. -이에요 digunakan untuk kata benda berakhiran konsonan, -예요 untuk kata benda berakhiran vokal.",
+    "examples": [
+      {
+        "korean": "이건 볼펜이에요.",
+        "indonesian": "Ini adalah pulpen."
+      },
+      {
+        "korean": "제 친구예요.",
+        "indonesian": "Ini adalah teman saya."
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "book": 1,
+    "grammar": "-이/가 아니에요",
+    "meaning": "bukan / tidak (bentuk penyangkalan)",
+    "explanation": "Bentuk penyangkalan dari -이에요/예요. -이 아니에요 digunakan jika subjek berakhiran konsonan, -가 아니에요 jika berakhiran vokal.",
+    "examples": [
+      {
+        "korean": "저는 의사가 아니에요.",
+        "indonesian": "Saya bukan seorang dokter."
+      },
+      {
+        "korean": "이것은 제 가방이 아니에요.",
+        "indonesian": "Ini bukan tas saya."
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "book": 1,
+    "grammar": "-이/가 있어요/없어요",
+    "meaning": "ada / tidak ada (punya / tidak punya)",
+    "explanation": "Digunakan untuk menyatakan keberadaan benda/orang atau kepemilikan. -이 있어요/없어요 untuk konsonan, -가 있어요/없어요 untuk vokal.",
+    "examples": [
+      {
+        "korean": "교실에 컴퓨터가 있어요.",
+        "indonesian": "Ada komputer di dalam kelas."
+      },
+      {
+        "korean": "저는 우산이 없어요.",
+        "indonesian": "Saya tidak punya payung."
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "book": 1,
+    "grammar": "-에 (장소)",
+    "meaning": "di / ke (penanda tempat)",
+    "explanation": "Ditempelkan pada kata benda tempat untuk menunjukkan lokasi keberadaan (di) atau arah tujuan (ke).",
+    "examples": [
+      {
+        "korean": "지금 회사에 있어요.",
+        "indonesian": "Sekarang saya ada di perusahaan."
+      },
+      {
+        "korean": "내일 시장에 가요.",
+        "indonesian": "Besok saya pergi ke pasar."
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "book": 1,
+    "grammar": "-아요/어요",
+    "meaning": "akhiran kalimat informal sopan (sekarang/rutinitas)",
+    "explanation": "Ditempelkan pada kata kerja/kata sifat. -아요 jika vokal terakhir stem adalah 아/오. -어요 jika vokal terakhir lainnya. -해요 jika kata berakhiran 하다.",
+    "examples": [
+      {
+        "korean": "저는 밥을 먹어요.",
+        "indonesian": "Saya makan nasi."
+      },
+      {
+        "korean": "한국어가 재미있어요.",
+        "indonesian": "Bahasa Korea menyenangkan."
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "book": 1,
+    "grammar": "-을/를",
+    "meaning": "partikel penanda objek",
+    "explanation": "-을 ditempelkan pada objek berakhiran konsonan, -를 ditempelkan pada objek berakhiran vokal. Menunjukkan sasaran tindakan.",
+    "examples": [
+      {
+        "korean": "사과를 먹어요.",
+        "indonesian": "Makan apel."
+      },
+      {
+        "korean": "책을 읽어요.",
+        "indonesian": "Membaca buku."
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "book": 1,
+    "grammar": "-에 (시간)",
+    "meaning": "pada / pada saat (penanda waktu)",
+    "explanation": "Ditempelkan pada kata benda penunjuk waktu (hari, jam, bulan, dll) untuk menunjukkan kapan suatu tindakan terjadi. Tidak digunakan dengan 그저께, 어제, 오늘, 내일, 모레.",
+    "examples": [
+      {
+        "korean": "아침 7시에 일어나요.",
+        "indonesian": "Bangun tidur pada jam 7 pagi."
+      },
+      {
+        "korean": "토요일에 쉬어요.",
+        "indonesian": "Hari Sabtu saya libur."
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "book": 1,
+    "grammar": "-았/었-",
+    "meaning": "akhiran penanda bentuk lampau (past tense)",
+    "explanation": "-았- jika vokal terakhir stem adalah 아/오. -었- jika vokal lainnya. -했- jika kata berakhiran 하다. Diikuti dengan akhiran kalimat seperti -어요 atau -습니다.",
+    "examples": [
+      {
+        "korean": "어제 영화를 봤어요.",
+        "indonesian": "Kemarin saya menonton film."
+      },
+      {
+        "korean": "지난주에 한국어 공부를 했어요.",
+        "indonesian": "Minggu lalu saya belajar bahasa Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "book": 1,
+    "grammar": "-(스)ㅂ니다 / -(스)ㅂ니까?",
+    "meaning": "akhiran formal sopan (pernyataan / pertanyaan)",
+    "explanation": "-ㅂ니다/ㅂ니까? digunakan jika stem berakhiran vokal. -습니다/습니까? digunakan jika stem berakhiran konsonan.",
+    "examples": [
+      {
+        "korean": "저는 지금 일합니다.",
+        "indonesian": "Saya bekerja sekarang."
+      },
+      {
+        "korean": "무엇을 먹습니까?",
+        "indonesian": "Makan apa?"
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "book": 1,
+    "grammar": "-에서",
+    "meaning": "di / dari (lokasi tindakan)",
+    "explanation": "Ditempelkan pada kata benda tempat untuk menunjukkan lokasi di mana suatu aktivitas atau tindakan dilakukan, atau menunjukkan asal arah/tempat.",
+    "examples": [
+      {
+        "korean": "도서관에서 공부해요.",
+        "indonesian": "Belajar di perpustakaan. (Ada aktivitas belajar)"
+      },
+      {
+        "korean": "인도네시아에서 왔습니다.",
+        "indonesian": "Saya datang dari Indonesia."
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "book": 1,
+    "grammar": "‘ㅂ’ 불규칙 활용",
+    "meaning": "perubahan tidak beraturan 'ㅂ'",
+    "explanation": "Ketika kata kerja/kata sifat berakhiran konsonan 'ㅂ' bertemu dengan akhiran berawalan vokal (seperti -아요/어요), 'ㅂ' berubah menjadi '우' (atau '오' pada 돕다/곱다).",
+    "examples": [
+      {
+        "korean": "날씨가 너무 추워요 (춥다).",
+        "indonesian": "Cuacanya sangat dingin."
+      },
+      {
+        "korean": "이 음식은 매워요 (맵다).",
+        "indonesian": "Makanan ini pedas."
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "book": 1,
+    "grammar": "안",
+    "meaning": "tidak (negasi)",
+    "explanation": "Diletakkan sebelum kata kerja atau kata sifat untuk menyatakan negasi atau penyangkalan. Untuk kata kerja 하다, '안' diletakkan di antara kata benda dan 하다 (misal: 공부 안 해요).",
+    "examples": [
+      {
+        "korean": "오늘 학교에 안 가요.",
+        "indonesian": "Hari ini saya tidak pergi ke sekolah."
+      },
+      {
+        "korean": "피곤해요? 아니요, 안 피곤해요.",
+        "indonesian": "Capek? Tidak, tidak capek."
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "book": 1,
+    "grammar": "-(으)시-",
+    "meaning": "akhiran honorifik (hormat kepada subjek)",
+    "explanation": "Disisipkan setelah stem untuk menunjukkan rasa hormat kepada subjek kalimat. -시- jika stem vokal, -으시- jika stem konsonan. Berubah menjadi -(으)세요 atau -(으)십니다.",
+    "examples": [
+      {
+        "korean": "부모님이 고향에 계십니다 (계시다).",
+        "indonesian": "Orang tua saya berada di kampung halaman."
+      },
+      {
+        "korean": "선생님은 무엇을 하세요?",
+        "indonesian": "Guru sedang melakukan apa?"
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "book": 1,
+    "grammar": "-고",
+    "meaning": "dan / lalu",
+    "explanation": "Menghubungkan dua kalimat secara sejajar (dan) atau berurutan (lalu). Ditempelkan langsung pada stem kata kerja/sifat tanpa memandang vokal/konsonan.",
+    "examples": [
+      {
+        "korean": "이 옷은 싸고 예뻐요.",
+        "indonesian": "Baju ini murah dan cantik."
+      },
+      {
+        "korean": "아침을 먹고 회사에 가요.",
+        "indonesian": "Makan sarapan lalu pergi ke perusahaan."
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "book": 1,
+    "grammar": "-주세요",
+    "meaning": "tolong / silakan berikan",
+    "explanation": "Ditempelkan pada kata benda untuk meminta sesuatu secara sopan.",
+    "examples": [
+      {
+        "korean": "물 좀 주세요.",
+        "indonesian": "Tolong berikan saya air."
+      },
+      {
+        "korean": "비빔밥 하나 주세요.",
+        "indonesian": "Tolong berikan satu bibimbap."
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "book": 1,
+    "grammar": "-하고",
+    "meaning": "dan / dengan",
+    "explanation": "Menghubungkan dua kata benda sejajar (dan), atau menunjukkan orang/objek yang diajak melakukan sesuatu bersama (dengan/bersama).",
+    "examples": [
+      {
+        "korean": "사과하고 오렌지를 샀어요.",
+        "indonesian": "Saya membeli apel dan jeruk."
+      },
+      {
+        "korean": "친구하고 같이 영화를 봐요.",
+        "indonesian": "Menonton film bersama dengan teman."
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "book": 1,
+    "grammar": "-네요",
+    "meaning": "wah / ternyata... (ungkapan kagum)",
+    "explanation": "Digunakan ketika pembicara menyadari hal baru atau mengekspresikan kekaguman atas situasi yang langsung dialami. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "한국 음식을 참 잘 만드네요!",
+        "indonesian": "Wah, ternyata Anda sangat pandai membuat makanan Korea!"
+      },
+      {
+        "korean": "오늘 날씨가 춥네요.",
+        "indonesian": "Wah, hari ini ternyata dingin ya."
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "book": 1,
+    "grammar": "-아/어 주세요",
+    "meaning": "tolong / mohon lakukan...",
+    "explanation": "Digunakan untuk meminta tolong orang lain melakukan sesuatu secara sopan. -아 주세요 jika vokal 아/오. -어 주세요 jika vokal lainnya. -해 주세요 jika berakhiran 하다.",
+    "examples": [
+      {
+        "korean": "창문을 좀 닫아 주세요.",
+        "indonesian": "Tolong tutup jendelanya."
+      },
+      {
+        "korean": "한국어를 가르쳐 주세요.",
+        "indonesian": "Tolong ajarkan saya bahasa Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "book": 1,
+    "grammar": "-아야/어야 되다/하다",
+    "meaning": "harus / wajib",
+    "explanation": "Menunjukkan kewajiban atau keharusan melakukan suatu tindakan. -아야 되다/하다 jika vokal 아/오. -어야 되다/하다 jika vokal lainnya. -해야 되다/하다 jika 하다.",
+    "examples": [
+      {
+        "korean": "오늘 약속이 있어서 가야 돼요.",
+        "indonesian": "Hari ini saya harus pergi karena ada janji."
+      },
+      {
+        "korean": "매일 한국어를 공부해야 해요.",
+        "indonesian": "Setiap hari harus belajar bahasa Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "book": 1,
+    "grammar": "-(으)ㄹ게요",
+    "meaning": "saya akan... (janji pembicara)",
+    "explanation": "Digunakan untuk menyatakan niat pembicara atau janji kepada lawan bicara bahwa pembicara akan melakukan sesuatu. Hanya digunakan dengan subjek orang pertama (saya). -ㄹ게요 untuk vokal, -을게요 untuk konsonan.",
+    "examples": [
+      {
+        "korean": "제가 설거지를 할게요.",
+        "indonesian": "Saya yang akan mencuci piring. (Saya berjanji/sukarela)"
+      },
+      {
+        "korean": "내일 연락할게요.",
+        "indonesian": "Besok saya akan menghubungi Anda."
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "book": 1,
+    "grammar": "-(으)로 (수단)",
+    "meaning": "dengan / menggunakan (alat/media)",
+    "explanation": "Ditempelkan pada kata benda untuk menunjukkan alat, metode, media, bahan, atau transportasi yang digunakan untuk melakukan suatu tindakan. -로 jika vokal atau konsonan ㄹ, -으로 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "버스로 회사에 가요.",
+        "indonesian": "Pergi ke kantor dengan/menggunakan bus."
+      },
+      {
+        "korean": "숟가락으로 밥을 먹어요.",
+        "indonesian": "Makan nasi dengan/menggunakan sendok."
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "book": 1,
+    "grammar": "-아서/어서 (이유)",
+    "meaning": "karena (sebab-akibat)",
+    "explanation": "Menyatakan bahwa bagian kalimat pertama adalah sebab/alasan dari kalimat kedua. Tidak boleh diikuti kalimat perintah (-세요) atau ajakan (-ㅂ시다). -아서 jika vokal 아/오, -어서 jika vokal lainnya, -해서 jika 하다.",
+    "examples": [
+      {
+        "korean": "머리가 아파서 쉬었어요.",
+        "indonesian": "Karena sakit kepala, saya beristirahat."
+      },
+      {
+        "korean": "길이 막혀서 늦었습니다.",
+        "indonesian": "Karena jalanan macet, saya terlambat."
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "book": 1,
+    "grammar": "-(으)ㄹ 거예요",
+    "meaning": "akan (rencana/prediksi)",
+    "explanation": "Menunjukkan rencana yang akan dilakukan pembicara di masa depan, atau dugaan/prediksi tentang suatu situasi. -ㄹ 거예요 jika vokal, -을 거예요 jika konsonan.",
+    "examples": [
+      {
+        "korean": "주말에 고향에 갈 거예요.",
+        "indonesian": "Akhir pekan saya akan pergi ke kampung halaman."
+      },
+      {
+        "korean": "오후에 비가 올 거예요.",
+        "indonesian": "Sore hari hujan akan turun. (Prediksi)"
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "book": 1,
+    "grammar": "못",
+    "meaning": "tidak bisa / tidak mampu",
+    "explanation": "Diletakkan sebelum kata kerja untuk menunjukkan ketidakmampuan melakukan tindakan karena kendala kemampuan atau situasi luar. Berbeda dengan 안 (tidak mau/tidak melakukan).",
+    "examples": [
+      {
+        "korean": "김치를 못 먹어요.",
+        "indonesian": "Saya tidak bisa makan kimchi. (Misal karena terlalu pedas/alergi)"
+      },
+      {
+        "korean": "어제 바빠서 못 갔어요.",
+        "indonesian": "Kemarin saya tidak bisa pergi karena sibuk."
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "book": 1,
+    "grammar": "-(으)로 (방향)",
+    "meaning": "ke / menuju (arah)",
+    "explanation": "Ditempelkan pada kata benda arah atau lokasi untuk menunjukkan arah gerakan. -로 jika vokal/konsonan ㄹ, -으로 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "오른쪽으로 가세요.",
+        "indonesian": "Silakan jalan ke arah kanan."
+      },
+      {
+        "korean": "위쪽으로 올라가세요.",
+        "indonesian": "Silakan naik ke arah atas."
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "book": 1,
+    "grammar": "-(으)세요",
+    "meaning": "silakan / tolong (perintah sopan)",
+    "explanation": "Digunakan untuk memberikan perintah atau arahan secara sopan. Juga berfungsi sebagai bentuk sopan informal kata kerja. -세요 jika vokal, -으세요 jika konsonan.",
+    "examples": [
+      {
+        "korean": "여기에 앉으세요.",
+        "indonesian": "Silakan duduk di sini."
+      },
+      {
+        "korean": "조심해서 가세요.",
+        "indonesian": "Silakan pergi dengan hati-hati."
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "book": 1,
+    "grammar": "-고 있다 (상태/진행)",
+    "meaning": "sedang / sedang memakai",
+    "explanation": "Menunjukkan tindakan yang sedang berlangsung (seperti sedang belajar, sedang bekerja), atau keadaan sedang mengenakan pakaian/aksesori.",
+    "examples": [
+      {
+        "korean": "저는 청바지를 입고 있어요.",
+        "indonesian": "Saya sedang memakai celana jins. (Keadaan terpakai)"
+      },
+      {
+        "korean": "지금 한국어 공부를 하고 있어요.",
+        "indonesian": "Sekarang saya sedang belajar bahasa Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "book": 1,
+    "grammar": "-(으)ㄴ (형용사)",
+    "meaning": "yang (pengubah kata sifat)",
+    "explanation": "Ditempelkan pada kata sifat untuk menerangkan kata benda yang mengikutinya (artinya 'yang...'). -ㄴ jika vokal, -은 jika konsonan. Jika berakhiran 있다/없다 menggunakan -는 (misal: 맛있는).",
+    "examples": [
+      {
+        "korean": "맑은 날씨에 소풍을 가요.",
+        "indonesian": "Pergi piknik pada cuaca yang cerah."
+      },
+      {
+        "korean": "예쁜 옷을 사고 싶어요.",
+        "indonesian": "Saya ingin membeli pakaian yang cantik."
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "book": 1,
+    "grammar": "-고 싶다",
+    "meaning": "ingin / mau (keinginan)",
+    "explanation": "Menunjukkan keinginan pembicara (subjek pertama) untuk melakukan suatu tindakan. Jika subjeknya orang ketiga (dia/mereka), menggunakan -고 싶어 하다.",
+    "examples": [
+      {
+        "korean": "한국에서 일하고 싶어요.",
+        "indonesian": "Saya ingin bekerja di Korea."
+      },
+      {
+        "korean": "고향 음식을 먹고 싶어요.",
+        "indonesian": "Saya ingin makan makanan kampung halaman."
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "book": 1,
+    "grammar": "-지만",
+    "meaning": "tetapi / namun",
+    "explanation": "Menghubungkan dua kalimat yang memiliki arti berlawanan atau bertentangan. Ditempelkan langsung pada stem kata kerja/sifat.",
+    "examples": [
+      {
+        "korean": "한국어는 어렵지만 재미있어요.",
+        "indonesian": "Bahasa Korea itu sulit tetapi menyenangkan."
+      },
+      {
+        "korean": "방이 좁지만 깨끗해요.",
+        "indonesian": "Kamarnya sempit tetapi bersih."
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "book": 1,
+    "grammar": "-(으)ㄹ 때",
+    "meaning": "saat / ketika / sewaktu",
+    "explanation": "Menunjukkan waktu atau keadaan terjadinya suatu peristiwa. -ㄹ 때 jika vokal, -을 때 jika konsonan.",
+    "examples": [
+      {
+        "korean": "비가 올 때 우산을 씁니다.",
+        "indonesian": "Saat hujan turun, saya memakai payung."
+      },
+      {
+        "korean": "시간이 있을 때 운동을 해요.",
+        "indonesian": "Saat ada waktu, saya berolahraga."
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "book": 1,
+    "grammar": "-(으)려고 하다",
+    "meaning": "berencana / berniat untuk...",
+    "explanation": "Menunjukkan niat, rencana, atau maksud pembicara untuk melakukan suatu tindakan di masa depan. -려고 하다 jika vokal/ㄹ, -으려고 하다 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "내년에 한국에 가려고 해요.",
+        "indonesian": "Saya berencana pergi ke Korea tahun depan."
+      },
+      {
+        "korean": "새 차를 사려고 해요.",
+        "indonesian": "Saya berniat membeli mobil baru."
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "book": 1,
+    "grammar": "-는 것",
+    "meaning": "yang / hal (membendakan kata kerja)",
+    "explanation": "Mengubah kata kerja menjadi kata benda agar bisa digunakan sebagai subjek atau objek dalam kalimat. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "제 취미는 사진을 찍는 것입니다.",
+        "indonesian": "Hobi saya adalah memotret (hal mengambil foto)."
+      },
+      {
+        "korean": "외국어를 배우는 것은 쉽지 않아요.",
+        "indonesian": "Belajar bahasa asing itu tidak mudah."
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "book": 1,
+    "grammar": "-(으)ㄹ까요?",
+    "meaning": "bagaimana kalau kita...? / apakah...?",
+    "explanation": "Digunakan untuk mengajak lawan bicara melakukan sesuatu bersama-sama (mengajak), menanyakan pendapat, atau menyatakan dugaan. -ㄹ까요? jika vokal, -을까요? jika konsonan.",
+    "examples": [
+      {
+        "korean": "같이 점심을 먹을까요?",
+        "indonesian": "Bagaimana kalau kita makan siang bersama?"
+      },
+      {
+        "korean": "내일 비가 올까요?",
+        "indonesian": "Apakah besok akan turun hujan? (Dugaan)"
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "book": 1,
+    "grammar": "-아/어 보다",
+    "meaning": "mencoba / pernah (mencoba)",
+    "explanation": "Menunjukkan tindakan mencoba melakukan sesuatu (mencoba makan, mencoba memakai), atau menyatakan pengalaman 'pernah' jika digabung dengan -봤어요. -아 보다 jika vokal 아/오, -어 보다 jika vokal lainnya, -해 보다 jika 하다.",
+    "examples": [
+      {
+        "korean": "이 옷을 한번 입어 보세요.",
+        "indonesian": "Cobalah pakai pakaian ini sekali."
+      },
+      {
+        "korean": "저는 제주도에 가 봤어요.",
+        "indonesian": "Saya pernah pergi ke pulau Jeju."
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "book": 1,
+    "grammar": "-아서/어서 (순차)",
+    "meaning": "lalu / kemudian (urutan kegiatan)",
+    "explanation": "Menunjukkan urutan kegiatan yang saling berhubungan erat, di mana tindakan kedua dilakukan setelah menyelesaikan tindakan pertama. -아서 jika vokal 아/오, -어서 jika lainnya, -해서 jika 하다.",
+    "examples": [
+      {
+        "korean": "사과를 씻어서 먹었어요.",
+        "indonesian": "Saya mencuci apel lalu memakannya. (Apel yang dicuci itu yang dimakan)"
+      },
+      {
+        "korean": "친구를 만나서 차를 마셨어요.",
+        "indonesian": "Saya bertemu teman lalu minum teh."
+      }
+    ]
+  },
+  {
+    "chapter": 20,
+    "book": 1,
+    "grammar": "-고 있다 (진행)",
+    "meaning": "sedang... (sedang berlangsung)",
+    "explanation": "Menunjukkan tindakan yang sedang berjalan atau berlangsung pada saat pembicaraan dilakukan. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "지금 전화를 받고 있어요.",
+        "indonesian": "Sekarang saya sedang menerima telepon."
+      },
+      {
+        "korean": "친구들이 노래를 부르고 있어요.",
+        "indonesian": "Teman-teman sedang bernyanyi."
+      }
+    ]
+  },
+  {
+    "chapter": 20,
+    "book": 1,
+    "grammar": "-(으)ㄹ래요",
+    "meaning": "mau / ingin (kemauan)",
+    "explanation": "Digunakan untuk menyatakan kemauan atau niat kuat pembicara untuk melakukan sesuatu, atau menanyakan kemauan lawan bicara secara akrab. -ㄹ래요 jika vokal, -을래요 jika konsonan.",
+    "examples": [
+      {
+        "korean": "저는 비빔밥을 먹을래요.",
+        "indonesian": "Saya mau makan bibimbap."
+      },
+      {
+        "korean": "우리 같이 영화 보러 갈래요?",
+        "indonesian": "Apakah kamu mau pergi nonton film bersama kami?"
+      }
+    ]
+  },
+  {
+    "chapter": 21,
+    "book": 1,
+    "grammar": "-(으)면",
+    "meaning": "jika / kalau / apabila",
+    "explanation": "Menunjukkan kondisi pengandaian atau syarat terjadinya suatu situasi di kalimat berikutnya. -면 jika vokal/ㄹ, -으면 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "돈을 많이 벌면 집을 살 거예요.",
+        "indonesian": "Jika menghasilkan banyak uang, saya akan membeli rumah."
+      },
+      {
+        "korean": "머리가 아프면 이 약을 드세요.",
+        "indonesian": "Kalau sakit kepala, silakan minum obat ini."
+      }
+    ]
+  },
+  {
+    "chapter": 21,
+    "book": 1,
+    "grammar": "-지 마세요",
+    "meaning": "jangan (larangan sopan)",
+    "explanation": "Digunakan untuk melarang lawan bicara melakukan sesuatu secara sopan halus. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "여기에 주차하지 마세요.",
+        "indonesian": "Jangan parkir di sini."
+      },
+      {
+        "korean": "박물관 안에서 사진을 찍지 마세요.",
+        "indonesian": "Jangan mengambil foto di dalam museum."
+      }
+    ]
+  },
+  {
+    "chapter": 22,
+    "book": 1,
+    "grammar": "-(으)니까",
+    "meaning": "karena / sejak",
+    "explanation": "Menunjukkan alasan atau sebab. Sering digunakan ketika kalimat berikutnya berupa perintah (-세요) atau ajakan (-ㅂ시다). -니까 jika vokal/ㄹ, -으니까 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "지금은 바쁘니까 나중에 전화해 주세요.",
+        "indonesian": "Karena sekarang sibuk, tolong telepon nanti saja."
+      },
+      {
+        "korean": "비가 오니까 우산을 가지고 가세요.",
+        "indonesian": "Karena turun hujan, bawalah payung."
+      }
+    ]
+  },
+  {
+    "chapter": 22,
+    "book": 1,
+    "grammar": "-(으)ㄴ 후에",
+    "meaning": "setelah / sesudah (melakukan)",
+    "explanation": "Menunjukkan tindakan yang dilakukan setelah menyelesaikan tindakan lain. -ㄴ 후에 jika vokal, -은 후에 jika konsonan.",
+    "examples": [
+      {
+        "korean": "밥을 먹은 후에 약을 드세요.",
+        "indonesian": "Minumlah obat setelah makan nasi."
+      },
+      {
+        "korean": "퇴근한 후에 운동을 합니다.",
+        "indonesian": "Melakukan olahraga setelah pulang kerja."
+      }
+    ]
+  },
+  {
+    "chapter": 23,
+    "book": 1,
+    "grammar": "-는데 / -(으)ㄴ데",
+    "meaning": "tetapi / sedangkan (latar belakang)",
+    "explanation": "Menghubungkan dua kalimat untuk menerangkan latar belakang situasi sebelum berbicara, atau menyatakan pertentangan (tetapi). -는데 untuk kata kerja/있다/없다, -(으)ㄴ데 untuk kata sifat.",
+    "examples": [
+      {
+        "korean": "날씨가 좋은데 어디 갈까요?",
+        "indonesian": "Cuacanya bagus nih, kita pergi ke mana ya? (Latar belakang)"
+      },
+      {
+        "korean": "형은 키가 큰데 저는 키가 작아요.",
+        "indonesian": "Kakak laki-laki badannya tinggi sedangkan saya pendek. (Pertentangan)"
+      }
+    ]
+  },
+  {
+    "chapter": 23,
+    "book": 1,
+    "grammar": "-지요?",
+    "meaning": "...kan? / ...bukan? (konfirmasi)",
+    "explanation": "Digunakan untuk menanyakan konfirmasi kepada lawan bicara tentang hal yang sudah diketahui oleh pembicara. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "오늘 회사에 가지요?",
+        "indonesian": "Hari ini pergi ke kantor, kan?"
+      },
+      {
+        "korean": "이 음식은 맵지 않지요?",
+        "indonesian": "Makanan ini tidak pedas, kan?"
+      }
+    ]
+  },
+  {
+    "chapter": 24,
+    "book": 1,
+    "grammar": "-(으)려고",
+    "meaning": "untuk / agar (tujuan)",
+    "explanation": "Menunjukkan tujuan atau maksud melakukan tindakan di kalimat berikutnya. -려고 jika vokal/ㄹ, -으려고 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "송금하려고 은행에 왔어요.",
+        "indonesian": "Saya datang ke bank untuk melakukan transfer uang."
+      },
+      {
+        "korean": "친구에게 주려고 선물을 샀습니다.",
+        "indonesian": "Saya membeli hadiah untuk diberikan kepada teman."
+      }
+    ]
+  },
+  {
+    "chapter": 24,
+    "book": 1,
+    "grammar": "-(으)면 되다",
+    "meaning": "cukup dengan... / tinggal...",
+    "explanation": "Menunjukkan bahwa suatu keadaan akan beres atau cukup dengan melakukan tindakan tersebut. -면 되다 jika vokal/ㄹ, -으면 되다 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "여기에 서명하시면 됩니다.",
+        "indonesian": "Anda cukup tanda tangan di sini."
+      },
+      {
+        "korean": "이 번호표를 뽑고 기다리면 돼요.",
+        "indonesian": "Anda tinggal mengambil nomor antrean ini dan menunggu."
+      }
+    ]
+  },
+  {
+    "chapter": 25,
+    "book": 1,
+    "grammar": "-(으)러",
+    "meaning": "untuk (pergi/datang untuk)",
+    "explanation": "Digunakan dengan kata kerja gerak (가다, 오다, 다니다) untuk menunjukkan tujuan kepergian. -러 jika vokal/ㄹ, -으러 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "한국어를 배우러 학원에 다녀요.",
+        "indonesian": "Saya pergi ke tempat kursus untuk belajar bahasa Korea."
+      },
+      {
+        "korean": "친구를 만나러 카페에 가요.",
+        "indonesian": "Saya pergi ke kafe untuk bertemu teman."
+      }
+    ]
+  },
+  {
+    "chapter": 25,
+    "book": 1,
+    "grammar": "-기 때문에",
+    "meaning": "karena / disebabkan oleh",
+    "explanation": "Menunjukkan alasan atau sebab yang jelas dan objektif. Sering digunakan dalam situasi formal atau tertulis. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "눈이 오기 때문에 길이 미끄럽습니다.",
+        "indonesian": "Karena salju turun, jalannya menjadi licin."
+      },
+      {
+        "korean": "돈이 없기 때문에 쇼핑을 못 해요.",
+        "indonesian": "Karena tidak punya uang, saya tidak bisa belanja."
+      }
+    ]
+  },
+  {
+    "chapter": 26,
+    "book": 1,
+    "grammar": "-아도/어도 되다",
+    "meaning": "boleh / diizinkan",
+    "explanation": "Menunjukkan izin untuk melakukan sesuatu. -아도 되다 jika vokal 아/오, -어도 되다 jika vokal lainnya, -해도 되다 jika 하다.",
+    "examples": [
+      {
+        "korean": "여기에 앉아도 돼요?",
+        "indonesian": "Apakah boleh duduk di sini?"
+      },
+      {
+        "korean": "사진을 찍어도 됩니다.",
+        "indonesian": "Anda boleh mengambil foto."
+      }
+    ]
+  },
+  {
+    "chapter": 26,
+    "book": 1,
+    "grammar": "-는데 / -(으)ㄴ데 (대조)",
+    "meaning": "tetapi / namun (kontras)",
+    "explanation": "Digunakan untuk membandingkan dua klausa yang bertolak belakang secara kontras.",
+    "examples": [
+      {
+        "korean": "한국 음식은 매운데 인도네시아 음식은 달아요.",
+        "indonesian": "Makanan Korea pedas sedangkan makanan Indonesia manis."
+      },
+      {
+        "korean": "제 동생은 공부를 잘하는데 저는 공부를 못 해요.",
+        "indonesian": "Adik saya pandai belajar tetapi saya tidak."
+      }
+    ]
+  },
+  {
+    "chapter": 27,
+    "book": 1,
+    "grammar": "-는 (동사 관형사형)",
+    "meaning": "yang (pengubah kata kerja present)",
+    "explanation": "Ditempelkan pada kata kerja untuk memodifikasi kata benda yang mengikutinya, menunjukkan aksi yang sedang terjadi sekarang. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "지금 요리하는 사람은 제 친구예요.",
+        "indonesian": "Orang yang sedang memasak sekarang adalah teman saya."
+      },
+      {
+        "korean": "제가 자주 듣는 음악이에요.",
+        "indonesian": "Ini adalah musik yang sering saya dengar."
+      }
+    ]
+  },
+  {
+    "chapter": 27,
+    "book": 1,
+    "grammar": "-아/어 봤다",
+    "meaning": "pernah (pengalaman)",
+    "explanation": "Menunjukkan bahwa subjek memiliki pengalaman melakukan tindakan tersebut di masa lalu. -아 봤다 jika vokal 아/오, -어 봤다 jika vokal lainnya, -해 봤다 jika 하다.",
+    "examples": [
+      {
+        "korean": "저는 태권도를 배워 봤어요.",
+        "indonesian": "Saya pernah belajar Taekwondo."
+      },
+      {
+        "korean": "한국 음식을 먹어 봤습니까?",
+        "indonesian": "Apakah Anda pernah makan makanan Korea?"
+      }
+    ]
+  },
+  {
+    "chapter": 28,
+    "book": 1,
+    "grammar": "-고 나서",
+    "meaning": "setelah selesai... baru...",
+    "explanation": "Menunjukkan bahwa tindakan kedua baru dilakukan setelah tindakan pertama benar-benar selesai dilakukan. Lebih menekankan penyelesaian tindakan pertama dibanding -고.",
+    "examples": [
+      {
+        "korean": "일을 하고 나서 쉬세요.",
+        "indonesian": "Beristirahatlah setelah Anda menyelesaikan pekerjaan."
+      },
+      {
+        "korean": "수업이 끝나고 나서 친구를 만날 거예요.",
+        "indonesian": "Saya akan bertemu teman setelah kelas selesai."
+      }
+    ]
+  },
+  {
+    "chapter": 28,
+    "book": 1,
+    "grammar": "-(으)ㄹ 줄 알다/모르다",
+    "meaning": "tahu / tidak tahu cara...",
+    "explanation": "Menunjukkan kemampuan atau pengetahuan tentang cara melakukan suatu tindakan. -ㄹ 줄 알다/모르다 jika vokal, -을 줄 알다/모르다 jika konsonan.",
+    "examples": [
+      {
+        "korean": "저는 컴퓨터를 할 줄 알아요.",
+        "indonesian": "Saya tahu cara mengoperasikan komputer."
+      },
+      {
+        "korean": "한글을 읽을 줄 몰라요.",
+        "indonesian": "Saya tidak tahu cara membaca Hangeul."
+      }
+    ]
+  },
+  {
+    "chapter": 29,
+    "book": 1,
+    "grammar": "-(으)ㄹ 수 있다/없다",
+    "meaning": "bisa / tidak bisa (kemampuan/kemungkinan)",
+    "explanation": "Menunjukkan kemampuan melakukan sesuatu atau kemungkinan terjadinya suatu keadaan. -ㄹ 수 있다/없다 jika vokal, -을 수 있다/없다 jika konsonan.",
+    "examples": [
+      {
+        "korean": "한국 신문을 읽을 수 있어요.",
+        "indonesian": "Saya bisa membaca koran Korea."
+      },
+      {
+        "korean": "오늘 바빠서 갈 수 없어요.",
+        "indonesian": "Hari ini saya tidak bisa pergi karena sibuk."
+      }
+    ]
+  },
+  {
+    "chapter": 29,
+    "book": 1,
+    "grammar": "-(으)면 안 되다",
+    "meaning": "tidak boleh (larangan keras)",
+    "explanation": "Menyatakan larangan atau pembatasan keras terhadap suatu tindakan. -면 안 되다 jika vokal/ㄹ, -으면 안 되다 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "여기서 담배를 피우면 안 됩니다.",
+        "indonesian": "Tidak boleh merokok di sini."
+      },
+      {
+        "korean": "박물관 내에서 음식을 먹으면 안 돼요.",
+        "indonesian": "Tidak boleh makan makanan di dalam museum."
+      }
+    ]
+  },
+  {
+    "chapter": 30,
+    "book": 1,
+    "grammar": "-는/(으)ㄴ 것 같다",
+    "meaning": "sepertinya / tampaknya",
+    "explanation": "Digunakan untuk menyatakan perkiraan, dugaan, atau pendapat secara halus. -는 것 같다 untuk kata kerja, -(으)ㄴ 것 같다 untuk kata sifat.",
+    "examples": [
+      {
+        "korean": "밖에 비가 오는 것 같아요.",
+        "indonesian": "Sepertinya di luar turun hujan."
+      },
+      {
+        "korean": "이 옷은 너무 비싼 것 같아요.",
+        "indonesian": "Pakaian ini sepertinya terlalu mahal."
+      }
+    ]
+  },
+  {
+    "chapter": 30,
+    "book": 1,
+    "grammar": "-기 쉽다/어렵다",
+    "meaning": "mudah / sulit untuk...",
+    "explanation": "Menunjukkan tingkat kemudahan atau kesulitan melakukan suatu tindakan. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "지하철역은 찾기 쉬워요.",
+        "indonesian": "Stasiun kereta bawah tanah mudah untuk ditemukan."
+      },
+      {
+        "korean": "이 책은 혼자 공부하기 어려워요.",
+        "indonesian": "Buku ini sulit untuk dipelajari sendiri."
+      }
+    ]
+  },
+  {
+    "chapter": 31,
+    "book": 2,
+    "grammar": "-아/어 보이다",
+    "meaning": "terlihat / tampak...",
+    "explanation": "Digunakan untuk menyatakan tebakan atau penilaian pembicara terhadap keadaan seseorang atau benda berdasarkan penampakan fisiknya. -아 보이다 jika vokal 아/오, -어 보이다 jika vokal lainnya, -해 보이다 jika 하다.",
+    "examples": [
+      {
+        "korean": "오늘 피곤해 보여요.",
+        "indonesian": "Hari ini Anda tampak lelah."
+      },
+      {
+        "korean": "이 옷을 입으니까 날씬해 보이네요.",
+        "indonesian": "Karena memakai baju ini, Anda terlihat langsing ya."
+      }
+    ]
+  },
+  {
+    "chapter": 31,
+    "book": 2,
+    "grammar": "-게",
+    "meaning": "dengan (mengubah kata sifat menjadi keterangan)",
+    "explanation": "Mengubah kata sifat menjadi kata keterangan untuk menerangkan kata kerja yang mengikutinya. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "옷을 단정하게 입으세요.",
+        "indonesian": "Pakailah pakaian dengan rapi."
+      },
+      {
+        "korean": "오늘 재미있게 노세요.",
+        "indonesian": "Bermainlah dengan menyenangkan hari ini."
+      }
+    ]
+  },
+  {
+    "chapter": 32,
+    "book": 2,
+    "grammar": "-잖아(요)",
+    "meaning": "kan... (mengingatkan fakta)",
+    "explanation": "Digunakan untuk mengingatkan lawan bicara tentang suatu fakta yang sudah diketahui bersama, atau menyatakan ketegasan pembicara.",
+    "examples": [
+      {
+        "korean": "어제 이야기했잖아요.",
+        "indonesian": "Kemarin saya sudah bilang, kan?"
+      },
+      {
+        "korean": "한국 음식은 맛있잖아요.",
+        "indonesian": "Makanan Korea kan enak."
+      }
+    ]
+  },
+  {
+    "chapter": 32,
+    "book": 2,
+    "grammar": "-아/어 놓다",
+    "meaning": "melakukan terlebih dahulu (dan membiarkannya)",
+    "explanation": "Menunjukkan bahwa suatu tindakan dilakukan terlebih dahulu sebagai persiapan dan hasilnya dipertahankan terus. -아 놓다 jika vokal 아/오, -어 놓다 jika vokal lainnya, -해 놓다 jika 하다.",
+    "examples": [
+      {
+        "korean": "내일 회의를 위해 서류를 준비해 놓았어요.",
+        "indonesian": "Saya sudah menyiapkan dokumen untuk rapat besok (dan mendiamkannya dalam keadaan siap)."
+      },
+      {
+        "korean": "추우니까 창문을 닫아 놓으세요.",
+        "indonesian": "Tutuplah jendelanya terlebih dahulu (dan biarkan tertutup) karena dingin."
+      }
+    ]
+  },
+  {
+    "chapter": 33,
+    "book": 2,
+    "grammar": "-는 / -(으)ㄴ 편이다",
+    "meaning": "tergolong / cenderung...",
+    "explanation": "Menyatakan bahwa subjek cenderung atau tergolong ke dalam suatu sifat atau tindakan tertentu. -는 편이다 untuk kata kerja, -(으)ㄴ 편이다 untuk kata sifat.",
+    "examples": [
+      {
+        "korean": "저는 매운 음식을 잘 먹는 편이에요.",
+        "indonesian": "Saya tergolong bisa makan makanan pedas."
+      },
+      {
+        "korean": "이 회사는 월급이 많은 편이에요.",
+        "indonesian": "Perusahaan ini tergolong gajinya besar."
+      }
+    ]
+  },
+  {
+    "chapter": 33,
+    "book": 2,
+    "grammar": "-거든요",
+    "meaning": "karena... (penjelasan baru bagi lawan)",
+    "explanation": "Digunakan untuk menjawab pertanyaan atau memberi alasan atas pernyataan sebelumnya, di mana alasan tersebut belum diketahui oleh lawan bicara.",
+    "examples": [
+      {
+        "korean": "오늘 같이 쇼핑 갈래요? 미안해요, 약속이 있거든요.",
+        "indonesian": "Mau belanja bareng hari ini? Maaf ya, karena saya ada janji (penjelasan alasan)."
+      },
+      {
+        "korean": "날씨가 춥네요. 어제 비가 왔거든요.",
+        "indonesian": "Cuacanya dingin ya. Karena kemarin hujan turun."
+      }
+    ]
+  },
+  {
+    "chapter": 34,
+    "book": 2,
+    "grammar": "-던데요",
+    "meaning": "saya lihat/rasakan bahwa... (kesan masa lalu)",
+    "explanation": "Digunakan untuk mengekspresikan fakta atau keadaan di masa lalu yang disaksikan atau dialami langsung oleh pembicara, sering kali menunjukkan keheranan atau ketidaksetujuan.",
+    "examples": [
+      {
+        "korean": "그 영화가 아주 재미있던데요.",
+        "indonesian": "Saya tonton film itu sangat seru kok (berdasarkan pengalaman langsung pembicara)."
+      },
+      {
+        "korean": "지수 씨가 노래를 정말 잘 부르던데요.",
+        "indonesian": "Saya lihat Jisu bernyanyi dengan sangat baik."
+      }
+    ]
+  },
+  {
+    "chapter": 34,
+    "book": 2,
+    "grammar": "-(느)ㄴ다고/다고 하다",
+    "meaning": "katanya... (kutipan kalimat berita)",
+    "explanation": "Digunakan untuk menyampaikan kembali apa yang dikatakan orang lain (kutipan tidak langsung kalimat berita). -ㄴ다고 하다 untuk kata kerja vokal, -는다고 하다 untuk kata kerja konsonan, -다고 하다 untuk kata sifat.",
+    "examples": [
+      {
+        "korean": "수피카 씨가 오늘 아프다고 해요.",
+        "indonesian": "Supika berkata katanya hari ini sakit."
+      },
+      {
+        "korean": "반장님이 일을 다 끝냈다고 하셨어요.",
+        "indonesian": "Banjangnim berkata katanya pekerjaannya sudah selesai semua."
+      }
+    ]
+  },
+  {
+    "chapter": 35,
+    "book": 2,
+    "grammar": "-(으)ㅂ시다",
+    "meaning": "mari kita... (ajakan formal)",
+    "explanation": "Akhiran kalimat ajakan formal sopan kepada kelompok untuk melakukan sesuatu bersama. -ㅂ시다 jika vokal, -읍시다 jika konsonan.",
+    "examples": [
+      {
+        "korean": "회의를 시작합시다.",
+        "indonesian": "Mari kita mulai rapatnya."
+      },
+      {
+        "korean": "같이 청소합시다.",
+        "indonesian": "Mari kita bersih-bersih bersama."
+      }
+    ]
+  },
+  {
+    "chapter": 35,
+    "book": 2,
+    "grammar": "-(으)ㄹ (관형사형)",
+    "meaning": "yang akan (pengubah kata kerja future)",
+    "explanation": "Ditempelkan pada kata kerja untuk menerangkan kata benda berikutnya, menunjukkan tindakan yang akan dilakukan di masa depan. -ㄹ jika vokal, -을 jika konsonan.",
+    "examples": [
+      {
+        "korean": "오늘 마실 커피를 샀어요.",
+        "indonesian": "Saya membeli kopi yang akan diminum hari ini."
+      },
+      {
+        "korean": "내일 할 일이 너무 많아요.",
+        "indonesian": "Pekerjaan yang harus dilakukan besok sangat banyak."
+      }
+    ]
+  },
+  {
+    "chapter": 36,
+    "book": 2,
+    "grammar": "-(으)ㄴ (동사 과거형)",
+    "meaning": "yang telah (pengubah kata kerja past)",
+    "explanation": "Ditempelkan pada kata kerja untuk menerangkan kata benda berikutnya, menunjukkan tindakan yang telah selesai dilakukan di masa lalu. -ㄴ jika vokal, -은 jika konsonan.",
+    "examples": [
+      {
+        "korean": "어제 읽은 책은 재미있었어요.",
+        "indonesian": "Buku yang saya baca kemarin sangat menarik."
+      },
+      {
+        "korean": "제가 만든 음식을 드셔 보세요.",
+        "indonesian": "Cobalah makan makanan yang telah saya buat."
+      }
+    ]
+  },
+  {
+    "chapter": 36,
+    "book": 2,
+    "grammar": "-겠-",
+    "meaning": "akan / pasti / sanggup",
+    "explanation": "Menunjukkan niat kuat pembicara, kesanggupan, atau perkiraan perkiraan kuat terhadap suatu peristiwa.",
+    "examples": [
+      {
+        "korean": "제가 하겠습니다.",
+        "indonesian": "Saya yang akan melakukannya (kesanggupan formal)."
+      },
+      {
+        "korean": "내일은 날씨가 춥겠습니다.",
+        "indonesian": "Besok cuacanya pasti dingin."
+      }
+    ]
+  },
+  {
+    "chapter": 37,
+    "book": 2,
+    "grammar": "-아도/어도 (양보)",
+    "meaning": "walaupun / meskipun / biar pun",
+    "explanation": "Menunjukkan bahwa hasil di kalimat kedua tidak terpengaruh oleh syarat atau tindakan di kalimat pertama. -아도 jika vokal 아/오, -어도 jika lainnya, -해도 jika 하다.",
+    "examples": [
+      {
+        "korean": "비가 와도 축구를 할 거예요.",
+        "indonesian": "Meskipun hujan turun, saya akan tetap bermain bola."
+      },
+      {
+        "korean": "아무리 바빠도 밥은 먹어야 해요.",
+        "indonesian": "Bagaimanapun sibuknya, Anda harus tetap makan."
+      }
+    ]
+  },
+  {
+    "chapter": 37,
+    "book": 2,
+    "grammar": "-자고 하다",
+    "meaning": "katanya mengajak untuk... (kutipan ajakan)",
+    "explanation": "Digunakan untuk mengutip secara tidak langsung kalimat ajakan orang lain (dari kalimat -(으)ㅂ시다 atau -자). Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "친구가 같이 점심을 먹자고 해요.",
+        "indonesian": "Teman berkata mengajak makan siang bersama."
+      },
+      {
+        "korean": "반장님이 회식에 참석하자고 하셨어요.",
+        "indonesian": "Banjangnim berkata mengajak kami menghadiri makan bersama."
+      }
+    ]
+  },
+  {
+    "chapter": 38,
+    "book": 2,
+    "grammar": "-(으)면서",
+    "meaning": "sambil / seraya",
+    "explanation": "Menunjukkan bahwa subjek melakukan dua aktivitas secara bersamaan dalam satu waktu. -면서 jika vokal/ㄹ, -으면서 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "음악을 들으면서 공부를 해요.",
+        "indonesian": "Belajar sambil mendengarkan musik."
+      },
+      {
+        "korean": "운전을 하면서 전화하지 마세요.",
+        "indonesian": "Jangan menelepon sambil mengemudi."
+      }
+    ]
+  },
+  {
+    "chapter": 38,
+    "book": 2,
+    "grammar": "-는 중이다",
+    "meaning": "sedang dalam proses...",
+    "explanation": "Menyatakan bahwa tindakan sedang berlangsung. Mirip dengan -고 있다, tetapi lebih menekankan proses pengerjaan yang sedang terjadi.",
+    "examples": [
+      {
+        "korean": "지금 기계를 작동하는 중이에요.",
+        "indonesian": "Sekarang sedang dalam proses mengoperasikan mesin."
+      },
+      {
+        "korean": "공사하는 중이니까 돌아가세요.",
+        "indonesian": "Karena sedang dalam proses pembangunan, silakan berputar arah."
+      }
+    ]
+  },
+  {
+    "chapter": 39,
+    "book": 2,
+    "grammar": "-(으)라고 하다",
+    "meaning": "katanya menyuruh untuk... (kutipan perintah)",
+    "explanation": "Digunakan untuk mengutip kalimat perintah orang lain secara tidak langsung (dari kalimat -(으)세요). -라고 하다 jika vokal/ㄹ, -으라고 하다 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "반장님이 여기 파이프를 자르라고 하셨어요.",
+        "indonesian": "Banjangnim berkata menyuruh saya memotong pipa di sini."
+      },
+      {
+        "korean": "의사 선생님이 이 약을 먹으라고 했어요.",
+        "indonesian": "Dokter berkata menyuruh saya meminum obat ini."
+      }
+    ]
+  },
+  {
+    "chapter": 39,
+    "book": 2,
+    "grammar": "-기 전에",
+    "meaning": "sebelum (melakukan)",
+    "explanation": "Menunjukkan bahwa tindakan di klausa kedua dilakukan sebelum tindakan di klausa pertama terjadi. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "작업을 시작하기 전에 기계를 확인하세요.",
+        "indonesian": "Sebelum mulai bekerja, periksalah mesinnya."
+      },
+      {
+        "korean": "식사하기 전에 손을 씻어야 해요.",
+        "indonesian": "Sebelum makan, Anda harus mencuci tangan."
+      }
+    ]
+  },
+  {
+    "chapter": 40,
+    "book": 2,
+    "grammar": "-는 대신에",
+    "meaning": "sebagai gantinya / daripada...",
+    "explanation": "Menunjukkan penggantian suatu tindakan atau kompensasi atas tindakan tersebut. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "오늘 야근을 하는 대신에 내일 일찍 퇴근해요.",
+        "indonesian": "Sebagai ganti lembur hari ini, besok saya pulang cepat."
+      },
+      {
+        "korean": "외식하는 대신에 집에서 요리합시다.",
+        "indonesian": "Daripada makan di luar, mari kita memasak di rumah."
+      }
+    ]
+  },
+  {
+    "chapter": 40,
+    "book": 2,
+    "grammar": "-나 / -(으)ㄴ가",
+    "meaning": "apakah... ? (pertanyaan/dugaan halus)",
+    "explanation": "Digunakan untuk bertanya pada diri sendiri atau mengungkapkan dugaan secara halus. -나 untuk kata kerja/있다/없다, -(으)ㄴ가 untuk kata sifat.",
+    "examples": [
+      {
+        "korean": "사무실에 아무도 없나 봐요.",
+        "indonesian": "Sepertinya tidak ada siapa-siapa di kantor."
+      },
+      {
+        "korean": "오늘 날씨가 추운가?",
+        "indonesian": "Apakah hari ini dingin ya? (Dugaan halus)"
+      }
+    ]
+  },
+  {
+    "chapter": 41,
+    "book": 2,
+    "grammar": "-거나",
+    "meaning": "atau (untuk kata kerja/sifat)",
+    "explanation": "Menghubungkan dua pilihan tindakan atau keadaan (atau). Ditempelkan langsung pada stem kata kerja/sifat.",
+    "examples": [
+      {
+        "korean": "주말에 음악을 듣거나 책을 읽어요.",
+        "indonesian": "Pada akhir pekan saya mendengarkan musik atau membaca buku."
+      },
+      {
+        "korean": "아프거나 피곤하면 쉬세요.",
+        "indonesian": "Jika Anda sakit atau lelah, silakan beristirahat."
+      }
+    ]
+  },
+  {
+    "chapter": 41,
+    "book": 2,
+    "grammar": "-아야/어야 (조건)",
+    "meaning": "harus... baru bisa... (syarat mutlak)",
+    "explanation": "Menunjukkan bahwa klausa pertama merupakan syarat mutlak agar peristiwa di klausa kedua bisa terlaksana. -아야 jika vokal 아/오, -어야 jika lainnya, -해야 jika 하다.",
+    "examples": [
+      {
+        "korean": "신분증이 있어야 통장을 만들 수 있어요.",
+        "indonesian": "Harus ada kartu identitas baru bisa membuat rekening bank."
+      },
+      {
+        "korean": "열심히 공부해야 시험에 합격해요.",
+        "indonesian": "Harus belajar keras baru bisa lulus ujian."
+      }
+    ]
+  },
+  {
+    "chapter": 42,
+    "book": 2,
+    "grammar": "-(으)ㄹ까 봐",
+    "meaning": "khawatir kalau-kalau... / takut kalau...",
+    "explanation": "Menunjukkan bahwa pembicara melakukan tindakan di klausa kedua karena khawatir atau takut situasi buruk di klausa pertama akan terjadi. -ㄹ까 봐 jika vokal, -을까 봐 jika konsonan.",
+    "examples": [
+      {
+        "korean": "시험에 떨어질까 봐 걱정돼요.",
+        "indonesian": "Saya cemas karena khawatir akan gagal dalam ujian."
+      },
+      {
+        "korean": "늦을까 봐 택시를 탔어요.",
+        "indonesian": "Karena khawatir terlambat, saya naik taksi."
+      }
+    ]
+  },
+  {
+    "chapter": 42,
+    "book": 2,
+    "grammar": "-느냐고/-(으)냐고 하다",
+    "meaning": "katanya bertanya apakah... (kutipan tanya)",
+    "explanation": "Digunakan untuk mengutip secara tidak langsung kalimat tanya dari orang lain. -느냐고 하다 untuk kata kerja, -(으)냐고 하다 untuk kata sifat.",
+    "examples": [
+      {
+        "korean": "친구가 저에게 어디 가느냐고 물었어요.",
+        "indonesian": "Teman bertanya kepada saya katanya mau pergi ke mana."
+      },
+      {
+        "korean": "사장님이 일이 어렵냐고 하셨어요.",
+        "indonesian": "Direktur bertanya katanya apakah pekerjaannya sulit."
+      }
+    ]
+  },
+  {
+    "chapter": 43,
+    "book": 2,
+    "grammar": "-(으)ㄹ 텐데",
+    "meaning": "sepertinya... tetapi... (asumsi)",
+    "explanation": "Menunjukkan dugaan kuat pembicara tentang suatu situasi, yang diikuti oleh klausa kontras atau saran. -ㄹ 텐데 jika vokal, -을 텐데 jika konsonan.",
+    "examples": [
+      {
+        "korean": "오늘 바쁘실 텐데 와 주셔서 감사합니다.",
+        "indonesian": "Meskipun sepertinya Anda sibuk hari ini, terima kasih karena sudah menyempatkan datang."
+      },
+      {
+        "korean": "오후에 비가 올 텐데 우산을 가져가세요.",
+        "indonesian": "Sepertinya sore akan hujan, bawalah payung."
+      }
+    ]
+  },
+  {
+    "chapter": 43,
+    "book": 2,
+    "grammar": "-(으)ㄹ걸요",
+    "meaning": "mungkin / sepertinya (dugaan kuat pembicara)",
+    "explanation": "Digunakan untuk menyatakan perkiraan pembicara tentang hal yang belum pasti, biasanya untuk menyanggah pendapat orang lain secara halus. Hanya digunakan secara lisan informal.",
+    "examples": [
+      {
+        "korean": "그 가게는 오늘 문을 닫았을걸요.",
+        "indonesian": "Toko itu mungkin sudah tutup hari ini."
+      },
+      {
+        "korean": "지수 씨는 한국어 시험에 합격했을걸요.",
+        "indonesian": "Jisu sepertinya sudah lulus ujian bahasa Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 44,
+    "book": 2,
+    "grammar": "-아야겠/어야겠다",
+    "meaning": "sepertinya harus... (keputusan mendesak)",
+    "explanation": "Menunjukkan tekad atau keputusan bulat pembicara bahwa suatu tindakan harus segera dilakukan. -아야겠다 jika vokal 아/오, -어야겠다 jika lainnya, -해야겠다 jika 하다.",
+    "examples": [
+      {
+        "korean": "비가 많이 오니까 집에 가야겠어요.",
+        "indonesian": "Karena hujan lebat, sepertinya saya harus segera pulang."
+      },
+      {
+        "korean": "피곤해서 오늘은 일찍 자야겠어요.",
+        "indonesian": "Karena lelah, sepertinya malam ini saya harus segera tidur."
+      }
+    ]
+  },
+  {
+    "chapter": 44,
+    "book": 2,
+    "grammar": "-도록",
+    "meaning": "agar / supaya / sehingga / sampai",
+    "explanation": "Menunjukkan tujuan, batas waktu, atau tingkat batas tindakan di klausa kedua. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "모두가 들을 수 있도록 크게 말씀해 주세요.",
+        "indonesian": "Tolong bicara keras-keras agar semuanya bisa mendengar."
+      },
+      {
+        "korean": "밤이 새도록 한국어 공부를 했어요.",
+        "indonesian": "Saya belajar bahasa Korea sampai larut malam/pagi menjelang."
+      }
+    ]
+  },
+  {
+    "chapter": 45,
+    "book": 2,
+    "grammar": "-(으)ㄹ까 하다",
+    "meaning": "berpikir untuk... / berniat untuk...",
+    "explanation": "Menunjukkan niat atau rencana pembicara yang masih belum pasti atau masih dipertimbangkan. -ㄹ까 하다 jika vokal, -을까 하다 jika konsonan.",
+    "examples": [
+      {
+        "korean": "주말에 집에서 쉴까 해요.",
+        "indonesian": "Akhir pekan ini saya berpikir untuk beristirahat di rumah."
+      },
+      {
+        "korean": "고향의 부모님께 선물을 보낼까 해요.",
+        "indonesian": "Saya berniat untuk mengirim hadiah ke orang tua di kampung halaman."
+      }
+    ]
+  },
+  {
+    "chapter": 45,
+    "book": 2,
+    "grammar": "-지 말고",
+    "meaning": "jangan... tetapi...",
+    "explanation": "Digunakan untuk melarang suatu tindakan di klausa pertama dan menyarankan tindakan lain di klausa kedua. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "버스 타지 말고 지하철로 갑시다.",
+        "indonesian": "Jangan naik bus, mari kita naik kereta bawah tanah saja."
+      },
+      {
+        "korean": "걱정하지 말고 힘내세요!",
+        "indonesian": "Jangan khawatir, tetapi tetaplah semangat!"
+      }
+    ]
+  },
+  {
+    "chapter": 46,
+    "book": 2,
+    "grammar": "-(으)ㄴ 적이 있다/없다",
+    "meaning": "pernah / tidak pernah (pengalaman past)",
+    "explanation": "Menunjukkan ada atau tidak adanya pengalaman melakukan suatu tindakan di masa lalu. -ㄴ 적이 있다/없다 jika vokal, -은 적이 있다/없다 jika konsonan.",
+    "examples": [
+      {
+        "korean": "저는 한국에 간 적이 있어요.",
+        "indonesian": "Saya pernah pergi ke Korea."
+      },
+      {
+        "korean": "이 기계를 사용한 적이 없어요.",
+        "indonesian": "Saya tidak pernah menggunakan mesin ini."
+      }
+    ]
+  },
+  {
+    "chapter": 46,
+    "book": 2,
+    "grammar": "-게 하다",
+    "meaning": "membuat / membiarkan / menyuruh (kausatif)",
+    "explanation": "Menunjukkan bahwa subjek menyebabkan orang lain melakukan suatu tindakan atau membiarkan situasi terjadi. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "사장님이 주말에도 일하게 하셨어요.",
+        "indonesian": "Direktur menyuruh kami bekerja bahkan di akhir pekan."
+      },
+      {
+        "korean": "아이가 숙제를 하게 했어요.",
+        "indonesian": "Saya membuat anak mengerjakan PR-nya."
+      }
+    ]
+  },
+  {
+    "chapter": 47,
+    "book": 2,
+    "grammar": "-는 동안에",
+    "meaning": "selama / selagi / sewaktu",
+    "explanation": "Menunjukkan kurun waktu berlangsungnya tindakan di klausa pertama, di mana tindakan lain di klausa kedua juga terjadi. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "내가 밥을 먹는 동안에 친구가 왔어요.",
+        "indonesian": "Teman datang selama saya sedang makan nasi."
+      },
+      {
+        "korean": "한국에서 일하는 동안 돈을 많이 모으고 싶어요.",
+        "indonesian": "Saya ingin menabung banyak uang selama bekerja di Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 47,
+    "book": 2,
+    "grammar": "-기로 하다",
+    "meaning": "memutuskan / berjanji untuk...",
+    "explanation": "Menyatakan keputusan atau janji bersama untuk melakukan suatu tindakan. Sering digunakan dalam bentuk lampau -기로 했다.",
+    "examples": [
+      {
+        "korean": "올해 담배를 끊기로 결심했어요.",
+        "indonesian": "Tahun ini saya memutuskan untuk berhenti merokok."
+      },
+      {
+        "korean": "내일 친구와 만나기로 했어요.",
+        "indonesian": "Saya berjanji untuk bertemu teman besok."
+      }
+    ]
+  },
+  {
+    "chapter": 48,
+    "book": 2,
+    "grammar": "-아지다/어지다",
+    "meaning": "menjadi... (perubahan keadaan)",
+    "explanation": "Mengubah kata sifat menjadi kata kerja untuk menyatakan perubahan keadaan dari waktu ke waktu. -아지다 jika vokal 아/오, -어지다 jika lainnya, -해지다 jika 하다.",
+    "examples": [
+      {
+        "korean": "요즘 날씨가 점점 따뜻해지네요.",
+        "indonesian": "Akhir-akhir ini cuaca lambat laun menjadi hangat ya."
+      },
+      {
+        "korean": "열심히 공부해서 성적이 좋아졌어요.",
+        "indonesian": "Karena belajar giat, nilai saya menjadi bagus."
+      }
+    ]
+  },
+  {
+    "chapter": 48,
+    "book": 2,
+    "grammar": "-는 / -(으)ㄴ 덕분에",
+    "meaning": "berkat... (sebab positif)",
+    "explanation": "Menyatakan alasan atau sebab positif yang menghasilkan keadaan yang menguntungkan. -는 덕분에 untuk kata kerja, -(으)ㄴ 덕분에 untuk kata sifat/benda.",
+    "examples": [
+      {
+        "korean": "선생님이 도와주신 덕분에 합격했어요.",
+        "indonesian": "Berkat bantuan dari Guru, saya berhasil lulus."
+      },
+      {
+        "korean": "좋은 날씨 덕분에 소풍이 즐거웠어요.",
+        "indonesian": "Berkat cuaca yang bagus, pikniknya menyenangkan."
+      }
+    ]
+  },
+  {
+    "chapter": 49,
+    "book": 2,
+    "grammar": "-던",
+    "meaning": "yang dulu sering / yang belum selesai",
+    "explanation": "Ditempelkan pada kata kerja/sifat untuk menerangkan kata benda, merujuk pada kebiasaan yang dulu sering dilakukan di masa lalu atau tindakan yang belum selesai sepenuhnya.",
+    "examples": [
+      {
+        "korean": "이곳은 제가 자주 가던 카페예요.",
+        "indonesian": "Ini adalah kafe yang dulu sering saya kunjungi."
+      },
+      {
+        "korean": "아까 마시던 커피가 어디 갔지?",
+        "indonesian": "Kopi yang tadi sedang saya minum (belum habis) ke mana ya?"
+      }
+    ]
+  },
+  {
+    "chapter": 49,
+    "book": 2,
+    "grammar": "-느라고",
+    "meaning": "karena sibuk melakukan...",
+    "explanation": "Menunjukkan alasan di klausa pertama (berupa aktivitas sibuk) yang mengakibatkan hal negatif atau ketidakmampuan di klausa kedua. Ditempelkan langsung pada stem kata kerja.",
+    "examples": [
+      {
+        "korean": "어제 숙제를 하느라고 잠을 못 잤어요.",
+        "indonesian": "Kemarin karena sibuk mengerjakan PR, saya tidak bisa tidur."
+      },
+      {
+        "korean": "전화를 받느라고 기차를 놓쳤습니다.",
+        "indonesian": "Karena sibuk menerima telepon, saya ketinggalan kereta."
+      }
+    ]
+  },
+  {
+    "chapter": 50,
+    "book": 2,
+    "grammar": "-다가",
+    "meaning": "saat sedang... tiba-tiba...",
+    "explanation": "Menunjukkan peralihan suatu tindakan atau keadaan yang sedang berjalan di klausa pertama, yang terhenti atau berubah karena tindakan lain di klausa kedua. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "공부를 하다가 잠이 들었어요.",
+        "indonesian": "Saat sedang belajar, tiba-tiba tertidur."
+      },
+      {
+        "korean": "길을 걷다가 갑자기 친구를 만났어요.",
+        "indonesian": "Saat sedang berjalan, tiba-tiba bertemu dengan teman."
+      }
+    ]
+  },
+  {
+    "chapter": 50,
+    "book": 2,
+    "grammar": "간접 인용 (Indirect Quotation)",
+    "meaning": "kutipan tidak langsung",
+    "explanation": "Pola kutipan tidak langsung untuk menyampaikan kembali perkataan orang lain. Terbagi menjadi -단고 하다 (pernyataan), -냐고 하다 (pertanyaan), -라고 하다 (perintah), -자고 하다 (ajakan).",
+    "examples": [
+      {
+        "korean": "그가 내일 오겠다고 했어요.",
+        "indonesian": "Dia berkata katanya akan datang besok."
+      },
+      {
+        "korean": "선생님이 공부를 열심히 하라고 하십니다.",
+        "indonesian": "Guru menyuruh kami katanya untuk belajar giat."
+      }
+    ]
+  },
+  {
+    "chapter": 51,
+    "book": 2,
+    "grammar": "-았다가/었다가",
+    "meaning": "setelah selesai... lalu...",
+    "explanation": "Menunjukkan perubahan tindakan atau keadaan di mana tindakan di klausa pertama diselesaikan terlebih dahulu, kemudian situasi atau tindakan sebaliknya/lainnya menyusul.",
+    "examples": [
+      {
+        "korean": "백화점에 갔다가 친구를 만났어요.",
+        "indonesian": "Saya pergi ke departemen store (sudah sampai di sana) lalu bertemu dengan teman."
+      },
+      {
+        "korean": "불을 켰다가 다시 껐어요.",
+        "indonesian": "Saya menyalakan lampu lalu mematikannya kembali."
+      }
+    ]
+  },
+  {
+    "chapter": 51,
+    "book": 2,
+    "grammar": "반말 (Informal / Kasar)",
+    "meaning": "bahasa kasar/akrab",
+    "explanation": "Bentuk percakapan informal tanpa akhiran sopan (yo/seumnida). Digunakan kepada orang yang lebih muda, teman sebaya yang sangat akrab, atau dalam situasi kekeluargaan yang santai.",
+    "examples": [
+      {
+        "korean": "안녕! 어디 가? (어디 가요?)",
+        "indonesian": "Hai! Pergi ke mana?"
+      },
+      {
+        "korean": "밥 먹어. (밥 먹어요.)",
+        "indonesian": "Makanlah."
+      }
+    ]
+  },
+  {
+    "chapter": 52,
+    "book": 2,
+    "grammar": "-었어야 했는데 / -았어야 했는데",
+    "meaning": "seharusnya... (penyesalan)",
+    "explanation": "Menunjukkan penyesalan atas hal yang tidak dilakukan di masa lalu, artinya 'seharusnya saya melakukan itu (tetapi tidak dilakukan)'.",
+    "examples": [
+      {
+        "korean": "시험 공부를 더 열심히 했어야 했는데 아쉽네요.",
+        "indonesian": "Sayang sekali, seharusnya saya belajar ujian lebih keras (tapi tidak dilakukan)."
+      },
+      {
+        "korean": "우산을 가져왔어야 했는데 깜빡했어요.",
+        "indonesian": "Seharusnya saya membawa payung, tapi saya lupa."
+      }
+    ]
+  },
+  {
+    "chapter": 52,
+    "book": 2,
+    "grammar": "-(으)ㄴ 지 (시간)",
+    "meaning": "sejak / sudah (lamanya waktu)",
+    "explanation": "Menunjukkan lamanya waktu yang telah berlalu sejak suatu tindakan dilakukan di masa lalu. Diikuti kata penunjuk waktu + 되다. -ㄴ 지 jika vokal, -은 지 jika konsonan.",
+    "examples": [
+      {
+        "korean": "한국에 온 지 3년이 되었어요.",
+        "indonesian": "Sudah 3 tahun berlalu sejak saya datang ke Korea."
+      },
+      {
+        "korean": "결혼한 지 1년이 지났습니다.",
+        "indonesian": "Sudah lewat 1 tahun sejak kami menikah."
+      }
+    ]
+  },
+  {
+    "chapter": 53,
+    "book": 2,
+    "grammar": "-았더니/었더니",
+    "meaning": "karena saya... ternyata...",
+    "explanation": "Menunjukkan hasil dari tindakan yang dilakukan oleh pembicara di masa lalu (subjek orang pertama). Klausa kedua berisi kenyataan atau akibat baru.",
+    "examples": [
+      {
+        "korean": "약을 먹었더니 감기가 다 나았어요.",
+        "indonesian": "Karena saya minum obat, ternyata flu saya langsung sembuh."
+      },
+      {
+        "korean": "문을 열었더니 눈이 오고 있었어요.",
+        "indonesian": "Saat saya membuka pintu, ternyata salju sedang turun."
+      }
+    ]
+  },
+  {
+    "chapter": 53,
+    "book": 2,
+    "grammar": "-아/어 있다",
+    "meaning": "dalam keadaan (terus-menerus)",
+    "explanation": "Menyatakan bertahannya hasil dari suatu tindakan yang telah selesai (misal: pintu dalam keadaan terbuka, bunga dalam keadaan mekar). Biasanya digunakan dengan kata kerja pasif (intransitif).",
+    "examples": [
+      {
+        "korean": "문이 열려 있어요 (열리다).",
+        "indonesian": "Pintunya dalam keadaan terbuka."
+      },
+      {
+        "korean": "칠판에 그림이 그려져 있습니다.",
+        "indonesian": "Gambar terlukis di papan tulis."
+      }
+    ]
+  },
+  {
+    "chapter": 54,
+    "book": 2,
+    "grammar": "-도록 하다",
+    "meaning": "usahakan untuk... / silakan...",
+    "explanation": "Digunakan untuk menyuruh lawan bicara secara halus atau menunjukkan tekad pembicara sendiri untuk mengusahakan suatu tindakan terlaksana.",
+    "examples": [
+      {
+        "korean": "내일부터 늦지 않도록 하세요.",
+        "indonesian": "Usahakan untuk tidak terlambat mulai besok."
+      },
+      {
+        "korean": "다음에는 꼭 약속을 지키도록 하겠습니다.",
+        "indonesian": "Lain kali saya akan berusaha keras menepati janji."
+      }
+    ]
+  },
+  {
+    "chapter": 54,
+    "book": 2,
+    "grammar": "-기 위해(서)",
+    "meaning": "untuk / demi / guna",
+    "explanation": "Menunjukkan tujuan mulia atau upaya besar untuk mewujudkan klausa pertama. Ditempelkan langsung pada stem kata kerja. Untuk kata benda menggunakan -을/를 위해.",
+    "examples": [
+      {
+        "korean": "가족을 부양하기 위해 열심히 일해요.",
+        "indonesian": "Bekerja keras demi menafkahi keluarga."
+      },
+      {
+        "korean": "건강을 위해서 매일 등산을 합니다.",
+        "indonesian": "Demi kesehatan, saya mendaki gunung setiap hari."
+      }
+    ]
+  },
+  {
+    "chapter": 55,
+    "book": 2,
+    "grammar": "-는 대로",
+    "meaning": "segera setelah... / sesuai dengan...",
+    "explanation": "Menunjukkan tindakan yang langsung segera dilakukan setelah tindakan pertama selesai (segera setelah), atau melakukan sesuatu persis seperti instruksi (sesuai dengan).",
+    "examples": [
+      {
+        "korean": "집에 도착하는 대로 연락해 주세요.",
+        "indonesian": "Segera setelah sampai di rumah, tolong hubungi saya."
+      },
+      {
+        "korean": "제가 가르쳐 드리는 대로 하세요.",
+        "indonesian": "Lakukanlah sesuai dengan yang saya ajarkan."
+      }
+    ]
+  },
+  {
+    "chapter": 55,
+    "book": 2,
+    "grammar": "-(으)ㄹ 테니까",
+    "meaning": "karena saya akan... (maka kamu...) / karena pasti...",
+    "explanation": "Klausa pertama menunjukkan kemauan kuat pembicara untuk melakukan sesuatu (dengan janji) atau perkiraan kuat pembicara, klausa kedua berisi arahan atau saran untuk lawan bicara.",
+    "examples": [
+      {
+        "korean": "제가 청소할 테니까 창문을 열어 주세요.",
+        "indonesian": "Karena saya yang akan bersih-bersih, tolong bukakan jendelanya."
+      },
+      {
+        "korean": "오후에 바쁠 테니까 지금 점심을 먹읍시다.",
+        "indonesian": "Karena pasti sore akan sibuk, mari kita makan siang sekarang."
+      }
+    ]
+  },
+  {
+    "chapter": 56,
+    "book": 2,
+    "grammar": "-(으)ㄹ 뻔하다",
+    "meaning": "hampir saja (kejadian buruk)",
+    "explanation": "Menunjukkan bahwa suatu kejadian buruk hampir saja terjadi, tetapi kenyataannya tidak terjadi. Sering diawali dengan -다가 atau -아서/어서. -ㄹ 뻔하다 jika vokal, -을 뻔하다 jika konsonan.",
+    "examples": [
+      {
+        "korean": "길이 미끄러워서 넘어질 뻔했어요.",
+        "indonesian": "Karena jalannya licin, saya hampir saja terjatuh."
+      },
+      {
+        "korean": "사고가 날 뻔했습니다.",
+        "indonesian": "Hampir saja terjadi kecelakaan."
+      }
+    ]
+  },
+  {
+    "chapter": 56,
+    "book": 2,
+    "grammar": "-자마자",
+    "meaning": "segera setelah / begitu selesai...",
+    "explanation": "Menunjukkan tindakan di klausa kedua dilakukan seketika itu juga tanpa jeda waktu setelah tindakan di klausa pertama selesai. Ditempelkan langsung pada stem.",
+    "examples": [
+      {
+        "korean": "퇴근하자마자 컴퓨터 게임을 시작했어요.",
+        "indonesian": "Segera setelah pulang kerja, saya langsung bermain game komputer."
+      },
+      {
+        "korean": "그는 침대에 눕자마자 잠이 들었습니다.",
+        "indonesian": "Begitu merebahkan diri di ranjang, dia langsung tertidur."
+      }
+    ]
+  },
+  {
+    "chapter": 57,
+    "book": 2,
+    "grammar": "-는 / -(으)ㄴ 줄 알다/모르다",
+    "meaning": "mengira / menyangka / tidak tahu bahwa...",
+    "explanation": "알다 berarti menyangka/mengira sesuatu (yang ternyata keliru), atau mengetahui fakta tersebut. 모르다 berarti tidak menyadari atau tidak mengetahui hal tersebut.",
+    "examples": [
+      {
+        "korean": "저는 오늘이 주말인 줄 알았어요.",
+        "indonesian": "Saya mengira hari ini adalah akhir pekan (ternyata bukan)."
+      },
+      {
+        "korean": "그가 한국에 온 줄 몰랐습니다.",
+        "indonesian": "Saya tidak tahu bahwa dia telah datang ke Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 57,
+    "book": 2,
+    "grammar": "-게 되다",
+    "meaning": "menjadi / akhirnya (perubahan situasi luar)",
+    "explanation": "Menunjukkan perubahan keadaan dari tidak melakukan/tidak tahu menjadi melakukan/tahu karena faktor eksternal, aturan, atau situasi di luar kehendak pribadi.",
+    "examples": [
+      {
+        "korean": "회사 규정 때문에 이번 주에 야근을 하게 되었어요.",
+        "indonesian": "Karena peraturan perusahaan, akhirnya minggu ini saya harus kerja lembur."
+      },
+      {
+        "korean": "한국에 와서 한국 음식을 잘 먹게 되었습니다.",
+        "indonesian": "Sejak datang ke Korea, saya akhirnya jadi terbiasa makan makanan Korea."
+      }
+    ]
+  },
+  {
+    "chapter": 58,
+    "book": 2,
+    "grammar": "뿐만 아니라",
+    "meaning": "tidak hanya... tetapi juga...",
+    "explanation": "Menunjukkan penambahan informasi lain secara paralel. Ditempelkan pada kata benda, kata kerja, atau kata sifat.",
+    "examples": [
+      {
+        "korean": "그녀는 예쁠 뿐만 아니라 친절해요.",
+        "indonesian": "Dia tidak hanya cantik tetapi juga ramah."
+      },
+      {
+        "korean": "컴퓨터는 업무뿐만 아니라 공부에도 필요합니다.",
+        "indonesian": "Komputer dibutuhkan tidak hanya untuk pekerjaan tetapi juga untuk belajar."
+      }
+    ]
+  },
+  {
+    "chapter": 58,
+    "book": 2,
+    "grammar": "-(으)면 좋겠다",
+    "meaning": "berharap / alangkah baiknya jika...",
+    "explanation": "Menunjukkan keinginan, harapan, atau permohonan pembicara agar suatu situasi terwujud di masa depan. -면 좋겠다 jika vokal, -으면 좋겠다 jika konsonan.",
+    "examples": [
+      {
+        "korean": "내일 날씨가 맑으면 좋겠어요.",
+        "indonesian": "Alangkah baiknya jika besok cuacanya cerah."
+      },
+      {
+        "korean": "인도네시아에 빨리 갈 수 있으면 좋겠습니다.",
+        "indonesian": "Saya berharap bisa segera pergi ke Indonesia."
+      }
+    ]
+  },
+  {
+    "chapter": 59,
+    "book": 2,
+    "grammar": "-더라도",
+    "meaning": "walaupun / biarpun / sekalipun",
+    "explanation": "Menyatakan pengandaian keadaan ekstrem di klausa pertama, yang tidak akan memengaruhi tekad atau situasi di klausa kedua. Lebih kuat daripada -아도/어도.",
+    "examples": [
+      {
+        "korean": "아무리 힘들더라도 끝까지 노력하겠습니다.",
+        "indonesian": "Bagaimanapun sulitnya biarpun lelah, saya akan berusaha sampai akhir."
+      },
+      {
+        "korean": "비가 오더라도 약속 장소에 가야 해요.",
+        "indonesian": "Sekalipun hujan turun, saya harus tetap pergi ke tempat janji."
+      }
+    ]
+  },
+  {
+    "chapter": 59,
+    "book": 2,
+    "grammar": "-는지 / -(으)ㄴ지",
+    "meaning": "apakah... (penghubung kata tanya)",
+    "explanation": "Digunakan untuk menyambungkan anak kalimat tanya tidak langsung dengan kata kerja penjelas seperti 알다, 모르다, 물어보다, 가르치다.",
+    "examples": [
+      {
+        "korean": "우체국이 어디에 있는지 아세요?",
+        "indonesian": "Apakah Anda tahu kantor pos ada di mana?"
+      },
+      {
+        "korean": "오늘 회의가 언제 시작하는지 모릅니다.",
+        "indonesian": "Saya tidak tahu kapan rapat hari ini dimulai."
+      }
+    ]
+  },
+  {
+    "chapter": 60,
+    "book": 2,
+    "grammar": "-는 바람에",
+    "meaning": "karena (tiba-tiba/tanpa terduga)",
+    "explanation": "Menunjukkan alasan atas kejadian buruk atau ketidakberuntungan yang terjadi secara tidak terduga di klausa kedua. Hanya digunakan dengan kata kerja.",
+    "examples": [
+      {
+        "korean": "갑자기 비가 오는 바람에 옷이 다 젖었어요.",
+        "indonesian": "Karena tiba-tiba turun hujan (tak terduga), baju saya jadi basah kuyup semua."
+      },
+      {
+        "korean": "버스를 놓치는 바람에 회사에 늦었습니다.",
+        "indonesian": "Gara-gara ketinggalan bus, saya terlambat masuk kantor."
+      }
+    ]
+  },
+  {
+    "chapter": 60,
+    "book": 2,
+    "grammar": "-(으)려면",
+    "meaning": "jika ingin / jika bermaksud...",
+    "explanation": "Merupakan singkatan dari -(으)려고 하면. Menunjukkan pengandaian rencana di klausa pertama, di mana klausa kedua berisi syarat atau saran tindakan yang harus ditempuh. -려면 jika vokal/ㄹ, -으려면 jika konsonan selain ㄹ.",
+    "examples": [
+      {
+        "korean": "한국에서 일하려면 토픽 시험을 봐야 해요.",
+        "indonesian": "Jika ingin bekerja di Korea, Anda harus mengikuti ujian TOPIK."
+      },
+      {
+        "korean": "감기를 빨리 나으려면 푹 쉬어야 합니다.",
+        "indonesian": "Jika bermaksud cepat sembuh dari flu, Anda harus istirahat total."
+      }
+    ]
+  }
+]

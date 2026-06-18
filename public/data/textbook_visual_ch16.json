@@ -1,0 +1,174 @@
+{
+  "chapter": 16,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "계약(하다)",
+          "indonesian": "Menandatangani kontrak",
+          "image": "/images/textbook/ch16/v1_0_계약(하다).jpg"
+        },
+        {
+          "korean": "계약금을\t내다",
+          "indonesian": "Membayar uang kontrak",
+          "image": "/images/textbook/ch16/v1_1_계약금을_내다.jpg"
+        },
+        {
+          "korean": "구하다",
+          "indonesian": "mencari",
+          "image": "/images/textbook/ch16/v1_2_구하다.jpg"
+        },
+        {
+          "korean": "끝나다",
+          "indonesian": "Menyelesaikan, selesai",
+          "image": null
+        },
+        {
+          "korean": "보증금",
+          "indonesian": "Uang jaminan",
+          "image": "/images/textbook/ch16/v1_4_보증금.jpg"
+        },
+        {
+          "korean": "부동산",
+          "indonesian": "Pergi ke agen properti",
+          "image": "/images/textbook/ch16/v1_5_부동산.jpg"
+        },
+        {
+          "korean": "부탁",
+          "indonesian": "Meminta, tolong, bantuan",
+          "image": "/images/textbook/ch16/v1_6_부탁.jpg"
+        },
+        {
+          "korean": "빌라",
+          "indonesian": "Vila, rumah mewah",
+          "image": "/images/textbook/ch16/v1_7_빌라.jpg"
+        },
+        {
+          "korean": "아파트",
+          "indonesian": "Apartemen, apartemen, apartemen (kompleks atau unit)",
+          "image": "/images/textbook/ch16/v1_8_아파트.jpg"
+        },
+        {
+          "korean": "알아보다",
+          "indonesian": "mencari tahu",
+          "image": "/images/textbook/ch16/v1_9_알아보다.jpg"
+        },
+        {
+          "korean": "오피스텔",
+          "indonesian": "apartemen kantor (officetel)",
+          "image": "/images/textbook/ch16/v1_10_오피스텔.jpg"
+        },
+        {
+          "korean": "원룸",
+          "indonesian": "kamar tipe studio (one room)",
+          "image": "/images/textbook/ch16/v1_11_원룸.jpg"
+        },
+        {
+          "korean": "월세",
+          "indonesian": "Sewa bulanan",
+          "image": "/images/textbook/ch16/v1_12_월세.jpg"
+        },
+        {
+          "korean": "이사(하다)",
+          "indonesian": "Pindah rumah, pindah rumah",
+          "image": "/images/textbook/ch16/v1_13_이사(하다).jpg"
+        },
+        {
+          "korean": "주거\t형태",
+          "indonesian": "tempat tinggal (menetap)",
+          "image": null
+        },
+        {
+          "korean": "주택",
+          "indonesian": "Rumah tinggal, rumah",
+          "image": "/images/textbook/ch16/v1_15_주택.jpg"
+        },
+        {
+          "korean": "집을\t보다",
+          "indonesian": "Melihat rumah",
+          "image": "/images/textbook/ch16/v1_16_집을_보다.jpg"
+        },
+        {
+          "korean": "편하다",
+          "indonesian": "Nyaman, santai, nyaman",
+          "image": "/images/textbook/ch16/v1_17_편하다.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "교통",
+          "indonesian": "Lalu lintas, transportasi, lalu lintas",
+          "image": "/images/textbook/ch16/v2_0_교통.jpg"
+        },
+        {
+          "korean": "깨끗하다",
+          "indonesian": "Bersih, bersih",
+          "image": "/images/textbook/ch16/v2_1_깨끗하다.jpg"
+        },
+        {
+          "korean": "넓다",
+          "indonesian": "Luas, lebar, Lebar",
+          "image": "/images/textbook/ch16/v2_2_넓다.jpg"
+        },
+        {
+          "korean": "더럽다",
+          "indonesian": "Kotor, kotor",
+          "image": "/images/textbook/ch16/v2_3_더럽다.jpg"
+        },
+        {
+          "korean": "부족하다",
+          "indonesian": "Kurang",
+          "image": "/images/textbook/ch16/v2_4_부족하다.jpg"
+        },
+        {
+          "korean": "불편하다",
+          "indonesian": "Tidak nyaman, tidak nyaman",
+          "image": "/images/textbook/ch16/v2_5_불편하다.jpg"
+        },
+        {
+          "korean": "시끄럽다",
+          "indonesian": "Berisik, berisik",
+          "image": "/images/textbook/ch16/v2_6_시끄럽다.jpg"
+        },
+        {
+          "korean": "전망",
+          "indonesian": "Pemandangan",
+          "image": "/images/textbook/ch16/v2_7_전망.jpg"
+        },
+        {
+          "korean": "조용하다",
+          "indonesian": "Tenang, tenang, sunyi, diam",
+          "image": "/images/textbook/ch16/v2_8_조용하다.jpg"
+        },
+        {
+          "korean": "좁다",
+          "indonesian": "Sempit, sempit",
+          "image": "/images/textbook/ch16/v2_9_좁다.jpg"
+        },
+        {
+          "korean": "주거\t환경",
+          "indonesian": "lingkungan tempat tinggal",
+          "image": null
+        },
+        {
+          "korean": "편리하다",
+          "indonesian": "Nyaman, praktis, nyaman, bermanfaat",
+          "image": "/images/textbook/ch16/v2_11_편리하다.jpg"
+        },
+        {
+          "korean": "편의\t시설",
+          "indonesian": "Fasilitas",
+          "image": "/images/textbook/ch16/v2_12_편의_시설.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

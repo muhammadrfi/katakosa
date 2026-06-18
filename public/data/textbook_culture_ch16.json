@@ -1,0 +1,28 @@
+{
+  "chapter": 16,
+  "sections": [
+    {
+      "title": "한국의 주거 형태 (Type Perumahan Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국에서는 어느 도시를 가더라도 아파트를 쉽게 볼 수 있습 니다. 대규모 아파트 단지가 많고, 고층 아파트도 빠르게 늘고 있습니다. 국토교통부의 ‘2022년 주거 실태 조사’에 따르면, 아 파트 거주 비율은 51.9%로 전체 가구의 절반이 넘습니다. 아파 트는 생활이 편리하고 보안 시스템이 잘 갖추어져 있어 많은 사 람들이 좋아합니다. 마트, 운동 시설 같은 편의 시설과 각급 학 교가 가까운 곳에 있는 것도 아파트를 선호하는 이유 중 하나입 니다.",
+          "indonesian": "Di Korea, Anda dapat dengan mudah melihat apartemen di kota mana pun. Terdapat banyak kompleks apartemen besar, dan jumlah apartemen bertingkat tinggi meningkat pesat. Menurut ʻSurvei Perumahan 2022’ yang dilakukan Kementerian Pertanahan, Infrastruktur dan Transportasi, persentase penduduk yang tinggal di apartemen adalah 51,9%, atau mencakup lebih dari separuh seluruh rumah tangga. Apartemen populer karena nyaman untuk ditinggali dan memiliki sistem keamanan yang baik. Alasan lain atas popularitasnya adalah karena fasilitas seperti supermarket, fasilitas kebugaran, dan semua tingkat sekolah terdapat di dekatnya."
+        },
+        {
+          "korean": "이에 비해 단독 주택에 거주하는 비율은 전체 가구의 30% 도 안 됩니다. 이처럼 단독 주택에 사는 가구의 비율은 낮지만 최근 노년층을 중심으로 자연 환경이 좋은 도시 근교에 전원주 택을 짓고 생활하는 사람들은 조금씩 늘고 있습니다.",
+          "indonesian": "Sebaliknya, persentase penduduk yang tinggal di rumah keluarga tunggal kurang dari 30% dari seluruh rumah tangga. Meskipun persentase rumah tangga yang tinggal di rumah keluarga tunggal rendah, terdapat sedikit peningkatan pada jumlah orang, terutama lansia, yang membangun dan tinggal di rumah pedesaan di pinggiran kota dengan lingkungan alam yang baik."
+        },
+        {
+          "korean": "이외에 보통 ‘빌라’라고 부르는 다세대주택이나 연립주택에 사는 가구도 전체의 약 10%를 차지하고 있습니다.",
+          "indonesian": "Selain itu, sekitar 10% rumah tangga tinggal di rumah multi- keluarga atau townhouse, yang biasa disebut ʻvilla’."
+        },
+        {
+          "korean": "최근에는 1인 가구가 증가하면서 학교나 직장 근처의 원룸이 나 오피스텔에 사는 젊은 사람들이 늘고 있습니다. 원룸이나 오 피스텔은 침실이나 화장실, 주방이 한 공간에 있어 편리하고, 필수적인 가전제품이 구비되어 있는 경우가 많아 혼자 사는 사 람들에게 인기가 좋습니다.",
+          "indonesian": "Baru-baru ini, jumlah rumah tangga dengan satu orang meningkat. Semakin banyak generasi muda yang tinggal di apartemen studio atau kantor di dekat sekolah dan tempat kerja. Apartemen studio dan kantor sangat populer di kalangan orang yang tinggal sendiri karena menggabungkan kamar tidur, kamar mandi, dan dapur dalam satu ruang dan sering kali dilengkapi dengan peralatan rumah tangga yang penting, sehingga menjadikannya nyaman."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "chapter": 6,
+  "sections": [
+    {
+      "title": "직장인의 하루 (Keseharian Pekerja Kantoran)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국의 직장인들은 대부분 9시에 일을 시작합니다. 출근할 때는 지하철이나 버스와 같은 대중교통을 이용하기도 하고, 개인 승용차를 이용하기도 합니다. 출퇴근 시간에는 교통이 매우 혼잡하여 예기치 않은 일로 어려움을 겪기도 합니다.",
+          "indonesian": "Sebagian besar pekerja kantoran di Korea mulai bekerja pada jam 9. Mereka menggunakan transportasi umum seperti kereta bawah tanah atau bus, atau mobil mereka sendiri untuk perjalanan pulang- pergi. Lalu lintas sangat padat selama jam sibuk, yang dapat menyebabkan kesulitan yang tak terduga."
+        },
+        {
+          "korean": "점심은 보통 12시에서 1시 사이에 구내식당에서 먹는데, 구내식당이 없으면 회사 근처의 식당에서 먹습니다. 점심은 같은 부서의 사람들과 회사에서 하지 못한 업무 이야기도 하면서 함께 먹는 경우가 많습니다. 일부 직장인들은 점심시간을 이용하여 간단한 취미 활동을 즐기기도 합니다.",
+          "indonesian": "Makan siang biasanya dari jam 12 sampai jam 1 siang, dimakan di kantin perusahaan atau di restoran terdekat jika tidak ada kantin. Mereka sering makan siang dengan rekan kerja dan mendiskusikan pekerjaan yang belum selesai."
+        },
+        {
+          "korean": "퇴근은 대부분 6시에 하지만 일을 다 끝내지 못했을 때는 야근을 합니다. 퇴근 후에는 쌓인 피로와 스트레스를 풀고, 팀워크를 다지기 위해 상사나 동료들과 회식을 할 때도 있습니다.",
+          "indonesian": "Sebagian besar pekerja selesai bekerja pada pukul sore, tetapi jika mereka belum menyelesaikan tugas mereka, mereka bekerja lembur. Setelah bekerja, mereka kadang-kadang makan malam tim untuk menghilangkan stres dan kerja sama tim."
+        },
+        {
+          "korean": "어떤 사람들은 출근 전이나 퇴근 후에 자신의 건강을 위해 운동을 하거나, 자기 계발을 위해 외국어 학원에 다니 기도 합니다.",
+          "indonesian": "Beberapa orang berolahraga untuk kesehatan mereka atau menghadiri kelas bahasa untuk memperbaiki diri sebelum atau sesudah bekerja."
+        },
+        {
+          "korean": "취침",
+          "indonesian": "tidur"
+        },
+        {
+          "korean": "저녁 6시 밤 12시 낮 12시 오전 9시 오후 1시 기상 bangun",
+          "indonesian": "berangkat kerja"
+        },
+        {
+          "korean": "출근 오전 업무",
+          "indonesian": "jam kerja pagi"
+        },
+        {
+          "korean": "점심 시간",
+          "indonesian": "Makan siang"
+        },
+        {
+          "korean": "오후 업무",
+          "indonesian": "Jam keja siang"
+        },
+        {
+          "korean": "퇴근 및 개인 시간",
+          "indonesian": "waktu pribadi dan pulang kerja"
+        }
+      ]
+    }
+  ]
+}

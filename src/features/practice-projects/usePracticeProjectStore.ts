@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
+import localforage from 'localforage';
 import { toast } from 'sonner';
 
 export interface PracticeProject {
@@ -73,11 +74,11 @@ export const usePracticeProjectStore = create<PracticeProjectState>()(
     }),
     {
       name: 'katakosa-projects-storage',
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => localforage),
       partialize: (state) => ({ projects: state.projects }),
       onRehydrateStorage: () => (state) => {
         state?._finishLoading(false);
       },
     }
   )
-);
+);

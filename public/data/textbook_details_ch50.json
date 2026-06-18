@@ -1,0 +1,235 @@
+{
+  "chapter": 50,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가지",
+          "indonesian": "Cabang, terong",
+          "image": null
+        },
+        {
+          "korean": "감다",
+          "indonesian": "menggulung, membungkus, keramas, cuci rambut",
+          "image": "/images/textbook/ch50/v1_1_감다.jpg"
+        },
+        {
+          "korean": "거리",
+          "indonesian": "Perempatan, perempatan",
+          "image": "/images/textbook/ch50/v1_2_거리.jpg"
+        },
+        {
+          "korean": "굴착기",
+          "indonesian": "ekskavator",
+          "image": "/images/textbook/ch50/v1_3_굴착기.jpg"
+        },
+        {
+          "korean": "굴취",
+          "indonesian": "penggalian parit dan pembungkusan bola akar",
+          "image": null
+        },
+        {
+          "korean": "나무",
+          "indonesian": "Pohon, pohon, kayu",
+          "image": "/images/textbook/ch50/v1_5_나무.jpg"
+        },
+        {
+          "korean": "둥글다",
+          "indonesian": "bulat",
+          "image": "/images/textbook/ch50/v1_6_둥글다.jpg"
+        },
+        {
+          "korean": "마대",
+          "indonesian": "karung goni, kantong sampah besar",
+          "image": "/images/textbook/ch50/v1_7_마대.jpg"
+        },
+        {
+          "korean": "밑동",
+          "indonesian": "diameter dasar pohon",
+          "image": "/images/textbook/ch50/v1_8_밑동.jpg"
+        },
+        {
+          "korean": "밴드",
+          "indonesian": "Perban, pita, plester, plaster plastik",
+          "image": "/images/textbook/ch50/v1_9_밴드.jpg"
+        },
+        {
+          "korean": "부러뜨리다",
+          "indonesian": "merusak, menghancurkan",
+          "image": "/images/textbook/ch50/v1_10_부러뜨리다.jpg"
+        },
+        {
+          "korean": "분",
+          "indonesian": "Bola akar, orang",
+          "image": null
+        },
+        {
+          "korean": "분 감기",
+          "indonesian": "Membungkus bola akar",
+          "image": null
+        },
+        {
+          "korean": "뿌리",
+          "indonesian": "Akar, akar",
+          "image": "/images/textbook/ch50/v1_13_뿌리.jpg"
+        },
+        {
+          "korean": "뿌리 가위",
+          "indonesian": "Gunting akar",
+          "image": "/images/textbook/ch50/v1_14_뿌리_가위.jpg"
+        },
+        {
+          "korean": "소형",
+          "indonesian": "Ekskavator mini",
+          "image": "/images/textbook/ch50/v1_15_소형.jpg"
+        },
+        {
+          "korean": "순서",
+          "indonesian": "Urutan, urutan",
+          "image": "/images/textbook/ch50/v1_16_순서.jpg"
+        },
+        {
+          "korean": "쏟다",
+          "indonesian": "mencurahkan",
+          "image": "/images/textbook/ch50/v1_17_쏟다.jpg"
+        },
+        {
+          "korean": "아랫부분",
+          "indonesian": "Bagian bawah",
+          "image": "/images/textbook/ch50/v1_18_아랫부분.jpg"
+        },
+        {
+          "korean": "잎",
+          "indonesian": "Daun",
+          "image": "/images/textbook/ch50/v1_19_잎.jpg"
+        },
+        {
+          "korean": "잔뿌리",
+          "indonesian": "Akar halus",
+          "image": "/images/textbook/ch50/v1_20_잔뿌리.jpg"
+        },
+        {
+          "korean": "줄기",
+          "indonesian": "Batang",
+          "image": null
+        },
+        {
+          "korean": "지름",
+          "indonesian": "diameter dasar pohon",
+          "image": "/images/textbook/ch50/v1_22_지름.jpg"
+        },
+        {
+          "korean": "톱",
+          "indonesian": "Gergaji, gergaji",
+          "image": "/images/textbook/ch50/v1_23_톱.jpg"
+        },
+        {
+          "korean": "표시(하다)",
+          "indonesian": "Memperlihatkan, Menampilkan, Tanda, menandai",
+          "image": "/images/textbook/ch50/v1_24_표시(하다).jpg"
+        },
+        {
+          "korean": "풀리다",
+          "indonesian": "Melepaskan, menjadi",
+          "image": "/images/textbook/ch50/v1_25_풀리다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "말뚝",
+          "indonesian": "patok / tiang pancang",
+          "image": "/images/textbook/ch50/v2_0_말뚝.jpg"
+        },
+        {
+          "korean": "벌목",
+          "indonesian": "Pekerjaan penebangan",
+          "image": null
+        },
+        {
+          "korean": "벌채지",
+          "indonesian": "area penebangan hutan",
+          "image": "/images/textbook/ch50/v2_2_벌채지.jpg"
+        },
+        {
+          "korean": "운재",
+          "indonesian": "pengangkutan kayu",
+          "image": "/images/textbook/ch50/v2_3_운재.jpg"
+        },
+        {
+          "korean": "조재",
+          "indonesian": "Memotong pohon sesuai ukuran",
+          "image": "/images/textbook/ch50/v2_4_조재.jpg"
+        },
+        {
+          "korean": "집재",
+          "indonesian": "Rumah",
+          "image": "/images/textbook/ch50/v2_5_집재.jpg"
+        },
+        {
+          "korean": "집재장",
+          "indonesian": "Rumah",
+          "image": "/images/textbook/ch50/v2_6_집재장.jpg"
+        },
+        {
+          "korean": "챙기다",
+          "indonesian": "menjaga",
+          "image": "/images/textbook/ch50/v2_7_챙기다.jpg"
+        },
+        {
+          "korean": "체인톱",
+          "indonesian": "gergaji mesin (chainsaw)",
+          "image": "/images/textbook/ch50/v2_8_체인톱.jpg"
+        },
+        {
+          "korean": "치다",
+          "indonesian": "Menyangga, menolong",
+          "image": "/images/textbook/ch50/v2_9_치다.jpg"
+        },
+        {
+          "korean": "토막을 내다",
+          "indonesian": "memotong menjadi potongan-potongan",
+          "image": "/images/textbook/ch50/v2_10_토막을_내다.jpg"
+        },
+        {
+          "korean": "톱질(하다)",
+          "indonesian": "menggergaji",
+          "image": "/images/textbook/ch50/v2_11_톱질(하다).jpg"
+        },
+        {
+          "korean": "하베스터",
+          "indonesian": "mesin pemanen (harvester)",
+          "image": "/images/textbook/ch50/v2_12_하베스터.jpg"
+        }
+      ]
+    },
+    {
+      "title": "산림 자원 활성화 (Aktivasi Sumber Daya Hutan)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국은 국토의 60% 이상이 산이지만 과거에는 산 림 자원이 풍부하지 못했습니다. 한국 정부에서는 식 목일(4월 5일)을 제정하여 나무 심기를 장려하는 한편 그린벨트와 산림보호구역을 지정하고 산림청을 설립 하는 등 산림 자원의 보호와 육성을 위해 다양한 정책 을 추진하였습니다. 그 결과 현재는 울창한 숲을 자랑 하고 있습니다.",
+          "indonesian": "Lebih dari 60% wilayah Korea ditutupi oleh pegunungan, namun di masa lalu, negara ini tidak memiliki sumber daya hutan yang melimpah. Pemerintah Korea telah menerapkan berbagai kebijakan untuk melindungi dan mengolah sumber daya hutan, seperti menetapkan Hari Arbor (5 April) untuk mendorong penanaman pohon, menetapkan jalur hijau dan kawasan perlindungan hutan, dan mendirikan Dinas Kehutanan Korea. Hasilnya, Korea kini memiliki hutan yang subur."
+        },
+        {
+          "korean": "새롭게 조성된 울창한 산림은 목재와 임산물을 제공해 줄 뿐만 아니라 다양한 동식물의 서식지가 되어 생물 다 양성을 풍부하게 하고 있습니다. 또한 이산화탄소를 흡수하여 대기의 질을 개선하는 역할을 하기 때문에 기후 변 화에 대처하는 데도 도움을 줍니다. 최근에는 휴양, 관광, 스포츠, 레크리에이션 등의 공간으로도 활용되고 있습 니다.",
+          "indonesian": "Hutan lebat yang baru terbentuk tidak hanya menyediakan kayu dan hasil hutan tetapi juga memperkaya keanekaragaman hayati dengan berfungsi sebagai habitat bagi berbagai tumbuhan dan hewan. Selain itu, dengan menyerap karbon dioksida, mereka berperan dalam meningkatkan kualitas udara dan membantu mitigasi perubahan iklim. Saat ini, hutan tersebut juga dimanfaatkan untuk kegiatan rekreasi, pariwisata, olah raga, dan rekreasi"
+        },
+        {
+          "korean": "인간에게 다양한 혜택을 주는 산림을 보호하기 위해서는 불법 벌목을 방지하고, 산불 안전 수칙을 준수하여 산 불을 예방하는 것이 중요합니다. 그런데도 산불이 나면 피해를 최소화할 수 있도록 신속하게 대응하는 것도 잊어 서는 안 됩니다. 이러한 노력이 있어야만 산림의 다양한 가치와 기능을 유지할 수 있고 미래 세대에게 건강한 산 림을 남길 수 있습니다.",
+          "indonesian": "Hutan memberikan beragam manfaat bagi manusia, dan untuk melindungi mereka, sangat penting untuk mencegah pembalakan liar dan menghindari kebakaran hutan dengan mematuhi peraturan keselamatan kebakaran. Selain itu, respons cepat juga penting untuk meminimalkan kerusakan jika terjadi kebakaran. Hanya melalui upaya-upaya inilah keberagaman nilai dan fungsi hutan dapat dipertahankan, sehingga hutan yang sehat tetap terpelihara untuk generasi mendatang."
+        },
+        {
+          "korean": "한국의 산림 자원",
+          "indonesian": "Sumber Daya Hutan Korea"
+        }
+      ]
+    }
+  ]
+}

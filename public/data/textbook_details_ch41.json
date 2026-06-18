@@ -1,0 +1,261 @@
+{
+  "chapter": 41,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "관리 대장",
+          "indonesian": "Buku besar manajemen",
+          "image": "/images/textbook/ch41/v1_0_관리_대장.jpg"
+        },
+        {
+          "korean": "민감하다",
+          "indonesian": "peka",
+          "image": "/images/textbook/ch41/v1_1_민감하다.jpg"
+        },
+        {
+          "korean": "벌레",
+          "indonesian": "Ulat",
+          "image": "/images/textbook/ch41/v1_2_벌레.jpg"
+        },
+        {
+          "korean": "변색되다",
+          "indonesian": "menghitamkan",
+          "image": "/images/textbook/ch41/v1_3_변색되다.jpg"
+        },
+        {
+          "korean": "습도",
+          "indonesian": "kelembapan",
+          "image": "/images/textbook/ch41/v1_4_습도.jpg"
+        },
+        {
+          "korean": "습하다",
+          "indonesian": "lembap",
+          "image": "/images/textbook/ch41/v1_5_습하다.jpg"
+        },
+        {
+          "korean": "약해지다",
+          "indonesian": "menjadi lemah",
+          "image": "/images/textbook/ch41/v1_6_약해지다.jpg"
+        },
+        {
+          "korean": "오염되다",
+          "indonesian": "tercemar",
+          "image": "/images/textbook/ch41/v1_7_오염되다.jpg"
+        },
+        {
+          "korean": "온습도계",
+          "indonesian": "termometer kelembapan",
+          "image": "/images/textbook/ch41/v1_8_온습도계.jpg"
+        },
+        {
+          "korean": "원사",
+          "indonesian": "benang",
+          "image": null
+        },
+        {
+          "korean": "일정하다",
+          "indonesian": "Jadwal, jadwal, menentukan",
+          "image": "/images/textbook/ch41/v1_10_일정하다.jpg"
+        },
+        {
+          "korean": "장마철",
+          "indonesian": "hujan di musim panas",
+          "image": "/images/textbook/ch41/v1_11_장마철.jpg"
+        },
+        {
+          "korean": "적정",
+          "indonesian": "Sesuai, dengan benar",
+          "image": "/images/textbook/ch41/v1_12_적정.jpg"
+        },
+        {
+          "korean": "주기적",
+          "indonesian": "berkala",
+          "image": "/images/textbook/ch41/v1_13_주기적.jpg"
+        },
+        {
+          "korean": "직사광선",
+          "indonesian": "sinar matahari langsung",
+          "image": "/images/textbook/ch41/v1_14_직사광선.jpg"
+        },
+        {
+          "korean": "통풍이 잘되다",
+          "indonesian": "ventilasi yang baik",
+          "image": "/images/textbook/ch41/v1_15_통풍이_잘되다.jpg"
+        },
+        {
+          "korean": "피하다",
+          "indonesian": "menghindar",
+          "image": "/images/textbook/ch41/v1_16_피하다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가공(하다)",
+          "indonesian": "mengolah / memproses",
+          "image": null
+        },
+        {
+          "korean": "건조(하다)",
+          "indonesian": "kering / mengeringkan",
+          "image": "/images/textbook/ch41/v2_1_건조(하다).jpg"
+        },
+        {
+          "korean": "견",
+          "indonesian": "Sutra",
+          "image": null
+        },
+        {
+          "korean": "고르다",
+          "indonesian": "Halus, memilih",
+          "image": "/images/textbook/ch41/v2_3_고르다.jpg"
+        },
+        {
+          "korean": "나일론",
+          "indonesian": "Nilon",
+          "image": null
+        },
+        {
+          "korean": "막대기",
+          "indonesian": "batang",
+          "image": "/images/textbook/ch41/v2_5_막대기.jpg"
+        },
+        {
+          "korean": "말리다",
+          "indonesian": "mengeringkan",
+          "image": "/images/textbook/ch41/v2_6_말리다.jpg"
+        },
+        {
+          "korean": "면",
+          "indonesian": "Kalau, Kapas",
+          "image": null
+        },
+        {
+          "korean": "모",
+          "indonesian": "Wol",
+          "image": "/images/textbook/ch41/v2_8_모.jpg"
+        },
+        {
+          "korean": "불순물",
+          "indonesian": "kotoran",
+          "image": "/images/textbook/ch41/v2_9_불순물.jpg"
+        },
+        {
+          "korean": "서두르다",
+          "indonesian": "Bergegas, mempercepat",
+          "image": "/images/textbook/ch41/v2_10_서두르다.jpg"
+        },
+        {
+          "korean": "섞다",
+          "indonesian": "mencampur",
+          "image": "/images/textbook/ch41/v2_11_섞다.jpg"
+        },
+        {
+          "korean": "세척(하다)",
+          "indonesian": "mencuci",
+          "image": "/images/textbook/ch41/v2_12_세척(하다).jpg"
+        },
+        {
+          "korean": "아크릴",
+          "indonesian": "Akrilik",
+          "image": "/images/textbook/ch41/v2_13_아크릴.jpg"
+        },
+        {
+          "korean": "약품",
+          "indonesian": "Obat-obatan",
+          "image": "/images/textbook/ch41/v2_14_약품.jpg"
+        },
+        {
+          "korean": "엉키다",
+          "indonesian": "menjadi kusut, membingungkan",
+          "image": "/images/textbook/ch41/v2_15_엉키다.jpg"
+        },
+        {
+          "korean": "염료",
+          "indonesian": "mencampur pewarna",
+          "image": "/images/textbook/ch41/v2_16_염료.jpg"
+        },
+        {
+          "korean": "염색(하다)",
+          "indonesian": "pewarna, mewarnai",
+          "image": null
+        },
+        {
+          "korean": "원단",
+          "indonesian": "masukkan, menaruh di kain",
+          "image": "/images/textbook/ch41/v2_18_원단.jpg"
+        },
+        {
+          "korean": "젓다",
+          "indonesian": "mengaduk",
+          "image": "/images/textbook/ch41/v2_19_젓다.jpg"
+        },
+        {
+          "korean": "제거(하다)",
+          "indonesian": "menghapus",
+          "image": "/images/textbook/ch41/v2_20_제거(하다).jpg"
+        },
+        {
+          "korean": "천연 섬유",
+          "indonesian": "serat alami",
+          "image": "/images/textbook/ch41/v2_21_천연_섬유.jpg"
+        },
+        {
+          "korean": "탈수(하다)",
+          "indonesian": "dehidrasi",
+          "image": "/images/textbook/ch41/v2_22_탈수(하다).jpg"
+        },
+        {
+          "korean": "펴다",
+          "indonesian": "meluruskan",
+          "image": "/images/textbook/ch41/v2_23_펴다.jpg"
+        },
+        {
+          "korean": "폴리에스터",
+          "indonesian": "poliester",
+          "image": null
+        },
+        {
+          "korean": "표백(하다)",
+          "indonesian": "pemutih",
+          "image": "/images/textbook/ch41/v2_25_표백(하다).jpg"
+        },
+        {
+          "korean": "하얗다",
+          "indonesian": "Warna putih",
+          "image": "/images/textbook/ch41/v2_26_하얗다.jpg"
+        },
+        {
+          "korean": "합성 섬유",
+          "indonesian": "Serat sintetis",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "한국의 섬유와 패션 산업 (Industri Tekstil dan Fashion Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "K-드라마와 K-팝의 세계적인 인기에 힘입어 K-패션이 국제 적으로 주목을 받고 있습니다. ‘옷이 날개다’라는 속담이 있을 정도로 한국 사람들은 예로부터 때와 장소에 맞는 옷차림을 중 요하게 생각해 왔습니다. 패션에 대한 선조들의 이러한 관심은 한국의 섬유와 패션 산업 발전의 밑거름이 되었습니다.",
+          "indonesian": "Berkat popularitas global K-drama dan K-pop, K-fashion mendapatkan pengakuan internasional. Bahkan ada pepatah Korea yang mengatakan, “Pakaian adalah sayap (Pakaian membuat laki-laki)” mencerminkan betapa orang Korea telah lama menghargai berpakaian yang pantas untuk berbagai kesempatan. Ketertarikan terhadap fesyen dari generasi sebelumnya telah meletakkan dasar bagi perkembangan industri tekstil dan fesyen Korea."
+        },
+        {
+          "korean": "원료를 가공하여 섬유를 생산하는 섬유 산업과 섬유를 이용 하여 원단을 만드는 방직 산업은 한국전쟁 이후 한국의 경제 재건을 위한 산업화 시기에 시작되었습니다. 특히 대구는 방직 업을 중심으로 대규모 섬유 공장이 세워지면서 '섬유 도시'로 발전하였습니다. 2000년대에 이르러 한국의 섬유 산업에 첨 단 기술이 도입되면서 기능성 섬유와 같은 고품질의 소재를 생 산할 수 있게 되었습니다. 이러한 결과로 2022년 한국의 섬유 산업은 화학섬유와 편직물을 중심으로 세계 시장 점유율 6위 라는 높은 경쟁력을 갖추게 되었습니다.",
+          "indonesian": "Industri tekstil yang mengolah bahan mentah untuk menghasilkan serat, dan industri pemintalan yang membuat kain dari serat tersebut, dimulai pada masa industrialisasi. Ini adalah periode waktu yang dimulai dengan pembangunan kembali perekonomian Korea setelah Perang Korea. Secara khusus, Daegu berkembang menjadi “kota tekstil” seiring dengan didirikannya pabrik tekstil berskala besar yang berfokus pada industri pemintalan. Pada tahun 2000-an, teknologi canggih diperkenalkan ke dalam industri tekstil Korea, yang memungkinkan produksi bahan berkualitas tinggi seperti serat fungsional. Hasilnya, pada tahun 2022 industri tekstil Korea menduduki peringkat ke-6 pangsa pasar dunia dengan fokus pada serat sintetis dan kain rajutan, sehingga mencapai tingkat daya saing global yang tinggi."
+        },
+        {
+          "korean": "섬유 산업의 발전과 함께 K-패션으로 알려 진 한국의 패션 산업 도 글로벌 트렌드를 주도하며, 창의적이고 혁신적인 디자인으로 주목받고 있습니다. ‘서울 패션 위크’와 같 은 국제 패션 이벤트 에서 한국 디자이너들 의 작품이 많이 소개 되고 있으며, K-드라마의 영향으로 의류뿐만 아니라 모자와 신 발, 액세서리 등도 해외에서 큰 인기를 얻고 있습니다.",
+          "indonesian": "Seiring dengan perkembangan industri tekstil, industri fesyen Korea, yang dikenal dengan K-fashion, juga memimpin tren global karena mendapat pengakuan atas desainnya yang kreatif dan inovatif. Banyak karya desainer Korea yang dipamerkan di ajang fashion internasional seperti Seoul Fashion Week. Selain itu, karena pengaruh K-drama, tidak hanya pakaian tetapi juga topi, sepatu, dan aksesoris yang mendapatkan popularitas luar biasa di luar negeri."
+        }
+      ]
+    }
+  ]
+}

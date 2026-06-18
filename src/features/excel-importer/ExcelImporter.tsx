@@ -44,22 +44,51 @@ const ExcelImporter = () => {
         type ExcelRow = (string | number)[];
         const json = XLSX.utils.sheet_to_json<ExcelRow>(worksheet, { header: 1 });
 
-        if (json.length <= 1) {
-          toast.warning("File kosong atau hanya berisi header.");
+        if (json.length === 0) {
+          toast.warning("File kosong.");
           return;
         }
 
-        const rows = json.slice(1);
+        // Fungsi deteksi apakah baris pertama adalah header
+        const isHeaderRow = (row: ExcelRow): boolean => {
+          if (!row || row.length < 2) return false;
+          const col1 = String(row[0] || '').toLowerCase().trim();
+          const col2 = String(row[1] || '').toLowerCase().trim();
+          
+          const headerKeywords = [
+            'bahasaa', 'bahasab', 'korea', 'indonesia', 'english', 'word', 'translation',
+            'arti', 'makna', 'kosakata', 'term', 'definition', 'vocab', '단어', '뜻', 
+            '번호', 'no', 'number', 'indonesian', 'korean'
+          ];
+          
+          return headerKeywords.includes(col1) || headerKeywords.includes(col2);
+        };
+
+        const startsFromIndex = isHeaderRow(json[0]) ? 1 : 0;
+        const rows = json.slice(startsFromIndex);
         
         const newWords = rows
-          .map(row => ({
-            bahasaA: String(row[0] || '').trim(),
-            bahasaB: String(row[1] || '').trim(),
-            interval: 0,
-            repetition: 0,
-            easeFactor: 2.5,
-          }))
-          .filter(word => word.bahasaA && word.bahasaB);
+          .map(row => {
+            if (!row || row.length === 0) return null;
+            
+            // Deteksi jika kolom pertama berisi nomor urut (angka) dan ada kolom penjelas di kolom ke-3
+            const isFirstColumnNumber = typeof row[0] === 'number' || 
+              (!isNaN(Number(row[0])) && String(row[0]).trim() !== '' && row.length > 2);
+            
+            const bahasaA = isFirstColumnNumber ? String(row[1] || '') : String(row[0] || '');
+            const bahasaB = isFirstColumnNumber ? String(row[2] || '') : String(row[1] || '');
+            
+            return {
+              bahasaA: bahasaA.trim(),
+              bahasaB: bahasaB.trim(),
+              interval: 0,
+              repetition: 0,
+              easeFactor: 2.5,
+            };
+          })
+          .filter((word): word is { bahasaA: string; bahasaB: string; interval: number; repetition: number; easeFactor: number } => 
+            word !== null && word.bahasaA !== '' && word.bahasaB !== ''
+          );
 
         if (newWords.length === 0) {
           toast.warning("Tidak ada data valid yang ditemukan dalam file.");
@@ -101,19 +130,44 @@ const ExcelImporter = () => {
     }, 0);
   };
 
+  const handleDownloadTemplate = () => {
+    try {
+      const headers = [["bahasaA", "bahasaB"]];
+      const sampleRows = [
+        ["cat", "kucing"],
+        ["dog", "anjing"],
+        ["apple", "apel"]
+      ];
+      const data = [...headers, ...sampleRows];
+      const ws = XLSX.utils.aoa_to_sheet(data);
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, "Katakosa Template");
+      XLSX.writeFile(wb, "Template_Katakosa.xlsx");
+      toast.success("Template Excel berhasil diunduh.");
+    } catch (error) {
+      console.error("Gagal membuat template Excel:", error);
+      toast.error("Gagal mengunduh template Excel.");
+    }
+  };
+
   return (
-    <div>
-      <input
-        type="file"
-        ref={fileInputRef}
-        onChange={handleFileChange}
-        accept=".xlsx, .xls"
-        className="hidden"
-      />
-      <Button onClick={handleButtonClick} size="lg">
-        <Upload className="mr-2 h-5 w-5" />
-        Impor dari Excel
-      </Button>
+    <div className="w-full">
+      <div className="flex flex-col sm:flex-row items-center gap-3">
+        <input
+          type="file"
+          ref={fileInputRef}
+          onChange={handleFileChange}
+          accept=".xlsx, .xls"
+          className="hidden"
+        />
+        <Button onClick={handleButtonClick} size="lg" className="w-full sm:w-auto">
+          <Upload className="mr-2 h-5 w-5" />
+          Impor dari Excel
+        </Button>
+        <Button onClick={handleDownloadTemplate} variant="outline" size="lg" className="w-full sm:w-auto">
+          Unduh Template Excel
+        </Button>
+      </div>
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogContent className="sm:max-w-[425px]">

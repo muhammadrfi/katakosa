@@ -5,7 +5,7 @@ import { usePracticeProjectStore } from '../practice-projects/usePracticeProject
 import { useReviewListStore } from '../review-practice/useReviewListStore';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { AlertTriangle } from 'lucide-react';
+import { AlertTriangle, Loader2 } from 'lucide-react';
 import { toast } from 'sonner';
 
 import { getShuffledOptions } from '../practice-projects/practiceUtils';
@@ -14,6 +14,7 @@ import ListeningStartScreen from './components/ListeningStartScreen';
 import ListeningQuestionCard from './components/ListeningQuestionCard';
 import ListeningResult from './components/ListeningResult';
 import { WordPair } from '../vocabulary/vocabulary.types';
+import { soundEffects } from '../../utils/soundEffects';
 
 const ListeningPracticePage = () => {
     const { projectId } = useParams<{ projectId: string }>();
@@ -59,8 +60,8 @@ const ListeningPracticePage = () => {
             }
             return prev;
         });
-        addIncorrectAnswerToReviewList(word.id); // Memanggil fungsi dari useReviewListStore
-        markWordAsForgotten(word.id); // Menandai kata sebagai dilupakan
+        addIncorrectAnswerToReviewList(word.id);
+        markWordAsForgotten(word.id);
     };
 
     const generateOptions = (correctWord: WordPair) => {
@@ -70,6 +71,7 @@ const ListeningPracticePage = () => {
     };
 
     const startQuiz = () => {
+        soundEffects.playFlip();
         const shuffledWords = [...allWords].sort(() => 0.5 - Math.random());
         setQuizWords(shuffledWords);
         setCurrentWordIndex(0);
@@ -91,10 +93,12 @@ const ListeningPracticePage = () => {
         setSelectedAnswer(answer);
         setIsCorrect(correct);
         if (correct) {
+            soundEffects.playCorrect();
             setScore(prev => prev + 1);
             toast.success("Jawaban Benar!");
-            markWordAsRemembered(currentWord.id); // Menandai kata sebagai diingat
+            markWordAsRemembered(currentWord.id);
         } else {
+            soundEffects.playIncorrect();
             addIncorrectAnswer(currentWord);
             setIncorrectlyAnsweredWords(prev => [...prev, currentWord]);
             toast.error("Jawaban Salah.", {
@@ -104,6 +108,7 @@ const ListeningPracticePage = () => {
     };
 
     const handleNextWord = () => {
+        soundEffects.playFlip();
         if (currentWordIndex < quizWords.length - 1) {
             const nextIndex = currentWordIndex + 1;
             setCurrentWordIndex(nextIndex);
@@ -111,6 +116,7 @@ const ListeningPracticePage = () => {
             setSelectedAnswer(null);
             setIsCorrect(null);
         } else {
+            soundEffects.playLevelUp();
             setQuizState('finished');
         }
     };
@@ -133,22 +139,26 @@ const ListeningPracticePage = () => {
     }, [currentWordIndex, quizState, quizWords, selectedAnswer, playSound, isSpeaking]);
 
     if (vocabLoading || projectsLoading) {
-        return <div className="text-center py-12">Memuat kosakata...</div>;
+        return (
+            <div className="flex justify-center items-center h-screen bg-background text-foreground">
+                <Loader2 className="h-8 w-8 animate-spin text-emerald-500" />
+            </div>
+        );
     }
     
     if (allWords.length < 4) {
         return (
-             <Card className="max-w-xl mx-auto text-center">
+             <Card className="max-w-xl mx-auto text-center border border-border shadow-sm rounded-2xl bg-card">
                 <CardHeader>
                     <AlertTriangle className="w-12 h-12 text-yellow-500 mx-auto" />
-                    <CardTitle>Kosakata Tidak Cukup</CardTitle>
-                    <CardDescription>
+                    <CardTitle className="text-xl font-bold text-foreground">Kosakata Tidak Cukup</CardTitle>
+                    <CardDescription className="text-muted-foreground">
                         Mode latihan ini membutuhkan minimal 4 kata dalam proyek Anda.
                     </CardDescription>
                 </CardHeader>
                  {projectId && (
                     <CardContent>
-                        <Button asChild>
+                        <Button asChild className="rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-5 px-6">
                             <Link to={`/latihan/${projectId}/kosakata`}>Tambah Kosakata</Link>
                         </Button>
                     </CardContent>
@@ -176,7 +186,7 @@ const ListeningPracticePage = () => {
     const currentWord = quizWords[currentWordIndex];
     if (!currentWord) {
         setQuizState('start');
-        return <div className="text-center py-12">Mempersiapkan kuis...</div>;
+        return <div className="text-center py-12 text-foreground">Mempersiapkan kuis...</div>;
     }
 
     return (

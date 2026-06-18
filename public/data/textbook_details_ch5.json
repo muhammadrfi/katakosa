@@ -1,0 +1,256 @@
+{
+  "chapter": 5,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "main_image": "/images/textbook/ch5_vocab1.jpg",
+      "items": [
+        {
+          "korean": "월요일",
+          "indonesian": "Senin",
+          "image": null
+        },
+        {
+          "korean": "화요일",
+          "indonesian": "Selasa",
+          "image": null
+        },
+        {
+          "korean": "수요일",
+          "indonesian": "Rabu",
+          "image": null
+        },
+        {
+          "korean": "목요일",
+          "indonesian": "Kamis",
+          "image": null
+        },
+        {
+          "korean": "금요일",
+          "indonesian": "Jumat",
+          "image": null
+        },
+        {
+          "korean": "토요일",
+          "indonesian": "Sabtu",
+          "image": null
+        },
+        {
+          "korean": "일요일",
+          "indonesian": "Minggu",
+          "image": null
+        },
+        {
+          "korean": "어제",
+          "indonesian": "kemarin",
+          "image": null
+        },
+        {
+          "korean": "오늘",
+          "indonesian": "hari ini",
+          "image": null
+        },
+        {
+          "korean": "내일",
+          "indonesian": "besok",
+          "image": null
+        },
+        {
+          "korean": "주말",
+          "indonesian": "akhir pekan",
+          "image": null
+        },
+        {
+          "korean": "평일",
+          "indonesian": "hari kerja",
+          "image": null
+        },
+        {
+          "korean": "매일",
+          "indonesian": "setiap hari",
+          "image": null
+        },
+        {
+          "korean": "요일",
+          "indonesian": "hari (senin-minggu)",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "구",
+          "indonesian": "dærah, wilayah",
+          "image": null
+        },
+        {
+          "korean": "날짜",
+          "indonesian": "Tanggal, tanggal",
+          "image": null
+        },
+        {
+          "korean": "내년",
+          "indonesian": "tahun depan",
+          "image": null
+        },
+        {
+          "korean": "다음\t달",
+          "indonesian": "bulan depan",
+          "image": null
+        },
+        {
+          "korean": "다음\t주",
+          "indonesian": "minggu depan",
+          "image": null
+        },
+        {
+          "korean": "미역국",
+          "indonesian": "Sup rumput laut, Sup rumput laut (biasanya dimakan saat ulang tahun)",
+          "image": null
+        },
+        {
+          "korean": "사",
+          "indonesian": "empat (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "삼",
+          "indonesian": "tiga (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "삼십",
+          "indonesian": "tiga puluh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "생일",
+          "indonesian": "Ulang tahun, hari lahir, ulang tahun",
+          "image": null
+        },
+        {
+          "korean": "숫자",
+          "indonesian": "Angka, angka",
+          "image": null
+        },
+        {
+          "korean": "십",
+          "indonesian": "sepuluh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "언제",
+          "indonesian": "kapan",
+          "image": null
+        },
+        {
+          "korean": "오",
+          "indonesian": "lima (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "올해",
+          "indonesian": "tahun ini",
+          "image": null
+        },
+        {
+          "korean": "월",
+          "indonesian": "bulan",
+          "image": null
+        },
+        {
+          "korean": "육",
+          "indonesian": "enam (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "이",
+          "indonesian": "Gigi, gigi",
+          "image": null
+        },
+        {
+          "korean": "이번\t달",
+          "indonesian": "bulan ini",
+          "image": null
+        },
+        {
+          "korean": "이번\t주",
+          "indonesian": "minggu ini",
+          "image": null
+        },
+        {
+          "korean": "이십",
+          "indonesian": "dua puluh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "일",
+          "indonesian": "hari",
+          "image": null
+        },
+        {
+          "korean": "일",
+          "indonesian": "hari",
+          "image": null
+        },
+        {
+          "korean": "작년",
+          "indonesian": "tahun lalu",
+          "image": null
+        },
+        {
+          "korean": "지난달",
+          "indonesian": "bulan lalu",
+          "image": null
+        },
+        {
+          "korean": "지난주",
+          "indonesian": "minggu lalu",
+          "image": null
+        },
+        {
+          "korean": "친구",
+          "indonesian": "Teman, friend",
+          "image": null
+        },
+        {
+          "korean": "칠",
+          "indonesian": "tujuh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "케이크",
+          "indonesian": "kue, cake",
+          "image": null
+        },
+        {
+          "korean": "팔",
+          "indonesian": "Lengan, lengan, kaki",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "양력과 음력 (Kalender Matahari dan Bulan)",
+      "type": "culture",
+      "culture_pairs": [
+        {
+          "korean": "한국의 달력을 보면 큰 숫자와 함께 작은 숫자로 날짜가 적혀 있는 것을 볼 수 있습니다. 큰 숫자는 양력을 기준으로 한 날짜이고, 작은 숫자는 음력을 기준으로 한 날짜입니다. 한국에서는 양력과 함께 음력을 아직 사용하기 때문에 달력에도 양력과 음력을 함께 표시해 줍니다.",
+          "indonesian": "Jika Anda melihat kalender Korea, Anda akan melihat tanggal yang ditandai dengan angka besar maupun kecil. Angka-angka besar didasarkan pada kalender matahari, dan angka-angka kecil didasarkan pada kalender bulan. Di Korea, baik kalender matahari dan kalender bulan masih digunakan, sehingga keduanya ditampilkan pada kalender."
+        },
+        {
+          "korean": "회사나 학교, 정부 기관 등의 일정은 모두 양력을 기준으로 합니다. 광복절이나 한글날 등 국경일이나 법정 공휴일도 양력이 기준입니다. 그러나 전통 명절인 설날이나 추석은 음력을 기준으로 합니다. 그래서 한국에는 양력 1월 1일과 음력 1월 1일, 새해 첫날이 두 번 있습니다. 그리고 개인의 종교가 존중되는 한국에서는 예수님과 부처님의 탄생일이 모두 공휴일인데, 예수님의 탄생일인 크리스마스(12월 25일)는 양력을 기준으로, 부처님의 탄생일(4월 8일)은 음력을 기준으로 기념합니다.",
+          "indonesian": "Jadwal untuk perusahaan, sekolah, dan lembaga pemerintah semuanya didasarkan pada kalender matahari. Hari libur nasional dan hari libur resmi, seperti Hari Kemerdekaan dan Hari Hangeul, juga didasarkan pada kalender matahari. Namun, hari libur tradisional seperti Tahun Baru Imlek (Seollal) dan Chuseok didasarkan pada kalender bulan. Oleh karena itu, Korea memiliki dua Hari Tahun Baru: 1 Januari dalam kalender matahari dan 1 Januari dalam kalender bulan. Selain itu, karena Korea adalah negara di mana agama-agama individu semua dihormati, ulang tahun Yesus dan Buddha adalah hari libur umum. Natal (25 Desember), ulang tahun Yesus, didasarkan pada kalender matahari, sedangkan ulang tahun Buddha (8 April) didasarkan pada kalender bulan."
+        },
+        {
+          "korean": "생일의 경우에도 양력을 기준으로 하는 사람이 있고, 음력을 기준으로 하는 사람이 있습니다. 이렇게 양력과 음력이 함께 쓰이고 있어서 진짜 생일이 아닌 날에 백화점이나 병원 등으로부터 ‘고객님, 생일 축하합니다.’라는 문자를 받는 해프닝이 일어나기도 합니다.",
+          "indonesian": "Beberapa orang menggunakan kalender matahari untuk ulang tahun mereka, sementara yang lain menggunakan kalender bulan. Karena penggunaan ganda kalender matahari dan bulan, ada situasi lucu di mana orang menerima pesan seperti \"Selamat Ulang Tahun!\" dari department store atau rumah sakit pada hari yang bukan hari ulang tahun mereka yang sebenarnya."
+        }
+      ]
+    }
+  ]
+}

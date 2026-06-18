@@ -1,0 +1,319 @@
+{
+  "chapter": 8,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가족",
+          "indonesian": "Keluarga, keluarga",
+          "image": null
+        },
+        {
+          "korean": "계시다",
+          "indonesian": "ada",
+          "image": null
+        },
+        {
+          "korean": "나",
+          "indonesian": "saya / aku",
+          "image": "/images/textbook/ch8/v1_2_나.jpg"
+        },
+        {
+          "korean": "나이",
+          "indonesian": "Umur, umur",
+          "image": "/images/textbook/ch8/v1_3_나이.jpg"
+        },
+        {
+          "korean": "남동생",
+          "indonesian": "Adik laki-laki, adik laki-laki",
+          "image": null
+        },
+        {
+          "korean": "남매",
+          "indonesian": "Saudara laki-laki dan perempuan",
+          "image": null
+        },
+        {
+          "korean": "남자",
+          "indonesian": "Laki-laki, laki-laki, pria",
+          "image": "/images/textbook/ch8/v1_6_남자.jpg"
+        },
+        {
+          "korean": "남편",
+          "indonesian": "Suami, suami",
+          "image": "/images/textbook/ch8/v1_7_남편.jpg"
+        },
+        {
+          "korean": "누나",
+          "indonesian": "Kakak perempuan (untuk laki-laki), kakak perempuan, kakak perempuan (sebutan dr laki-laki)",
+          "image": null
+        },
+        {
+          "korean": "댁",
+          "indonesian": "rumah",
+          "image": "/images/textbook/ch8/v1_9_댁.jpg"
+        },
+        {
+          "korean": "드시다",
+          "indonesian": "Makan (sopan), makan, minum, minum [honorifik]",
+          "image": null
+        },
+        {
+          "korean": "딸",
+          "indonesian": "Anak perempuan, anak perempuan",
+          "image": "/images/textbook/ch8/v1_11_딸.jpg"
+        },
+        {
+          "korean": "마당",
+          "indonesian": "Halaman, halaman, taman, madang",
+          "image": null
+        },
+        {
+          "korean": "말(하다)",
+          "indonesian": "Berbicara, berbicara",
+          "image": null
+        },
+        {
+          "korean": "말씀하시다",
+          "indonesian": "berbicara",
+          "image": null
+        },
+        {
+          "korean": "부모님",
+          "indonesian": "Orang tua",
+          "image": null
+        },
+        {
+          "korean": "비빔밥",
+          "indonesian": "Bibimbap, nasi campur\n(bibimbap), nasi campur ala korea",
+          "image": null
+        },
+        {
+          "korean": "성함",
+          "indonesian": "Nama (sopan), nama",
+          "image": "/images/textbook/ch8/v1_17_성함.jpg"
+        },
+        {
+          "korean": "아내",
+          "indonesian": "Istri, istri",
+          "image": "/images/textbook/ch8/v1_18_아내.jpg"
+        },
+        {
+          "korean": "아들",
+          "indonesian": "Anak laki-laki, anak laki-laki",
+          "image": "/images/textbook/ch8/v1_19_아들.jpg"
+        },
+        {
+          "korean": "아버지",
+          "indonesian": "ayah",
+          "image": "/images/textbook/ch8/v1_20_아버지.jpg"
+        },
+        {
+          "korean": "아빠",
+          "indonesian": "papa",
+          "image": "/images/textbook/ch8/v1_21_아빠.jpg"
+        },
+        {
+          "korean": "아프다",
+          "indonesian": "Sakit, sakit",
+          "image": null
+        },
+        {
+          "korean": "어머니",
+          "indonesian": "ibu",
+          "image": "/images/textbook/ch8/v1_23_어머니.jpg"
+        },
+        {
+          "korean": "언니",
+          "indonesian": "Kakak perempuan (untuk perempuan), kakak perempuan, kakak perempuan (sebutan dr perempuan)",
+          "image": null
+        },
+        {
+          "korean": "엄마",
+          "indonesian": "mama",
+          "image": "/images/textbook/ch8/v1_25_엄마.jpg"
+        },
+        {
+          "korean": "여동생",
+          "indonesian": "Adik perempuan, adik perempuan",
+          "image": "/images/textbook/ch8/v1_26_여동생.jpg"
+        },
+        {
+          "korean": "여자",
+          "indonesian": "Perempuan, perempuan, wanita",
+          "image": "/images/textbook/ch8/v1_27_여자.jpg"
+        },
+        {
+          "korean": "연세",
+          "indonesian": "Umur (sopan), umur, usia",
+          "image": "/images/textbook/ch8/v1_28_연세.jpg"
+        },
+        {
+          "korean": "오빠",
+          "indonesian": "kakak laki-laki, kakak laki-laki (sebutan dr perempuan)",
+          "image": null
+        },
+        {
+          "korean": "있다",
+          "indonesian": "Ada, ada",
+          "image": null
+        },
+        {
+          "korean": "자매",
+          "indonesian": "Saudara perempuan",
+          "image": null
+        },
+        {
+          "korean": "잡수시다",
+          "indonesian": "Makan (sopan), makan, makan [honorifik]",
+          "image": null
+        },
+        {
+          "korean": "주무시다",
+          "indonesian": "tidur, tidur [honorifik]",
+          "image": null
+        },
+        {
+          "korean": "창문",
+          "indonesian": "Jendela, jendela",
+          "image": "/images/textbook/ch8/v1_34_창문.jpg"
+        },
+        {
+          "korean": "편찮으시다",
+          "indonesian": "Sakit (sopan), kurang sehat, sakit",
+          "image": null
+        },
+        {
+          "korean": "피자",
+          "indonesian": "pizza",
+          "image": null
+        },
+        {
+          "korean": "할머니",
+          "indonesian": "Nenek, nenek, nenek (dr pihak ayah)",
+          "image": "/images/textbook/ch8/v1_37_할머니.jpg"
+        },
+        {
+          "korean": "할아버지",
+          "indonesian": "Kakek, kakek, kakek (dr pihak ayah)",
+          "image": "/images/textbook/ch8/v1_38_할아버지.jpg"
+        },
+        {
+          "korean": "형",
+          "indonesian": "Kakak laki-laki, kakak laki-laki, kakak laki-laki (sebutan dr laki-laki)",
+          "image": null
+        },
+        {
+          "korean": "형제",
+          "indonesian": "Saudara laki-laki, saudara (kandung)",
+          "image": null
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "귀엽다",
+          "indonesian": "Lucu, imut, lucu",
+          "image": "/images/textbook/ch8/v2_0_귀엽다.jpg"
+        },
+        {
+          "korean": "길다",
+          "indonesian": "panjang",
+          "image": "/images/textbook/ch8/v2_1_길다.jpg"
+        },
+        {
+          "korean": "똑똑하다",
+          "indonesian": "Pintar, pintar",
+          "image": "/images/textbook/ch8/v2_2_똑똑하다.jpg"
+        },
+        {
+          "korean": "머리",
+          "indonesian": "Kepala, kepala",
+          "image": "/images/textbook/ch8/v2_3_머리.jpg"
+        },
+        {
+          "korean": "멋있다",
+          "indonesian": "Ganteng, keren, tampan",
+          "image": "/images/textbook/ch8/v2_4_멋있다.jpg"
+        },
+        {
+          "korean": "부지런하다",
+          "indonesian": "Rajin, rajin",
+          "image": "/images/textbook/ch8/v2_5_부지런하다.jpg"
+        },
+        {
+          "korean": "성격",
+          "indonesian": "Penampilan dan kepribadian",
+          "image": null
+        },
+        {
+          "korean": "성격이\t급하다",
+          "indonesian": "Tergesa-gesa, tidak sabaran",
+          "image": "/images/textbook/ch8/v2_7_성격이_급하다.jpg"
+        },
+        {
+          "korean": "얌전하다",
+          "indonesian": "Tenang, pendiam, tertutup",
+          "image": "/images/textbook/ch8/v2_8_얌전하다.jpg"
+        },
+        {
+          "korean": "예쁘다",
+          "indonesian": "Cantik, cantik",
+          "image": "/images/textbook/ch8/v2_9_예쁘다.jpg"
+        },
+        {
+          "korean": "외모",
+          "indonesian": "Penampilan dan kepribadian",
+          "image": null
+        },
+        {
+          "korean": "잘생기다",
+          "indonesian": "Tampan",
+          "image": "/images/textbook/ch8/v2_11_잘생기다.jpg"
+        },
+        {
+          "korean": "재미있다",
+          "indonesian": "menarik",
+          "image": "/images/textbook/ch8/v2_12_재미있다.jpg"
+        },
+        {
+          "korean": "짧다",
+          "indonesian": "pendek",
+          "image": "/images/textbook/ch8/v2_13_짧다.jpg"
+        },
+        {
+          "korean": "착하다",
+          "indonesian": "Baik, baik",
+          "image": "/images/textbook/ch8/v2_14_착하다.jpg"
+        },
+        {
+          "korean": "친절하다",
+          "indonesian": "Ramah, ramah",
+          "image": "/images/textbook/ch8/v2_15_친절하다.jpg"
+        },
+        {
+          "korean": "키가\t작다",
+          "indonesian": "Pendek, pendek (badan)",
+          "image": "/images/textbook/ch8/v2_16_키가_작다.jpg"
+        },
+        {
+          "korean": "키가\t크다",
+          "indonesian": "Tinggi, tinggi (badan)",
+          "image": "/images/textbook/ch8/v2_17_키가_크다.jpg"
+        },
+        {
+          "korean": "활발하다",
+          "indonesian": "Aktif, ramah",
+          "image": "/images/textbook/ch8/v2_18_활발하다.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

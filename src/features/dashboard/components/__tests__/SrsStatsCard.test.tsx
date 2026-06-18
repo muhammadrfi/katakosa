@@ -82,7 +82,7 @@ describe('SrsStatsCard', () => {
   it('displays total vocabulary count', () => {
     render(<SrsStatsCard />);
     // Menggunakan regex untuk mencocokkan teks tanpa harus sama persis dengan angkanya.
-    expect(screen.getByText(/Total Kosakata:/)).toBeInTheDocument();
+    expect(screen.getByText(/Total Kosakata/)).toBeInTheDocument();
   });
 
   it('opens dialog when pie chart section is clicked', () => {
@@ -90,7 +90,7 @@ describe('SrsStatsCard', () => {
     // Mensimulasikan klik pada komponen Pie yang sudah kita mock
     fireEvent.click(screen.getByTestId('pie'));
 
-    // Memastikan dialog muncul di dalam dokumen setelah diklik
-    expect(screen.getByRole('dialog')).toBeInTheDocument();
+    // Memastikan daftar kata muncul di dalam dokumen setelah diklik
+    expect(screen.getByText(/Daftar Kata:/)).toBeInTheDocument();
   });
 });

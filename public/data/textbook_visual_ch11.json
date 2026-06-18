@@ -1,0 +1,254 @@
+{
+  "chapter": 11,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "같이",
+          "indonesian": "bersama",
+          "image": null
+        },
+        {
+          "korean": "그래서",
+          "indonesian": "oleh karena itu, Oleh karena itu",
+          "image": null
+        },
+        {
+          "korean": "따로",
+          "indonesian": "Terpisah, Secara terpisah, terpisah",
+          "image": "/images/textbook/ch11/v1_2_따로.jpg"
+        },
+        {
+          "korean": "버리다",
+          "indonesian": "Membuang, membuang",
+          "image": "/images/textbook/ch11/v1_3_버리다.jpg"
+        },
+        {
+          "korean": "수거함",
+          "indonesian": "Tempat sampah daur ulang, Kotak pengumpulan, wadah (sampah)",
+          "image": "/images/textbook/ch11/v1_4_수거함.jpg"
+        },
+        {
+          "korean": "시작(하다)",
+          "indonesian": "mulai, mulai V",
+          "image": "/images/textbook/ch11/v1_5_시작(하다).jpg"
+        },
+        {
+          "korean": "쓰레기",
+          "indonesian": "Sampah, sampah",
+          "image": null
+        },
+        {
+          "korean": "쓰레기봉투",
+          "indonesian": "Kantong sampah",
+          "image": "/images/textbook/ch11/v1_7_쓰레기봉투.jpg"
+        },
+        {
+          "korean": "쓰레기통",
+          "indonesian": "Tempat sampah, tempat sampah, tong sampah",
+          "image": "/images/textbook/ch11/v1_8_쓰레기통.jpg"
+        },
+        {
+          "korean": "옷",
+          "indonesian": "baju",
+          "image": null
+        },
+        {
+          "korean": "유리",
+          "indonesian": "Botol kaca",
+          "image": "/images/textbook/ch11/v1_10_유리.jpg"
+        },
+        {
+          "korean": "음식물",
+          "indonesian": "bahan makanan, makanan",
+          "image": "/images/textbook/ch11/v1_11_음식물.jpg"
+        },
+        {
+          "korean": "일반쓰레기",
+          "indonesian": "Sampah biasa",
+          "image": "/images/textbook/ch11/v1_12_일반쓰레기.jpg"
+        },
+        {
+          "korean": "재활용품",
+          "indonesian": "Daur ulang",
+          "image": null
+        },
+        {
+          "korean": "종이",
+          "indonesian": "kertas",
+          "image": "/images/textbook/ch11/v1_14_종이.jpg"
+        },
+        {
+          "korean": "캔",
+          "indonesian": "Kaleng",
+          "image": "/images/textbook/ch11/v1_15_캔.jpg"
+        },
+        {
+          "korean": "플라스틱",
+          "indonesian": "plastik",
+          "image": "/images/textbook/ch11/v1_16_플라스틱.jpg"
+        },
+        {
+          "korean": "헌",
+          "indonesian": "bekas / lama (benda)",
+          "image": null
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "갑자기",
+          "indonesian": "Tiba-tiba, tiba-tiba",
+          "image": "/images/textbook/ch11/v2_0_갑자기.jpg"
+        },
+        {
+          "korean": "걸레",
+          "indonesian": "lap",
+          "image": "/images/textbook/ch11/v2_1_걸레.jpg"
+        },
+        {
+          "korean": "그러면",
+          "indonesian": "Kalau begitu, kalau begitu",
+          "image": "/images/textbook/ch11/v2_2_그러면.jpg"
+        },
+        {
+          "korean": "냄비",
+          "indonesian": "Panci, panci",
+          "image": "/images/textbook/ch11/v2_3_냄비.jpg"
+        },
+        {
+          "korean": "다리미",
+          "indonesian": "strikaan, setrika",
+          "image": null
+        },
+        {
+          "korean": "도와주다",
+          "indonesian": "Membantu, memberi bantuan",
+          "image": "/images/textbook/ch11/v2_5_도와주다.jpg"
+        },
+        {
+          "korean": "돌리다",
+          "indonesian": "Berputar, memutar",
+          "image": "/images/textbook/ch11/v2_6_돌리다.jpg"
+        },
+        {
+          "korean": "만들다",
+          "indonesian": "membuat, Membuat",
+          "image": "/images/textbook/ch11/v2_7_만들다.jpg"
+        },
+        {
+          "korean": "먼지",
+          "indonesian": "debu",
+          "image": "/images/textbook/ch11/v2_8_먼지.jpg"
+        },
+        {
+          "korean": "먼지를\t털다",
+          "indonesian": "Mengelap debu",
+          "image": "/images/textbook/ch11/v2_9_먼지를_털다.jpg"
+        },
+        {
+          "korean": "바닥",
+          "indonesian": "Lantai, lantai",
+          "image": "/images/textbook/ch11/v2_10_바닥.jpg"
+        },
+        {
+          "korean": "밥솥",
+          "indonesian": "Rice cooker, penanak nasi",
+          "image": "/images/textbook/ch11/v2_11_밥솥.jpg"
+        },
+        {
+          "korean": "밥을\t하다/짓다",
+          "indonesian": "memasak nasi",
+          "image": "/images/textbook/ch11/v2_12_밥을_하다_짓다.jpg"
+        },
+        {
+          "korean": "빗자루",
+          "indonesian": "Sapu, sapu",
+          "image": "/images/textbook/ch11/v2_13_빗자루.jpg"
+        },
+        {
+          "korean": "빨래(하다)",
+          "indonesian": "mencuci pakaian",
+          "image": "/images/textbook/ch11/v2_14_빨래(하다).jpg"
+        },
+        {
+          "korean": "빨래를\t걷다",
+          "indonesian": "Mengangkat pakaian, mengangkat jemuran",
+          "image": "/images/textbook/ch11/v2_15_빨래를_걷다.jpg"
+        },
+        {
+          "korean": "빨래를\t널다",
+          "indonesian": "Menjemur pakaian",
+          "image": "/images/textbook/ch11/v2_16_빨래를_널다.jpg"
+        },
+        {
+          "korean": "설거지(하다)",
+          "indonesian": "mencuci piring",
+          "image": "/images/textbook/ch11/v2_17_설거지(하다).jpg"
+        },
+        {
+          "korean": "세탁\t세제",
+          "indonesian": "deterjen baju",
+          "image": "/images/textbook/ch11/v2_18_세탁_세제.jpg"
+        },
+        {
+          "korean": "쓸다",
+          "indonesian": "Menyapu, menyapu",
+          "image": "/images/textbook/ch11/v2_19_쓸다.jpg"
+        },
+        {
+          "korean": "옷을\t개다",
+          "indonesian": "Melipat baju, melipat baju",
+          "image": "/images/textbook/ch11/v2_20_옷을_개다.jpg"
+        },
+        {
+          "korean": "옷을\t다리다",
+          "indonesian": "menyetrika baju",
+          "image": "/images/textbook/ch11/v2_21_옷을_다리다.jpg"
+        },
+        {
+          "korean": "왜",
+          "indonesian": "Mengapa, kenapa",
+          "image": "/images/textbook/ch11/v2_22_왜.jpg"
+        },
+        {
+          "korean": "전기밥솥",
+          "indonesian": "rice cooker",
+          "image": null
+        },
+        {
+          "korean": "정리(하다)",
+          "indonesian": "Merapikan, membereskan, merapikan, menata",
+          "image": "/images/textbook/ch11/v2_24_정리(하다).jpg"
+        },
+        {
+          "korean": "주방\t세제",
+          "indonesian": "sabun cuci piring",
+          "image": "/images/textbook/ch11/v2_25_주방_세제.jpg"
+        },
+        {
+          "korean": "집안일",
+          "indonesian": "Pekerjaan rumah tangga",
+          "image": null
+        },
+        {
+          "korean": "천천히",
+          "indonesian": "Perlahan-lahan",
+          "image": "/images/textbook/ch11/v2_27_천천히.jpg"
+        },
+        {
+          "korean": "프라이팬",
+          "indonesian": "Wajan, penggorengan, wajan",
+          "image": "/images/textbook/ch11/v2_28_프라이팬.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

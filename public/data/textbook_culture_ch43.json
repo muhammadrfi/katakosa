@@ -1,0 +1,68 @@
+{
+  "chapter": 43,
+  "sections": [
+    {
+      "title": "건설 현장의 중장비 (Alat Berat di Lokasi Konstruksi)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는 사용 목적에 따라 아래와 같이 토목 장비, 운반 장비, 포장 장비 등으로 분류되는데 무엇보다 안전하게 사용하는 것이 중요합니다.",
+          "indonesian": "Di lokasi konstruksi skala besar, seperti jembatan, jalan, atau bangunan besar, berbagai macam alat berat digunakan. Mesin konstruksi diklasifikasikan berdasarkan tujuannya ke dalam kategori seperti peralatan teknik sipil, peralatan transportasi, dan peralatan pengerasan jalan. Memastikan keselamatan dalam penggunaan mesin ini adalah hal yang paling penting."
+        },
+        {
+          "korean": "토목 장비: 불도저 (bulldozer) - 땅을 깎거나 평평하게 하는 장비",
+          "indonesian": "Peralatan Teknik Sipil: Buldozer - Mesin yang digunakan untuk meratakan tanah."
+        },
+        {
+          "korean": "크레인 (crane) - 무거운 것을 옮기는 장비",
+          "indonesian": "Kren (crane) - Mesin yang digunakan untuk mengangkat dan memindahkan benda berat."
+        },
+        {
+          "korean": "스크레이퍼 (scraper) - 도로의 표면을 긁어내거나 평평하게 하는 장비",
+          "indonesian": "Skraper (scraper) - Mesin yang digunakan untuk mengikis atau meratakan permukaan jalan."
+        },
+        {
+          "korean": "굴착기 (excavator) - 땅을 파거나 암석을 뚫는 장비",
+          "indonesian": "Ekskavator (excavator) - Mesin yang digunakan untuk menggali tanah atau memecahkan batu."
+        },
+        {
+          "korean": "로더 (loader) - 흙이나 모래를 트럭에 싣거나 운반하는 장비",
+          "indonesian": "Loader - Mesin yang digunakan untuk memuat dan mengangkut tanah atau pasir ke dalam truk."
+        },
+        {
+          "korean": "운반 장비: 덤프트럭 (dump truck) - 흙이나 자갈 등을 실어 운반하는 차량",
+          "indonesian": "Peralatan Transportasi: Truk Jungkit (dump truck) - Kendaraan yang digunakan untuk mengangkut tanah, kerikil, atau bahan bangunan lainnya."
+        },
+        {
+          "korean": "콘크리트 믹서 트럭 (concrete mixer truck) - 콘크리트를 섞으면서 운반하는 차량",
+          "indonesian": "Truk Molen (concrete mixer truck) - Kendaraan yang digunakan untuk mengangkut dan mengaduk beton selama perjalanan."
+        },
+        {
+          "korean": "지게차 (forklift) - 무거운 물건을 들어 올려 운반하는 차량",
+          "indonesian": "Forklift - Kendaraan yang digunakan untuk mengangkat dan mengangkut benda berat."
+        },
+        {
+          "korean": "트랙터 (tractor) - 무거운 장비나 짐을 견인하는 차량",
+          "indonesian": "Traktor - Kendaraan yang digunakan untuk menarik alat berat atau beban."
+        },
+        {
+          "korean": "포장 장비: 그레이더 (grader) - 땅바닥을 고르거나 정리하는 데 사용하는 장비",
+          "indonesian": "Peralatan Pengerasan Jalan: Grader - Mesin yang digunakan untuk meratakan dan menghaluskan permukaan jalan atau tanah."
+        },
+        {
+          "korean": "롤러 (roller) - 흙이나 아스팔트 등의 재료를 압축하고 지면을 다지는 데 사용하는 장비",
+          "indonesian": "Roller/Wales - Mesin yang digunakan untuk memadatkan material seperti tanah atau aspal dan meratakan permukaan jalan."
+        },
+        {
+          "korean": "아스팔트 살포기 (asphalt spreader) - 아스팔트 혼합물을 도로 표면에 뿌리는 장비",
+          "indonesian": "Alat Penyebar Aspal (asphalt spreader) - Mesin yang digunakan untuk menyebarkan campuran aspal pada permukaan jalan."
+        },
+        {
+          "korean": "콘크리트 펌프 트럭 (concrete pump truck) - 콘크리트를 구조물의 표면에 뿌리는 장비",
+          "indonesian": "Truk Pompa Beton (concrete pump truck) - Kendaraan/alat yang digunakan untuk memompa/menyemprotkan beton ke permukaan struktur bangunan."
+        }
+      ]
+    }
+  ]
+}

@@ -134,7 +134,8 @@ export const addWordToSet = (prevSets: VocabularySet[], setId: string, newWord: 
 
 // Fungsi untuk memperbarui properti SRS (SuperMemo-2 algorithm)
 export const updateSrsProperties = (word: WordPair, quality: 0 | 1 | 2 | 3 | 4 | 5): WordPair => {
-  let { interval, repetition, easeFactor, history } = word;
+  let { interval, repetition, easeFactor } = word;
+  const { history } = word;
 
   if (quality >= 3) { // Correct answer
     if (repetition === 0) {

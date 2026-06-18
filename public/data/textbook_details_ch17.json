@@ -1,0 +1,346 @@
+{
+  "chapter": 17,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "계획(하다)",
+          "indonesian": "berencana, merencanakan",
+          "image": "/images/textbook/ch17/v1_0_계획(하다).jpg"
+        },
+        {
+          "korean": "그래요?",
+          "indonesian": "'Saya juga berpikir begitu (ekspresi)",
+          "image": "/images/textbook/ch17/v1_1_그래요.jpg"
+        },
+        {
+          "korean": "도착(하다)",
+          "indonesian": "Tiba, sampai, Sampai, tiba",
+          "image": "/images/textbook/ch17/v1_2_도착(하다).jpg"
+        },
+        {
+          "korean": "묵다",
+          "indonesian": "Tinggal, menginap",
+          "image": "/images/textbook/ch17/v1_3_묵다.jpg"
+        },
+        {
+          "korean": "숙소",
+          "indonesian": "penginapan",
+          "image": "/images/textbook/ch17/v1_4_숙소.jpg"
+        },
+        {
+          "korean": "여행(하다)",
+          "indonesian": "Berwisata, berwisata",
+          "image": null
+        },
+        {
+          "korean": "예약(하다)",
+          "indonesian": "mereservasi",
+          "image": "/images/textbook/ch17/v1_6_예약(하다).jpg"
+        },
+        {
+          "korean": "유스\t호스텔",
+          "indonesian": "Hostel pemuda, youth hostel",
+          "image": "/images/textbook/ch17/v1_7_유스_호스텔.jpg"
+        },
+        {
+          "korean": "이번",
+          "indonesian": "kali ini, saat ini",
+          "image": "/images/textbook/ch17/v1_8_이번.jpg"
+        },
+        {
+          "korean": "짐",
+          "indonesian": "barang bawaan, barang, barang angkutan, bagasi",
+          "image": "/images/textbook/ch17/v1_9_짐.jpg"
+        },
+        {
+          "korean": "출발(하다)",
+          "indonesian": "Berangkat, berangkat",
+          "image": "/images/textbook/ch17/v1_10_출발(하다).jpg"
+        },
+        {
+          "korean": "콘도",
+          "indonesian": "Kondominium, kondominium",
+          "image": "/images/textbook/ch17/v1_11_콘도.jpg"
+        },
+        {
+          "korean": "펜션",
+          "indonesian": "Pondok penginapan, pension",
+          "image": "/images/textbook/ch17/v1_12_펜션.jpg"
+        },
+        {
+          "korean": "표",
+          "indonesian": "tiket",
+          "image": "/images/textbook/ch17/v1_13_표.jpg"
+        },
+        {
+          "korean": "풀다",
+          "indonesian": "Mengendurkan, melepas, mengendurkan",
+          "image": "/images/textbook/ch17/v1_14_풀다.jpg"
+        },
+        {
+          "korean": "호텔",
+          "indonesian": "Hotel, hotel",
+          "image": "/images/textbook/ch17/v1_15_호텔.jpg"
+        },
+        {
+          "korean": "휴가",
+          "indonesian": "Liburan, cuti, liburan, libur",
+          "image": "/images/textbook/ch17/v1_16_휴가.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "강",
+          "indonesian": "Sungai, sungai",
+          "image": "/images/textbook/ch17/v2_0_강.jpg"
+        },
+        {
+          "korean": "경치가\t좋다",
+          "indonesian": "Pemandangan bagus, pemandangannya\nbagus",
+          "image": "/images/textbook/ch17/v2_1_경치가_좋다.jpg"
+        },
+        {
+          "korean": "관람(하다)",
+          "indonesian": "Mengamati, Menonton, melihat",
+          "image": "/images/textbook/ch17/v2_2_관람(하다).jpg"
+        },
+        {
+          "korean": "구경(하다)",
+          "indonesian": "Melihat-lihat, melihat-lihat",
+          "image": "/images/textbook/ch17/v2_3_구경(하다).jpg"
+        },
+        {
+          "korean": "꼭",
+          "indonesian": "pasti / harus",
+          "image": "/images/textbook/ch17/v2_4_꼭.jpg"
+        },
+        {
+          "korean": "놀이공원",
+          "indonesian": "Taman bermain, taman bermain",
+          "image": "/images/textbook/ch17/v2_5_놀이공원.jpg"
+        },
+        {
+          "korean": "다음",
+          "indonesian": "selanjutnya, berikutnya",
+          "image": "/images/textbook/ch17/v2_6_다음.jpg"
+        },
+        {
+          "korean": "등산(하다)",
+          "indonesian": "Mendaki gunung, naik gunung",
+          "image": "/images/textbook/ch17/v2_7_등산(하다).jpg"
+        },
+        {
+          "korean": "민속촌",
+          "indonesian": "Desa rakyat",
+          "image": "/images/textbook/ch17/v2_8_민속촌.jpg"
+        },
+        {
+          "korean": "바다",
+          "indonesian": "Laut, laut",
+          "image": "/images/textbook/ch17/v2_9_바다.jpg"
+        },
+        {
+          "korean": "산",
+          "indonesian": "gunung, bukit",
+          "image": "/images/textbook/ch17/v2_10_산.jpg"
+        },
+        {
+          "korean": "섬",
+          "indonesian": "Pulau, pulau",
+          "image": "/images/textbook/ch17/v2_11_섬.jpg"
+        },
+        {
+          "korean": "아름답다",
+          "indonesian": "Indah, indah",
+          "image": "/images/textbook/ch17/v2_12_아름답다.jpg"
+        },
+        {
+          "korean": "아주",
+          "indonesian": "sangat",
+          "image": "/images/textbook/ch17/v2_13_아주.jpg"
+        },
+        {
+          "korean": "여행지",
+          "indonesian": "Tempat wisata, tempat wisata",
+          "image": null
+        },
+        {
+          "korean": "온천",
+          "indonesian": "Pemandian air panas, pemandian air hangat, pemandian air panas, spa",
+          "image": "/images/textbook/ch17/v2_15_온천.jpg"
+        },
+        {
+          "korean": "유명하다",
+          "indonesian": "Terkenal, terkenal, populer",
+          "image": "/images/textbook/ch17/v2_16_유명하다.jpg"
+        },
+        {
+          "korean": "유적지",
+          "indonesian": "Situs bersejarah, situs bersejarah",
+          "image": "/images/textbook/ch17/v2_17_유적지.jpg"
+        },
+        {
+          "korean": "해수욕장",
+          "indonesian": "pantai tempat mandi / berenang",
+          "image": "/images/textbook/ch17/v2_18_해수욕장.jpg"
+        },
+        {
+          "korean": "호수",
+          "indonesian": "Danau, danau",
+          "image": "/images/textbook/ch17/v2_19_호수.jpg"
+        },
+        {
+          "korean": "경기(하다)",
+          "indonesian": "bertanding / pertandingan",
+          "image": null
+        },
+        {
+          "korean": "그리다",
+          "indonesian": "menggambar, melukis",
+          "image": null
+        },
+        {
+          "korean": "그림",
+          "indonesian": "menggambar, melukis",
+          "image": null
+        },
+        {
+          "korean": "기타",
+          "indonesian": "lain-lain, dan lain-lain",
+          "image": null
+        },
+        {
+          "korean": "낚시(하다)",
+          "indonesian": "Memancing",
+          "image": null
+        },
+        {
+          "korean": "노래(하다)",
+          "indonesian": "Menyanyi, bernyanyi, menyanyi",
+          "image": null
+        },
+        {
+          "korean": "독서(하다)",
+          "indonesian": "Membaca buku, membaca",
+          "image": null
+        },
+        {
+          "korean": "듣다",
+          "indonesian": "mendengar",
+          "image": null
+        },
+        {
+          "korean": "배우다",
+          "indonesian": "mempelajari, Belajar",
+          "image": null
+        },
+        {
+          "korean": "사진",
+          "indonesian": "foto",
+          "image": null
+        },
+        {
+          "korean": "살다",
+          "indonesian": "Hidup, tinggal, Tinggal, hidup",
+          "image": null
+        },
+        {
+          "korean": "실내",
+          "indonesian": "Dalam ruangan",
+          "image": null
+        },
+        {
+          "korean": "실외",
+          "indonesian": "Luar ruangan",
+          "image": null
+        },
+        {
+          "korean": "외국어",
+          "indonesian": "Bahasa asing, bahasa asing",
+          "image": null
+        },
+        {
+          "korean": "음악",
+          "indonesian": "Musik",
+          "image": null
+        },
+        {
+          "korean": "인터넷",
+          "indonesian": "internet",
+          "image": null
+        },
+        {
+          "korean": "자주",
+          "indonesian": "Sering, sering",
+          "image": null
+        },
+        {
+          "korean": "주로",
+          "indonesian": "Biasanya, kebanyakan, sering",
+          "image": null
+        },
+        {
+          "korean": "찍다",
+          "indonesian": "memotret",
+          "image": null
+        },
+        {
+          "korean": "추다",
+          "indonesian": "menari",
+          "image": null
+        },
+        {
+          "korean": "취미",
+          "indonesian": "Hobi, hobi",
+          "image": null
+        },
+        {
+          "korean": "치다",
+          "indonesian": "Menyangga, menolong",
+          "image": null
+        },
+        {
+          "korean": "콘서트",
+          "indonesian": "Menonton konser, menonton konser",
+          "image": null
+        },
+        {
+          "korean": "피아노",
+          "indonesian": "Bermain piano, bermain piano",
+          "image": null
+        },
+        {
+          "korean": "힘들다",
+          "indonesian": "sulit / lelah / berat",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "휴가 (Cuti)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국은 오랜 역사와 풍부한 문화유산을 가진 나라입니다. 수 도인 서울에는 경복궁과 창덕궁 등 조선 시대의 궁궐이 잘 보존 되어 있습니다. 경복궁은 가장 크고 아름다운 궁궐로 한국의 전 통 건축 양식을 잘 보여 주고, 창덕궁은 '비원'이라고 불리는 아 름다운 정원으로 유명합니다. 이러한 역사적인 건축물은 현대 적인 빌딩과 어우러져 서울의 모습을 더욱 아름답게 합니다.",
+          "indonesian": "Korea adalah negara dengan sejarah panjang dan warisan budaya yang kaya. Di ibu kota Seoul, istana Dinasti Joseon seperti Gyeongbokgung dan Changdeokgung masih terpelihara dengan baik. Gyeongbokgung adalah istana terbesar dan terindah yang menampilkan arsitektur tradisional Korea, sedangkan Changdeokgung terkenal dengan taman indahnya yang dikenal dengan nama 'Biwon'. Bangunan bersejarah tersebut berpadu dengan struktur modern yang menambah keindahan tampilan Seoul."
+        },
+        {
+          "korean": "경주는 옛날 신라의 수도였 던 도시로 다양한 문화유산이 보존되어 있습니다. 불국사와 석굴암은 신라의 불교문화를 상징하는 대표적인 문화유산 입니다. 불국사에는 아름다운 전설을 지닌 석가탑과 다보탑 이 있습니다. 석굴암에는 한국 에서 가장 아름답다는 돌로 만 든 불상이 있습니다. 이 불상 을 통하여 신라 사람들의 뛰어난 기술과 예술적 감각을 엿볼 수 있습니다. 그래서 경주에는 많은 관광객이 찾아갑니다.",
+          "indonesian": "Gyeongju, ibu kota kuno Dinasti Silla, telah melestarikan berbagai situs warisan budaya. Kuil Bulguksa dan Gua Seokguram merupakan perwakilan situs warisan budaya yang melambangkan budaya Buddha Silla. Bulguksa. Kuil ini merupakan rumah bagi pagoda Seokgatap dan Dabotap, yang dikaitkan dengan legenda indah. Gua Seokguram menampung patung Buddha batu terindah di Korea, menampilkan teknologi canggih dan kepekaan artistik masyarakat Silla. Hasilnya, Gyeongju menarik banyak wisatawan."
+        },
+        {
+          "korean": "한국의 문화유산을 말할 때 빼놓을 수 없는 곳은 안동입니 다. 안동은 하회마을과 도산서원 등 조선 시대의 유교 문화가 고스란히 남아있는 도시입니다. 하회마을에는 전통 가옥이 그 대로 보존되어 있으며, 1999년에는 영국의 엘리자베스 여왕 이 방문하기도 했습니다. 그리고 도산서원은 조선시대의 교육 기관으로, 건물과 정원이 한국의 전통적인 미적 감각을 잘 보 여줍니다.",
+          "indonesian": "Jika berbicara mengenai warisan budaya Korea, Andong merupakan salah satu tempat yang tidak bisa ditinggalkan. semua. Andong adalah rumah bagi budaya Konfusianisme dari Dinasti Joseon, termasuk Desa Hahoe dan Dosan Seowon. Ini adalah kota yang tetap utuh. Desa Hahoe memiliki rumah- rumah tradisional. Itu telah dilestarikan sebagaimana adanya, dan pada tahun 1999, Ratu Elizabeth dari Inggris Saya juga mengunjungi tempat ini. Dan Dosan Seowon merupakan pusat pendidikan pada masa Dinasti Joseon. Sebagai sebuah institusi, bangunan dan taman mencerminkan estetika tradisional Korea. Saya akan membukanya."
+        }
+      ]
+    }
+  ]
+}

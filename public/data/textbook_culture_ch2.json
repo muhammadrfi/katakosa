@@ -1,0 +1,24 @@
+{
+  "chapter": 2,
+  "sections": [
+    {
+      "title": "한국에서 알뜰하게 생필품을 구입하는 팁 (Tips Membeli Kebutuhan Sehari-hari secara Hemat di Korea)",
+      "type": "culture",
+      "main_image": "/images/textbook/ch2_culture.jpg",
+      "culture_pairs": [
+        {
+          "korean": "대형 마트에서는 종종 ‘1+1, 2+1’ 또는 ‘주말 특가’와 같은 할인 행사를 열어 식료품부터 생활용품까지 다양한 상품을 싸게 판매합니다. 마트에서 나누어 주는 전단지를 통해 할인 상품 및 할인 금액, 추천 상품 등 할인 행사에 대한 정보를 얻을 수 있습니다.",
+          "indonesian": "Supermarket besar sering memiliki acara diskon seperti '1+1', '2+1' atau 'spesial akhir pekan', menjual berbagai produk dari makanan hingga kebutuhan sehari-hari dengan harga yang lebih rendah. Informasi tentang barang diskon, harga diskon, dan rekomendasi produk dapat ditemukan pada pamflet di supermarket."
+        },
+        {
+          "korean": "온라인 쇼핑몰을 통해서도 생필품을 싸게 구매할 수 있습니다. 온라인 쇼핑몰에서는 정기적으로 할인 행사를 하거나 할인 쿠폰을 제공합니다. 이를 활용하여 특정 상품을 싸게 구매하거나 추가 할인을 받을 수 있습니다.",
+          "indonesian": "Bisa juga membeli kebutuhan sehari-hari dengan murah melalui pusat perbelanjaan online. Pusat perbelanjaan online secara teratur mengadakan acara diskon ataupun memfasilitasi kupon diskon. Bisa menggunakan acara atau kupon ini untuk membeli barang tertentu dengan murah atau mendapatkan diskon tambahan."
+        },
+        {
+          "korean": "또한 ‘당근’과 같은 중고 거래 플랫폼을 통해서도 생필품을 싸게 구할 수 있습니다. 다른 사람들이 더 이상 사용하지 않는 생활용품뿐만 아니라 가전제품, 가구에 이르기까지 다양한 물건을 살 수 있습니다. 이러한 중고 거래 플랫폼을 통하여 자신이 사용했던 물건을 팔 수도 있습니다. 플랫폼을 통한 중고 거래는 대부분 같은 지역에 사는 사람들 사이에서 직거래로 이루어집니다.",
+          "indonesian": "Selain itu, bisa juga membeli barang kebutuhan sehari-hari dengan harga murah melalui aplikasi seperti 'Danggeun/Karrot'. Kamu bisa menemukan berbagai barang, mulai dari barang kebutuhan sehari-hari hingga barang elektronik dan furnitur yang sudah tidak digunakan lagi oleh orang lain. Kamu juga dapat menjual barang yang telah kamu gunakan melalui platform transaksi barang bekas ini. Penjualan melalui aplikasi ini sebagian besar dilakukan secara langsung antara orang-orang yang tinggal di daerah yang sama."
+        }
+      ]
+    }
+  ]
+}

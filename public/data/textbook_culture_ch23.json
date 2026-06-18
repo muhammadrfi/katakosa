@@ -1,0 +1,28 @@
+{
+  "chapter": 23,
+  "sections": [
+    {
+      "title": "한국의 우체국 서비스 (Layanan pos korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "우체국은 다른 사람에게 편지나 문서, 소포 등을 보낼 때 이용하는 곳입니다. 외국에 물건을 보낼 때는 국제 특급 우편 서비스인 EMS(Express Mail Service)를 이용하면 편리합니다. EMS로 우편물을 보내면 빠르고 안전하게 받는 사람에게 전달할 수 있으며, 온라인에서 실시간으로 배달 상황을 조회할 수 있어 좋습니다.",
+          "indonesian": "Kantor  pos  adalah  tempat  yang  Anda  gunakan  untuk  mengirimkan  surat, dokumen, paket, dll., kepada  orang lain.Ketika  mengirim  barang  ke  luar  negeri, akan  lebih  mudah  jika  Anda  menggunakan  EMS  (Express  Mail Service), sebuah  layanan  pos  kilat  internasional.  Dengan  EMS, Anda  dapat  mengirim  surat  dengan  cepat  dan aman, dan sangat menyenangkan karena Anda dapat melacak status pengiriman secara online dalam waktu nyata."
+        },
+        {
+          "korean": "EMS나 국제 소포(항공편, 선편)로는 편지, 책, 옷, 화장품 등을 보낼 수 있지만 음식, 약, 현금 등은 보낼 수 없습 니다. 물론 동식물이나 인화성 물질, 폭발물 등도 보낼 수 없습니다.",
+          "indonesian": "Melalui  EMS  atau  layanan  paket  internasional  (pos  udara, pos  permukaan), Anda  dapat  mengirim  surat, buku, pakaian, kosmetik, dll., tetapi  tidak  dapat  mengirim  makanan, obat-obatan, uang  tunai, dll.  Tentu  saja, Anda  juga tidak dapat mengirim benda hidup, bahan yang mudah terbakar, bahan peledak, dll."
+        },
+        {
+          "korean": "국내에서 중요한 문서나 고가의 물품 등을 보낼 때는 수령 확인 서비스를 제공하는 등기로 보내면 보다 안전합니 다. 우편물을 등기로 보내면 받은 사람이 수령 후 서명을 하게 되어 있기 때문에 보낸 사람이 수령 사실을 확인할 수 있습니다.",
+          "indonesian": "Saat mengirim dokumen penting atau barang mahal di Korea, akan lebih aman jika Anda mengirimkannya melalui pos tercatat, yang menyediakan layanan konfirmasi tanda terima. Dengan pos tercatat, penerima harus menandatangani setelah menerima barang, sehingga pengirim dapat mengonfirmasi penerimaan."
+        },
+        {
+          "korean": "한편, 한국의 우체국은 우편물 서비스 외에 간단한 은행 서비스도 제공합니다. 우체국에서도 은행과 같이 계좌를 개설하거나, 보험이나 적금에 가입할 수도 있고 공과금을 납부할 수도 있습니다.",
+          "indonesian": "Selain itu, kantor pos Korea menawarkan layanan perbankan dasar. Mirip dengan apa yang ditawarkan bank, Anda dapat membuka rekening, mendaftar untuk asuransi dan paket tabungan cicilan, dan membayar tagihan listrik. •"
+        }
+      ]
+    }
+  ]
+}

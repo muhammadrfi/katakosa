@@ -1,0 +1,136 @@
+{
+  "chapter": 60,
+  "sections": [
+    {
+      "title": "외국인 근로자 관련 보험 (Asuransi Terkait Tenaga Kerja Asing)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "고용허가제(Employment Permit System)로 입국한 외국인 근로자는 한국의 모든 근로자가 가입하는 4대 사회보험과 외국인 근 로자 전용 보험에 가입해야 합니다.",
+          "indonesian": "Pekerja asing yang memasuki Korea berdasarkan Sistem Izin Kerja harus terdaftar di Empat Asuransi Sosial Utama Korea, serta Asuransi Eksklusif untuk Pekerja Asing."
+        },
+        {
+          "korean": "보험의 종류",
+          "indonesian": "Jenis Asuransi"
+        },
+        {
+          "korean": "보험의 목적",
+          "indonesian": "Tujuan Asuransi"
+        },
+        {
+          "korean": "가입 주체",
+          "indonesian": "Pembeli"
+        },
+        {
+          "korean": "국민연금",
+          "indonesian": "Pensiun Nasional"
+        },
+        {
+          "korean": "나이가 들어 소득이 줄거나 없어졌을 때 국가가 최소한의 소득 보장",
+          "indonesian": "jaminan penghasilan minimum oleh negara apabila seseorang menjadi tua atau penghasilannya berkurang atau tidak ada lagi"
+        },
+        {
+          "korean": "사업주, 외국인 근로자",
+          "indonesian": "majikan, pekerja asing"
+        },
+        {
+          "korean": "건강보험",
+          "indonesian": "Asuransi Kesehatan"
+        },
+        {
+          "korean": "질병이나 부상으로 인해 발생하는 의료비 지원",
+          "indonesian": "dukungan biaya pengobatan untuk penyakit atau cedera"
+        },
+        {
+          "korean": "사업주, 외국인 근로자",
+          "indonesian": "majikan, pekerja asing"
+        },
+        {
+          "korean": "고용보험",
+          "indonesian": "Asuransi Ketenagakerjaan"
+        },
+        {
+          "korean": "실직 등으로 소득이 일시적으로 없을 때 생활 유지 지원",
+          "indonesian": "dukungan untuk mempertahankan biaya hidup ketika pendapatan untuk sementara tidak tersedia karena pengangguran atau alasan lainnya"
+        },
+        {
+          "korean": "사업주, 외국인 근로자",
+          "indonesian": "majikan, pekerja asing"
+        },
+        {
+          "korean": "산재보험",
+          "indonesian": "Asuransi Santunan Kecelakaan Industri"
+        },
+        {
+          "korean": "근로 중 발생한 상해나 질병에 대해 국가가 산업재해 근로자와 그 가족의 생활 보장",
+          "indonesian": "jaminan ganti rugi oleh negara atas penghidupan pekerja dan keluarganya yang terkena luka atau penyakit yang timbul akibat kecelakaan industri pada saat bekerja"
+        },
+        {
+          "korean": "사업주",
+          "indonesian": "pemberi pekerjaan"
+        },
+        {
+          "korean": "노령 국민연금 질병·부상 건강보험 실업 고용보험 4대 사회보험 상해 신재보험 보험의 종류",
+          "indonesian": "Jenis Asuransi"
+        },
+        {
+          "korean": "보험의 목적",
+          "indonesian": "Tujuan Asuransi"
+        },
+        {
+          "korean": "가입 주체",
+          "indonesian": "Pembeli"
+        },
+        {
+          "korean": "출국만기보험",
+          "indonesian": "Asuransi Jaminan Keberangkatan"
+        },
+        {
+          "korean": "외국인 근로자의 퇴직금 지급",
+          "indonesian": "pembayaran pesangon bagi tenaga kerja asing"
+        },
+        {
+          "korean": "사업주",
+          "indonesian": "pemberi pekerjaan"
+        },
+        {
+          "korean": "임금체불보증보험",
+          "indonesian": "Asuransi Jaminan Bayar"
+        },
+        {
+          "korean": "회사에서 미지급한 외국인 근로자의 체불 임금 보증",
+          "indonesian": "jaminan tidak dibayarnya upah bagi tenaga kerja asing yang terutang oleh perusahaannya"
+        },
+        {
+          "korean": "사업주",
+          "indonesian": "pemberi pekerjaan"
+        },
+        {
+          "korean": "귀국비용보험",
+          "indonesian": "Asuransi Biaya Pengembalian"
+        },
+        {
+          "korean": "외국인 근로자의 귀국 시 필요한 비용 충당",
+          "indonesian": "cakupan biaya yang diperlukan untuk pemulangan tenaga kerja asing sekembalinya ke negara asal"
+        },
+        {
+          "korean": "외국인 근로자",
+          "indonesian": "pekerja asing"
+        },
+        {
+          "korean": "상해보험",
+          "indonesian": "Asuransi Cedera Pribadi"
+        },
+        {
+          "korean": "외국인 근로자가 업무상 재해 이외의 사고로 인해 당한 상해, 질병, 사망 등의 손해에 대한 보상",
+          "indonesian": "kompensasi atas kerugian seperti cedera, penyakit, atau kematian yang dialami oleh pekerja asing akibat kecelakaan yang tidak berhubungan dengan pekerjaan."
+        },
+        {
+          "korean": "외국인 근로자",
+          "indonesian": "pekerja asing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "chapter": 48,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "골고루",
+          "indonesian": "rata, seimbang",
+          "image": "/images/textbook/ch48/v1_0_골고루.jpg"
+        },
+        {
+          "korean": "금이 가다",
+          "indonesian": "retakan",
+          "image": "/images/textbook/ch48/v1_1_금이_가다.jpg"
+        },
+        {
+          "korean": "녹",
+          "indonesian": "karat",
+          "image": "/images/textbook/ch48/v1_2_녹.jpg"
+        },
+        {
+          "korean": "도료",
+          "indonesian": "Selang Cat, Pelapis",
+          "image": "/images/textbook/ch48/v1_3_도료.jpg"
+        },
+        {
+          "korean": "마무리(하다)",
+          "indonesian": "menyelesaikan",
+          "image": "/images/textbook/ch48/v1_4_마무리(하다).jpg"
+        },
+        {
+          "korean": "매끄럽다",
+          "indonesian": "Halus",
+          "image": "/images/textbook/ch48/v1_5_매끄럽다.jpg"
+        },
+        {
+          "korean": "면적",
+          "indonesian": "Luas wilayah",
+          "image": "/images/textbook/ch48/v1_6_면적.jpg"
+        },
+        {
+          "korean": "물기",
+          "indonesian": "menggigit, berair",
+          "image": "/images/textbook/ch48/v1_7_물기.jpg"
+        },
+        {
+          "korean": "부식",
+          "indonesian": "korosi",
+          "image": "/images/textbook/ch48/v1_8_부식.jpg"
+        },
+        {
+          "korean": "분사(하다)",
+          "indonesian": "semprot",
+          "image": "/images/textbook/ch48/v1_9_분사(하다).jpg"
+        },
+        {
+          "korean": "선미부",
+          "indonesian": "bagian buritan",
+          "image": "/images/textbook/ch48/v1_10_선미부.jpg"
+        },
+        {
+          "korean": "선박",
+          "indonesian": "Pos laut, kapal",
+          "image": null
+        },
+        {
+          "korean": "선수부",
+          "indonesian": "atlet",
+          "image": "/images/textbook/ch48/v1_12_선수부.jpg"
+        },
+        {
+          "korean": "선체",
+          "indonesian": "Konstruksi kapal",
+          "image": null
+        },
+        {
+          "korean": "에어 스프레이 건",
+          "indonesian": "pistol semprot udara",
+          "image": "/images/textbook/ch48/v1_14_에어_스프레이_건.jpg"
+        },
+        {
+          "korean": "조타실",
+          "indonesian": "ruang kemudi",
+          "image": "/images/textbook/ch48/v1_15_조타실.jpg"
+        },
+        {
+          "korean": "중앙부",
+          "indonesian": "bagian tengah",
+          "image": "/images/textbook/ch48/v1_16_중앙부.jpg"
+        },
+        {
+          "korean": "프로펠러",
+          "indonesian": "menopang",
+          "image": null
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가새",
+          "indonesian": "Gas bocor, terkena gas",
+          "image": null
+        },
+        {
+          "korean": "강관 비계",
+          "indonesian": "perancah pipa baja",
+          "image": null
+        },
+        {
+          "korean": "고장",
+          "indonesian": "Rusak",
+          "image": null
+        },
+        {
+          "korean": "구조물",
+          "indonesian": "Struktur",
+          "image": null
+        },
+        {
+          "korean": "깔판",
+          "indonesian": "papan alas / palet",
+          "image": null
+        },
+        {
+          "korean": "능률",
+          "indonesian": "Efisiensi, daya guna",
+          "image": null
+        },
+        {
+          "korean": "대각선",
+          "indonesian": "diagonal",
+          "image": null
+        },
+        {
+          "korean": "띠장",
+          "indonesian": "pita",
+          "image": null
+        },
+        {
+          "korean": "밑둥잡이",
+          "indonesian": "penangkap bawah",
+          "image": null
+        },
+        {
+          "korean": "밑받침 철물",
+          "indonesian": "perangkat keras lapisan bawah",
+          "image": null
+        },
+        {
+          "korean": "비계기둥",
+          "indonesian": "pilar perancah",
+          "image": null
+        },
+        {
+          "korean": "세우다",
+          "indonesian": "Mengatur, mengatur, memarkirkan",
+          "image": null
+        },
+        {
+          "korean": "수직",
+          "indonesian": "tegak lurus, vertikal",
+          "image": null
+        },
+        {
+          "korean": "수평",
+          "indonesian": "horizontal / datar",
+          "image": null
+        },
+        {
+          "korean": "실수(하다)",
+          "indonesian": "Kesalahan",
+          "image": null
+        },
+        {
+          "korean": "안전 로프",
+          "indonesian": "tali pengaman",
+          "image": null
+        },
+        {
+          "korean": "안전난간",
+          "indonesian": "pagar pengaman",
+          "image": null
+        },
+        {
+          "korean": "안정성",
+          "indonesian": "stabilitas",
+          "image": null
+        },
+        {
+          "korean": "임시로",
+          "indonesian": "untuk sementara",
+          "image": null
+        },
+        {
+          "korean": "작업발판",
+          "indonesian": "Pijakan kaki",
+          "image": null
+        },
+        {
+          "korean": "장선",
+          "indonesian": "senar",
+          "image": null
+        },
+        {
+          "korean": "정기적",
+          "indonesian": "Teratur, Secara teratur",
+          "image": null
+        },
+        {
+          "korean": "지지대",
+          "indonesian": "mendukung",
+          "image": null
+        },
+        {
+          "korean": "품질",
+          "indonesian": "Kualitas, kualitas, mutu",
+          "image": null
+        }
+      ],
+      "main_image": "/images/textbook/ch48_vocab2.jpg"
+    }
+  ]
+}

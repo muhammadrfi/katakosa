@@ -1,0 +1,299 @@
+{
+  "chapter": 5,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "비싸다",
+          "indonesian": "mahal",
+          "image": null
+        },
+        {
+          "korean": "싸다",
+          "indonesian": "murah",
+          "image": null
+        },
+        {
+          "korean": "깎다",
+          "indonesian": "memotong / menawar (harga)",
+          "image": null
+        },
+        {
+          "korean": "넣다",
+          "indonesian": "memasukkan",
+          "image": null
+        },
+        {
+          "korean": "싸다 (포장하다)",
+          "indonesian": "membungkus",
+          "image": null
+        },
+        {
+          "korean": "바꾸다 (교환하다)",
+          "indonesian": "menukar",
+          "image": null
+        },
+        {
+          "korean": "환불하다",
+          "indonesian": "mengembalikan (refund)",
+          "image": null
+        },
+        {
+          "korean": "치마",
+          "indonesian": "rok",
+          "image": null
+        },
+        {
+          "korean": "바지",
+          "indonesian": "celana",
+          "image": null
+        },
+        {
+          "korean": "티셔츠",
+          "indonesian": "kaus (T-shirt)",
+          "image": null
+        },
+        {
+          "korean": "점퍼",
+          "indonesian": "jaket / jumper",
+          "image": null
+        },
+        {
+          "korean": "운동화",
+          "indonesian": "sepatu olahraga",
+          "image": null
+        },
+        {
+          "korean": "구두",
+          "indonesian": "sepatu formal",
+          "image": null
+        }
+      ],
+      "main_image": "/images/textbook/ch5_vocab1.jpg"
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "구",
+          "indonesian": "dærah, wilayah",
+          "image": null
+        },
+        {
+          "korean": "날짜",
+          "indonesian": "Tanggal, tanggal",
+          "image": null
+        },
+        {
+          "korean": "내년",
+          "indonesian": "tahun depan",
+          "image": null
+        },
+        {
+          "korean": "다음\t달",
+          "indonesian": "bulan depan",
+          "image": null
+        },
+        {
+          "korean": "다음\t주",
+          "indonesian": "minggu depan",
+          "image": null
+        },
+        {
+          "korean": "미역국",
+          "indonesian": "Sup rumput laut, Sup rumput laut (biasanya dimakan saat ulang tahun)",
+          "image": null
+        },
+        {
+          "korean": "사",
+          "indonesian": "empat (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "삼",
+          "indonesian": "tiga (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "삼십",
+          "indonesian": "tiga puluh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "생일",
+          "indonesian": "Ulang tahun, hari lahir, ulang tahun",
+          "image": null
+        },
+        {
+          "korean": "숫자",
+          "indonesian": "Angka, angka",
+          "image": null
+        },
+        {
+          "korean": "십",
+          "indonesian": "sepuluh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "언제",
+          "indonesian": "kapan",
+          "image": null
+        },
+        {
+          "korean": "오",
+          "indonesian": "lima (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "올해",
+          "indonesian": "tahun ini",
+          "image": null
+        },
+        {
+          "korean": "월",
+          "indonesian": "bulan",
+          "image": null
+        },
+        {
+          "korean": "육",
+          "indonesian": "enam (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "이",
+          "indonesian": "Gigi, gigi",
+          "image": null
+        },
+        {
+          "korean": "이번\t달",
+          "indonesian": "bulan ini",
+          "image": null
+        },
+        {
+          "korean": "이번\t주",
+          "indonesian": "minggu ini",
+          "image": null
+        },
+        {
+          "korean": "이십",
+          "indonesian": "dua puluh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "일",
+          "indonesian": "hari",
+          "image": null
+        },
+        {
+          "korean": "일",
+          "indonesian": "hari",
+          "image": null
+        },
+        {
+          "korean": "작년",
+          "indonesian": "tahun lalu",
+          "image": null
+        },
+        {
+          "korean": "지난달",
+          "indonesian": "bulan lalu",
+          "image": null
+        },
+        {
+          "korean": "지난주",
+          "indonesian": "minggu lalu",
+          "image": null
+        },
+        {
+          "korean": "친구",
+          "indonesian": "Teman, friend",
+          "image": null
+        },
+        {
+          "korean": "칠",
+          "indonesian": "tujuh (sino-korea)",
+          "image": null
+        },
+        {
+          "korean": "케이크",
+          "indonesian": "kue, cake",
+          "image": null
+        },
+        {
+          "korean": "팔",
+          "indonesian": "Lengan, lengan, kaki",
+          "image": null
+        },
+        {
+          "korean": "금요일",
+          "indonesian": "jumat",
+          "image": null
+        },
+        {
+          "korean": "내일",
+          "indonesian": "besok",
+          "image": null
+        },
+        {
+          "korean": "매일",
+          "indonesian": "setiap hari",
+          "image": null
+        },
+        {
+          "korean": "목요일",
+          "indonesian": "kamis",
+          "image": null
+        },
+        {
+          "korean": "수요일",
+          "indonesian": "rabu",
+          "image": null
+        },
+        {
+          "korean": "어제",
+          "indonesian": "kemarin",
+          "image": null
+        },
+        {
+          "korean": "요일",
+          "indonesian": "hari (senin-minggu)",
+          "image": null
+        },
+        {
+          "korean": "월요일",
+          "indonesian": "senin",
+          "image": null
+        },
+        {
+          "korean": "일요일",
+          "indonesian": "minggu",
+          "image": null
+        },
+        {
+          "korean": "주말",
+          "indonesian": "Akhir pekan, akhir pekan",
+          "image": null
+        },
+        {
+          "korean": "토요일",
+          "indonesian": "sabtu",
+          "image": null
+        },
+        {
+          "korean": "평일",
+          "indonesian": "Hari kerja, hari biasa, hari kerja",
+          "image": null
+        },
+        {
+          "korean": "화요일",
+          "indonesian": "selasa",
+          "image": null
+        }
+      ],
+      "main_image": "/images/textbook/ch5_vocab2.jpg"
+    }
+  ]
+}

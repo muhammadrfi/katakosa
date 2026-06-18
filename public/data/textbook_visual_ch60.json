@@ -1,0 +1,179 @@
+{
+  "chapter": 60,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가입(하다)",
+          "indonesian": "Bergabung, mendaftar",
+          "image": "/images/textbook/ch60/v1_0_가입(하다).jpg"
+        },
+        {
+          "korean": "납입(하다)",
+          "indonesian": "membayar",
+          "image": "/images/textbook/ch60/v1_1_납입(하다).jpg"
+        },
+        {
+          "korean": "누구나",
+          "indonesian": "siapapun",
+          "image": null
+        },
+        {
+          "korean": "병원비",
+          "indonesian": "biaya rumah sakit",
+          "image": null
+        },
+        {
+          "korean": "보험금",
+          "indonesian": "naik, berselancar, terbakar, menerima, mendapat",
+          "image": null
+        },
+        {
+          "korean": "보험료",
+          "indonesian": "membayar, mengeluarkan, menyelesaikan, melewatkan",
+          "image": "/images/textbook/ch60/v1_5_보험료.jpg"
+        },
+        {
+          "korean": "사업주",
+          "indonesian": "pemilik perusahaan, pemilik",
+          "image": null
+        },
+        {
+          "korean": "의료비",
+          "indonesian": "Biaya medis",
+          "image": "/images/textbook/ch60/v1_7_의료비.jpg"
+        },
+        {
+          "korean": "입원(하다)",
+          "indonesian": "masuk RS",
+          "image": null
+        },
+        {
+          "korean": "입증(하다)",
+          "indonesian": "pembuktian (membuktikan)",
+          "image": "/images/textbook/ch60/v1_9_입증(하다).jpg"
+        },
+        {
+          "korean": "장해 보상금",
+          "indonesian": "uang kompensasi cacat",
+          "image": "/images/textbook/ch60/v1_10_장해_보상금.jpg"
+        },
+        {
+          "korean": "청구(하다)",
+          "indonesian": "menagih",
+          "image": "/images/textbook/ch60/v1_11_청구(하다).jpg"
+        },
+        {
+          "korean": "체하다",
+          "indonesian": "Mengganti",
+          "image": null
+        },
+        {
+          "korean": "타다",
+          "indonesian": "Naik (kendaraan), naik, naik (kendaraan)",
+          "image": "/images/textbook/ch60/v1_13_타다.jpg"
+        },
+        {
+          "korean": "혜택",
+          "indonesian": "manfaat / keuntungan",
+          "image": null
+        },
+        {
+          "korean": "휴업 급여",
+          "indonesian": "gaji tidak kerja sementara",
+          "image": "/images/textbook/ch60/v1_15_휴업_급여.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "귀국비용보험",
+          "indonesian": "asuransi biaya pemulangan",
+          "image": "/images/textbook/ch60/v2_0_귀국비용보험.jpg"
+        },
+        {
+          "korean": "벌금",
+          "indonesian": "denda",
+          "image": "/images/textbook/ch60/v2_1_벌금.jpg"
+        },
+        {
+          "korean": "보험 약정",
+          "indonesian": "perjanjian asuransi",
+          "image": null
+        },
+        {
+          "korean": "부담없다",
+          "indonesian": "tanpa beban",
+          "image": null
+        },
+        {
+          "korean": "사고 입증 서류",
+          "indonesian": "dokumen bukti kecelakaan",
+          "image": null
+        },
+        {
+          "korean": "사망",
+          "indonesian": "mati",
+          "image": "/images/textbook/ch60/v2_5_사망.jpg"
+        },
+        {
+          "korean": "상해",
+          "indonesian": "Cedera, kecelakaan, terluka",
+          "image": "/images/textbook/ch60/v2_6_상해.jpg"
+        },
+        {
+          "korean": "상해보험",
+          "indonesian": "asuransi kecelakaan",
+          "image": "/images/textbook/ch60/v2_7_상해보험.jpg"
+        },
+        {
+          "korean": "일시금",
+          "indonesian": "uang sekaligus / pembayaran sekaligus (lump sum)",
+          "image": "/images/textbook/ch60/v2_8_일시금.jpg"
+        },
+        {
+          "korean": "임금체불보증보험",
+          "indonesian": "asuransi jaminan penunggakan upah",
+          "image": "/images/textbook/ch60/v2_9_임금체불보증보험.jpg"
+        },
+        {
+          "korean": "장애",
+          "indonesian": "Perhatikan hambatan, rintangan",
+          "image": "/images/textbook/ch60/v2_10_장애.jpg"
+        },
+        {
+          "korean": "진단서",
+          "indonesian": "surat keterangan dokter",
+          "image": "/images/textbook/ch60/v2_11_진단서.jpg"
+        },
+        {
+          "korean": "질병",
+          "indonesian": "sakit, penyakit",
+          "image": "/images/textbook/ch60/v2_12_질병.jpg"
+        },
+        {
+          "korean": "체불 임금",
+          "indonesian": "upah yang ditunggak",
+          "image": "/images/textbook/ch60/v2_13_체불_임금.jpg"
+        },
+        {
+          "korean": "출국만기보험",
+          "indonesian": "asuransi jaminan pemulangan (asuransi akhir masa kerja)",
+          "image": "/images/textbook/ch60/v2_14_출국만기보험.jpg"
+        },
+        {
+          "korean": "퇴직금",
+          "indonesian": "uang pensiun",
+          "image": "/images/textbook/ch60/v2_15_퇴직금.jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

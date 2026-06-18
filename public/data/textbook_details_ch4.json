@@ -1,0 +1,178 @@
+{
+  "chapter": 4,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "main_image": "/images/textbook/ch4_vocab1.jpg",
+      "items": [
+        {
+          "korean": "가다",
+          "indonesian": "pergi",
+          "image": "/images/textbook/ch4/v1_0_가다.jpg"
+        },
+        {
+          "korean": "공부(하다)",
+          "indonesian": "belajar",
+          "image": "/images/textbook/ch4/v1_1_공부(하다).jpg"
+        },
+        {
+          "korean": "쇼핑(하다)",
+          "indonesian": "belanja",
+          "image": "/images/textbook/ch4/v1_2_쇼핑(하다).jpg"
+        },
+        {
+          "korean": "쉬다",
+          "indonesian": "istirahat",
+          "image": "/images/textbook/ch4/v1_3_쉬다.jpg"
+        },
+        {
+          "korean": "오다",
+          "indonesian": "datang",
+          "image": "/images/textbook/ch4/v1_4_오다.jpg"
+        },
+        {
+          "korean": "요리(하다)",
+          "indonesian": "memasak",
+          "image": "/images/textbook/ch4/v1_5_요리(하다).jpg"
+        },
+        {
+          "korean": "운동(하다)",
+          "indonesian": "olahraga",
+          "image": "/images/textbook/ch4/v1_6_운동(하다).jpg"
+        },
+        {
+          "korean": "일(하다)",
+          "indonesian": "bekerja",
+          "image": null
+        },
+        {
+          "korean": "일상",
+          "indonesian": "keseharian",
+          "image": null
+        },
+        {
+          "korean": "자다",
+          "indonesian": "tidur",
+          "image": "/images/textbook/ch4/v1_9_자다.jpg"
+        },
+        {
+          "korean": "전화(하다)",
+          "indonesian": "menelepon",
+          "image": "/images/textbook/ch4/v1_10_전화(하다).jpg"
+        },
+        {
+          "korean": "하다",
+          "indonesian": "melakukan",
+          "image": "/images/textbook/ch4/v1_11_하다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "main_image": "/images/textbook/ch4_vocab2.jpg",
+      "items": [
+        {
+          "korean": "과자",
+          "indonesian": "snack / camilan",
+          "image": "/images/textbook/ch4/v2_9_과자.jpg"
+        },
+        {
+          "korean": "마시다",
+          "indonesian": "minum",
+          "image": null
+        },
+        {
+          "korean": "먹다",
+          "indonesian": "makan",
+          "image": null
+        },
+        {
+          "korean": "물",
+          "indonesian": "air",
+          "image": "/images/textbook/ch4/v2_4_물.jpg"
+        },
+        {
+          "korean": "밥",
+          "indonesian": "nasi / makanan",
+          "image": "/images/textbook/ch4/v2_19_밥.jpg"
+        },
+        {
+          "korean": "보다",
+          "indonesian": "melihat / menonton",
+          "image": "/images/textbook/ch4/v2_20_보다.jpg"
+        },
+        {
+          "korean": "빵",
+          "indonesian": "roti",
+          "image": "/images/textbook/ch4/v2_7_빵.jpg"
+        },
+        {
+          "korean": "사과",
+          "indonesian": "apel",
+          "image": "/images/textbook/ch4/v2_0_사과.jpg"
+        },
+        {
+          "korean": "신문",
+          "indonesian": "koran",
+          "image": "/images/textbook/ch4/v2_21_신문.jpg"
+        },
+        {
+          "korean": "영화",
+          "indonesian": "film",
+          "image": "/images/textbook/ch4/v2_22_영화.jpg"
+        },
+        {
+          "korean": "오늘",
+          "indonesian": "hari ini",
+          "image": "/images/textbook/ch4/v2_23_오늘.jpg"
+        },
+        {
+          "korean": "우유",
+          "indonesian": "susu",
+          "image": "/images/textbook/ch4/v2_6_우유.jpg"
+        },
+        {
+          "korean": "읽다",
+          "indonesian": "membaca",
+          "image": "/images/textbook/ch4/v2_24_읽다.jpg"
+        },
+        {
+          "korean": "주스",
+          "indonesian": "jus",
+          "image": "/images/textbook/ch4/v2_5_주스.jpg"
+        },
+        {
+          "korean": "지금",
+          "indonesian": "sekarang",
+          "image": "/images/textbook/ch4/v2_25_지금.jpg"
+        },
+        {
+          "korean": "책",
+          "indonesian": "buku",
+          "image": "/images/textbook/ch4/v2_26_책.jpg"
+        },
+        {
+          "korean": "커피",
+          "indonesian": "kopi",
+          "image": "/images/textbook/ch4/v2_27_커피.jpg"
+        }
+      ]
+    },
+    {
+      "title": "한국의 좌식 문화 (Budaya Duduk di Lantai)",
+      "type": "culture",
+      "culture_pairs": [
+        {
+          "korean": "한국인들은 방이나 마루의 바닥에 앉아서 식사를 하거나 휴식을 취하는 좌식 문화를 가지고 있습니다. 이러한 좌식 문화는 가족이나 가까운 친구들끼리 함께 소통하고 유대감을 형성하는 데 도움을 줍니다. 좌식 문화로 인해 한국 사람들은 대부분 집안에서 신발을 벗고 생활하며, 바닥에 앉아서 식사를 하는 식당도 쉽게 볼 수 있습니다.",
+          "indonesian": "Orang Korea memiliki budaya duduk di lantai di mana mereka duduk di lantai di kamar atau di lantai di ruang komunal untuk makan atau bersantai. Budaya ini membantu menumbuhkan komunikasi dan ikatan di antara anggota keluarga atau teman dekat. Karena budaya ini, orang Korea biasanya melepas sepatu mereka di rumah, dan Anda dapat dengan mudah menemukan restoran di mana orang duduk di lantai untuk makan."
+        },
+        {
+          "korean": "좌식 문화가 현대에도 지속되는 이유는 한국의 전통 난방 방식인 ‘온돌’의 영향 때문이라고 합니다. 온돌은 바닥을 따뜻하게 하는 한국의 전통 난방 시스템으로, 여러 가구가 모여 사는 아파트에서도 파이프를 바닥에 깔아 뜨거운 물을 순환시키는 방식으로 사용됩니다.",
+          "indonesian": "Alasan budaya duduk lantai ini berlanjut ke zaman modern adalah karena 'ondol'. Ondol adalah sistem pemanas tradisional Korea yang menghangatkan lantai. Hal ini juga digunakan di apartemen di mana banyak rumah tangga tinggal bersama dengan meletakkan pipa di lantai untuk mengedarkan air panas."
+        }
+      ]
+    }
+  ]
+}

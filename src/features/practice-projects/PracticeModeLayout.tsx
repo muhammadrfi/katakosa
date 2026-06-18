@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Outlet, useLocation, useNavigate, useParams, Link } from 'react-router-dom';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, BookOpen, Bot, FileQuestion, Library, Volume2, Puzzle, BrainCircuit, Pencil } from 'lucide-react';
+import { ArrowLeft, BookOpen, Bot, FileQuestion, Library, Volume2, Puzzle, BrainCircuit, Pencil, Timer, Headphones } from 'lucide-react';
 import { useVocabularyStore } from '../vocabulary/useVocabularyStore';
 import { usePracticeProjectStore } from './usePracticeProjectStore';
 
@@ -14,6 +14,8 @@ const practiceModes = [
   { name: 'Latihan Menulis', path: '/practice/writing', icon: Pencil, minWords: 1 },
   { name: 'Menghafal', path: '/practice/memorization', icon: BrainCircuit, minWords: 1 },
   { name: 'Ulasan', path: '/practice/review', icon: Library, minWords: 1 },
+  { name: 'Time Attack', path: '/practice/time-attack', icon: Timer, minWords: 4 },
+  { name: 'Dikte', path: '/practice/dictation', icon: Headphones, minWords: 1 },
 ];
 
 const PracticeModeLayout = () => {
@@ -37,7 +39,7 @@ const PracticeModeLayout = () => {
       .filter(set => setIds.includes(set.id))
       .flatMap(set => set.words).length;
     return wordsCount;
-  }, [vocabularySets, project, projectId]);
+  }, [vocabularySets, project]);
 
   const pathSegments = location.pathname.split('/').filter(Boolean); // Remove empty strings from split
   let currentMode = 'quiz'; // Default mode

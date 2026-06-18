@@ -1,0 +1,28 @@
+{
+  "chapter": 21,
+  "sections": [
+    {
+      "title": "병원 이용 방법 (Cara Menggunakan Rumah Sakit)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국의 병원은 1차, 2차, 3차 의료기관으로 나뉩니다. 1차 의 료기관은 주로 외래 환자를 진료하는 작은 규모의 동네 의원이 나 보건소를 말하고, 2차 의료기관은 병상 수가 30개 이상인 조금 큰 병원을 말합니다. 1, 2차 의료기관에서 진료를 받았는 데도 증상이 낫지 않거나 정밀검사, 복잡한 수술 등이 필요하면 3차 의료기관을 방문하게 됩니다. 3차 의료기관인 상급종합병 원은 정부의 평가를 통과한 대형 병원으로 1, 2차 의료기관에서 발행한 진료 의뢰서가 있어야 진료를 받을 수 있습니다. 의료비 는 상급 기관으로 갈수록 비싸지며 2, 3차 의료기관의 경우 예 약을 해야 진료를 받을 수 있습니다.",
+          "indonesian": "Rumah  sakit  di  Korea  dibagi  menjadi  tiga  tingkatan:  institusi  medis primer, sekunder, dan tersier. Institusi medis primer mengacu pada klinik lokal  kecil  atau  pusat  kesehatan  masyarakat  yang  terutama  merawat pasien  rawat  jalan.   Institusi  medis  sekunder  adalah  rumah  sakit  yang sedikit lebih besar dengan 30 tempat tidur atau lebih. Jika gejala tidak membaik setelah mengunjungi fasilitas kesehatan primer atau institusi  medis  sekunder, atau  jika  pemeriksaan  yang  lebih rinci  atau  operasi  yang  kompleks  diperlukan, pasien mengunjungi  institusi  medis  tersier.  Institusi  medis  tersier adalah  rumah  sakit  besar  yang  telah  lulus  evaluasi pemerintah  di  mana  Anda  memerlukan  rujukan  dari  institusi medis  primer  atau  sekunder  untuk  menerima  perawatan. Biaya  medis  meningkat  ketika  Anda  pindah  ke  institusi tingkat yang lebih tinggi, dan Anda biasanya perlu melakukan  reservasi  untuk  menerima  perawatan  di  institusi medis sekunder atau tersier."
+        },
+        {
+          "korean": "몸이 아프면 먼저 의원에 갑니다. 전문 분야가 세분되어 있어아 픈 곳에 맞는 의원을 찾아가면 됩니다. 대부분의 의원에서도전문 의가 직접 진료합니다. 다음은 진료 분야입니다.",
+          "indonesian": "Jika  Anda  merasa  tidak  enak  badan, pertama-tama  Anda  harus mengunjungi  klinik.  Spesialisasi  medisnya  terpisah, jadi  Anda  harus mengunjungi  klinik  yang  sesuai  dengan  gejala  Anda.   Sebagian  besar klinik  dikelola  oleh  dokter  spesialis.  Berikut  adalah  beberapa  contoh spesialisasi:"
+        },
+        {
+          "korean": "2024년 5월 20일부터는 의원이나 병원에서 진료를 받을 때 반드시 건강보험증이나 신분증(주민등록증, 운전면허증, 여권, 외국인 등록증 등)을 가지고 가야 합니다. 그래야 건강보험 급 여를 적용받을 수 있습니다.",
+          "indonesian": "Mulai  tanggal  20  Mei  2024, Anda  harus  membawa  kartu asuransi kesehatan atau kartu identitas (kartu registrasi penduduk, SIM, paspor, atau  kartu  penduduk, dll.) ketika  mengunjungi  klinik  atau rumah  sakit  untuk  berobat.  Hal  ini  diperlukan  untuk menerima manfaat asuransi kesehatan."
+        },
+        {
+          "korean": "한의원",
+          "indonesian": "klinik pengobatan Tradisional Korea"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "chapter": 46,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "계량컵",
+          "indonesian": "gelas ukur",
+          "image": "/images/textbook/ch46/v1_0_계량컵.jpg"
+        },
+        {
+          "korean": "급수기",
+          "indonesian": "Pemberi air",
+          "image": "/images/textbook/ch46/v1_1_급수기.jpg"
+        },
+        {
+          "korean": "급여(하다)",
+          "indonesian": "pemberian pakan (memberi makan)",
+          "image": null
+        },
+        {
+          "korean": "급이기",
+          "indonesian": "Pemberi pakan",
+          "image": "/images/textbook/ch46/v1_3_급이기.jpg"
+        },
+        {
+          "korean": "나중에",
+          "indonesian": "nanti, nanti (lama)",
+          "image": null
+        },
+        {
+          "korean": "농장",
+          "indonesian": "pertanian",
+          "image": "/images/textbook/ch46/v1_5_농장.jpg"
+        },
+        {
+          "korean": "닭",
+          "indonesian": "ayam",
+          "image": "/images/textbook/ch46/v1_6_닭.jpg"
+        },
+        {
+          "korean": "돼지",
+          "indonesian": "babi",
+          "image": "/images/textbook/ch46/v1_7_돼지.jpg"
+        },
+        {
+          "korean": "말",
+          "indonesian": "kuda",
+          "image": null
+        },
+        {
+          "korean": "먹이",
+          "indonesian": "pakan, makanan",
+          "image": "/images/textbook/ch46/v1_9_먹이.jpg"
+        },
+        {
+          "korean": "바가지",
+          "indonesian": "Gayung pengambil pakan, gayung",
+          "image": "/images/textbook/ch46/v1_10_바가지.jpg"
+        },
+        {
+          "korean": "배합 사료",
+          "indonesian": "pakan majemuk",
+          "image": "/images/textbook/ch46/v1_11_배합_사료.jpg"
+        },
+        {
+          "korean": "사료",
+          "indonesian": "pakan ternak, pangan",
+          "image": null
+        },
+        {
+          "korean": "사료조",
+          "indonesian": "Tempat pakan",
+          "image": "/images/textbook/ch46/v1_13_사료조.jpg"
+        },
+        {
+          "korean": "소",
+          "indonesian": "sapi",
+          "image": "/images/textbook/ch46/v1_14_소.jpg"
+        },
+        {
+          "korean": "양",
+          "indonesian": "domba, kuantitas, Jumlah",
+          "image": null
+        },
+        {
+          "korean": "양계",
+          "indonesian": "kandang ayam",
+          "image": "/images/textbook/ch46/v1_16_양계.jpg"
+        },
+        {
+          "korean": "양돈",
+          "indonesian": "kandang babi",
+          "image": "/images/textbook/ch46/v1_17_양돈.jpg"
+        },
+        {
+          "korean": "양우",
+          "indonesian": "kandang sapi",
+          "image": "/images/textbook/ch46/v1_18_양우.jpg"
+        },
+        {
+          "korean": "오리",
+          "indonesian": "bebek",
+          "image": null
+        },
+        {
+          "korean": "짚",
+          "indonesian": "jerami",
+          "image": "/images/textbook/ch46/v1_20_짚.jpg"
+        },
+        {
+          "korean": "키우다",
+          "indonesian": "memelihara",
+          "image": "/images/textbook/ch46/v1_21_키우다.jpg"
+        },
+        {
+          "korean": "토끼",
+          "indonesian": "kelinci",
+          "image": null
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "건초",
+          "indonesian": "rumput kering",
+          "image": "/images/textbook/ch46/v2_0_건초.jpg"
+        },
+        {
+          "korean": "물청소(하다)",
+          "indonesian": "membersihkan dengan air",
+          "image": null
+        },
+        {
+          "korean": "분뇨",
+          "indonesian": "kotoran hewan",
+          "image": "/images/textbook/ch46/v2_2_분뇨.jpg"
+        },
+        {
+          "korean": "분뇨 탱크",
+          "indonesian": "Tangki penyimpan kotoran, tabung kotoran",
+          "image": "/images/textbook/ch46/v2_3_분뇨_탱크.jpg"
+        },
+        {
+          "korean": "양계장",
+          "indonesian": "kandang ayam ternak",
+          "image": "/images/textbook/ch46/v2_4_양계장.jpg"
+        },
+        {
+          "korean": "우방",
+          "indonesian": "Kios, tempat",
+          "image": null
+        },
+        {
+          "korean": "이동시키다",
+          "indonesian": "bergerak",
+          "image": null
+        },
+        {
+          "korean": "축사",
+          "indonesian": "kandang",
+          "image": null
+        },
+        {
+          "korean": "톱밥",
+          "indonesian": "serbuk gergaji",
+          "image": null
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

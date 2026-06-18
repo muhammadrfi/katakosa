@@ -1,0 +1,44 @@
+{
+  "chapter": 11,
+  "sections": [
+    {
+      "title": "쓰레기 분리배출 (Pemilahan Sampah)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "쓰레기 분리배출",
+          "indonesian": "pemilahan sampah"
+        },
+        {
+          "korean": "한국에서는 쓰레기를 버릴 때 쓰레기의 종류에 따라 분리해 서 버려야 합니다. 쓰레기의 종류에는 일반쓰레기, 음식물 쓰레 기, 재활용품, 헌 옷, 그리고 대형 쓰레기가 있습니다.",
+          "indonesian": "Di Korea, sampah harus dipisahkan berdasarkan jenisnya saat dibuang. Jenis sampah tersebut antara lain sampah umum, sisa makanan, bahan daur ulang, pakaian bekas, dan sampah berukuran besar."
+        },
+        {
+          "korean": "일반쓰레기는 종량제 봉투에 넣어서 버립니다. 버리는 날짜와 장소는 정해져 있는데 지역마다 다릅니다. 종량제 봉투는 마트 나 편의점, 슈퍼마켓에서 살 수 있는데 5ℓ, 10ℓ, 20ℓ, 30ℓ, 50ℓ, 75ℓ짜리가 있습니다.",
+          "indonesian": "Sampah umum dibuang ke kantong sampah khusus. Tanggal dan lokasi pembuangan sudah ditentukan, dan berbeda-beda di setiap wilayah. Kantong sampah khusus dapat dibeli di supermarket atau toko serba ada, dan tersedia dalam ukuran 5ℓ, 10ℓ, 20ℓ, 30ℓ, 50ℓ, dan 75ℓ."
+        },
+        {
+          "korean": "음식물 쓰레기는 최대한 물기를 제거한 후 버려야 합니다. 닭 뼈나 달걀 껍데기와 같이 동물이 먹을 수 없는 것은 일반쓰레기 로 분리해서 버려야 합니다. 음식물 쓰레기는 음식물 쓰레기 수 거통에 버리거나, 수거통이 없을 경우 음식물 쓰레기봉투에 담 아서 버리면 됩니다.",
+          "indonesian": "Limbah makanan harus dihilangkan sebanyak mungkin cairannya sebelum dibuang. Barang-barang seperti tulang ayam atau kulit telur yang tidak dapat dimakan hewan harus dipisahkan sebagai sampah umum. Sampah makanan harus dibuang ke tempat sampah makanan atau, jika tidak ada tempat sampah, ke dalam kantong sampah makanan"
+        },
+        {
+          "korean": "재활용품의 종류로는 플라스틱, 비닐, 종이, 캔, 빈 병이 있습니다. 재활용품은 종류 별로 분리해서 버리면 됩니다.",
+          "indonesian": "Barang yang dapat didaur ulang antara lain plastik, vinil, kertas, kaleng, dan botol kosong. Ini harus dipisahkan berdasarkan jenisnya ketika dibuang."
+        },
+        {
+          "korean": "헌 옷이나 신발, 가방, 담요와 같은 것은 의류 수거함에 버려 야 하는데, 의류 수거함은 보통 행정복지센터 앞이나 주택가의 골목, 아파트의 쓰레기 수거장 안에 있습니다.",
+          "indonesian": "Pakaian, sepatu, tas, dan selimut bekas sebaiknya dibuang ke tempat pengumpulan pakaian yang biasanya terdapat di depan pusat komunitas, di gang pemukiman, atau di tempat pembuangan sampah kompleks apartemen."
+        },
+        {
+          "korean": "대형 쓰레기는 책상이나 침대, 냉장고, 텔레비전과 같이 큰 쓰레기를 말합니다. 대형 쓰레기를 버릴 때는 폐기물 스티커를 붙인 후 집 앞에 버려야 합니다. 스티커 비용은 쓰레기의 크기 와 무게에 따라 다르며, 행정복지센터에서 구매할 수 있습니다.",
+          "indonesian": "Sampah berukuran besar seperti meja, tempat tidur, lemari es, dan televisi dianggap sebagai sampah besar. Saat membuang sampah berukuran besar, stiker pembuangan harus ditempel sebelum ditempatkan di luar rumah. Harga stiker bervariasi berdasarkan ukuran dan berat barang dan dapat dibeli di pusat komunitas."
+        },
+        {
+          "korean": "유리 종이 캔 플라스틱 •  쓰레기 버리는 법에 대해 묻고 답할 수 있다. Mampu bertanya dan menjawab mengenai cara",
+          "indonesian": "membuang sampah • •"
+        }
+      ]
+    }
+  ]
+}

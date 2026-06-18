@@ -1,0 +1,28 @@
+{
+  "chapter": 45,
+  "sections": [
+    {
+      "title": "스마트팜 (Smart Farm)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "스마트팜은 농업에 정보통신기술(ICT)을 접목하여 농작물을 효율적으로 관리하는 농업 시스템입니다.  스마트팜은 농작물의 생산성을 향상시키고 노동력을 절감하게 해 주며 친환경 농업을 실현하는 데 도움을 줍니다. 스마트팜은 딸기, 수박 등의 과일류 부터 상추, 청경채 등의 채소류와 바질, 로즈마리 등의 허브류에 이르기까지 다양한 농작물을 재배하는 데 활용되고 있으며 미래 농업의 중요한 요소로 더욱 주목받고 있습니다.",
+          "indonesian": "Pertanian pintar memanfaatkan Teknologi Informasi dan Komunikasi (TIK) untuk mengelola tanaman secara efisien. Mereka meningkatkan produktivitas, mengurangi kebutuhan tenaga kerja, dan mempromosikan praktik pertanian ramah lingkungan. Dari stroberi, semangka, dan buah-buahan lainnya hingga sayuran seperti selada dan bokchoy, dan bahkan tanaman herbal seperti kemangi dan rosemary, pertanian cerdas digunakan untuk menanam berbagai macam tanaman. Mereka semakin diakui sebagai komponen kunci pertanian masa depan."
+        },
+        {
+          "korean": "스마트팜은 농작물의 성장 환경을 관리하기 위하여 센서와 네 트워크 기술을 활용하고, 성장 조건을 최적화하기 위하여 빅데이 터와 인공지능 기술을 활용합니다. 이와 같은 스마트팜 기술은 농작물의 수확량과 품질을 향상시키고 자원을 효율적으로 관리 할 수 있도록 해 줍니다.",
+          "indonesian": "Pertanian pintar menggunakan sensor dan teknologi jaringan untuk mengelola lingkungan pertumbuhan tanaman dan memanfaatkan data besar dan kecerdasan buatan untuk mengoptimalkan kondisi pertumbuhan. Teknologi ini meningkatkan hasil dan kualitas tanaman, serta memungkinkan pengelolaan sumber daya yang efisien."
+        },
+        {
+          "korean": "한국은 스마트팜 분야에서 빠르게 성장하고 있는 국가 중 하나입니다. 한국 정부는 스마트팜을 미래 농업의 핵 심 분야로 인식하고, 다양한 정책으로 스마트팜의 보급과 발전을 지원하고 있습니다. 그 결과 스마트팜 기술이 빠르게 보급되고 있으며, 스마트팜 농업의 시장 규모도 2021년 이후 연평균 약 15% 정도의 성장률을 보일 정도 로 크게 확대되었습니다.",
+          "indonesian": "Korea Selatan telah mengalami kemajuan pesat dalam sektor pertanian cerdas. Pemerintah mengakui pertanian cerdas sebagai bidang utama pertanian masa depan dan mendukung perluasan dan pengembangannya melalui berbagai kebijakan. Hasilnya, teknologi pertanian cerdas menyebar dengan cepat, dan pasar pertanian cerdas mengalami pertumbuhan yang signifikan, dengan tingkat pertumbuhan tahunan sekitar 15% sejak tahun 2021."
+        },
+        {
+          "korean": "스마트팜",
+          "indonesian": "Peternakan Cerdas"
+        }
+      ]
+    }
+  ]
+}

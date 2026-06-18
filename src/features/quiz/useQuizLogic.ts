@@ -86,7 +86,7 @@ const useQuizLogic = (
     } else {
       setQuizStatus(QuizStatus.FINISHED);
     }
-  }, [questions, currentQuestionIndex, words, addIncorrectAnswer]);
+  }, [questions, currentQuestionIndex, addIncorrectAnswer, markWordAsRemembered, markWordAsForgotten]);
 
   const handleRestart = useCallback(() => {
     prepareQuiz(questions.length); // Restart with the same number of questions

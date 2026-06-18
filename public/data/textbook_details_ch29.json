@@ -1,0 +1,305 @@
+{
+  "chapter": 29,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "다리를\t꼬다",
+          "indonesian": "Duduk menyilangkan kaki",
+          "image": "/images/textbook/ch29/v1_0_다리를_꼬다.jpg"
+        },
+        {
+          "korean": "또",
+          "indonesian": "lagi / juga",
+          "image": null
+        },
+        {
+          "korean": "밥그릇",
+          "indonesian": "Mangkuk nasi, mangkuk nasi",
+          "image": "/images/textbook/ch29/v1_2_밥그릇.jpg"
+        },
+        {
+          "korean": "소리를\t내다",
+          "indonesian": "Mengeluarkan suara keras",
+          "image": "/images/textbook/ch29/v1_3_소리를_내다.jpg"
+        },
+        {
+          "korean": "수저",
+          "indonesian": "Sendok sumpit",
+          "image": "/images/textbook/ch29/v1_4_수저.jpg"
+        },
+        {
+          "korean": "실수(하다)",
+          "indonesian": "Kesalahan",
+          "image": null
+        },
+        {
+          "korean": "앉다",
+          "indonesian": "Duduk, duduk",
+          "image": "/images/textbook/ch29/v1_6_앉다.jpg"
+        },
+        {
+          "korean": "어른",
+          "indonesian": "Orang tua, orang yang lebih tua, orang dewasa, orang tua",
+          "image": "/images/textbook/ch29/v1_7_어른.jpg"
+        },
+        {
+          "korean": "예의에\t어긋나다",
+          "indonesian": "Tidak ada sopan santun",
+          "image": null
+        },
+        {
+          "korean": "인사(하다)",
+          "indonesian": "Salam",
+          "image": "/images/textbook/ch29/v1_9_인사(하다).jpg"
+        },
+        {
+          "korean": "자리",
+          "indonesian": "Tempat duduk, tempat",
+          "image": null
+        },
+        {
+          "korean": "지키다",
+          "indonesian": "Menaati, menepati, menjaga, mematuhi, Menjaga",
+          "image": null
+        },
+        {
+          "korean": "코를\t풀다",
+          "indonesian": "Mengeluarkan ingus",
+          "image": "/images/textbook/ch29/v1_12_코를_풀다.jpg"
+        },
+        {
+          "korean": "행동",
+          "indonesian": "Tindakan, Perilaku, tindakan",
+          "image": null
+        },
+        {
+          "korean": "흔들다",
+          "indonesian": "Menggoyangkan, Melambaikan",
+          "image": "/images/textbook/ch29/v1_14_흔들다.jpg"
+        },
+        {
+          "korean": "공공장소",
+          "indonesian": "Tempat umum, tempat umum",
+          "image": null
+        },
+        {
+          "korean": "구역",
+          "indonesian": "Area, area",
+          "image": "/images/textbook/ch29/v1_16_구역.jpg"
+        },
+        {
+          "korean": "금연(하다)",
+          "indonesian": "Dilarang merokok",
+          "image": "/images/textbook/ch29/v1_17_금연(하다).jpg"
+        },
+        {
+          "korean": "금지(하다)",
+          "indonesian": "Larangan",
+          "image": "/images/textbook/ch29/v1_18_금지(하다).jpg"
+        },
+        {
+          "korean": "길",
+          "indonesian": "Jalan, jalan",
+          "image": "/images/textbook/ch29/v1_19_길.jpg"
+        },
+        {
+          "korean": "담배꽁초",
+          "indonesian": "Membuang punting rokok",
+          "image": "/images/textbook/ch29/v1_20_담배꽁초.jpg"
+        },
+        {
+          "korean": "담배를\t피우다",
+          "indonesian": "Merokok, merokok",
+          "image": "/images/textbook/ch29/v1_21_담배를_피우다.jpg"
+        },
+        {
+          "korean": "도서관",
+          "indonesian": "Perpustakaan, perpustakaan",
+          "image": "/images/textbook/ch29/v1_22_도서관.jpg"
+        },
+        {
+          "korean": "떠들다",
+          "indonesian": "Gaduh, berteriak",
+          "image": "/images/textbook/ch29/v1_23_떠들다.jpg"
+        },
+        {
+          "korean": "뛰어다니다",
+          "indonesian": "Berlari, berlari",
+          "image": "/images/textbook/ch29/v1_24_뛰어다니다.jpg"
+        },
+        {
+          "korean": "만지다",
+          "indonesian": "Menyentuh, menyentuh",
+          "image": "/images/textbook/ch29/v1_25_만지다.jpg"
+        },
+        {
+          "korean": "먼저",
+          "indonesian": "Lebih dulu, Terlebih dahulu, lebih dulu, Pertama",
+          "image": "/images/textbook/ch29/v1_26_먼저.jpg"
+        },
+        {
+          "korean": "무단\t횡단(하다)",
+          "indonesian": "Menyebrang sembarangan",
+          "image": "/images/textbook/ch29/v1_27_무단_횡단(하다).jpg"
+        },
+        {
+          "korean": "박물관",
+          "indonesian": "Museum, museum",
+          "image": "/images/textbook/ch29/v1_28_박물관.jpg"
+        },
+        {
+          "korean": "반입(하다)",
+          "indonesian": "Bahasa formal",
+          "image": "/images/textbook/ch29/v1_29_반입(하다).jpg"
+        },
+        {
+          "korean": "새치기(하다)",
+          "indonesian": "Menyerobot antrian",
+          "image": "/images/textbook/ch29/v1_30_새치기(하다).jpg"
+        },
+        {
+          "korean": "신호",
+          "indonesian": "Melanggar rambu lalu lintas",
+          "image": "/images/textbook/ch29/v1_31_신호.jpg"
+        },
+        {
+          "korean": "예절",
+          "indonesian": "tata krama, etiket",
+          "image": null
+        },
+        {
+          "korean": "위반(하다)",
+          "indonesian": "Melanggar rambu lalu lintas",
+          "image": "/images/textbook/ch29/v1_33_위반(하다).jpg"
+        },
+        {
+          "korean": "잠깐",
+          "indonesian": "Sebentar, sebentar",
+          "image": "/images/textbook/ch29/v1_34_잠깐.jpg"
+        },
+        {
+          "korean": "전시품",
+          "indonesian": "Dilarang menyentuh",
+          "image": "/images/textbook/ch29/v1_35_전시품.jpg"
+        },
+        {
+          "korean": "주차(하다)",
+          "indonesian": "Parker",
+          "image": "/images/textbook/ch29/v1_36_주차(하다).jpg"
+        },
+        {
+          "korean": "침을\t뱉다",
+          "indonesian": "Meludah, meludah",
+          "image": "/images/textbook/ch29/v1_37_침을_뱉다.jpg"
+        },
+        {
+          "korean": "흡연(하다)",
+          "indonesian": "Area merokok",
+          "image": "/images/textbook/ch29/v1_38_흡연(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "경기장",
+          "indonesian": "Stadion, lapangan pertandingan, stadion",
+          "image": "/images/textbook/ch29/v2_0_경기장.jpg"
+        },
+        {
+          "korean": "관중",
+          "indonesian": "Penonton",
+          "image": "/images/textbook/ch29/v2_1_관중.jpg"
+        },
+        {
+          "korean": "관중석",
+          "indonesian": "Tribun Penonton",
+          "image": "/images/textbook/ch29/v2_2_관중석.jpg"
+        },
+        {
+          "korean": "예매(하다)",
+          "indonesian": "Memesan",
+          "image": "/images/textbook/ch29/v2_3_예매(하다).jpg"
+        },
+        {
+          "korean": "유니폼",
+          "indonesian": "seragam",
+          "image": "/images/textbook/ch29/v2_4_유니폼.jpg"
+        },
+        {
+          "korean": "응원(하다)",
+          "indonesian": "mendukung / menyemangati",
+          "image": "/images/textbook/ch29/v2_5_응원(하다).jpg"
+        },
+        {
+          "korean": "응원가",
+          "indonesian": "Lagu penyemangat",
+          "image": "/images/textbook/ch29/v2_6_응원가.jpg"
+        },
+        {
+          "korean": "응원단",
+          "indonesian": "pemandu sorak / tim pendukung",
+          "image": "/images/textbook/ch29/v2_7_응원단.jpg"
+        },
+        {
+          "korean": "인기",
+          "indonesian": "Popularitas",
+          "image": "/images/textbook/ch29/v2_8_인기.jpg"
+        },
+        {
+          "korean": "입장권",
+          "indonesian": "tiket masuk",
+          "image": "/images/textbook/ch29/v2_9_입장권.jpg"
+        },
+        {
+          "korean": "클럽",
+          "indonesian": "klub / perkumpulan",
+          "image": "/images/textbook/ch29/v2_10_클럽.jpg"
+        },
+        {
+          "korean": "팀",
+          "indonesian": "tim",
+          "image": "/images/textbook/ch29/v2_11_팀.jpg"
+        },
+        {
+          "korean": "팬",
+          "indonesian": "penggemar (fans)",
+          "image": "/images/textbook/ch29/v2_12_팬.jpg"
+        },
+        {
+          "korean": "프로",
+          "indonesian": "Program pendidikan, program pendidikan",
+          "image": "/images/textbook/ch29/v2_13_프로.jpg"
+        }
+      ]
+    },
+    {
+      "title": "한국의 예절 (Tata Krama Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "다른 사람에게 피해를 주지 않고, 서로 조화롭게 살기 위해서는 공공 생활 예절을 지켜야 합니다. 대중교통을 이용할 때는 큰 소리로 이야기하거나 시끄 럽게 전화 통화를 해서는 안 됩니다. 그리고 교통 약자를 위해 지정된 자리에 는 되도록 앉지 말아야 합니다. 버스나 지하철에서 다리를 벌리고 앉거나 냄새 가 나는 음식을 먹는 것도 다른 사람에게 피해를 주는 행동입니다.",
+          "indonesian": "Untuk  hidup  secara  harmonis  tanpa  menyebabkan  ketidaknyamanan  bagi orang  lain, penting  untuk  mematuhi  etika  publik.  Saat  menggunakan transportasi umum, jangan berbicara dengan suara keras atau menelepon dengan berisik. Selain itu, usahakan untuk tidak duduk di kursi yang disediakan untuk penyandang disabilitas atau orang tua. Di dalam bus atau kereta bawah tanah, duduk dengan kaki melebar atau makan makanan yang berbau menyengat adalah tindakan yang menyebabkan ketidaknyamanan bagi orang lain."
+        },
+        {
+          "korean": "아파트나 원룸 같은 공동 주택에 사는 경우에는 이웃에게 피해를 주지 않도 록 더욱 신경을 써야 합니다. 집안에서는 되도록 뛰지 말아야 하고, 늦은 밤이 나 이른 아침에 청소기나 세탁기를 사용해서는 안 됩니다. 음악이나 TV를 크 게 틀어 놓는 것도 예의 없는 행동입니다. 특히 베란다나 화장실에서 담배를 피우는 행위는 이웃에게 피해를 줄 수 있기 때문에 항상 조심해야 합니다.",
+          "indonesian": "Jika Anda tinggal di tempat tinggal bersama seperti apartemen bertingkat atau apartemen studio,Anda harus lebih berhati-hati agar tidak mengganggu tetangga Anda. Cobalah untuk tidak berlaridi dalam rumah Anda, dan hindari menggunakan penyedot debu atau mesin cucipada larut malam atau dini hari. Memutar musik keras atau menyetel TV dengan volumevolume tinggi juga dianggap sebagai perilaku yang tidak sopan. Merokok di balkon atau di dalam kamar mandi dapat menyebabkan masalah bagi tetangga, jadi Anda harus selalu berhati-hati."
+        },
+        {
+          "korean": "한편 박물관이나 미술관 등 공공시설을 이용할 때는 항상 차례를 지켜 줄을 서고, 어르신이나 임산부를 먼저 배려하는 자세가 필요합니다.",
+          "indonesian": "Ketika menggunakan fasilitas umum seperti museum atau galeri, selalu tunggu giliran Andaantrean, dan perhatikan para lansia dan mereka yang sedang hamil."
+        },
+        {
+          "korean": "공공 생활 예절",
+          "indonesian": "Etika di Tempat Umum \u0007 •"
+        }
+      ]
+    }
+  ]
+}

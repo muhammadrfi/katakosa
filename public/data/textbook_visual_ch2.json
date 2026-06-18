@@ -1,0 +1,50 @@
+{
+  "chapter": 2,
+  "sections": [
+    {
+      "title": "Kosakata 1: Barang Kantor / ATK (사무실 물건)",
+      "type": "vocab",
+      "main_image": "/images/textbook/ch2_vocab1.jpg",
+      "items": [
+        { "korean": "연필", "indonesian": "pensil", "image": "/images/textbook/ch2/ch2_auto_1_0.jpg" },
+        { "korean": "볼펜", "indonesian": "pulpen / pena", "image": "/images/textbook/ch2/ch2_auto_1_1.jpg" },
+        { "korean": "가위", "indonesian": "gunting", "image": "/images/textbook/ch2/ch2_auto_1_2.jpg" },
+        { "korean": "칼", "indonesian": "pisau cutter", "image": "/images/textbook/ch2/ch2_auto_1_3.jpg" },
+        { "korean": "시계", "indonesian": "jam", "image": "/images/textbook/ch2/ch2_auto_1_4.jpg" },
+        { "korean": "달력", "indonesian": "kalender", "image": "/images/textbook/ch2/ch2_auto_1_5.jpg" },
+        { "korean": "컴퓨터", "indonesian": "komputer", "image": "/images/textbook/ch2/ch2_auto_1_7.jpg" },
+        { "korean": "안경", "indonesian": "kacamata", "image": "/images/textbook/ch2/ch2_auto_1_8.jpg" },
+        { "korean": "휴대폰", "indonesian": "HP / telepon genggam", "image": "/images/textbook/ch2/ch2_auto_1_9.jpg" },
+        { "korean": "휴대전화", "indonesian": "handphone / HP", "image": "/images/textbook/ch2/ch2_auto_1_9.jpg" },
+        { "korean": "계산기", "indonesian": "kalkulator", "image": null },
+        { "korean": "컵", "indonesian": "cangkir / gelas", "image": null },
+        { "korean": "이것", "indonesian": "ini (benda)", "image": null },
+        { "korean": "저것", "indonesian": "itu (benda jauh)", "image": null },
+        { "korean": "그것", "indonesian": "itu (benda dekat)", "image": null },
+        { "korean": "무엇", "indonesian": "apa", "image": null },
+        { "korean": "뭐", "indonesian": "apa", "image": null },
+        { "korean": "물건", "indonesian": "barang / benda", "image": null }
+      ]
+    },
+    {
+      "title": "Kosakata 2: Barang Kebutuhan Sehari-hari (생활용품)",
+      "type": "vocab",
+      "main_image": "/images/textbook/ch2_vocab2.jpg",
+      "items": [
+        { "korean": "휴지", "indonesian": "tisu", "image": "/images/textbook/ch2/ch2_auto_2_0.jpg" },
+        { "korean": "가족사진", "indonesian": "foto keluarga", "image": "/images/textbook/ch2/ch2_auto_2_1.jpg" },
+        { "korean": "여권", "indonesian": "paspor", "image": "/images/textbook/ch2/ch2_auto_2_2.jpg" },
+        { "korean": "지갑", "indonesian": "dompet", "image": "/images/textbook/ch2/ch2_auto_2_3.jpg" },
+        { "korean": "열쇠", "indonesian": "kunci", "image": "/images/textbook/ch2/ch2_auto_2_4.jpg" },
+        { "korean": "가방", "indonesian": "tas", "image": "/images/textbook/ch2/ch2_auto_2_5.jpg" },
+        { "korean": "우산", "indonesian": "payung", "image": "/images/textbook/ch2/ch2_auto_2_6.jpg" },
+        { "korean": "베개", "indonesian": "bantal", "image": "/images/textbook/ch2/ch2_auto_2_7.jpg" },
+        { "korean": "거울", "indonesian": "cermin", "image": "/images/textbook/ch2/ch2_auto_2_8.jpg" },
+        { "korean": "빗", "indonesian": "sisir", "image": "/images/textbook/ch2/ch2_auto_2_9.jpg" },
+        { "korean": "화장품", "indonesian": "kosmetik", "image": "/images/textbook/ch2/ch2_auto_2_10.jpg" },
+        { "korean": "이불", "indonesian": "selimut", "image": "/images/textbook/ch2/ch2_auto_2_11.jpg" },
+        { "korean": "생활용품", "indonesian": "kebutuhan sehari-hari", "image": null }
+      ]
+    }
+  ]
+}

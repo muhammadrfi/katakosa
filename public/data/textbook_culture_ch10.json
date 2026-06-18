@@ -1,0 +1,28 @@
+{
+  "chapter": 10,
+  "sections": [
+    {
+      "title": "무인 판매점 (Toko Tanpa Pegawai)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "무인 판매점은 사람이 직접 판매를 하지 않고, 자동화된 시스템을 통해 상품을 판매하는 가게입니다. 보통 고 객이 원하는 상품을 선택한 후 카드나 스마트폰을 이용하여 직접 결제하는 방식으로 운영됩니다. 그러나 고급화 된 센서, 카메라, RFID (Radio Frequency Identification) 기술 등을 활용한 매장에서는 고객이 모바일 앱으로 QR 코드를 스캔하여 사전 결제를 하면 상품이 나오는 방식으로 운영되기도 합니다.",
+          "indonesian": "Toko tanpa pegawai adalah toko di mana barang-barang dijual melalui sistem otomatis tanpa keterlibatan langsung manusia. Pelanggan biasanya memilih produk yang mereka inginkan dan membayar menggunakan kartu atau smartphone. Di toko-toko yang lebih canggih yang menggunakan sensor, kamera, dan teknologi RFID, pelanggan memindai kode QR dengan aplikasi seluler dan membuat prabayar, setelah produk tersebut dikeluarkan."
+        },
+        {
+          "korean": "무인 판매점은 무인 슈퍼, 무인 편의점처럼 음료수, 과자, 컵라면, 생필품 등 다양한 종류의 상품을 판매하는 곳 도 있고, 무인 생수 판매점, 무인 계란 판매점, 무인 아이스크림 판매점, 무인 라면 판매점, 무인 과일 판매점, 무인 문구점과 같이 특정 상품만을 취급하는 곳도 있습니다. 이 외에도 무인 세탁소와 무인 카페, 무인 골프장 등 무인 으로 서비스를 제공하는 곳도 있습니다.",
+          "indonesian": "Ada berbagai jenis toko tanpa pegawai seperti supermarket tanpa pegawai dan toko tanpa pegawai yang menjual minuman, makanan ringan, mie instan dan kebutuhan sehari-hari. Ada juga toko khusus barang tertentu seperti toko air tanpa pegawai, toko telur tanpa pegawai, toko es krim tanpa pegawai, toko mie tanpa pegawai, toko buah tanpa pegawai, dan toko alat tulis tanpa pegawai. Layanan tanpa pegawai lainnya termasuk binatu tanpa pegawai, kafe tanpa pegawai, dan pusat golf tanpa pegawai."
+        },
+        {
+          "korean": "이러한 무인 판매점은 24시간 운영되고 있어 언제든지 필요할 때에 이용할 수 있다는 장점이 있습니다. 또한 외 국인처럼 언어 장벽이 있는 사람들도 자유롭고 간편하게 이용할 수 있습니다.",
+          "indonesian": "Toko-toko tanpa pegawai ini beroperasi 24 jam, membuatnya nyaman digunakan kapan saja. Orang asing dan orang lain yang memiliki kendala bahasa juga dapat menggunakan toko- toko ini dengan bebas dan nyaman."
+        },
+        {
+          "korean": "물건 물 건 구 입 구입",
+          "indonesian": "MEMBELI BARANG"
+        }
+      ]
+    }
+  ]
+}

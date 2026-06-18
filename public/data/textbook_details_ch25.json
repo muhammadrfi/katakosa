@@ -1,0 +1,262 @@
+{
+  "chapter": 25,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "고급",
+          "indonesian": "tingkat mahir, mewah",
+          "image": "/images/textbook/ch25/v1_0_고급.jpg"
+        },
+        {
+          "korean": "교육(하다)",
+          "indonesian": "Pendidikan, Pelatihan, pendidikan",
+          "image": null
+        },
+        {
+          "korean": "기간",
+          "indonesian": "waktu, periode, masa",
+          "image": "/images/textbook/ch25/v1_2_기간.jpg"
+        },
+        {
+          "korean": "내용",
+          "indonesian": "isi",
+          "image": "/images/textbook/ch25/v1_3_내용.jpg"
+        },
+        {
+          "korean": "다",
+          "indonesian": "Semua, semua",
+          "image": null
+        },
+        {
+          "korean": "맞다",
+          "indonesian": "Benar, benar, terkena (pukulan), terkena",
+          "image": null
+        },
+        {
+          "korean": "모집(하다)",
+          "indonesian": "Penerimaan, pendaftaran, perekrutan tenaga kerja",
+          "image": null
+        },
+        {
+          "korean": "문의(하다)",
+          "indonesian": "mencari informasi",
+          "image": "/images/textbook/ch25/v1_7_문의(하다).jpg"
+        },
+        {
+          "korean": "문화",
+          "indonesian": "budaya",
+          "image": "/images/textbook/ch25/v1_8_문화.jpg"
+        },
+        {
+          "korean": "방문\t접수",
+          "indonesian": "Pendaftaran langsung",
+          "image": null
+        },
+        {
+          "korean": "방법",
+          "indonesian": "cara, metode",
+          "image": "/images/textbook/ch25/v1_10_방법.jpg"
+        },
+        {
+          "korean": "법률",
+          "indonesian": "hukum",
+          "image": "/images/textbook/ch25/v1_11_법률.jpg"
+        },
+        {
+          "korean": "상담(하다)",
+          "indonesian": "konsultasi",
+          "image": "/images/textbook/ch25/v1_12_상담(하다).jpg"
+        },
+        {
+          "korean": "안전",
+          "indonesian": "keamanan, keselamatan",
+          "image": "/images/textbook/ch25/v1_13_안전.jpg"
+        },
+        {
+          "korean": "여러",
+          "indonesian": "Beberapa",
+          "image": null
+        },
+        {
+          "korean": "준비반",
+          "indonesian": "kelas persiapan",
+          "image": null
+        },
+        {
+          "korean": "중급",
+          "indonesian": "tingkat menengah",
+          "image": null
+        },
+        {
+          "korean": "체험(하다)",
+          "indonesian": "pengalaman",
+          "image": "/images/textbook/ch25/v1_17_체험(하다).jpg"
+        },
+        {
+          "korean": "초급",
+          "indonesian": "tingkat pemula",
+          "image": null
+        },
+        {
+          "korean": "프로그램",
+          "indonesian": "program",
+          "image": null
+        },
+        {
+          "korean": "한국어",
+          "indonesian": "Bahasa Korea, bahasa korea",
+          "image": null
+        },
+        {
+          "korean": "회화",
+          "indonesian": "Percakapan tingkat dasar, menengah, dan lanjutan",
+          "image": "/images/textbook/ch25/v1_21_회화.jpg"
+        },
+        {
+          "korean": "훈련(하다)",
+          "indonesian": "melatih / berlatih",
+          "image": "/images/textbook/ch25/v1_22_훈련(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "갖다주다",
+          "indonesian": "membawa",
+          "image": "/images/textbook/ch25/v2_0_갖다주다.jpg"
+        },
+        {
+          "korean": "걱정(하다)",
+          "indonesian": "Khawatir, khawatir",
+          "image": "/images/textbook/ch25/v2_1_걱정(하다).jpg"
+        },
+        {
+          "korean": "대상",
+          "indonesian": "Penghargaan utama, target",
+          "image": null
+        },
+        {
+          "korean": "떨리다",
+          "indonesian": "Merasa gugup",
+          "image": "/images/textbook/ch25/v2_3_떨리다.jpg"
+        },
+        {
+          "korean": "모든",
+          "indonesian": "semua",
+          "image": null
+        },
+        {
+          "korean": "무료",
+          "indonesian": "Gratis, gratis",
+          "image": "/images/textbook/ch25/v2_5_무료.jpg"
+        },
+        {
+          "korean": "분야",
+          "indonesian": "bidang, sektor, area",
+          "image": null
+        },
+        {
+          "korean": "서비스",
+          "indonesian": "servis, layanan",
+          "image": "/images/textbook/ch25/v2_7_서비스.jpg"
+        },
+        {
+          "korean": "수업",
+          "indonesian": "Pelajaran, pelajaran",
+          "image": "/images/textbook/ch25/v2_8_수업.jpg"
+        },
+        {
+          "korean": "시상내용",
+          "indonesian": "rincian penghargaan / hadiah",
+          "image": null
+        },
+        {
+          "korean": "인기상",
+          "indonesian": "penghargaan kepopuleran",
+          "image": null
+        },
+        {
+          "korean": "자원\t봉사",
+          "indonesian": "Menjadi sukarelawan",
+          "image": "/images/textbook/ch25/v2_11_자원_봉사.jpg"
+        },
+        {
+          "korean": "증정(하다)",
+          "indonesian": "memberikan (hadiah) / menyumbang",
+          "image": null
+        },
+        {
+          "korean": "참가(하다)",
+          "indonesian": "ikut serta / berpartisipasi",
+          "image": null
+        },
+        {
+          "korean": "참가대상",
+          "indonesian": "Peserta yang memenuhi syarat",
+          "image": null
+        },
+        {
+          "korean": "참가자",
+          "indonesian": "peserta",
+          "image": null
+        },
+        {
+          "korean": "참여(하다)",
+          "indonesian": "Berpartisipasi, hadir",
+          "image": "/images/textbook/ch25/v2_16_참여(하다).jpg"
+        },
+        {
+          "korean": "통역(하다)",
+          "indonesian": "terjemah, terjemahan",
+          "image": "/images/textbook/ch25/v2_17_통역(하다).jpg"
+        },
+        {
+          "korean": "행사",
+          "indonesian": "Acara, perayaan, acara",
+          "image": "/images/textbook/ch25/v2_18_행사.jpg"
+        }
+      ]
+    },
+    {
+      "title": "외국인 근로자 지원기관 (Pusat Dukungan Tenaga Kerja Asing)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "외국인력상담센터",
+          "indonesian": "Pusat Konseling Tenaga Kerja Asing"
+        },
+        {
+          "korean": "외국인력상담센터는 고용허가제로 입국한 외국인 근로자 와 이들을 고용한 사업주를 위한 기관입니다. 외국인 근로자 의 언어소통 및 체류와 귀국 등에 관한 상담 서비스를 제공하 기 위해 고용노동부와 한국산업인력공단이 함께 설립하였습 니다. 한국 생활 적응에 어려움을 겪고 있거나 사업주와의 갈 등 시 언어 문제 등으로 어려움을 겪는 외국인 근로자들이 이 용할 수 있습니다. 특히 농촌 지역과 중소 도시 등 도시에서 떨 어져 있는 지역의 외국인 근로자에게 체계적이고 효율적인 서 비스를 제공합니다. 또한 외국인 근로자의 권익 보호와 사회 안전망 구축에 꾸준히 힘쓰고 있습니다. 그리고 다양한 외국 어로 서비스되고 있어 한국어를 잘 모르는 근로자들도 쉽게 도움을 받을 수 있습니다. 전화 상담은 홈페이지(www. hugkorea.or.kr)를 통해서 안내받을 수 있습니다.",
+          "indonesian": "Pusat Konseling Pekerja Asing adalah lembaga untuk pekerja asing yang telah memasuki Korea melalui Sistem Izin Kerja dan pemberi kerja yang mempekerjakan mereka. Lembaga ini didirikan oleh Kementerian Ketenagakerjaan dan Tenaga Kerja bersama Layanan Pengembangan Sumber Daya Manusia Korea untuk memberikan layanan konseling terkait komunikasi bahasa, masa tinggal di Korea, dan kepulangan ke negara asal bagi pekerja asing. Layanan ini tersedia bagi pekerja asing yang kesulitan beradaptasi dengan kehidupan di Korea atau menghadapi kesulitan dengan majikan karena masalah bahasa. Pusat ini menawarkan layanan yang sistematis dan efisien untuk pekerja asing di daerah pedesaan, kota kecil dan menengah, dan daerah lain yang jauh dari pusat kota. Selain itu, pusat ini juga berkomitmen untuk melindungi hak-hak pekerja asing dan membangun jaring pengaman sosial. Layanan tersedia dalam berbagai bahasa, sehingga pekerja yang tidak dapat berbahasa Korea dengan baik dapat dengan mudah menerima bantuan. Konsultasi melalui telepon dapat dilakukan melalui situs web (www.hugkorea.or.kr)."
+        },
+        {
+          "korean": "상담 전화 - 지원 언어 (한국어 포함 18개 언어): 한국어, 중국어, 베트남어, 타갈로그어 (필리핀), 영어, 타이어(태국), 인도네시아어, 싱할라어(스리랑카), 몽골어, 우즈베크어, 크메르어(캄보디아), 벵골어(방글라데시), 우르두어(파키스탄), 네팔어, 미얀마어, 키르기스어, 테툼어(동티모르), 라오어 등",
+          "indonesian": "Konsultasi Telepon - Bahasa yang Dilayani (18 bahasa termasuk Korea): Bahasa Korea, Mandarin, Vietnam, Tagalog (Filipina), Inggris, Thailand, Indonesia, Sinhala (Sri Lanka), Mongol, Uzbek, Khmer (Kamboja), Bengali (Bangladesh), Urdu (Pakistan), Nepal, Myanmar, Kirgiz, Tetum (Timor Leste), Laos, dll."
+        },
+        {
+          "korean": "•상담 시간 : 09:00 ~ 18:00",
+          "indonesian": "•Jam Konsultasi: 09:00 ~ 18:00"
+        },
+        {
+          "korean": "•전화번호 : 1577-0071",
+          "indonesian": "•Nomor Telepon: 1577-0071"
+        },
+        {
+          "korean": "•이용 방법",
+          "indonesian": "•Cara Penggunaan:"
+        },
+        {
+          "korean": "매일 오전 9시부터 오후 6시까지 상담 전화를 이용할 수 있습니다. 1577-0071을 누른 후에 국가별 번호와 별 표(*)를 누르면 상담을 받을 수 있습니다.",
+          "indonesian": "Panggilan untuk konsultasi dari pukul 09.00 hingga 18.00 setiap hari. Hubungi 1577-0071, lalu tekan kode negara dan tombol bintang (*) untuk menerima konsultasi."
+        }
+      ]
+    }
+  ]
+}

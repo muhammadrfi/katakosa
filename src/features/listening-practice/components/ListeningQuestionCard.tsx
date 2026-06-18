@@ -30,51 +30,83 @@ const ListeningQuestionCard = ({
     onNextWord
 }: ListeningQuestionCardProps) => {
     return (
-        <Card className="max-w-xl mx-auto">
-            <CardHeader>
-                <CardTitle>Pertanyaan {questionNumber} dari {totalQuestions}</CardTitle>
-                <CardDescription>Dengarkan kata berikut dan pilih terjemahan yang benar.</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-6">
-                <Button onClick={onPlaySound} disabled={isSpeaking} size="lg" className="w-full">
-                    {isSpeaking ? <Loader2 className="mr-2 h-5 w-5 animate-spin" /> : <Volume2 className="mr-2 h-5 w-5" />}
-                    Dengarkan Kata
-                </Button>
-                
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {options.map((opt) => {
-                        const isSelected = selectedAnswer?.id === opt.id;
-                        const isTheCorrectAnswer = currentWord.id === opt.id;
+        <div className="container mx-auto px-4 py-8 max-w-xl">
+            <Card className="bg-card border border-border shadow-sm rounded-2xl overflow-hidden">
+                <CardHeader className="text-center pb-4 border-b border-border/40 bg-slate-50/50 dark:bg-slate-900/30">
+                    <CardTitle className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+                        Pertanyaan {questionNumber} dari {totalQuestions}
+                    </CardTitle>
+                    <CardDescription className="text-muted-foreground mt-1">
+                        Dengarkan kata berikut dan pilih terjemahan yang benar.
+                    </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-6 p-6">
+                    {/* Audio Player Button */}
+                    <div className="flex justify-center py-4">
+                        <Button
+                            onClick={onPlaySound}
+                            disabled={isSpeaking}
+                            size="lg"
+                            className="w-full max-w-xs h-14 rounded-xl bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 dark:hover:bg-slate-200 text-white dark:text-slate-900 font-bold transition-all shadow-sm flex items-center justify-center gap-2"
+                        >
+                            {isSpeaking ? (
+                                <Loader2 className="h-5 w-5 animate-spin" />
+                            ) : (
+                                <Volume2 className="h-5 w-5" />
+                            )}
+                            Putar Suara Kata
+                        </Button>
+                    </div>
+                    
+                    {/* Options Grid */}
+                    <div className="grid grid-cols-1 gap-3">
+                        {options.map((opt) => {
+                            const isSelected = selectedAnswer?.id === opt.id;
+                            const isTheCorrectAnswer = currentWord.id === opt.id;
 
-                        return (
-                            <Button
-                                key={opt.id}
-                                variant="outline"
-                                size="lg"
-                                className={cn("justify-start text-left h-auto py-3", 
-                                    isSelected && isCorrect === true && "bg-green-100 border-green-500 text-green-800 dark:bg-green-900/50 dark:border-green-700 dark:text-green-300",
-                                    isSelected && isCorrect === false && "bg-red-100 border-red-500 text-red-800 dark:bg-red-900/50 dark:border-red-700 dark:text-red-300",
-                                    selectedAnswer && isTheCorrectAnswer && "bg-green-100 border-green-500 text-green-800 dark:bg-green-900/50 dark:border-green-700 dark:text-green-300"
-                                )}
-                                onClick={() => onAnswerSelect(opt)}
-                                disabled={!!selectedAnswer}
-                            >
-                                {opt.bahasaB}
-                                {selectedAnswer && isSelected && (isCorrect ? <CheckCircle className="ml-auto text-green-600" /> : <XCircle className="ml-auto text-red-600" />)}
-                                {selectedAnswer && !isSelected && isTheCorrectAnswer && <CheckCircle className="ml-auto text-green-600" />}
-                            </Button>
-                        )
-                    })}
-                </div>
-            </CardContent>
-            {selectedAnswer && (
-                <CardFooter>
-                    <Button onClick={onNextWord} className="w-full">
-                        {questionNumber < totalQuestions ? 'Lanjut' : 'Lihat Hasil'}
-                    </Button>
-                </CardFooter>
-            )}
-        </Card>
+                            return (
+                                <Button
+                                    key={opt.id}
+                                    variant="outline"
+                                    size="lg"
+                                    className={cn(
+                                        "justify-between text-left h-auto py-4 px-4 rounded-xl border border-border hover:bg-muted font-medium transition-all text-sm sm:text-base", 
+                                        isSelected && isCorrect === true && "bg-emerald-50 border-emerald-500 text-emerald-900 dark:bg-emerald-950/20 dark:text-emerald-300 dark:border-emerald-700 animate-scale-pulse",
+                                        isSelected && isCorrect === false && "bg-rose-50 border-rose-500 text-rose-900 dark:bg-rose-950/20 dark:text-rose-300 dark:border-rose-700 animate-shake",
+                                        selectedAnswer && isTheCorrectAnswer && "bg-emerald-50 border-emerald-500 text-emerald-900 dark:bg-emerald-950/20 dark:text-emerald-300 dark:border-emerald-700"
+                                    )}
+                                    onClick={() => onAnswerSelect(opt)}
+                                    disabled={!!selectedAnswer}
+                                >
+                                    <span>{opt.bahasaB}</span>
+                                    {selectedAnswer && isSelected && (
+                                        isCorrect ? (
+                                            <CheckCircle className="h-5 w-5 text-emerald-600 dark:text-emerald-400 shrink-0 ml-2" />
+                                        ) : (
+                                            <XCircle className="h-5 w-5 text-rose-600 dark:text-rose-400 shrink-0 ml-2" />
+                                        )
+                                    )}
+                                    {selectedAnswer && !isSelected && isTheCorrectAnswer && (
+                                        <CheckCircle className="h-5 w-5 text-emerald-600 dark:text-emerald-400 shrink-0 ml-2" />
+                                    )}
+                                </Button>
+                            );
+                        })}
+                    </div>
+                </CardContent>
+                
+                {selectedAnswer && (
+                    <CardFooter className="pb-6 px-6 border-t border-border/40 pt-4 bg-slate-50/20 dark:bg-slate-900/10">
+                        <Button
+                            onClick={onNextWord}
+                            className="w-full h-11 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold transition-all shadow-sm"
+                        >
+                            {questionNumber < totalQuestions ? 'Lanjutkan' : 'Lihat Hasil Latihan'}
+                        </Button>
+                    </CardFooter>
+                )}
+            </Card>
+        </div>
     );
 };
 

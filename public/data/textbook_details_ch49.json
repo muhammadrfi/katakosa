@@ -1,0 +1,246 @@
+{
+  "chapter": 49,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "갱구",
+          "indonesian": "pintu masuk terowongan",
+          "image": null
+        },
+        {
+          "korean": "갱도",
+          "indonesian": "terowongan tambang / koridor tambang",
+          "image": null
+        },
+        {
+          "korean": "광부",
+          "indonesian": "pekerja tambang",
+          "image": null
+        },
+        {
+          "korean": "광차",
+          "indonesian": "kereta tambang",
+          "image": null
+        },
+        {
+          "korean": "권양기",
+          "indonesian": "mesin kerek",
+          "image": null
+        },
+        {
+          "korean": "막장",
+          "indonesian": "halaman pertambangan",
+          "image": null
+        },
+        {
+          "korean": "사갱",
+          "indonesian": "Terowongan, lubang",
+          "image": null
+        },
+        {
+          "korean": "선탄장",
+          "indonesian": "tempat pencucian batu bara",
+          "image": null
+        },
+        {
+          "korean": "수갱",
+          "indonesian": "Poros drainase",
+          "image": null
+        },
+        {
+          "korean": "수평갱",
+          "indonesian": "Poros horizontal",
+          "image": null
+        },
+        {
+          "korean": "시설",
+          "indonesian": "Fasilitas, fasilitas, sarana",
+          "image": null
+        },
+        {
+          "korean": "인차",
+          "indonesian": "kereta tambang (mantrip)",
+          "image": null
+        },
+        {
+          "korean": "일손",
+          "indonesian": "Pekerja",
+          "image": null
+        },
+        {
+          "korean": "채광장",
+          "indonesian": "halaman pertambangan",
+          "image": null
+        },
+        {
+          "korean": "탄광",
+          "indonesian": "pertambangan batu bara",
+          "image": null
+        },
+        {
+          "korean": "티플링실",
+          "indonesian": "ruang tippling",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "간격",
+          "indonesian": "Jarak",
+          "image": "/images/textbook/ch49/v2_0_간격.jpg"
+        },
+        {
+          "korean": "골라내다",
+          "indonesian": "memilih kekuatan seseorang",
+          "image": "/images/textbook/ch49/v2_1_골라내다.jpg"
+        },
+        {
+          "korean": "광석",
+          "indonesian": "bijih",
+          "image": null
+        },
+        {
+          "korean": "깔다",
+          "indonesian": "Menggelar",
+          "image": "/images/textbook/ch49/v2_3_깔다.jpg"
+        },
+        {
+          "korean": "깨다",
+          "indonesian": "memecahkan",
+          "image": "/images/textbook/ch49/v2_4_깨다.jpg"
+        },
+        {
+          "korean": "덩어리",
+          "indonesian": "Benjolan",
+          "image": "/images/textbook/ch49/v2_5_덩어리.jpg"
+        },
+        {
+          "korean": "레일",
+          "indonesian": "meletakkan rel",
+          "image": "/images/textbook/ch49/v2_6_레일.jpg"
+        },
+        {
+          "korean": "바위",
+          "indonesian": "batu",
+          "image": "/images/textbook/ch49/v2_7_바위.jpg"
+        },
+        {
+          "korean": "발파(하다)",
+          "indonesian": "meledak",
+          "image": "/images/textbook/ch49/v2_8_발파(하다).jpg"
+        },
+        {
+          "korean": "버력",
+          "indonesian": "kekuatan",
+          "image": "/images/textbook/ch49/v2_9_버력.jpg"
+        },
+        {
+          "korean": "부수다",
+          "indonesian": "memecahkan batubara",
+          "image": "/images/textbook/ch49/v2_10_부수다.jpg"
+        },
+        {
+          "korean": "석탄",
+          "indonesian": "Batu bara, batubara",
+          "image": "/images/textbook/ch49/v2_11_석탄.jpg"
+        },
+        {
+          "korean": "스크레이퍼",
+          "indonesian": "Scraper, pengikis",
+          "image": "/images/textbook/ch49/v2_12_스크레이퍼.jpg"
+        },
+        {
+          "korean": "지주",
+          "indonesian": "tiang penyangga",
+          "image": "/images/textbook/ch49/v2_13_지주.jpg"
+        },
+        {
+          "korean": "착암기",
+          "indonesian": "bor batu",
+          "image": "/images/textbook/ch49/v2_14_착암기.jpg"
+        },
+        {
+          "korean": "채광",
+          "indonesian": "Penambangan dan Bijih",
+          "image": null
+        },
+        {
+          "korean": "채탄",
+          "indonesian": "penambangan batubara",
+          "image": "/images/textbook/ch49/v2_16_채탄.jpg"
+        },
+        {
+          "korean": "컨베이어",
+          "indonesian": "konveyor",
+          "image": "/images/textbook/ch49/v2_17_컨베이어.jpg"
+        },
+        {
+          "korean": "퍼 올리다",
+          "indonesian": "mengambil batu bara",
+          "image": "/images/textbook/ch49/v2_18_퍼_올리다.jpg"
+        },
+        {
+          "korean": "폭약",
+          "indonesian": "bahan peledak",
+          "image": "/images/textbook/ch49/v2_19_폭약.jpg"
+        },
+        {
+          "korean": "폭파(하다)",
+          "indonesian": "meledak",
+          "image": "/images/textbook/ch49/v2_20_폭파(하다).jpg"
+        },
+        {
+          "korean": "함마",
+          "indonesian": "palu (palu)",
+          "image": "/images/textbook/ch49/v2_21_함마.jpg"
+        }
+      ]
+    },
+    {
+      "title": "전선 접속 방법 (Metode Penyambungan Kabel Listrik)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "전선을 접속하기 전에 안전을 위하여 안전장갑을 착용하고 전원에서 전선을 분리합니다. 전선이 전원에 연결된 상태에 서 작업을 하거나 젖은 손으로 작업을 하면 감전 사고가 발생 할 수 있기 때문에 위험합니다.",
+          "indonesian": "Sebelum menyambungkan kabel listrik, kenakan sarung tangan pengaman dan lepaskan kabel dari sumber listrik demi keselamatan. Berbahaya bekerja dengan kabel yang masih tersambung ke sumber listrik atau dengan tangan basah, karena dapat menyebabkan sengatan listrik."
+        },
+        {
+          "korean": "그 다음 자를 이용하여 한쪽 전선의 끝부분에서 6cm 정도 되는 위치를 재고, 롱노즈 플라이어를 사용하여 전선 피복을 벗깁니다. 그리고 다른 전선도 동일한 방법으로 피복을 벗깁 니다.",
+          "indonesian": "Selanjutnya, gunakan penggaris untuk mengukur kira-kira 6 cm dari ujung salah satu kawat dan lepaskan insulasi menggunakan tang hidung panjang. Ulangi proses yang sama untuk kabel lainnya."
+        },
+        {
+          "korean": "다음으로 롱노즈 플라이어를 사용하여 피복을 벗겨낸 두 개의 구리선을 트위스트 방식으로 묶습니다. 두 구리선은 간 격이 생기지 않도록 촘촘하게 묶어야 하고, 다 묶은 뒤에 구리 선의 끝부분은 롱노즈 플라이어를 사용하여 깔끔하게 고정시 켜야 합니다.",
+          "indonesian": "Selanjutnya, gunakan tang berujung panjang untuk memelintir kedua kabel tembaga yang sudah dikupas menjadi satu. Kabel harus dipelintir dengan erat untuk menghindari celah, dan setelah dipelintir, ujung kabel tembaga harus diikat dengan rapi menggunakan tang hidung panjang."
+        },
+        {
+          "korean": "전선을 접속할 때는 먼저 안전장갑, 롱노즈 플라이어, 자를 준비합니다.",
+          "indonesian": "Saat menyambung kabel listrik, siapkan terlebih dahulu sarung tangan pengaman, tang hidung panjang, dan penggaris."
+        },
+        {
+          "korean": "전선",
+          "indonesian": "kabel listrik"
+        },
+        {
+          "korean": "롱 노즈 플라이어",
+          "indonesian": "tang berhidung panjang"
+        },
+        {
+          "korean": "안전장갑",
+          "indonesian": "sarung tangan keselamatan"
+        },
+        {
+          "korean": "자",
+          "indonesian": "penggaris"
+        }
+      ]
+    }
+  ]
+}

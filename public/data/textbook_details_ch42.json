@@ -1,0 +1,226 @@
+{
+  "chapter": 42,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "건",
+          "indonesian": "alat tembak (paku/lem)",
+          "image": null
+        },
+        {
+          "korean": "그라인더",
+          "indonesian": "mesin gerinda",
+          "image": "/images/textbook/ch42/v1_1_그라인더.jpg"
+        },
+        {
+          "korean": "끌",
+          "indonesian": "pahat",
+          "image": "/images/textbook/ch42/v1_2_끌.jpg"
+        },
+        {
+          "korean": "날물",
+          "indonesian": "Bilah gergaji",
+          "image": "/images/textbook/ch42/v1_3_날물.jpg"
+        },
+        {
+          "korean": "대패",
+          "indonesian": "Pasah, ketam",
+          "image": "/images/textbook/ch42/v1_4_대패.jpg"
+        },
+        {
+          "korean": "메모(하다)",
+          "indonesian": "Catatan",
+          "image": "/images/textbook/ch42/v1_5_메모(하다).jpg"
+        },
+        {
+          "korean": "목재",
+          "indonesian": "kayu",
+          "image": "/images/textbook/ch42/v1_6_목재.jpg"
+        },
+        {
+          "korean": "센티미터",
+          "indonesian": "sentimeter",
+          "image": null
+        },
+        {
+          "korean": "원목",
+          "indonesian": "Kayu",
+          "image": "/images/textbook/ch42/v1_8_원목.jpg"
+        },
+        {
+          "korean": "인치",
+          "indonesian": "Cm, mm, inchi",
+          "image": "/images/textbook/ch42/v1_9_인치.jpg"
+        },
+        {
+          "korean": "제작(하다)",
+          "indonesian": "membuat",
+          "image": null
+        },
+        {
+          "korean": "짜리",
+          "indonesian": "bernilai / senilai (dengan)",
+          "image": "/images/textbook/ch42/v1_11_짜리.jpg"
+        },
+        {
+          "korean": "클램프",
+          "indonesian": "Penjepit",
+          "image": "/images/textbook/ch42/v1_12_클램프.jpg"
+        },
+        {
+          "korean": "테이블톱",
+          "indonesian": "Gergaji meja",
+          "image": "/images/textbook/ch42/v1_13_테이블톱.jpg"
+        },
+        {
+          "korean": "폭",
+          "indonesian": "Lebar",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "곡류",
+          "indonesian": "Biji-bijian, jenis biji bijian",
+          "image": null
+        },
+        {
+          "korean": "도색(하다)",
+          "indonesian": "mengecat",
+          "image": null
+        },
+        {
+          "korean": "도장(하다)",
+          "indonesian": "Melumuri, memplitur",
+          "image": null
+        },
+        {
+          "korean": "롤러",
+          "indonesian": "rol (roller)",
+          "image": null
+        },
+        {
+          "korean": "마감재",
+          "indonesian": "Menerapkan bahan finishing",
+          "image": "/images/textbook/ch42/v2_4_마감재.jpg"
+        },
+        {
+          "korean": "메우다",
+          "indonesian": "Mengisi",
+          "image": "/images/textbook/ch42/v2_5_메우다.jpg"
+        },
+        {
+          "korean": "바니시",
+          "indonesian": "Pernis, lapisan pelindung",
+          "image": "/images/textbook/ch42/v2_6_바니시.jpg"
+        },
+        {
+          "korean": "바르다",
+          "indonesian": "Menerapkan",
+          "image": "/images/textbook/ch42/v2_7_바르다.jpg"
+        },
+        {
+          "korean": "분무기",
+          "indonesian": "alat penyemprot / sprayer",
+          "image": "/images/textbook/ch42/v2_8_분무기.jpg"
+        },
+        {
+          "korean": "붓",
+          "indonesian": "Kuas, kuas",
+          "image": "/images/textbook/ch42/v2_9_붓.jpg"
+        },
+        {
+          "korean": "뿌리다",
+          "indonesian": "Menyemprotkan obat",
+          "image": "/images/textbook/ch42/v2_10_뿌리다.jpg"
+        },
+        {
+          "korean": "사포",
+          "indonesian": "Amplas, amplas",
+          "image": null
+        },
+        {
+          "korean": "사포질(하다)",
+          "indonesian": "mengamplas",
+          "image": "/images/textbook/ch42/v2_12_사포질(하다).jpg"
+        },
+        {
+          "korean": "샌딩(하다)",
+          "indonesian": "menghaluskan kayu",
+          "image": "/images/textbook/ch42/v2_13_샌딩(하다).jpg"
+        },
+        {
+          "korean": "스프레이",
+          "indonesian": "Pistol penyemprot",
+          "image": null
+        },
+        {
+          "korean": "열풍기",
+          "indonesian": "penghembus udara panas",
+          "image": "/images/textbook/ch42/v2_15_열풍기.jpg"
+        },
+        {
+          "korean": "젯소",
+          "indonesian": "gesso (cat dasar)",
+          "image": "/images/textbook/ch42/v2_16_젯소.jpg"
+        },
+        {
+          "korean": "초벌재",
+          "indonesian": "Menerapkan mantel dasar(permukaan kayu)",
+          "image": "/images/textbook/ch42/v2_17_초벌재.jpg"
+        },
+        {
+          "korean": "칠(하다)",
+          "indonesian": "mewarnai",
+          "image": "/images/textbook/ch42/v2_18_칠(하다).jpg"
+        },
+        {
+          "korean": "퍼티",
+          "indonesian": "dempul (putty)",
+          "image": null
+        },
+        {
+          "korean": "퍼티헤라",
+          "indonesian": "Dempul",
+          "image": null
+        },
+        {
+          "korean": "페인트",
+          "indonesian": "cat",
+          "image": "/images/textbook/ch42/v2_21_페인트.jpg"
+        },
+        {
+          "korean": "홈",
+          "indonesian": "Alur",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "빌트인 가구 (Perabotan Bawaan)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "빌트인 가구는 주택이나 건물의 특정한 실내 공간에 딱 맞게 제작되어 내장되는 '붙박이 가구'를 말합니다. 옷장, 수납장, 장식장, 책장 등이 주로 빌트인으로 설치됩니다. 빌트인 가구는 사용자의 취향 및 공간의 특징에 맞추어 설계되기 때문에 공간을 효율적으로 활용할 수 있게 해 준다는 장 점이 있습니다. 또한 벽이나 바닥에 고정되어 있어 일반 가구보다 견고하 고 안정적입니다.",
+          "indonesian": "Furnitur built-in mengacu pada furnitur sesuai pesanan yang dirancang untuk dipasang dan diintegrasikan ke dalam ruang dalam ruangan tertentu di dalam rumah atau bangunan. Contohnya seperti lemari, lemari penyimpanan, lemari pajangan, dan rak buku. Furnitur built-in disesuaikan dengan preferensi pengguna dan karakteristik ruangan, sehingga menawarkan keuntungan pemanfaatan ruang yang efisien. Selain itu, karena dipasang pada dinding atau lantai, furnitur ini umumnya lebih kuat dan stabil dibandingkan furnitur yang berdiri sendiri."
+        },
+        {
+          "korean": "그러나 빌트인 가구는 설치와 철거에 비용이 많이 들고, 디자인 트렌드가 바뀌거나 더 이상 필요하지 않아도 쉽게 교체하거나 철 거하기 어렵다는 단점이 있습니다.",
+          "indonesian": "Namun, furnitur built-in memiliki kelemahan yaitu mahalnya pemasangan dan pelepasan. Selain itu, tidak mudah untuk mengganti atau membongkar jika tren desain berubah atau tidak diperlukan lagi."
+        },
+        {
+          "korean": "이러한 단점에도 불구하고 고품질의 빌트인 가구는 실내 인테리어와 조 화를 이루며 깔끔하고 현대적인 느낌을 주기 때문에 더욱 인기가 많아지고 있습니다. 최근에 지은 아파트에 고급스럽고 실용적인 빌트인 가구가 많이 설치되고 있는 것도 이 때문입니다. 또한, 최근에는 가구뿐만 아니라 에어 컨, 전기 오븐, 식기 세척기 등의 가전제품도 빌트인으로 제공되어 더욱 편 리하고 세련된 공간을 제공하고 있습니다.",
+          "indonesian": "Terlepas dari kekurangan ini, furnitur built-in berkualitas tinggi menjadi semakin populer karena selaras dengan desain interior dan memberikan tampilan yang bersih dan modern. Inilah sebabnya mengapa banyak apartemen yang baru dibangun menampilkan furnitur built-in yang mewah dan praktis. Tidak hanya furnitur, tetapi juga peralatan seperti AC, oven listrik, dan mesin pencuci piring ditawarkan sebagai opsi bawaan, sehingga memberikan lebih banyak kenyamanan dan kecanggihan pada sebuah ruangan."
+        }
+      ]
+    }
+  ]
+}

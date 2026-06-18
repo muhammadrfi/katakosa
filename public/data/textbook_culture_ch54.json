@@ -1,0 +1,84 @@
+{
+  "chapter": 54,
+  "sections": [
+    {
+      "title": "대피로 및 지시 표지 (Tanda Evakuasi & Petunjuk)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "시계 반대 방향으로 돌리면 열림",
+          "indonesian": "putar berlawanan arah jarum jam untuk membuka"
+        },
+        {
+          "korean": "왼쪽으로 밀면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan mendorong di sisi kiri"
+        },
+        {
+          "korean": "시계 방향으로 돌리면 열림",
+          "indonesian": "putar searah jarum jam untuk membuka"
+        },
+        {
+          "korean": "오른쪽으로 밀면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan mendorong di sisi kanan"
+        },
+        {
+          "korean": "오른쪽으로 미끄러져 열리는 문/오른쪽 미닫이 문",
+          "indonesian": "pintu yang terbuka dengan menggeser ke kanan"
+        },
+        {
+          "korean": "왼쪽을 당기면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan menarik sisi kirinya"
+        },
+        {
+          "korean": "왼쪽으로 미끄러져 열리는 문 /왼쪽 미닫이 문",
+          "indonesian": "pintu yang terbuka dengan menggeser ke kiri"
+        },
+        {
+          "korean": "오른쪽으로 당기면 열리는 문",
+          "indonesian": "pintu yang terbuka dengan menarik sisi kanannya"
+        },
+        {
+          "korean": "유리창을 깨고 밖으로 나갈 때 사용하는 망치",
+          "indonesian": "palu yang digunakan untuk memecahkan jendela untuk melarikan diri"
+        },
+        {
+          "korean": "위험할 때 밖으로 나갈 수 있는 사다리",
+          "indonesian": "tangga yang digunakan untuk keluar dalam keadaan darurat"
+        },
+        {
+          "korean": "탈출 사다리",
+          "indonesian": "tangga melarikan diri"
+        },
+        {
+          "korean": "비상 망치",
+          "indonesian": "palu darurat"
+        },
+        {
+          "korean": "사고가 났을 때 밖으로 나갈 수 있는 문",
+          "indonesian": "pintu yang digunakan untuk keluar jika terjadi kecelakaan"
+        },
+        {
+          "korean": "건물 안에 있는 사람을 구조하기 위해 구조대가 접근할 수 있도록 만든 창문",
+          "indonesian": "sebuah jendela yang dirancang bagi tim penyelamat untuk mengakses orang-orang di dalamnya"
+        },
+        {
+          "korean": "비상구(왼쪽)",
+          "indonesian": "pintu keluar darurat (kiri)"
+        },
+        {
+          "korean": "탈출 사다리가 있는 비상 창문",
+          "indonesian": "jendela darurat dengan tangga keluar"
+        },
+        {
+          "korean": "비상구(오른쪽)",
+          "indonesian": "pintu keluar darurat (kanan)"
+        },
+        {
+          "korean": "구조 창문",
+          "indonesian": "jendela penyelamatan"
+        }
+      ]
+    }
+  ]
+}

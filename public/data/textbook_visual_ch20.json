@@ -1,0 +1,169 @@
+{
+  "chapter": 20,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "검색(하다)",
+          "indonesian": "Mencari (Browsing)",
+          "image": "/images/textbook/ch20/v1_0_검색(하다).jpg"
+        },
+        {
+          "korean": "글",
+          "indonesian": "tulisan",
+          "image": "/images/textbook/ch20/v1_1_글.jpg"
+        },
+        {
+          "korean": "로그아웃",
+          "indonesian": "log keluar",
+          "image": "/images/textbook/ch20/v1_2_로그아웃.jpg"
+        },
+        {
+          "korean": "로그인",
+          "indonesian": "log masuk",
+          "image": "/images/textbook/ch20/v1_3_로그인.jpg"
+        },
+        {
+          "korean": "보내다",
+          "indonesian": "mengirim",
+          "image": "/images/textbook/ch20/v1_4_보내다.jpg"
+        },
+        {
+          "korean": "블로그",
+          "indonesian": "Blog, blog",
+          "image": "/images/textbook/ch20/v1_5_블로그.jpg"
+        },
+        {
+          "korean": "비밀번호",
+          "indonesian": "nomor password, password, nomor rahasia",
+          "image": "/images/textbook/ch20/v1_6_비밀번호.jpg"
+        },
+        {
+          "korean": "쓰다",
+          "indonesian": "Memakai di kepala, Pahit, Menulis, Menggunakan, pahit, menggunakan, menulis",
+          "image": "/images/textbook/ch20/v1_7_쓰다.jpg"
+        },
+        {
+          "korean": "아이디",
+          "indonesian": "ID, id",
+          "image": "/images/textbook/ch20/v1_8_아이디.jpg"
+        },
+        {
+          "korean": "웹사이트",
+          "indonesian": "Website, website",
+          "image": "/images/textbook/ch20/v1_9_웹사이트.jpg"
+        },
+        {
+          "korean": "이메일",
+          "indonesian": "Email, email (surel), email",
+          "image": "/images/textbook/ch20/v1_10_이메일.jpg"
+        },
+        {
+          "korean": "채팅(하다)",
+          "indonesian": "Chatting",
+          "image": "/images/textbook/ch20/v1_11_채팅(하다).jpg"
+        },
+        {
+          "korean": "홈페이지",
+          "indonesian": "Home Page, homepage",
+          "image": "/images/textbook/ch20/v1_12_홈페이지.jpg"
+        },
+        {
+          "korean": "화상\t채팅",
+          "indonesian": "Video chat, video chatting",
+          "image": "/images/textbook/ch20/v1_13_화상_채팅.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가르치다",
+          "indonesian": "mengajar, Mengajar",
+          "image": "/images/textbook/ch20/v2_0_가르치다.jpg"
+        },
+        {
+          "korean": "내려받다",
+          "indonesian": "Download",
+          "image": "/images/textbook/ch20/v2_1_내려받다.jpg"
+        },
+        {
+          "korean": "다운로드(하다)",
+          "indonesian": "Download",
+          "image": "/images/textbook/ch20/v2_2_다운로드(하다).jpg"
+        },
+        {
+          "korean": "댓글을\t달다",
+          "indonesian": "Mengomentari",
+          "image": "/images/textbook/ch20/v2_3_댓글을_달다.jpg"
+        },
+        {
+          "korean": "맛집",
+          "indonesian": "perjalanan kuliner",
+          "image": null
+        },
+        {
+          "korean": "메시지",
+          "indonesian": "Mengirim pesan",
+          "image": "/images/textbook/ch20/v2_5_메시지.jpg"
+        },
+        {
+          "korean": "모바일\t메신저",
+          "indonesian": "SMS",
+          "image": "/images/textbook/ch20/v2_6_모바일_메신저.jpg"
+        },
+        {
+          "korean": "보이다",
+          "indonesian": "terlihat, tampak",
+          "image": "/images/textbook/ch20/v2_7_보이다.jpg"
+        },
+        {
+          "korean": "스마트폰",
+          "indonesian": "ponsel pintar, smartphone",
+          "image": null
+        },
+        {
+          "korean": "업로드(하다)",
+          "indonesian": "mengunggah / upload",
+          "image": "/images/textbook/ch20/v2_9_업로드(하다).jpg"
+        },
+        {
+          "korean": "올리다",
+          "indonesian": "menaikan",
+          "image": "/images/textbook/ch20/v2_10_올리다.jpg"
+        },
+        {
+          "korean": "와이파이",
+          "indonesian": "Wi-Fi",
+          "image": "/images/textbook/ch20/v2_11_와이파이.jpg"
+        },
+        {
+          "korean": "이모티콘",
+          "indonesian": "Emoji",
+          "image": "/images/textbook/ch20/v2_12_이모티콘.jpg"
+        },
+        {
+          "korean": "이야기(하다)",
+          "indonesian": "bercerita",
+          "image": "/images/textbook/ch20/v2_13_이야기(하다).jpg"
+        },
+        {
+          "korean": "저장(하다)",
+          "indonesian": "Menyimpan, menyimpan",
+          "image": "/images/textbook/ch20/v2_14_저장(하다).jpg"
+        },
+        {
+          "korean": "확인(하다)",
+          "indonesian": "Mengecek, Memeriksa, mengecek, memastikan, mengece k, memeriksa",
+          "image": "/images/textbook/ch20/v2_15_확인(하다).jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

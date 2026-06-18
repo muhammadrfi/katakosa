@@ -1,0 +1,32 @@
+{
+  "chapter": 15,
+  "sections": [
+    {
+      "title": "한국의 전통 의상 (Pakaian Tradisional Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한복은 한국의 전통 의상입니다. 한복은 색상이 화려하며, 디자인 이 우아하고 아름답습니다. 그래서 한국 사람들은 설날이나 결혼식 과 같이 특별하고 중요한 날에는 전통 한복을 입습니다.",
+          "indonesian": "‘Hanbok' adalah pakaian tradisional Korea. Hanbok berwarna- warni, dan desainnya elegan dan indah. Oleh karena itu, orang Korea mengenakan hanbok tradisional pada hari-hari khusus dan penting, seperti Tahun Baru atau pernikahan."
+        },
+        {
+          "korean": "남성 한복은 바지와 저고리, 조끼로 구성되고, 여성 한복은 치마와 저고리로 구성됩니다. 한복은 자연스러운 주름과 풍성한 실루엣으로 모든 체형의 사람들에게 어울린다는 장점이 있습니다.",
+          "indonesian": "Hanbok pria terdiri dari celana, jaket, dan rompi, sedangkan hanbok wanita terdiri dari rok dan jaket. Keuntungan Hanbok terlihat bagus untuk semua bentuk tubuh karena lipatannya yang alami dan siluetnya yang tebal."
+        },
+        {
+          "korean": "그러나 전통 한복은 평상복으로 입기에는 다소 불편한 점이 있어 요즘에는 전통 한 복을 개량하여 만든 생활한복을 입는 사람들이 많아지고 있습니다. 생활한복은 전통 한복보다 디자인이 단순하고 실용적이어서 언제나 편하게 입을 수 있습니다. 이러한 한복의 변화는 한복의 대중화에 기여하였습니다.",
+          "indonesian": "Namun, hanbok tradisional mungkin terasa tidak nyaman untuk dikenakan sebagai pakaian sehari-hari. Itu sebabnya belakangan ini semakin banyak orang yang memakai hanbok modifikasi yang disebut saenghwal hanbok (hanbok modern), yang desainnya lebih sederhana dan praktis. Karena lebih nyaman dipakai kapan saja, perubahan pada hanbok ini berkontribusi terhadap popularitasnya."
+        },
+        {
+          "korean": "한복은 입는 사람의 연령이나 역할 등에 따라 색깔과 디자인이 조금 다릅니다. 결혼식 에서 신랑의 어머니는 보통 푸른색 계통의 점잖은 한복을 입고, 신부의 어머니는 분 홍색 계통의 단아한 한복을 입습니다.",
+          "indonesian": "Warna dan desain hanbok sedikit berbeda tergantung usia dan peran pemakainya. Misalnya, pada pesta pernikahan, ibu mempelai pria biasanya mengenakan hanbok cantik dengan warna biru, sedangkan ibu mempelai wanita mengenakan hanbok sederhana dengan warna pink."
+        },
+        {
+          "korean": "최근 들어서는 한복 페스티벌이나 한복 패션쇼 등을 통해 한복의 아름다움을 세계적으로 널리 알리려는 노력이 이어지고 있습니다.",
+          "indonesian": "Baru-baru ini upaya telah dilakukan untuk mempromosikan keindahan hanbok secara global melalui festival hanbok dan peragaan busana hanbok."
+        }
+      ]
+    }
+  ]
+}

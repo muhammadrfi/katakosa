@@ -1,0 +1,373 @@
+{
+  "chapter": 27,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "감사(하다)",
+          "indonesian": "berterima kasih",
+          "image": "/images/textbook/ch27/v1_0_감사(하다).jpg"
+        },
+        {
+          "korean": "개천절",
+          "indonesian": "Hari Pendirian Korea, hari pembangunan nasional korea",
+          "image": "/images/textbook/ch27/v1_1_개천절.jpg"
+        },
+        {
+          "korean": "광복절",
+          "indonesian": "Hari Pemerdekaan, Hari Kemerdekaan, hari kemerdekaan\nkorea",
+          "image": "/images/textbook/ch27/v1_2_광복절.jpg"
+        },
+        {
+          "korean": "국경일",
+          "indonesian": "Hari libur nasional",
+          "image": null
+        },
+        {
+          "korean": "국기",
+          "indonesian": "Mengibarkan bendera nasional",
+          "image": "/images/textbook/ch27/v1_4_국기.jpg"
+        },
+        {
+          "korean": "근로자의\t날",
+          "indonesian": "hari buruh",
+          "image": "/images/textbook/ch27/v1_5_근로자의_날.jpg"
+        },
+        {
+          "korean": "기념(하다)",
+          "indonesian": "Memperingati, memperingati",
+          "image": null
+        },
+        {
+          "korean": "기념일",
+          "indonesian": "Hari-Hari Peringatan",
+          "image": null
+        },
+        {
+          "korean": "꽃",
+          "indonesian": "bunga, kembang",
+          "image": "/images/textbook/ch27/v1_8_꽃.jpg"
+        },
+        {
+          "korean": "달다",
+          "indonesian": "Manis, manis, menggantungkan",
+          "image": "/images/textbook/ch27/v1_9_달다.jpg"
+        },
+        {
+          "korean": "독립(하다)",
+          "indonesian": "Kemerdekaan",
+          "image": "/images/textbook/ch27/v1_10_독립(하다).jpg"
+        },
+        {
+          "korean": "드리다",
+          "indonesian": "memberikan, memberi [honorifik]",
+          "image": "/images/textbook/ch27/v1_11_드리다.jpg"
+        },
+        {
+          "korean": "삼일절",
+          "indonesian": "Hari Gerakan 1 Maret, Hari pergerakan\nnasional",
+          "image": "/images/textbook/ch27/v1_12_삼일절.jpg"
+        },
+        {
+          "korean": "어리다",
+          "indonesian": "Muda, kecil, muda",
+          "image": "/images/textbook/ch27/v1_13_어리다.jpg"
+        },
+        {
+          "korean": "어버이날",
+          "indonesian": "Hari Orang Tua, hari orang tua",
+          "image": "/images/textbook/ch27/v1_14_어버이날.jpg"
+        },
+        {
+          "korean": "이날",
+          "indonesian": "Hari ini, hari ini",
+          "image": "/images/textbook/ch27/v1_15_이날.jpg"
+        },
+        {
+          "korean": "조카",
+          "indonesian": "Keponakan, keponakan",
+          "image": "/images/textbook/ch27/v1_16_조카.jpg"
+        },
+        {
+          "korean": "주다",
+          "indonesian": "Memberi, memberikan",
+          "image": "/images/textbook/ch27/v1_17_주다.jpg"
+        },
+        {
+          "korean": "한글날",
+          "indonesian": "Hari Hangeul, hari hangel",
+          "image": "/images/textbook/ch27/v1_18_한글날.jpg"
+        },
+        {
+          "korean": "행사(하다)",
+          "indonesian": "Acara, perayaan, acara",
+          "image": "/images/textbook/ch27/v1_19_행사(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "금반지",
+          "indonesian": "Cincin emas",
+          "image": "/images/textbook/ch27/v2_0_금반지.jpg"
+        },
+        {
+          "korean": "돌",
+          "indonesian": "Batu, batu, bayi umur 1 tahun",
+          "image": "/images/textbook/ch27/v2_1_돌.jpg"
+        },
+        {
+          "korean": "돌잔치",
+          "indonesian": "Pesta ulang tahun pertama bayi, pesta ulang tahun pertama",
+          "image": "/images/textbook/ch27/v2_2_돌잔치.jpg"
+        },
+        {
+          "korean": "동료",
+          "indonesian": "rekan kerja",
+          "image": "/images/textbook/ch27/v2_3_동료.jpg"
+        },
+        {
+          "korean": "아기",
+          "indonesian": "bayi",
+          "image": "/images/textbook/ch27/v2_4_아기.jpg"
+        },
+        {
+          "korean": "아직",
+          "indonesian": "Masih, belum, masih",
+          "image": "/images/textbook/ch27/v2_5_아직.jpg"
+        },
+        {
+          "korean": "잔치",
+          "indonesian": "Pesta atau perayaan, pesta, festival",
+          "image": "/images/textbook/ch27/v2_6_잔치.jpg"
+        },
+        {
+          "korean": "장난감",
+          "indonesian": "mainan",
+          "image": "/images/textbook/ch27/v2_7_장난감.jpg"
+        },
+        {
+          "korean": "장례식",
+          "indonesian": "Upacara pemakaman",
+          "image": "/images/textbook/ch27/v2_8_장례식.jpg"
+        },
+        {
+          "korean": "조의금",
+          "indonesian": "Uang belasungkawa",
+          "image": "/images/textbook/ch27/v2_9_조의금.jpg"
+        },
+        {
+          "korean": "집들이",
+          "indonesian": "Pesta pindah rumah, selamatan rumah baru, syukuran rumah baru",
+          "image": "/images/textbook/ch27/v2_10_집들이.jpg"
+        },
+        {
+          "korean": "참석(하다)",
+          "indonesian": "Menghadiri, hadir",
+          "image": "/images/textbook/ch27/v2_11_참석(하다).jpg"
+        },
+        {
+          "korean": "첫\t번째",
+          "indonesian": "pertama kali",
+          "image": "/images/textbook/ch27/v2_12_첫_번째.jpg"
+        },
+        {
+          "korean": "초대(하다)",
+          "indonesian": "Mengundang, mengundang",
+          "image": "/images/textbook/ch27/v2_13_초대(하다).jpg"
+        },
+        {
+          "korean": "초대를\t받다",
+          "indonesian": "Menerima undangan, mendapatkan undangan",
+          "image": "/images/textbook/ch27/v2_14_초대를_받다.jpg"
+        },
+        {
+          "korean": "축의금",
+          "indonesian": "Uang hadiah untuk pernikahan, uang selamat",
+          "image": "/images/textbook/ch27/v2_15_축의금.jpg"
+        },
+        {
+          "korean": "축하(하다)",
+          "indonesian": "Mengucapkan selamat, selamat",
+          "image": "/images/textbook/ch27/v2_16_축하(하다).jpg"
+        },
+        {
+          "korean": "강강술래",
+          "indonesian": "Tarian lingkaran tradisional Korea",
+          "image": null
+        },
+        {
+          "korean": "놀이",
+          "indonesian": "Taman bermain, taman bermain",
+          "image": null
+        },
+        {
+          "korean": "덕담",
+          "indonesian": "Ucapan keberuntungan atau, berkah(doa)",
+          "image": null
+        },
+        {
+          "korean": "떡국",
+          "indonesian": "Kue beras (sup), Sup kue beras, sop dari tepung beras",
+          "image": null
+        },
+        {
+          "korean": "모이다",
+          "indonesian": "Terkumpul, Berkumpul, berkumpul, mengumpulkan",
+          "image": null
+        },
+        {
+          "korean": "보름달",
+          "indonesian": "Bulan purnama, bulan purnama",
+          "image": null
+        },
+        {
+          "korean": "뵙다",
+          "indonesian": "Bertemu (hormat), bertemu [honorifik]",
+          "image": null
+        },
+        {
+          "korean": "설날",
+          "indonesian": "Hari Imlek, Imlek, Sollal (tahun baru\nlunar)",
+          "image": null
+        },
+        {
+          "korean": "성묘하다",
+          "indonesian": "Berziarah, ziarah",
+          "image": null
+        },
+        {
+          "korean": "세배하다",
+          "indonesian": "sungkem",
+          "image": null
+        },
+        {
+          "korean": "소원",
+          "indonesian": "harapan",
+          "image": null
+        },
+        {
+          "korean": "소원을\t빌다",
+          "indonesian": "Berdoa atau memohon harapan, memanjatkan permintaan",
+          "image": null
+        },
+        {
+          "korean": "송편",
+          "indonesian": "Kue beras di hari raya panen",
+          "image": null
+        },
+        {
+          "korean": "연날리기",
+          "indonesian": "Menerbangkan layang-layang",
+          "image": null
+        },
+        {
+          "korean": "연휴",
+          "indonesian": "Hari libur panjang, Cuti tahunan, libur",
+          "image": null
+        },
+        {
+          "korean": "윷놀이",
+          "indonesian": "Bermain yutnori",
+          "image": null
+        },
+        {
+          "korean": "음력",
+          "indonesian": "Kalender Bulan, Kalender lunar, kalender bulan",
+          "image": null
+        },
+        {
+          "korean": "장만(하다)",
+          "indonesian": "menyiapkan makanan",
+          "image": null
+        },
+        {
+          "korean": "전날",
+          "indonesian": "Sehari sebelum",
+          "image": null
+        },
+        {
+          "korean": "전통",
+          "indonesian": "Tradisi, adat, tradisional, tradisi(onal), tradisi",
+          "image": null
+        },
+        {
+          "korean": "절하다",
+          "indonesian": "sujud",
+          "image": null
+        },
+        {
+          "korean": "제기차기",
+          "indonesian": "Permainan tradisional menendang kok",
+          "image": null
+        },
+        {
+          "korean": "줄다리기",
+          "indonesian": "Tarik tambang",
+          "image": null
+        },
+        {
+          "korean": "차례상",
+          "indonesian": "Menyiapkan meja",
+          "image": null
+        },
+        {
+          "korean": "차례상을\t차리다",
+          "indonesian": "Menyiapkan meja",
+          "image": null
+        },
+        {
+          "korean": "추석",
+          "indonesian": "Hari Raya Panen, Chusok (panen raya), panen raya (cusok)",
+          "image": null
+        },
+        {
+          "korean": "친척",
+          "indonesian": "kerabat, famili",
+          "image": null
+        },
+        {
+          "korean": "한복",
+          "indonesian": "Pakaian tradisional Korea, hanbok, pakaian tradisional Korea",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "한국의 기념일 (Hari Peringatan Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국의 특별한 날",
+          "indonesian": "Hari sepesial di korea"
+        },
+        {
+          "korean": "국경일은 나라에서 정한 특별한 날로, 역사적으로 뜻깊은 날을 기념하거나 경축하는 날입니 다.이러한 국경일에는 우리나라의 독립을 위해 만세를 부른 삼일절(3월 1일), 일본의 식민 지배 로부터 해방된 것을 기념하는 광복절(8월 15일), 한민족의 첫 국가인 고조선의 개국을 경축하는 개천절(10월 3일), 그리고 세종대왕이 한글을 창제 하신 것을 기념하는 한글날(10월 9일) 등이 해당합니다. 국경일은 법정공휴일로 지정되어 있으며, 각종 기념식과 경축 행사가 열립니다. 가 정에서는 기쁨을 함께하기 위하여 국기를 게양합니다.",
+          "indonesian": "Hari libur nasional adalah hari khusus yang ditetapkan oleh negara untuk memperingati atau merayakan peristiwa bersejarah yang penting. Di Korea, hari libur nasional meliputi Hari  Gerakan  Kemerdekaan, yang  memperingati  Gerakan  Kemerdekaan  1  Maret; Hari Pembebasan  (15  Agustus), yang  merayakan  pembebasan  dari  pemerintahan  kolonial Jepang; Hari  Pendirian  Nasional  (3  Oktober), yang  merayakan  pendirian  negara  Korea pertama, Gojoseon; dan  Hari  Hangeul  (9  Oktober), yang  memperingati  penciptaan Hangeul oleh Raja Sejong. Hari libur nasional diakui sebagai hari libur nasional resmi, dan berbagai  upacara  dan  perayaan  diadakan.  Orang-orang  sering  mengibarkan  bendera nasional di rumah untuk berbagi kegembiraan pada hari tersebut."
+        },
+        {
+          "korean": "한편으로 개인의 일생 중 축하하거나 애도하는 특별한 날도 있습니다. 먼저 돌은 아기가 태어 난 지 1년이 되는 날로 가족과 친지들이 모여 아기의 1살 생일을 축하하고 건강하게 자랄 것을 염 원하는 돌잔치를 합니다. 결혼도 중요한 일생의례로 예전에는 전통 방식의 혼례가 많았지만, 요 즘에는 대부분 현대적인 결혼식을 합니다. 하지만 결혼식 후에 신랑 부모님과 친척들께 인사를 드리는 폐백과 같은 전통적인 풍습이 여전히 남아 있습니다.",
+          "indonesian": "Di  sisi  lain, ada  juga  hari-hari  pribadi  khusus  untuk  merayakan  atau  berkabung  sepanjang  hidup  seseorang.  Ketika seorang bayi berusia satu tahun, pesta ulang tahun pertama diadakan di mana keluarga dan kerabat berkumpul untuk mendoakan  agar  bayi  tersebut  tumbuh  dengan  sehat.  Pernikahan  adalah  peristiwa  penting  lainnya  dalam  hidup, dan meskipun upacara pernikahan tradisional lebih umum di masa lalu, sebagian besar pernikahan saat ini dilakukan dengan cara modern. Namun, adat istiadat tradisional seperti memberikan penghormatan kepada orang tua dan kerabat pengantin pria setelah pernikahan masih bertahan"
+        },
+        {
+          "korean": "가족이나 지인이 돌아가시면 보통 3일이나 5일 동안 장례를 치릅니다. 조문객은 검은색 옷을",
+          "indonesian": "\u0007 •"
+        },
+        {
+          "korean": "입고 장례식장에 가서 돌아가신 분에 대한 묵념을 하거나 절을 하고 돌아가신 분의 가족들을 위로합니다. 또한 매년 조상이 돌아가신 날을 기 일이라고 하여 가족들이 제사를 지냅니다. 요즘에는 제사의 형식도 다양화되어 추모 기도 등을 하기도 하지만 여전히 많은 가정에서 이날을 중요하게 여깁니다.",
+          "indonesian": "Ketika seorang anggota keluarga atau kenalan meninggal dunia, pemakaman biasanya diadakan selama tiga sampai lima hari. Para pelayat mengenakan pakaian hitam dan mengunjungi aula pemakaman untuk membungkukkan badan atau memanjatkan doa dalam hati untuk almarhum, dan untuk menghibur keluarga almarhum. Selain itu, pada hari peringatan meninggalnya orang yang dicintai, yang disebut"
+        },
+        {
+          "korean": "기일,",
+          "indonesian": "keluarga mengadakan upacara peringatan. Meskipun bentuk peringatan ini telah menjadi lebih beragam, dengan beberapa memilih untuk mengadakan upacara doa, banyak keluarga masih menganggap hari ini penting."
+        }
+      ]
+    }
+  ]
+}

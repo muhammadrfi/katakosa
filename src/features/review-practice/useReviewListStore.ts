@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
+import localforage from 'localforage';
 import { ReviewWord, WordPair } from '../vocabulary/vocabulary.types';
 import * as reviewActions from './reviewListActions';
 
@@ -26,8 +27,8 @@ export const useReviewListStore = create<ReviewListState>()(
     }),
     {
       name: 'katakosa-review-storage',
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => localforage),
       partialize: (state) => ({ reviewList: state.reviewList }),
     }
   )
-);
+);

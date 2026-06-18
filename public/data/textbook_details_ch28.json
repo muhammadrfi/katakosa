@@ -1,0 +1,243 @@
+{
+  "chapter": 28,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "놀이",
+          "indonesian": "Taman bermain, taman bermain",
+          "image": null
+        },
+        {
+          "korean": "덕담",
+          "indonesian": "Ucapan keberuntungan atau, berkah(doa)",
+          "image": null
+        },
+        {
+          "korean": "떡국",
+          "indonesian": "Kue beras (sup), Sup kue beras, sop dari tepung beras",
+          "image": null
+        },
+        {
+          "korean": "설날",
+          "indonesian": "Hari Imlek, Imlek, Sollal (tahun baru\nlunar)",
+          "image": null
+        },
+        {
+          "korean": "세배하다",
+          "indonesian": "sungkem",
+          "image": null
+        },
+        {
+          "korean": "연날리기",
+          "indonesian": "Menerbangkan layang-layang",
+          "image": null
+        },
+        {
+          "korean": "연휴",
+          "indonesian": "Hari libur panjang, Cuti tahunan, libur",
+          "image": null
+        },
+        {
+          "korean": "윷놀이",
+          "indonesian": "Bermain yutnori",
+          "image": null
+        },
+        {
+          "korean": "음력",
+          "indonesian": "Kalender Bulan, Kalender lunar, kalender bulan",
+          "image": null
+        },
+        {
+          "korean": "전통",
+          "indonesian": "Tradisi, adat, tradisional, tradisi(onal), tradisi",
+          "image": null
+        },
+        {
+          "korean": "절하다",
+          "indonesian": "sujud",
+          "image": null
+        },
+        {
+          "korean": "제기차기",
+          "indonesian": "Permainan tradisional menendang kok",
+          "image": null
+        },
+        {
+          "korean": "차례상을\t차리다",
+          "indonesian": "Menyiapkan meja",
+          "image": null
+        },
+        {
+          "korean": "친척",
+          "indonesian": "kerabat, famili",
+          "image": null
+        },
+        {
+          "korean": "한복",
+          "indonesian": "Pakaian tradisional Korea, hanbok, pakaian tradisional Korea",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "공공장소",
+          "indonesian": "Tempat umum, tempat umum",
+          "image": null
+        },
+        {
+          "korean": "구역",
+          "indonesian": "Area, area",
+          "image": "/images/textbook/ch28/v2_1_구역.jpg"
+        },
+        {
+          "korean": "금연(하다)",
+          "indonesian": "Dilarang merokok",
+          "image": "/images/textbook/ch28/v2_2_금연(하다).jpg"
+        },
+        {
+          "korean": "금지(하다)",
+          "indonesian": "Larangan",
+          "image": "/images/textbook/ch28/v2_3_금지(하다).jpg"
+        },
+        {
+          "korean": "길",
+          "indonesian": "Jalan, jalan",
+          "image": "/images/textbook/ch28/v2_4_길.jpg"
+        },
+        {
+          "korean": "담배꽁초",
+          "indonesian": "Membuang punting rokok",
+          "image": "/images/textbook/ch28/v2_5_담배꽁초.jpg"
+        },
+        {
+          "korean": "담배를\t피우다",
+          "indonesian": "Merokok, merokok",
+          "image": "/images/textbook/ch28/v2_6_담배를_피우다.jpg"
+        },
+        {
+          "korean": "도서관",
+          "indonesian": "Perpustakaan, perpustakaan",
+          "image": "/images/textbook/ch28/v2_7_도서관.jpg"
+        },
+        {
+          "korean": "떠들다",
+          "indonesian": "Gaduh, berteriak",
+          "image": "/images/textbook/ch28/v2_8_떠들다.jpg"
+        },
+        {
+          "korean": "뛰어다니다",
+          "indonesian": "Berlari, berlari",
+          "image": "/images/textbook/ch28/v2_9_뛰어다니다.jpg"
+        },
+        {
+          "korean": "만지다",
+          "indonesian": "Menyentuh, menyentuh",
+          "image": "/images/textbook/ch28/v2_10_만지다.jpg"
+        },
+        {
+          "korean": "먼저",
+          "indonesian": "Lebih dulu, Terlebih dahulu, lebih dulu, Pertama",
+          "image": "/images/textbook/ch28/v2_11_먼저.jpg"
+        },
+        {
+          "korean": "무단\t횡단(하다)",
+          "indonesian": "Menyebrang sembarangan",
+          "image": "/images/textbook/ch28/v2_12_무단_횡단(하다).jpg"
+        },
+        {
+          "korean": "박물관",
+          "indonesian": "Museum, museum",
+          "image": "/images/textbook/ch28/v2_13_박물관.jpg"
+        },
+        {
+          "korean": "반입(하다)",
+          "indonesian": "Bahasa formal",
+          "image": "/images/textbook/ch28/v2_14_반입(하다).jpg"
+        },
+        {
+          "korean": "새치기(하다)",
+          "indonesian": "Menyerobot antrian",
+          "image": "/images/textbook/ch28/v2_15_새치기(하다).jpg"
+        },
+        {
+          "korean": "신호",
+          "indonesian": "Melanggar rambu lalu lintas",
+          "image": "/images/textbook/ch28/v2_16_신호.jpg"
+        },
+        {
+          "korean": "예절",
+          "indonesian": "tata krama, etiket",
+          "image": null
+        },
+        {
+          "korean": "위반(하다)",
+          "indonesian": "Melanggar rambu lalu lintas",
+          "image": "/images/textbook/ch28/v2_18_위반(하다).jpg"
+        },
+        {
+          "korean": "잠깐",
+          "indonesian": "Sebentar, sebentar",
+          "image": "/images/textbook/ch28/v2_19_잠깐.jpg"
+        },
+        {
+          "korean": "전시품",
+          "indonesian": "Dilarang menyentuh",
+          "image": "/images/textbook/ch28/v2_20_전시품.jpg"
+        },
+        {
+          "korean": "주차(하다)",
+          "indonesian": "Parker",
+          "image": "/images/textbook/ch28/v2_21_주차(하다).jpg"
+        },
+        {
+          "korean": "침을\t뱉다",
+          "indonesian": "Meludah, meludah",
+          "image": "/images/textbook/ch28/v2_22_침을_뱉다.jpg"
+        },
+        {
+          "korean": "흡연(하다)",
+          "indonesian": "Area merokok",
+          "image": "/images/textbook/ch28/v2_23_흡연(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "한국의 명절 (Korean Traditional Holidays)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국에는 무슨 명절이 있을까요? 한국의 대표적인 명절로는 설날, 정월대보름, 추석이 있습니다.",
+          "indonesian": "Hari libur apa yang ada di Korea? Hari libur representatif di Korea termasuk Tahun Baru Imlek, Tahun Baru, dan Chuseok."
+        },
+        {
+          "korean": "설날은 음력 1월 1일로, 한국의 가장 큰 명절입니다. 설날이 되면 따로 살던 가족들이 함께 모여 조상께 차례를 지내고 어른들께 세배를 드립니다. 설날 에는 떡국을 함께 나눠 먹고 윷놀이를 하면서 가족들과 함께 즐거운 시간을 보냅니다. 그리고 행복하고 건강하기를 바라는 마음으로 친한 사람들과 “새 해 복 많이 받으세요.”라는 인사를 주고받습니다.",
+          "indonesian": "Tahun Baru Imlek adalah hari libur paling penting di Korea, dirayakan pada hari  pertama  kalender  lunar.  Keluarga  berkumpul  untuk  mengadakan upacara  peringatan  bagi  leluhur  mereka  dan  melakukan  sungkem  Tahun Baru kepada para tetua. Pada Tahun Baru Imlek, orang-orang berbagi sup kue  beras  dan  menikmati  permainan  seperti  Yunnori  bersama  keluarga"
+        },
+        {
+          "korean": "mereka. Mereka juga bertukar salam seperti “새해 복 많이 받으세요 (Selamat",
+          "indonesian": "Tahun  Baru)” dengan  teman  dekat  dan  kerabat, berharap  untuk kebahagiaan dan kesehatan yang baik."
+        },
+        {
+          "korean": "정월대보름은 음력 1월 15일로, 새해가 되고 처음으로 보름달이 뜨는 날입 니다. 사람들은 다섯 가지 곡식으로 지은 오곡밥과 갖가지 말린 나물을 먹습 니다. 땅콩이나 호두 등 껍질이 딱딱한 견과류인 부럼을 깨물어 먹는데, 부럼 을 먹으면 피부병이 생기지 않는다는 이야기가 있습니다.",
+          "indonesian": "\u0007 •"
+        },
+        {
+          "korean": "'부럼',",
+          "indonesian": "yang dipercaya dapat mencegah penyakit kulit."
+        },
+        {
+          "korean": "추석은 음력 8월 15일로, ‘한가위’라고도 합니다. 추석에는 차례를 지내고, 성묘를 합니다. 그리고 햅쌀로 밥을 지어 먹고, 송편도 만들어 먹습니다. 밤에는 보름달을 보면서 소원을 빕니다. 예전에는 추석날 밤에 여성들이 밝은 달빛 아래에서 손을 잡고 노래를 부 르면서 동그랗게 빙글빙글 도는 ‘강강술래’라는 놀이를 하기도 하였습니다.",
+          "indonesian": "Chuseok, yang juga dikenal sebagai Hangawi, dirayakan pada hari ke-15 di bulan kedelapan dalam kalender lunar. Selama Chuseok, orang-orang mengadakan upacara peringatan , mengunjungi makam leluhur, dan menyiapkan makanan dengan beras dan songpyeon yang baru dipanen. Pada malam hari, mereka menatap bulan purnama dan membuat permohonan . Secara tradisional, pada malam Chuseok, para wanita akan berkumpul di bawah sinar bulan yang terang, berpegangan tangan, dan bernyanyi sambil menari membentuk lingkaran dalam permainan yang disebut Ganggangsullae."
+        }
+      ]
+    }
+  ]
+}

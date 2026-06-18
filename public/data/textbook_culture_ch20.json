@@ -1,0 +1,24 @@
+{
+  "chapter": 20,
+  "sections": [
+    {
+      "title": "배달 앱 (Apk Pengantar)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국은 음식 배달 문화가 매우 발달한 나라입니다. 전화나 앱을 통하여 원하는 음식을 원하는 장소로 빠르고 간편하게 배달시킬 수 있습니다. 특히 최근에는 ‘배달 앱’의 등장으로 음식을 배달시키는 것이 더욱 편리해졌습니다.",
+          "indonesian": "Di Korea, budaya pesan-antar makanan sangat populer. Anda dapat dengan mudah dan cepat memesan makanan yang ingin diantar ke lokasi yang Anda inginkan melalui telepon atau melalui aplikasi. Belakangan ini, dengan maraknya aplikasi pesan-antar, memesan makanan menjadi lebih nyaman."
+        },
+        {
+          "korean": "배달 앱을 이용하면 식당과 메뉴에 대한 정보를 손쉽게 얻을 수 있습니다. 사용자들은 배달 앱을 통해 한식, 중식, 양식, 분식 등 여러 종류의 음식 중 자신이 원하는 음식을 선택하여 배달시킬 수 있습니다. 주문할 때는 다른 사용자들이 남긴 평점과 리뷰를 참고하여 자신에게 맞는 메뉴를 고를 수도 있습니다.",
+          "indonesian": "Dengan menggunakan aplikasi pesan antar Anda dapat dengan mudah mendapatkan informasi tentang restoran dan menunya. Pengguna dapat memilih berbagai jenis makanan seperti Korea, Cina, Barat, atau bunshik (makanan ringan Korea), dan diantar. Saat memesan, Anda dapat merujuk pada rating dan review yang diberikan oleh pengguna lain untuk memilih menu yang sesuai untuk Anda."
+        },
+        {
+          "korean": "배달 앱은 현금, 신용 카드, 간편 결제, 휴대폰 결제 등 다양한 결제 수단을 지원하기 때문에 사용자들이 편리하게 결제할 수 있습니다. 게다가 처음 이용자들에게 할인해 주거나 쿠폰을 주는 등 다양한 혜택을 제공하기도 합니다. 또한 주문한 음식이 현재 조리 중인지, 배달 중인지를 실시간으로 확인할 수도 있습니다. 이러한 편리함 때문에 한국 사람들은 ‘배달 앱’을 많이 사용합니다.",
+          "indonesian": "Aplikasi pengiriman mendukung berbagai metode pembayaran seperti uang tunai, kartu kredit, pembayaran cepat, dan pembayaran seluler, memungkinkan pengguna membayar dengan nyaman. Selain itu, mereka sering kali menawarkan diskon atau kupon kepada pengguna pertama kali. Anda juga dapat memeriksa secara real time apakah makanan masih disiapkan atau sudah siap diantar. Karena kemudahan tersebut, banyak orang di Korea yang menggunakan aplikasi pesan antar."
+        }
+      ]
+    }
+  ]
+}

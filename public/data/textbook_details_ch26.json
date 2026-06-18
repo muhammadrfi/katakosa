@@ -1,0 +1,216 @@
+{
+  "chapter": 26,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "난방",
+          "indonesian": "Pemanas, Pemanas ruangan, pemanas",
+          "image": null
+        },
+        {
+          "korean": "담",
+          "indonesian": "Tembok, dinding, dinding luar (luar ruangan)",
+          "image": null
+        },
+        {
+          "korean": "답답하다",
+          "indonesian": "Merasa sesak, frustasi, atau gelisah",
+          "image": null
+        },
+        {
+          "korean": "대문",
+          "indonesian": "Pintu gerbang utama",
+          "image": null
+        },
+        {
+          "korean": "둘러보다",
+          "indonesian": "Melihat-lihat",
+          "image": null
+        },
+        {
+          "korean": "마루",
+          "indonesian": "Lantai kayu, ruang lantai kayu",
+          "image": null
+        },
+        {
+          "korean": "마음에\t들다",
+          "indonesian": "menyukai / cocok di hati",
+          "image": null
+        },
+        {
+          "korean": "방문",
+          "indonesian": "Pintu kamar, mengunjungi, pintu kamar",
+          "image": null
+        },
+        {
+          "korean": "방바닥",
+          "indonesian": "lantai kamar",
+          "image": null
+        },
+        {
+          "korean": "베란다",
+          "indonesian": "Balkon",
+          "image": null
+        },
+        {
+          "korean": "온돌",
+          "indonesian": "Sistem pemanas bawah tanah, Sistem pemanas lantai tradisional Korea, sistem pemanasan yg terletak di bawah lantai ala korea, ondol",
+          "image": null
+        },
+        {
+          "korean": "주거",
+          "indonesian": "Perumahan",
+          "image": null
+        },
+        {
+          "korean": "지붕",
+          "indonesian": "Atap, atap",
+          "image": null
+        },
+        {
+          "korean": "한옥",
+          "indonesian": "Rumah tradisional Korea, rumah tradisional korea, hanok, rumah tradisional Korea",
+          "image": null
+        },
+        {
+          "korean": "현관",
+          "indonesian": "Pintu masuk rumah, serambi, beranda",
+          "image": null
+        },
+        {
+          "korean": "현관문",
+          "indonesian": "Pintu utama rumah",
+          "image": null
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "국",
+          "indonesian": "Sup, sup, sup (kuah banyak)",
+          "image": null
+        },
+        {
+          "korean": "김",
+          "indonesian": "Rumput laut, Rumput laut kering",
+          "image": "/images/textbook/ch26/v2_1_김.jpg"
+        },
+        {
+          "korean": "깍두기",
+          "indonesian": "Kimchi dari lobak yang dipotong dadu, Kkakdugi (kimchi lobak potong dadu)",
+          "image": null
+        },
+        {
+          "korean": "날",
+          "indonesian": "hari",
+          "image": "/images/textbook/ch26/v2_3_날.jpg"
+        },
+        {
+          "korean": "대접(하다)",
+          "indonesian": "Menjamu, menyajikan makanan untuk orang lain",
+          "image": "/images/textbook/ch26/v2_4_대접(하다).jpg"
+        },
+        {
+          "korean": "동지",
+          "indonesian": "Titik balik matahari musim dingin",
+          "image": "/images/textbook/ch26/v2_5_동지.jpg"
+        },
+        {
+          "korean": "반찬",
+          "indonesian": "Lauk pauk, Lauk-pauk, lauk pauk",
+          "image": null
+        },
+        {
+          "korean": "복날",
+          "indonesian": "Hari terpanas, Hari paling panas",
+          "image": "/images/textbook/ch26/v2_7_복날.jpg"
+        },
+        {
+          "korean": "삼계탕",
+          "indonesian": "Sup ayam ginseng, Sup ayam ginseng (dimakan saat 복날), sup ayam gingseng, satu ekor ayam diisi dengan beras dan gingseng, samgyetang, sup ayam ginseng",
+          "image": "/images/textbook/ch26/v2_8_삼계탕.jpg"
+        },
+        {
+          "korean": "생선구이",
+          "indonesian": "Ikan panggang",
+          "image": "/images/textbook/ch26/v2_9_생선구이.jpg"
+        },
+        {
+          "korean": "생선회",
+          "indonesian": "Sashimi, ikan mentah yang diiris tipis, sashimi, ikan mentah",
+          "image": "/images/textbook/ch26/v2_10_생선회.jpg"
+        },
+        {
+          "korean": "숟가락",
+          "indonesian": "Sendok, sendok",
+          "image": "/images/textbook/ch26/v2_11_숟가락.jpg"
+        },
+        {
+          "korean": "예전",
+          "indonesian": "Zaman dahulu, Dulu, sebelumnya",
+          "image": "/images/textbook/ch26/v2_12_예전.jpg"
+        },
+        {
+          "korean": "오곡밥",
+          "indonesian": "Nasi lima biji-bijian (sering dimakan saat 정월대보름)",
+          "image": "/images/textbook/ch26/v2_13_오곡밥.jpg"
+        },
+        {
+          "korean": "젓가락",
+          "indonesian": "Sumpit, sumpit",
+          "image": null
+        },
+        {
+          "korean": "죽",
+          "indonesian": "Bubur, bubur",
+          "image": "/images/textbook/ch26/v2_15_죽.jpg"
+        },
+        {
+          "korean": "특별하다",
+          "indonesian": "khusus",
+          "image": "/images/textbook/ch26/v2_16_특별하다.jpg"
+        },
+        {
+          "korean": "팥죽",
+          "indonesian": "Bubur kacang merah (dimakan saat 동지)",
+          "image": "/images/textbook/ch26/v2_17_팥죽.jpg"
+        },
+        {
+          "korean": "포크",
+          "indonesian": "Garpu, garpu",
+          "image": "/images/textbook/ch26/v2_18_포크.jpg"
+        },
+        {
+          "korean": "한식",
+          "indonesian": "Makanan Korea, Masakan Korea, makanan korea",
+          "image": "/images/textbook/ch26/v2_19_한식.jpg"
+        }
+      ]
+    },
+    {
+      "title": "한국의 식사 예절 (Tata Krama Makan di Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "어느 나라에나 식사할 때 지켜야 하는 예절이 있습니다. 한국도 예외는 아닙니다. 식사를 위해 식탁이나 밥상에 앉을 때, 어른이 중앙의 좋은 자리에 앉을 수 있도록 배려합니다. 식사를 시작할 때는 어른이 먼저 수저를 든 다음에 아랫사람이 수저를 들고, 어른이 먼저 식사를 시작한 다음에 아랫사람이 먹기 시작합니다. 혹시 식사를 먼저 마쳐도 어른이 식사를 끝내기 전까지는 자리에서 일어나지 않습니다.",
+          "indonesian": "Setiap negara memiliki etika makan yang harus diikuti, tidak terkecuali Korea. Saat duduk di meja makan, biasanya orang yang lebih muda membiarkan orang yang lebih tua duduk di kursi terbaik terlebih dahulu. Ketika memulai makan, orang yang lebih muda sebaiknya menunggu orang yang lebih tua mengambil sendok terlebih dahulu, kemudian mulai makan setelah orang yang lebih tua mulai makan. Meskipun Anda selesai makan terlebih dahulu, sebaiknya Anda tidak meninggalkan meja sebelum orang yang lebih tua selesai makan."
+        },
+        {
+          "korean": "식사할 때는 포크와 나이프 대신 숟가락과 젓가락을 사용하는데, 숟가락으로는 밥과 국을 먹고, 젓가락으로는 반찬을 먹습니다. 그러나 요즘은 밥도 젓가락으로 먹는 사람들이 많아졌습니다. 숟가락과 젓가락은 동시에 들지 말아야 하며, 밥그릇이나 국그릇을 손으로 들고 먹으면 안 됩니다. 보통 밥과 국은 개인별로 먹지만 반찬은 함께 나눠 먹습니다. 예전에는 찌개나 찜을 여러 사람이 함께 먹기도 했지만 요즘은 개인 접시에 덜어서 먹는 사람이 많습니다.",
+          "indonesian": "Di Korea, sendok dan sumpit digunakan sebagai pengganti garpu dan pisau. Sendok digunakan untuk makan nasi dan sup, sedangkan sumpit digunakan untuk lauk pauk. Namun, akhir-akhir ini, banyak orang yang makan nasi dengan sumpit. Anda tidak boleh memegang sendok dan sumpit secara bersamaan di satu tangan, dan memegang mangkuk nasi atau mangkuk sup dengan tangan saat makan dianggap tidak sopan. Biasanya, nasi dan sup dimakan secara individu, tetapi lauk pauk dimakan bersama-sama. Di masa lalu, orang-orang berbagi sup atau rebusan langsung dari panci bersama-sama, tetapi saat ini, lebih banyak orang yang lebih suka mengambilnya ke piring masing-masing."
+        },
+        {
+          "korean": "그리고 식사 중에 의자에 발을 얹거나 음식 씹는 소리를 크게 내는 것은 좋지 않습니다. 음식을 먹기 전에는 “잘 먹겠습니다.”, 다 먹은 후에는 “잘 먹었습니다.”라고 인사를 합니다.",
+          "indonesian": "Selain itu, meletakkan kaki di atas kursi atau mengeluarkan suara kunyahan yang keras selama makan dianggap tidak sopan. Sebelum makan, ucapkanlah '잘 먹겠습니다' (Saya akan makan dengan baik), dan setelah selesai makan ucapkanlah '잘 먹었습니다' (Terima kasih atas makanannya)."
+        }
+      ]
+    }
+  ]
+}

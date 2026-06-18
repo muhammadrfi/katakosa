@@ -1,0 +1,210 @@
+{
+  "chapter": 35,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "관리(하다)",
+          "indonesian": "Mengelola, menagatur, mengurus, mengelola",
+          "image": null
+        },
+        {
+          "korean": "냄새",
+          "indonesian": "Ibu hamil, bau",
+          "image": "/images/textbook/ch35/v1_1_냄새.jpg"
+        },
+        {
+          "korean": "도구",
+          "indonesian": "Alat, peralatan",
+          "image": "/images/textbook/ch35/v1_2_도구.jpg"
+        },
+        {
+          "korean": "먼저",
+          "indonesian": "Lebih dulu, Terlebih dahulu, lebih dulu, Pertama",
+          "image": "/images/textbook/ch35/v1_3_먼저.jpg"
+        },
+        {
+          "korean": "소음",
+          "indonesian": "Kebisingan, suara",
+          "image": "/images/textbook/ch35/v1_4_소음.jpg"
+        },
+        {
+          "korean": "엉망이다",
+          "indonesian": "Berantakan, berantakan",
+          "image": "/images/textbook/ch35/v1_5_엉망이다.jpg"
+        },
+        {
+          "korean": "열다",
+          "indonesian": "Membuka, membuka",
+          "image": "/images/textbook/ch35/v1_6_열다.jpg"
+        },
+        {
+          "korean": "작업대",
+          "indonesian": "Meja kerja",
+          "image": "/images/textbook/ch35/v1_7_작업대.jpg"
+        },
+        {
+          "korean": "작업장",
+          "indonesian": "Tempat kerja",
+          "image": null
+        },
+        {
+          "korean": "치우다",
+          "indonesian": "Membersihkan, membersihkan, membereskan",
+          "image": "/images/textbook/ch35/v1_9_치우다.jpg"
+        },
+        {
+          "korean": "쾌적하다",
+          "indonesian": "Nyaman, senang",
+          "image": "/images/textbook/ch35/v1_10_쾌적하다.jpg"
+        },
+        {
+          "korean": "환경",
+          "indonesian": "Lingkungan",
+          "image": null
+        },
+        {
+          "korean": "환기(하다)",
+          "indonesian": "Mengudara, menukar udara",
+          "image": "/images/textbook/ch35/v1_12_환기(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "곧",
+          "indonesian": "Segera, segera",
+          "image": "/images/textbook/ch35/v2_0_곧.jpg"
+        },
+        {
+          "korean": "냉동",
+          "indonesian": "penyimpanan beku",
+          "image": null
+        },
+        {
+          "korean": "냉장",
+          "indonesian": "Kulkas, kulkas",
+          "image": "/images/textbook/ch35/v2_2_냉장.jpg"
+        },
+        {
+          "korean": "담당자",
+          "indonesian": "penanggung jawab",
+          "image": "/images/textbook/ch35/v2_3_담당자.jpg"
+        },
+        {
+          "korean": "덮개",
+          "indonesian": "Membuka penutup pelindung",
+          "image": "/images/textbook/ch35/v2_4_덮개.jpg"
+        },
+        {
+          "korean": "덮다",
+          "indonesian": "Menutup dengan penutup",
+          "image": "/images/textbook/ch35/v2_5_덮다.jpg"
+        },
+        {
+          "korean": "두다",
+          "indonesian": "Meletakkan",
+          "image": "/images/textbook/ch35/v2_6_두다.jpg"
+        },
+        {
+          "korean": "물류",
+          "indonesian": "gudang barang",
+          "image": "/images/textbook/ch35/v2_7_물류.jpg"
+        },
+        {
+          "korean": "보관(하다)",
+          "indonesian": "Menyimpan, menyimpan",
+          "image": "/images/textbook/ch35/v2_8_보관(하다).jpg"
+        },
+        {
+          "korean": "온도",
+          "indonesian": "suhu",
+          "image": "/images/textbook/ch35/v2_9_온도.jpg"
+        },
+        {
+          "korean": "옮기다",
+          "indonesian": "memindahkan, pindah",
+          "image": null
+        },
+        {
+          "korean": "유지(하다)",
+          "indonesian": "mengatur temperatur",
+          "image": "/images/textbook/ch35/v2_11_유지(하다).jpg"
+        },
+        {
+          "korean": "자재",
+          "indonesian": "bahan, material, Material",
+          "image": null
+        },
+        {
+          "korean": "재고",
+          "indonesian": "Persediaan, stok",
+          "image": "/images/textbook/ch35/v2_13_재고.jpg"
+        },
+        {
+          "korean": "저장(하다)",
+          "indonesian": "Menyimpan, menyimpan",
+          "image": "/images/textbook/ch35/v2_14_저장(하다).jpg"
+        },
+        {
+          "korean": "적정 온도",
+          "indonesian": "Suhu yang tepat",
+          "image": null
+        },
+        {
+          "korean": "중요하다",
+          "indonesian": "Penting, penting",
+          "image": null
+        },
+        {
+          "korean": "창고",
+          "indonesian": "Gudang, gudang",
+          "image": null
+        },
+        {
+          "korean": "컨테이너",
+          "indonesian": "Kontainer, kontainer",
+          "image": "/images/textbook/ch35/v2_18_컨테이너.jpg"
+        },
+        {
+          "korean": "특히",
+          "indonesian": "khususnya, Terutama",
+          "image": "/images/textbook/ch35/v2_19_특히.jpg"
+        },
+        {
+          "korean": "파악(하다)",
+          "indonesian": "menangkap",
+          "image": "/images/textbook/ch35/v2_20_파악(하다).jpg"
+        }
+      ]
+    },
+    {
+      "title": "한국의 산업 구조 (Struktur Industri Korea)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "한국의 산업 구조는 기술 혁신과 글로벌화에 따라 지속적으 로 변화하고 있습니다. 과거에는 농업과 경공업 중심의 산업 구 조였지만, 현재는 제조업과 서비스업 등 고부가가치 산업의 비 중이 높아졌습니다.",
+          "indonesian": "Struktur industri Korea terus berubah seiring dengan inovasi teknologi dan globalisasi. Di masa lalu, industri ini berpusat pada pertanian dan industri ringan, namun kini proporsi industri bernilai tambah tinggi seperti manufaktur dan jasa telah meningkat."
+        },
+        {
+          "korean": "농업, 어업, 임업 등의 1차 산업은 한국의 전체 GDP에서 차지 하는 비중이 상대적으로 낮지만, 국민의 기본생활에 필요한 농 산물, 수산물, 임산물 등의 생산에서 여전히 중요한 역할을 하 고 있습니다.",
+          "indonesian": "Industri primer seperti pertanian, perikanan, dan kehutanan menyumbang porsi yang relatif kecil terhadap total PDB Korea, namun mereka masih memainkan peran penting dalam produksi produk pertanian, kelautan, dan kehutanan yang penting bagi penghidupan dasar masyarakat."
+        },
+        {
+          "korean": "현재 한국은 전자, 자동차, 조선, 화학 산업 등에서 세계적인 경쟁력을 가지고 있습니다. 특히 삼성, 현대, LG와 같은 대기업 들이 글로벌 시장에서 중요한 위치를 차지하고 있습니다. 또한 IT와 소프트웨어 산업의 발전을 바탕으로 금융, 교육, 의료, 관 광 등의 서비스 산업이 한국의 디지털 경제 발전을 이끌고 있습 니다. 그리고 한국의 K-pop, 드라마, 영화 등의 세계적 인기에 힘입어 문화 콘텐츠 산업도 큰 주목을 받고 있습니다.",
+          "indonesian": "Saat ini, Korea memiliki daya saing global dalam industri seperti elektronik, mobil, pembuatan kapal, dan bahan kimia. Secara khusus, perusahaan besar seperti Samsung, Hyundai, dan LG memegang posisi penting di pasar global. Selain itu, berdasarkan perkembangan industri TI dan perangkat lunak, industri jasa seperti keuangan, pendidikan, layanan kesehatan, dan pariwisata mendorong pertumbuhan ekonomi digital Korea. Selain itu, industri konten budaya mendapatkan perhatian besar, didorong oleh popularitas K-pop, drama, dan film di seluruh dunia."
+        },
+        {
+          "korean": "최근에는 4차 산업 혁명 시대를 대비하여 인공지능, 빅데이 터, 자율주행차, 로봇 등의 기술 개발에 많은 투자를 하고 있으 며, 이를 통해 새로운 성장 동력을 찾고자 노력하고 있습니다. 이러한 산업 구조의 변화는 한국 경제의 국제 경쟁력을 높이는 데 기여하고 있습니다.",
+          "indonesian": "Baru-baru ini, investasi besar telah dilakukan dalam pengembangan teknologi seperti kecerdasan buatan, data besar, kendaraan otonom, dan robotika sebagai persiapan menghadapi Revolusi Industri Keempat. Melalui upaya ini, Korea berupaya menemukan mesin pertumbuhan baru. Perubahan dalam struktur industri ini berkontribusi terhadap peningkatan daya saing internasional perekonomian Korea."
+        }
+      ]
+    }
+  ]
+}

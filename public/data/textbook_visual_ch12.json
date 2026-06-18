@@ -1,0 +1,229 @@
+{
+  "chapter": 12,
+  "sections": [
+    {
+      "title": "Kosakata 1 (어휘 1)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "걸리다",
+          "indonesian": "Memakan waktu, memakan waktu, memerlukan, makan waktu, terjangkit (penyakit)",
+          "image": "/images/textbook/ch12/v1_0_걸리다.jpg"
+        },
+        {
+          "korean": "고속버스",
+          "indonesian": "bis ekspres",
+          "image": "/images/textbook/ch12/v1_1_고속버스.jpg"
+        },
+        {
+          "korean": "공항",
+          "indonesian": "Bandara, bandara, bandar udara",
+          "image": "/images/textbook/ch12/v1_2_공항.jpg"
+        },
+        {
+          "korean": "교통수단",
+          "indonesian": "Alat transportasi, alat transportasi",
+          "image": null
+        },
+        {
+          "korean": "기차",
+          "indonesian": "Kereta, kereta, kereta api",
+          "image": "/images/textbook/ch12/v1_4_기차.jpg"
+        },
+        {
+          "korean": "기차역",
+          "indonesian": "Stasiun kereta, stasiun kereta, stasiun kereta api",
+          "image": "/images/textbook/ch12/v1_5_기차역.jpg"
+        },
+        {
+          "korean": "마을버스",
+          "indonesian": "bis pedesaan",
+          "image": "/images/textbook/ch12/v1_6_마을버스.jpg"
+        },
+        {
+          "korean": "배",
+          "indonesian": "Kapal, Pir, kapal, perut, kapal laut, pir",
+          "image": "/images/textbook/ch12/v1_7_배.jpg"
+        },
+        {
+          "korean": "버스\t정류장",
+          "indonesian": "halte bus",
+          "image": "/images/textbook/ch12/v1_8_버스_정류장.jpg"
+        },
+        {
+          "korean": "버스\t터미널",
+          "indonesian": "terminal bus",
+          "image": "/images/textbook/ch12/v1_9_버스_터미널.jpg"
+        },
+        {
+          "korean": "번",
+          "indonesian": "nomor / kali",
+          "image": "/images/textbook/ch12/v1_10_번.jpg"
+        },
+        {
+          "korean": "비행기",
+          "indonesian": "Pesawat, pesawat, pesawat terbang",
+          "image": "/images/textbook/ch12/v1_11_비행기.jpg"
+        },
+        {
+          "korean": "시내버스",
+          "indonesian": "Bus kota, bus perkotaan, bis dalam kota",
+          "image": "/images/textbook/ch12/v1_12_시내버스.jpg"
+        },
+        {
+          "korean": "시외버스",
+          "indonesian": "bis antar kota",
+          "image": null
+        },
+        {
+          "korean": "어떻게",
+          "indonesian": "Bagaimana, bagaimana",
+          "image": "/images/textbook/ch12/v1_14_어떻게.jpg"
+        },
+        {
+          "korean": "얼마나",
+          "indonesian": "Seberapa banyak, berapa lama, berapa",
+          "image": "/images/textbook/ch12/v1_15_얼마나.jpg"
+        },
+        {
+          "korean": "오토바이",
+          "indonesian": "Sepeda motor, motor, sepeda motor",
+          "image": "/images/textbook/ch12/v1_16_오토바이.jpg"
+        },
+        {
+          "korean": "자전거",
+          "indonesian": "Sepeda, sepeda",
+          "image": "/images/textbook/ch12/v1_17_자전거.jpg"
+        },
+        {
+          "korean": "지하철",
+          "indonesian": "Kereta bawah tanah, subway (kereta bawah tanah), kereta bawah tanah",
+          "image": "/images/textbook/ch12/v1_18_지하철.jpg"
+        },
+        {
+          "korean": "지하철역",
+          "indonesian": "Stasiun kereta bawah tanah, stasiun kereta bawah tanah, stasiun subway",
+          "image": "/images/textbook/ch12/v1_19_지하철역.jpg"
+        },
+        {
+          "korean": "쯤",
+          "indonesian": "kira-kira / sekitar",
+          "image": "/images/textbook/ch12/v1_20_쯤.jpg"
+        },
+        {
+          "korean": "타다",
+          "indonesian": "Naik (kendaraan), naik, naik (kendaraan)",
+          "image": "/images/textbook/ch12/v1_21_타다.jpg"
+        },
+        {
+          "korean": "택시",
+          "indonesian": "taksi",
+          "image": "/images/textbook/ch12/v1_22_택시.jpg"
+        },
+        {
+          "korean": "트럭",
+          "indonesian": "Truk, truck, truk",
+          "image": "/images/textbook/ch12/v1_23_트럭.jpg"
+        }
+      ],
+      "main_image": null
+    },
+    {
+      "title": "Kosakata 2 (어휘 2)",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가깝다",
+          "indonesian": "Dekat, dekat",
+          "image": "/images/textbook/ch12/v2_0_가깝다.jpg"
+        },
+        {
+          "korean": "갈아타다",
+          "indonesian": "Ganti kendaraan, ganti(kendaraan)",
+          "image": "/images/textbook/ch12/v2_1_갈아타다.jpg"
+        },
+        {
+          "korean": "걷다",
+          "indonesian": "Berjalan, jalan kaki, berjalan kaki, berjalan",
+          "image": "/images/textbook/ch12/v2_2_걷다.jpg"
+        },
+        {
+          "korean": "걸어가다",
+          "indonesian": "Berjalan pergi, pergi berjalan",
+          "image": "/images/textbook/ch12/v2_3_걸어가다.jpg"
+        },
+        {
+          "korean": "걸어오다",
+          "indonesian": "Berjalan datang, datang berjalan",
+          "image": "/images/textbook/ch12/v2_4_걸어오다.jpg"
+        },
+        {
+          "korean": "내리다",
+          "indonesian": "Turun (dari kendaraan), turun, menurunkan",
+          "image": "/images/textbook/ch12/v2_5_내리다.jpg"
+        },
+        {
+          "korean": "늦다",
+          "indonesian": "terlambat",
+          "image": "/images/textbook/ch12/v2_6_늦다.jpg"
+        },
+        {
+          "korean": "멀다",
+          "indonesian": "jauh",
+          "image": "/images/textbook/ch12/v2_7_멀다.jpg"
+        },
+        {
+          "korean": "미안하다",
+          "indonesian": "minta maaf",
+          "image": "/images/textbook/ch12/v2_8_미안하다.jpg"
+        },
+        {
+          "korean": "이동(하다)",
+          "indonesian": "pindah, memindahkan",
+          "image": null
+        },
+        {
+          "korean": "지나다",
+          "indonesian": "Melewati, lewat",
+          "image": "/images/textbook/ch12/v2_10_지나다.jpg"
+        },
+        {
+          "korean": "차가\t막히다",
+          "indonesian": "Kemacetan, jalanan macet",
+          "image": "/images/textbook/ch12/v2_11_차가_막히다.jpg"
+        },
+        {
+          "korean": "출근\t시간",
+          "indonesian": "Waktu berangkat kerja, waktu masuk kerja",
+          "image": "/images/textbook/ch12/v2_12_출근_시간.jpg"
+        },
+        {
+          "korean": "출퇴근\t시간",
+          "indonesian": "Waktu berangkat dan pulang kerja, waktu masuk dan pulang kerja",
+          "image": "/images/textbook/ch12/v2_13_출퇴근_시간.jpg"
+        },
+        {
+          "korean": "타고\t가다",
+          "indonesian": "pergi, naik",
+          "image": "/images/textbook/ch12/v2_14_타고_가다.jpg"
+        },
+        {
+          "korean": "타고\t오다",
+          "indonesian": "Datang dengan naik kendaraan, datang, naik",
+          "image": "/images/textbook/ch12/v2_15_타고_오다.jpg"
+        },
+        {
+          "korean": "퇴근\t시간",
+          "indonesian": "jam pulang kerja",
+          "image": "/images/textbook/ch12/v2_16_퇴근_시간.jpg"
+        },
+        {
+          "korean": "환승(하다)",
+          "indonesian": "Berpindah kendaraan (transfer)",
+          "image": "/images/textbook/ch12/v2_17_환승(하다).jpg"
+        }
+      ],
+      "main_image": null
+    }
+  ]
+}

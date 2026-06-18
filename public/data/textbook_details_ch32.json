@@ -1,0 +1,167 @@
+{
+  "chapter": 32,
+  "sections": [
+    {
+      "title": "Kosakata 1",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "계단",
+          "indonesian": "Tangga, tangga",
+          "image": "/images/textbook/ch32/v1_0_계단.jpg"
+        },
+        {
+          "korean": "공용",
+          "indonesian": "Umum",
+          "image": "/images/textbook/ch32/v1_1_공용.jpg"
+        },
+        {
+          "korean": "관리인",
+          "indonesian": "Petugas pengelola, pengelola",
+          "image": "/images/textbook/ch32/v1_2_관리인.jpg"
+        },
+        {
+          "korean": "규칙",
+          "indonesian": "peraturan / aturan",
+          "image": "/images/textbook/ch32/v1_3_규칙.jpg"
+        },
+        {
+          "korean": "다른",
+          "indonesian": "lain, berbeda",
+          "image": "/images/textbook/ch32/v1_4_다른.jpg"
+        },
+        {
+          "korean": "데려오다",
+          "indonesian": "Membawa (seseorang)",
+          "image": "/images/textbook/ch32/v1_5_데려오다.jpg"
+        },
+        {
+          "korean": "복도",
+          "indonesian": "Koridor, lorong, koridor",
+          "image": "/images/textbook/ch32/v1_6_복도.jpg"
+        },
+        {
+          "korean": "샤워실",
+          "indonesian": "Kamar mandi, kamar mandi",
+          "image": "/images/textbook/ch32/v1_7_샤워실.jpg"
+        },
+        {
+          "korean": "세탁실",
+          "indonesian": "Ruang cuci, ruang cuci, laundry",
+          "image": "/images/textbook/ch32/v1_8_세탁실.jpg"
+        },
+        {
+          "korean": "어기다",
+          "indonesian": "melanggar",
+          "image": "/images/textbook/ch32/v1_9_어기다.jpg"
+        },
+        {
+          "korean": "조리실",
+          "indonesian": "Dapur",
+          "image": "/images/textbook/ch32/v1_10_조리실.jpg"
+        },
+        {
+          "korean": "출입문",
+          "indonesian": "Pintu masuk, pintu masuk",
+          "image": "/images/textbook/ch32/v1_11_출입문.jpg"
+        },
+        {
+          "korean": "혼자",
+          "indonesian": "Sendiri, Sendirian, sendiri",
+          "image": "/images/textbook/ch32/v1_12_혼자.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kosakata 2",
+      "type": "vocab",
+      "items": [
+        {
+          "korean": "가지다",
+          "indonesian": "Memiliki, membawa",
+          "image": "/images/textbook/ch32/v2_0_가지다.jpg"
+        },
+        {
+          "korean": "구내식당",
+          "indonesian": "kantin sekolah/perusahaan",
+          "image": null
+        },
+        {
+          "korean": "끼리",
+          "indonesian": "Antara (kelompok), Kelompok, sesama",
+          "image": "/images/textbook/ch32/v2_2_끼리.jpg"
+        },
+        {
+          "korean": "놓다",
+          "indonesian": "Meletakkan, meletakkan, menaruh",
+          "image": "/images/textbook/ch32/v2_3_놓다.jpg"
+        },
+        {
+          "korean": "담다",
+          "indonesian": "Menyajikan (makanan), memasukan, memenu\nhi, mengisi, menaruh",
+          "image": "/images/textbook/ch32/v2_4_담다.jpg"
+        },
+        {
+          "korean": "도시락",
+          "indonesian": "Bekal makan siang",
+          "image": "/images/textbook/ch32/v2_5_도시락.jpg"
+        },
+        {
+          "korean": "미리",
+          "indonesian": "Sebelumnya, lebih dulu, sebelumnya",
+          "image": "/images/textbook/ch32/v2_6_미리.jpg"
+        },
+        {
+          "korean": "배식대",
+          "indonesian": "Meja pembagian makanan",
+          "image": "/images/textbook/ch32/v2_7_배식대.jpg"
+        },
+        {
+          "korean": "식권",
+          "indonesian": "Kupon makan",
+          "image": "/images/textbook/ch32/v2_8_식권.jpg"
+        },
+        {
+          "korean": "식단표",
+          "indonesian": "Menu makanan",
+          "image": "/images/textbook/ch32/v2_9_식단표.jpg"
+        },
+        {
+          "korean": "식수대",
+          "indonesian": "Area pengambilan air minum",
+          "image": "/images/textbook/ch32/v2_10_식수대.jpg"
+        },
+        {
+          "korean": "식판",
+          "indonesian": "Tray makan",
+          "image": "/images/textbook/ch32/v2_11_식판.jpg"
+        },
+        {
+          "korean": "퇴식구",
+          "indonesian": "Area pembersihan piring",
+          "image": "/images/textbook/ch32/v2_12_퇴식구.jpg"
+        },
+        {
+          "korean": "할인되다",
+          "indonesian": "Didiskon",
+          "image": "/images/textbook/ch32/v2_13_할인되다.jpg"
+        }
+      ]
+    },
+    {
+      "title": "사내 공용 시설 사용 수칙 (Aturan Penggunaan Fasilitas Perusahaan Bersama)",
+      "type": "culture",
+      "main_image": null,
+      "culture_pairs": [
+        {
+          "korean": "회사에는 휴게실이나 구내식당, 체력단련실 등 여러 사람들이 함께 이용 하는 편의 시설이 있습니다. 이런 시설을 사용할 때는 다른 사람들에게 불 쾌감을 주지 않도록 주의해야 합니다. 혼자서 긴 소파를 차지하고 누워 있 거나 발을 의자나 테이블 위에 올려놓는 일, 이어폰을 끼지 않고 스마트폰 으로 방송을 보는 것은 예의에 어긋난 행동입니다. 식당 밖에서는 냄새가 많이 나는 음식물을 먹지 않도록 하고, 시설을 사용한 후에는 다른 사람들 을 위해 깨끗이 치워 놓는 것이 좋습니다. 또 사람이 없을 때는 전등이나 냉 · 난방기를 켜 두지 말아야 합니다.",
+          "indonesian": "Di tempat kerja terdapat berbagai fasilitas bersama seperti lounge, kafetaria, dan ruang kebugaran. Saat menggunakan fasilitas ini, penting untuk menghindari tindakan yang dapat menimbulkan ketidaknyamanan bagi orang lain. Misalnya, menempati sofa panjang sendirian dan berbaring, meletakkan kaki di atas kursi atau meja, atau menonton video di smartphone tanpa earphone dianggap sebagai perilaku tidak sopan. Selain itu, hindari mengonsumsi makanan berbau menyengat di luar ruang makan, dan pastikan untuk membersihkan diri setelah menggunakan fasilitas tersebut demi kepentingan orang lain. Selain itu, jangan biarkan lampu atau AC/sistem pemanas menyala saat tidak ada orang."
+        },
+        {
+          "korean": "잠깐씩 사용하는 회사 내 시설과 달리 기숙사는 회사 동료들과 늘 함께 지내는 생활 공간입니다. 기숙사에는 개인 공간 이외에도 세탁실이나 샤워 실, 휴게실, 주방 등 공용 시설이 있습니다. 공용 시설을 사용할 때는 사용 규칙을 잘 지키고 항상 청결하게 사용해야 합니다. 또한 늦은 시간에는 텔 레비전이나 음악 소리를 작게 하고 세탁실이나 샤워실은 사용하지 않는 것 이 좋습니다. 특히 서로 다른 문화적 배경을 가진 사람들과 어울려 살 경우 에는 상대방의 문화를 존중하는 태도가 필요합니다.",
+          "indonesian": "Berbeda dengan fasilitas di tempat kerja yang hanya digunakan sebentar, asrama merupakan ruang hidup di mana Anda dan rekan kerja selalu berada. Asrama memiliki fasilitas bersama seperti ruang binatu, pancuran, lounge, dan dapur selain ruang pribadi. Penting untuk mengikuti aturan dan menjaga kebersihan saat menggunakan fasilitas umum tersebut. Selain itu, kecilkan volume televisi dan musik pada larut malam dan hindari menggunakan ruang cuci atau mandi pada larut malam. Terutama ketika tinggal bersama orang-orang dari latar belakang budaya yang berbeda, penting untuk menghormati budaya orang lain."
+        }
+      ]
+    }
+  ]
+}
