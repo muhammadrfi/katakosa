@@ -87,5 +87,7 @@ export const askGemini = async (
     })),
   });
   const response = await chat.sendMessage({ message: prompt });
-  return response.text;
+  const text = response.text;
+  if (!text) throw new Error('Model tidak mengembalikan respons teks. Coba lagi atau ganti model.');
+  return text;
 };

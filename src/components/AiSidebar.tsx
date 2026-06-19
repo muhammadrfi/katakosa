@@ -290,7 +290,7 @@ export const AiSidebar: React.FC = () => {
           {/* ─── SETTINGS PANEL ─── */}
           {showSettings && (
             <div className="absolute inset-0 bg-background z-20 flex flex-col animate-in fade-in slide-in-from-top duration-200 overflow-y-auto">
-              <div className="p-6 flex flex-col gap-6">
+              <div className="p-6 flex flex-col gap-6 pb-8">
                 
                 {/* API Key Section */}
                 <div className="flex flex-col gap-3">
@@ -367,7 +367,7 @@ export const AiSidebar: React.FC = () => {
                       <RefreshCw className={cn("w-3.5 h-3.5", modelsLoading && "animate-spin")} />
                     </Button>
                   </div>
-                  <div ref={modelDropdownRef} className="relative">
+                  <div ref={modelDropdownRef}>
                     <button
                       type="button"
                       onClick={() => !modelsLoading && models.length > 0 && setShowModelDropdown(!showModelDropdown)}
@@ -394,7 +394,7 @@ export const AiSidebar: React.FC = () => {
                     </button>
 
                     {showModelDropdown && (
-                      <div className="absolute top-full left-0 right-0 mt-1.5 bg-card border rounded-xl shadow-xl z-30 animate-in fade-in slide-in-from-top-1 duration-150">
+                      <div className="mt-1.5 bg-card border rounded-xl shadow-xl animate-in fade-in slide-in-from-top-1 duration-150">
                         <div className="overflow-y-auto max-h-64 rounded-xl">
                           {models.map((model) => (
                             <button
