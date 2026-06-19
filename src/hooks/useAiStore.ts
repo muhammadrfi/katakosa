@@ -48,7 +48,7 @@ export const useAiStore = create<AiState>()(
     (set, get) => ({
       apiKey: '',
       setApiKey: (key) => set({ apiKey: key }),
-      selectedModel: 'gemini-1.5-flash', // default
+      selectedModel: 'gemini-2.5-flash', // default
       setSelectedModel: (model) => set({ selectedModel: model }),
       history: [],
       addMessage: (msg) => set((state) => ({ history: [...state.history, msg] })),

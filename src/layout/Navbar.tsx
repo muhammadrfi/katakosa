@@ -126,44 +126,42 @@ const Navbar = () => {
   );
 
   return (
-    <header className="py-4 px-6 border-b">
+    <header className="py-4 px-6 border-b shrink-0">
       <nav className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="flex items-center gap-2">
-          <BookOpen className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">KataLatih</span>
-        </Link>
-        
-        {/* Mobile Navigation Trigger (Left) */}
-        <div className="lg:hidden shrink-0">
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="left" className="w-[250px] sm:w-[300px]">
-              <div className="flex flex-col gap-4 pt-8">
-                {navLinksMobile}
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                  aria-label="Toggle theme"
-                  className="justify-start w-full"
-                >
-                  {theme === 'dark' ? <Sun className="h-[1.2rem] w-[1.2rem] mr-2" /> : <Moon className="h-[1.2rem] w-[1.2rem] mr-2" />}
-                  {theme === 'dark' ? 'Mode Terang' : 'Mode Gelap'}
+        {/* Left Side: Mobile Hamburger & Brand Logo */}
+        <div className="flex items-center gap-2">
+          {/* Mobile Navigation Trigger */}
+          <div className="lg:hidden">
+            <Sheet>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="h-9 w-9 rounded-xl">
+                  <Menu className="h-5 w-5" />
                 </Button>
-              </div>
-            </SheetContent>
-          </Sheet>
-        </div>
+              </SheetTrigger>
+              <SheetContent side="left" className="w-[250px] sm:w-[300px]">
+                <div className="flex flex-col gap-4 pt-8">
+                  {navLinksMobile}
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                    aria-label="Toggle theme"
+                    className="justify-start w-full px-3 py-2 rounded-xl text-base"
+                  >
+                    {theme === 'dark' ? <Sun className="h-[1.2rem] w-[1.2rem] mr-2" /> : <Moon className="h-[1.2rem] w-[1.2rem] mr-2" />}
+                    {theme === 'dark' ? 'Mode Terang' : 'Mode Gelap'}
+                  </Button>
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
 
-        {/* Logo / Brand Link */}
-        <Link to="/" className="flex items-center gap-2 shrink-0">
-          <BookOpen className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">KataLatih</span>
-        </Link>
+          {/* Logo / Brand Link */}
+          <Link to="/" className="flex items-center gap-2">
+            <BookOpen className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+            <span className="text-lg lg:text-xl font-bold">KataLatih</span>
+          </Link>
+        </div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex items-center gap-4 lg:gap-6 text-sm">
@@ -186,6 +184,7 @@ const Navbar = () => {
             size="icon"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             aria-label="Toggle theme"
+            className="h-9 w-9 rounded-xl"
           >
             <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
             <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
