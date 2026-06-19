@@ -148,8 +148,8 @@
           "image": null
         },
         {
-          "korean": "금지(하다)",
-          "indonesian": "Larangan",
+          "korean": "통행금지",
+          "indonesian": "dilarang lewat / no passing",
           "image": null
         },
         {
@@ -165,11 +165,6 @@
         {
           "korean": "발화원",
           "indonesian": "Dilarang menyulut sumber api dan asap",
-          "image": null
-        },
-        {
-          "korean": "불",
-          "indonesian": "api, lampu, Api",
           "image": null
         },
         {
@@ -225,11 +220,6 @@
         {
           "korean": "통로",
           "indonesian": "Jalan, jalur, papan jalan",
-          "image": null
-        },
-        {
-          "korean": "통행(하다)",
-          "indonesian": "lalu lintas (lewat / melintas)",
           "image": null
         },
         {

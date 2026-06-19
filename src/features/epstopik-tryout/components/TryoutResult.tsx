@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Award, RotateCcw, HelpCircle, Eye, BookOpen, Headphones } from 'lucide-react';
+import { Award, RotateCcw, HelpCircle, Eye, BookOpen, Headphones, Sparkles } from 'lucide-react';
 import { TryoutResults } from '../types';
 import { cn } from '@/lib/utils';
+import { useAiStore } from '@/hooks/useAiStore';
+import { parseQuestionContent } from '../utils';
 
 interface TryoutResultProps {
   results: TryoutResults;
@@ -15,6 +17,78 @@ interface TryoutResultProps {
 
 const TryoutResult: React.FC<TryoutResultProps> = ({ results, onRestart, onMenu, onReview, tryoutType }) => {
   const [showReview, setShowReview] = useState(false);
+  const { setSidebarOpen, createSession, askSidebar } = useAiStore();
+  type ResultItem = TryoutResults['items'][number];
+
+  const handleTanyaAI = async (item: ResultItem, idx: number) => {
+    createSession(`Tanya AI: Soal #${idx + 1}`, 'tryout');
+    setSidebarOpen(true);
+    
+    const correctAns = item.correctAns;
+    const selectedAns = item.userAns;
+    const { instruction, prompt } = parseQuestionContent(item.q);
+    
+    const formattedOptions = item.q.options.map((opt, idx) => {
+      return `${idx + 1}. ${opt || ''}`;
+    }).join('\n');
+
+    const userDisplayMsg = `Tolong jelaskan soal Nomor ${idx + 1} (${item.q.section === 'reading' ? 'Membaca' : 'Mendengar'}) bab ini.`;
+    
+    const hiddenPrompt = `Anda adalah Asisten Belajar Bahasa Korea Katakosa yang mahir. Analisis dan jelaskan soal tryout EPS-TOPIK berikut ini dengan sangat meyakinkan, tegas, terstruktur, dan akurat. Jangan gunakan kata-kata ragu seperti "kemungkinan besar" atau "biasanya" karena data soal di bawah ini sudah lengkap dan pasti.
+
+DATA SOAL NYATA:
+- Bab: ${item.q.chapter}
+- Tipe: ${item.q.section === 'reading' ? 'Membaca (Reading)' : 'Mendengar (Listening)'}
+- Instruksi Soal: "${instruction}"
+- Teks Paragraf / Soal: "${prompt || '(Lihat gambar atau transkrip)'}"
+${item.q.transcript ? `- Transkrip Audio Percakapan: "${item.q.transcript}"` : ''}
+- Pilihan Jawaban:
+${formattedOptions}
+
+STATUS JAWABAN:
+- Kunci Jawaban Benar: Opsi ${correctAns || 'Belum ditentukan'}
+- Jawaban Terpilih User: ${selectedAns ? `Opsi ${selectedAns}` : 'Belum memilih'}
+
+Format Penjelasan yang Wajib Diikuti:
+1. TERJEMAHAN SOAL (Tuliskan terjemahan instruksi dan teks paragraf/soal secara jelas).
+
+2. PENJELASAN RINGKAS JAWABAN BENAR & SALAH (Tuliskan di awal secara tegas mana opsi yang benar dan mengapa benar, lalu mengapa opsi lainnya salah. Berikan rujukan kalimat/kata spesifik dari teks soal, misal: 'Opsi 2 BENAR karena kalimat terakhir menyatakan X...', 'Opsi 1 SALAH karena di kalimat pertama tertulis Y...').
+
+3. ARTI KATA KUNCI PER OPSI (Berikan terjemahan kata per kata dari setiap opsi jawaban).
+
+4. KOSAKATA & TATA BAHASA PENTING (Jelaskan 2-3 kosakata atau pola tata bahasa penting yang muncul pada soal ini).
+
+PENTING: Gunakan jarak spasi baris baru ganda antar bagian agar tidak rapat/dempet dan nyaman dibaca.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
+
+  const handleTanyaHasilEvaluasi = async () => {
+    createSession(`Evaluasi Hasil Latihan`, 'tryout');
+    setSidebarOpen(true);
+
+    const wrongChapters = results.items
+      .filter(item => !item.isCorrect)
+      .map(item => `Bab ${item.q.chapter} (Soal #${item.q.question_number})`);
+
+    const userDisplayMsg = `Tolong evaluasi hasil latihan tryout saya dengan skor ${results.score.toFixed(0)}%.`;
+
+    const hiddenPrompt = `Anda adalah Asisten Belajar Bahasa Korea Katakosa yang mahir. Tolong berikan analisis evaluasi hasil latihan tryout user secara mendalam, ramah, dan memotivasi dalam Bahasa Indonesia:
+    
+RINGKASAN SKOR USER:
+- Skor Akhir: ${results.score.toFixed(1)}%
+- Total Soal Benar: ${results.correctCount} dari ${results.items.length} soal
+- Daftar Soal Salah: ${wrongChapters.length > 0 ? wrongChapters.join(', ') : 'Tidak ada (Sempurna!)'}
+
+Tolong berikan penjelasan terstruktur:
+1. EVALUASI AKURASI (Berikan tanggapan atas skor akurasi mereka dibandingkan target kelulusan EPS-TOPIK).
+2. REKOMENDASI TOPIK/BAB (Sebutkan secara spesifik bab-bab mana saja yang salah dijawab, dan jelaskan topik/kosakata utama apa yang dipelajari di bab-bab tersebut agar mereka tahu bagian mana yang harus ditinjau ulang).
+3. TIPS & STRATEGI BELAJAR (Berikan 2 tips praktis yang spesifik untuk meningkatkan skor mereka selanjutnya).
+
+PENTING: Gunakan jarak spasi baris baru ganda antar bagian agar tidak rapat/dempet dan nyaman dibaca.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
 
   const readingItems = results.items.filter(item => item.q.section === 'reading');
   const listeningItems = results.items.filter(item => item.q.section === 'listening');
@@ -52,6 +126,15 @@ const TryoutResult: React.FC<TryoutResultProps> = ({ results, onRestart, onMenu,
             </div>
             <div className="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mt-2">Salah</div>
           </div>
+        </div>
+
+        <div className="flex justify-center pt-2">
+          <Button
+            onClick={handleTanyaHasilEvaluasi}
+            className="w-full sm:w-auto h-11 rounded-xl bg-primary/10 hover:bg-primary/20 text-primary border border-primary/25 font-black text-xs uppercase tracking-widest px-6 flex items-center gap-2 shadow-sm transition-all active:scale-95"
+          >
+            <Sparkles className="h-4.5 w-4.5 text-primary animate-pulse" /> Analisis Hasil Ujian dengan AI
+          </Button>
         </div>
 
         {/* Section Score Breakdown */}
@@ -103,7 +186,7 @@ const TryoutResult: React.FC<TryoutResultProps> = ({ results, onRestart, onMenu,
           </div>
           
           {(() => {
-            const renderResultBox = (item: any, idx: number) => (
+            const renderResultBox = (item: ResultItem, idx: number) => (
               <button
                 key={idx}
                 onClick={() => onReview(idx)}
@@ -227,11 +310,25 @@ const TryoutResult: React.FC<TryoutResultProps> = ({ results, onRestart, onMenu,
                         {item.userAns !== undefined ? `Opsi ${item.userAns}` : '—'}
                       </span>
                     </div>
-                    <div className="flex justify-between text-[11px]">
-                      <span className="text-zinc-400">Kunci Jawaban:</span>
-                      <span className="font-bold text-zinc-700 dark:text-zinc-300">
-                        {item.correctAns !== null ? `Opsi ${item.correctAns}` : 'Unset'}
-                      </span>
+                    <div className="flex justify-between text-[11px] items-center">
+                      <div>
+                        <span className="text-zinc-400">Kunci Jawaban:</span>{" "}
+                        <span className="font-bold text-zinc-700 dark:text-zinc-300">
+                          {item.correctAns !== null ? `Opsi ${item.correctAns}` : 'Unset'}
+                        </span>
+                      </div>
+                      <Button
+                        size="xs"
+                        variant="ghost"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleTanyaAI(item, idx);
+                        }}
+                        className="h-6 px-2 text-[10px] text-primary hover:bg-primary/5 dark:hover:bg-primary/10 rounded-lg flex items-center gap-1 font-bold"
+                      >
+                        <Sparkles className="w-3.5 h-3.5 text-primary animate-pulse" />
+                        <span>Tanya AI</span>
+                      </Button>
                     </div>
                   </div>
                 </div>

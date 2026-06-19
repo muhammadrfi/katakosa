@@ -8,22 +8,22 @@
         {
           "korean": "-별",
           "indonesian": "bintang",
-          "image": "/images/textbook/ch36/v1_0_-별.jpg"
+          "image": null
         },
         {
           "korean": "갖다 놓다",
           "indonesian": "membawa dan meletakkan",
-          "image": "/images/textbook/ch36/v1_1_갖다_놓다.jpg"
+          "image": null
         },
         {
           "korean": "깨지다",
           "indonesian": "pecah / rusak",
-          "image": "/images/textbook/ch36/v1_2_깨지다.jpg"
+          "image": null
         },
         {
           "korean": "꼼꼼하다",
           "indonesian": "teliti / cermat",
-          "image": "/images/textbook/ch36/v1_3_꼼꼼하다.jpg"
+          "image": null
         },
         {
           "korean": "나르다",
@@ -33,11 +33,11 @@
         {
           "korean": "녹슬다",
           "indonesian": "berkarat",
-          "image": "/images/textbook/ch36/v1_5_녹슬다.jpg"
+          "image": null
         },
         {
-          "korean": "라벨",
-          "indonesian": "label",
+          "korean": "라벨을 붙이다",
+          "indonesian": "menempelkan label",
           "image": "/images/textbook/ch36/v1_6_라벨.jpg"
         },
         {
@@ -61,19 +61,14 @@
           "image": "/images/textbook/ch36/v1_10_분류(하다).jpg"
         },
         {
-          "korean": "붙이다",
-          "indonesian": "menempelkan",
-          "image": "/images/textbook/ch36/v1_11_붙이다.jpg"
-        },
-        {
           "korean": "손상되다",
           "indonesian": "Kerusakan",
-          "image": "/images/textbook/ch36/v1_12_손상되다.jpg"
+          "image": null
         },
         {
           "korean": "신경을 쓰다",
           "indonesian": "menaruh perhatian / memedulikan",
-          "image": "/images/textbook/ch36/v1_13_신경을_쓰다.jpg"
+          "image": null
         },
         {
           "korean": "쌓다",
@@ -83,7 +78,7 @@
         {
           "korean": "업체",
           "indonesian": "nama perusahaan",
-          "image": "/images/textbook/ch36/v1_15_업체.jpg"
+          "image": null
         },
         {
           "korean": "완충재",
@@ -98,12 +93,12 @@
         {
           "korean": "지시(하다)",
           "indonesian": "Mengarahkan, menginstruksikan",
-          "image": "/images/textbook/ch36/v1_18_지시(하다).jpg"
+          "image": null
         },
         {
           "korean": "크기",
           "indonesian": "besar",
-          "image": "/images/textbook/ch36/v1_19_크기.jpg"
+          "image": null
         },
         {
           "korean": "파렛트",
@@ -134,7 +129,7 @@
         },
         {
           "korean": "내리다",
-          "indonesian": "Turun (dari kendaraan), turun, menurunkan",
+          "indonesian": "menurunkan (barang dari kendaraan)",
           "image": "/images/textbook/ch36/v2_2_내리다.jpg"
         },
         {
@@ -145,27 +140,27 @@
         {
           "korean": "맞추다",
           "indonesian": "Menyesuaikan, menyesuaikan, membumbui sesuai selera",
-          "image": "/images/textbook/ch36/v2_4_맞추다.jpg"
+          "image": null
         },
         {
           "korean": "밧줄",
           "indonesian": "Tali tambang, tali",
-          "image": "/images/textbook/ch36/v2_5_밧줄.jpg"
+          "image": null
         },
         {
           "korean": "빠짐없이",
           "indonesian": "tanpa kecuali / secara lengkap",
-          "image": "/images/textbook/ch36/v2_6_빠짐없이.jpg"
+          "image": null
         },
         {
           "korean": "수고(하다)",
           "indonesian": "kerja kera",
-          "image": "/images/textbook/ch36/v2_7_수고(하다).jpg"
+          "image": null
         },
         {
           "korean": "수량",
           "indonesian": "jumlah barang",
-          "image": "/images/textbook/ch36/v2_8_수량.jpg"
+          "image": null
         },
         {
           "korean": "싣다",
@@ -185,12 +180,12 @@
         {
           "korean": "주의(하다)",
           "indonesian": "berhati-hati",
-          "image": "/images/textbook/ch36/v2_12_주의(하다).jpg"
+          "image": null
         },
         {
           "korean": "중량",
           "indonesian": "berat",
-          "image": "/images/textbook/ch36/v2_13_중량.jpg"
+          "image": null
         },
         {
           "korean": "지게차",
@@ -205,12 +200,12 @@
         {
           "korean": "출하(하다)",
           "indonesian": "mengirim",
-          "image": null
+          "image": "/images/textbook/ch36/v2_16_출하(하다).jpg"
         },
         {
           "korean": "출하량",
           "indonesian": "volume pengiriman",
-          "image": "/images/textbook/ch36/v2_17_출하량.jpg"
+          "image": null
         },
         {
           "korean": "핸드 카트",

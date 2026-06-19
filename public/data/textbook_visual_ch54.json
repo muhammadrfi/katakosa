@@ -18,7 +18,7 @@
         {
           "korean": "대피(하다)",
           "indonesian": "mengungsi / menyelamatkan diri",
-          "image": "/images/textbook/ch54/v1_2_대피(하다).jpg"
+          "image": null
         },
         {
           "korean": "밀폐공간",
@@ -33,7 +33,7 @@
         {
           "korean": "보호구",
           "indonesian": "alat pelindung",
-          "image": null
+          "image": "/images/textbook/ch54/v1_5_보호구.jpg"
         },
         {
           "korean": "석면",
@@ -43,7 +43,7 @@
         {
           "korean": "섭취(하다)",
           "indonesian": "mengonsumsi",
-          "image": "/images/textbook/ch54/v1_7_섭취(하다).jpg"
+          "image": null
         },
         {
           "korean": "수칙",
@@ -63,7 +63,7 @@
         {
           "korean": "중단(하다)",
           "indonesian": "Menghentikan pekerjaan",
-          "image": "/images/textbook/ch54/v1_11_중단(하다).jpg"
+          "image": null
         },
         {
           "korean": "화학물질",
@@ -80,7 +80,7 @@
         {
           "korean": "개구부",
           "indonesian": "Membuka penutup pelindung",
-          "image": "/images/textbook/ch54/v2_0_개구부.jpg"
+          "image": null
         },
         {
           "korean": "끼이다",
@@ -90,7 +90,7 @@
         {
           "korean": "낙하(하다)",
           "indonesian": "jatuh (terjatuh)",
-          "image": "/images/textbook/ch54/v2_2_낙하(하다).jpg"
+          "image": null
         },
         {
           "korean": "난간",
@@ -100,12 +100,12 @@
         {
           "korean": "막다",
           "indonesian": "mencegah kecelakaan",
-          "image": "/images/textbook/ch54/v2_4_막다.jpg"
+          "image": null
         },
         {
           "korean": "반드시",
           "indonesian": "Pastikan",
-          "image": "/images/textbook/ch54/v2_5_반드시.jpg"
+          "image": null
         },
         {
           "korean": "방호덮개",
@@ -115,7 +115,7 @@
         {
           "korean": "방호장치",
           "indonesian": "Dilarang membongkar perangkat pelindung",
-          "image": "/images/textbook/ch54/v2_7_방호장치.jpg"
+          "image": null
         },
         {
           "korean": "사항",
@@ -130,22 +130,22 @@
         {
           "korean": "수리(하다)",
           "indonesian": "memperbaiki",
-          "image": "/images/textbook/ch54/v2_10_수리(하다).jpg"
+          "image": null
         },
         {
           "korean": "실시(하다)",
           "indonesian": "Dilakukan, melaksankan, menyelenggarakan",
-          "image": "/images/textbook/ch54/v2_11_실시(하다).jpg"
+          "image": null
         },
         {
           "korean": "안전대",
           "indonesian": "Sabuk pengaman, sabut pengaman, sabuk pengaman, tali pengaman",
-          "image": "/images/textbook/ch54/v2_12_안전대.jpg"
+          "image": null
         },
         {
           "korean": "안전모",
           "indonesian": "Helm keamanan, helm, topi keselamatan",
-          "image": "/images/textbook/ch54/v2_13_안전모.jpg"
+          "image": null
         },
         {
           "korean": "안전보건표지판",
@@ -160,7 +160,7 @@
         {
           "korean": "잠금장치",
           "indonesian": "kunci saklar",
-          "image": null
+          "image": "/images/textbook/ch54/v2_16_잠금장치.jpg"
         },
         {
           "korean": "재해",
@@ -170,7 +170,7 @@
         {
           "korean": "조작(하다)",
           "indonesian": "Beroperasi, mengoprasikan",
-          "image": "/images/textbook/ch54/v2_18_조작(하다).jpg"
+          "image": null
         },
         {
           "korean": "준수(하다)",
@@ -180,12 +180,12 @@
         {
           "korean": "줄이다",
           "indonesian": "mengurangi kecelakaan",
-          "image": "/images/textbook/ch54/v2_20_줄이다.jpg"
+          "image": null
         },
         {
           "korean": "차단(하다)",
           "indonesian": "pemutusan / penyumbatan (memblokir)",
-          "image": "/images/textbook/ch54/v2_21_차단(하다).jpg"
+          "image": null
         }
       ],
       "main_image": null

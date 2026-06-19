@@ -13,17 +13,17 @@
         {
           "korean": "과일",
           "indonesian": "Buah, buah, buah-buahan",
-          "image": "/images/textbook/ch10/v1_1_과일.jpg"
+          "image": null
         },
         {
           "korean": "딸기",
           "indonesian": "Stroberi, stroberi",
-          "image": "/images/textbook/ch10/v1_2_딸기.jpg"
+          "image": null
         },
         {
           "korean": "많다",
           "indonesian": "Banyak, banyak",
-          "image": "/images/textbook/ch10/v1_3_많다.jpg"
+          "image": null
         },
         {
           "korean": "무겁다",
@@ -38,7 +38,7 @@
         {
           "korean": "상자",
           "indonesian": "Kotak, kardus, kotak",
-          "image": "/images/textbook/ch10/v1_6_상자.jpg"
+          "image": null
         },
         {
           "korean": "상태",
@@ -53,7 +53,7 @@
         {
           "korean": "수박",
           "indonesian": "Semangka, semangka",
-          "image": "/images/textbook/ch10/v1_9_수박.jpg"
+          "image": null
         },
         {
           "korean": "싱싱하다",
@@ -63,17 +63,17 @@
         {
           "korean": "싸다",
           "indonesian": "Murah, membungkus, mengepak, murah",
-          "image": "/images/textbook/ch10/v1_11_싸다.jpg"
+          "image": null
         },
         {
           "korean": "오렌지",
           "indonesian": "Jeruk, jeruk",
-          "image": "/images/textbook/ch10/v1_12_오렌지.jpg"
+          "image": null
         },
         {
           "korean": "원",
           "indonesian": "Mata uang Korea",
-          "image": "/images/textbook/ch10/v1_13_원.jpg"
+          "image": null
         },
         {
           "korean": "작다",
@@ -83,7 +83,7 @@
         {
           "korean": "잘",
           "indonesian": "dengan baik",
-          "image": "/images/textbook/ch10/v1_15_잘.jpg"
+          "image": null
         },
         {
           "korean": "적다",
@@ -108,14 +108,9 @@
           "image": "/images/textbook/ch10/v2_0_가격.jpg"
         },
         {
-          "korean": "값",
-          "indonesian": "harga",
+          "korean": "값을 깎다",
+          "indonesian": "menawar harga",
           "image": "/images/textbook/ch10/v2_1_값.jpg"
-        },
-        {
-          "korean": "값을\t깎다",
-          "indonesian": "Memotong harga, potong harga",
-          "image": "/images/textbook/ch10/v2_2_값을_깎다.jpg"
         },
         {
           "korean": "계산(하다)",
@@ -140,7 +135,7 @@
         {
           "korean": "닫다",
           "indonesian": "tutup, menutup",
-          "image": "/images/textbook/ch10/v2_7_닫다.jpg"
+          "image": null
         },
         {
           "korean": "돈",
@@ -150,12 +145,12 @@
         {
           "korean": "동전",
           "indonesian": "Koin, uang logam, uang koin",
-          "image": null
+          "image": "/images/textbook/ch10/v2_9_동전.jpg"
         },
         {
           "korean": "들다",
           "indonesian": "Mengangkat, membawa, menjinjing, mengangkat",
-          "image": "/images/textbook/ch10/v2_10_들다.jpg"
+          "image": null
         },
         {
           "korean": "만",
@@ -170,12 +165,12 @@
         {
           "korean": "바꾸다",
           "indonesian": "menukar, mengganti",
-          "image": "/images/textbook/ch10/v2_13_바꾸다.jpg"
+          "image": null
         },
         {
           "korean": "바지",
           "indonesian": "Celana, celana, baji (celana)",
-          "image": "/images/textbook/ch10/v2_14_바지.jpg"
+          "image": null
         },
         {
           "korean": "백",
@@ -190,7 +185,7 @@
         {
           "korean": "신발",
           "indonesian": "sepatu",
-          "image": "/images/textbook/ch10/v2_17_신발.jpg"
+          "image": null
         },
         {
           "korean": "신용카드",
@@ -200,17 +195,17 @@
         {
           "korean": "싸다",
           "indonesian": "Murah, membungkus, mengepak, murah",
-          "image": "/images/textbook/ch10/v2_19_싸다.jpg"
+          "image": null
         },
         {
           "korean": "어지럽다",
           "indonesian": "Pusing, berantakan, pusing",
-          "image": "/images/textbook/ch10/v2_20_어지럽다.jpg"
+          "image": null
         },
         {
           "korean": "종이\t가방",
           "indonesian": "Tas kertas",
-          "image": "/images/textbook/ch10/v2_21_종이_가방.jpg"
+          "image": null
         },
         {
           "korean": "지폐",

@@ -13,12 +13,12 @@
         {
           "korean": "글",
           "indonesian": "tulisan",
-          "image": "/images/textbook/ch20/v1_1_글.jpg"
+          "image": null
         },
         {
           "korean": "로그아웃",
           "indonesian": "log keluar",
-          "image": "/images/textbook/ch20/v1_2_로그아웃.jpg"
+          "image": null
         },
         {
           "korean": "로그인",
@@ -28,7 +28,7 @@
         {
           "korean": "보내다",
           "indonesian": "mengirim",
-          "image": "/images/textbook/ch20/v1_4_보내다.jpg"
+          "image": null
         },
         {
           "korean": "블로그",
@@ -38,12 +38,12 @@
         {
           "korean": "비밀번호",
           "indonesian": "nomor password, password, nomor rahasia",
-          "image": "/images/textbook/ch20/v1_6_비밀번호.jpg"
+          "image": null
         },
         {
           "korean": "쓰다",
           "indonesian": "Memakai di kepala, Pahit, Menulis, Menggunakan, pahit, menggunakan, menulis",
-          "image": "/images/textbook/ch20/v1_7_쓰다.jpg"
+          "image": null
         },
         {
           "korean": "아이디",
@@ -84,12 +84,12 @@
         {
           "korean": "가르치다",
           "indonesian": "mengajar, Mengajar",
-          "image": "/images/textbook/ch20/v2_0_가르치다.jpg"
+          "image": null
         },
         {
           "korean": "내려받다",
           "indonesian": "Download",
-          "image": "/images/textbook/ch20/v2_1_내려받다.jpg"
+          "image": null
         },
         {
           "korean": "다운로드(하다)",
@@ -119,12 +119,12 @@
         {
           "korean": "보이다",
           "indonesian": "terlihat, tampak",
-          "image": "/images/textbook/ch20/v2_7_보이다.jpg"
+          "image": null
         },
         {
           "korean": "스마트폰",
           "indonesian": "ponsel pintar, smartphone",
-          "image": null
+          "image": "/images/textbook/ch20/v2_8_스마트폰.jpg"
         },
         {
           "korean": "업로드(하다)",
@@ -134,7 +134,7 @@
         {
           "korean": "올리다",
           "indonesian": "menaikan",
-          "image": "/images/textbook/ch20/v2_10_올리다.jpg"
+          "image": null
         },
         {
           "korean": "와이파이",
@@ -149,7 +149,7 @@
         {
           "korean": "이야기(하다)",
           "indonesian": "bercerita",
-          "image": "/images/textbook/ch20/v2_13_이야기(하다).jpg"
+          "image": null
         },
         {
           "korean": "저장(하다)",

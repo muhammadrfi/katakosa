@@ -6,24 +6,96 @@
       "type": "vocab",
       "main_image": "/images/textbook/ch2_vocab1.jpg",
       "items": [
-        { "korean": "연필", "indonesian": "pensil", "image": null },
-        { "korean": "볼펜", "indonesian": "pulpen / pena", "image": null },
-        { "korean": "가위", "indonesian": "gunting", "image": null },
-        { "korean": "칼", "indonesian": "pisau cutter", "image": null },
-        { "korean": "시계", "indonesian": "jam", "image": null },
-        { "korean": "달력", "indonesian": "kalender", "image": null },
-        { "korean": "컴퓨터", "indonesian": "komputer", "image": null },
-        { "korean": "안경", "indonesian": "kacamata", "image": null },
-        { "korean": "휴대폰", "indonesian": "HP / telepon genggam", "image": null },
-        { "korean": "휴대전화", "indonesian": "handphone / HP", "image": null },
-        { "korean": "계산기", "indonesian": "kalkulator", "image": null },
-        { "korean": "컵", "indonesian": "cangkir / gelas", "image": null },
-        { "korean": "이것", "indonesian": "ini (benda)", "image": "/images/textbook/ch2/ch2_demonstrative.jpg" },
-        { "korean": "저것", "indonesian": "itu (benda jauh)", "image": "/images/textbook/ch2/ch2_demonstrative.jpg" },
-        { "korean": "그것", "indonesian": "itu (benda dekat)", "image": "/images/textbook/ch2/ch2_demonstrative.jpg" },
-        { "korean": "무엇", "indonesian": "apa", "image": "/images/textbook/ch2/ch2_demonstrative.jpg" },
-        { "korean": "뭐", "indonesian": "apa", "image": "/images/textbook/ch2/ch2_demonstrative.jpg" },
-        { "korean": "물건", "indonesian": "barang / benda", "image": null }
+        {
+          "korean": "연필",
+          "indonesian": "pensil",
+          "image": null
+        },
+        {
+          "korean": "볼펜",
+          "indonesian": "pulpen / pena",
+          "image": null
+        },
+        {
+          "korean": "가위",
+          "indonesian": "gunting",
+          "image": null
+        },
+        {
+          "korean": "칼",
+          "indonesian": "pisau cutter",
+          "image": null
+        },
+        {
+          "korean": "시계",
+          "indonesian": "jam",
+          "image": null
+        },
+        {
+          "korean": "달력",
+          "indonesian": "kalender",
+          "image": null
+        },
+        {
+          "korean": "컴퓨터",
+          "indonesian": "komputer",
+          "image": null
+        },
+        {
+          "korean": "안경",
+          "indonesian": "kacamata",
+          "image": null
+        },
+        {
+          "korean": "휴대폰",
+          "indonesian": "HP / telepon genggam",
+          "image": null
+        },
+        {
+          "korean": "휴대전화",
+          "indonesian": "handphone / HP",
+          "image": null
+        },
+        {
+          "korean": "계산기",
+          "indonesian": "kalkulator",
+          "image": null
+        },
+        {
+          "korean": "컵",
+          "indonesian": "cangkir / gelas",
+          "image": null
+        },
+        {
+          "korean": "이것",
+          "indonesian": "ini (benda)",
+          "image": "/images/textbook/ch2/v1_0_이것.jpg"
+        },
+        {
+          "korean": "저것",
+          "indonesian": "itu (benda jauh)",
+          "image": "/images/textbook/ch2/v1_1_저것.jpg"
+        },
+        {
+          "korean": "그것",
+          "indonesian": "itu (benda dekat)",
+          "image": "/images/textbook/ch2/v1_2_그것.jpg"
+        },
+        {
+          "korean": "무엇",
+          "indonesian": "apa",
+          "image": "/images/textbook/ch2/v1_3_무엇_뭐.jpg"
+        },
+        {
+          "korean": "뭐",
+          "indonesian": "apa",
+          "image": "/images/textbook/ch2/v1_3_무엇_뭐.jpg"
+        },
+        {
+          "korean": "물건",
+          "indonesian": "barang / benda",
+          "image": null
+        }
       ]
     },
     {
@@ -31,19 +103,71 @@
       "type": "vocab",
       "main_image": "/images/textbook/ch2_vocab2.jpg",
       "items": [
-        { "korean": "휴지", "indonesian": "tisu", "image": null },
-        { "korean": "가족사진", "indonesian": "foto keluarga", "image": null },
-        { "korean": "여권", "indonesian": "paspor", "image": null },
-        { "korean": "지갑", "indonesian": "dompet", "image": null },
-        { "korean": "열쇠", "indonesian": "kunci", "image": null },
-        { "korean": "가방", "indonesian": "tas", "image": null },
-        { "korean": "우산", "indonesian": "payung", "image": null },
-        { "korean": "베개", "indonesian": "bantal", "image": null },
-        { "korean": "거울", "indonesian": "cermin", "image": null },
-        { "korean": "빗", "indonesian": "sisir", "image": null },
-        { "korean": "화장품", "indonesian": "kosmetik", "image": null },
-        { "korean": "이불", "indonesian": "selimut", "image": null },
-        { "korean": "생활용품", "indonesian": "kebutuhan sehari-hari", "image": null }
+        {
+          "korean": "휴지",
+          "indonesian": "tisu",
+          "image": null
+        },
+        {
+          "korean": "가족사진",
+          "indonesian": "foto keluarga",
+          "image": null
+        },
+        {
+          "korean": "여권",
+          "indonesian": "paspor",
+          "image": null
+        },
+        {
+          "korean": "지갑",
+          "indonesian": "dompet",
+          "image": null
+        },
+        {
+          "korean": "열쇠",
+          "indonesian": "kunci",
+          "image": null
+        },
+        {
+          "korean": "가방",
+          "indonesian": "tas",
+          "image": null
+        },
+        {
+          "korean": "우산",
+          "indonesian": "payung",
+          "image": null
+        },
+        {
+          "korean": "베개",
+          "indonesian": "bantal",
+          "image": null
+        },
+        {
+          "korean": "거울",
+          "indonesian": "cermin",
+          "image": null
+        },
+        {
+          "korean": "빗",
+          "indonesian": "sisir",
+          "image": null
+        },
+        {
+          "korean": "화장품",
+          "indonesian": "kosmetik",
+          "image": null
+        },
+        {
+          "korean": "이불",
+          "indonesian": "selimut",
+          "image": null
+        },
+        {
+          "korean": "생활용품",
+          "indonesian": "kebutuhan sehari-hari",
+          "image": null
+        }
       ]
     }
   ]

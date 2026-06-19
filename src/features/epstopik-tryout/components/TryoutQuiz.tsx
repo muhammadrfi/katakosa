@@ -1,14 +1,16 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import { createPortal } from "react-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Volume2, CheckCircle2, XCircle, HelpCircle, ArrowLeft, ArrowRight, Timer, Maximize2, X, ChevronLeft, ChevronRight, LayoutGrid, Play, Pause, RotateCcw, FileText, BookOpen, Headphones } from "lucide-react";
+import { Volume2, CheckCircle2, XCircle, HelpCircle, ArrowLeft, ArrowRight, Timer, Maximize2, X, ChevronLeft, ChevronRight, LayoutGrid, Play, Pause, RotateCcw, FileText, BookOpen, Headphones, Sparkles } from "lucide-react";
 import { Question } from "../types";
 import { parseQuestionContent } from "../utils";
 import AnalyzedText from "./AnalyzedText";
 import { cn } from "@/lib/utils";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Switch } from "@/components/ui/switch";
+import { useAiStore } from "@/hooks/useAiStore";
 
 interface TryoutQuizProps {
   quizQuestions: Question[];
@@ -45,6 +47,51 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
   const [tempCorrectAnswer, setTempCorrectAnswer] = useState<number | null>(1);
   const [isZoomed, setIsZoomed] = useState(false);
   const [isGridOpen, setIsGridOpen] = useState(false);
+
+  const { setSidebarOpen, createSession, askSidebar } = useAiStore();
+
+  const handleTanyaAI = async () => {
+    createSession(`Tanya AI: Soal #${currentIndex + 1}`, 'tryout');
+    setSidebarOpen(true);
+    
+    const correctAns = getActiveCorrectAnswer(currentQuestion);
+    const selectedAns = selectedAnswers[currentIndex];
+    const { instruction, prompt } = parseQuestionContent(currentQuestion);
+    
+    const formattedOptions = currentQuestion.options.map((opt, idx) => {
+      return `${idx + 1}. ${opt || ''}`;
+    }).join('\n');
+
+    const userDisplayMsg = `Tolong jelaskan soal Nomor ${currentIndex + 1} (${currentQuestion.section === 'reading' ? 'Membaca' : 'Mendengar'}) bab ini.`;
+    
+    const hiddenPrompt = `Anda adalah Asisten Belajar Bahasa Korea Katakosa yang mahir. Analisis dan jelaskan soal tryout EPS-TOPIK berikut ini dengan sangat meyakinkan, tegas, terstruktur, dan akurat. Jangan gunakan kata-kata ragu seperti "kemungkinan besar" atau "biasanya" karena data soal di bawah ini sudah lengkap dan pasti.
+
+DATA SOAL NYATA:
+- Bab: ${currentQuestion.chapter}
+- Tipe: ${currentQuestion.section === 'reading' ? 'Membaca (Reading)' : 'Mendengar (Listening)'}
+- Instruksi Soal: "${instruction}"
+- Teks Paragraf / Soal: "${prompt || '(Lihat gambar atau transkrip)'}"
+${currentQuestion.transcript ? `- Transkrip Audio Percakapan: "${currentQuestion.transcript}"` : ''}
+- Pilihan Jawaban:
+${formattedOptions}
+
+STATUS JAWABAN:
+- Kunci Jawaban Benar: Opsi ${correctAns || 'Belum ditentukan'}
+- Jawaban Terpilih User: ${selectedAns ? `Opsi ${selectedAns}` : 'Belum memilih'}
+
+Format Penjelasan yang Wajib Diikuti:
+1. TERJEMAHAN SOAL (Tuliskan terjemahan instruksi dan teks paragraf/soal secara jelas).
+
+2. PENJELASAN RINGKAS JAWABAN BENAR & SALAH (Tuliskan di awal secara tegas mana opsi yang benar dan mengapa benar, lalu mengapa opsi lainnya salah. Berikan rujukan kalimat/kata spesifik dari teks soal, misal: 'Opsi 2 BENAR karena kalimat terakhir menyatakan X...', 'Opsi 1 SALAH karena di kalimat pertama tertulis Y...').
+
+3. ARTI KATA KUNCI PER OPSI (Berikan terjemahan kata per kata dari setiap opsi jawaban).
+
+4. KOSAKATA & TATA BAHASA PENTING (Jelaskan 2-3 kosakata atau pola tata bahasa penting yang muncul pada soal ini).
+
+PENTING: Gunakan jarak spasi baris baru ganda antar bagian agar tidak rapat/dempet dan nyaman dibaca.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -208,7 +255,7 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
                       text={option} 
                       dictionary={dictionary} 
                       enabled={!isExamMode}
-                      className="text-zinc-800 dark:text-zinc-200 font-bold text-base md:text-lg flex-grow" 
+                      className="text-zinc-800 dark:text-zinc-200 font-semibold text-base md:text-lg flex-grow" 
                   />
                 )
             )}
@@ -264,11 +311,12 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
 
   return (
     <div className="w-full flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-      {isZoomed && imagePath && (
-          <div className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4 cursor-zoom-out" onClick={() => setIsZoomed(false)}>
-              <img src={imagePath} alt="Zoom" className="max-w-full max-h-full object-contain" />
-              <button className="absolute top-8 right-8 text-white/50 hover:text-white transition-colors"><X className="h-10 w-10" /></button>
-          </div>
+      {isZoomed && imagePath && createPortal(
+          <div className="fixed inset-0 z-[9999] bg-black/95 flex items-center justify-center p-4 cursor-zoom-out" onClick={() => setIsZoomed(false)}>
+              <img src={imagePath} alt="Zoom" className="max-w-[95vw] max-h-[90vh] object-contain rounded-lg shadow-2xl transition-transform duration-300 scale-100" />
+              <button className="absolute top-8 right-8 text-white/50 hover:text-white transition-colors z-[10000]"><X className="h-10 w-10" /></button>
+          </div>,
+          document.body
       )}
 
       {/* CBT Sheet Dialog Popup */}
@@ -460,10 +508,21 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
             {/* Left Side: Soal & Teks (7 columns) */}
             <div className="lg:col-span-7 flex flex-col gap-6">
                 <div className="space-y-4">
-                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-100 dark:bg-zinc-900 rounded-full border text-[10px] font-black uppercase tracking-tighter text-zinc-500">
-                     Chapter {currentQuestion.chapter} • Question {currentQuestion.question_number}
+                  <div className="flex items-center justify-between">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-100 dark:bg-zinc-900 rounded-full border text-[10px] font-black uppercase tracking-tighter text-zinc-500">
+                       Chapter {currentQuestion.chapter} • Question {currentQuestion.question_number}
+                    </div>
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      onClick={handleTanyaAI}
+                      className="rounded-full h-8 px-3 text-xs font-bold flex items-center gap-1.5 border-primary/20 hover:border-primary/50 hover:bg-primary/5 dark:hover:bg-primary/10 transition-all shadow-sm"
+                    >
+                      <Sparkles className="w-3.5 h-3.5 text-primary animate-pulse" />
+                      <span className="text-primary">Tanya AI</span>
+                    </Button>
                   </div>
-                  <h2 className="text-xl md:text-2xl font-black text-zinc-900 dark:text-white leading-tight">
+                  <h2 className="text-xl md:text-2xl font-semibold text-zinc-900 dark:text-white leading-tight">
                       {instruction}
                   </h2>
                 </div>
@@ -475,7 +534,7 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
                       dictionary={dictionary} 
                       enabled={!isExamMode}
                       className={cn(
-                          "leading-[1.8] whitespace-pre-line text-zinc-800 dark:text-zinc-100 font-bold break-words",
+                          "leading-[1.8] whitespace-pre-line text-zinc-800 dark:text-zinc-100 font-semibold break-words",
                           isShortPrompt 
                             ? "text-2xl md:text-3xl lg:text-4xl text-center py-4 w-full" 
                             : "text-base md:text-lg lg:text-xl"
@@ -659,7 +718,7 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
                             text={currentQuestion.transcript} 
                             dictionary={dictionary} 
                             enabled={!isExamMode}
-                            className="text-sm md:text-base text-zinc-700 dark:text-zinc-300 font-bold leading-relaxed" 
+                            className="text-sm md:text-base text-zinc-700 dark:text-zinc-300 font-semibold leading-relaxed" 
                           />
                         </div>
                       )}
@@ -674,7 +733,7 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
                   <div className="flex justify-between items-center px-1">
                       <span className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-400">Pilihan Jawaban</span>
                       <div className="flex items-center gap-4">
-                          {!isExamMode && !isReviewMode && (!currentQuestion.images || currentQuestion.images.length === 0) && (
+                          {!isExamMode && !isReviewMode && currentQuestion.section === 'listening' && (!currentQuestion.images || currentQuestion.images.length === 0) && (
                               <div className="flex items-center gap-1.5 animate-in fade-in duration-200">
                                   <span className="text-[9px] font-black uppercase tracking-wider text-zinc-400 select-none">Blank Opsi</span>
                                   <Switch 
@@ -732,14 +791,25 @@ const TryoutQuiz: React.FC<TryoutQuizProps> = ({
                     </span>
                  </div>
             </div>
-            <Button 
-                onClick={handleNextQuestion} 
-                disabled={!isReviewMode && !selectedAnswers[currentIndex] && instantFeedback}
-                className="bg-primary text-primary-foreground hover:bg-primary/90 font-black uppercase tracking-widest px-8 py-5 rounded-xl flex items-center gap-2 shadow-md transition-all active:scale-95 text-xs w-full sm:w-auto justify-center"
-            >
-                {currentIndex === quizQuestions.length - 1 ? (isReviewMode ? "Selesai Review" : "Selesai") : "Lanjut"}
-                <ArrowRight className="h-4 w-4" />
-            </Button>
+            <div className="flex items-center gap-3 w-full sm:w-auto justify-end">
+              {!isReviewMode && (
+                <Button 
+                  variant="outline"
+                  onClick={finishQuiz} 
+                  className="border-rose-200 dark:border-rose-900/30 text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/20 font-black uppercase tracking-widest px-5 py-5 rounded-xl text-xs flex-grow sm:flex-grow-0 justify-center h-10"
+                >
+                  Kirim & Selesai
+                </Button>
+              )}
+              <Button 
+                  onClick={handleNextQuestion} 
+                  disabled={!isReviewMode && !selectedAnswers[currentIndex] && instantFeedback}
+                  className="bg-primary text-primary-foreground hover:bg-primary/90 font-black uppercase tracking-widest px-8 py-5 rounded-xl flex items-center gap-2 shadow-md transition-all active:scale-95 text-xs flex-grow sm:flex-grow-0 justify-center h-10"
+              >
+                  {currentIndex === quizQuestions.length - 1 ? (isReviewMode ? "Selesai Review" : "Selesai") : "Lanjut"}
+                  <ArrowRight className="h-4 w-4" />
+              </Button>
+            </div>
         </div>
       </Card>
 

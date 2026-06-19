@@ -8,7 +8,7 @@
         {
           "korean": "고정(하다)",
           "indonesian": "Memperbaiki, memperbaiki, Memperbaiki (mengunci posisi)",
-          "image": "/images/textbook/ch38/v1_0_고정(하다).jpg"
+          "image": null
         },
         {
           "korean": "공구",
@@ -28,7 +28,7 @@
         {
           "korean": "느슨하다",
           "indonesian": "Kendor",
-          "image": "/images/textbook/ch38/v1_4_느슨하다.jpg"
+          "image": null
         },
         {
           "korean": "니퍼",
@@ -38,7 +38,7 @@
         {
           "korean": "단단하다",
           "indonesian": "Kokoh",
-          "image": "/images/textbook/ch38/v1_6_단단하다.jpg"
+          "image": null
         },
         {
           "korean": "롱 노즈 플라이어",
@@ -58,7 +58,7 @@
         {
           "korean": "분해(하다)",
           "indonesian": "Membongkar",
-          "image": "/images/textbook/ch38/v1_10_분해(하다).jpg"
+          "image": null
         },
         {
           "korean": "스패너",
@@ -83,12 +83,12 @@
         {
           "korean": "조절(하다)",
           "indonesian": "Menyesuaikan, menyesuaikan",
-          "image": "/images/textbook/ch38/v1_15_조절(하다).jpg"
+          "image": null
         },
         {
           "korean": "철사",
           "indonesian": "Kawat, kawat",
-          "image": "/images/textbook/ch38/v1_16_철사.jpg"
+          "image": null
         },
         {
           "korean": "토크 렌치",
@@ -98,7 +98,7 @@
         {
           "korean": "파손되다",
           "indonesian": "Rusak, rusak",
-          "image": "/images/textbook/ch38/v1_18_파손되다.jpg"
+          "image": null
         },
         {
           "korean": "파이프 렌치",
@@ -112,7 +112,7 @@
         },
         {
           "korean": "풀다",
-          "indonesian": "Mengendurkan, melepas, mengendurkan",
+          "indonesian": "meredakan, menyelesaikan (masalah / stres)",
           "image": "/images/textbook/ch38/v1_21_풀다.jpg"
         },
         {
@@ -123,12 +123,12 @@
         {
           "korean": "확인(하다)",
           "indonesian": "Mengecek, Memeriksa, mengecek, memastikan, mengece k, memeriksa",
-          "image": "/images/textbook/ch38/v1_23_확인(하다).jpg"
+          "image": null
         },
         {
           "korean": "힘",
           "indonesian": "Tenaga",
-          "image": "/images/textbook/ch38/v1_24_힘.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -140,17 +140,17 @@
         {
           "korean": "가져오다",
           "indonesian": "Membawa, membawa (ke sini)",
-          "image": "/images/textbook/ch38/v2_0_가져오다.jpg"
+          "image": null
         },
         {
           "korean": "경사",
           "indonesian": "Kemiringan",
-          "image": "/images/textbook/ch38/v2_1_경사.jpg"
+          "image": null
         },
         {
           "korean": "교체(하다)",
           "indonesian": "Mengganti",
-          "image": "/images/textbook/ch38/v2_2_교체(하다).jpg"
+          "image": null
         },
         {
           "korean": "기어",
@@ -160,7 +160,7 @@
         {
           "korean": "돌아가다",
           "indonesian": "Berputar, pergi kembali (pergi pulang), pulang",
-          "image": "/images/textbook/ch38/v2_4_돌아가다.jpg"
+          "image": null
         },
         {
           "korean": "마모되다",
@@ -180,7 +180,7 @@
         {
           "korean": "생기다",
           "indonesian": "Terjadi, muncul, terjadi",
-          "image": "/images/textbook/ch38/v2_8_생기다.jpg"
+          "image": null
         },
         {
           "korean": "수준기",
@@ -195,7 +195,7 @@
         {
           "korean": "없어지다",
           "indonesian": "Hilang",
-          "image": "/images/textbook/ch38/v2_11_없어지다.jpg"
+          "image": null
         },
         {
           "korean": "원형",
@@ -215,12 +215,12 @@
         {
           "korean": "자석",
           "indonesian": "Magnet, magnet",
-          "image": "/images/textbook/ch38/v2_15_자석.jpg"
+          "image": null
         },
         {
           "korean": "축",
           "indonesian": "Poros",
-          "image": "/images/textbook/ch38/v2_16_축.jpg"
+          "image": null
         },
         {
           "korean": "코일 스프링",
@@ -230,7 +230,7 @@
         {
           "korean": "평평하다",
           "indonesian": "Datar, rata",
-          "image": "/images/textbook/ch38/v2_18_평평하다.jpg"
+          "image": null
         },
         {
           "korean": "풀러",
@@ -240,7 +240,7 @@
         {
           "korean": "해결(하다)",
           "indonesian": "menyelesaikan, memecahkan (masalah)",
-          "image": "/images/textbook/ch38/v2_20_해결(하다).jpg"
+          "image": null
         }
       ],
       "main_image": null

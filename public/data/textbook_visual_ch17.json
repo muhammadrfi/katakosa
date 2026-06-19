@@ -8,7 +8,7 @@
         {
           "korean": "계획(하다)",
           "indonesian": "berencana, merencanakan",
-          "image": "/images/textbook/ch17/v1_0_계획(하다).jpg"
+          "image": null
         },
         {
           "korean": "그래요?",
@@ -33,7 +33,7 @@
         {
           "korean": "여행(하다)",
           "indonesian": "Berwisata, berwisata",
-          "image": null
+          "image": "/images/textbook/ch17/v1_5_여행(하다).jpg"
         },
         {
           "korean": "예약(하다)",
@@ -43,17 +43,17 @@
         {
           "korean": "유스\t호스텔",
           "indonesian": "Hostel pemuda, youth hostel",
-          "image": "/images/textbook/ch17/v1_7_유스_호스텔.jpg"
+          "image": null
         },
         {
           "korean": "이번",
           "indonesian": "kali ini, saat ini",
-          "image": "/images/textbook/ch17/v1_8_이번.jpg"
+          "image": null
         },
         {
           "korean": "짐",
           "indonesian": "barang bawaan, barang, barang angkutan, bagasi",
-          "image": "/images/textbook/ch17/v1_9_짐.jpg"
+          "image": null
         },
         {
           "korean": "출발(하다)",
@@ -68,7 +68,7 @@
         {
           "korean": "펜션",
           "indonesian": "Pondok penginapan, pension",
-          "image": "/images/textbook/ch17/v1_12_펜션.jpg"
+          "image": null
         },
         {
           "korean": "표",
@@ -77,7 +77,7 @@
         },
         {
           "korean": "풀다",
-          "indonesian": "Mengendurkan, melepas, mengendurkan",
+          "indonesian": "membongkar, melepas (koper)",
           "image": "/images/textbook/ch17/v1_14_풀다.jpg"
         },
         {
@@ -88,7 +88,7 @@
         {
           "korean": "휴가",
           "indonesian": "Liburan, cuti, liburan, libur",
-          "image": "/images/textbook/ch17/v1_16_휴가.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -120,7 +120,7 @@
         {
           "korean": "꼭",
           "indonesian": "pasti / harus",
-          "image": "/images/textbook/ch17/v2_4_꼭.jpg"
+          "image": null
         },
         {
           "korean": "놀이공원",
@@ -130,12 +130,12 @@
         {
           "korean": "다음",
           "indonesian": "selanjutnya, berikutnya",
-          "image": "/images/textbook/ch17/v2_6_다음.jpg"
+          "image": null
         },
         {
           "korean": "등산(하다)",
           "indonesian": "Mendaki gunung, naik gunung",
-          "image": "/images/textbook/ch17/v2_7_등산(하다).jpg"
+          "image": null
         },
         {
           "korean": "민속촌",
@@ -165,7 +165,7 @@
         {
           "korean": "아주",
           "indonesian": "sangat",
-          "image": "/images/textbook/ch17/v2_13_아주.jpg"
+          "image": null
         },
         {
           "korean": "여행지",
@@ -304,7 +304,7 @@
         },
         {
           "korean": "치다",
-          "indonesian": "Menyangga, menolong",
+          "indonesian": "bermain (tenis / badminton), memukul",
           "image": null
         },
         {

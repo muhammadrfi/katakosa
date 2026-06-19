@@ -6,9 +6,10 @@ import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
-import { Sparkles, RotateCcw, ArrowLeft, GraduationCap, Monitor, Headphones, BookOpen, Clock, ClipboardList, ShieldAlert, Trash2, Calendar, Award } from 'lucide-react';
+import { Sparkles, RotateCcw, ArrowLeft, GraduationCap, Monitor, Headphones, BookOpen, Clock, ClipboardList, ShieldAlert, Trash2, Calendar, Award, ImageIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { TryoutSession, TryoutHistoryItem } from '../types';
+import { CbtDurationMode, CbtSection, TryoutHistoryItem, TryoutSession, TryoutType } from '../types';
+import PictureQuizPage from '../../picture-quiz/PictureQuizPage';
 
 interface TryoutSetupProps {
   allQuestionsCount: number;
@@ -146,7 +147,7 @@ const TryoutSetup: React.FC<TryoutSetupProps> = ({
       )}
 
       {/* Segmented Control / Tabs Selector */}
-      <div className="flex bg-zinc-100 dark:bg-zinc-900 p-1.5 rounded-2xl mb-8 max-w-md mx-auto sm:mx-0 border border-zinc-200/50 dark:border-zinc-800/50 shadow-inner">
+      <div className="flex bg-zinc-100 dark:bg-zinc-900 p-1.5 rounded-2xl mb-8 max-w-xl mx-auto sm:mx-0 border border-zinc-200/50 dark:border-zinc-800/50 shadow-inner">
         <button
           type="button"
           onClick={() => setTryoutType('practice')}
@@ -171,9 +172,25 @@ const TryoutSetup: React.FC<TryoutSetupProps> = ({
           <Monitor className="w-4 h-4 shrink-0" />
           <span>Simulasi Ujian CBT</span>
         </button>
+        <button
+          type="button"
+          onClick={() => setTryoutType('picture-quiz')}
+          className={`flex-1 py-3 px-4 text-xs font-black rounded-xl transition-all flex items-center justify-center gap-2 ${
+            tryoutType === 'picture-quiz'
+              ? "bg-white dark:bg-zinc-800 text-zinc-900 dark:text-white shadow-sm scale-[1.02]"
+              : "text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-300"
+          }`}
+        >
+          <ImageIcon className="w-4 h-4 shrink-0" />
+          <span>Kuis Kosakata Gambar</span>
+        </button>
       </div>
 
-      {tryoutType === 'cbt' ? (
+      {tryoutType === 'picture-quiz' ? (
+        <div className="animate-in fade-in duration-300">
+          <PictureQuizPage embeddedMode={true} />
+        </div>
+      ) : tryoutType === 'cbt' ? (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 animate-in fade-in duration-300">
           {/* Left Column: CBT Parameters (Span 2) */}
           <div className="lg:col-span-2 space-y-6">
@@ -192,7 +209,7 @@ const TryoutSetup: React.FC<TryoutSetupProps> = ({
                 {/* CBT Section Selection */}
                 <div className="space-y-3">
                   <Label htmlFor="cbt-section" className="text-sm font-semibold text-foreground">Seksi Pertanyaan</Label>
-                  <Select value={cbtSection} onValueChange={(val) => setCbtSection(val as any)}>
+                  <Select value={cbtSection} onValueChange={(val) => setCbtSection(val as CbtSection)}>
                     <SelectTrigger id="cbt-section" className="w-full h-11 rounded-xl">
                       <SelectValue placeholder="Pilih Seksi Ujian" />
                     </SelectTrigger>
@@ -227,7 +244,7 @@ const TryoutSetup: React.FC<TryoutSetupProps> = ({
                 {/* CBT Time/Duration Selection */}
                 <div className="space-y-3">
                   <Label htmlFor="cbt-duration" className="text-sm font-semibold text-foreground">Durasi Waktu Ujian</Label>
-                  <Select value={cbtDurationMode} onValueChange={(val) => setCbtDurationMode(val as any)}>
+                  <Select value={cbtDurationMode} onValueChange={(val) => setCbtDurationMode(val as CbtDurationMode)}>
                     <SelectTrigger id="cbt-duration" className="w-full h-11 rounded-xl">
                       <SelectValue placeholder="Pilih Durasi Waktu" />
                     </SelectTrigger>
@@ -276,6 +293,14 @@ const TryoutSetup: React.FC<TryoutSetupProps> = ({
                       <BookOpen className="w-4.5 h-4.5 text-amber-500 shrink-0" />
                       <span>Soal Diacak dari Seluruh Bab 1-60</span>
                     </div>
+                  </div>
+
+                  <div className="flex items-center justify-between p-4 rounded-xl border border-border bg-card">
+                    <div className="space-y-0.5 pr-2">
+                      <Label className="font-bold text-xs text-foreground">Koreksi Instan</Label>
+                      <p className="text-[10px] text-muted-foreground">Tampilkan kunci & bunyi jawaban saat menjawab</p>
+                    </div>
+                    <Switch checked={instantFeedback} onCheckedChange={setInstantFeedback} />
                   </div>
 
                   <div className="flex items-center justify-between p-4 rounded-xl border border-border bg-card">

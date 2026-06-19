@@ -13,7 +13,7 @@
         {
           "korean": "규율",
           "indonesian": "peraturan, disiplin",
-          "image": "/images/textbook/ch33/v1_1_규율.jpg"
+          "image": null
         },
         {
           "korean": "모두",
@@ -28,11 +28,11 @@
         {
           "korean": "분위기",
           "indonesian": "Suasana, suasana",
-          "image": null
+          "image": "/images/textbook/ch33/v1_4_분위기.jpg"
         },
         {
           "korean": "사이",
-          "indonesian": "Antara, antara",
+          "indonesian": "hubungan, relasi (antar orang)",
           "image": "/images/textbook/ch33/v1_5_사이.jpg"
         },
         {
@@ -63,17 +63,17 @@
         {
           "korean": "잘하다",
           "indonesian": "Melakukan dengan baik",
-          "image": "/images/textbook/ch33/v1_11_잘하다.jpg"
+          "image": null
         },
         {
           "korean": "정도",
           "indonesian": "Sejauh ini, sekitar, derajat",
-          "image": "/images/textbook/ch33/v1_12_정도.jpg"
+          "image": null
         },
         {
           "korean": "지내다",
           "indonesian": "Tinggal, Menjalani",
-          "image": "/images/textbook/ch33/v1_13_지내다.jpg"
+          "image": null
         },
         {
           "korean": "직장",
@@ -88,7 +88,7 @@
         {
           "korean": "힘내다",
           "indonesian": "Semangat",
-          "image": "/images/textbook/ch33/v1_16_힘내다.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -100,7 +100,7 @@
         {
           "korean": "가끔",
           "indonesian": "Kadang-kadang, kadang-kadang",
-          "image": "/images/textbook/ch33/v2_0_가끔.jpg"
+          "image": null
         },
         {
           "korean": "관계",
@@ -110,7 +110,7 @@
         {
           "korean": "그래도",
           "indonesian": "Meskipun demikian, walaupun begitu",
-          "image": "/images/textbook/ch33/v2_2_그래도.jpg"
+          "image": null
         },
         {
           "korean": "놀리다",
@@ -130,7 +130,7 @@
         {
           "korean": "무섭다",
           "indonesian": "Takut, takut",
-          "image": "/images/textbook/ch33/v2_6_무섭다.jpg"
+          "image": null
         },
         {
           "korean": "믿다",
@@ -140,7 +140,7 @@
         {
           "korean": "부장",
           "indonesian": "Manajer",
-          "image": "/images/textbook/ch33/v2_8_부장.jpg"
+          "image": null
         },
         {
           "korean": "사고가 나다",
@@ -155,7 +155,7 @@
         {
           "korean": "생각(하다)",
           "indonesian": "Berpikir, memikirkan, berpikir",
-          "image": "/images/textbook/ch33/v2_11_생각(하다).jpg"
+          "image": null
         },
         {
           "korean": "소리를 지르다",
@@ -170,7 +170,7 @@
         {
           "korean": "에게/한테",
           "indonesian": "Kepada",
-          "image": "/images/textbook/ch33/v2_14_에게_한테.jpg"
+          "image": null
         },
         {
           "korean": "의지(하다)",
@@ -180,12 +180,12 @@
         {
           "korean": "자꾸",
           "indonesian": "Sering",
-          "image": "/images/textbook/ch33/v2_16_자꾸.jpg"
+          "image": null
         },
         {
           "korean": "잔소리(하다)",
           "indonesian": "Memberi nasihat berlebihan",
-          "image": "/images/textbook/ch33/v2_17_잔소리(하다).jpg"
+          "image": null
         },
         {
           "korean": "짜증을 내다",

@@ -1,4 +1,5 @@
 import { grammars as rawGrammars, particles as rawParticles } from './grammar_data'; 
+import { Question } from './types';
 
 
 const sortedGrammars = [...rawGrammars].sort((a, b) => b.suffix.length - a.suffix.length);
@@ -261,7 +262,7 @@ export interface LookupResult {
 export const lookupWord = (word: string, dictionary: Record<string, string>): LookupResult | null => {
   if (!dictionary) return null;
   
-  let cleanWord = word.replace(/[.,!?()[\]"']/g, "").trim();
+  const cleanWord = word.replace(/[.,!?()[\]"']/g, "").trim();
   if (!cleanWord) return null;
 
   // Handle digit prefixes (e.g. 30세, 5월, 10일)
@@ -415,56 +416,97 @@ export const lookupWord = (word: string, dictionary: Record<string, string>): Lo
   };
 };
 
-export const parseQuestionContent = (q: any) => {
+export const parseQuestionContent = (q: Pick<Question, 'question_text' | 'group_instruction'> & { question_number?: number }) => {
   const text = (q.question_text || "").trim();
+  const group = (q.group_instruction || "").trim();
   let instruction = "";
   let prompt = "";
 
-  if (q.group_instruction) {
-    instruction = q.group_instruction.trim();
-    prompt = text;
-    return { instruction, prompt };
-  }
+  const splitTextByInstruction = (input: string) => {
+    if (!input) return { inst: "", pr: "" };
 
-  // 1. If it contains \n, split by the first \n
-  if (text.includes("\n")) {
-    const parts = text.split("\n");
-    instruction = parts[0].trim();
-    prompt = parts.slice(1).join("\n").trim();
-    return { instruction, prompt };
-  }
+    // 1. If it contains \n, split by the first \n
+    if (input.includes("\n")) {
+      const parts = input.split("\n");
+      return { 
+        inst: parts[0].trim(), 
+        pr: parts.slice(1).join("\n").trim() 
+      };
+    }
 
-  // 2. Check if it contains standard instruction endings near the beginning
-  const endings = [
-    '고르십시오.', '고르십시오',
-    '하십시오.', '하십시오',
-    '답하십시오.', '답하십시오',
-    '입니까?', '입니까',
-    '완성하십시오.', '완성하십시오',
-    '쓰십시오.', '쓰십시오',
-    '맞습니까?', '맞습니까',
-    '인가요?', '인가요',
-    '것은?', '것은'
-  ];
+    const endings = [
+      '고르십시오.', '고르십시오',
+      '하십시오.', '하십시오',
+      '답하십시오.', '답하십시오',
+      '입니까?', '입니까',
+      '완성하십시오.', '완성하십시오',
+      '쓰십시오.', '쓰십시오',
+      '맞습니까?', '맞습니까',
+      '인가요?', '인가요',
+      '것은?', '것은'
+    ];
 
-  let splitStart = -1;
-  let splitIndex = -1;
-  for (const ending of endings) {
-    const idx = text.indexOf(ending);
-    if (idx !== -1 && idx < 120) {
-      if (splitStart === -1 || idx < splitStart || (idx === splitStart && (idx + ending.length) > splitIndex)) {
-        splitStart = idx;
-        splitIndex = idx + ending.length;
+    let splitStart = -1;
+    let splitIndex = -1;
+    for (const ending of endings) {
+      const idx = input.indexOf(ending);
+      if (idx !== -1 && idx < 120) {
+        if (splitStart === -1 || idx < splitStart || (idx === splitStart && (idx + ending.length) > splitIndex)) {
+          splitStart = idx;
+          splitIndex = idx + ending.length;
+        }
       }
     }
+
+    if (splitIndex !== -1 && splitIndex < input.length) {
+      return {
+        inst: input.substring(0, splitIndex).trim(),
+        pr: input.substring(splitIndex).trim()
+      };
+    }
+
+    // Check if the whole text is just an instruction
+    for (const ending of endings) {
+      if (input.endsWith(ending)) {
+        return { inst: input, pr: "" };
+      }
+    }
+
+    return { inst: "", pr: input };
+  };
+
+  const parsed = splitTextByInstruction(text);
+
+  if (group) {
+    let rangeMatches = true;
+    const rangeMatch = group.match(/\[(\d+)~(\d+)\]/);
+    if (rangeMatch && q.question_number) {
+      const start = parseInt(rangeMatch[1]);
+      const end = parseInt(rangeMatch[2]);
+      const qNum = q.question_number;
+      if (qNum < start || qNum > end) {
+        rangeMatches = false;
+      }
+    }
+
+    if (rangeMatches) {
+      instruction = group;
+      prompt = parsed.pr || parsed.inst;
+      if (prompt === parsed.inst && !parsed.pr) {
+        prompt = "";
+      }
+    } else {
+      instruction = parsed.inst || group;
+      prompt = parsed.pr;
+    }
+  } else {
+    instruction = parsed.inst || "질문에 답하십시오.";
+    prompt = parsed.pr;
   }
 
-  if (splitIndex !== -1 && splitIndex < text.length) {
-    instruction = text.substring(0, splitIndex).trim();
-    prompt = text.substring(splitIndex).trim();
-  } else {
-    instruction = text;
-    prompt = "";
+  if (!prompt && !instruction) {
+    instruction = "질문에 답하십시오.";
+    prompt = text;
   }
 
   return { instruction, prompt };

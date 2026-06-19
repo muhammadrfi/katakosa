@@ -24,8 +24,10 @@ import {
   BookImage,
   Languages,
   Info,
+  Sparkles,
 } from 'lucide-react';
 import { Checkbox } from '@/components/ui/checkbox';
+import { useAiStore } from '@/hooks/useAiStore';
 import ImportTextbookVocabDialog from './components/ImportTextbookVocabDialog';
 import { toast } from 'sonner';
 
@@ -86,9 +88,10 @@ interface CultureChapterCardProps {
   chapter: number;
   title: string;
   onSelect: (chapter: string) => void;
+  onTanyaCulture: (title: string, koreanText: string, indonesianText: string) => void;
 }
 
-const CultureChapterCard = ({ chapter, title, onSelect }: CultureChapterCardProps) => {
+const CultureChapterCard = ({ chapter, title, onSelect, onTanyaCulture }: CultureChapterCardProps) => {
   const [sections, setSections] = useState<GranularSection[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -143,25 +146,42 @@ const CultureChapterCard = ({ chapter, title, onSelect }: CultureChapterCardProp
                 <div className="w-16 h-0.5 bg-primary/60 mx-auto rounded-full" />
               </div>
               <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-indigo-50/60 dark:border-slate-800/80 shadow-sm space-y-5">
-                {section.culture_pairs?.map((pair, pIdx) => (
-                  <div key={pIdx} className="space-y-2">
-                    <div className="text-base font-medium text-slate-800 dark:text-slate-200 leading-relaxed font-pretendard">
-                      {pair.korean}
+                {section.culture_pairs && section.culture_pairs.length > 0 ? (
+                  section.culture_pairs.map((pair, pIdx) => (
+                    <div key={pIdx} className="space-y-2">
+                      <div className="text-base font-medium text-slate-800 dark:text-slate-200 leading-relaxed font-pretendard">
+                        {pair.korean}
+                      </div>
+                      <div className="text-xs md:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                        {pair.indonesian}
+                      </div>
+                      {pIdx < section.culture_pairs.length - 1 && (
+                        <div className="border-b border-slate-100 dark:border-slate-800/50 pt-3" />
+                      )}
                     </div>
-                    <div className="text-xs md:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-                      {pair.indonesian}
-                    </div>
-                    {pIdx < section.culture_pairs.length - 1 && (
-                      <div className="border-b border-slate-100 dark:border-slate-800/50 pt-3" />
-                    )}
+                  ))
+                ) : (
+                  <div className="whitespace-pre-wrap text-sm leading-relaxed text-slate-700 dark:text-slate-300 font-medium font-pretendard">
+                    {section.content}
                   </div>
-                ))}
-              </div>
-              {section.content && !section.culture_pairs && (
-                <div className="bg-muted/20 border rounded-xl p-5 whitespace-pre-wrap text-sm leading-relaxed text-foreground/80 font-pretendard">
-                  {section.content}
+                )}
+                
+                <div className="pt-2 flex justify-end">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    onClick={() => onTanyaCulture(
+                      section.title || "Budaya Bab Ini", 
+                      section.culture_pairs?.map(p => p.korean).join('\n') || section.content || "",
+                      section.culture_pairs?.map(p => p.indonesian).join('\n') || section.content || ""
+                    )}
+                    className="rounded-full h-8 px-4 text-xs font-bold flex items-center gap-1.5 border-indigo-200 dark:border-slate-800 hover:bg-indigo-50/50 dark:hover:bg-slate-800/50 transition-all text-indigo-600 dark:text-indigo-400 shadow-sm"
+                  >
+                    <Sparkles className="w-3.5 h-3.5" />
+                    <span>Tanya AI tentang Budaya Ini</span>
+                  </Button>
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>
@@ -179,6 +199,119 @@ const ITEMS_PER_PAGE = 25;
 const TextbookMaterialPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const activeTab = searchParams.get('tab') || 'vocab';
+
+  const { setSidebarOpen, createSession, askSidebar } = useAiStore();
+
+  const handleTanyaVocab = async (korean: string, indonesian: string) => {
+    createSession(`Tanya AI: Kosakata "${korean}"`, 'vocab');
+    setSidebarOpen(true);
+    
+    const userDisplayMsg = `Jelaskan kosakata "${korean}" (${indonesian}) bab ini.`;
+    const hiddenPrompt = `Tolong jelaskan kosakata bahasa Korea berikut dengan fokus utama pada materi textbook EPS-TOPIK:
+Kata: "${korean}"
+Arti: "${indonesian}"
+
+Berikan penjelasan terstruktur:
+1. ARTI & CONTOH (Berikan pelafalan natural, makna dasar sesuai textbook, dan 2 contoh kalimat praktis konteks industri/pekerjaan manufaktur Korea beserta terjemahannya).
+2. JEMBATAN KELEDAI (Mnemonic unik atau tips mudah mengingat kata ini).
+3. POLA SOAL UJIAN (Jelaskan bagaimana kata "${korean}" ini biasanya diuji dalam soal EPS-TOPIK, misalnya dalam tipe soal mencocokkan gambar, melengkapi kalimat rumpang/빈칸, atau soal persamaan/lawan kata).
+
+PENTING: Pastikan penjelasan berakar pada konteks ujian EPS-TOPIK dan gunakan spasi baris baru ganda agar nyaman dibaca.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
+
+  const handleTanyaVocabList = async (book: string, chapter: string, items: TextbookVocabItem[]) => {
+    const title = chapter !== 'Semua Bab' ? `${book} ${chapter}` : 'Daftar Kosakata Pilihan';
+    createSession(`Tanya AI: Kosakata ${title}`, 'vocab');
+    setSidebarOpen(true);
+
+    const limitedItems = items.slice(0, 15);
+    const formattedList = limitedItems.map((item, idx) => {
+      return `${idx + 1}. ${item.korean} (${item.indonesian}) - Bab ${item.chapter}`;
+    }).join('\n');
+
+    const userDisplayMsg = `Jelaskan ringkasan kosakata untuk "${title}".`;
+    const hiddenPrompt = `Tolong jelaskan daftar kosakata textbook EPS-TOPIK berikut secara menarik, ringkas, dan fokus pada persiapan ujian:
+Daftar Kosakata (${title}):
+${formattedList}
+${items.length > 15 ? `(Dan ${items.length - 15} kata lainnya di bab/halaman ini)` : ''}
+
+Berikan penjelasan terstruktur:
+1. ARTI & CONTOH KALIMAT (Pilih 2-3 kosakata paling krusial/sering keluar dari daftar di atas, lalu jelaskan maknanya secara mendalam serta berikan contoh kalimat praktis dwibahasa Korea-Indonesia).
+2. KELOMPOK TEMA (Kelompokkan kata-kata di atas ke dalam kategori/tema utama agar lebih mudah dihafalkan secara sistematis).
+3. POLA SOAL UJIAN (Jelaskan bagaimana kelompok kosakata pada bab/jilid ini biasanya keluar dalam soal EPS-TOPIK, dan berikan tips cara cepat mencocokkan kata kunci tanpa membaca seluruh soal).
+
+PENTING: Jawab secara padat, batasi penjelasan maksimal 2-3 kalimat per bagian, fokus pada ujian, dan gunakan jarak spasi baris baru ganda agar nyaman dibaca.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
+
+  const handleTanyaVocabSection = async (title: string, items: GranularItem[]) => {
+    createSession(`Tanya AI: ${title}`, 'vocab');
+    setSidebarOpen(true);
+
+    const formattedList = items.map((item, idx) => {
+      return `${idx + 1}. ${item.korean} (${item.indonesian})`;
+    }).join('\n');
+
+    const userDisplayMsg = `Jelaskan materi kosakata untuk "${title}".`;
+    const hiddenPrompt = `Tolong jelaskan kelompok kosakata textbook EPS-TOPIK berikut secara terfokus:
+Materi: "${title}"
+Daftar Kata:
+${formattedList}
+
+Berikan penjelasan terstruktur:
+1. INTISARI TOPIK (Jelaskan mengapa kata-kata ini dikelompokkan bersama dan kegunaan utamanya dalam percakapan sehari-hari/industri di Korea).
+2. CONTOH KALIMAT UJIAN (Berikan 2 contoh dialog pendek dwibahasa Korea-Indonesia menggunakan kata-kata di atas sesuai gaya soal ujian).
+3. POLA SOAL UJIAN (Jelaskan bagaimana kelompok kosakata "${title}" ini biasanya keluar di ujian EPS-TOPIK, misalnya tipe soal memilih gambar pekerjaan/alat, melengkapi kalimat rumpang/빈칸, atau pemahaman bagan).
+
+PENTING: Fokuskan penjelasan pada bahan ujian EPS-TOPIK, batasi perluasan yang tidak perlu, dan gunakan spasi baris baru ganda agar tidak rapat/dempet.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
+
+  const handleTanyaCulture = async (title: string, koreanText: string, indonesianText: string) => {
+    const displayTitle = title || "Budaya Bab Ini";
+    createSession(`Tanya AI: Budaya "${displayTitle.slice(0, 20)}..."`, 'culture');
+    setSidebarOpen(true);
+    
+    const userDisplayMsg = `Jelaskan budaya tentang "${displayTitle}".`;
+    const hiddenPrompt = `Tolong berikan penjelasan tambahan mengenai topik budaya Korea berikut dengan tetap berakar kuat pada data textbook EPS-TOPIK:
+Topik: "${displayTitle}"
+Penjelasan Asli Textbook:
+- Bahasa Korea: "${koreanText}"
+- Bahasa Indonesia: "${indonesianText}"
+
+Berikan penjelasan terstruktur:
+1. RINGKASAN BUDAYA (Jelaskan poin-poin penting dari penjelasan asli di atas secara padat dan mudah dipahami).
+2. FUN FACTS & INFORMASI TAMBAHAN (Berikan 2 fakta menarik yang relevan untuk memperdalam pemahaman tanpa meluas terlalu jauh).
+3. POLA SOAL UJIAN (Jelaskan bagaimana topik budaya "${displayTitle}" ini biasanya diuji dalam soal membaca/reading EPS-TOPIK, misalnya soal memilih pernyataan yang sesuai dengan isi teks/내용과 같은 것, atau menjawab pertanyaan tentang informasi penting).
+
+PENTING: Fokuskan penjelasan untuk membantu menjawab soal ujian, hindari bahasan umum yang tidak relevan dengan EPS-TOPIK, dan gunakan jarak spasi baris baru ganda agar nyaman dibaca.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
+
+  const handleTanyaGrammar = async (grammar: string, meaning: string, explanation: string) => {
+    createSession(`Tanya AI: Tata Bahasa "${grammar}"`, 'vocab');
+    setSidebarOpen(true);
+
+    const userDisplayMsg = `Jelaskan tata bahasa "${grammar}" (${meaning}).`;
+    const hiddenPrompt = `Tolong jelaskan tata bahasa Korea textbook EPS-TOPIK berikut secara ramah dan terfokus:
+Tata Bahasa: "${grammar}"
+Arti: "${meaning}"
+Penjelasan Singkat: "${explanation}"
+
+Berikan penjelasan terstruktur:
+1. ATURAN PENGGUNAAN (Makna dasar, fungsi utama, dan cara penggabungannya/konjugasi dengan kata kerja/kata sifat secara ringkas).
+2. CONTOH KALIMAT UJIAN (Berikan 2 contoh kalimat dwibahasa Korea-Indonesia lainnya yang sering keluar dalam model soal ujian).
+3. POLA SOAL UJIAN (Jelaskan bagaimana tata bahasa "${grammar}" ini biasanya diuji dalam soal EPS-TOPIK, misalnya tipe soal melengkapi kalimat rumpang/빈칸, memilih kalimat yang gramatikalnya benar, atau melengkapi dialog/대화).
+
+PENTING: Fokuskan pembahasan pada kesiapan ujian EPS-TOPIK dan gunakan jarak spasi baris baru ganda agar nyaman dibaca.`;
+
+    await askSidebar(userDisplayMsg, hiddenPrompt);
+  };
 
   // Data states
   const [vocabData, setVocabData] = useState<TextbookVocabItem[]>([]);
@@ -582,6 +715,25 @@ const TextbookMaterialPage = () => {
                 </div>
               </div>
 
+              {/* AI Vocabulary Analyst Button */}
+              {filteredVocab.length > 0 && (
+                <div className="flex justify-end">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => handleTanyaVocabList(
+                      vocabBook !== 'all' ? `Jilid ${vocabBook}` : 'Semua Jilid',
+                      vocabChapter !== 'all' ? `Bab ${vocabChapter}` : 'Semua Bab',
+                      paginatedVocab
+                    )}
+                    className="rounded-full h-8 px-4 text-xs font-bold flex items-center gap-1.5 border-primary/20 hover:border-primary/50 hover:bg-primary/5 dark:hover:bg-primary/10 transition-all shadow-sm text-primary"
+                  >
+                    <Sparkles className="w-3.5 h-3.5 text-primary animate-pulse" />
+                    <span>Tanya AI tentang Kosakata Ini ({vocabChapter !== 'all' ? `Bab ${vocabChapter}` : 'Terfilter'})</span>
+                  </Button>
+                </div>
+              )}
+
               {/* Selection Floating Toolbar */}
               {selectedVocabKeys.length > 0 && (
                 <div className="flex items-center justify-between p-4 bg-primary/10 border-2 border-primary/20 rounded-lg animate-in slide-in-from-top-4 duration-200">
@@ -826,12 +978,23 @@ const TextbookMaterialPage = () => {
                               — {item.meaning}
                             </div>
                           </div>
-                          <div className="ml-4 shrink-0 text-muted-foreground">
-                            {isExpanded ? (
-                              <ChevronUp className="w-5 h-5" />
-                            ) : (
-                              <ChevronDown className="w-5 h-5" />
-                            )}
+                          <div className="ml-4 shrink-0 flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => handleTanyaGrammar(item.grammar, item.meaning, item.explanation)}
+                              className="h-8 w-8 p-0 rounded-full text-zinc-500 hover:text-primary hover:bg-primary/5 dark:hover:bg-primary/10"
+                              title="Tanya AI tentang Tata Bahasa Ini"
+                            >
+                              <Sparkles className="w-4 h-4 text-primary animate-pulse" />
+                            </Button>
+                            <div className="text-muted-foreground cursor-pointer" onClick={() => toggleGrammar(itemKey)}>
+                              {isExpanded ? (
+                                <ChevronUp className="w-5 h-5" />
+                              ) : (
+                                <ChevronDown className="w-5 h-5" />
+                              )}
+                            </div>
                           </div>
                         </div>
 
@@ -877,6 +1040,18 @@ const TextbookMaterialPage = () => {
                                 </div>
                               </div>
                             )}
+
+                            <div className="pt-2 flex justify-end border-t border-zinc-100 dark:border-zinc-850/30">
+                              <Button 
+                                variant="outline" 
+                                size="sm" 
+                                onClick={() => handleTanyaGrammar(item.grammar, item.meaning, item.explanation)}
+                                className="rounded-full h-8 px-4 text-xs font-bold flex items-center gap-1.5 border-indigo-200 dark:border-slate-800 hover:bg-indigo-50/50 dark:hover:bg-slate-800/50 transition-all text-indigo-600 dark:text-indigo-400 shadow-sm"
+                              >
+                                <Sparkles className="w-3.5 h-3.5" />
+                                <span>Tanya AI tentang Tata Bahasa Ini</span>
+                              </Button>
+                            </div>
                           </div>
                         )}
                       </div>
@@ -966,11 +1141,22 @@ const TextbookMaterialPage = () => {
                       }
                       return vocabSections.map((section, sIdx) => (
                         <div key={sIdx} className="space-y-6">
-                          <div className="flex items-center gap-2 border-b pb-2">
-                            <div className="w-2 h-6 bg-primary rounded-full" />
-                            <h3 className="text-xl font-bold text-foreground">
-                              {section.title}
-                            </h3>
+                          <div className="flex items-center justify-between border-b pb-2">
+                            <div className="flex items-center gap-2">
+                              <div className="w-2 h-6 bg-primary rounded-full" />
+                              <h3 className="text-xl font-bold text-foreground">
+                                {section.title}
+                              </h3>
+                            </div>
+                            <Button 
+                              variant="outline" 
+                              size="sm" 
+                              onClick={() => handleTanyaVocabSection(section.title, section.items || [])}
+                              className="rounded-full h-8 px-3 text-xs font-bold flex items-center gap-1.5 border-primary/20 hover:border-primary/50 hover:bg-primary/5 dark:hover:bg-primary/10 transition-all shadow-sm text-primary"
+                            >
+                              <Sparkles className="w-3.5 h-3.5 text-primary animate-pulse" />
+                              <span>Tanya AI tentang {section.title}</span>
+                            </Button>
                           </div>
                           
                           <div className="space-y-6">
@@ -986,13 +1172,7 @@ const TextbookMaterialPage = () => {
                               </div>
                             )}
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                              {section.items ? [...section.items].sort((a, b) => {
-                                const aHas = a.image && a.image.trim() !== "";
-                                const bHas = b.image && b.image.trim() !== "";
-                                if (aHas && !bHas) return -1;
-                                if (!aHas && bHas) return 1;
-                                return 0;
-                              }).map((item, iIdx) => {
+                              {section.items ? section.items.map((item, iIdx) => {
                                 const hasImage = item.image && item.image.trim() !== "";
                                 if (hasImage) {
                                   return (
@@ -1021,7 +1201,7 @@ const TextbookMaterialPage = () => {
                                   return (
                                     <div 
                                       key={iIdx} 
-                                      className="bg-muted/10 dark:bg-muted/5 border border-border border-l-4 border-l-primary/60 rounded-xl p-4 flex flex-col justify-center items-center text-center min-h-[120px] hover:shadow-md hover:border-primary/30 transition-all duration-300"
+                                      className="group bg-muted/10 dark:bg-muted/5 border border-border border-l-4 border-l-primary/60 rounded-xl p-4 flex flex-col justify-center items-center text-center min-h-[135px] hover:shadow-md hover:border-primary/30 transition-all duration-300"
                                     >
                                       <div className="space-y-2">
                                         <div className="font-extrabold text-xl text-primary font-pretendard">
@@ -1180,26 +1360,42 @@ const TextbookMaterialPage = () => {
                           
                           <div className="space-y-8">
                             <div className="bg-white dark:bg-slate-900 p-8 rounded-3xl border border-indigo-50/60 dark:border-slate-800/80 shadow-sm space-y-6">
-                              {section.culture_pairs?.map((pair, pIdx) => (
-                                <div key={pIdx} className="space-y-3">
-                                  <div className="text-[17px] md:text-lg font-medium text-slate-800 dark:text-slate-200 leading-relaxed font-pretendard tracking-wide">
-                                    {pair.korean}
+                              {section.culture_pairs && section.culture_pairs.length > 0 ? (
+                                section.culture_pairs.map((pair, pIdx) => (
+                                  <div key={pIdx} className="space-y-3">
+                                    <div className="text-[17px] md:text-lg font-medium text-slate-800 dark:text-slate-200 leading-relaxed font-pretendard tracking-wide">
+                                      {pair.korean}
+                                    </div>
+                                    <div className="text-sm md:text-base text-slate-500 dark:text-slate-400 leading-relaxed">
+                                      {pair.indonesian}
+                                    </div>
+                                    {pIdx < section.culture_pairs.length - 1 && (
+                                      <div className="border-b border-slate-100 dark:border-slate-800/50 pt-4" />
+                                    )}
                                   </div>
-                                  <div className="text-sm md:text-base text-slate-500 dark:text-slate-400 leading-relaxed">
-                                    {pair.indonesian}
-                                  </div>
-                                  {pIdx < section.culture_pairs.length - 1 && (
-                                    <div className="border-b border-slate-100 dark:border-slate-800/50 pt-4" />
-                                  )}
+                                ))
+                              ) : (
+                                <div className="whitespace-pre-wrap text-sm md:text-base leading-relaxed text-slate-700 dark:text-slate-300 font-medium font-pretendard">
+                                  {section.content}
                                 </div>
-                              ))}
-                            </div>
-
-                            {section.content && !section.culture_pairs && (
-                              <div className="bg-muted/20 border rounded-xl p-6 whitespace-pre-wrap text-sm leading-relaxed text-foreground/80 font-medium font-pretendard">
-                                {section.content}
+                              )}
+                              
+                              <div className="pt-2 flex justify-end">
+                                <Button 
+                                  variant="outline" 
+                                  size="sm" 
+                                  onClick={() => handleTanyaCulture(
+                                    section.title || "Budaya Bab Ini", 
+                                    section.culture_pairs?.map(p => p.korean).join('\n') || section.content || "",
+                                    section.culture_pairs?.map(p => p.indonesian).join('\n') || section.content || ""
+                                  )}
+                                  className="rounded-full h-8 px-4 text-xs font-bold flex items-center gap-1.5 border-indigo-200 dark:border-slate-800 hover:bg-indigo-50/50 dark:hover:bg-slate-800/50 transition-all text-indigo-600 dark:text-indigo-400 shadow-sm"
+                                >
+                                  <Sparkles className="w-3.5 h-3.5" />
+                                  <span>Tanya AI tentang Budaya Ini</span>
+                                </Button>
                               </div>
-                            )}
+                            </div>
                           </div>
                         </div>
                       ));
@@ -1213,6 +1409,7 @@ const TextbookMaterialPage = () => {
                         chapter={item.chapter}
                         title={item.title}
                         onSelect={setCultureChapter}
+                        onTanyaCulture={handleTanyaCulture}
                       />
                     ))}
                   </div>

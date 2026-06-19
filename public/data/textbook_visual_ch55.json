@@ -8,7 +8,7 @@
         {
           "korean": "공통",
           "indonesian": "peralatan keselamatan umum",
-          "image": "/images/textbook/ch55/v1_0_공통.jpg"
+          "image": null
         },
         {
           "korean": "귀덮개",
@@ -63,17 +63,17 @@
         {
           "korean": "장비",
           "indonesian": "peralatan",
-          "image": null
+          "image": "/images/textbook/ch55/v1_11_장비.jpg"
         },
         {
           "korean": "축산",
           "indonesian": "pakaian kerja ternak",
-          "image": "/images/textbook/ch55/v1_12_축산.jpg"
+          "image": null
         },
         {
           "korean": "특화",
           "indonesian": "Peralatan keselamatan khusus",
-          "image": null
+          "image": "/images/textbook/ch55/v1_13_특화.jpg"
         }
       ],
       "main_image": null
@@ -105,12 +105,12 @@
         {
           "korean": "방열상의",
           "indonesian": "pembuangan panas atas",
-          "image": null
+          "image": "/images/textbook/ch55/v2_4_방열상의.jpg"
         },
         {
           "korean": "방열장갑",
           "indonesian": "Sarung tangan tahan panas",
-          "image": "/images/textbook/ch55/v2_5_방열장갑.jpg"
+          "image": null
         },
         {
           "korean": "방열장화",
@@ -125,7 +125,7 @@
         {
           "korean": "열처리 작업",
           "indonesian": "Pekerjaan perawatan panas",
-          "image": "/images/textbook/ch55/v2_8_열처리_작업.jpg"
+          "image": null
         },
         {
           "korean": "오븐 장갑",
@@ -140,12 +140,12 @@
         {
           "korean": "위생마스크",
           "indonesian": "masker sanitasi",
-          "image": "/images/textbook/ch55/v2_11_위생마스크.jpg"
+          "image": null
         },
         {
           "korean": "위생모",
           "indonesian": "Helm sanitasi",
-          "image": "/images/textbook/ch55/v2_12_위생모.jpg"
+          "image": null
         },
         {
           "korean": "위생복",
@@ -190,7 +190,7 @@
         {
           "korean": "화상을 입다",
           "indonesian": "Terbakar, melepuh, terbakar",
-          "image": "/images/textbook/ch55/v2_21_화상을_입다.jpg"
+          "image": null
         }
       ],
       "main_image": null

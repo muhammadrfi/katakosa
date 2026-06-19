@@ -14,7 +14,7 @@ export interface Question {
 }
 
 export type TryoutMode = 'setup' | 'quiz' | 'result';
-export type TryoutType = 'practice' | 'cbt';
+export type TryoutType = 'practice' | 'cbt' | 'picture-quiz';
 export type CbtSection = 'mix' | 'reading' | 'listening';
 export type CbtDurationMode = 'official' | '30' | '40' | '50' | '60';
 
@@ -32,8 +32,8 @@ export interface TryoutResults {
 export interface TryoutHistoryItem {
   id: string;
   date: string;
-  tryoutType: 'practice' | 'cbt';
-  section: string; // 'mix' | 'reading' | 'listening' | 'custom'
+  tryoutType: 'practice' | 'cbt' | 'picture-quiz';
+  section: string; // 'mix' | 'reading' | 'listening' | 'custom' | 'picture'
   totalQuestions: number;
   correctCount: number;
   score: number;
@@ -46,7 +46,7 @@ export interface TryoutSession {
   answeredState: Record<number, boolean>;
   timeLeft: number;
   isTimerActive: boolean;
-  tryoutType: 'practice' | 'cbt';
+  tryoutType: 'practice' | 'cbt' | 'picture-quiz';
   instantFeedback: boolean;
   isBlankOptions: boolean;
   isExamMode: boolean;

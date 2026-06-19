@@ -8,7 +8,7 @@
         {
           "korean": "고용주",
           "indonesian": "pemberi kerja / majikan",
-          "image": "/images/textbook/ch59/v1_0_고용주.jpg"
+          "image": null
         },
         {
           "korean": "고치다",
@@ -28,7 +28,7 @@
         {
           "korean": "마약 검사 확인서",
           "indonesian": "surat keterangan tes narkoba",
-          "image": null
+          "image": "/images/textbook/ch59/v1_4_마약_검사_확인서.jpg"
         },
         {
           "korean": "목록",
@@ -38,7 +38,7 @@
         {
           "korean": "반복(하다)",
           "indonesian": "berulang",
-          "image": "/images/textbook/ch59/v1_6_반복(하다).jpg"
+          "image": null
         },
         {
           "korean": "발급받다",
@@ -53,22 +53,22 @@
         {
           "korean": "비회원",
           "indonesian": "bukan anggota",
-          "image": "/images/textbook/ch59/v1_9_비회원.jpg"
+          "image": null
         },
         {
           "korean": "사본",
           "indonesian": "salinan kartu registrasi pemilik",
-          "image": "/images/textbook/ch59/v1_10_사본.jpg"
+          "image": null
         },
         {
           "korean": "사업자등록증",
           "indonesian": "salinan kartu registrasi pemilik",
-          "image": "/images/textbook/ch59/v1_11_사업자등록증.jpg"
+          "image": null
         },
         {
           "korean": "수령(하다)",
           "indonesian": "tanda terima",
-          "image": "/images/textbook/ch59/v1_12_수령(하다).jpg"
+          "image": null
         },
         {
           "korean": "수수료",
@@ -88,22 +88,22 @@
         {
           "korean": "이내",
           "indonesian": "dalam, didalam",
-          "image": "/images/textbook/ch59/v1_16_이내.jpg"
+          "image": null
         },
         {
           "korean": "임대차 계약서",
           "indonesian": "kontrak sewa",
-          "image": "/images/textbook/ch59/v1_17_임대차_계약서.jpg"
+          "image": null
         },
         {
           "korean": "자격",
           "indonesian": "meraih, memetik, mendapatkan, meminjam, menggunakan, mengutip",
-          "image": "/images/textbook/ch59/v1_18_자격.jpg"
+          "image": null
         },
         {
           "korean": "정확히",
           "indonesian": "dengan pasti",
-          "image": "/images/textbook/ch59/v1_19_정확히.jpg"
+          "image": null
         },
         {
           "korean": "제출(하다)",
@@ -118,7 +118,7 @@
         {
           "korean": "체류지 입증 서류",
           "indonesian": "dokumen tempat tinggal",
-          "image": "/images/textbook/ch59/v1_22_체류지_입증_서류.jpg"
+          "image": null
         },
         {
           "korean": "통합신청서",
@@ -135,7 +135,7 @@
         {
           "korean": "가능",
           "indonesian": "memungkinkan, mungkin",
-          "image": "/images/textbook/ch59/v2_0_가능.jpg"
+          "image": null
         },
         {
           "korean": "구직등록필증",
@@ -155,22 +155,22 @@
         {
           "korean": "물어보다",
           "indonesian": "Bertanya, bertanya",
-          "image": "/images/textbook/ch59/v2_4_물어보다.jpg"
+          "image": null
         },
         {
           "korean": "변경(하다)",
           "indonesian": "ganti, pindah",
-          "image": "/images/textbook/ch59/v2_5_변경(하다).jpg"
+          "image": null
         },
         {
           "korean": "불만",
           "indonesian": "Kepuasan - Tidak puas",
-          "image": "/images/textbook/ch59/v2_6_불만.jpg"
+          "image": null
         },
         {
           "korean": "소식",
           "indonesian": "memotong, menggunting, memutuskan, menghentikan",
-          "image": "/images/textbook/ch59/v2_7_소식.jpg"
+          "image": null
         },
         {
           "korean": "여유",
@@ -185,12 +185,12 @@
         {
           "korean": "연장(하다)",
           "indonesian": "memperpanjang",
-          "image": null
+          "image": "/images/textbook/ch59/v2_10_연장(하다).jpg"
         },
         {
           "korean": "이직(하다)",
           "indonesian": "pindah kerja (berpindah pekerjaan)",
-          "image": "/images/textbook/ch59/v2_11_이직(하다).jpg"
+          "image": null
         },
         {
           "korean": "자진 출국 각서",
@@ -199,13 +199,13 @@
         },
         {
           "korean": "차다",
-          "indonesian": "menendang",
-          "image": "/images/textbook/ch59/v2_13_차다.jpg"
+          "indonesian": "penuh, terisi penuh",
+          "image": null
         },
         {
           "korean": "체류(하다)",
           "indonesian": "tinggal, menetap",
-          "image": null
+          "image": "/images/textbook/ch59/v2_14_체류(하다).jpg"
         },
         {
           "korean": "허가",
@@ -215,7 +215,7 @@
         {
           "korean": "횟수",
           "indonesian": "hitungan pindah",
-          "image": "/images/textbook/ch59/v2_16_횟수.jpg"
+          "image": null
         }
       ],
       "main_image": null

@@ -94,12 +94,12 @@
         {
           "korean": "구역",
           "indonesian": "Area, area",
-          "image": "/images/textbook/ch28/v2_1_구역.jpg"
+          "image": null
         },
         {
           "korean": "금연(하다)",
           "indonesian": "Dilarang merokok",
-          "image": "/images/textbook/ch28/v2_2_금연(하다).jpg"
+          "image": null
         },
         {
           "korean": "금지(하다)",
@@ -109,7 +109,7 @@
         {
           "korean": "길",
           "indonesian": "Jalan, jalan",
-          "image": "/images/textbook/ch28/v2_4_길.jpg"
+          "image": null
         },
         {
           "korean": "담배꽁초",
@@ -124,7 +124,7 @@
         {
           "korean": "도서관",
           "indonesian": "Perpustakaan, perpustakaan",
-          "image": "/images/textbook/ch28/v2_7_도서관.jpg"
+          "image": null
         },
         {
           "korean": "떠들다",
@@ -144,7 +144,7 @@
         {
           "korean": "먼저",
           "indonesian": "Lebih dulu, Terlebih dahulu, lebih dulu, Pertama",
-          "image": "/images/textbook/ch28/v2_11_먼저.jpg"
+          "image": null
         },
         {
           "korean": "무단\t횡단(하다)",
@@ -154,7 +154,7 @@
         {
           "korean": "박물관",
           "indonesian": "Museum, museum",
-          "image": "/images/textbook/ch28/v2_13_박물관.jpg"
+          "image": null
         },
         {
           "korean": "반입(하다)",
@@ -169,7 +169,7 @@
         {
           "korean": "신호",
           "indonesian": "Melanggar rambu lalu lintas",
-          "image": "/images/textbook/ch28/v2_16_신호.jpg"
+          "image": null
         },
         {
           "korean": "예절",
@@ -184,17 +184,17 @@
         {
           "korean": "잠깐",
           "indonesian": "Sebentar, sebentar",
-          "image": "/images/textbook/ch28/v2_19_잠깐.jpg"
+          "image": null
         },
         {
           "korean": "전시품",
           "indonesian": "Dilarang menyentuh",
-          "image": "/images/textbook/ch28/v2_20_전시품.jpg"
+          "image": null
         },
         {
           "korean": "주차(하다)",
           "indonesian": "Parker",
-          "image": "/images/textbook/ch28/v2_21_주차(하다).jpg"
+          "image": null
         },
         {
           "korean": "침을\t뱉다",
@@ -204,7 +204,7 @@
         {
           "korean": "흡연(하다)",
           "indonesian": "Area merokok",
-          "image": "/images/textbook/ch28/v2_23_흡연(하다).jpg"
+          "image": null
         }
       ]
     },

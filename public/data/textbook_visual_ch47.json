@@ -8,7 +8,7 @@
         {
           "korean": "갑판",
           "indonesian": "geladak (dek kapal)",
-          "image": "/images/textbook/ch47/v1_0_갑판.jpg"
+          "image": null
         },
         {
           "korean": "고압 분사기",
@@ -43,7 +43,7 @@
         {
           "korean": "물고기",
           "indonesian": "ikan",
-          "image": "/images/textbook/ch47/v1_7_물고기.jpg"
+          "image": null
         },
         {
           "korean": "바구니",
@@ -53,7 +53,7 @@
         {
           "korean": "바늘",
           "indonesian": "jarum",
-          "image": "/images/textbook/ch47/v1_9_바늘.jpg"
+          "image": null
         },
         {
           "korean": "바늘대",
@@ -83,7 +83,7 @@
         {
           "korean": "찢어지다",
           "indonesian": "robek",
-          "image": "/images/textbook/ch47/v1_15_찢어지다.jpg"
+          "image": null
         },
         {
           "korean": "차광막",
@@ -98,7 +98,7 @@
         {
           "korean": "흔들리다",
           "indonesian": "Bergetar, bergoyang, menggoyangkan",
-          "image": "/images/textbook/ch47/v1_18_흔들리다.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -110,27 +110,27 @@
         {
           "korean": "꼬이다",
           "indonesian": "memutar",
-          "image": "/images/textbook/ch47/v2_0_꼬이다.jpg"
+          "image": null
         },
         {
           "korean": "농도",
           "indonesian": "konsentrasi oksigen",
-          "image": "/images/textbook/ch47/v2_1_농도.jpg"
+          "image": null
         },
         {
           "korean": "대비(하다)",
           "indonesian": "mempersiapkan, mengantisipasi, Mempersiapkan",
-          "image": "/images/textbook/ch47/v2_2_대비(하다).jpg"
+          "image": null
         },
         {
           "korean": "보고(하다)",
           "indonesian": "Melaporkan, melaporkan",
-          "image": "/images/textbook/ch47/v2_3_보고(하다).jpg"
+          "image": null
         },
         {
           "korean": "산소",
           "indonesian": "oksigen",
-          "image": "/images/textbook/ch47/v2_4_산소.jpg"
+          "image": null
         },
         {
           "korean": "산소 공급기",
@@ -170,7 +170,7 @@
         {
           "korean": "예비용",
           "indonesian": "meluangkan, cadangan",
-          "image": "/images/textbook/ch47/v2_12_예비용.jpg"
+          "image": null
         },
         {
           "korean": "온도계",
@@ -180,17 +180,17 @@
         {
           "korean": "유통기한",
           "indonesian": "Tanggal kedaluwarsa",
-          "image": "/images/textbook/ch47/v2_14_유통기한.jpg"
+          "image": null
         },
         {
           "korean": "접히다",
           "indonesian": "Lipatan, dobel",
-          "image": "/images/textbook/ch47/v2_15_접히다.jpg"
+          "image": null
         },
         {
           "korean": "추가(하다)",
           "indonesian": "menambahkan",
-          "image": "/images/textbook/ch47/v2_16_추가(하다).jpg"
+          "image": null
         }
       ],
       "main_image": null

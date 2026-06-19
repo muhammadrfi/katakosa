@@ -28,12 +28,12 @@
         {
           "korean": "다른",
           "indonesian": "lain, berbeda",
-          "image": "/images/textbook/ch32/v1_4_다른.jpg"
+          "image": null
         },
         {
           "korean": "데려오다",
           "indonesian": "Membawa (seseorang)",
-          "image": "/images/textbook/ch32/v1_5_데려오다.jpg"
+          "image": null
         },
         {
           "korean": "복도",
@@ -68,7 +68,7 @@
         {
           "korean": "혼자",
           "indonesian": "Sendiri, Sendirian, sendiri",
-          "image": "/images/textbook/ch32/v1_12_혼자.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -80,22 +80,22 @@
         {
           "korean": "가지다",
           "indonesian": "Memiliki, membawa",
-          "image": "/images/textbook/ch32/v2_0_가지다.jpg"
+          "image": null
         },
         {
           "korean": "구내식당",
           "indonesian": "kantin sekolah/perusahaan",
-          "image": null
+          "image": "/images/textbook/ch32/v2_1_구내식당.jpg"
         },
         {
           "korean": "끼리",
           "indonesian": "Antara (kelompok), Kelompok, sesama",
-          "image": "/images/textbook/ch32/v2_2_끼리.jpg"
+          "image": null
         },
         {
           "korean": "놓다",
           "indonesian": "Meletakkan, meletakkan, menaruh",
-          "image": "/images/textbook/ch32/v2_3_놓다.jpg"
+          "image": null
         },
         {
           "korean": "담다",
@@ -105,12 +105,12 @@
         {
           "korean": "도시락",
           "indonesian": "Bekal makan siang",
-          "image": "/images/textbook/ch32/v2_5_도시락.jpg"
+          "image": null
         },
         {
           "korean": "미리",
           "indonesian": "Sebelumnya, lebih dulu, sebelumnya",
-          "image": "/images/textbook/ch32/v2_6_미리.jpg"
+          "image": null
         },
         {
           "korean": "배식대",
@@ -120,7 +120,7 @@
         {
           "korean": "식권",
           "indonesian": "Kupon makan",
-          "image": "/images/textbook/ch32/v2_8_식권.jpg"
+          "image": null
         },
         {
           "korean": "식단표",
@@ -145,7 +145,7 @@
         {
           "korean": "할인되다",
           "indonesian": "Didiskon",
-          "image": "/images/textbook/ch32/v2_13_할인되다.jpg"
+          "image": null
         }
       ],
       "main_image": null

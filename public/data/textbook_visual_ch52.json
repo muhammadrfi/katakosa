@@ -8,7 +8,7 @@
         {
           "korean": "녹다",
           "indonesian": "Mencair",
-          "image": "/images/textbook/ch52/v1_0_녹다.jpg"
+          "image": null
         },
         {
           "korean": "대용량",
@@ -23,7 +23,7 @@
         {
           "korean": "밀폐용기",
           "indonesian": "wadah kedap udara",
-          "image": null
+          "image": "/images/textbook/ch52/v1_3_밀폐용기.jpg"
         },
         {
           "korean": "비닐랩",
@@ -48,7 +48,7 @@
         {
           "korean": "시들다",
           "indonesian": "Layu",
-          "image": "/images/textbook/ch52/v1_8_시들다.jpg"
+          "image": null
         },
         {
           "korean": "식자재",
@@ -63,17 +63,17 @@
         {
           "korean": "신문지",
           "indonesian": "Koran",
-          "image": "/images/textbook/ch52/v1_11_신문지.jpg"
+          "image": null
         },
         {
           "korean": "싹이 나다",
           "indonesian": "Tumbuh, bertunas",
-          "image": "/images/textbook/ch52/v1_12_싹이_나다.jpg"
+          "image": null
         },
         {
           "korean": "썩다",
           "indonesian": "Busuk, mencampur",
-          "image": "/images/textbook/ch52/v1_13_썩다.jpg"
+          "image": null
         },
         {
           "korean": "위생백",
@@ -108,7 +108,7 @@
         {
           "korean": "통조림",
           "indonesian": "makanan kalengan",
-          "image": null
+          "image": "/images/textbook/ch52/v1_20_통조림.jpg"
         }
       ],
       "main_image": null
@@ -125,11 +125,11 @@
         {
           "korean": "개월",
           "indonesian": "bulan",
-          "image": "/images/textbook/ch52/v2_1_개월.jpg"
+          "image": null
         },
         {
           "korean": "곰팡이가 피다",
-          "indonesian": "Muncul jamur",
+          "indonesian": "berjamur",
           "image": "/images/textbook/ch52/v2_2_곰팡이가_피다.jpg"
         },
         {
@@ -145,7 +145,7 @@
         {
           "korean": "녹이다",
           "indonesian": "Mencair",
-          "image": "/images/textbook/ch52/v2_5_녹이다.jpg"
+          "image": null
         },
         {
           "korean": "도마",
@@ -160,7 +160,7 @@
         {
           "korean": "번식(하다)",
           "indonesian": "Menghasilkan bakteri",
-          "image": "/images/textbook/ch52/v2_8_번식(하다).jpg"
+          "image": null
         },
         {
           "korean": "부패(하다)",
@@ -175,7 +175,7 @@
         {
           "korean": "손질하다",
           "indonesian": "memangkas",
-          "image": "/images/textbook/ch52/v2_11_손질하다.jpg"
+          "image": null
         },
         {
           "korean": "식중독",
@@ -190,12 +190,12 @@
         {
           "korean": "실온",
           "indonesian": "suhu kamar",
-          "image": "/images/textbook/ch52/v2_14_실온.jpg"
+          "image": null
         },
         {
           "korean": "쌀",
           "indonesian": "Beras, beras",
-          "image": "/images/textbook/ch52/v2_15_쌀.jpg"
+          "image": null
         },
         {
           "korean": "안전 관리",
@@ -215,7 +215,7 @@
         {
           "korean": "조개",
           "indonesian": "kerang",
-          "image": "/images/textbook/ch52/v2_19_조개.jpg"
+          "image": null
         },
         {
           "korean": "주걱",
@@ -225,17 +225,12 @@
         {
           "korean": "주방 집기",
           "indonesian": "peralatan dapur",
-          "image": "/images/textbook/ch52/v2_21_주방_집기.jpg"
+          "image": null
         },
         {
           "korean": "치즈",
           "indonesian": "Keju, keju",
-          "image": "/images/textbook/ch52/v2_22_치즈.jpg"
-        },
-        {
-          "korean": "피다",
-          "indonesian": "Mekar",
-          "image": "/images/textbook/ch52/v2_23_피다.jpg"
+          "image": null
         },
         {
           "korean": "핏물이 생기다",
@@ -245,7 +240,7 @@
         {
           "korean": "해동(하다)",
           "indonesian": "mencair",
-          "image": "/images/textbook/ch52/v2_25_해동(하다).jpg"
+          "image": null
         },
         {
           "korean": "해산물",

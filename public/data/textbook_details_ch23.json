@@ -23,7 +23,7 @@
         {
           "korean": "등기\t소포",
           "indonesian": "Paket terdaftar",
-          "image": "/images/textbook/ch23/v1_3_등기_소포.jpg"
+          "image": null
         },
         {
           "korean": "등기\t우편",
@@ -38,7 +38,7 @@
         {
           "korean": "선박\t우편",
           "indonesian": "Pos laut, kapal",
-          "image": "/images/textbook/ch23/v1_6_선박_우편.jpg"
+          "image": null
         },
         {
           "korean": "우체통",
@@ -53,7 +53,7 @@
         {
           "korean": "우편물",
           "indonesian": "Surat atau paket, Surat, Paket, barang yang dikirim, benda pos",
-          "image": null
+          "image": "/images/textbook/ch23/v1_9_우편물.jpg"
         },
         {
           "korean": "우편번호",
@@ -63,7 +63,7 @@
         {
           "korean": "우표",
           "indonesian": "Perangko, perangko",
-          "image": null
+          "image": "/images/textbook/ch23/v1_11_우표.jpg"
         },
         {
           "korean": "이틀",
@@ -73,12 +73,12 @@
         {
           "korean": "익일\t특급",
           "indonesian": "Pengiriman ekspres keesokan harinya",
-          "image": "/images/textbook/ch23/v1_13_익일_특급.jpg"
+          "image": null
         },
         {
           "korean": "일반\t소포",
           "indonesian": "Paket biasa",
-          "image": "/images/textbook/ch23/v1_14_일반_소포.jpg"
+          "image": null
         },
         {
           "korean": "일반\t우편",
@@ -93,7 +93,7 @@
         {
           "korean": "택배",
           "indonesian": "Layanan pengiriman paket, jasa pengiriman",
-          "image": "/images/textbook/ch23/v1_17_택배.jpg"
+          "image": null
         },
         {
           "korean": "편지\t봉투",
@@ -108,7 +108,7 @@
         {
           "korean": "항공\t우편",
           "indonesian": "pos udara",
-          "image": "/images/textbook/ch23/v1_20_항공_우편.jpg"
+          "image": null
         }
       ]
     },

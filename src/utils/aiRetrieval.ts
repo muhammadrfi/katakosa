@@ -1,4 +1,27 @@
-export const getRelevantContext = async (query: string, userContext: any = {}) => {
+interface RetrievalQuestion {
+  question_text?: string;
+}
+
+interface RetrievalGrammar {
+  grammar?: string;
+  meaning?: string;
+  explanation?: string;
+}
+
+interface UserContext {
+  vocabs?: unknown[];
+  srs?: Record<string, unknown>;
+}
+
+interface RelevantContext {
+  soal: RetrievalQuestion[];
+  dictionary: [string, string][];
+  grammar: RetrievalGrammar[];
+  userVocabs: unknown[];
+  userSrs: Record<string, unknown>;
+}
+
+export const getRelevantContext = async (query: string, userContext: UserContext = {}): Promise<RelevantContext> => {
   const q = query.toLowerCase();
   
   try {
@@ -19,9 +42,9 @@ export const getRelevantContext = async (query: string, userContext: any = {}) =
     
     // 2. RETRIEVAL CERDAS (Menggabungkan statis + userContext)
     return {
-      soal: staticContext.soal.filter((s: any) => keywords.some(k => s.question_text?.toLowerCase().includes(k))).slice(0, 2),
-      dictionary: Object.entries(staticContext.dictionary).filter(([k]) => keywords.some(kw => k.includes(kw))).slice(0, 3),
-      grammar: staticContext.grammar.filter((g: any) => 
+      soal: (staticContext.soal as RetrievalQuestion[]).filter((s) => keywords.some(k => s.question_text?.toLowerCase().includes(k))).slice(0, 2),
+      dictionary: Object.entries(staticContext.dictionary as Record<string, string>).filter(([k]) => keywords.some(kw => k.includes(kw))).slice(0, 3),
+      grammar: (staticContext.grammar as RetrievalGrammar[]).filter((g) => 
         keywords.some(k => 
           g.grammar?.toLowerCase().includes(k) || 
           g.meaning?.toLowerCase().includes(k) ||

@@ -13,22 +13,17 @@
         {
           "korean": "보호자",
           "indonesian": "Pendamping, Wali",
-          "image": "/images/textbook/ch21/v1_1_보호자.jpg"
+          "image": null
         },
         {
           "korean": "부르다",
           "indonesian": "Memanggil, memanggil, menyebut",
-          "image": "/images/textbook/ch21/v1_2_부르다.jpg"
+          "image": null
         },
         {
-          "korean": "수술(하다)",
-          "indonesian": "oprasi",
+          "korean": "수술을 받다",
+          "indonesian": "dioperasi",
           "image": "/images/textbook/ch21/v1_3_수술(하다).jpg"
-        },
-        {
-          "korean": "수술을\t받다",
-          "indonesian": "menjalani operasi",
-          "image": "/images/textbook/ch21/v1_4_수술을_받다.jpg"
         },
         {
           "korean": "신분증",
@@ -48,27 +43,22 @@
         {
           "korean": "전화번호",
           "indonesian": "Nomor telepon, nomer telepon, nomor telepon, nomor telpon",
-          "image": "/images/textbook/ch21/v1_8_전화번호.jpg"
+          "image": null
         },
         {
           "korean": "접수(하다)",
           "indonesian": "mendaftar / penerimaan",
-          "image": null
+          "image": "/images/textbook/ch21/v1_9_접수(하다).jpg"
         },
         {
-          "korean": "주사",
-          "indonesian": "Memberikan, Menerima suntikan",
+          "korean": "주사를 맞다",
+          "indonesian": "disuntik",
           "image": "/images/textbook/ch21/v1_10_주사.jpg"
         },
         {
           "korean": "주사를\t놓다",
           "indonesian": "Memberikan, Menerima suntikan",
-          "image": "/images/textbook/ch21/v1_11_주사를_놓다.jpg"
-        },
-        {
-          "korean": "주사를\t맞다",
-          "indonesian": "disuntik",
-          "image": "/images/textbook/ch21/v1_12_주사를_맞다.jpg"
+          "image": null
         },
         {
           "korean": "진료를\t받다",
@@ -78,7 +68,7 @@
         {
           "korean": "진료실",
           "indonesian": "Ruang pemeriksaan, konsultasi medis",
-          "image": "/images/textbook/ch21/v1_14_진료실.jpg"
+          "image": null
         },
         {
           "korean": "처방(하다)",
@@ -93,12 +83,12 @@
         {
           "korean": "처방전",
           "indonesian": "Resep obat",
-          "image": "/images/textbook/ch21/v1_17_처방전.jpg"
+          "image": null
         },
         {
           "korean": "처음",
           "indonesian": "Pertama, Awal, Bau, pertama kali",
-          "image": "/images/textbook/ch21/v1_18_처음.jpg"
+          "image": null
         },
         {
           "korean": "체온을\t재다",
@@ -106,14 +96,9 @@
           "image": "/images/textbook/ch21/v1_19_체온을_재다.jpg"
         },
         {
-          "korean": "치료(하다)",
-          "indonesian": "pelayanan medis",
+          "korean": "치료를 받다",
+          "indonesian": "diobati",
           "image": "/images/textbook/ch21/v1_20_치료(하다).jpg"
-        },
-        {
-          "korean": "치료를\t받다",
-          "indonesian": "menjalani pengobatan / perawatan",
-          "image": "/images/textbook/ch21/v1_21_치료를_받다.jpg"
         }
       ]
     },
@@ -137,24 +122,14 @@
           "image": null
         },
         {
-          "korean": "눈",
-          "indonesian": "Mata, mata, salju",
-          "image": null
+          "korean": "눈병이 나다",
+          "indonesian": "sakit mata",
+          "image": "/images/textbook/ch21/v2_3_눈.jpg"
         },
         {
-          "korean": "눈병이\t나다",
-          "indonesian": "Penyakit mata",
-          "image": "/images/textbook/ch21/v2_4_눈병이_나다.jpg"
-        },
-        {
-          "korean": "다리",
-          "indonesian": "Kaki, Jembatan, kaki",
-          "image": null
-        },
-        {
-          "korean": "다치다",
-          "indonesian": "terluka",
-          "image": "/images/textbook/ch21/v2_6_다치다.jpg"
+          "korean": "다리를 다치다",
+          "indonesian": "melukai kaki",
+          "image": "/images/textbook/ch21/v2_5_다리.jpg"
         },
         {
           "korean": "머리가\t아프다",
@@ -174,7 +149,7 @@
         {
           "korean": "발",
           "indonesian": "Kaki, kaki",
-          "image": null
+          "image": "/images/textbook/ch21/v2_10_발.jpg"
         },
         {
           "korean": "발목",
@@ -182,14 +157,9 @@
           "image": null
         },
         {
-          "korean": "배",
-          "indonesian": "Kapal, Pir, kapal, perut, kapal laut, pir",
-          "image": null
-        },
-        {
-          "korean": "배가\t아프다",
-          "indonesian": "Perut sakit",
-          "image": "/images/textbook/ch21/v2_13_배가_아프다.jpg"
+          "korean": "배가 아프다",
+          "indonesian": "sakit perut",
+          "image": "/images/textbook/ch21/v2_12_배.jpg"
         },
         {
           "korean": "손",
@@ -224,7 +194,7 @@
         {
           "korean": "운전(하다)",
           "indonesian": "mengendarai",
-          "image": "/images/textbook/ch21/v2_20_운전(하다).jpg"
+          "image": null
         },
         {
           "korean": "입",
@@ -239,16 +209,16 @@
         {
           "korean": "차다",
           "indonesian": "menendang",
-          "image": "/images/textbook/ch21/v2_23_차다.jpg"
+          "image": null
         },
         {
           "korean": "코",
           "indonesian": "Hidung, hidung",
-          "image": null
+          "image": "/images/textbook/ch21/v2_24_코.jpg"
         },
         {
           "korean": "팔",
-          "indonesian": "Lengan, lengan, kaki",
+          "indonesian": "lengan",
           "image": null
         },
         {
@@ -259,7 +229,7 @@
         {
           "korean": "환자",
           "indonesian": "pasien",
-          "image": "/images/textbook/ch21/v2_27_환자.jpg"
+          "image": null
         }
       ]
     },

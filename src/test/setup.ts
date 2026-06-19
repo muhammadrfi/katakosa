@@ -2,6 +2,7 @@ import '@testing-library/jest-dom';
 import 'resize-observer-polyfill';
 
 // You can add global setup code here
+globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 
 // Example: Mocking global objects
 // global.fetch = vi.fn();

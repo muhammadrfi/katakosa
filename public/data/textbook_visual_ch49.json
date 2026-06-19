@@ -95,12 +95,12 @@
         {
           "korean": "간격",
           "indonesian": "Jarak",
-          "image": "/images/textbook/ch49/v2_0_간격.jpg"
+          "image": null
         },
         {
           "korean": "골라내다",
           "indonesian": "memilih kekuatan seseorang",
-          "image": "/images/textbook/ch49/v2_1_골라내다.jpg"
+          "image": null
         },
         {
           "korean": "광석",
@@ -108,24 +108,19 @@
           "image": null
         },
         {
-          "korean": "깔다",
-          "indonesian": "Menggelar",
+          "korean": "레일을 깔다",
+          "indonesian": "memasang rel",
           "image": "/images/textbook/ch49/v2_3_깔다.jpg"
         },
         {
           "korean": "깨다",
           "indonesian": "memecahkan",
-          "image": "/images/textbook/ch49/v2_4_깨다.jpg"
+          "image": null
         },
         {
           "korean": "덩어리",
           "indonesian": "Benjolan",
-          "image": "/images/textbook/ch49/v2_5_덩어리.jpg"
-        },
-        {
-          "korean": "레일",
-          "indonesian": "meletakkan rel",
-          "image": "/images/textbook/ch49/v2_6_레일.jpg"
+          "image": null
         },
         {
           "korean": "바위",
@@ -140,7 +135,7 @@
         {
           "korean": "버력",
           "indonesian": "kekuatan",
-          "image": "/images/textbook/ch49/v2_9_버력.jpg"
+          "image": null
         },
         {
           "korean": "부수다",
@@ -150,7 +145,7 @@
         {
           "korean": "석탄",
           "indonesian": "Batu bara, batubara",
-          "image": "/images/textbook/ch49/v2_11_석탄.jpg"
+          "image": null
         },
         {
           "korean": "스크레이퍼",
@@ -175,7 +170,7 @@
         {
           "korean": "채탄",
           "indonesian": "penambangan batubara",
-          "image": "/images/textbook/ch49/v2_16_채탄.jpg"
+          "image": null
         },
         {
           "korean": "컨베이어",
@@ -185,7 +180,7 @@
         {
           "korean": "퍼 올리다",
           "indonesian": "mengambil batu bara",
-          "image": "/images/textbook/ch49/v2_18_퍼_올리다.jpg"
+          "image": null
         },
         {
           "korean": "폭약",
@@ -195,7 +190,7 @@
         {
           "korean": "폭파(하다)",
           "indonesian": "meledak",
-          "image": "/images/textbook/ch49/v2_20_폭파(하다).jpg"
+          "image": null
         },
         {
           "korean": "함마",

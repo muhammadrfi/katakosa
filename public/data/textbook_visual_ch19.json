@@ -13,37 +13,32 @@
         {
           "korean": "교실",
           "indonesian": "ruang kelas, kelas",
-          "image": "/images/textbook/ch19/v1_1_교실.jpg"
+          "image": null
         },
         {
           "korean": "다니다",
           "indonesian": "Pergi, pergi, datang dan pergi, menghadiri",
-          "image": "/images/textbook/ch19/v1_2_다니다.jpg"
+          "image": null
         },
         {
           "korean": "달다",
-          "indonesian": "Manis, manis, menggantungkan",
+          "indonesian": "manis",
           "image": "/images/textbook/ch19/v1_3_달다.jpg"
         },
         {
           "korean": "떡볶이",
           "indonesian": "Tteokbokki, jajanan sejenis cilok yg dicampur dg saos",
-          "image": "/images/textbook/ch19/v1_4_떡볶이.jpg"
+          "image": null
         },
         {
           "korean": "레몬",
           "indonesian": "Lemon, melon",
-          "image": "/images/textbook/ch19/v1_5_레몬.jpg"
-        },
-        {
-          "korean": "맛",
-          "indonesian": "Rasa, rasa",
           "image": null
         },
         {
-          "korean": "맛이\t좋다",
-          "indonesian": "Rasanya enak",
-          "image": "/images/textbook/ch19/v1_7_맛이_좋다.jpg"
+          "korean": "맛이 좋다",
+          "indonesian": "rasa enak",
+          "image": "/images/textbook/ch19/v1_6_맛.jpg"
         },
         {
           "korean": "맵다",
@@ -68,7 +63,7 @@
         {
           "korean": "요리법",
           "indonesian": "Cara memasak",
-          "image": "/images/textbook/ch19/v1_12_요리법.jpg"
+          "image": null
         },
         {
           "korean": "짜다",
@@ -78,7 +73,7 @@
         {
           "korean": "한번",
           "indonesian": "sekali",
-          "image": "/images/textbook/ch19/v1_14_한번.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -95,12 +90,12 @@
         {
           "korean": "계란",
           "indonesian": "Telur",
-          "image": "/images/textbook/ch19/v2_1_계란.jpg"
+          "image": null
         },
         {
           "korean": "고기",
           "indonesian": "daging, Daging",
-          "image": "/images/textbook/ch19/v2_2_고기.jpg"
+          "image": null
         },
         {
           "korean": "굽다",
@@ -109,7 +104,7 @@
         },
         {
           "korean": "깎다",
-          "indonesian": "Mengupas (buah), Mengukir",
+          "indonesian": "mengupas (buah)",
           "image": "/images/textbook/ch19/v2_4_깎다.jpg"
         },
         {
@@ -130,12 +125,12 @@
         {
           "korean": "데우다",
           "indonesian": "Panas",
-          "image": "/images/textbook/ch19/v2_8_데우다.jpg"
+          "image": null
         },
         {
           "korean": "떡",
           "indonesian": "makanan terbuat dari tepung beras",
-          "image": "/images/textbook/ch19/v2_9_떡.jpg"
+          "image": null
         },
         {
           "korean": "마늘",
@@ -145,7 +140,7 @@
         {
           "korean": "만두",
           "indonesian": "pangsit, makanan mirip dinsum, isi sayuran dan daging babi cincang",
-          "image": "/images/textbook/ch19/v2_11_만두.jpg"
+          "image": null
         },
         {
           "korean": "볶다",

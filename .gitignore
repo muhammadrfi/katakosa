@@ -31,3 +31,8 @@ scratch/
 chapter_pages.json
 chapter_ranges.json
 generate_excel.js
+
+# Cache and CLI directories
+.tmp-npm-cache/
+.antigravitycli/
+

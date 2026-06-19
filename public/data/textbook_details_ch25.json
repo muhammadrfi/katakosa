@@ -8,22 +8,22 @@
         {
           "korean": "고급",
           "indonesian": "tingkat mahir, mewah",
-          "image": "/images/textbook/ch25/v1_0_고급.jpg"
+          "image": null
         },
         {
           "korean": "교육(하다)",
           "indonesian": "Pendidikan, Pelatihan, pendidikan",
-          "image": null
+          "image": "/images/textbook/ch25/v1_1_교육(하다).jpg"
         },
         {
           "korean": "기간",
           "indonesian": "waktu, periode, masa",
-          "image": "/images/textbook/ch25/v1_2_기간.jpg"
+          "image": null
         },
         {
           "korean": "내용",
           "indonesian": "isi",
-          "image": "/images/textbook/ch25/v1_3_내용.jpg"
+          "image": null
         },
         {
           "korean": "다",
@@ -38,17 +38,17 @@
         {
           "korean": "모집(하다)",
           "indonesian": "Penerimaan, pendaftaran, perekrutan tenaga kerja",
-          "image": null
+          "image": "/images/textbook/ch25/v1_6_모집(하다).jpg"
         },
         {
           "korean": "문의(하다)",
           "indonesian": "mencari informasi",
-          "image": "/images/textbook/ch25/v1_7_문의(하다).jpg"
+          "image": null
         },
         {
           "korean": "문화",
           "indonesian": "budaya",
-          "image": "/images/textbook/ch25/v1_8_문화.jpg"
+          "image": null
         },
         {
           "korean": "방문\t접수",
@@ -58,7 +58,7 @@
         {
           "korean": "방법",
           "indonesian": "cara, metode",
-          "image": "/images/textbook/ch25/v1_10_방법.jpg"
+          "image": null
         },
         {
           "korean": "법률",
@@ -108,12 +108,12 @@
         {
           "korean": "한국어",
           "indonesian": "Bahasa Korea, bahasa korea",
-          "image": null
+          "image": "/images/textbook/ch25/v1_20_한국어.jpg"
         },
         {
           "korean": "회화",
           "indonesian": "Percakapan tingkat dasar, menengah, dan lanjutan",
-          "image": "/images/textbook/ch25/v1_21_회화.jpg"
+          "image": null
         },
         {
           "korean": "훈련(하다)",
@@ -134,7 +134,7 @@
         {
           "korean": "걱정(하다)",
           "indonesian": "Khawatir, khawatir",
-          "image": "/images/textbook/ch25/v2_1_걱정(하다).jpg"
+          "image": null
         },
         {
           "korean": "대상",
@@ -144,7 +144,7 @@
         {
           "korean": "떨리다",
           "indonesian": "Merasa gugup",
-          "image": "/images/textbook/ch25/v2_3_떨리다.jpg"
+          "image": null
         },
         {
           "korean": "모든",
@@ -159,7 +159,7 @@
         {
           "korean": "분야",
           "indonesian": "bidang, sektor, area",
-          "image": null
+          "image": "/images/textbook/ch25/v2_6_분야.jpg"
         },
         {
           "korean": "서비스",
@@ -219,7 +219,7 @@
         {
           "korean": "행사",
           "indonesian": "Acara, perayaan, acara",
-          "image": "/images/textbook/ch25/v2_18_행사.jpg"
+          "image": null
         }
       ]
     },

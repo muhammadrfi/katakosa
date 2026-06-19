@@ -18,12 +18,12 @@
         {
           "korean": "끼다",
           "indonesian": "Tersangkut, memakai (sarung tangan)",
-          "image": "/images/textbook/ch37/v1_2_끼다.jpg"
+          "image": null
         },
         {
           "korean": "끼우다",
           "indonesian": "menempatkan",
-          "image": "/images/textbook/ch37/v1_3_끼우다.jpg"
+          "image": null
         },
         {
           "korean": "당기다",
@@ -31,8 +31,8 @@
           "image": "/images/textbook/ch37/v1_4_당기다.jpg"
         },
         {
-          "korean": "레버",
-          "indonesian": "Menarik tuas",
+          "korean": "레버를 밀다",
+          "indonesian": "mendorong tuas",
           "image": "/images/textbook/ch37/v1_5_레버.jpg"
         },
         {
@@ -41,29 +41,24 @@
           "image": "/images/textbook/ch37/v1_6_멈추다.jpg"
         },
         {
-          "korean": "밀다",
-          "indonesian": "Mendorong, dorong, mendorong",
-          "image": "/images/textbook/ch37/v1_7_밀다.jpg"
-        },
-        {
           "korean": "밀리다",
           "indonesian": "Tergerus",
-          "image": "/images/textbook/ch37/v1_8_밀리다.jpg"
+          "image": null
         },
         {
           "korean": "부품",
           "indonesian": "Komponen, komponen",
-          "image": "/images/textbook/ch37/v1_9_부품.jpg"
+          "image": null
         },
         {
           "korean": "빼다",
           "indonesian": "disingkirkan, menyingkirkan, mengeluar kan, mengeluarkan, menghilangkan",
-          "image": "/images/textbook/ch37/v1_10_빼다.jpg"
+          "image": null
         },
         {
           "korean": "상",
           "indonesian": "Atas, meja",
-          "image": "/images/textbook/ch37/v1_11_상.jpg"
+          "image": null
         },
         {
           "korean": "스위치",
@@ -73,27 +68,27 @@
         {
           "korean": "아무리",
           "indonesian": "Tidak peduli seberapa banyak",
-          "image": "/images/textbook/ch37/v1_13_아무리.jpg"
+          "image": null
         },
         {
           "korean": "우",
           "indonesian": "Kanan",
-          "image": "/images/textbook/ch37/v1_14_우.jpg"
+          "image": null
         },
         {
           "korean": "우선",
           "indonesian": "Pertama",
-          "image": "/images/textbook/ch37/v1_15_우선.jpg"
+          "image": null
         },
         {
           "korean": "이물질",
           "indonesian": "Zat asing",
-          "image": "/images/textbook/ch37/v1_16_이물질.jpg"
+          "image": null
         },
         {
           "korean": "작동(하다)",
           "indonesian": "Mengoperasikan, Berfungsi, mengoprasikan",
-          "image": null
+          "image": "/images/textbook/ch37/v1_17_작동(하다).jpg"
         },
         {
           "korean": "장착(하다)",
@@ -108,7 +103,7 @@
         {
           "korean": "점검(하다)",
           "indonesian": "Memeriksa, mengecek, memeriksa",
-          "image": "/images/textbook/ch37/v1_20_점검(하다).jpg"
+          "image": null
         },
         {
           "korean": "제대로",
@@ -118,7 +113,7 @@
         {
           "korean": "좌",
           "indonesian": "Kiri",
-          "image": "/images/textbook/ch37/v1_22_좌.jpg"
+          "image": null
         },
         {
           "korean": "켜다",
@@ -128,7 +123,7 @@
         {
           "korean": "하",
           "indonesian": "Bawah",
-          "image": "/images/textbook/ch37/v1_24_하.jpg"
+          "image": null
         },
         {
           "korean": "해체(하다)",
@@ -143,7 +138,7 @@
         {
           "korean": "환풍기",
           "indonesian": "Ventilasi, ventilator",
-          "image": "/images/textbook/ch37/v1_27_환풍기.jpg"
+          "image": null
         },
         {
           "korean": "회전",
@@ -164,16 +159,16 @@
         {
           "korean": "공작물",
           "indonesian": "Membuat benda kerja panjang",
-          "image": "/images/textbook/ch37/v2_1_공작물.jpg"
+          "image": null
         },
         {
-          "korean": "구멍",
-          "indonesian": "mengebor lubang di batu",
+          "korean": "구멍을 뚫다",
+          "indonesian": "melubangi",
           "image": "/images/textbook/ch37/v2_2_구멍.jpg"
         },
         {
-          "korean": "구부리다",
-          "indonesian": "menekuk, membengkok, membungkuk",
+          "korean": "철판을 구부리다",
+          "indonesian": "membengkokkan pelat besi",
           "image": "/images/textbook/ch37/v2_3_구부리다.jpg"
         },
         {
@@ -184,7 +179,7 @@
         {
           "korean": "낫다",
           "indonesian": "Lebih baik",
-          "image": "/images/textbook/ch37/v2_5_낫다.jpg"
+          "image": null
         },
         {
           "korean": "도려내다",
@@ -194,7 +189,7 @@
         {
           "korean": "도면",
           "indonesian": "Gambar desain",
-          "image": "/images/textbook/ch37/v2_7_도면.jpg"
+          "image": null
         },
         {
           "korean": "드릴링머신",
@@ -205,11 +200,6 @@
           "korean": "(먼지를) 떨다",
           "indonesian": "mengibas debu",
           "image": "/images/textbook/ch37/v2_9_(먼지를)_떨다.jpg"
-        },
-        {
-          "korean": "뚫다",
-          "indonesian": "melubangi",
-          "image": "/images/textbook/ch37/v2_10_뚫다.jpg"
         },
         {
           "korean": "밀링 머신",
@@ -228,8 +218,8 @@
         },
         {
           "korean": "양",
-          "indonesian": "domba, kuantitas, Jumlah",
-          "image": "/images/textbook/ch37/v2_14_양.jpg"
+          "indonesian": "jumlah, kuantitas",
+          "image": null
         },
         {
           "korean": "에어컴프레서",
@@ -254,7 +244,7 @@
         {
           "korean": "정확하다",
           "indonesian": "Akurat, pasti, benar",
-          "image": "/images/textbook/ch37/v2_19_정확하다.jpg"
+          "image": null
         },
         {
           "korean": "찍어 내다",
@@ -262,14 +252,9 @@
           "image": "/images/textbook/ch37/v2_20_찍어_내다.jpg"
         },
         {
-          "korean": "철판",
-          "indonesian": "plat besi",
-          "image": "/images/textbook/ch37/v2_21_철판.jpg"
-        },
-        {
           "korean": "칩",
           "indonesian": "Cekungan",
-          "image": "/images/textbook/ch37/v2_22_칩.jpg"
+          "image": null
         },
         {
           "korean": "프레스 기계",

@@ -23,7 +23,7 @@
         {
           "korean": "너무",
           "indonesian": "terlalu",
-          "image": "/images/textbook/ch7/v1_3_너무.jpg"
+          "image": null
         },
         {
           "korean": "덥다",
@@ -38,7 +38,7 @@
         {
           "korean": "뜨겁다",
           "indonesian": "Panas (benda), panas, panas (benda)",
-          "image": "/images/textbook/ch7/v1_6_뜨겁다.jpg"
+          "image": null
         },
         {
           "korean": "봄",
@@ -48,7 +48,7 @@
         {
           "korean": "쉽다",
           "indonesian": "Mudah, mudah",
-          "image": "/images/textbook/ch7/v1_8_쉽다.jpg"
+          "image": null
         },
         {
           "korean": "시원하다",
@@ -58,12 +58,12 @@
         {
           "korean": "어때요?",
           "indonesian": "Bagaimana?, bagaimana",
-          "image": "/images/textbook/ch7/v1_10_어때요.jpg"
+          "image": null
         },
         {
           "korean": "어렵다",
           "indonesian": "sulit, susah, Sulit",
-          "image": "/images/textbook/ch7/v1_11_어렵다.jpg"
+          "image": null
         },
         {
           "korean": "여름",
@@ -73,17 +73,17 @@
         {
           "korean": "영어",
           "indonesian": "Bahasa Inggris, bahasa inggris",
-          "image": "/images/textbook/ch7/v1_13_영어.jpg"
+          "image": null
         },
         {
           "korean": "조금",
           "indonesian": "sedikit",
-          "image": "/images/textbook/ch7/v1_14_조금.jpg"
+          "image": null
         },
         {
           "korean": "차갑다",
           "indonesian": "Dingin (benda)",
-          "image": "/images/textbook/ch7/v1_15_차갑다.jpg"
+          "image": null
         },
         {
           "korean": "춥다",
@@ -97,19 +97,19 @@
       "type": "vocab",
       "items": [
         {
-          "korean": "그치다",
-          "indonesian": "berhenti",
+          "korean": "비가 그치다",
+          "indonesian": "hujan reda",
           "image": "/images/textbook/ch7/v2_0_그치다.jpg"
         },
         {
           "korean": "나쁘다",
           "indonesian": "buruk, jahat",
-          "image": null
+          "image": "/images/textbook/ch7/v2_1_나쁘다.jpg"
         },
         {
           "korean": "날씨",
           "indonesian": "cuaca",
-          "image": null
+          "image": "/images/textbook/ch7/v2_2_날씨.jpg"
         },
         {
           "korean": "눈이\t오다",
@@ -119,37 +119,32 @@
         {
           "korean": "많이",
           "indonesian": "Banyak, sangat, banyak",
-          "image": "/images/textbook/ch7/v2_4_많이.jpg"
+          "image": null
         },
         {
           "korean": "맑다",
           "indonesian": "Jernih, cerah, jernih",
-          "image": "/images/textbook/ch7/v2_5_맑다.jpg"
+          "image": null
         },
         {
           "korean": "바람이\t불다",
           "indonesian": "bertiup angin",
-          "image": null
+          "image": "/images/textbook/ch7/v2_6_바람이_불다.jpg"
         },
         {
           "korean": "별로",
           "indonesian": "tidak terlalu",
-          "image": "/images/textbook/ch7/v2_7_별로.jpg"
-        },
-        {
-          "korean": "비가\t오다",
-          "indonesian": "Hujan turun, turun hujan",
-          "image": "/images/textbook/ch7/v2_8_비가_오다.jpg"
+          "image": null
         },
         {
           "korean": "여보세요?",
           "indonesian": "halo",
-          "image": "/images/textbook/ch7/v2_9_여보세요.jpg"
+          "image": null
         },
         {
           "korean": "정말",
           "indonesian": "sangat, sungguh",
-          "image": "/images/textbook/ch7/v2_10_정말.jpg"
+          "image": null
         },
         {
           "korean": "좋다",

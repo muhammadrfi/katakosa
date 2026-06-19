@@ -51,12 +51,55 @@ const useQuizLogic = (
   swapLanguages: boolean,
   markWordAsRemembered: (wordId: string) => void,
   markWordAsForgotten: (wordId: string) => void,
+  projectId?: string,
+  srsFilter?: string | null,
 ) => {
   const [quizStatus, setQuizStatus] = useState<QuizStatus>(QuizStatus.IDLE);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [incorrectAnswers, setIncorrectAnswers] = useState<QuizQuestion[]>([]);
+
+  // Load saved session on mount or when projectId/srsFilter changes
+  useEffect(() => {
+    if (!projectId) return;
+    const sessionKey = `katakosa_vocab_quiz_session_${projectId}`;
+    const saved = localStorage.getItem(sessionKey);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        // Verify if it matches the current srsFilter and contains questions
+        if (parsed.srsFilter === (srsFilter || null) && parsed.questions && parsed.questions.length > 0) {
+          setQuestions(parsed.questions);
+          setCurrentQuestionIndex(parsed.currentQuestionIndex);
+          setScore(parsed.score);
+          setIncorrectAnswers(parsed.incorrectAnswers || []);
+          setQuizStatus(QuizStatus.ACTIVE);
+        }
+      } catch (e) {
+        console.error("Failed to restore kuis session from localStorage", e);
+      }
+    }
+  }, [projectId, srsFilter]);
+
+  // Auto-save kuis session to localStorage
+  useEffect(() => {
+    if (!projectId) return;
+    const sessionKey = `katakosa_vocab_quiz_session_${projectId}`;
+    if (quizStatus === QuizStatus.ACTIVE) {
+      const session = {
+        srsFilter: srsFilter || null,
+        questions,
+        currentQuestionIndex,
+        score,
+        incorrectAnswers,
+        timestamp: Date.now()
+      };
+      localStorage.setItem(sessionKey, JSON.stringify(session));
+    } else if (quizStatus === QuizStatus.FINISHED) {
+      localStorage.removeItem(sessionKey);
+    }
+  }, [projectId, quizStatus, questions, currentQuestionIndex, score, incorrectAnswers, srsFilter]);
 
   const prepareQuiz = useCallback((numQuestions: number) => {
     const shuffledWords = shuffleArray(words).slice(0, numQuestions);
@@ -89,8 +132,12 @@ const useQuizLogic = (
   }, [questions, currentQuestionIndex, addIncorrectAnswer, markWordAsRemembered, markWordAsForgotten]);
 
   const handleRestart = useCallback(() => {
+    // Clear session first then prepare new quiz
+    if (projectId) {
+      localStorage.removeItem(`katakosa_vocab_quiz_session_${projectId}`);
+    }
     prepareQuiz(questions.length); // Restart with the same number of questions
-  }, [prepareQuiz, questions.length]);
+  }, [prepareQuiz, questions.length, projectId]);
 
   useEffect(() => {
     // Reset quiz if words or swapLanguages change while idle

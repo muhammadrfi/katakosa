@@ -28,12 +28,12 @@
         {
           "korean": "맛없다",
           "indonesian": "Tidak enak, tidak enak",
-          "image": "/images/textbook/ch9/v1_4_맛없다.jpg"
+          "image": null
         },
         {
           "korean": "맛있다",
           "indonesian": "Enak, enak",
-          "image": "/images/textbook/ch9/v1_5_맛있다.jpg"
+          "image": null
         },
         {
           "korean": "불고기",
@@ -43,7 +43,7 @@
         {
           "korean": "싫어하다",
           "indonesian": "Tidak suka, membenci, tdk menyukai",
-          "image": "/images/textbook/ch9/v1_7_싫어하다.jpg"
+          "image": null
         },
         {
           "korean": "우동",
@@ -63,12 +63,12 @@
         {
           "korean": "좀",
           "indonesian": "agak",
-          "image": "/images/textbook/ch9/v1_11_좀.jpg"
+          "image": null
         },
         {
           "korean": "좋아하다",
           "indonesian": "Suka, suka, menyukai",
-          "image": "/images/textbook/ch9/v1_12_좋아하다.jpg"
+          "image": null
         },
         {
           "korean": "치킨",
@@ -90,7 +90,7 @@
         {
           "korean": "개",
           "indonesian": "buah, anjing",
-          "image": "/images/textbook/ch9/v2_0_개.jpg"
+          "image": null
         },
         {
           "korean": "공기",
@@ -120,7 +120,7 @@
         {
           "korean": "둘",
           "indonesian": "dua (angka asli Korea)",
-          "image": "/images/textbook/ch9/v2_6_둘.jpg"
+          "image": null
         },
         {
           "korean": "마리",
@@ -139,13 +139,13 @@
         },
         {
           "korean": "분",
-          "indonesian": "Bola akar, orang",
-          "image": null
+          "indonesian": "orang (honorifik)",
+          "image": "/images/textbook/ch9/v2_10_분.jpg"
         },
         {
           "korean": "분류사",
           "indonesian": "Angka dan satuan",
-          "image": null
+          "image": "/images/textbook/ch9/v2_11_분류사.jpg"
         },
         {
           "korean": "셋",

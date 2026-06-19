@@ -8,17 +8,17 @@
         {
           "korean": "관리 대장",
           "indonesian": "Buku besar manajemen",
-          "image": "/images/textbook/ch41/v1_0_관리_대장.jpg"
+          "image": null
         },
         {
           "korean": "민감하다",
           "indonesian": "peka",
-          "image": "/images/textbook/ch41/v1_1_민감하다.jpg"
+          "image": null
         },
         {
           "korean": "벌레",
           "indonesian": "Ulat",
-          "image": "/images/textbook/ch41/v1_2_벌레.jpg"
+          "image": null
         },
         {
           "korean": "변색되다",
@@ -38,7 +38,7 @@
         {
           "korean": "약해지다",
           "indonesian": "menjadi lemah",
-          "image": "/images/textbook/ch41/v1_6_약해지다.jpg"
+          "image": null
         },
         {
           "korean": "오염되다",
@@ -48,47 +48,42 @@
         {
           "korean": "온습도계",
           "indonesian": "termometer kelembapan",
-          "image": "/images/textbook/ch41/v1_8_온습도계.jpg"
+          "image": null
         },
         {
           "korean": "원사",
           "indonesian": "benang",
-          "image": null
+          "image": "/images/textbook/ch41/v1_9_원사.jpg"
         },
         {
           "korean": "일정하다",
           "indonesian": "Jadwal, jadwal, menentukan",
-          "image": "/images/textbook/ch41/v1_10_일정하다.jpg"
+          "image": null
         },
         {
           "korean": "장마철",
           "indonesian": "hujan di musim panas",
-          "image": "/images/textbook/ch41/v1_11_장마철.jpg"
+          "image": null
         },
         {
           "korean": "적정",
           "indonesian": "Sesuai, dengan benar",
-          "image": "/images/textbook/ch41/v1_12_적정.jpg"
+          "image": null
         },
         {
           "korean": "주기적",
           "indonesian": "berkala",
-          "image": "/images/textbook/ch41/v1_13_주기적.jpg"
+          "image": null
         },
         {
-          "korean": "직사광선",
-          "indonesian": "sinar matahari langsung",
+          "korean": "직사광선을 피하다",
+          "indonesian": "menghindari sinar matahari langsung",
           "image": "/images/textbook/ch41/v1_14_직사광선.jpg"
         },
         {
           "korean": "통풍이 잘되다",
           "indonesian": "ventilasi yang baik",
           "image": "/images/textbook/ch41/v1_15_통풍이_잘되다.jpg"
-        },
-        {
-          "korean": "피하다",
-          "indonesian": "menghindar",
-          "image": "/images/textbook/ch41/v1_16_피하다.jpg"
         }
       ],
       "main_image": null
@@ -105,27 +100,27 @@
         {
           "korean": "건조(하다)",
           "indonesian": "kering / mengeringkan",
-          "image": "/images/textbook/ch41/v2_1_건조(하다).jpg"
+          "image": null
         },
         {
           "korean": "견",
           "indonesian": "Sutra",
-          "image": null
+          "image": "/images/textbook/ch41/v2_2_견.jpg"
         },
         {
           "korean": "고르다",
           "indonesian": "Halus, memilih",
-          "image": "/images/textbook/ch41/v2_3_고르다.jpg"
+          "image": null
         },
         {
           "korean": "나일론",
           "indonesian": "Nilon",
-          "image": null
+          "image": "/images/textbook/ch41/v2_4_나일론.jpg"
         },
         {
           "korean": "막대기",
           "indonesian": "batang",
-          "image": "/images/textbook/ch41/v2_5_막대기.jpg"
+          "image": null
         },
         {
           "korean": "말리다",
@@ -135,7 +130,7 @@
         {
           "korean": "면",
           "indonesian": "Kalau, Kapas",
-          "image": null
+          "image": "/images/textbook/ch41/v2_7_면.jpg"
         },
         {
           "korean": "모",
@@ -145,12 +140,12 @@
         {
           "korean": "불순물",
           "indonesian": "kotoran",
-          "image": "/images/textbook/ch41/v2_9_불순물.jpg"
+          "image": null
         },
         {
           "korean": "서두르다",
           "indonesian": "Bergegas, mempercepat",
-          "image": "/images/textbook/ch41/v2_10_서두르다.jpg"
+          "image": null
         },
         {
           "korean": "섞다",
@@ -175,32 +170,32 @@
         {
           "korean": "엉키다",
           "indonesian": "menjadi kusut, membingungkan",
-          "image": "/images/textbook/ch41/v2_15_엉키다.jpg"
+          "image": null
         },
         {
           "korean": "염료",
           "indonesian": "mencampur pewarna",
-          "image": "/images/textbook/ch41/v2_16_염료.jpg"
+          "image": null
         },
         {
           "korean": "염색(하다)",
           "indonesian": "pewarna, mewarnai",
-          "image": null
+          "image": "/images/textbook/ch41/v2_17_염색(하다).jpg"
         },
         {
-          "korean": "원단",
-          "indonesian": "masukkan, menaruh di kain",
+          "korean": "원단을 펴다",
+          "indonesian": "membentangkan kain",
           "image": "/images/textbook/ch41/v2_18_원단.jpg"
         },
         {
           "korean": "젓다",
           "indonesian": "mengaduk",
-          "image": "/images/textbook/ch41/v2_19_젓다.jpg"
+          "image": null
         },
         {
           "korean": "제거(하다)",
           "indonesian": "menghapus",
-          "image": "/images/textbook/ch41/v2_20_제거(하다).jpg"
+          "image": null
         },
         {
           "korean": "천연 섬유",
@@ -210,17 +205,12 @@
         {
           "korean": "탈수(하다)",
           "indonesian": "dehidrasi",
-          "image": "/images/textbook/ch41/v2_22_탈수(하다).jpg"
-        },
-        {
-          "korean": "펴다",
-          "indonesian": "meluruskan",
-          "image": "/images/textbook/ch41/v2_23_펴다.jpg"
+          "image": null
         },
         {
           "korean": "폴리에스터",
           "indonesian": "poliester",
-          "image": null
+          "image": "/images/textbook/ch41/v2_24_폴리에스터.jpg"
         },
         {
           "korean": "표백(하다)",
@@ -230,12 +220,12 @@
         {
           "korean": "하얗다",
           "indonesian": "Warna putih",
-          "image": "/images/textbook/ch41/v2_26_하얗다.jpg"
+          "image": null
         },
         {
           "korean": "합성 섬유",
           "indonesian": "Serat sintetis",
-          "image": null
+          "image": "/images/textbook/ch41/v2_27_합성_섬유.jpg"
         }
       ],
       "main_image": null

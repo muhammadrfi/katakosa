@@ -13,27 +13,22 @@
         {
           "korean": "그렇다",
           "indonesian": "Begitu, demikian",
-          "image": "/images/textbook/ch31/v1_1_그렇다.jpg"
+          "image": null
         },
         {
-          "korean": "넥타이",
-          "indonesian": "dasi",
+          "korean": "넥타이를 매다",
+          "indonesian": "memakai dasi",
           "image": "/images/textbook/ch31/v1_2_넥타이.jpg"
         },
         {
           "korean": "단정하다",
           "indonesian": "Rapi, sopan, rapi",
-          "image": "/images/textbook/ch31/v1_3_단정하다.jpg"
+          "image": null
         },
         {
           "korean": "단추",
           "indonesian": "kancing",
           "image": "/images/textbook/ch31/v1_4_단추.jpg"
-        },
-        {
-          "korean": "매다",
-          "indonesian": "Memakai dasi, memakai dasi",
-          "image": "/images/textbook/ch31/v1_5_매다.jpg"
         },
         {
           "korean": "벗다",
@@ -48,12 +43,12 @@
         {
           "korean": "새",
           "indonesian": "Baru, baru, burung",
-          "image": "/images/textbook/ch31/v1_8_새.jpg"
+          "image": null
         },
         {
           "korean": "안전(하다)",
           "indonesian": "Aman, aman",
-          "image": "/images/textbook/ch31/v1_9_안전(하다).jpg"
+          "image": null
         },
         {
           "korean": "양복",
@@ -63,12 +58,12 @@
         {
           "korean": "익숙해지다",
           "indonesian": "Terbiasa",
-          "image": "/images/textbook/ch31/v1_11_익숙해지다.jpg"
+          "image": null
         },
         {
           "korean": "작업(하다)",
           "indonesian": "Bekerja",
-          "image": "/images/textbook/ch31/v1_12_작업(하다).jpg"
+          "image": null
         },
         {
           "korean": "작업복",
@@ -100,7 +95,7 @@
         {
           "korean": "공장",
           "indonesian": "Pabrik, pabrik",
-          "image": "/images/textbook/ch31/v2_0_공장.jpg"
+          "image": null
         },
         {
           "korean": "공장장",
@@ -115,7 +110,7 @@
         {
           "korean": "다행",
           "indonesian": "Syukurlah",
-          "image": "/images/textbook/ch31/v2_3_다행.jpg"
+          "image": null
         },
         {
           "korean": "무시(하다)",
@@ -140,12 +135,12 @@
         {
           "korean": "사용(하다)",
           "indonesian": "Menggunakan, menggunakan",
-          "image": "/images/textbook/ch31/v2_8_사용(하다).jpg"
+          "image": null
         },
         {
           "korean": "서로",
           "indonesian": "Saling, Satu sama lain, saling",
-          "image": "/images/textbook/ch31/v2_9_서로.jpg"
+          "image": null
         },
         {
           "korean": "성실하다",
@@ -155,7 +150,7 @@
         {
           "korean": "의견",
           "indonesian": "Pendapat, opini",
-          "image": "/images/textbook/ch31/v2_11_의견.jpg"
+          "image": null
         },
         {
           "korean": "존댓말",
@@ -170,7 +165,7 @@
         {
           "korean": "참",
           "indonesian": "Sangat, benar-benar, sangat",
-          "image": "/images/textbook/ch31/v2_14_참.jpg"
+          "image": null
         },
         {
           "korean": "칭찬(하다)",
@@ -195,7 +190,7 @@
         {
           "korean": "항상",
           "indonesian": "Selalu, selalu",
-          "image": "/images/textbook/ch31/v2_19_항상.jpg"
+          "image": null
         }
       ],
       "main_image": null

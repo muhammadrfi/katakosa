@@ -176,22 +176,6 @@
     "book": 1
   },
   {
-    "korean": "값",
-    "english": "price",
-    "indonesian": "harga",
-    "page": 144,
-    "chapter": 10,
-    "book": 1
-  },
-  {
-    "korean": "값을\t깎다",
-    "english": "to bargain",
-    "indonesian": "Memotong harga, potong harga",
-    "page": 144,
-    "chapter": 10,
-    "book": 1
-  },
-  {
     "korean": "강",
     "english": "river",
     "indonesian": "Sungai, sungai",
@@ -896,14 +880,6 @@
     "book": 1
   },
   {
-    "korean": "그치다",
-    "english": "to stop",
-    "indonesian": "berhenti",
-    "page": 114,
-    "chapter": 7,
-    "book": 1
-  },
-  {
     "korean": "근로자",
     "english": "worker",
     "indonesian": "pekerja",
@@ -1130,7 +1106,7 @@
   {
     "korean": "깎다",
     "english": "to peel",
-    "indonesian": "Mengupas (buah), Mengukir",
+    "indonesian": "mengupas (buah)",
     "page": 234,
     "chapter": 19,
     "book": 1
@@ -1354,7 +1330,7 @@
   {
     "korean": "내리다",
     "english": "to get off",
-    "indonesian": "Turun (dari kendaraan), turun, menurunkan",
+    "indonesian": "turun (dari kendaraan)",
     "page": 164,
     "chapter": 12,
     "book": 1
@@ -1520,22 +1496,6 @@
     "book": 1
   },
   {
-    "korean": "눈",
-    "english": "eye",
-    "indonesian": "Mata, mata, salju",
-    "page": 254,
-    "chapter": 21,
-    "book": 1
-  },
-  {
-    "korean": "눈병이\t나다",
-    "english": "to get an eye infection",
-    "indonesian": "Penyakit mata",
-    "page": 254,
-    "chapter": 21,
-    "book": 1
-  },
-  {
     "korean": "눈이\t오다",
     "english": "to snow",
     "indonesian": "turun salju",
@@ -1565,14 +1525,6 @@
     "indonesian": "Pergi, pergi, datang dan pergi, menghadiri",
     "page": 231,
     "chapter": 19,
-    "book": 1
-  },
-  {
-    "korean": "다리",
-    "english": "leg",
-    "indonesian": "Kaki, Jembatan, kaki",
-    "page": 254,
-    "chapter": 21,
     "book": 1
   },
   {
@@ -1632,22 +1584,6 @@
     "book": 1
   },
   {
-    "korean": "다치다",
-    "english": "to injure",
-    "indonesian": "terluka",
-    "page": 254,
-    "chapter": 21,
-    "book": 1
-  },
-  {
-    "korean": "닦다",
-    "english": "to brush/wipe",
-    "indonesian": "Mengelap, mengelap, menggosok, menyikat",
-    "page": 104,
-    "chapter": 6,
-    "book": 1
-  },
-  {
     "korean": "단체",
     "english": "group",
     "indonesian": "Grup atau organisasi, rombongan",
@@ -1666,15 +1602,15 @@
   {
     "korean": "달다",
     "english": "to be sweet",
-    "indonesian": "Manis, manis, menggantungkan",
+    "indonesian": "manis",
     "page": 231,
     "chapter": 19,
     "book": 1
   },
   {
     "korean": "달다",
-    "english": "to put (up/on)",
-    "indonesian": "Manis, manis, menggantungkan",
+    "english": "to hang / put up",
+    "indonesian": "memasang, menggantungkan (bendera / papan nama)",
     "page": 311,
     "chapter": 27,
     "book": 1
@@ -1906,7 +1842,7 @@
   {
     "korean": "돌",
     "english": "first birthday",
-    "indonesian": "Batu, batu, bayi umur 1 tahun",
+    "indonesian": "ulang tahun pertama (bayi)",
     "page": 314,
     "chapter": 27,
     "book": 1
@@ -2384,27 +2320,11 @@
     "book": 1
   },
   {
-    "korean": "맛",
-    "english": "taste",
-    "indonesian": "Rasa, rasa",
-    "page": 231,
-    "chapter": 19,
-    "book": 1
-  },
-  {
     "korean": "맛없다",
     "english": "to be not delicious",
     "indonesian": "Tidak enak, tidak enak",
     "page": 131,
     "chapter": 9,
-    "book": 1
-  },
-  {
-    "korean": "맛이\t좋다",
-    "english": "to be tasty",
-    "indonesian": "Rasanya enak",
-    "page": 231,
-    "chapter": 19,
     "book": 1
   },
   {
@@ -2464,14 +2384,6 @@
     "book": 1
   },
   {
-    "korean": "머리",
-    "english": "hair/head",
-    "indonesian": "Kepala, kepala",
-    "page": 124,
-    "chapter": 8,
-    "book": 1
-  },
-  {
     "korean": "머리가\t아프다",
     "english": "to have a headache",
     "indonesian": "Kepala sakit",
@@ -2493,22 +2405,6 @@
     "indonesian": "Lebih dulu, Terlebih dahulu, lebih dulu, Pertama",
     "page": 331,
     "chapter": 29,
-    "book": 1
-  },
-  {
-    "korean": "먼지",
-    "english": "dust",
-    "indonesian": "debu",
-    "page": 154,
-    "chapter": 11,
-    "book": 1
-  },
-  {
-    "korean": "먼지를\t털다",
-    "english": "to dust off",
-    "indonesian": "Mengelap debu",
-    "page": 154,
-    "chapter": 11,
     "book": 1
   },
   {
@@ -3042,25 +2938,9 @@
   {
     "korean": "배",
     "english": "ship",
-    "indonesian": "Kapal, Pir, kapal, perut, kapal laut, pir",
+    "indonesian": "kapal (laut)",
     "page": 161,
     "chapter": 12,
-    "book": 1
-  },
-  {
-    "korean": "배",
-    "english": "stomach",
-    "indonesian": "Kapal, Pir, kapal, perut, kapal laut, pir",
-    "page": 254,
-    "chapter": 21,
-    "book": 1
-  },
-  {
-    "korean": "배가\t아프다",
-    "english": "to have a stomachache",
-    "indonesian": "Perut sakit",
-    "page": 254,
-    "chapter": 21,
     "book": 1
   },
   {
@@ -3114,7 +2994,7 @@
   {
     "korean": "밴드",
     "english": "band-aid",
-    "indonesian": "Perban, pita, plester, plaster plastik",
+    "indonesian": "plester luka / perban",
     "page": 264,
     "chapter": 22,
     "book": 1
@@ -3418,15 +3298,15 @@
   {
     "korean": "분",
     "english": "minute",
-    "indonesian": "Bola akar, orang",
+    "indonesian": "menit",
     "page": 101,
     "chapter": 6,
     "book": 1
   },
   {
     "korean": "분",
-    "english": "person (honorific, classifier)",
-    "indonesian": "Bola akar, orang",
+    "english": "person (honorific)",
+    "indonesian": "orang (honorifik)",
     "page": 134,
     "chapter": 9,
     "book": 1
@@ -3496,14 +3376,6 @@
     "book": 1
   },
   {
-    "korean": "비가\t오다",
-    "english": "to rain",
-    "indonesian": "Hujan turun, turun hujan",
-    "page": 114,
-    "chapter": 7,
-    "book": 1
-  },
-  {
     "korean": "비밀번호",
     "english": "password",
     "indonesian": "nomor password, password, nomor rahasia",
@@ -3560,14 +3432,6 @@
     "book": 1
   },
   {
-    "korean": "빗자루",
-    "english": "broom",
-    "indonesian": "Sapu, sapu",
-    "page": 154,
-    "chapter": 11,
-    "book": 1
-  },
-  {
     "korean": "빨간색",
     "english": "red",
     "indonesian": "Merah, merah, Warna merah",
@@ -3576,25 +3440,9 @@
     "book": 1
   },
   {
-    "korean": "빨래(하다)",
-    "english": "laundry/to wash clothes",
-    "indonesian": "mencuci pakaian",
-    "page": 154,
-    "chapter": 11,
-    "book": 1
-  },
-  {
     "korean": "빨래를\t걷다",
     "english": "to take down the laundry",
     "indonesian": "Mengangkat pakaian, mengangkat jemuran",
-    "page": 154,
-    "chapter": 11,
-    "book": 1
-  },
-  {
-    "korean": "빨래를\t널다",
-    "english": "to hang the laundry",
-    "indonesian": "Menjemur pakaian",
     "page": 154,
     "chapter": 11,
     "book": 1
@@ -3674,7 +3522,7 @@
   {
     "korean": "사이",
     "english": "between",
-    "indonesian": "Antara, antara",
+    "indonesian": "antara",
     "page": 181,
     "chapter": 14,
     "book": 1
@@ -3968,22 +3816,6 @@
     "book": 1
   },
   {
-    "korean": "성격",
-    "english": "personality",
-    "indonesian": "Penampilan dan kepribadian",
-    "page": 124,
-    "chapter": 8,
-    "book": 1
-  },
-  {
-    "korean": "성격이\t급하다",
-    "english": "to be impatient",
-    "indonesian": "Tergesa-gesa, tidak sabaran",
-    "page": 124,
-    "chapter": 8,
-    "book": 1
-  },
-  {
     "korean": "성묘하다",
     "english": "to visit ancestral graves",
     "indonesian": "Berziarah, ziarah",
@@ -4189,22 +4021,6 @@
     "indonesian": "Semangka, semangka",
     "page": 141,
     "chapter": 10,
-    "book": 1
-  },
-  {
-    "korean": "수술(하다)",
-    "english": "surgery, to perform surgery",
-    "indonesian": "oprasi",
-    "page": 251,
-    "chapter": 21,
-    "book": 1
-  },
-  {
-    "korean": "수술을\t받다",
-    "english": "to undergo surgery",
-    "indonesian": "menjalani operasi",
-    "page": 251,
-    "chapter": 21,
     "book": 1
   },
   {
@@ -4660,14 +4476,6 @@
     "english": "waste bin",
     "indonesian": "Tempat sampah, tempat sampah, tong sampah",
     "page": 151,
-    "chapter": 11,
-    "book": 1
-  },
-  {
-    "korean": "쓸다",
-    "english": "to sweep",
-    "indonesian": "Menyapu, menyapu",
-    "page": 154,
     "chapter": 11,
     "book": 1
   },
@@ -5280,27 +5088,11 @@
     "book": 1
   },
   {
-    "korean": "열",
-    "english": "fever",
-    "indonesian": "demam, panas",
-    "page": 261,
-    "chapter": 22,
-    "book": 1
-  },
-  {
     "korean": "열쇠",
     "english": "key",
     "indonesian": "kunci",
     "page": 64,
     "chapter": 2,
-    "book": 1
-  },
-  {
-    "korean": "열이\t나다/있다",
-    "english": "to have a fever",
-    "indonesian": "Demam",
-    "page": 261,
-    "chapter": 22,
     "book": 1
   },
   {
@@ -6037,14 +5829,6 @@
     "indonesian": "Gigi, gigi",
     "page": 94,
     "chapter": 5,
-    "book": 1
-  },
-  {
-    "korean": "이",
-    "english": "tooth",
-    "indonesian": "Gigi, gigi",
-    "page": 104,
-    "chapter": 6,
     "book": 1
   },
   {
@@ -6992,25 +6776,9 @@
     "book": 1
   },
   {
-    "korean": "주사",
-    "english": "injection",
-    "indonesian": "Memberikan, Menerima suntikan",
-    "page": 251,
-    "chapter": 21,
-    "book": 1
-  },
-  {
     "korean": "주사를\t놓다",
     "english": "to give an injection",
     "indonesian": "Memberikan, Menerima suntikan",
-    "page": 251,
-    "chapter": 21,
-    "book": 1
-  },
-  {
-    "korean": "주사를\t맞다",
-    "english": "to get an injection",
-    "indonesian": "disuntik",
     "page": 251,
     "chapter": 21,
     "book": 1
@@ -7296,14 +7064,6 @@
     "book": 1
   },
   {
-    "korean": "짧다",
-    "english": "to be short",
-    "indonesian": "pendek",
-    "page": 124,
-    "chapter": 8,
-    "book": 1
-  },
-  {
     "korean": "쪽",
     "english": "way",
     "indonesian": "arah / halaman / bagian",
@@ -7353,7 +7113,7 @@
   },
   {
     "korean": "차다",
-    "english": "to be cold",
+    "english": "to kick",
     "indonesian": "menendang",
     "page": 254,
     "chapter": 21,
@@ -7705,26 +7465,10 @@
   },
   {
     "korean": "치다",
-    "english": "to hit",
-    "indonesian": "Menyangga, menolong",
+    "english": "to hit / play",
+    "indonesian": "bermain (tenis / badminton), memukul",
     "page": 220,
     "chapter": 17,
-    "book": 1
-  },
-  {
-    "korean": "치료(하다)",
-    "english": "treatment, to provid treatment",
-    "indonesian": "pelayanan medis",
-    "page": 251,
-    "chapter": 21,
-    "book": 1
-  },
-  {
-    "korean": "치료를\t받다",
-    "english": "to receive treatment",
-    "indonesian": "menjalani pengobatan / perawatan",
-    "page": 251,
-    "chapter": 21,
     "book": 1
   },
   {
@@ -7962,7 +7706,7 @@
   {
     "korean": "타다",
     "english": "to ride",
-    "indonesian": "Naik (kendaraan), naik, naik (kendaraan)",
+    "indonesian": "naik (kendaraan)",
     "page": 161,
     "chapter": 12,
     "book": 1
@@ -8178,7 +7922,7 @@
   {
     "korean": "팔",
     "english": "eight",
-    "indonesian": "Lengan, lengan, kaki",
+    "indonesian": "delapan",
     "page": 94,
     "chapter": 5,
     "book": 1
@@ -8186,7 +7930,7 @@
   {
     "korean": "팔",
     "english": "arm",
-    "indonesian": "Lengan, lengan, kaki",
+    "indonesian": "lengan",
     "page": 254,
     "chapter": 21,
     "book": 1
@@ -8298,7 +8042,7 @@
   {
     "korean": "풀다",
     "english": "to unpack",
-    "indonesian": "Mengendurkan, melepas, mengendurkan",
+    "indonesian": "membongkar, melepas (koper)",
     "page": 211,
     "chapter": 17,
     "book": 1
@@ -9512,14 +9256,6 @@
     "book": 2
   },
   {
-    "korean": "곰팡이가 피다",
-    "english": "to grow mold",
-    "indonesian": "Muncul jamur",
-    "page": 230,
-    "chapter": 52,
-    "book": 2
-  },
-  {
     "korean": "공구",
     "english": "tool",
     "indonesian": "Alat perakitan",
@@ -9720,27 +9456,11 @@
     "book": 2
   },
   {
-    "korean": "구멍",
-    "english": "hole",
-    "indonesian": "mengebor lubang di batu",
-    "page": 80,
-    "chapter": 37,
-    "book": 2
-  },
-  {
     "korean": "구명조끼",
     "english": "life jacket",
     "indonesian": "rompi pelampung",
     "page": 260,
     "chapter": 55,
-    "book": 2
-  },
-  {
-    "korean": "구부리다",
-    "english": "to bend",
-    "indonesian": "menekuk, membengkok, membungkuk",
-    "page": 80,
-    "chapter": 37,
     "book": 2
   },
   {
@@ -10000,14 +9720,6 @@
     "book": 2
   },
   {
-    "korean": "금지(하다)",
-    "english": "prohibition, to prohibit",
-    "indonesian": "Larangan",
-    "page": 240,
-    "chapter": 53,
-    "book": 2
-  },
-  {
     "korean": "급수기",
     "english": "waterer",
     "indonesian": "Pemberi air",
@@ -10153,18 +9865,10 @@
   },
   {
     "korean": "깎다",
-    "english": "to shave, cut",
-    "indonesian": "Mengupas (buah), Mengukir",
+    "english": "to cut / shave",
+    "indonesian": "membubut, memotong, meraut (logam / kayu)",
     "page": 97,
     "chapter": 39,
-    "book": 2
-  },
-  {
-    "korean": "깔다",
-    "english": "to lay",
-    "indonesian": "Menggelar",
-    "page": 200,
-    "chapter": 49,
     "book": 2
   },
   {
@@ -10213,14 +9917,6 @@
     "indonesian": "teliti / cermat",
     "page": 67,
     "chapter": 36,
-    "book": 2
-  },
-  {
-    "korean": "꽂다",
-    "english": "to put",
-    "indonesian": "Menancapkan ke steker, mencabutnya",
-    "page": 217,
-    "chapter": 51,
     "book": 2
   },
   {
@@ -10392,14 +10088,6 @@
     "book": 2
   },
   {
-    "korean": "납입(하다)",
-    "english": "payment, to pay",
-    "indonesian": "membayar",
-    "page": 307,
-    "chapter": 60,
-    "book": 2
-  },
-  {
     "korean": "납품(하다)",
     "english": "delivery of goods, to deliver",
     "indonesian": "mengirim",
@@ -10434,7 +10122,7 @@
   {
     "korean": "내리다",
     "english": "to unload",
-    "indonesian": "Turun (dari kendaraan), turun, menurunkan",
+    "indonesian": "menurunkan (barang dari kendaraan)",
     "page": 70,
     "chapter": 36,
     "book": 2
@@ -10501,14 +10189,6 @@
     "indonesian": "jatuh, terjatuh",
     "page": 157,
     "chapter": 45,
-    "book": 2
-  },
-  {
-    "korean": "넥타이",
-    "english": "tie",
-    "indonesian": "dasi",
-    "page": 17,
-    "chapter": 31,
     "book": 2
   },
   {
@@ -10880,35 +10560,11 @@
     "book": 2
   },
   {
-    "korean": "덜",
-    "english": "less",
-    "indonesian": "kurang",
-    "page": 110,
-    "chapter": 40,
-    "book": 2
-  },
-  {
     "korean": "덩어리",
     "english": "lump",
     "indonesian": "Benjolan",
     "page": 200,
     "chapter": 49,
-    "book": 2
-  },
-  {
-    "korean": "덮개",
-    "english": "cover",
-    "indonesian": "Membuka penutup pelindung",
-    "page": 60,
-    "chapter": 35,
-    "book": 2
-  },
-  {
-    "korean": "덮다",
-    "english": "to cover",
-    "indonesian": "Menutup dengan penutup",
-    "page": 60,
-    "chapter": 35,
     "book": 2
   },
   {
@@ -11010,7 +10666,7 @@
   {
     "korean": "돌",
     "english": "stone",
-    "indonesian": "Batu, batu, bayi umur 1 tahun",
+    "indonesian": "batu",
     "page": 97,
     "chapter": 39,
     "book": 2
@@ -11160,14 +10816,6 @@
     "book": 2
   },
   {
-    "korean": "뚫다",
-    "english": "to drill",
-    "indonesian": "melubangi",
-    "page": 80,
-    "chapter": 37,
-    "book": 2
-  },
-  {
     "korean": "뜰채",
     "english": "hand net",
     "indonesian": "Jaring tangan, jaring tangan",
@@ -11181,30 +10829,6 @@
     "indonesian": "pita",
     "page": 190,
     "chapter": 48,
-    "book": 2
-  },
-  {
-    "korean": "라벨",
-    "english": "label",
-    "indonesian": "label",
-    "page": 67,
-    "chapter": 36,
-    "book": 2
-  },
-  {
-    "korean": "레버",
-    "english": "lever",
-    "indonesian": "Menarik tuas",
-    "page": 77,
-    "chapter": 37,
-    "book": 2
-  },
-  {
-    "korean": "레일",
-    "english": "rails",
-    "indonesian": "meletakkan rel",
-    "page": 200,
-    "chapter": 49,
     "book": 2
   },
   {
@@ -11253,14 +10877,6 @@
     "indonesian": "kondisioner rambut",
     "page": 217,
     "chapter": 51,
-    "book": 2
-  },
-  {
-    "korean": "마감재",
-    "english": "finish (coating)",
-    "indonesian": "Menerapkan bahan finishing",
-    "page": 130,
-    "chapter": 42,
     "book": 2
   },
   {
@@ -11432,14 +11048,6 @@
     "book": 2
   },
   {
-    "korean": "매다",
-    "english": "to tie",
-    "indonesian": "Memakai dasi, memakai dasi",
-    "page": 17,
-    "chapter": 31,
-    "book": 2
-  },
-  {
     "korean": "먹이",
     "english": "food",
     "indonesian": "pakan, makanan",
@@ -11476,14 +11084,6 @@
     "english": "memo, to take notes",
     "indonesian": "Catatan",
     "page": 127,
-    "chapter": 42,
-    "book": 2
-  },
-  {
-    "korean": "메우다",
-    "english": "to fill up",
-    "indonesian": "Mengisi",
-    "page": 130,
     "chapter": 42,
     "book": 2
   },
@@ -11576,14 +11176,6 @@
     "book": 2
   },
   {
-    "korean": "모종",
-    "english": "seedling",
-    "indonesian": "menanam bibit",
-    "page": 157,
-    "chapter": 45,
-    "book": 2
-  },
-  {
     "korean": "모판",
     "english": "seedbed",
     "indonesian": "Persemaian",
@@ -11616,35 +11208,11 @@
     "book": 2
   },
   {
-    "korean": "못",
-    "english": "nail",
-    "indonesian": "paku",
-    "page": 97,
-    "chapter": 39,
-    "book": 2
-  },
-  {
     "korean": "무",
     "english": "radish",
     "indonesian": "Lobak, lobak",
     "page": 157,
     "chapter": 45,
-    "book": 2
-  },
-  {
-    "korean": "무게",
-    "english": "weight",
-    "indonesian": "Menimbang berat, menimbang berat",
-    "page": 107,
-    "chapter": 40,
-    "book": 2
-  },
-  {
-    "korean": "무게를 재다",
-    "english": "to weigh",
-    "indonesian": "Menimbang berat, menimbang berat",
-    "page": 107,
-    "chapter": 40,
     "book": 2
   },
   {
@@ -11808,14 +11376,6 @@
     "book": 2
   },
   {
-    "korean": "밀다",
-    "english": "to push",
-    "indonesian": "Mendorong, dorong, mendorong",
-    "page": 77,
-    "chapter": 37,
-    "book": 2
-  },
-  {
     "korean": "밀리다",
     "english": "to be delayed",
     "indonesian": "Tergerus",
@@ -11920,14 +11480,6 @@
     "book": 2
   },
   {
-    "korean": "바니시",
-    "english": "varnish",
-    "indonesian": "Pernis, lapisan pelindung",
-    "page": 130,
-    "chapter": 42,
-    "book": 2
-  },
-  {
     "korean": "바닥면",
     "english": "floor",
     "indonesian": "Hambatan lantai",
@@ -11941,14 +11493,6 @@
     "indonesian": "sabun mandi cair",
     "page": 217,
     "chapter": 51,
-    "book": 2
-  },
-  {
-    "korean": "바르다",
-    "english": "to apply",
-    "indonesian": "Menerapkan",
-    "page": 130,
-    "chapter": 42,
     "book": 2
   },
   {
@@ -11971,14 +11515,6 @@
     "korean": "바이스",
     "english": "vise",
     "indonesian": "catok / ragum",
-    "page": 97,
-    "chapter": 39,
-    "book": 2
-  },
-  {
-    "korean": "박다",
-    "english": "to hammer",
-    "indonesian": "memukul",
     "page": 97,
     "chapter": 39,
     "book": 2
@@ -12186,7 +11722,7 @@
   {
     "korean": "배",
     "english": "pear",
-    "indonesian": "Kapal, Pir, kapal, perut, kapal laut, pir",
+    "indonesian": "buah pir",
     "page": 160,
     "chapter": 45,
     "book": 2
@@ -12216,14 +11752,6 @@
     "book": 2
   },
   {
-    "korean": "배추",
-    "english": "cabbage",
-    "indonesian": "Sawi putih, sawi putih",
-    "page": 157,
-    "chapter": 45,
-    "book": 2
-  },
-  {
     "korean": "배치(하다)",
     "english": "placement, to place",
     "indonesian": "letakkan pipa",
@@ -12249,8 +11777,8 @@
   },
   {
     "korean": "밴드",
-    "english": "band",
-    "indonesian": "Perban, pita, plester, plaster plastik",
+    "english": "band / tie",
+    "indonesian": "karet pengikat / tali pengikat",
     "page": 207,
     "chapter": 50,
     "book": 2
@@ -12464,22 +11992,6 @@
     "book": 2
   },
   {
-    "korean": "보험금",
-    "english": "insurance benefits",
-    "indonesian": "naik, berselancar, terbakar, menerima, mendapat",
-    "page": 307,
-    "chapter": 60,
-    "book": 2
-  },
-  {
-    "korean": "보험료",
-    "english": "insurance premiums",
-    "indonesian": "membayar, mengeluarkan, menyelesaikan, melewatkan",
-    "page": 307,
-    "chapter": 60,
-    "book": 2
-  },
-  {
     "korean": "보호(하다)",
     "english": "protection, to protect",
     "indonesian": "Melindungi",
@@ -12642,7 +12154,7 @@
   {
     "korean": "분",
     "english": "root ball",
-    "indonesian": "Bola akar, orang",
+    "indonesian": "bola tanah / bola akar (tanaman)",
     "page": 207,
     "chapter": 50,
     "book": 2
@@ -12720,22 +12232,6 @@
     "book": 2
   },
   {
-    "korean": "불",
-    "english": "fire",
-    "indonesian": "api, lampu, Api",
-    "page": 240,
-    "chapter": 53,
-    "book": 2
-  },
-  {
-    "korean": "불꽃",
-    "english": "flame",
-    "indonesian": "Percikan api",
-    "page": 100,
-    "chapter": 39,
-    "book": 2
-  },
-  {
     "korean": "불량",
     "english": "defect",
     "indonesian": "barang rusak (NG)",
@@ -12768,14 +12264,6 @@
     "book": 2
   },
   {
-    "korean": "불을 붙이다",
-    "english": "to light a fire",
-    "indonesian": "menyalakan api",
-    "page": 240,
-    "chapter": 53,
-    "book": 2
-  },
-  {
     "korean": "불이 붙다",
     "english": "to catch fire",
     "indonesian": "terbakar / menyala",
@@ -12805,14 +12293,6 @@
     "indonesian": "Kuas, kuas",
     "page": 130,
     "chapter": 42,
-    "book": 2
-  },
-  {
-    "korean": "붙이다",
-    "english": "to attach",
-    "indonesian": "menempelkan",
-    "page": 67,
-    "chapter": 36,
     "book": 2
   },
   {
@@ -12941,14 +12421,6 @@
     "indonesian": "membuang (air) / menguras",
     "page": 147,
     "chapter": 44,
-    "book": 2
-  },
-  {
-    "korean": "뽑다",
-    "english": "to pull out",
-    "indonesian": "mencabut",
-    "page": 157,
-    "chapter": 45,
     "book": 2
   },
   {
@@ -13114,7 +12586,7 @@
   {
     "korean": "사이",
     "english": "relationship",
-    "indonesian": "Antara, antara",
+    "indonesian": "hubungan, relasi (antar orang)",
     "page": 37,
     "chapter": 33,
     "book": 2
@@ -13581,14 +13053,6 @@
     "indonesian": "penimbunan tanah (menimbun tanah)",
     "page": 150,
     "chapter": 44,
-    "book": 2
-  },
-  {
-    "korean": "성형",
-    "english": "molding",
-    "indonesian": "Bedah plastik",
-    "page": 110,
-    "chapter": 40,
     "book": 2
   },
   {
@@ -14272,14 +13736,6 @@
     "book": 2
   },
   {
-    "korean": "심다",
-    "english": "to plant",
-    "indonesian": "menanam bibit",
-    "page": 157,
-    "chapter": 45,
-    "book": 2
-  },
-  {
     "korean": "심하다",
     "english": "to be severe",
     "indonesian": "Parah, serius, kuat, parah",
@@ -14578,7 +14034,7 @@
   {
     "korean": "양",
     "english": "quantity",
-    "indonesian": "domba, kuantitas, Jumlah",
+    "indonesian": "jumlah, kuantitas",
     "page": 80,
     "chapter": 37,
     "book": 2
@@ -14586,15 +14042,15 @@
   {
     "korean": "양",
     "english": "sheep",
-    "indonesian": "domba, kuantitas, Jumlah",
+    "indonesian": "domba",
     "page": 167,
     "chapter": 46,
     "book": 2
   },
   {
     "korean": "양",
-    "english": "bi-",
-    "indonesian": "domba, kuantitas, Jumlah",
+    "english": "both",
+    "indonesian": "kedua belah / kedua",
     "page": 140,
     "chapter": 43,
     "book": 2
@@ -14952,14 +14408,6 @@
     "book": 2
   },
   {
-    "korean": "온도",
-    "english": "temperature",
-    "indonesian": "suhu",
-    "page": 60,
-    "chapter": 35,
-    "book": 2
-  },
-  {
     "korean": "온도계",
     "english": "thermometer",
     "indonesian": "termometer, thermometer",
@@ -15144,14 +14592,6 @@
     "book": 2
   },
   {
-    "korean": "원단",
-    "english": "fabric",
-    "indonesian": "masukkan, menaruh di kain",
-    "page": 120,
-    "chapter": 41,
-    "book": 2
-  },
-  {
     "korean": "원목",
     "english": "hardwood",
     "indonesian": "Kayu",
@@ -15304,14 +14744,6 @@
     "book": 2
   },
   {
-    "korean": "유지(하다)",
-    "english": "maintenance, to maintain",
-    "indonesian": "mengatur temperatur",
-    "page": 60,
-    "chapter": 35,
-    "book": 2
-  },
-  {
     "korean": "유출(되다)",
     "english": "leak, to be leaked out",
     "indonesian": "bocor",
@@ -15433,8 +14865,8 @@
   },
   {
     "korean": "의사",
-    "english": "opinion",
-    "indonesian": "dokter",
+    "english": "opinion / intent",
+    "indonesian": "maksud, pendapat, keinginan",
     "page": 50,
     "chapter": 34,
     "book": 2
@@ -15933,14 +15365,6 @@
     "indonesian": "uang kompensasi cacat",
     "page": 307,
     "chapter": 60,
-    "book": 2
-  },
-  {
-    "korean": "재고",
-    "english": "inventory",
-    "indonesian": "Persediaan, stok",
-    "page": 60,
-    "chapter": 35,
     "book": 2
   },
   {
@@ -16561,16 +15985,16 @@
   },
   {
     "korean": "줄",
-    "english": "file",
-    "indonesian": "pahat, tali",
+    "english": "file tool",
+    "indonesian": "kikir (alat besi)",
     "page": 97,
     "chapter": 39,
     "book": 2
   },
   {
     "korean": "줄",
-    "english": "line",
-    "indonesian": "pahat, tali",
+    "english": "line / string",
+    "indonesian": "garis, tali",
     "page": 110,
     "chapter": 40,
     "book": 2
@@ -16776,14 +16200,6 @@
     "book": 2
   },
   {
-    "korean": "직사광선",
-    "english": "direct sunlight",
-    "indonesian": "sinar matahari langsung",
-    "page": 117,
-    "chapter": 41,
-    "book": 2
-  },
-  {
     "korean": "직장",
     "english": "workplace",
     "indonesian": "tempat kerja",
@@ -16922,7 +16338,7 @@
   {
     "korean": "차다",
     "english": "to be full",
-    "indonesian": "menendang",
+    "indonesian": "penuh, terisi penuh",
     "page": 300,
     "chapter": 59,
     "book": 2
@@ -17080,27 +16496,11 @@
     "book": 2
   },
   {
-    "korean": "철판",
-    "english": "metal plate",
-    "indonesian": "plat besi",
-    "page": 80,
-    "chapter": 37,
-    "book": 2
-  },
-  {
     "korean": "첨가제",
     "english": "additive",
     "indonesian": "Aditif",
     "page": 107,
     "chapter": 40,
-    "book": 2
-  },
-  {
-    "korean": "청구(하다)",
-    "english": "claim, to claim",
-    "indonesian": "menagih",
-    "page": 307,
-    "chapter": 60,
     "book": 2
   },
   {
@@ -17314,7 +16714,7 @@
   {
     "korean": "치다",
     "english": "to trim",
-    "indonesian": "Menyangga, menolong",
+    "indonesian": "memangkas, memotong dahan",
     "page": 210,
     "chapter": 50,
     "book": 2
@@ -17521,8 +16921,8 @@
   },
   {
     "korean": "타다",
-    "english": "to collect",
-    "indonesian": "Naik (kendaraan), naik, naik (kendaraan)",
+    "english": "to collect / receive",
+    "indonesian": "menerima, mencairkan (uang asuransi / klaim / santunan)",
     "page": 307,
     "chapter": 60,
     "book": 2
@@ -17680,14 +17080,6 @@
     "book": 2
   },
   {
-    "korean": "통행(하다)",
-    "english": "passage, to pass",
-    "indonesian": "lalu lintas (lewat / melintas)",
-    "page": 240,
-    "chapter": 53,
-    "book": 2
-  },
-  {
     "korean": "통화(하다)",
     "english": "phone call, to phone",
     "indonesian": "Menelepon",
@@ -17717,14 +17109,6 @@
     "indonesian": "memasukan",
     "page": 107,
     "chapter": 40,
-    "book": 2
-  },
-  {
-    "korean": "튀다",
-    "english": "to have sparks",
-    "indonesian": "Api menyembur, memercik api",
-    "page": 100,
-    "chapter": 39,
     "book": 2
   },
   {
@@ -17784,14 +17168,6 @@
     "book": 2
   },
   {
-    "korean": "파악(하다)",
-    "english": "to check",
-    "indonesian": "menangkap",
-    "page": 60,
-    "chapter": 35,
-    "book": 2
-  },
-  {
     "korean": "파이다",
     "english": "to be dug",
     "indonesian": "Menggali",
@@ -17840,22 +17216,6 @@
     "book": 2
   },
   {
-    "korean": "퍼티",
-    "english": "putty",
-    "indonesian": "dempul (putty)",
-    "page": 130,
-    "chapter": 42,
-    "book": 2
-  },
-  {
-    "korean": "퍼티헤라",
-    "english": "puttyhera",
-    "indonesian": "Dempul",
-    "page": 130,
-    "chapter": 42,
-    "book": 2
-  },
-  {
     "korean": "펌프",
     "english": "pump",
     "indonesian": "pompa",
@@ -17885,14 +17245,6 @@
     "indonesian": "Tang biasa, tang",
     "page": 87,
     "chapter": 38,
-    "book": 2
-  },
-  {
-    "korean": "펴다",
-    "english": "to spread",
-    "indonesian": "meluruskan",
-    "page": 120,
-    "chapter": 41,
     "book": 2
   },
   {
@@ -18017,8 +17369,8 @@
   },
   {
     "korean": "풀다",
-    "english": "to loosen",
-    "indonesian": "Mengendurkan, melepas, mengendurkan",
+    "english": "to resolve / relieve",
+    "indonesian": "meredakan, menyelesaikan (masalah / stres)",
     "page": 87,
     "chapter": 38,
     "book": 2
@@ -18080,35 +17432,11 @@
     "book": 2
   },
   {
-    "korean": "플러그",
-    "english": "plug",
-    "indonesian": "steker",
-    "page": 217,
-    "chapter": 51,
-    "book": 2
-  },
-  {
-    "korean": "피다",
-    "english": "to grow (mold)",
-    "indonesian": "Mekar",
-    "page": 230,
-    "chapter": 52,
-    "book": 2
-  },
-  {
     "korean": "피부",
     "english": "skin",
     "indonesian": "kulit",
     "page": 267,
     "chapter": 56,
-    "book": 2
-  },
-  {
-    "korean": "피하다",
-    "english": "to avoid",
-    "indonesian": "menghindar",
-    "page": 117,
-    "chapter": 41,
     "book": 2
   },
   {
@@ -18408,14 +17736,6 @@
     "book": 2
   },
   {
-    "korean": "홈",
-    "english": "groove",
-    "indonesian": "Alur",
-    "page": 130,
-    "chapter": 42,
-    "book": 2
-  },
-  {
     "korean": "화기",
     "english": "open flame",
     "indonesian": "telepon kamar tamu",
@@ -18645,6 +17965,334 @@
     "indonesian": "Semangat",
     "page": 37,
     "chapter": 33,
+    "book": 2
+  },
+  {
+    "korean": "이를 닦다",
+    "english": "brush teeth",
+    "indonesian": "menggosok gigi",
+    "page": 104,
+    "chapter": 6,
+    "book": 1
+  },
+  {
+    "korean": "비가 그치다",
+    "english": "rain stops",
+    "indonesian": "hujan reda",
+    "page": 114,
+    "chapter": 7,
+    "book": 1
+  },
+  {
+    "korean": "머리가 짧다",
+    "english": "short hair",
+    "indonesian": "rambut pendek",
+    "page": 124,
+    "chapter": 8,
+    "book": 1
+  },
+  {
+    "korean": "성격이 급하다",
+    "english": "impatient",
+    "indonesian": "tidak sabaran",
+    "page": 124,
+    "chapter": 8,
+    "book": 1
+  },
+  {
+    "korean": "값을 깎다",
+    "english": "discount price",
+    "indonesian": "menawar harga",
+    "page": 144,
+    "chapter": 10,
+    "book": 1
+  },
+  {
+    "korean": "먼지를 털다",
+    "english": "shake dust",
+    "indonesian": "menepis debu",
+    "page": 154,
+    "chapter": 11,
+    "book": 1
+  },
+  {
+    "korean": "빗자루로 쓸다",
+    "english": "sweep with a broom",
+    "indonesian": "menyapu dengan sapu",
+    "page": 154,
+    "chapter": 11,
+    "book": 1
+  },
+  {
+    "korean": "빨래를 널다",
+    "english": "hang laundry",
+    "indonesian": "menjemur pakaian",
+    "page": 154,
+    "chapter": 11,
+    "book": 1
+  },
+  {
+    "korean": "맛이 좋다",
+    "english": "taste is good",
+    "indonesian": "rasa enak",
+    "page": 231,
+    "chapter": 19,
+    "book": 1
+  },
+  {
+    "korean": "수술을 받다",
+    "english": "undergo surgery",
+    "indonesian": "dioperasi",
+    "page": 251,
+    "chapter": 21,
+    "book": 1
+  },
+  {
+    "korean": "주사를 맞다",
+    "english": "receive injection",
+    "indonesian": "disuntik",
+    "page": 251,
+    "chapter": 21,
+    "book": 1
+  },
+  {
+    "korean": "치료를 받다",
+    "english": "receive treatment",
+    "indonesian": "diobati",
+    "page": 251,
+    "chapter": 21,
+    "book": 1
+  },
+  {
+    "korean": "눈병이 나다",
+    "english": "have eye disease",
+    "indonesian": "sakit mata",
+    "page": 254,
+    "chapter": 21,
+    "book": 1
+  },
+  {
+    "korean": "다리를 다치다",
+    "english": "injure leg",
+    "indonesian": "melukai kaki",
+    "page": 254,
+    "chapter": 21,
+    "book": 1
+  },
+  {
+    "korean": "배가 아프다",
+    "english": "have stomachache",
+    "indonesian": "sakit perut",
+    "page": 254,
+    "chapter": 21,
+    "book": 1
+  },
+  {
+    "korean": "열이 나다",
+    "english": "have a fever",
+    "indonesian": "demam",
+    "page": 261,
+    "chapter": 22,
+    "book": 1
+  },
+  {
+    "korean": "넥타이를 매다",
+    "english": "tie a tie",
+    "indonesian": "memakai dasi",
+    "page": 17,
+    "chapter": 31,
+    "book": 2
+  },
+  {
+    "korean": "덮개를 덮다",
+    "english": "cover with cover",
+    "indonesian": "menutup penutup",
+    "page": 60,
+    "chapter": 35,
+    "book": 2
+  },
+  {
+    "korean": "온도를 유지하다",
+    "english": "maintain temperature",
+    "indonesian": "menjaga suhu",
+    "page": 60,
+    "chapter": 35,
+    "book": 2
+  },
+  {
+    "korean": "재고를 파악하다",
+    "english": "track inventory",
+    "indonesian": "memeriksa stok",
+    "page": 60,
+    "chapter": 35,
+    "book": 2
+  },
+  {
+    "korean": "라벨을 붙이다",
+    "english": "stick label",
+    "indonesian": "menempelkan label",
+    "page": 67,
+    "chapter": 36,
+    "book": 2
+  },
+  {
+    "korean": "구멍을 뚫다",
+    "english": "drill a hole",
+    "indonesian": "melubangi",
+    "page": 80,
+    "chapter": 37,
+    "book": 2
+  },
+  {
+    "korean": "철판을 구부리다",
+    "english": "bend steel sheet",
+    "indonesian": "membengkokkan pelat besi",
+    "page": 80,
+    "chapter": 37,
+    "book": 2
+  },
+  {
+    "korean": "레버를 밀다",
+    "english": "push lever",
+    "indonesian": "mendorong tuas",
+    "page": 77,
+    "chapter": 37,
+    "book": 2
+  },
+  {
+    "korean": "못을 박다",
+    "english": "drive a nail",
+    "indonesian": "memaku",
+    "page": 97,
+    "chapter": 39,
+    "book": 2
+  },
+  {
+    "korean": "불꽃이 튀다",
+    "english": "sparks fly",
+    "indonesian": "percikan bunga api",
+    "page": 100,
+    "chapter": 39,
+    "book": 2
+  },
+  {
+    "korean": "무게를 재다",
+    "english": "measure weight",
+    "indonesian": "menimbang berat",
+    "page": 107,
+    "chapter": 40,
+    "book": 2
+  },
+  {
+    "korean": "성형이 덜 되다",
+    "english": "under-molded / incomplete molding",
+    "indonesian": "molding tidak lengkap / kurang sempurna",
+    "page": 110,
+    "chapter": 40,
+    "book": 2
+  },
+  {
+    "korean": "직사광선을 피하다",
+    "english": "avoid direct sunlight",
+    "indonesian": "menghindari sinar matahari langsung",
+    "page": 117,
+    "chapter": 41,
+    "book": 2
+  },
+  {
+    "korean": "원단을 펴다",
+    "english": "spread fabric",
+    "indonesian": "membentangkan kain",
+    "page": 120,
+    "chapter": 41,
+    "book": 2
+  },
+  {
+    "korean": "바니시를 바르다",
+    "english": "apply varnish",
+    "indonesian": "mengoles pernis",
+    "page": 130,
+    "chapter": 42,
+    "book": 2
+  },
+  {
+    "korean": "홈을 메우다",
+    "english": "fill in groove",
+    "indonesian": "mempul lubang / mendempul lubang",
+    "page": 130,
+    "chapter": 42,
+    "book": 2
+  },
+  {
+    "korean": "모종을 심다",
+    "english": "plant a seedling",
+    "indonesian": "menanam bibit",
+    "page": 157,
+    "chapter": 45,
+    "book": 2
+  },
+  {
+    "korean": "배추를 뽑다",
+    "english": "pull cabbages",
+    "indonesian": "mencabut sawi",
+    "page": 157,
+    "chapter": 45,
+    "book": 2
+  },
+  {
+    "korean": "레일을 깔다",
+    "english": "lay rails",
+    "indonesian": "memasang rel",
+    "page": 200,
+    "chapter": 49,
+    "book": 2
+  },
+  {
+    "korean": "플러그를 꽂다",
+    "english": "plug in",
+    "indonesian": "memasukkan steker",
+    "page": 217,
+    "chapter": 51,
+    "book": 2
+  },
+  {
+    "korean": "곰팡이가 피다",
+    "english": "mold grows",
+    "indonesian": "berjamur",
+    "page": 230,
+    "chapter": 52,
+    "book": 2
+  },
+  {
+    "korean": "불을 붙이다",
+    "english": "light fire",
+    "indonesian": "menyalakan api",
+    "page": 240,
+    "chapter": 53,
+    "book": 2
+  },
+  {
+    "korean": "통행금지",
+    "english": "no passing",
+    "indonesian": "dilarang lewat / no passing",
+    "page": 240,
+    "chapter": 53,
+    "book": 2
+  },
+  {
+    "korean": "보험료를 납입하다",
+    "english": "pay insurance premium",
+    "indonesian": "membayar premi asuransi",
+    "page": 307,
+    "chapter": 60,
+    "book": 2
+  },
+  {
+    "korean": "보험금을 청구하다",
+    "english": "claim insurance money",
+    "indonesian": "mengklaim asuransi",
+    "page": 307,
+    "chapter": 60,
     "book": 2
   }
 ]

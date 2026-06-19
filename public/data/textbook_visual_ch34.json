@@ -18,22 +18,22 @@
         {
           "korean": "놀라다",
           "indonesian": "Kaget, Terkejut",
-          "image": "/images/textbook/ch34/v1_2_놀라다.jpg"
+          "image": null
         },
         {
           "korean": "농담",
           "indonesian": "bercanda",
-          "image": "/images/textbook/ch34/v1_3_농담.jpg"
+          "image": null
         },
         {
           "korean": "느끼다",
           "indonesian": "Merasa, merasa",
-          "image": "/images/textbook/ch34/v1_4_느끼다.jpg"
+          "image": null
         },
         {
           "korean": "문제",
           "indonesian": "Masalah",
-          "image": "/images/textbook/ch34/v1_5_문제.jpg"
+          "image": null
         },
         {
           "korean": "불쾌감",
@@ -43,22 +43,22 @@
         {
           "korean": "상대방",
           "indonesian": "Lawan bicara, Pihak lain, orang lain",
-          "image": "/images/textbook/ch34/v1_7_상대방.jpg"
+          "image": null
         },
         {
           "korean": "성적",
           "indonesian": "secara seksual",
-          "image": "/images/textbook/ch34/v1_8_성적.jpg"
+          "image": null
         },
         {
           "korean": "성차별적",
           "indonesian": "diskriminatif gender / seksis",
-          "image": "/images/textbook/ch34/v1_9_성차별적.jpg"
+          "image": null
         },
         {
           "korean": "성희롱",
           "indonesian": "pelecehan seksual verbal/non-verbal",
-          "image": null
+          "image": "/images/textbook/ch34/v1_10_성희롱.jpg"
         },
         {
           "korean": "수치심",
@@ -68,22 +68,22 @@
         {
           "korean": "심하다",
           "indonesian": "Parah, serius, kuat, parah",
-          "image": "/images/textbook/ch34/v1_12_심하다.jpg"
+          "image": null
         },
         {
           "korean": "아까",
           "indonesian": "Tadi, tadi",
-          "image": "/images/textbook/ch34/v1_13_아까.jpg"
+          "image": null
         },
         {
           "korean": "언어",
           "indonesian": "Bahasa",
-          "image": "/images/textbook/ch34/v1_14_언어.jpg"
+          "image": null
         },
         {
           "korean": "예민하다",
           "indonesian": "Sensitif, sensitif",
-          "image": "/images/textbook/ch34/v1_15_예민하다.jpg"
+          "image": null
         },
         {
           "korean": "음담패설",
@@ -98,7 +98,7 @@
         {
           "korean": "의도",
           "indonesian": "Maksud, Niat, maksud",
-          "image": "/images/textbook/ch34/v1_18_의도.jpg"
+          "image": null
         },
         {
           "korean": "신체 접촉",
@@ -130,7 +130,7 @@
         {
           "korean": "당하다",
           "indonesian": "Terkait (Hormat)",
-          "image": "/images/textbook/ch34/v2_1_당하다.jpg"
+          "image": null
         },
         {
           "korean": "대처(하다)",
@@ -150,7 +150,7 @@
         {
           "korean": "상황",
           "indonesian": "Keadaan, situasi, Situasi, keadaan, Kondisi, kondisi",
-          "image": "/images/textbook/ch34/v2_5_상황.jpg"
+          "image": null
         },
         {
           "korean": "성 인지 감수성",
@@ -160,7 +160,7 @@
         {
           "korean": "성범죄",
           "indonesian": "Kejahatan seksual, kekerasan seksual",
-          "image": "/images/textbook/ch34/v2_7_성범죄.jpg"
+          "image": null
         },
         {
           "korean": "성별",
@@ -170,7 +170,7 @@
         {
           "korean": "성추행",
           "indonesian": "pelecehan seksual fisik",
-          "image": "/images/textbook/ch34/v2_9_성추행.jpg"
+          "image": null
         },
         {
           "korean": "신고(하다)",
@@ -180,7 +180,7 @@
         {
           "korean": "알아차리다",
           "indonesian": "Menyadari",
-          "image": "/images/textbook/ch34/v2_11_알아차리다.jpg"
+          "image": null
         },
         {
           "korean": "양성평등",
@@ -199,13 +199,13 @@
         },
         {
           "korean": "의사",
-          "indonesian": "dokter",
-          "image": "/images/textbook/ch34/v2_15_의사.jpg"
+          "indonesian": "maksud, pendapat, keinginan",
+          "image": null
         },
         {
           "korean": "이해(하다)",
           "indonesian": "Memahami, mengerti, memahami",
-          "image": "/images/textbook/ch34/v2_16_이해(하다).jpg"
+          "image": null
         },
         {
           "korean": "증거",
@@ -235,12 +235,12 @@
         {
           "korean": "행동(하다)",
           "indonesian": "Bertindak",
-          "image": "/images/textbook/ch34/v2_22_행동(하다).jpg"
+          "image": null
         },
         {
           "korean": "확보(하다)",
           "indonesian": "Mengamankan, menjaga",
-          "image": "/images/textbook/ch34/v2_23_확보(하다).jpg"
+          "image": null
         }
       ],
       "main_image": null

@@ -29,7 +29,7 @@
         {
           "korean": "오다",
           "indonesian": "datang",
-          "image": "/images/textbook/ch4/v1_4_오다.jpg"
+          "image": null
         },
         {
           "korean": "요리(하다)",
@@ -44,7 +44,7 @@
         {
           "korean": "일(하다)",
           "indonesian": "bekerja",
-          "image": null
+          "image": "/images/textbook/ch4/v1_7_일(하다).jpg"
         },
         {
           "korean": "일상",
@@ -64,7 +64,7 @@
         {
           "korean": "하다",
           "indonesian": "melakukan",
-          "image": "/images/textbook/ch4/v1_11_하다.jpg"
+          "image": null
         }
       ]
     },
@@ -81,12 +81,12 @@
         {
           "korean": "마시다",
           "indonesian": "minum",
-          "image": null
+          "image": "/images/textbook/ch4/v2_17_마시다.jpg"
         },
         {
           "korean": "먹다",
           "indonesian": "makan",
-          "image": null
+          "image": "/images/textbook/ch4/v2_18_먹다.jpg"
         },
         {
           "korean": "물",
@@ -126,7 +126,7 @@
         {
           "korean": "오늘",
           "indonesian": "hari ini",
-          "image": "/images/textbook/ch4/v2_23_오늘.jpg"
+          "image": null
         },
         {
           "korean": "우유",
@@ -146,7 +146,7 @@
         {
           "korean": "지금",
           "indonesian": "sekarang",
-          "image": "/images/textbook/ch4/v2_25_지금.jpg"
+          "image": null
         },
         {
           "korean": "책",

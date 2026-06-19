@@ -80,7 +80,21 @@ export const useTryoutLogic = (allQuestions: Question[]) => {
     try {
       const sessionStr = localStorage.getItem("katakosa_tryout_active_session");
       if (sessionStr) {
-        setSavedSession(JSON.parse(sessionStr));
+        const session = JSON.parse(sessionStr);
+        setSavedSession(session);
+        // Auto-restore session immediately on mount
+        setQuizQuestions(session.quizQuestions);
+        setCurrentIndex(session.currentIndex);
+        setSelectedAnswers(session.selectedAnswers);
+        setAnsweredState(session.answeredState || {});
+        setTimeLeft(session.timeLeft);
+        setIsTimerActive(session.isTimerActive);
+        setTryoutType(session.tryoutType);
+        setInstantFeedback(session.instantFeedback);
+        setIsBlankOptions(session.isBlankOptions);
+        setIsExamMode(session.isExamMode);
+        setMode("quiz");
+        toast.success("Sesi kuis aktif berhasil dipulihkan otomatis!");
       }
       const historyStr = localStorage.getItem("katakosa_tryout_history");
       if (historyStr) {
@@ -273,7 +287,6 @@ export const useTryoutLogic = (allQuestions: Question[]) => {
 
       setTimeLeft(durationSeconds);
       setIsTimerActive(true);
-      setInstantFeedback(false);
       setIsExamMode(true);
 
       // Clean saved session on new start

@@ -8,7 +8,7 @@
         {
           "korean": "관리(하다)",
           "indonesian": "Mengelola, menagatur, mengurus, mengelola",
-          "image": null
+          "image": "/images/textbook/ch35/v1_0_관리(하다).jpg"
         },
         {
           "korean": "냄새",
@@ -18,12 +18,12 @@
         {
           "korean": "도구",
           "indonesian": "Alat, peralatan",
-          "image": "/images/textbook/ch35/v1_2_도구.jpg"
+          "image": null
         },
         {
           "korean": "먼저",
           "indonesian": "Lebih dulu, Terlebih dahulu, lebih dulu, Pertama",
-          "image": "/images/textbook/ch35/v1_3_먼저.jpg"
+          "image": null
         },
         {
           "korean": "소음",
@@ -38,12 +38,12 @@
         {
           "korean": "열다",
           "indonesian": "Membuka, membuka",
-          "image": "/images/textbook/ch35/v1_6_열다.jpg"
+          "image": null
         },
         {
           "korean": "작업대",
           "indonesian": "Meja kerja",
-          "image": "/images/textbook/ch35/v1_7_작업대.jpg"
+          "image": null
         },
         {
           "korean": "작업장",
@@ -80,7 +80,7 @@
         {
           "korean": "곧",
           "indonesian": "Segera, segera",
-          "image": "/images/textbook/ch35/v2_0_곧.jpg"
+          "image": null
         },
         {
           "korean": "냉동",
@@ -95,22 +95,17 @@
         {
           "korean": "담당자",
           "indonesian": "penanggung jawab",
-          "image": "/images/textbook/ch35/v2_3_담당자.jpg"
+          "image": null
         },
         {
-          "korean": "덮개",
-          "indonesian": "Membuka penutup pelindung",
+          "korean": "덮개를 덮다",
+          "indonesian": "menutup penutup",
           "image": "/images/textbook/ch35/v2_4_덮개.jpg"
-        },
-        {
-          "korean": "덮다",
-          "indonesian": "Menutup dengan penutup",
-          "image": "/images/textbook/ch35/v2_5_덮다.jpg"
         },
         {
           "korean": "두다",
           "indonesian": "Meletakkan",
-          "image": "/images/textbook/ch35/v2_6_두다.jpg"
+          "image": null
         },
         {
           "korean": "물류",
@@ -123,8 +118,8 @@
           "image": "/images/textbook/ch35/v2_8_보관(하다).jpg"
         },
         {
-          "korean": "온도",
-          "indonesian": "suhu",
+          "korean": "온도를 유지하다",
+          "indonesian": "menjaga suhu",
           "image": "/images/textbook/ch35/v2_9_온도.jpg"
         },
         {
@@ -133,24 +128,19 @@
           "image": null
         },
         {
-          "korean": "유지(하다)",
-          "indonesian": "mengatur temperatur",
-          "image": "/images/textbook/ch35/v2_11_유지(하다).jpg"
-        },
-        {
           "korean": "자재",
           "indonesian": "bahan, material, Material",
-          "image": null
+          "image": "/images/textbook/ch35/v2_12_자재.jpg"
         },
         {
-          "korean": "재고",
-          "indonesian": "Persediaan, stok",
+          "korean": "재고를 파악하다",
+          "indonesian": "memeriksa stok",
           "image": "/images/textbook/ch35/v2_13_재고.jpg"
         },
         {
           "korean": "저장(하다)",
           "indonesian": "Menyimpan, menyimpan",
-          "image": "/images/textbook/ch35/v2_14_저장(하다).jpg"
+          "image": null
         },
         {
           "korean": "적정 온도",
@@ -165,7 +155,7 @@
         {
           "korean": "창고",
           "indonesian": "Gudang, gudang",
-          "image": null
+          "image": "/images/textbook/ch35/v2_17_창고.jpg"
         },
         {
           "korean": "컨테이너",
@@ -175,12 +165,7 @@
         {
           "korean": "특히",
           "indonesian": "khususnya, Terutama",
-          "image": "/images/textbook/ch35/v2_19_특히.jpg"
-        },
-        {
-          "korean": "파악(하다)",
-          "indonesian": "menangkap",
-          "image": "/images/textbook/ch35/v2_20_파악(하다).jpg"
+          "image": null
         }
       ],
       "main_image": null

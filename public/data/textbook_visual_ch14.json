@@ -13,27 +13,27 @@
         {
           "korean": "건물",
           "indonesian": "gedung",
-          "image": "/images/textbook/ch14/v1_1_건물.jpg"
+          "image": null
         },
         {
           "korean": "그쪽",
           "indonesian": "Arah tersebut",
-          "image": "/images/textbook/ch14/v1_2_그쪽.jpg"
+          "image": null
         },
         {
           "korean": "뒤",
           "indonesian": "Belakang, belakang",
-          "image": "/images/textbook/ch14/v1_3_뒤.jpg"
+          "image": null
         },
         {
           "korean": "맞은편",
           "indonesian": "Seberang jalan",
-          "image": "/images/textbook/ch14/v1_4_맞은편.jpg"
+          "image": null
         },
         {
           "korean": "밑",
           "indonesian": "bawah",
-          "image": "/images/textbook/ch14/v1_5_밑.jpg"
+          "image": null
         },
         {
           "korean": "밖",
@@ -47,7 +47,7 @@
         },
         {
           "korean": "사이",
-          "indonesian": "Antara, antara",
+          "indonesian": "antara",
           "image": "/images/textbook/ch14/v1_8_사이.jpg"
         },
         {
@@ -63,7 +63,7 @@
         {
           "korean": "앞",
           "indonesian": "depan",
-          "image": "/images/textbook/ch14/v1_11_앞.jpg"
+          "image": null
         },
         {
           "korean": "옆",
@@ -88,27 +88,27 @@
         {
           "korean": "위치",
           "indonesian": "Lokasi, lokasi",
-          "image": null
+          "image": "/images/textbook/ch14/v1_16_위치.jpg"
         },
         {
           "korean": "이쪽",
           "indonesian": "Arah ini, arah ini",
-          "image": "/images/textbook/ch14/v1_17_이쪽.jpg"
+          "image": null
         },
         {
           "korean": "저쪽",
           "indonesian": "Arah itu, arah itu",
-          "image": "/images/textbook/ch14/v1_18_저쪽.jpg"
+          "image": null
         },
         {
           "korean": "쪽",
           "indonesian": "arah / halaman / bagian",
-          "image": "/images/textbook/ch14/v1_19_쪽.jpg"
+          "image": null
         },
         {
           "korean": "층",
           "indonesian": "Lantai, satuan lantai",
-          "image": "/images/textbook/ch14/v1_20_층.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -125,7 +125,7 @@
         {
           "korean": "근처",
           "indonesian": "Sekitar, sekitar",
-          "image": "/images/textbook/ch14/v2_1_근처.jpg"
+          "image": null
         },
         {
           "korean": "나가다",
@@ -160,12 +160,12 @@
         {
           "korean": "마트",
           "indonesian": "Mart, pertokoan",
-          "image": "/images/textbook/ch14/v2_8_마트.jpg"
+          "image": null
         },
         {
           "korean": "사거리",
           "indonesian": "Perempatan, perempatan",
-          "image": "/images/textbook/ch14/v2_9_사거리.jpg"
+          "image": null
         },
         {
           "korean": "옥상",
@@ -185,7 +185,7 @@
         {
           "korean": "육교",
           "indonesian": "Jembatan penyeberangan, jembatan\npenyebrangan, jembatan penyeberangan",
-          "image": "/images/textbook/ch14/v2_13_육교.jpg"
+          "image": null
         },
         {
           "korean": "지하",
@@ -195,7 +195,7 @@
         {
           "korean": "횡단보도",
           "indonesian": "zebra cross / penyeberangan jalan",
-          "image": "/images/textbook/ch14/v2_15_횡단보도.jpg"
+          "image": null
         }
       ],
       "main_image": null

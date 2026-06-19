@@ -9,6 +9,7 @@ import Navbar from "./layout/Navbar";
 import ErrorBoundary from "./error/ErrorBoundary";
 import { Loading } from '@/components/ui/Loading';
 import { AiAssistant } from "@/components/AiAssistant";
+import { AiSidebar } from "@/components/AiSidebar";
 
 // Lazy load all page components for better performance
 const DashboardPage = lazy(() => import("./features/dashboard/DashboardPage"));
@@ -35,6 +36,7 @@ const TimeAttackPracticePage = lazy(() => import("./features/practice-projects/T
 const DictationPracticePage = lazy(() => import("./features/practice-projects/DictationPracticePage"));
 const TryoutPage = lazy(() => import("./features/epstopik-tryout/TryoutPage"));
 const TextbookMaterialPage = lazy(() => import("./features/vocabulary/TextbookMaterialPage"));
+const PictureQuizPage = lazy(() => import("./features/picture-quiz/PictureQuizPage"));
 
 const queryClient = new QueryClient();
 
@@ -76,11 +78,13 @@ const App = () => (
                     <Route path="/kosakata-kustom" element={<CustomVocabularyPage />} />
                     <Route path="/tryout" element={<TryoutPage />} />
                     <Route path="/materi-buku" element={<TextbookMaterialPage />} />
+                    <Route path="/kuis-gambar" element={<Navigate to="/tryout?type=picture-quiz" replace />} />
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </Suspense>
               </main>
               <AiAssistant />
+              <AiSidebar />
               <footer className="w-full py-4 text-center text-sm text-gray-500 dark:text-gray-400">
                 <p>&copy; 2025 Katakosa. All rights reserved.</p>
                 <p>Ikuti kami di Instagram: <a href="https://www.instagram.com/_muhammadrfi" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">@_muhammadrfi</a></p>

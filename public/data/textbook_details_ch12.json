@@ -42,7 +42,7 @@
         },
         {
           "korean": "배",
-          "indonesian": "Kapal, Pir, kapal, perut, kapal laut, pir",
+          "indonesian": "kapal (laut)",
           "image": "/images/textbook/ch12/v1_7_배.jpg"
         },
         {
@@ -58,7 +58,7 @@
         {
           "korean": "번",
           "indonesian": "nomor / kali",
-          "image": "/images/textbook/ch12/v1_10_번.jpg"
+          "image": null
         },
         {
           "korean": "비행기",
@@ -78,12 +78,12 @@
         {
           "korean": "어떻게",
           "indonesian": "Bagaimana, bagaimana",
-          "image": "/images/textbook/ch12/v1_14_어떻게.jpg"
+          "image": null
         },
         {
           "korean": "얼마나",
           "indonesian": "Seberapa banyak, berapa lama, berapa",
-          "image": "/images/textbook/ch12/v1_15_얼마나.jpg"
+          "image": null
         },
         {
           "korean": "오토바이",
@@ -108,12 +108,12 @@
         {
           "korean": "쯤",
           "indonesian": "kira-kira / sekitar",
-          "image": "/images/textbook/ch12/v1_20_쯤.jpg"
+          "image": null
         },
         {
           "korean": "타다",
-          "indonesian": "Naik (kendaraan), naik, naik (kendaraan)",
-          "image": "/images/textbook/ch12/v1_21_타다.jpg"
+          "indonesian": "naik (kendaraan)",
+          "image": null
         },
         {
           "korean": "택시",
@@ -158,7 +158,7 @@
         },
         {
           "korean": "내리다",
-          "indonesian": "Turun (dari kendaraan), turun, menurunkan",
+          "indonesian": "turun (dari kendaraan)",
           "image": "/images/textbook/ch12/v2_5_내리다.jpg"
         },
         {

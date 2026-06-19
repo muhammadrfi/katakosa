@@ -18,12 +18,12 @@
         {
           "korean": "나",
           "indonesian": "saya / aku",
-          "image": "/images/textbook/ch8/v1_2_나.jpg"
+          "image": null
         },
         {
           "korean": "나이",
           "indonesian": "Umur, umur",
-          "image": "/images/textbook/ch8/v1_3_나이.jpg"
+          "image": null
         },
         {
           "korean": "남동생",
@@ -33,7 +33,7 @@
         {
           "korean": "남매",
           "indonesian": "Saudara laki-laki dan perempuan",
-          "image": null
+          "image": "/images/textbook/ch8/v1_5_남매.jpg"
         },
         {
           "korean": "남자",
@@ -43,7 +43,7 @@
         {
           "korean": "남편",
           "indonesian": "Suami, suami",
-          "image": "/images/textbook/ch8/v1_7_남편.jpg"
+          "image": null
         },
         {
           "korean": "누나",
@@ -53,7 +53,7 @@
         {
           "korean": "댁",
           "indonesian": "rumah",
-          "image": "/images/textbook/ch8/v1_9_댁.jpg"
+          "image": null
         },
         {
           "korean": "드시다",
@@ -108,7 +108,7 @@
         {
           "korean": "아버지",
           "indonesian": "ayah",
-          "image": "/images/textbook/ch8/v1_20_아버지.jpg"
+          "image": null
         },
         {
           "korean": "아빠",
@@ -133,7 +133,7 @@
         {
           "korean": "엄마",
           "indonesian": "mama",
-          "image": "/images/textbook/ch8/v1_25_엄마.jpg"
+          "image": null
         },
         {
           "korean": "여동생",
@@ -148,7 +148,7 @@
         {
           "korean": "연세",
           "indonesian": "Umur (sopan), umur, usia",
-          "image": "/images/textbook/ch8/v1_28_연세.jpg"
+          "image": null
         },
         {
           "korean": "오빠",
@@ -178,7 +178,7 @@
         {
           "korean": "창문",
           "indonesian": "Jendela, jendela",
-          "image": "/images/textbook/ch8/v1_34_창문.jpg"
+          "image": null
         },
         {
           "korean": "편찮으시다",
@@ -233,8 +233,8 @@
           "image": "/images/textbook/ch8/v2_2_똑똑하다.jpg"
         },
         {
-          "korean": "머리",
-          "indonesian": "Kepala, kepala",
+          "korean": "머리가 짧다",
+          "indonesian": "rambut pendek",
           "image": "/images/textbook/ch8/v2_3_머리.jpg"
         },
         {
@@ -248,14 +248,9 @@
           "image": "/images/textbook/ch8/v2_5_부지런하다.jpg"
         },
         {
-          "korean": "성격",
-          "indonesian": "Penampilan dan kepribadian",
-          "image": null
-        },
-        {
-          "korean": "성격이\t급하다",
-          "indonesian": "Tergesa-gesa, tidak sabaran",
-          "image": "/images/textbook/ch8/v2_7_성격이_급하다.jpg"
+          "korean": "성격이 급하다",
+          "indonesian": "tidak sabaran",
+          "image": "/images/textbook/ch8/v2_6_성격.jpg"
         },
         {
           "korean": "얌전하다",
@@ -281,11 +276,6 @@
           "korean": "재미있다",
           "indonesian": "menarik",
           "image": "/images/textbook/ch8/v2_12_재미있다.jpg"
-        },
-        {
-          "korean": "짧다",
-          "indonesian": "pendek",
-          "image": "/images/textbook/ch8/v2_13_짧다.jpg"
         },
         {
           "korean": "착하다",

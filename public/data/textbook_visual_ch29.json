@@ -53,7 +53,7 @@
         {
           "korean": "인사(하다)",
           "indonesian": "Salam",
-          "image": "/images/textbook/ch29/v1_9_인사(하다).jpg"
+          "image": null
         },
         {
           "korean": "자리",
@@ -73,7 +73,7 @@
         {
           "korean": "행동",
           "indonesian": "Tindakan, Perilaku, tindakan",
-          "image": null
+          "image": "/images/textbook/ch29/v1_13_행동.jpg"
         },
         {
           "korean": "흔들다",
@@ -88,22 +88,22 @@
         {
           "korean": "구역",
           "indonesian": "Area, area",
-          "image": "/images/textbook/ch29/v1_16_구역.jpg"
+          "image": null
         },
         {
           "korean": "금연(하다)",
           "indonesian": "Dilarang merokok",
-          "image": "/images/textbook/ch29/v1_17_금연(하다).jpg"
+          "image": null
         },
         {
           "korean": "금지(하다)",
           "indonesian": "Larangan",
-          "image": "/images/textbook/ch29/v1_18_금지(하다).jpg"
+          "image": null
         },
         {
           "korean": "길",
           "indonesian": "Jalan, jalan",
-          "image": "/images/textbook/ch29/v1_19_길.jpg"
+          "image": null
         },
         {
           "korean": "담배꽁초",
@@ -118,7 +118,7 @@
         {
           "korean": "도서관",
           "indonesian": "Perpustakaan, perpustakaan",
-          "image": "/images/textbook/ch29/v1_22_도서관.jpg"
+          "image": null
         },
         {
           "korean": "떠들다",
@@ -138,7 +138,7 @@
         {
           "korean": "먼저",
           "indonesian": "Lebih dulu, Terlebih dahulu, lebih dulu, Pertama",
-          "image": "/images/textbook/ch29/v1_26_먼저.jpg"
+          "image": null
         },
         {
           "korean": "무단\t횡단(하다)",
@@ -148,7 +148,7 @@
         {
           "korean": "박물관",
           "indonesian": "Museum, museum",
-          "image": "/images/textbook/ch29/v1_28_박물관.jpg"
+          "image": null
         },
         {
           "korean": "반입(하다)",
@@ -163,7 +163,7 @@
         {
           "korean": "신호",
           "indonesian": "Melanggar rambu lalu lintas",
-          "image": "/images/textbook/ch29/v1_31_신호.jpg"
+          "image": null
         },
         {
           "korean": "예절",
@@ -178,12 +178,12 @@
         {
           "korean": "잠깐",
           "indonesian": "Sebentar, sebentar",
-          "image": "/images/textbook/ch29/v1_34_잠깐.jpg"
+          "image": null
         },
         {
           "korean": "전시품",
           "indonesian": "Dilarang menyentuh",
-          "image": "/images/textbook/ch29/v1_35_전시품.jpg"
+          "image": null
         },
         {
           "korean": "주차(하다)",
@@ -198,7 +198,7 @@
         {
           "korean": "흡연(하다)",
           "indonesian": "Area merokok",
-          "image": "/images/textbook/ch29/v1_38_흡연(하다).jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -240,7 +240,7 @@
         {
           "korean": "응원가",
           "indonesian": "Lagu penyemangat",
-          "image": "/images/textbook/ch29/v2_6_응원가.jpg"
+          "image": null
         },
         {
           "korean": "응원단",
@@ -250,7 +250,7 @@
         {
           "korean": "인기",
           "indonesian": "Popularitas",
-          "image": "/images/textbook/ch29/v2_8_인기.jpg"
+          "image": null
         },
         {
           "korean": "입장권",
@@ -265,12 +265,12 @@
         {
           "korean": "팀",
           "indonesian": "tim",
-          "image": "/images/textbook/ch29/v2_11_팀.jpg"
+          "image": null
         },
         {
           "korean": "팬",
           "indonesian": "penggemar (fans)",
-          "image": "/images/textbook/ch29/v2_12_팬.jpg"
+          "image": null
         },
         {
           "korean": "프로",

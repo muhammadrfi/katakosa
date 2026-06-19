@@ -8,22 +8,17 @@
         {
           "korean": "가로",
           "indonesian": "Lebar",
-          "image": "/images/textbook/ch40/v1_0_가로.jpg"
+          "image": null
         },
         {
           "korean": "길이",
           "indonesian": "Panjang, Selamanya",
-          "image": "/images/textbook/ch40/v1_1_길이.jpg"
-        },
-        {
-          "korean": "무게",
-          "indonesian": "Menimbang berat, menimbang berat",
-          "image": "/images/textbook/ch40/v1_2_무게.jpg"
+          "image": null
         },
         {
           "korean": "무게를 재다",
-          "indonesian": "Menimbang berat, menimbang berat",
-          "image": "/images/textbook/ch40/v1_3_무게를_재다.jpg"
+          "indonesian": "menimbang berat",
+          "image": "/images/textbook/ch40/v1_2_무게.jpg"
         },
         {
           "korean": "버니어 캘리퍼스",
@@ -33,7 +28,7 @@
         {
           "korean": "비율",
           "indonesian": "rasio / perbandingan",
-          "image": "/images/textbook/ch40/v1_5_비율.jpg"
+          "image": null
         },
         {
           "korean": "세로",
@@ -73,12 +68,12 @@
         {
           "korean": "측정(하다)",
           "indonesian": "ukuran, Mengukur",
-          "image": null
+          "image": "/images/textbook/ch40/v1_13_측정(하다).jpg"
         },
         {
           "korean": "투입(하다)",
           "indonesian": "memasukan",
-          "image": "/images/textbook/ch40/v1_14_투입(하다).jpg"
+          "image": null
         },
         {
           "korean": "혼합(하다)",
@@ -123,8 +118,8 @@
           "image": "/images/textbook/ch40/v2_4_높이다.jpg"
         },
         {
-          "korean": "덜",
-          "indonesian": "kurang",
+          "korean": "성형이 덜 되다",
+          "indonesian": "molding tidak lengkap / kurang sempurna",
           "image": "/images/textbook/ch40/v2_5_덜.jpg"
         },
         {
@@ -143,11 +138,6 @@
           "image": "/images/textbook/ch40/v2_8_살펴보다.jpg"
         },
         {
-          "korean": "성형",
-          "indonesian": "Bedah plastik",
-          "image": "/images/textbook/ch40/v2_9_성형.jpg"
-        },
-        {
           "korean": "압력",
           "indonesian": "Tekanan",
           "image": "/images/textbook/ch40/v2_10_압력.jpg"
@@ -155,12 +145,12 @@
         {
           "korean": "원인",
           "indonesian": "sebab",
-          "image": "/images/textbook/ch40/v2_11_원인.jpg"
+          "image": null
         },
         {
           "korean": "이상",
           "indonesian": "Di atas, lebih dari, lebih",
-          "image": "/images/textbook/ch40/v2_12_이상.jpg"
+          "image": null
         },
         {
           "korean": "점",
@@ -175,16 +165,16 @@
         {
           "korean": "조치",
           "indonesian": "langkah",
-          "image": null
+          "image": "/images/textbook/ch40/v2_15_조치.jpg"
         },
         {
           "korean": "조치를 취하다",
           "indonesian": "mengambil alih",
-          "image": "/images/textbook/ch40/v2_16_조치를_취하다.jpg"
+          "image": null
         },
         {
           "korean": "줄",
-          "indonesian": "pahat, tali",
+          "indonesian": "garis, tali",
           "image": "/images/textbook/ch40/v2_17_줄.jpg"
         },
         {
@@ -195,7 +185,7 @@
         {
           "korean": "표면",
           "indonesian": "Permukaan",
-          "image": "/images/textbook/ch40/v2_19_표면.jpg"
+          "image": null
         },
         {
           "korean": "휘다",

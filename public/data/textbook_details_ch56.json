@@ -149,7 +149,7 @@
         {
           "korean": "관리감독자",
           "indonesian": "pengawas manajemen",
-          "image": "/images/textbook/ch56/v2_1_관리감독자.jpg"
+          "image": null
         },
         {
           "korean": "긴급",
@@ -159,7 +159,7 @@
         {
           "korean": "도움",
           "indonesian": "Bantuan",
-          "image": "/images/textbook/ch56/v2_3_도움.jpg"
+          "image": null
         },
         {
           "korean": "보존(하다)",
@@ -174,7 +174,7 @@
         {
           "korean": "상급자",
           "indonesian": "senior",
-          "image": "/images/textbook/ch56/v2_6_상급자.jpg"
+          "image": null
         },
         {
           "korean": "설명(하다)",
@@ -189,7 +189,7 @@
         {
           "korean": "요청(하다)",
           "indonesian": "meminta",
-          "image": "/images/textbook/ch56/v2_9_요청(하다).jpg"
+          "image": null
         },
         {
           "korean": "응급",
@@ -219,7 +219,7 @@
         {
           "korean": "화재가 나다",
           "indonesian": "terjadi kebakaran",
-          "image": null
+          "image": "/images/textbook/ch56/v2_15_화재가_나다.jpg"
         }
       ]
     },

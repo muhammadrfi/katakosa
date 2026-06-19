@@ -8,7 +8,7 @@
         {
           "korean": "고압",
           "indonesian": "tekanan tinggi, tegangan tinggi",
-          "image": "/images/textbook/ch44/v1_0_고압.jpg"
+          "image": null
         },
         {
           "korean": "구역",
@@ -18,12 +18,12 @@
         {
           "korean": "굳다",
           "indonesian": "mengeras",
-          "image": "/images/textbook/ch44/v1_2_굳다.jpg"
+          "image": null
         },
         {
           "korean": "그동안",
           "indonesian": "selama ini / sementara itu",
-          "image": "/images/textbook/ch44/v1_3_그동안.jpg"
+          "image": null
         },
         {
           "korean": "긁어내다",
@@ -33,27 +33,27 @@
         {
           "korean": "나누다",
           "indonesian": "Membagi, memberi, membagi, berbagi",
-          "image": "/images/textbook/ch44/v1_5_나누다.jpg"
+          "image": null
         },
         {
           "korean": "딱딱하다",
           "indonesian": "Keras, kasar, keras",
-          "image": "/images/textbook/ch44/v1_6_딱딱하다.jpg"
+          "image": null
         },
         {
           "korean": "미루다",
           "indonesian": "menunda",
-          "image": "/images/textbook/ch44/v1_7_미루다.jpg"
+          "image": null
         },
         {
           "korean": "부드럽다",
           "indonesian": "Halus, lembut",
-          "image": "/images/textbook/ch44/v1_8_부드럽다.jpg"
+          "image": null
         },
         {
           "korean": "빨아들이다",
           "indonesian": "menyedot / menghisap",
-          "image": "/images/textbook/ch44/v1_9_빨아들이다.jpg"
+          "image": null
         },
         {
           "korean": "(물을) 빼다",
@@ -73,17 +73,17 @@
         {
           "korean": "어서",
           "indonesian": "Selamat datang",
-          "image": "/images/textbook/ch44/v1_13_어서.jpg"
+          "image": null
         },
         {
           "korean": "주문량",
           "indonesian": "jumlah pesanan",
-          "image": "/images/textbook/ch44/v1_14_주문량.jpg"
+          "image": null
         },
         {
           "korean": "준설(하다)",
           "indonesian": "pengerukan (mengeruk)",
-          "image": null
+          "image": "/images/textbook/ch44/v1_15_준설(하다).jpg"
         },
         {
           "korean": "처리(하다)",
@@ -98,7 +98,7 @@
         {
           "korean": "토사",
           "indonesian": "tanah dan pasir",
-          "image": "/images/textbook/ch44/v1_18_토사.jpg"
+          "image": null
         },
         {
           "korean": "퍼내다",
@@ -108,22 +108,22 @@
         {
           "korean": "펌프",
           "indonesian": "pompa",
-          "image": "/images/textbook/ch44/v1_20_펌프.jpg"
+          "image": null
         },
         {
           "korean": "하천",
           "indonesian": "sungai kecil / aliran air",
-          "image": "/images/textbook/ch44/v1_21_하천.jpg"
+          "image": null
         },
         {
           "korean": "호스",
           "indonesian": "Selang, danau, selang",
-          "image": "/images/textbook/ch44/v1_22_호스.jpg"
+          "image": null
         },
         {
           "korean": "흐르다",
           "indonesian": "Mengalir",
-          "image": "/images/textbook/ch44/v1_23_흐르다.jpg"
+          "image": null
         },
         {
           "korean": "흙",
@@ -144,12 +144,12 @@
         {
           "korean": "가까이",
           "indonesian": "dekat",
-          "image": "/images/textbook/ch44/v2_0_가까이.jpg"
+          "image": null
         },
         {
           "korean": "관",
           "indonesian": "pipa",
-          "image": null
+          "image": "/images/textbook/ch44/v2_1_관.jpg"
         },
         {
           "korean": "균열",
@@ -159,7 +159,7 @@
         {
           "korean": "너비",
           "indonesian": "lebar",
-          "image": "/images/textbook/ch44/v2_3_너비.jpg"
+          "image": null
         },
         {
           "korean": "누수",
@@ -174,7 +174,7 @@
         {
           "korean": "되메우기",
           "indonesian": "penimbunan kembali",
-          "image": "/images/textbook/ch44/v2_6_되메우기.jpg"
+          "image": null
         },
         {
           "korean": "땅",
@@ -184,7 +184,7 @@
         {
           "korean": "배치(하다)",
           "indonesian": "letakkan pipa",
-          "image": "/images/textbook/ch44/v2_8_배치(하다).jpg"
+          "image": null
         },
         {
           "korean": "상하수도",
@@ -214,17 +214,17 @@
         {
           "korean": "제자리",
           "indonesian": "tempat semula",
-          "image": "/images/textbook/ch44/v2_14_제자리.jpg"
+          "image": null
         },
         {
           "korean": "주위",
           "indonesian": "lingkungan((sekitar)",
-          "image": "/images/textbook/ch44/v2_15_주위.jpg"
+          "image": null
         },
         {
           "korean": "진행되다",
           "indonesian": "progres",
-          "image": "/images/textbook/ch44/v2_16_진행되다.jpg"
+          "image": null
         },
         {
           "korean": "채우다",
@@ -239,12 +239,12 @@
         {
           "korean": "파다",
           "indonesian": "membuat alur",
-          "image": "/images/textbook/ch44/v2_19_파다.jpg"
+          "image": null
         },
         {
           "korean": "핸드 램머",
           "indonesian": "dorongan tangan dgn kuat",
-          "image": "/images/textbook/ch44/v2_20_핸드_램머.jpg"
+          "image": null
         }
       ]
     },

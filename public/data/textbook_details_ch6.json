@@ -32,7 +32,7 @@
         },
         {
           "korean": "분",
-          "indonesian": "Bola akar, orang",
+          "indonesian": "menit",
           "image": null
         },
         {
@@ -84,11 +84,11 @@
         {
           "korean": "공원",
           "indonesian": "Taman, taman",
-          "image": "/images/textbook/ch6/v2_1_공원.jpg"
+          "image": null
         },
         {
-          "korean": "닦다",
-          "indonesian": "Mengelap, mengelap, menggosok, menyikat",
+          "korean": "이를 닦다",
+          "indonesian": "menggosok gigi",
           "image": "/images/textbook/ch6/v2_2_닦다.jpg"
         },
         {
@@ -99,12 +99,12 @@
         {
           "korean": "매점",
           "indonesian": "kios, kantin",
-          "image": "/images/textbook/ch6/v2_4_매점.jpg"
+          "image": null
         },
         {
           "korean": "사다",
           "indonesian": "membeli",
-          "image": "/images/textbook/ch6/v2_5_사다.jpg"
+          "image": null
         },
         {
           "korean": "산책(하다)",
@@ -125,11 +125,6 @@
           "korean": "씻다",
           "indonesian": "mencuci tangan",
           "image": "/images/textbook/ch6/v2_9_씻다.jpg"
-        },
-        {
-          "korean": "이",
-          "indonesian": "Gigi, gigi",
-          "image": "/images/textbook/ch6/v2_10_이.jpg"
         },
         {
           "korean": "일과",
@@ -164,7 +159,7 @@
         {
           "korean": "휴게실",
           "indonesian": "ruang istirahat",
-          "image": "/images/textbook/ch6/v2_17_휴게실.jpg"
+          "image": null
         }
       ]
     },

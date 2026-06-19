@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { useTryoutLogic } from './hooks/useTryoutLogic';
 import TryoutSetup from './components/TryoutSetup';
 import TryoutQuiz from './components/TryoutQuiz';
@@ -35,6 +36,15 @@ const TryoutPage = () => {
     savedSession, restoreSession, clearActiveSession,
     historyList, deleteHistoryItem, clearHistory
   } = useTryoutLogic(allQuestions);
+
+  const [searchParams] = useSearchParams();
+
+  useEffect(() => {
+    const tabType = searchParams.get('type');
+    if (tabType === 'practice' || tabType === 'cbt' || tabType === 'picture-quiz') {
+      setTryoutType(tabType);
+    }
+  }, [searchParams, setTryoutType]);
 
   useEffect(() => {
     Promise.all([

@@ -23,7 +23,7 @@
         {
           "korean": "날물",
           "indonesian": "Bilah gergaji",
-          "image": "/images/textbook/ch42/v1_3_날물.jpg"
+          "image": null
         },
         {
           "korean": "대패",
@@ -33,7 +33,7 @@
         {
           "korean": "메모(하다)",
           "indonesian": "Catatan",
-          "image": "/images/textbook/ch42/v1_5_메모(하다).jpg"
+          "image": null
         },
         {
           "korean": "목재",
@@ -48,7 +48,7 @@
         {
           "korean": "원목",
           "indonesian": "Kayu",
-          "image": "/images/textbook/ch42/v1_8_원목.jpg"
+          "image": null
         },
         {
           "korean": "인치",
@@ -63,7 +63,7 @@
         {
           "korean": "짜리",
           "indonesian": "bernilai / senilai (dengan)",
-          "image": "/images/textbook/ch42/v1_11_짜리.jpg"
+          "image": null
         },
         {
           "korean": "클램프",
@@ -108,24 +108,14 @@
           "image": null
         },
         {
-          "korean": "마감재",
-          "indonesian": "Menerapkan bahan finishing",
+          "korean": "바니시를 바르다",
+          "indonesian": "mengoles pernis",
           "image": "/images/textbook/ch42/v2_4_마감재.jpg"
         },
         {
-          "korean": "메우다",
-          "indonesian": "Mengisi",
+          "korean": "홈을 메우다",
+          "indonesian": "mempul lubang / mendempul lubang",
           "image": "/images/textbook/ch42/v2_5_메우다.jpg"
-        },
-        {
-          "korean": "바니시",
-          "indonesian": "Pernis, lapisan pelindung",
-          "image": "/images/textbook/ch42/v2_6_바니시.jpg"
-        },
-        {
-          "korean": "바르다",
-          "indonesian": "Menerapkan",
-          "image": "/images/textbook/ch42/v2_7_바르다.jpg"
         },
         {
           "korean": "분무기",
@@ -135,12 +125,12 @@
         {
           "korean": "붓",
           "indonesian": "Kuas, kuas",
-          "image": "/images/textbook/ch42/v2_9_붓.jpg"
+          "image": null
         },
         {
           "korean": "뿌리다",
           "indonesian": "Menyemprotkan obat",
-          "image": "/images/textbook/ch42/v2_10_뿌리다.jpg"
+          "image": null
         },
         {
           "korean": "사포",
@@ -155,12 +145,12 @@
         {
           "korean": "샌딩(하다)",
           "indonesian": "menghaluskan kayu",
-          "image": "/images/textbook/ch42/v2_13_샌딩(하다).jpg"
+          "image": null
         },
         {
           "korean": "스프레이",
           "indonesian": "Pistol penyemprot",
-          "image": null
+          "image": "/images/textbook/ch42/v2_14_스프레이.jpg"
         },
         {
           "korean": "열풍기",
@@ -170,37 +160,22 @@
         {
           "korean": "젯소",
           "indonesian": "gesso (cat dasar)",
-          "image": "/images/textbook/ch42/v2_16_젯소.jpg"
+          "image": null
         },
         {
           "korean": "초벌재",
           "indonesian": "Menerapkan mantel dasar(permukaan kayu)",
-          "image": "/images/textbook/ch42/v2_17_초벌재.jpg"
+          "image": null
         },
         {
           "korean": "칠(하다)",
           "indonesian": "mewarnai",
-          "image": "/images/textbook/ch42/v2_18_칠(하다).jpg"
-        },
-        {
-          "korean": "퍼티",
-          "indonesian": "dempul (putty)",
-          "image": null
-        },
-        {
-          "korean": "퍼티헤라",
-          "indonesian": "Dempul",
           "image": null
         },
         {
           "korean": "페인트",
           "indonesian": "cat",
           "image": "/images/textbook/ch42/v2_21_페인트.jpg"
-        },
-        {
-          "korean": "홈",
-          "indonesian": "Alur",
-          "image": null
         }
       ],
       "main_image": null

@@ -8,7 +8,7 @@
         {
           "korean": "금",
           "indonesian": "emas",
-          "image": "/images/textbook/ch39/v1_0_금.jpg"
+          "image": null
         },
         {
           "korean": "금 긋기 바늘",
@@ -18,7 +18,7 @@
         {
           "korean": "금속",
           "indonesian": "logam",
-          "image": "/images/textbook/ch39/v1_2_금속.jpg"
+          "image": null
         },
         {
           "korean": "긋다",
@@ -27,7 +27,7 @@
         },
         {
           "korean": "깎다",
-          "indonesian": "Mengupas (buah), Mengukir",
+          "indonesian": "membubut, memotong, meraut (logam / kayu)",
           "image": "/images/textbook/ch39/v1_4_깎다.jpg"
         },
         {
@@ -37,7 +37,7 @@
         },
         {
           "korean": "돌",
-          "indonesian": "Batu, batu, bayi umur 1 tahun",
+          "indonesian": "batu",
           "image": "/images/textbook/ch39/v1_6_돌.jpg"
         },
         {
@@ -51,8 +51,8 @@
           "image": "/images/textbook/ch39/v1_8_망치.jpg"
         },
         {
-          "korean": "못",
-          "indonesian": "paku",
+          "korean": "못을 박다",
+          "indonesian": "memaku",
           "image": "/images/textbook/ch39/v1_9_못.jpg"
         },
         {
@@ -66,14 +66,9 @@
           "image": "/images/textbook/ch39/v1_11_바이스.jpg"
         },
         {
-          "korean": "박다",
-          "indonesian": "memukul",
-          "image": "/images/textbook/ch39/v1_12_박다.jpg"
-        },
-        {
           "korean": "사용법",
           "indonesian": "Cara penggunaan alat",
-          "image": null
+          "image": "/images/textbook/ch39/v1_13_사용법.jpg"
         },
         {
           "korean": "쇠톱",
@@ -93,11 +88,11 @@
         {
           "korean": "종류",
           "indonesian": "Jenis, jenis, type",
-          "image": null
+          "image": "/images/textbook/ch39/v1_17_종류.jpg"
         },
         {
           "korean": "줄",
-          "indonesian": "pahat, tali",
+          "indonesian": "kikir (alat besi)",
           "image": "/images/textbook/ch39/v1_18_줄.jpg"
         },
         {
@@ -134,7 +129,7 @@
         {
           "korean": "느리다",
           "indonesian": "lambat, Lambat",
-          "image": "/images/textbook/ch39/v2_3_느리다.jpg"
+          "image": null
         },
         {
           "korean": "두껍다",
@@ -144,7 +139,7 @@
         {
           "korean": "두께",
           "indonesian": "Ketebalan",
-          "image": "/images/textbook/ch39/v2_5_두께.jpg"
+          "image": null
         },
         {
           "korean": "밀리미터",
@@ -152,8 +147,8 @@
           "image": null
         },
         {
-          "korean": "불꽃",
-          "indonesian": "Percikan api",
+          "korean": "불꽃이 튀다",
+          "indonesian": "percikan bunga api",
           "image": "/images/textbook/ch39/v2_7_불꽃.jpg"
         },
         {
@@ -164,7 +159,7 @@
         {
           "korean": "가스가 새다",
           "indonesian": "Gas bocor, terkena gas",
-          "image": "/images/textbook/ch39/v2_9_가스가_새다.jpg"
+          "image": null
         },
         {
           "korean": "세다",
@@ -174,7 +169,7 @@
         {
           "korean": "소화기",
           "indonesian": "Tabung pemadam(Apar), Alat pemadam api, tabung pemadam",
-          "image": "/images/textbook/ch39/v2_11_소화기.jpg"
+          "image": null
         },
         {
           "korean": "속도",
@@ -194,7 +189,7 @@
         {
           "korean": "용접(하다)",
           "indonesian": "Mengelas, mengelas",
-          "image": null
+          "image": "/images/textbook/ch39/v2_15_용접(하다).jpg"
         },
         {
           "korean": "용접봉",
@@ -214,7 +209,7 @@
         {
           "korean": "절단(하다)",
           "indonesian": "Memotong, memotong",
-          "image": null
+          "image": "/images/textbook/ch39/v2_19_절단(하다).jpg"
         },
         {
           "korean": "절단기",
@@ -224,22 +219,17 @@
         {
           "korean": "조절기",
           "indonesian": "Pengatur",
-          "image": "/images/textbook/ch39/v2_21_조절기.jpg"
+          "image": null
         },
         {
           "korean": "준비(하다)",
           "indonesian": "Mempersiapkan, menyiapkan",
-          "image": "/images/textbook/ch39/v2_22_준비(하다).jpg"
+          "image": null
         },
         {
           "korean": "토치",
           "indonesian": "Obor",
           "image": "/images/textbook/ch39/v2_23_토치.jpg"
-        },
-        {
-          "korean": "튀다",
-          "indonesian": "Api menyembur, memercik api",
-          "image": "/images/textbook/ch39/v2_24_튀다.jpg"
         },
         {
           "korean": "판금 가위",

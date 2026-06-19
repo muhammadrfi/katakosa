@@ -33,7 +33,7 @@
         {
           "korean": "농장",
           "indonesian": "pertanian",
-          "image": "/images/textbook/ch46/v1_5_농장.jpg"
+          "image": null
         },
         {
           "korean": "닭",
@@ -82,13 +82,13 @@
         },
         {
           "korean": "양",
-          "indonesian": "domba, kuantitas, Jumlah",
+          "indonesian": "domba",
           "image": null
         },
         {
           "korean": "양계",
           "indonesian": "kandang ayam",
-          "image": "/images/textbook/ch46/v1_16_양계.jpg"
+          "image": null
         },
         {
           "korean": "양돈",
@@ -113,12 +113,12 @@
         {
           "korean": "키우다",
           "indonesian": "memelihara",
-          "image": "/images/textbook/ch46/v1_21_키우다.jpg"
+          "image": null
         },
         {
           "korean": "토끼",
           "indonesian": "kelinci",
-          "image": null
+          "image": "/images/textbook/ch46/v1_22_토끼.jpg"
         }
       ]
     },
@@ -134,12 +134,12 @@
         {
           "korean": "물청소(하다)",
           "indonesian": "membersihkan dengan air",
-          "image": null
+          "image": "/images/textbook/ch46/v2_1_물청소(하다).jpg"
         },
         {
           "korean": "분뇨",
           "indonesian": "kotoran hewan",
-          "image": "/images/textbook/ch46/v2_2_분뇨.jpg"
+          "image": null
         },
         {
           "korean": "분뇨 탱크",
@@ -154,7 +154,7 @@
         {
           "korean": "우방",
           "indonesian": "Kios, tempat",
-          "image": null
+          "image": "/images/textbook/ch46/v2_5_우방.jpg"
         },
         {
           "korean": "이동시키다",
@@ -164,7 +164,7 @@
         {
           "korean": "축사",
           "indonesian": "kandang",
-          "image": null
+          "image": "/images/textbook/ch46/v2_7_축사.jpg"
         },
         {
           "korean": "톱밥",

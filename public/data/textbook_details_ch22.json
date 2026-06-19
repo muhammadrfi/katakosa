@@ -18,7 +18,7 @@
         {
           "korean": "마스크",
           "indonesian": "Masker, masker",
-          "image": "/images/textbook/ch22/v1_2_마스크.jpg"
+          "image": null
         },
         {
           "korean": "목이\t붓다",
@@ -33,12 +33,12 @@
         {
           "korean": "보관(하다)",
           "indonesian": "Menyimpan, menyimpan",
-          "image": "/images/textbook/ch22/v1_5_보관(하다).jpg"
+          "image": null
         },
         {
           "korean": "비상약",
           "indonesian": "Obat darurat",
-          "image": "/images/textbook/ch22/v1_6_비상약.jpg"
+          "image": null
         },
         {
           "korean": "뼈가\t부러지다",
@@ -61,19 +61,14 @@
           "image": "/images/textbook/ch22/v1_10_손이_베이다.jpg"
         },
         {
-          "korean": "열",
-          "indonesian": "demam, panas",
+          "korean": "열이 나다",
+          "indonesian": "demam",
           "image": "/images/textbook/ch22/v1_11_열.jpg"
-        },
-        {
-          "korean": "열이\t나다/있다",
-          "indonesian": "Demam",
-          "image": "/images/textbook/ch22/v1_12_열이_나다_있다.jpg"
         },
         {
           "korean": "졸리다",
           "indonesian": "Mengantuk, mengantuk",
-          "image": "/images/textbook/ch22/v1_13_졸리다.jpg"
+          "image": null
         },
         {
           "korean": "콧물이\t나다",
@@ -94,12 +89,12 @@
         {
           "korean": "반창고",
           "indonesian": "Plester luka, plaster",
-          "image": null
+          "image": "/images/textbook/ch22/v2_0_반창고.jpg"
         },
         {
           "korean": "밴드",
-          "indonesian": "Perban, pita, plester, plaster plastik",
-          "image": null
+          "indonesian": "plester luka / perban",
+          "image": "/images/textbook/ch22/v2_1_밴드.jpg"
         },
         {
           "korean": "밴드를\t붙이다",
@@ -109,7 +104,7 @@
         {
           "korean": "붕대",
           "indonesian": "Perban, kasa, perban",
-          "image": null
+          "image": "/images/textbook/ch22/v2_3_붕대.jpg"
         },
         {
           "korean": "붕대를\t감다",
@@ -124,7 +119,7 @@
         {
           "korean": "소독약",
           "indonesian": "Obat antiseptik, antiseptic",
-          "image": "/images/textbook/ch22/v2_6_소독약.jpg"
+          "image": null
         },
         {
           "korean": "알약",
@@ -144,7 +139,7 @@
         {
           "korean": "연고",
           "indonesian": "Salep, salep",
-          "image": null
+          "image": "/images/textbook/ch22/v2_10_연고.jpg"
         },
         {
           "korean": "연고를\t바르다",

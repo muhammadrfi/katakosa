@@ -91,52 +91,52 @@
         {
           "korean": "거실",
           "indonesian": "ruang tamu",
-          "image": "/images/textbook/ch4/v1_1_거실.jpg"
+          "image": null
         },
         {
           "korean": "기숙사",
           "indonesian": "asrama",
-          "image": "/images/textbook/ch4/v1_2_기숙사.jpg"
+          "image": null
         },
         {
           "korean": "미용실",
           "indonesian": "salon",
-          "image": "/images/textbook/ch4/v1_3_미용실.jpg"
+          "image": null
         },
         {
           "korean": "방",
           "indonesian": "kamar",
-          "image": "/images/textbook/ch4/v1_4_방.jpg"
+          "image": null
         },
         {
           "korean": "병원",
           "indonesian": "rumah sakit",
-          "image": "/images/textbook/ch4/v1_5_병원.jpg"
+          "image": null
         },
         {
           "korean": "부엌",
           "indonesian": "dapur",
-          "image": "/images/textbook/ch4/v1_6_부엌.jpg"
+          "image": null
         },
         {
           "korean": "슈퍼마켓",
           "indonesian": "supermarket",
-          "image": "/images/textbook/ch4/v1_7_슈퍼마켓.jpg"
+          "image": null
         },
         {
           "korean": "시장",
           "indonesian": "pasar",
-          "image": "/images/textbook/ch4/v1_8_시장.jpg"
+          "image": null
         },
         {
           "korean": "식당",
           "indonesian": "restoran",
-          "image": "/images/textbook/ch4/v1_9_식당.jpg"
+          "image": null
         },
         {
           "korean": "약국",
           "indonesian": "apotek",
-          "image": "/images/textbook/ch4/v1_10_약국.jpg"
+          "image": null
         },
         {
           "korean": "어디",
@@ -151,17 +151,17 @@
         {
           "korean": "우체국",
           "indonesian": "kantor pos",
-          "image": "/images/textbook/ch4/v1_13_우체국.jpg"
+          "image": null
         },
         {
           "korean": "은행",
           "indonesian": "bank",
-          "image": "/images/textbook/ch4/v1_14_은행.jpg"
+          "image": null
         },
         {
           "korean": "장소",
           "indonesian": "tempat",
-          "image": "/images/textbook/ch4/v1_15_장소.jpg"
+          "image": null
         },
         {
           "korean": "저기",
@@ -171,27 +171,27 @@
         {
           "korean": "집",
           "indonesian": "rumah",
-          "image": "/images/textbook/ch4/v1_17_집.jpg"
+          "image": null
         },
         {
           "korean": "커피숍",
           "indonesian": "warung kopi",
-          "image": "/images/textbook/ch4/v1_18_커피숍.jpg"
+          "image": null
         },
         {
           "korean": "편의점",
           "indonesian": "minimarket",
-          "image": "/images/textbook/ch4/v1_19_편의점.jpg"
+          "image": null
         },
         {
           "korean": "화장실",
           "indonesian": "toilet",
-          "image": "/images/textbook/ch4/v1_20_화장실.jpg"
+          "image": null
         },
         {
           "korean": "회사",
           "indonesian": "kantor / perusahaan",
-          "image": "/images/textbook/ch4/v1_21_회사.jpg"
+          "image": null
         }
       ]
     }

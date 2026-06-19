@@ -319,31 +319,31 @@ const AnalyzedText: React.FC<AnalyzedTextProps> = ({ text, dictionary, className
         // Classify color category
         // 1. TATA BAHASA (POLA BUKU / COMPOUND GRAMMAR) - MERAH
         if (t.isCompound || (hasGrammar && !isConjugated)) {
-          colorClass = "border-b-2 border-red-500 hover:bg-red-500/10 font-black";
+          colorClass = "border-b-2 border-red-500 hover:bg-red-500/10";
           category = "TATA BAHASA";
           colorHex = "bg-red-600";
         }
         // 2. KOSAKATA PERUBAHAN (KONJUGASI KATA KERJA/SIFAT) - ORANGE/AMBER
         else if (isConjugated) {
-          colorClass = "border-b-2 border-amber-500 hover:bg-amber-500/10 font-black";
+          colorClass = "border-b-2 border-amber-500 hover:bg-amber-500/10";
           category = "KOSAKATA PERUBAHAN";
           colorHex = "bg-amber-600";
         }
         // 3. PARTIKEL BUKU - HIJAU
         else if (hasParticle) {
-          colorClass = "border-b-2 border-emerald-500 hover:bg-emerald-500/10 font-black";
+          colorClass = "border-b-2 border-emerald-500 hover:bg-emerald-500/10";
           category = "PARTIKEL";
           colorHex = "bg-emerald-600";
         }
         // 4. KATA KERJA / SIFAT BASE - UNGU
         else if (isVerbOrAdjective) {
-          colorClass = "border-b-2 border-purple-500 hover:bg-purple-500/10 font-black";
+          colorClass = "border-b-2 border-purple-500 hover:bg-purple-500/10";
           category = "KATA KERJA / SIFAT";
           colorHex = "bg-purple-600";
         }
         // 5. KOSAKATA UMUM - BIRU
         else {
-          colorClass = "border-b-2 border-blue-500 hover:bg-blue-500/10 font-black";
+          colorClass = "border-b-2 border-blue-500 hover:bg-blue-500/10";
           category = "KOSAKATA UMUM";
           colorHex = "bg-blue-600";
         }
@@ -355,7 +355,7 @@ const AnalyzedText: React.FC<AnalyzedTextProps> = ({ text, dictionary, className
                 className={cn(
                   "cursor-pointer inline-block px-[1.5px] select-none active:scale-95 transition-all",
                   colorClass,
-                  t.isUnderlined && "underline decoration-2 decoration-zinc-950 dark:decoration-zinc-50 underline-offset-2 font-black"
+                  t.isUnderlined && "underline decoration-2 decoration-zinc-950 dark:decoration-zinc-50 underline-offset-2"
                 )}
                 onClick={(e) => e.stopPropagation()}
               >

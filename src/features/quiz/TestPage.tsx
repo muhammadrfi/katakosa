@@ -33,24 +33,40 @@ const TestPage = () => {
 
   const { wordsForQuiz, loading } = useQuizData(setIds, srsFilter || undefined);
 
-  const [swapLanguages, setSwapLanguages] = useState(false);
+  const [swapLanguages, setSwapLanguages] = useState(() => {
+    if (projectId) {
+      return localStorage.getItem(`katakosa_vocab_quiz_swap_${projectId}`) === 'true';
+    }
+    return false;
+  });
   const { addIncorrectAnswer } = useReviewListStore();
   const { markWordAsRemembered, markWordAsForgotten } = useVocabularyStore();
 
   const {
     quizStatus, questions, currentQuestionIndex, score, incorrectAnswers,
     prepareQuiz, handleAnswer, handleRestart, setQuizStatus
-  } = useQuizLogic(wordsForQuiz, addIncorrectAnswer, swapLanguages, markWordAsRemembered, markWordAsForgotten);
+  } = useQuizLogic(
+    wordsForQuiz,
+    addIncorrectAnswer,
+    swapLanguages,
+    markWordAsRemembered,
+    markWordAsForgotten,
+    projectId,
+    srsFilter
+  );
 
   const currentQuestion = questions[currentQuestionIndex];
 
   const handleToggleSwapLanguage = useCallback((checked: boolean) => {
     setSwapLanguages(checked);
+    if (projectId) {
+      localStorage.setItem(`katakosa_vocab_quiz_swap_${projectId}`, String(checked));
+    }
     // Re-prepare quiz if active to apply language swap immediately
     if (quizStatus === QuizStatus.ACTIVE) {
       prepareQuiz(questions.length); // Use current number of questions
     }
-  }, [quizStatus, prepareQuiz, questions.length]);
+  }, [quizStatus, prepareQuiz, questions.length, projectId]);
 
   if (loading) {
     return <QuizLoadingDisplay />;

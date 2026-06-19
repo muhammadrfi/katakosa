@@ -28,7 +28,7 @@
         {
           "korean": "고라니",
           "indonesian": "Rusa air",
-          "image": "/images/textbook/ch45/v1_4_고라니.jpg"
+          "image": null
         },
         {
           "korean": "고추",
@@ -38,22 +38,22 @@
         {
           "korean": "곡괭이",
           "indonesian": "Gancu, kapak",
-          "image": null
+          "image": "/images/textbook/ch45/v1_6_곡괭이.jpg"
         },
         {
           "korean": "나뭇가지",
           "indonesian": "cabang pohon",
-          "image": "/images/textbook/ch45/v1_7_나뭇가지.jpg"
+          "image": null
         },
         {
           "korean": "낫",
           "indonesian": "Sabit, sabit",
-          "image": "/images/textbook/ch45/v1_8_낫.jpg"
+          "image": null
         },
         {
           "korean": "넘어지다",
           "indonesian": "jatuh, terjatuh",
-          "image": "/images/textbook/ch45/v1_9_넘어지다.jpg"
+          "image": null
         },
         {
           "korean": "논",
@@ -68,15 +68,15 @@
         {
           "korean": "따 먹다",
           "indonesian": "memetik dan memakan",
-          "image": "/images/textbook/ch45/v1_12_따_먹다.jpg"
+          "image": null
         },
         {
           "korean": "따다",
           "indonesian": "memetik",
-          "image": null
+          "image": "/images/textbook/ch45/v1_13_따다.jpg"
         },
         {
-          "korean": "모종",
+          "korean": "모종을 심다",
           "indonesian": "menanam bibit",
           "image": "/images/textbook/ch45/v1_14_모종.jpg"
         },
@@ -98,22 +98,22 @@
         {
           "korean": "밭",
           "indonesian": "Ladang, ladang, kebun",
-          "image": null
+          "image": "/images/textbook/ch45/v1_18_밭.jpg"
         },
         {
-          "korean": "배추",
-          "indonesian": "Sawi putih, sawi putih",
+          "korean": "배추를 뽑다",
+          "indonesian": "mencabut sawi",
           "image": "/images/textbook/ch45/v1_19_배추.jpg"
         },
         {
           "korean": "베다",
           "indonesian": "Memotong padi",
-          "image": "/images/textbook/ch45/v1_20_베다.jpg"
+          "image": null
         },
         {
           "korean": "벼",
           "indonesian": "padi",
-          "image": "/images/textbook/ch45/v1_21_벼.jpg"
+          "image": null
         },
         {
           "korean": "비닐하우스",
@@ -123,22 +123,12 @@
         {
           "korean": "비료",
           "indonesian": "pupuk",
-          "image": null
-        },
-        {
-          "korean": "뽑다",
-          "indonesian": "mencabut",
-          "image": null
+          "image": "/images/textbook/ch45/v1_23_비료.jpg"
         },
         {
           "korean": "삽",
           "indonesian": "Sekop, sekop",
           "image": null
-        },
-        {
-          "korean": "심다",
-          "indonesian": "menanam bibit",
-          "image": "/images/textbook/ch45/v1_26_심다.jpg"
         },
         {
           "korean": "씨앗을 뿌리다",
@@ -158,7 +148,7 @@
         {
           "korean": "잎사귀",
           "indonesian": "daun-daun",
-          "image": "/images/textbook/ch45/v1_30_잎사귀.jpg"
+          "image": null
         },
         {
           "korean": "전작",
@@ -173,22 +163,22 @@
         {
           "korean": "캐다",
           "indonesian": "menggali, mengeluarkan, mencabut",
-          "image": null
+          "image": "/images/textbook/ch45/v1_33_캐다.jpg"
         },
         {
           "korean": "케이블타이",
           "indonesian": "Pengikat kabel",
-          "image": "/images/textbook/ch45/v1_34_케이블타이.jpg"
+          "image": null
         },
         {
           "korean": "트랙터",
           "indonesian": "Traktor, tracktor",
-          "image": "/images/textbook/ch45/v1_35_트랙터.jpg"
+          "image": null
         },
         {
           "korean": "파이다",
           "indonesian": "Menggali",
-          "image": "/images/textbook/ch45/v1_36_파이다.jpg"
+          "image": null
         },
         {
           "korean": "호미",
@@ -238,13 +228,13 @@
         },
         {
           "korean": "배",
-          "indonesian": "Kapal, Pir, kapal, perut, kapal laut, pir",
-          "image": null
+          "indonesian": "buah pir",
+          "image": "/images/textbook/ch45/v2_6_배.jpg"
         },
         {
           "korean": "변하다",
           "indonesian": "mengubah, berubah",
-          "image": "/images/textbook/ch45/v2_7_변하다.jpg"
+          "image": null
         },
         {
           "korean": "복숭아",
@@ -264,12 +254,12 @@
         {
           "korean": "살짝",
           "indonesian": "Sedikit, agak",
-          "image": "/images/textbook/ch45/v2_11_살짝.jpg"
+          "image": null
         },
         {
           "korean": "손자국이 남다",
           "indonesian": "meninggalkan bekas tangan",
-          "image": "/images/textbook/ch45/v2_12_손자국이_남다.jpg"
+          "image": null
         },
         {
           "korean": "수확(하다)",
@@ -289,12 +279,12 @@
         {
           "korean": "익다",
           "indonesian": "matang, difermentasi",
-          "image": "/images/textbook/ch45/v2_16_익다.jpg"
+          "image": null
         },
         {
           "korean": "잡초",
           "indonesian": "menghilangkan gulma",
-          "image": "/images/textbook/ch45/v2_17_잡초.jpg"
+          "image": null
         },
         {
           "korean": "장갑",

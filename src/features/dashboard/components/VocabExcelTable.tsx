@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useVocabularyStore } from '../vocabulary/useVocabularyStore';
-import { Input } from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
 import {
   Table,
   TableBody,
@@ -17,15 +17,22 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Badge } from '@/components/ui/badge';
-import { Search, Filter, ArrowUpDown, ChevronLeft, ChevronRight, MoreHorizontal } from 'lucide-react';
+import { Search, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { WordPair } from '../vocabulary/vocabulary.types';
+
+type SortableColumn = 'bahasaA' | 'bahasaB' | 'setName';
+
+interface VocabularyRow extends WordPair {
+  setName: string;
+}
 
 const VocabExcelTable = () => {
     const { vocabularySets } = useVocabularyStore();
     const [searchTerm, setSearchText] = useState("");
     const [pageSize, setPageSize] = useState(10);
     const [currentPage, setCurrentIndex] = useState(1);
-    const [sortConfig, setSortConfig] = useState<{key: string, direction: 'asc' | 'desc'} | null>(null);
+    const [sortConfig, setSortConfig] = useState<{key: SortableColumn, direction: 'asc' | 'desc'} | null>(null);
 
     // Flatten all words for the "Excel" view
     const allWords = useMemo(() => {
@@ -40,20 +47,18 @@ const VocabExcelTable = () => {
     // Filtering logic
     const filteredData = useMemo(() => {
         return allWords.filter(item => 
-            item.korean.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            item.indonesian.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            item.bahasaA.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            item.bahasaB.toLowerCase().includes(searchTerm.toLowerCase()) ||
             item.setName.toLowerCase().includes(searchTerm.toLowerCase())
         );
     }, [allWords, searchTerm]);
 
     // Sorting logic
     const sortedData = useMemo(() => {
-        let sortableItems = [...filteredData];
+        const sortableItems = [...filteredData];
         if (sortConfig !== null) {
             sortableItems.sort((a, b) => {
-                // @ts-ignore
                 if (a[sortConfig.key] < b[sortConfig.key]) return sortConfig.direction === 'asc' ? -1 : 1;
-                // @ts-ignore
                 if (a[sortConfig.key] > b[sortConfig.key]) return sortConfig.direction === 'asc' ? 1 : -1;
                 return 0;
             });
@@ -65,7 +70,7 @@ const VocabExcelTable = () => {
     const totalPages = Math.ceil(sortedData.length / pageSize);
     const paginatedData = sortedData.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
-    const requestSort = (key: string) => {
+    const requestSort = (key: SortableColumn) => {
         let direction: 'asc' | 'desc' = 'asc';
         if (sortConfig && sortConfig.key === key && sortConfig.direction === 'asc') {
             direction = 'desc';
@@ -110,10 +115,10 @@ const VocabExcelTable = () => {
                     <TableHeader className="bg-zinc-50 dark:bg-zinc-900">
                         <TableRow>
                             <TableHead className="w-[200px] font-black text-[10px] uppercase tracking-widest cursor-pointer hover:text-blue-500 transition-colors" onClick={() => requestSort('korean')}>
-                                <div className="flex items-center gap-2">KOREA <ArrowUpDown className="h-3 w-3" /></div>
+                                <div className="flex items-center gap-2">BAHASA A <ArrowUpDown className="h-3 w-3" /></div>
                             </TableHead>
-                            <TableHead className="font-black text-[10px] uppercase tracking-widest cursor-pointer hover:text-blue-500 transition-colors" onClick={() => requestSort('indonesian')}>
-                                <div className="flex items-center gap-2">ARTI INDONESIA <ArrowUpDown className="h-3 w-3" /></div>
+                            <TableHead className="font-black text-[10px] uppercase tracking-widest cursor-pointer hover:text-blue-500 transition-colors" onClick={() => requestSort('bahasaB')}>
+                                <div className="flex items-center gap-2">BAHASA B <ArrowUpDown className="h-3 w-3" /></div>
                             </TableHead>
                             <TableHead className="w-[150px] font-black text-[10px] uppercase tracking-widest cursor-pointer hover:text-blue-500 transition-colors" onClick={() => requestSort('setName')}>
                                 <div className="flex items-center gap-2">SUMBER/BAB <ArrowUpDown className="h-3 w-3" /></div>
@@ -124,8 +129,8 @@ const VocabExcelTable = () => {
                     <TableBody>
                         {paginatedData.map((item, idx) => (
                             <TableRow key={`${item.id}-${idx}`} className="hover:bg-blue-50/30 dark:hover:bg-blue-900/10 transition-colors border-b last:border-0">
-                                <TableCell className="font-bold text-lg text-zinc-900 dark:text-zinc-100 py-4">{item.korean}</TableCell>
-                                <TableCell className="text-zinc-600 dark:text-zinc-400 font-medium">{item.indonesian}</TableCell>
+                                <TableCell className="font-bold text-lg text-zinc-900 dark:text-zinc-100 py-4">{item.bahasaA}</TableCell>
+                                <TableCell className="text-zinc-600 dark:text-zinc-400 font-medium">{item.bahasaB}</TableCell>
                                 <TableCell>
                                     <Badge variant="outline" className="rounded-lg font-bold text-[10px] bg-zinc-50 dark:bg-zinc-900">
                                         {item.setName}
@@ -134,9 +139,9 @@ const VocabExcelTable = () => {
                                 <TableCell className="text-center">
                                     <div className={cn(
                                         "w-2.5 h-2.5 rounded-full mx-auto shadow-sm",
-                                        item.srsLevel === 0 ? "bg-zinc-200" :
-                                        item.srsLevel < 3 ? "bg-blue-400" :
-                                        item.srsLevel < 6 ? "bg-amber-400" : "bg-emerald-500"
+                                        item.repetition === 0 && item.interval === 0 ? "bg-zinc-200" :
+                                        item.repetition < 3 ? "bg-blue-400" :
+                                        item.repetition < 6 ? "bg-amber-400" : "bg-emerald-500"
                                     )} />
                                 </TableCell>
                             </TableRow>

@@ -11,8 +11,8 @@
           "image": "/images/textbook/ch60/v1_0_가입(하다).jpg"
         },
         {
-          "korean": "납입(하다)",
-          "indonesian": "membayar",
+          "korean": "보험료를 납입하다",
+          "indonesian": "membayar premi asuransi",
           "image": "/images/textbook/ch60/v1_1_납입(하다).jpg"
         },
         {
@@ -26,14 +26,9 @@
           "image": null
         },
         {
-          "korean": "보험금",
-          "indonesian": "naik, berselancar, terbakar, menerima, mendapat",
-          "image": null
-        },
-        {
-          "korean": "보험료",
-          "indonesian": "membayar, mengeluarkan, menyelesaikan, melewatkan",
-          "image": "/images/textbook/ch60/v1_5_보험료.jpg"
+          "korean": "보험금을 청구하다",
+          "indonesian": "mengklaim asuransi",
+          "image": "/images/textbook/ch60/v1_4_보험금.jpg"
         },
         {
           "korean": "사업주",
@@ -43,7 +38,7 @@
         {
           "korean": "의료비",
           "indonesian": "Biaya medis",
-          "image": "/images/textbook/ch60/v1_7_의료비.jpg"
+          "image": null
         },
         {
           "korean": "입원(하다)",
@@ -53,17 +48,12 @@
         {
           "korean": "입증(하다)",
           "indonesian": "pembuktian (membuktikan)",
-          "image": "/images/textbook/ch60/v1_9_입증(하다).jpg"
+          "image": null
         },
         {
           "korean": "장해 보상금",
           "indonesian": "uang kompensasi cacat",
           "image": "/images/textbook/ch60/v1_10_장해_보상금.jpg"
-        },
-        {
-          "korean": "청구(하다)",
-          "indonesian": "menagih",
-          "image": "/images/textbook/ch60/v1_11_청구(하다).jpg"
         },
         {
           "korean": "체하다",
@@ -72,7 +62,7 @@
         },
         {
           "korean": "타다",
-          "indonesian": "Naik (kendaraan), naik, naik (kendaraan)",
+          "indonesian": "menerima, mencairkan (uang asuransi / klaim / santunan)",
           "image": "/images/textbook/ch60/v1_13_타다.jpg"
         },
         {
@@ -115,7 +105,7 @@
         {
           "korean": "사고 입증 서류",
           "indonesian": "dokumen bukti kecelakaan",
-          "image": null
+          "image": "/images/textbook/ch60/v2_4_사고_입증_서류.jpg"
         },
         {
           "korean": "사망",
@@ -125,7 +115,7 @@
         {
           "korean": "상해",
           "indonesian": "Cedera, kecelakaan, terluka",
-          "image": "/images/textbook/ch60/v2_6_상해.jpg"
+          "image": null
         },
         {
           "korean": "상해보험",
@@ -135,12 +125,12 @@
         {
           "korean": "일시금",
           "indonesian": "uang sekaligus / pembayaran sekaligus (lump sum)",
-          "image": "/images/textbook/ch60/v2_8_일시금.jpg"
+          "image": null
         },
         {
           "korean": "임금체불보증보험",
           "indonesian": "asuransi jaminan penunggakan upah",
-          "image": "/images/textbook/ch60/v2_9_임금체불보증보험.jpg"
+          "image": null
         },
         {
           "korean": "장애",
@@ -150,7 +140,7 @@
         {
           "korean": "진단서",
           "indonesian": "surat keterangan dokter",
-          "image": "/images/textbook/ch60/v2_11_진단서.jpg"
+          "image": null
         },
         {
           "korean": "질병",

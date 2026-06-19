@@ -8,12 +8,12 @@
         {
           "korean": "객실",
           "indonesian": "kamar tamu / kamar hotel",
-          "image": "/images/textbook/ch51/v1_0_객실.jpg"
+          "image": null
         },
         {
-          "korean": "꽂다",
-          "indonesian": "Menancapkan ke steker, mencabutnya",
-          "image": null
+          "korean": "플러그를 꽂다",
+          "indonesian": "memasukkan steker",
+          "image": "/images/textbook/ch51/v1_1_꽂다.jpg"
         },
         {
           "korean": "대걸레",
@@ -23,12 +23,12 @@
         {
           "korean": "대다",
           "indonesian": "Menyemprot air dgn selang",
-          "image": "/images/textbook/ch51/v1_3_대다.jpg"
+          "image": null
         },
         {
           "korean": "떼다",
           "indonesian": "Menempelkan atau mencopot kunci utama",
-          "image": "/images/textbook/ch51/v1_4_떼다.jpg"
+          "image": null
         },
         {
           "korean": "린넨실",
@@ -38,7 +38,7 @@
         {
           "korean": "린스",
           "indonesian": "kondisioner rambut",
-          "image": "/images/textbook/ch51/v1_6_린스.jpg"
+          "image": null
         },
         {
           "korean": "마른걸레",
@@ -48,7 +48,7 @@
         {
           "korean": "마스터키",
           "indonesian": "Menempelkan atau mencopot kunci utama",
-          "image": "/images/textbook/ch51/v1_8_마스터키.jpg"
+          "image": null
         },
         {
           "korean": "목욕가운",
@@ -73,7 +73,7 @@
         {
           "korean": "비품실",
           "indonesian": "Ruang perlengkapan (ruang linen)",
-          "image": null
+          "image": "/images/textbook/ch51/v1_13_비품실.jpg"
         },
         {
           "korean": "생수",
@@ -88,7 +88,7 @@
         {
           "korean": "소모품",
           "indonesian": "barang habis pakai, fasilitas",
-          "image": "/images/textbook/ch51/v1_16_소모품.jpg"
+          "image": null
         },
         {
           "korean": "수건",
@@ -108,12 +108,12 @@
         {
           "korean": "전동식",
           "indonesian": "digerakkan oleh motor / listrik",
-          "image": "/images/textbook/ch51/v1_20_전동식.jpg"
+          "image": null
         },
         {
           "korean": "전화선",
           "indonesian": "saluran telepon",
-          "image": "/images/textbook/ch51/v1_21_전화선.jpg"
+          "image": null
         },
         {
           "korean": "청소도구함",
@@ -133,17 +133,12 @@
         {
           "korean": "커튼을 치다",
           "indonesian": "Menutup tirai",
-          "image": "/images/textbook/ch51/v1_25_커튼을_치다.jpg"
-        },
-        {
-          "korean": "플러그",
-          "indonesian": "steker",
           "image": null
         },
         {
           "korean": "하우스키핑 카트",
           "indonesian": "kereta pembersih kamar (housekeeping cart)",
-          "image": "/images/textbook/ch51/v1_27_하우스키핑_카트.jpg"
+          "image": null
         }
       ],
       "main_image": null
@@ -160,7 +155,7 @@
         {
           "korean": "객실 용품",
           "indonesian": "fasilitas/perlengkapan kamar tamu",
-          "image": "/images/textbook/ch51/v2_1_객실_용품.jpg"
+          "image": null
         },
         {
           "korean": "리모컨",
@@ -190,7 +185,7 @@
         {
           "korean": "얼룩",
           "indonesian": "noda, kotoran",
-          "image": null
+          "image": "/images/textbook/ch51/v2_7_얼룩.jpg"
         },
         {
           "korean": "옷걸이",
@@ -215,7 +210,7 @@
         {
           "korean": "침대보",
           "indonesian": "Sprei",
-          "image": null
+          "image": "/images/textbook/ch51/v2_12_침대보.jpg"
         },
         {
           "korean": "헤어드라이어",
@@ -225,7 +220,7 @@
         {
           "korean": "화장대",
           "indonesian": "meja rias",
-          "image": null
+          "image": "/images/textbook/ch51/v2_14_화장대.jpg"
         }
       ],
       "main_image": null
